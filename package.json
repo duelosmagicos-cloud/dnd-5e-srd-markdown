@@ -1,0 +1,29 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) [![D&D 5e 2024](https://img.shields.io/badge/D%26D%205e-2024%20(5.2.1)-red.svg)](https://www.dndbeyond.com/) [![Format](https://img.shields.io/badge/format-markdown-blue.svg)](https://commonmark.org/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duelosmagicos-cloud/dnd-5e-srd-markdown.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/duelosmagicos-cloud/dnd-5e-srd-markdown/issues"
+  },
+  "homepage": "https://github.com/duelosmagicos-cloud/dnd-5e-srd-markdown#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "fs-extra": "^11.3.6",
+    "marked": "^18.0.5",
+    "marked-plaintext": "^0.0.2",
+    "sqlite3": "^6.0.1",
+    "term-size": "^3.0.2"
+  }
+}
