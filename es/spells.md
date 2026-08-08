@@ -1,4 +1,4 @@
-﻿# Conjuros
+# Conjuros
 
 ## Gaining Spells
 
@@ -1773,20 +1773,20 @@ You teleport to a location within range. You arrive at exactly the spot desired.
 You can also teleport one willing creature. The creature must be within 5 pies of you when you teleport, and it teleports to a space within 5 pies of your destination space.
 If you, the other creature, or both would arrive in a space occupied by a creature or completely filled by one or more objects, you and any creature traveling with you each take 4d6 Force damage, and the teleportation fails.
 
-#### Disguise Sí mismo
+#### Disfrazarse
 
-_Level 1 Illusion (Bard, Sorcerer, Wizard)_
+_Ilusión de Nivel 1 (Bardo, Hechicero, Mago)_
 
 **Tiempo de Lanzamiento:** Acción
-**Alcance:** Sí mismo
+**Alcance:** Personal
 **Componentes:** V, S
-**Duración:** 1 hour
+**Duración:** 1 hora
 
-You make yourself—including your clothing, armor, weapons, and other belongings on your person—look different until the spell ends. You can seem 1 foot shorter or taller and can appear heavier or lighter. You must adopt a form that has the same basic arrangement of limbs as you have. Otherwise, the extent of the illusion is hasta you.
+Haces que tu aspecto —incluidos tu ropa, armadura, armas y otras pertenencias que lleves encima— parezca diferente hasta que el conjuro termine. Puedes parecer 30 cm (1 pie) más bajo o más alto, y parecer más pesado o más ligero. Debes adoptar una forma que tenga la misma distribución básica de extremidades que tienes tú. Por lo demás, la extensión de la ilusión depende de ti.
 
-The changes wrought by this spell fail to hold hasta physical inspection. Por ejemplo, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing.
+Los cambios provocados por este conjuro no resisten una inspección física. Por ejemplo, si usas este conjuro para añadir un sombrero a tu vestimenta, los objetos atravesarán el sombrero y cualquiera que lo toque no sentirá nada.
 
-To discern that you are disguised, a creature must take the Study action to inspect your appearance and succeed on an Intelligence (Investigation) check against your spell save DC.
+Para discernir que estás disfrazado, una criatura debe realizar la acción de Estudiar para inspeccionar tu apariencia y superar una prueba de Inteligencia (Investigación) contra la CD de salvación de tus conjuros.
 
 #### Disintegrate
 
