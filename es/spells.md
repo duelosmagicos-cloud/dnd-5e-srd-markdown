@@ -250,6 +250,18 @@ Este conjuro te pone en contacto con un dios o sus
 
 sirvientes. Puedes hacer una pregunta sobre un objetivo,
 
+un suceso o una actividad específicos que ocurrirán en los
+
+próximos 7 días. Tu DM te dará una respuesta verdadera,
+
+que puede ser una frase corta o una rima críptica. El conjuro
+
+no tiene en cuenta ninguna circunstancia que pueda alterar
+
+la respuesta, como por ejemplo el lanzamiento de otros
+
+conjuros.
+
 Si lanzas el conjuro más de una vez antes de finalizar
 
 un descanso largo, hay una posibilidad acumulativa del
@@ -338,12 +350,6 @@ armas reducidas o sin armas causan 1d4 menos de daño
 
 al acertar (esto no puede reducir el daño a menos de 1).
 
-un suceso o una actividad específicos que ocurrirán en los
-
-próximos 7 días. Tu DM te dará una respuesta verdadera,
-
-reducirse a la mitad o incluso no ser necesario. Las tareas
-
 ---
 
 #### Alarma
@@ -357,45 +363,17 @@ Preparas una alarma contra los intrusos. Elige una puerta,
 
 una ventana o una zona dentro del alcance que no sea
 
-que no implican peligro suelen exigir solo la mitad del pago
-
-sugerido, mientras que las que son especialmente peligrosas
-
-podrían requerir una donación aún mayor. Raramente una
-
-criatura aceptará una tarea que parezca suicida.
-
-Una vez que la criatura complete su tarea o cuando
-
-finalice el tiempo de servicio acordado, volverá a su plano
-
-natal tras informarte de ello si es posible. Si no eres capaz
-
-de llegar a un acuerdo sobre el precio del servicio de la
-
-criatura, esta regresará a su plano natal de inmediato.
-
 mayor que un cubo de 6 m de lado. Hasta que el conjuro
 
 termine, una alarma te alertará siempre que una criatura
 
-toque la zona vigilada o entre en ella. Al lanzar el conjuro,
-
-ALIENTO DE DRAGÓN
-
-Alarma mental. La alarma te avisará con un sonido
-
-Tiempo de lanzamiento: Acción adicional
-
-Alcance: Toque
-
-Componentes: V, S, M (una guindilla)
-
-Duración: Concentración, hasta 1 minuto
+toque la zona vigilada o entre en ella. Al lanzar el conjuro
 
 puedes designar qué criaturas no activarán la alarma, que
 
 puede ser mental o sonora:
+
+Alarma mental. La alarma te avisará con un sonido
 
 dentro de tu mente si estás a 1,5 km o menos de la zona
 
@@ -411,42 +389,14 @@ a 18 m o menos de la zona vigilada.
 
 #### Aliado Planar
 *Conjuración de nivel 6 (clérigo)*
-
-Transmutación de nivel 2 (hechicero, mago)
-
-Tocas a una criatura voluntaria y eliges ácido, frío, fuego,
-
-relámpago o veneno. Hasta que el conjuro termine,
-
-el objetivo puede usar una acción de magia para exhalar
-
-en un cono de 4,5 m. Todas las criaturas situadas en la
-
-zona hacen una tirada de salvación de Destreza; sufrirán
-
-3d6 de daño del tipo elegido si la fallan o la mitad del daño
-
-si la superan.
-
-Tiempo de lanzamiento: 10 minutos
-
-Alcance: 18 m
-
-Con un espacio de conjuro de nivel superior. El daño
-
-aumenta en 1d6 por cada nivel por encima de 2 que tenga
-
-Componentes: V, S
-
-Duración: Instantáneo
-
-el espacio.
+- **Tiempo de lanzamiento:** 10 minutos
+- **Alcance:** 18 m
+- **Componentes:** V, S
+- **Duración:** Instantáneo
 
 Suplicas la ayuda de una entidad de otro mundo, la cual
 
 debe resultarte conocida: un dios, un príncipe demonio
-
-ALTERAR EL PROPIO ASPECTO
 
 u otro ser con poder cósmico. Esa entidad enviará a un
 
@@ -502,19 +452,70 @@ que se mida en días (hasta 10 días) requiere 10 000 po
 
 por día. Tu DM puede adaptar los pagos en función de las
 
-circunstancias en las que lances el conjuro. Si la tarea está
+circunstancias en las que lances el conjuro. Si la tarea est
 
 en sintonía con los valores de la criatura, el pago podría
 
+reducirse a la mitad o incluso no ser necesario. Las tareas
+
+que no implican peligro suelen exigir solo la mitad del pago
+
+sugerido, mientras que las que son especialmente peligrosas
+
+podrían requerir una donación aún mayor. Raramente una
+
+criatura aceptará una tarea que parezca suicida.
+
+Una vez que la criatura complete su tarea o cuando
+
+finalice el tiempo de servicio acordado, volverá a su plano
+
+natal tras informarte de ello si es posible. Si no eres capaz
+
+de llegar a un acuerdo sobre el precio del servicio de la
+
+criatura, esta regresará a su plano natal de inmediato.
+
+,   ALIENTO DE DRAGÓN
+
 Transmutación de nivel 2 (hechicero, mago)
 
-Tiempo de lanzamiento: Acción
+Tiempo de lanzamiento: Acción adicional
 
-Alcance: Lanzador
+Alcance: Toque
 
-Componentes: V, S
+Componentes: V, S, M (una guindilla)
 
-Duración: Concentración, hasta 1 hora
+Duración: Concentración, hasta 1 minuto
+
+Tocas a una criatura voluntaria y eliges ácido, frío, fuego,
+
+relámpago o veneno. Hasta que el conjuro termine,
+
+el objetivo puede usar una acción de magia para exhalar
+
+en un cono de 4,5 m. Todas las criaturas situadas en la
+
+zona hacen una tirada de salvación de Destreza; sufrirán
+
+3d6 de daño del tipo elegido si la fallan o la mitad del daño
+
+si la superan.
+
+Con un espacio de conjuro de nivel superior. El daño
+
+aumenta en 1d6 por cada nivel por encima de 2 que tenga
+
+el espacio.
+
+---
+
+#### Alterar el Propio Aspecto
+*Transmutación de nivel 2 (hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Lanzador
+- **Componentes:** V, S
+- **Duración:** Concentración, hasta 1 hora
 
 Modificas tu forma física. Elige una de las siguientes
 
@@ -560,7 +561,7 @@ distinto y conservarás tu forma básica: si eres una criatura
 
 bípeda, no podrás usar este conjuro para ser un cuadrúpedo,
 
-por ejemplo. Hasta que termine el conjuro, puedes usar una
+á   por ejemplo. Hasta que termine el conjuro, puedes usar una
 
 acción de magia para volver a cambiar tu aspecto.
 
@@ -570,17 +571,11 @@ Un CLÉRIGO HUMANO LANZA ALZAR A LOS
 
 MUERTOS PARA DEVOLVER A UN CAMARADA
 
-CAÍDO ALA VIDA.
-
-AS
-
-cas
-
-criatura no se verá afectada. De lo contrario, los recuerdos
+CAÍDO ALA VIDA.                       cas
 
 ---
 
-#### Alterar los Recuerdos
+#### As Alterar los Recuerdos
 *Encantamiento de nivel 5 (bardo, mago)*
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** 9 m
@@ -593,11 +588,11 @@ criatura que puedas ver dentro del alcance realiza una
 
 tirada de salvación de Sabiduría. Si estás luchando contra
 
-ella, tendrá ventaja en la tirada. Si la falla, tendrá el estado
+ella, tendrá ventaja en la tirada. Si la falla, tendrá el es
 
 de hechizada hasta que termine el conjuro. Mientras esté
 
-hechizado de esta manera, el objetivo también tiene el estado
+hechizado de esta manera, el objetivo también tiene el estad
 
 de incapacitado y no es consciente de su entorno, aunque
 
@@ -633,6 +628,8 @@ de tu descripción. Si el conjuro termina antes de que acabes
 
 de describir los recuerdos modificados, la memoria de la
 
+criatura no se verá afectada. De lo contrario, los recuerdos
+
 modificados ocuparán el lugar de los reales en cuanto
 
 el conjuro termine.
@@ -653,11 +650,13 @@ un recuerdo modificado es demasiado ilógico como para
 
 afectar a una criatura.
 
+tado
+
 Un conjuro levantar maldición o restablecimiento mayor
 
 lanzado sobre el objetivo restaurará los recuerdos
 
-auténticos de la criatura.
+o      auténticos de la criatura.
 
 Con un espacio de conjuro de nivel superior. Puedes
 
@@ -687,19 +686,11 @@ de 10 días muerta y que no fuera un muerto viviente
 
 cuando falleció.
 
-|
-
-|
-
 La criatura vuelve a la vida con 1 punto de golpe.
 
-pasadizo. Si no das ninguna orden, la criatura hace la acción
+El conjuro también neutraliza cualquier veneno que
 
 afectase a la criatura en el momento de su muerte.
-
-se le dé una orden, la criatura la cumplirá hasta completar
-
-El conjuro también neutraliza cualquier veneno que
 
 Este conjuro cierra todas las heridas mortales, pero no
 
@@ -719,47 +710,14 @@ pruebas con d20. Cada vez que finalice un descanso largo,
 
 el penalizador se reduce en 1 hasta desaparecer.
 
-AMISTAD
+---
 
-de esquivar y solo se mueve para evitar peligros. En cuanto
-
-su tarea.
-
-La criatura estará bajo tu control durante 24 horas, tras
-
-las cuales dejará de obedecer cualquier orden que le hayas
-
-dado. Para mantener el control sobre ella otras 24 horas,
-
-deberás volver a lanzarle este conjuro antes de que acabe
-
-el periodo actual de 24 horas. Este uso del conjuro refuerza
-
-tu control sobre hasta cuatro criaturas que hayas animado
-
-con él y no anima una nueva criatura.
-
-Con un espacio de conjuro de nivel superior. Animas
-
-o refuerzas el control sobre dos criaturas muertas vivientes
-
-adicionales por cada nivel de conjuro por encima de 3 que
-
-tenga el espacio. Cada una de las criaturas debe proceder
-
-Truco de encantamiento (bardo, brujo, hechicero, mago)
-
-de un cadáver o un montón de huesos distinto.
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 3 m
-
-Componentes: S, M (un poco de maquillaje)
-
-Duración: Concentración, hasta 1 minuto
-
-ANIMAR OBJETOS
+#### Amistad
+*Truco de encantamiento (bardo, brujo, hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 3 m
+- **Componentes:** S, M (un poco de maquillaje)
+- **Duración:** Concentración, hasta 1 minuto
 
 Emanas mágicamente un sentimiento de amistad hacia
 
@@ -773,41 +731,15 @@ conjuro. El objetivo la superará automáticamente si no
 
 es un humanoide, si estás luchando contra él o si le has
 
-Transmutación de nivel 5 (bardo, hechicero, mago)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 36 m
-
-Componentes: V, S
-
-Duración: Concentración, hasta 1 minuto
-
-Tus órdenes hacen que los objetos cobren vida. Elige una
-
-cantidad de objetos no mágicos dentro del alcance que no
-
 lanzado este conjuro en las últimas 24 horas.
 
-vista ni lleve nadie, que no estén fijos en una superficie y que
+El conjuro termina antes de tiempo si el objetivo recibe
 
 daño o si haces una tirada de ataque, causas daño u obligas
 
 a cualquier criatura a hacer una tirada de salvación. Cuando
 
-igual a tu modificador por aptitud mágica. A estos efectos,
-
-El conjuro termina antes de tiempo si el objetivo recibe
-
 el conjuro termine, el objetivo sabrá que lo hechizaste.
-
-no sean Gargantuescos. La cantidad máxima de objetos es
-
-un objetivo Mediano o más pequeño cuenta como un objeto,
-
-un objetivo Grande cuenta como dos y un objetivo Enorme
-
-cuenta como tres.
 
 ---
 
@@ -846,6 +778,63 @@ orden a cada una). Tú decides qué acción llevará a cabo la
 criatura y adónde se moverá en su siguiente turno, o puedes
 
 dar una orden general, como proteger una cámara o un
+
+pasadizo. Si no das ninguna orden, la criatura hace la acción
+
+de esquivar y solo se mueve para evitar peligros. En cuanto
+
+se le dé una orden, la criatura la cumplirá hasta completar
+
+su tarea.
+
+La criatura estará bajo tu control durante 24 horas, tras
+
+las cuales dejará de obedecer cualquier orden que le hayas
+
+dado. Para mantener el control sobre ella otras 24 horas,
+
+deberás volver a lanzarle este conjuro antes de que acabe
+
+el periodo actual de 24 horas. Este uso del conjuro refuerza
+
+tu control sobre hasta cuatro criaturas que hayas animado
+
+con él y no anima una nueva criatura.
+
+Con un espacio de conjuro de nivel superior. Animas
+
+o refuerzas el control sobre dos criaturas muertas vivientes
+
+adicionales por cada nivel de conjuro por encima de 3 que
+
+tenga el espacio. Cada una de las criaturas debe proceder
+
+de un cadáver o un montón de huesos distinto.
+
+---
+
+#### Animar Objetos
+*Transmutación de nivel 5 (bardo, hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 36 m
+- **Componentes:** V, S
+- **Duración:** Concentración, hasta 1 minuto
+
+Tus órdenes hacen que los objetos cobren vida. Elige una
+
+cantidad de objetos no mágicos dentro del alcance que no
+
+vista ni lleve nadie, que no estén fijos en una superficie y que
+
+no sean Gargantuescos. La cantidad máxima de objetos es
+
+igual a tu modificador por aptitud mágica. A estos efectos,
+
+un objetivo Mediano o más pequeño cuenta como un objeto,
+
+un objetivo Grande cuenta como dos y un objetivo Enorme
+
+cuenta como tres.
 
 Cada objetivo se animará, le crecerán patas, se convertirá
 
@@ -889,32 +878,50 @@ pequeña), 1d6 (Grande) o 1412 (Enorme) por cada nivel
 
 por encima de 5 que tenga el espacio.
 
----
-
-#### Antipatía/Simpatía
-*Encantamiento de nivel 8 (bardo, druida, mago)*
-- **Tiempo de lanzamiento:** 1 hora
-- **Alcance:** 18 m
-- **Componentes:** V, S, M (una mezcla de vinagre y miel)
-- **Duración:** 10 días
-
 li BRASERO AFECTADO POR
 
 EL CONJURO ANIMAR OBJETOS
 
-|
+o
 
-Mientras lanzas el conjuro, elige si crea antipatía o simpatía
+Autómata Enorme o más pequeño, sin alineamiento
 
-y haz objetivo a una criatura u objeto de tamaño Enorme
+Velocidad: 9 m
 
-|
+Inmunidades: psíquico, veneno; asustado, cansancio,
 
-|
+envenenado, hechizado, paralizado
 
-|
+Sentidos: visión ciega 9 m, Percepción pasiva 6
 
-|
+Idiomas: entiende los idiomas que conozcas
+
+ACCIONES
+
+| Golpe. Tirada de ataque cuerpo a cuerpo: bonificador i
+
+| atu modificador de ataque de conjuros, alcance 1,5 m.
+
+| Acierto: daño de fuerza igual a 1d4 + 3 (Mediano o más
+
+| pequeño), 2d6 + 3 + tu modificador por aptitud mágica
+
+l (Grande) o 2d12 + 3 + tu modificador por aptitud
+
+| mágica (Enorme).
+
+---
+
+#### Antipatía/Simpatía
+*Encantamiento de nivel 8 (bardo, druida, mago)*
+- **Tiempo de lanzamiento:** 1 hora                                                  |
+- **Alcance:** 18 m                                                          |
+- **Componentes:** V, S, M (una mezcla de vinagre y miel)                        |
+- **Duración:** 10 días
+
+Mientras lanzas el conjuro, elige si crea antipatía o simpatía             |
+
+y haz objetivo a una criatura u objeto de tamaño Enorme                    |
 
 o más pequeño. A continuación, selecciona un tipo de
 
@@ -954,216 +961,77 @@ Poner fin al efecto. Si la criatura asustada o hechizada
 
 termina su turno a más de 36 m del objetivo, deberá
 
-o
+hacer una tirada de salvación de Sabiduría. Si la supera,
 
-)]
+dejará de verse afectada por el objetivo. Las criaturas que
 
-Autómata Enorme o más pequeño, sin alineamiento
+)]           superen la tirada de salvación contra este efecto serán
 
-afectadas otra vez.
+inmunes a él durante 1 minuto y después podrán verse
 
-|
+|       afectadas otra vez.
 
-|
-
-l
-
-| CA: 15
-
-| PG: 10 (Mediano o más pequeño), 20 (Grande), 40 (Enorme)
-
-Velocidad: 9 m
-
-MOD. SAL.
-
-MOD. SALV.
+e)
 
 ---
 
 #### Apariencia
 *Ilusionismo de nivel 5 (bardo, hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 9 m
+- **Componentes:** V, S
+- **Duración:** 8 horas
 
-MOD. SALV.
+Le das una apariencia ilusoria a cada criatura de tu elección que puedas ver dentro del alcance. Un objetivo no voluntario puede hacer una tirada de salvación de Carisma y, si la supera, el conjuro no le afectará.
 
-Fue 16 +3
+Puedes dar la misma apariencia o una distinta a cada objetivo, así como cambiar el aspecto de sus cuerpos y equipo. Puedes hacer que cada criatura parezca 30 cm más alta o más baja y de complexión más pesada o ligera. Un nuevo aspecto debe tener la misma configuración básica de miembros que el objetivo, aunque en el resto de aspectos, la ilusión queda a tu elección y permanecerá hasta que el conjuro termine.
 
-+3
+Los cambios realizados por este conjuro pueden descubrirse mediante una inspección física. Por ejemplo, si usas este conjuro para añadir un sombrero a la vestimenta de una criatura, los objetos atravesarán el sombrero. Si una criatura emplea la acción de estudiar para examinar a un objetivo, podrá hacer una prueba de Inteligencia (Investigación) contra tu CD de salvación de conjuros. Si la supera, sabrá que el objetivo está disfrazado.
+#### Arma Elemental
+*Transmutación de nivel 3 (druida, explorador, paladín)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Toque
+- **Componentes:** V, S
+- **Duración:** Concentración, hasta 1 hora
 
-Des10+0
+Un arma no mágica que toques se convierte en mágica.
 
-+0
+Elige uno de los siguientes tipos de daño: ácido, frío
 
-CoNnl0 +0
+relámpago o trueno. Mientras dure el conjuro, el arma
 
-+0
+tiene un bonificador de +1 a las tiradas de ataque y c
 
-INT 3 -=4
+1d4 de daño adicional del tipo elegido cuando acierte.
 
--4
+Con un espacio de conjuro de nivel superior. Si usas
 
-Sab 3 -4
+espacio de conjuro de niveles 5 o 6, el bonificador a
 
--4
+tiradas de ataque aumenta en +2 y el daño adicional
 
-Car
+aumenta a 2d4. Si usas un espacio de conjuro de nivel
 
--5
+o superior, el bonificador aumenta a +3 y el daño adic
 
-1-5
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 9 m
-
-Componentes: V, S
-
-Duración: 8 horas
-
-Inmunidades: psíquico, veneno; asustado, cansancio,
-
-envenenado, hechizado, paralizado
-
-Sentidos: visión ciega 9 m, Percepción pasiva 6
-
-I
-
-ACCIONES
-
-Il
-
-|
-
-objetivo, así como cambiar el aspecto de sus cuerpos y
-
-l|
-
-l
-
-|
-
-l
-
-|
-
-)
-
-Le das una apariencia ilusoria a cada criatura de tu
-
-elección que puedas ver dentro del alcance. Un objetivo
-
-no voluntario puede hacer una tirada de salvación de
-
-Carisma y, si la supera, el conjuro no le afectará.
-
-Idiomas: entiende los idiomas que conozcas
-
-|
-
-VD: ninguno (0 PX; BC igual a tu bonificador por competencia) l l
-
-| Golpe. Tirada de ataque cuerpo a cuerpo: bonificador igual
-
-| atu modificador de ataque de conjuros, alcance 1,5 m.
-
-| Acierto: daño de fuerza igual a 1d4 + 3 (Mediano o más
-
-| pequeño), 2d6 + 3 + tu modificador por aptitud mágica
-
-l (Grande) o 2d12 + 3 + tu modificador por aptitud
-
-| mágica (Enorme).
-
-hacer una tirada de salvación de Sabiduría. Si la supera,
-
-dejará de verse afectada por el objetivo. Las criaturas que
-
-superen la tirada de salvación contra este efecto serán
-
-inmunes a él durante 1 minuto y después podrán verse
-
-Puedes dar la misma apariencia o una distinta a cada
-
-|
-
-equipo. Puedes hacer que cada criatura parezca 30 cm
-
-más alta o más baja y de complexión más pesada o ligera.
-
-Un nuevo aspecto debe tener la misma configuración básica
-
-de miembros que el objetivo, aunque en el resto de aspectos,
-
-la ilusión queda a tu elección y permanecerá hasta que el
-
-conjuro termine.
-
-Los cambios realizados por este conjuro pueden
-
-descubrirse mediante una inspección física. Por ejemplo,
-
-si usas este conjuro para añadir un sombrero a la vestimenta
-
-de una criatura, los objetos atravesarán el sombrero.
+aumenta a 3d4.
 
 ESPIRITUAL EN UN COMBATE CONTRA UNA
 
 MOLE SOMBRÍA
 
-Si una criatura emplea la acción de estudiar para examinar
+aminar
 
-a un objetivo, podrá hacer una prueba de Inteligencia
+---
 
-(Investigación) contra tu CD de salvación de conjuros.
-
-Si la supera, sabrá que el objetivo está disfrazado.
-
-Evocación de nivel 2 (clérigo)
-
-Tiempo de lanzamiento: Acción adicional
-
-Alcance: 18 m
-
-ARMA ELEMENTAL
-
-Componentes: V, S
-
-Duración: Concentración, hasta 1 minuto
-
-Tiempo de lanzamiento: Acción
-
-Alcance: Toque
+#### Arma Espiritual
+*Evocación de nivel 2 (clérigo)*
+- **Tiempo de lanzamiento:** Acción adicional
+- **Alcance:** 18 m
+- **Componentes:** V, S
+- **Duración:** Concentración, hasta 1 minuto
 
 Creas una fuerza espectral flotante con el aspecto de un
-
-Transmutación de nivel 3 (druida, explorador, paladín)
-
-Componentes: V, S
-
-Duración: Concentración, hasta 1 hora
-
-Un arma no mágica que toques se convierte en mágica.
-
-Elige uno de los siguientes tipos de daño: ácido, frío, fuego,
-
-relámpago o trueno. Mientras dure el conjuro, el arma
-
-tiene un bonificador de +1 a las tiradas de ataque y causa
-
-1d4 de daño adicional del tipo elegido cuando acierte.
-
-Con un espacio de conjuro de nivel superior. Si usas un
-
-espacio de conjuro de niveles 5 o 6, el bonificador a las
-
-tiradas de ataque aumenta en +2 y el daño adicional
-
-aumenta a 2d4. Si usas un espacio de conjuro de nivel 7
-
-o superior, el bonificador aumenta a +3 y el daño adicional
-
-aumenta a 3d4.
-
-ARMA ESPIRITUAL
 
 arma de tu elección que permanece hasta que termine
 
@@ -1175,34 +1043,34 @@ ataque de conjuro cuerpo a cuerpo contra una criatura
 
 que esté a 1,5 m o menos de ella. Si acierta, el objetivo
 
-recibe una cantidad de daño de fuerza igual a 148 más
+, fuego,   recibe una cantidad de daño de fuerza igual a 148 más
 
 tu modificador por aptitud mágica.
 
-Como acción adicional en tus siguientes turnos, puedes
+ausa          Como acción adicional en tus siguientes turnos, puedes
 
 mover la fuerza hasta 6 m y repetir el ataque contra una
 
-criatura que esté a 1,5 m o menos de ella.
+un        criatura que esté a 1,5 m o menos de ella.
 
-Con un espacio de conjuro de nivel superior. El daño
+las           Con un espacio de conjuro de nivel superior. El daño
 
 aumenta en 1d8 por cada nivel por encima de 2 que tenga
 
-el espacio.
+7          el espacio.
 
-Un BRUJO GOLIAT LANTA ARMADURA DE
+ional
 
-AGATHYS Y BRAZOS DE HADAR PARA LUCHAR
+Un BRUJO GOLIAT LANTA ARMADU
 
-CONTRA ENEMIG:
+AGATHYS Y BRAZOS DE HADAR PA
 
-E LAS PROFUNDIDADES.
+CONTRA ENEMIG:   E LAS PROFU
 
 ---
 
 #### Arma Mágica
-*Transmutación de nivel 2 (explorador, hechicero, mago, paladín)*
+*Transmutación de nivel 2 (explorador, hechicero, mago, palad*
 - **Tiempo de lanzamiento:** Acción adicional
 - **Alcance:** Toque
 - **Componentes:** V, S
@@ -1210,11 +1078,42 @@ E LAS PROFUNDIDADES.
 
 Tocas un arma no mágica. Hasta que el conjuro
 
+termine, esa arma se convierte en un arma mágica con
+
+un bonificador de +1 a las tiradas de ataque y de daño.
+
+El conjuro termina antes si lo vuelves a lanzar.
+
+Con un espacio de conjuro de nivel superior. El bonificado
+
+aumenta a +2 si utilizas un espacio de niveles 3 a 5.
+
+El bonificador aumenta a +3 si utilizas un espacio de nivel
+
+o superior.
+
+---
+
+#### Armadura de Agathys
+*Abjuración de nivel 1 (brujo)*
+- **Tiempo de lanzamiento:** Acción adicional
+- **Alcance:** Lanzador
+- **Componentes:** V, S, M (un trozo de vidrio azul)
+- **Duración:** 1 hora
+
+RA DE
+
+RA LUCHAR
+
+NDIDADES.
+
 Una escarcha mágica protectora te rodea y ganas 5 puntos
 
 de golpe temporales. Si una criatura te acierta con una
 
 tirada de ataque cuerpo a cuerpo antes de que el conjuro
+
+ín)
 
 termine, dicha criatura sufre 5 de daño de frío. El conjuro
 
@@ -1228,38 +1127,17 @@ de golpe temporales y el daño de frío aumentan en 5 por
 
 cada nivel por encima de 1 que tenga el espacio.
 
-termine, esa arma se convierte en un arma mágica con
-
-un bonificador de +1 a las tiradas de ataque y de daño.
-
-El conjuro termina antes si lo vuelves a lanzar.
-
 ARMADURA DE MAGO
 
-aumenta a +2 si utilizas un espacio de niveles 3 a 5.
+r           Abjuración de nivel1 (hechicero, mago)
 
 Tiempo de lanzamiento: Acción
 
-Alcance: Toque
+6           Alcance: Toque
 
 Componentes: V, S, M (un trozo de piel curtida)
 
 Duración: 8 horas
-
-Con un espacio de conjuro de nivel superior. El bonificador
-
-El bonificador aumenta a +3 si utilizas un espacio de nivel 6
-
-o superior.
-
----
-
-#### Armadura de Agathys
-*Abjuración de nivel 1 (brujo)*
-- **Tiempo de lanzamiento:** Acción adicional
-- **Alcance:** Lanzador
-
-Abjuración de nivel1 (hechicero, mago)
 
 Tocas a una criatura voluntaria que no lleve armadura.
 
@@ -1269,29 +1147,14 @@ a ser de 13 más su modificador por Destreza. El conjuro
 
 termina antes si el objetivo se pone una armadura.
 
-Componentes: V, S, M (un trozo de vidrio azul)
+---
 
-Duración: 1 hora
-
-ASESINO FANTASMAL
-
-ATADURA PLANAR
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 36 m
-
-Tiempo de lanzamiento: 1 hora
-
-Alcance: 18 m
-
-Componentes: V, S, M (una joya que valga al menos
-
-Ilusionismo de nivel 4 (bardo, mago)
-
-Componentes: V, S
-
-Duración: Concentración, hasta 1 minuto
+#### Asesino Fantasmal
+*Ilusionismo de nivel 4 (bardo, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 36 m
+- **Componentes:** V, S
+- **Duración:** Concentración, hasta 1 minuto
 
 Accedes a las pesadillas de una criatura a la que puedas
 
@@ -1313,7 +1176,7 @@ Además, hasta que termine el conjuro, el objetivo hará
 
 una tirada de salvación de Sabiduría al final de cada uno
 
-de sus turnos. Si la falla, volverá a sufrir el daño psíquico.
+de sus turnos. Si la falla, volverá a sufrir el daño psíquic
 
 Si la supera, el conjuro terminará.
 
@@ -1368,7 +1231,21 @@ El objetivo obtiene una cantidad de puntos de golpe
 
 temporales igual a los puntos de golpe de la primera
 
-Abjuración de nivel 5 (bardo, brujo, clérigo, druida, mago)
+forma que adopte. Estos puntos de golpe temporales se
+
+desvanecerán si conserva alguno cuando el conjuro termine.
+
+La transformación dura hasta que el conjuro termine
+
+O hasta que el objetivo le ponga fin como acción adicional.
+
+---
+
+#### Atadura Planar
+*Abjuración de nivel 5 (bardo, brujo, clérigo, druida, mago)*
+- **Tiempo de lanzamiento:** 1 hora
+- **Alcance:** 18 m
+- **Componentes:** V, S, M (una joya que valga al menos
 
 1000 po y que se consume como parte del conjuro)
 
@@ -1392,7 +1269,7 @@ salvación de Carisma o se verá obligado a servirte hasta
 
 que termine el conjuro. Si la criatura se ha invocado
 
-o creado mediante otro conjuro, la duración de dicho
+o.   o creado mediante otro conjuro, la duración de dicho
 
 conjuro se amplía hasta ser igual que la de este.
 
@@ -1444,33 +1321,15 @@ el presagio de la siguiente tabla.
 
 PRESAGIOS
 
-forma que adopte. Estos puntos de golpe temporales se
+Presagio                Para los resultados que sean...
 
-desvanecerán si conserva alguno cuando el conjuro termine.
+Fortuna                 Buenos
 
-Presagio
+Desdicha                Malos
 
-Para los resultados que sean...
+Fortuna y desdicha      Buenos y malos
 
-Fortuna
-
-Buenos
-
-O hasta que el objetivo le ponga fin como acción adicional.
-
-Desdicha
-
-Malos
-
-Fortuna y desdicha
-
-Buenos y malos
-
-Indiferencia
-
-Ni buenos ni malos
-
-La transformación dura hasta que el conjuro termine
+Indiferencia            Ni buenos ni malos
 
 El conjuro no tiene en cuenta las circunstancias que puedan
 
@@ -1483,8 +1342,6 @@ un descanso largo, hay una posibilidad acumulativa del
 25 % por cada lanzamiento después del primero de que
 
 no recibas ninguna respuesta.
-
-Enmascarar (criaturas). Elige un tipo de criatura que no
 
 ---
 
@@ -1501,7 +1358,7 @@ el conjuro termine. Mientras permanezcáis dentro, tus
 
 aliados y tú tenéis resistencia al daño de veneno y ventaja
 
-en las tiradas de salvación para evitar o poner fin a efectos
+en las tiradas de salvación para evitar o poner fin a efecto
 
 que provoquen los estados de asustado, aturdido, cegado,
 
@@ -1514,70 +1371,7 @@ ensordecido, envenenado, hechizado o paralizado.
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** Lanzador
 - **Componentes:** V
-
-sea el auténtico del objetivo. Los conjuros y otros efectos
-
-mágicos tratan al objetivo como si fuese una criatura del
-
-tipo elegido.
-
-Aura falsa (objetos). Cambias la forma en la que el objetivo
-
-se revela ante conjuros y efectos mágicos que detectan las
-
-auras mágicas, como el de detectar magia. Puedes hacer que
-
-un objeto no mágico parezca mágico, que un objeto mágico
-
-parezca no mágico o cambiar el aura de un objeto para que
-
-parezca pertenecer a una escuela mágica de tu elección.
-
----
-
-#### Aura Sagrada
-*Abjuración de nivel 8 (clérigo)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** Lanzador
-- **Componentes:** V, S, M (un relicario que valga al menos
-
-1000 po)
-
-Duración: Concentración, hasta 1 minuto
-
-Hasta que termine el conjuro, emites un aura en una
-
-1 punto de golpe.
-
-emanación de 9 m. Mientras permanezcan dentro, las
-
-criaturas de tu elección tienen ventaja en todas las tiradas
-
-de salvación y otras criaturas tienen desventaja en las
-
-tiradas de ataque contra ellas. Además, cuando un infernal
-
-o un muerto viviente acierte a una criatura afectada con
-
-una tirada de ataque cuerpo a cuerpo, el atacante deberá
-
-superar una tirada de salvación de Constitución o tendrá
-
-el estado de cegado hasta el final de su siguiente turno.
-
-AURA DE VITALIDAD
-
-AUXILIO
-
-Tiempo de lanzamiento: Acción
-
-Alcance: Lanzador
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 9 m
-
-Duración: Concentración, hasta 10 minutos
+- **Duración:** Concentración, hasta 10 minutos
 
 Un aura surge de ti en una emanación de 9 m hasta que el
 
@@ -1589,37 +1383,24 @@ reducir vuestros puntos de golpe máximos. Si un aliado con
 
 0 puntos de golpe comienza su turno en el aura, recupera
 
-Abjuración de nivel 3 (clérigo, druida, paladín)
+1 punto de golpe.
 
-Abjuración de nivel 2 (bardo, clérigo, druida, explorador, paladín)
+---
 
-Componentes: V
-
-Componentes: V, S, M (una tira de tela blanca)
-
-Duración: Concentración, hasta 1 minuto
-
-Duración: 8 horas
+#### Aura de Vitalidad
+*Abjuración de nivel 3 (clérigo, druida, paladín)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Lanzador
+- **Componentes:** V
+- **Duración:** Concentración, hasta 1 minuto
 
 Un aura surge de ti en una emanación de 9 m hasta que
-
-Elige hasta tres criaturas dentro del alcance. Los puntos
 
 el conjuro termine. Cuando creas el aura y al principio de
 
 cada uno de tus turnos mientras dure, puedes restaurar
 
 2d6 puntos de golpe a una criatura en su interior.
-
-de golpe máximos y actuales de cada objetivo aumentan
-
-en 5 hasta que termine el conjuro.
-
-Con un espacio de conjuro de nivel superior. Los puntos
-
-de golpe de cada objetivo aumentan en 5 adicionales por
-
-cada nivel por encima de 2 que tenga el espacio.
 
 ---
 
@@ -1644,6 +1425,79 @@ a diario sobre el mismo objetivo durante 30 días, la ilusión
 
 permanece hasta que sea disipada.
 
+Enmascarar (criaturas). Elige un tipo de criatura que no
+
+sea el auténtico del objetivo. Los conjuros y otros efectos
+
+mágicos tratan al objetivo como si fuese una criatura del
+
+tipo elegido.
+
+Aura falsa (objetos). Cambias la forma en la que el objetivo
+
+se revela ante conjuros y efectos mágicos que detectan las
+
+auras mágicas, como el de detectar magia. Puedes hacer que
+
+un objeto no mágico parezca mágico, que un objeto mágico
+
+parezca no mágico o cambiar el aura de un objeto para que
+
+parezca pertenecer a una escuela mágica de tu elección.
+
+s
+
+---
+
+#### Aura Sagrada
+*Abjuración de nivel 8 (clérigo)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Lanzador
+- **Componentes:** V, S, M (un relicario que valga al menos
+
+1000 po)
+
+Duración: Concentración, hasta 1 minuto
+
+Hasta que termine el conjuro, emites un aura en una
+
+emanación de 9 m. Mientras permanezcan dentro, las
+
+criaturas de tu elección tienen ventaja en todas las tiradas
+
+de salvación y otras criaturas tienen desventaja en las
+
+tiradas de ataque contra ellas. Además, cuando un infernal
+
+o un muerto viviente acierte a una criatura afectada con
+
+una tirada de ataque cuerpo a cuerpo, el atacante deberá
+
+superar una tirada de salvación de Constitución o tendrá
+
+el estado de cegado hasta el final de su siguiente turno.
+
+---
+
+#### Auxilio
+*Abjuración de nivel 2 (bardo, clérigo, druida, explorador, paladín)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 9 m
+- **Componentes:** V, S, M (una tira de tela blanca)
+- **Duración:** 8 horas
+
+Elige hasta tres criaturas dentro del alcance. Los puntos
+
+de golpe máximos y actuales de cada objetivo aumentan
+
+en 5 hasta que termine el conjuro.
+
+Con un espacio de conjuro de nivel superior. Los puntos
+
+de golpe de cada objetivo aumentan en 5 adicionales por
+
+cada nivel por encima de 2 que tenga el espacio.
+
 ---
 
 #### Baile Irresistible de Otto
@@ -1663,34 +1517,21 @@ siguiente turno y utilizará todo su movimiento para bailar
 
 en el sitio.
 
-RESOLUTIVO DEL CONJURO BOLA DE FUEGO.
+Si la falla, tendrá el estado de hechizado hasta que
 
-Si la falla, tendrá el estado de hechizado hasta que termine
-
-el conjuro. Mientras esté hechizado, el objetivo bailará de
+el conjuro. Mientras esté hechizado, el objetivo baila
 
 forma cómica, empleará todo su movimiento para bailar
 
----
+en el sitio y tendrá desventaja en las tiradas de ataq
 
-#### Bendición
-*Encantamiento de nivel 1 (clérigo, paladín)*
+salvación de Destreza, y otras criaturas tendrán venta
 
-en el sitio y tendrá desventaja en las tiradas de ataque y de
+las tiradas de ataque contra él. En cada uno de sus tu
 
-salvación de Destreza, y otras criaturas tendrán ventaja en
+el objetivo puede usar una acción para recuperar el co
 
-Tiempo de lanzamiento: Acción
-
-el objetivo puede usar una acción para recuperar el control
-
-Componentes: V, S, M (un símbolo sagrado que valga
-
-al menos 5 po)
-
-las tiradas de ataque contra él. En cada uno de sus turnos,
-
-y repetir la tirada de salvación. Si la supera, el conjuro
+y repetir la tirada de salvación. Si la supera, el con
 
 termina.
 
@@ -1699,8 +1540,55 @@ termina.
 #### Barrera de Cuchillas
 *Evocación de nivel 6 (clérigo)*
 - **Tiempo de lanzamiento:** Acción
-- **Alcance:** 9 m
-- **Duración:** Concentración, hasta 1 minuto
+- **Alcance:** 27 m
+- **Componentes:** V, S
+- **Duración:** Concentración, hasta 10 minutos
+
+Creas un muro de cuchillas giratorias hechas de energí
+
+mágica, que aparecerá dentro del alcance y durará hast
+
+que termine el conjuro. Creas un muro recto de hasta
+
+30 m de longitud, 6 m de altura y 1,5 m de grosor o un
+
+muro circular de hasta 18 m de diámetro, 6 m de altura
+
+y 1,5 m de grosor. El muro proporciona cobertura tres
+
+cuartos y su espacio es terreno difícil.
+
+Cualquier criatura situada en el espacio del muro de
+
+hacer una tirada de salvación de Destreza; sufrirá 6d1
+
+daño de fuerza si la falla o la mitad del daño si la s
+
+Una criatura también deberá hacer la tirada si entra e
+
+espacio del muro o termina su turno en él. Cada criatu
+
+solo hace esta tirada una vez por turno.
+
+RESOLUTIVO DEL CONJURO BOLA DE FUEGO.
+
+termine
+
+rá de      BENDICIÓN
+
+Encantamiento de nivel 1 (clérigo, paladín)
+
+ue y de
+
+ja en      Tiempo de lanzamiento: Acción
+
+rnos,      Alcance: 9 m
+
+ntrol      Componentes: V, S, M (un símbolo sagrado que valga
+
+juro         al menos 5 po)
+
+Duración: Concentración, hasta 1 minuto
 
 Bendices hasta tres criaturas dentro del alcance. Siempre
 
@@ -1714,39 +1602,11 @@ Con un espacio de conjuro de nivel superior. Puedes hacer
 
 objetivo a una criatura adicional por cada nivel por encima
 
-Componentes: V, S
-
 de 1 que tenga el espacio.
 
-Creas un muro de cuchillas giratorias hechas de energía
+a          BOCA MÁGICA
 
-BOCA MÁGICA
-
-Duración: Concentración, hasta 10 minutos
-
-mágica, que aparecerá dentro del alcance y durará hasta
-
-que termine el conjuro. Creas un muro recto de hasta
-
-30 m de longitud, 6 m de altura y 1,5 m de grosor o un
-
-muro circular de hasta 18 m de diámetro, 6 m de altura
-
-y 1,5 m de grosor. El muro proporciona cobertura tres
-
-cuartos y su espacio es terreno difícil.
-
-Cualquier criatura situada en el espacio del muro deberá
-
-hacer una tirada de salvación de Destreza; sufrirá 6d10 de
-
-daño de fuerza si la falla o la mitad del daño si la supera.
-
-Una criatura también deberá hacer la tirada si entra en el
-
-espacio del muro o termina su turno en él. Cada criatura
-
-solo hace esta tirada una vez por turno.
+a
 
 Ilusionismo de nivel 2 (bardo, mago)
 
@@ -1758,7 +1618,15 @@ Componentes: V, S, M (polvo de jade que valga al menos
 
 10 po, que se consume como parte del conjuro)
 
-Duración: Hasta que sea disipado
+berá       Duración: Hasta que sea disipado
+
+0 de
+
+upera.
+
+n el
+
+ra
 
 Implantas un mensaje en un objeto dentro del alcance que
 
@@ -1808,6 +1676,64 @@ cualquier criatura se acerque a 9 m o menos del objeto
 
 o cuando una campana de plata suene a 9 m o menos de él.
 
+---
+
+#### Bola de Fuego
+*Evocación de nivel 3 (hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 45 m
+- **Componentes:** V, S, M (una pelota de guano de murciélago
+
+y azufre)
+
+Duración: Instantáneo
+
+Una ráfaga brillante surge de ti hacia un punto de tu
+
+elección dentro del alcance y luego estalla con un rugido
+
+sordo en una explosión ardiente. Todas las criaturas
+
+situadas en una esfera de 6 m de radio centrada en ese
+
+punto harán una tirada de salvación de Destreza; sufrirán
+
+8d6 de daño de fuego si la fallan o la mitad del daño si la
+
+superan.
+
+Los objetos inflamables dentro del área que no lleve
+
+o vista nadie empezarán a arder.         mE
+
+Con un espacio de conjuro de nivel superior. El daño
+
+aumenta en 1d6 por cada nivel por encima de 3 que tenga
+
+el espacio.
+
+---
+
+#### Bola de Fuego de Explosión Retardada
+*Evocación de nivel 7 (hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 45 m
+- **Componentes:** V, S, M (una pelota de guano de murciélago
+
+y azufre)
+
+Duración: Concentración, hasta 1 minuto
+
+Un rayo de luz amarilla surge de ti y se condensa en un
+
+punto elegido dentro del alcance en forma de una cuenta
+
+brillante hasta que termine el conjuro. Cuando el conjuro
+
+termina, la cuenta explota y todas las criaturas en una
+
+esfera de 6 m de radio centrada en ese punto hacen una
+
 tirada de salvación de Destreza. Sufrirán una cantidad
 
 de daño de fuego igual al daño total acumulado si fallan
@@ -1850,66 +1776,8 @@ el espacio.
 *Conjuración de nivel 1 (brujo)*
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** Lanzador
-
-BOLA DE FUEGO
-
-Componentes: V, S
-
-Evocación de nivel 3 (hechicero, mago)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 45 m
-
-Componentes: V, S, M (una pelota de guano de murciélago
-
-y azufre)
-
-Duración: Instantáneo
-
-Una ráfaga brillante surge de ti hacia un punto de tu
-
-elección dentro del alcance y luego estalla con un rugido
-
-sordo en una explosión ardiente. Todas las criaturas
-
-situadas en una esfera de 6 m de radio centrada en ese
-
-punto harán una tirada de salvación de Destreza; sufrirán
-
-8d6 de daño de fuego si la fallan o la mitad del daño si la
-
-superan.
-
-Los objetos inflamables dentro del área que no lleve
-
-o vista nadie empezarán a arder.
-
-termina, la cuenta explota y todas las criaturas en una
-
-esfera de 6 m de radio centrada en ese punto hacen una
-
-mE
-
-Con un espacio de conjuro de nivel superior. El daño
-
-aumenta en 1d6 por cada nivel por encima de 3 que tenga
-
-el espacio.
-
----
-
-#### Bola de Fuego de Explosión Retardada
-*Evocación de nivel 7 (hechicero, mago)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** 45 m
-- **Componentes:** V, S, M (una pelota de guano de murciélago
-
-y azufre)
-
-Duración: Concentración, hasta 1 minuto
-
-Duración: Instantáneo
+- **Componentes:** V, S
+- **Duración:** Instantáneo
 
 Invocas a Hadar y unas extremidades surgen de ti. Todas
 
@@ -1954,16 +1822,6 @@ Las bayas que no se consuman desaparecen cuando
 
 el conjuro termine.
 
-Un rayo de luz amarilla surge de ti y se condensa en un
-
-punto elegido dentro del alcance en forma de una cuenta
-
-brillante hasta que termine el conjuro. Cuando el conjuro
-
-LANZARLE INSULTOS MÁGICOS A UN KOBOLO.
-
-¡A
-
 ---
 
 #### Burla Dañina
@@ -1977,17 +1835,39 @@ Profieres una sarta de improperios mezclados con
 
 encantamientos sutiles hacia una criatura que puedas
 
-ver u oír dentro del alcance. El objetivo deberá superar
+ver u oír dentro del alcance. El objetivo deberá super
 
 una tirada de salvación de Sabiduría o recibirá 1d6 de
 
-daño psíquico y tendrá desventaja en la próxima tirada de
+daño psíquico y tendrá desventaja en la próxima tirada
 
-ataque que realice antes de que acabe su siguiente turno.
+ataque que realice antes de que acabe su siguiente tur
 
 Mejora de truco. El daño aumenta en 1d6 cuando
 
 alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).
+
+---
+
+#### Caída de Pluma
+*Transmutación de nivel1 (bardo, hechicero, mago)*
+- **Tiempo de lanzamiento:** Reacción, que llevas a cabo cua
+
+tú una criatura que puedas ver a 18 m o menos de ti
+
+Alcance: 18 m
+
+Componentes: V, M (una pluma pequeña o un poco
+
+de plumón)
+
+Duración:1 minuto
+
+250   CAPÍTULO 7        CONJUROS
+
+LANZARLE INSULTOS MÁGICOS A UN KOBOLO.
+
+¡A
 
 Elige hasta cinco criaturas dentro del alcance que estén
 
@@ -2005,11 +1885,9 @@ esa criatura.
 
 #### Caldero Burbujeante de Tasha
 *Conjuración de nivel 6 (brujo, mago)*
-- **Tiempo de lanzamiento:** Acción
 - **Alcance:** 1,5 m
-- **Componentes:** V, S, M (un cucharón bañado en oro que
 
-valga al menos 500 po)
+no.         valga al menos 500 po)
 
 Duración: 10 minutos
 
@@ -2017,35 +1895,15 @@ Conjuras un caldero con patas de garra y lleno de un líquido
 
 burbujeante, que aparecerá en un espacio sin ocupar en
 
----
-
-#### Caída de Pluma
-*Transmutación de nivel1 (bardo, hechicero, mago)*
-- **Tiempo de lanzamiento:** Reacción, que llevas a cabo cuando
-
-tú una criatura que puedas ver a 18 m o menos de ti caigáis
-
-Alcance: 18 m
-
-Componentes: V, M (una pluma pequeña o un poco
-
-de plumón)
-
-Duración:1 minuto
-
-CAPÍTULO 7
-
-CONJUROS
-
 el suelo a 1,5 m de ti y permanecerá hasta que termine el
 
 conjuro. El caldero no se puede mover y desaparece cuando
 
 termine el conjuro junto con el líquido que contiene.
 
-El líquido del caldero copia las propiedades de una
+ndo         El líquido del caldero copia las propiedades de una
 
-poción común o infrecuente que elijas (por ejemplo, de una
+caigáis   poción común o infrecuente que elijas (por ejemplo, de una
 
 poción de curación). Como acción adicional, un aliado o tú
 
@@ -2067,35 +1925,12 @@ desaparecerán cuando vuelvas a lanzar el conjuro.
 
 ---
 
-#### Calmar Emociones
-*Encantamiento de nivel 2 (bardo, clérigo)*
+#### Calentar Metal
+*Transmutación de nivel 2 (bardo, druida)*
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** 18 m
-- **Componentes:** V, S
-
-CALENTAR METAL
-
-Duración: Concentración, hasta 1 minuto
-
-Transmutación de nivel 2 (bardo, druida)
-
-Cada humanoide en una esfera de 6 m de radio centrada
-
-en un punto que elijas dentro del alcance deberá superar
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 18 m
-
-una tirada de salvación de Carisma o se verá afectado por
-
-uno de los siguientes efectos (elige uno por cada criatura):
-
-Duración: Concentración, hasta 1 minuto
-
-+ La criatura tiene inmunidad a los estados de asustada
-
-Componentes: V, S, M (un trozo de hierro y una llama)
+- **Componentes:** V, S, M (un trozo de hierro y una llama)
+- **Duración:** Concentración, hasta 1 minuto
 
 Elige un objeto metálico fabricado que puedas ver dentro
 
@@ -2111,9 +1946,9 @@ el conjuro. Hasta que el conjuro termine, puedes usar una
 
 acción adicional en cada uno de tus turnos posteriores para
 
-volver a causar este daño si el objeto está dentro del alcance.
+volver a causar este daño si el objeto está dentro del alcan
 
-Si una criatura sostiene o lleva puesto el objeto y recibe
+Si una criatura sostiene o lleva puesto el objeto y recib
 
 el daño de este, deberá superar una tirada de salvación
 
@@ -2135,7 +1970,24 @@ La
 
 CALDERO BURBUJEANTE DE TASHA, PARA PRODUCIR
 
-UNA POCIÓN MÁGICA
+---
+
+#### Una Poción Mágica Calmar Emociones
+*Encantamiento de nivel 2 (bardo, clérigo)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 18 m
+- **Componentes:** V, S
+- **Duración:** Concentración, hasta 1 minuto
+
+Cada humanoide en una esfera de 6 m de radio centrada
+
+en un punto que elijas dentro del alcance deberá superar
+
+una tirada de salvación de Carisma o se verá afectado por
+
+uno de los siguientes efectos (elige uno por cada criatura):
+
++ La criatura tiene inmunidad a los estados de asustada
 
 y hechizada hasta que el conjuro termine. Si la criatura
 
@@ -2151,7 +2003,9 @@ termina si el objetivo recibe daño o si observa cómo
 
 alguno de sus aliados resulta dañado. Cuando el conjuro
 
-termine, la actitud de la criatura volverá a la normalidad.
+ce.     termine, la actitud de la criatura volverá a la normalidad.
+
+e
 
 Dos mAGos ENEMIGOS USAN CAMBIAR DE FORMA PARA
 
@@ -2161,18 +2015,11 @@ DURANTE UN COMBATE MÁGICO.
 
 ---
 
-#### Cambiar de Forma Caminar Sobre el Agua
+#### Cambiar de Forma
 *Transmutación de nivel 9 (druida, mago)*
-
-Transmutación de nivel 3 (clérigo, druida, explorador, hechicero)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: Lanzador
-
-Componentes: V, S, M (una diadema de jade que valga
-
-Tiempo de lanzamiento: Acción o ritual
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Lanzador
+- **Componentes:** V, S, M (una diadema de jade que valga
 
 al menos 1500 po)
 
@@ -2184,9 +2031,9 @@ el conjuro o hasta que uses una acción de magia para
 
 adoptar otra forma para la que cumplas los requisitos.
 
-La nueva forma debe ser la de una criatura con un valor
+La nueva forma debe ser la de una criatura con un valo
 
-de desafío igual o menor a tu nivel o valor de desafío.
+de desafío igual o menor a tu nivel o valor de desafío
 
 Tienes que haber visto alguna criatura de ese tipo
 
@@ -2212,19 +2059,22 @@ y Carisma, puntos de golpe, dados de puntos de golpe,
 
 competencias y capacidad para comunicarte. También
 
-conservas el rasgo Lanzamiento de conjuros si lo tienes.
+conservas el rasgo Lanzamiento de conjuros si lo tiene
 
-Al cambiar de forma, eliges si tu equipo cae al suelo
+Al cambiar de forma, eliges si tu equipo cae al suel
 
 o cambia de tamaño y forma para adaptarse a tu nuevo
 
 aspecto mientras lo adoptes.
 
-Alcance: 9 m
+---
 
-Componentes: V, S, M (un trozo de corcho)
-
-Duración: 1 hora
+#### Caminar Sobre el Agua
+*Transmutación de nivel 3 (clérigo, druida, explorador, hechicero)*
+- **Tiempo de lanzamiento:** Acción o ritual
+- **Alcance:** 9 m
+- **Componentes:** V, S, M (un trozo de corcho)
+- **Duración:** 1 hora
 
 Este conjuro concede la capacidad de moverse por encima
 
@@ -2234,9 +2084,9 @@ nieve, arenas movedizas o lava, como si se tratara de un
 
 suelo sólido inofensivo (aunque las criaturas que crucen
 
-lava derretida pueden seguir sufriendo daño por el calor).
+r    lava derretida pueden seguir sufriendo daño por el calor).
 
-Hasta diez criaturas voluntarias que elijas dentro del alcance
+.    Hasta diez criaturas voluntarias que elijas dentro del alcance
 
 obtienen esta capacidad hasta que termine el conjuro.
 
@@ -2255,7 +2105,12 @@ de la superficie al líquido que hay debajo.
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** Lanzador
 - **Componentes:** V, S, M (virutas de hierro)
-- **Duración:** Concentración, hasta 1 hora
+
+s.
+
+Duración: Concentración, hasta 1 hora
+
+o
 
 Un aura de antimagia te envuelve en una emanación
 
@@ -2301,16 +2156,8 @@ no se anulan entre sí.
 *Abjuración de nivel 5 (druida)*
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** Lanzador
-
-Los CONJUROS COMO RESPIRAR BAJO EL AGUA
-
-Y CAMINAR SOBRE EL AGUA AYUDAN A VISITAR
-
-LOS REINOS ACUÁTICOS.
-
-Componentes: V, S
-
-Duración: Concentración, hasta 1 hora
+- **Componentes:** V, S
+- **Duración:** Concentración, hasta 1 hora
 
 Un aura se extiende alrededor de ti en una emanación
 
@@ -2332,8 +2179,30 @@ atraviese la barrera, el conjuro termina.
 
 #### Carcaj Veloz
 *Transmutación de nivel 5 (explorador)*
+- **Tiempo de lanzamiento:** Acción adicional
+- **Alcance:** Lanzador
+- **Componentes:** V, S, M (una aljaba que valga al menos 1 po)
+- **Duración:** Concentración, hasta 1 minuto
 
+Cuando lances el conjuro y como acción adicional hasta
 
+que termine, puedes realizar dos ataques con un arma que
+
+use flechas o virotes, como un arco largo o una ballesta
+
+ligera. El conjuro crea mágicamente la munición necesaria
+
+para cada ataque. Cada flecha o virote que cree el conjuro
+
+inflige daño como si fuera munición no mágica de su tipo
+
+y se desintegra inmediatamente después de acertar o fallar.
+
+Los CONJUROS COMO RESPIRAR BAJO EL AGUA
+
+Y CAMINAR SOBRE EL AGUA AYUDAN A VISITAR
+
+LOS REINOS ACUÁTICOS.
 
 ---
 
@@ -2351,35 +2220,17 @@ Componentes: V
 
 Duración: 1 minuto
 
-Tiempo de lanzamiento: Acción adicional
-
-Alcance: Lanzador
-
 Al golpear al objetivo, sufre 1d6 de daño de fuego adicional
-
-Duración: Concentración, hasta 1 minuto
-
-fuego y luego hará una tirada de salvación de Constitución.
-
-Si la falla, el conjuro seguirá activo. Si la supera, el conjuro
-
-Componentes: V, S, M (una aljaba que valga al menos 1 po)
 
 del ataque. Al principio de cada uno de sus turnos hasta
 
 que el conjuro termine, el objetivo sufrirá 1d6 de daño de
 
-Cuando lances el conjuro y como acción adicional hasta
+fuego y luego hará una tirada de salvación de Constitución.
+
+Si la falla, el conjuro seguirá activo. Si la supera, el conjuro
 
 terminará.
-
-que termine, puedes realizar dos ataques con un arma que
-
-use flechas o virotes, como un arco largo o una ballesta
-
-ligera. El conjuro crea mágicamente la munición necesaria
-
-para cada ataque. Cada flecha o virote que cree el conjuro
 
 Con un espacio de conjuro de nivel superior. Todo el daño
 
@@ -2387,15 +2238,9 @@ aumenta en 1d6 por cada nivel por encima de 1 que tenga
 
 el espacio.
 
-inflige daño como si fuera munición no mágica de su tipo
-
-y se desintegra inmediatamente después de acertar o fallar.
-
-DESATA UNA IRA SAGRADA SOBRE VARIOS MELZOLOTHS INFERNALES.
-
 ---
 
-#### Castigo Abrumador
+#### Desata una Ira Sagrada Sobre Varios Melzoloths In Castigo Abrumador
 *Encantamiento de nivel4 (paladín)*
 - **Tiempo de lanzamiento:** Acción adicional, que realizas
 
@@ -2406,6 +2251,44 @@ cuerpo a cuerpo o un ataque sin armas
 Alcance: Lanzador
 
 Componentes: V
+
+Duración: Instantáneo
+
+El objetivo recibirá 4d6 de daño psíquico adicional de
+
+ataque y deberá superar una tirada de salvación de
+
+Sabiduría o tendrá el estado de aturdido hasta el fina
+
+de tu siguiente turno.
+
+Con un espacio de conjuro de nivel superior. El daño
+
+adicional aumenta en 1d6 por cada nivel por encima
+
+de 4 que tenga el espacio.
+
+---
+
+#### Castigo Atronador
+*Evocación de nivel1 (paladín)*
+- **Tiempo de lanzamiento:** Acción adicional, que realizas
+
+de inmediato tras acertar a un objetivo con un arma
+
+cuerpo a cuerpo o un ataque sin armas
+
+Alcance: Lanzador
+
+Componentes: V
+
+Duración: Instantáneo
+
+254   CAPÍTULO 7      | CONJUROS
+
+VINO Y.
+
+FERNALES.
 
 Tu golpe resuena con un trueno audible a 90 m de ti y el
 
@@ -2423,23 +2306,11 @@ aumenta en 1d6 por cada nivel por encima de 1 que tenga
 
 el espacio.
 
-Duración: Instantáneo
+l           CASTIGO BRILLANTE
 
-El objetivo recibirá 4d6 de daño psíquico adicional del
-
-CASTIGO BRILLANTE
-
-Sabiduría o tendrá el estado de aturdido hasta el final
+Transmutación de nivel2 (paladín)
 
 Tiempo de lanzamiento: Acción adicional, que realizas de
-
-ataque y deberá superar una tirada de salvación de
-
-de tu siguiente turno.
-
-Con un espacio de conjuro de nivel superior. El daño
-
-adicional aumenta en 1d6 por cada nivel por encima
 
 inmediato tras acertar a una criatura con un arma cuerpo
 
@@ -2447,41 +2318,17 @@ a cuerpo o un ataque sin armas
 
 Alcance: Lanzador
 
-de 4 que tenga el espacio.
-
 Componentes: V
 
 Duración: Concentración, hasta 1 minuto
 
-CASTIGO ATRONADOR
-
 El objetivo del golpe recibe 2d6 de daño radiante adicional
-
-Evocación de nivel1 (paladín)
 
 del ataque. Hasta que el conjuro termine, el objetivo
 
 emitirá luz brillante en un radio de 1,5 m, las tiradas de
 
-Tiempo de lanzamiento: Acción adicional, que realizas
-
 ataque contra él tendrán ventaja y no podrá beneficiarse
-
-de inmediato tras acertar a un objetivo con un arma
-
-cuerpo a cuerpo o un ataque sin armas
-
-Alcance: Lanzador
-
-Componentes: V
-
-Duración: Instantáneo
-
-Transmutación de nivel2 (paladín)
-
-CAPÍTULO 7
-
-| CONJUROS
 
 del estado de invisible.
 
@@ -2493,26 +2340,11 @@ el espacio.
 
 ---
 
-#### Castigo Cegador Castigo Furioso
+#### Castigo Cegador
 *Evocación de nivel 3 (paladín)*
-
-Nigromancia de nivel1 (paladín)
-
-Tiempo de lanzamiento: Acción adicional, que realizas
-
-Tiempo de lanzamiento: Acción adicional, que realizas
+- **Tiempo de lanzamiento:** Acción adicional, que realizas
 
 de inmediato tras acertar a una criatura con un arma
-
-de inmediato tras acertar a una criatura con un arma
-
-cuerpo a cuerpo o un ataque sin armas
-
-Alcance: Lanzador
-
-Componentes: V
-
-Duración: 1 minuto
 
 cuerpo a cuerpo o un ataque sin armas
 
@@ -2526,25 +2358,13 @@ El objetivo del golpe sufrirá 3d8 de daño radiante adicional
 
 del ataque y tendrá el estado de cegado hasta que el conjuro
 
-El objetivo sufrirá 1d6 de daño necrótico adicional del
-
-ataque y deberá superar una tirada de salvación de
-
-cegado hará una tirada de salvación de Constitución y,
-
-conjuro termine. Al final de cada uno de sus turnos,
-
 termine. Al final de cada uno de sus turnos, el objetivo
 
-Sabiduría o tendrá el estado de asustado hasta que el
+cegado hará una tirada de salvación de Constitución y,
 
 si tiene éxito, se librará del conjuro.
 
 Con un espacio de conjuro de nivel superior. El daño
-
-el objetivo asustado repite la tirada de salvación y,
-
-si tiene éxito, se librará del conjuro.
 
 adicional aumenta en 1d8 por cada nivel por encima
 
@@ -2554,26 +2374,13 @@ de 3 que tenga el espacio.
 
 #### Castigo Desterrador
 *Conjuración de nivel 5 (paladín)*
+- **Tiempo de lanzamiento:** Acción adicional, que realizas
 
-Con un espacio de conjuro de nivel superior. El daño
-
-aumenta en 1d6 por cada nivel por encima de 1 que tenga
-
-el espacio.
-
-CAUTIVERIO
-
-Tiempo de lanzamiento: Acción adicional, que realizas
-
-Abjuración de nivel 9 (brujo, mago)
+de inmediato tras acertar a una criatura con un arma
 
 cuerpo a cuerpo o un ataque sin armas
 
 Alcance: Lanzador
-
-Alcance: 9 m
-
-de inmediato tras acertar a una criatura con un arma
 
 Componentes: V
 
@@ -2625,9 +2432,47 @@ aumenta en 1d8 por cada nivel por encima de 1 que tenga
 
 el espacio.
 
-Tiempo de lanzamiento: 1 minuto
+---
 
-Componentes: V, S, M (una estatuilla del objetivo que valga
+#### Castigo Furioso
+*Nigromancia de nivel1 (paladín)*
+- **Tiempo de lanzamiento:** Acción adicional, que realizas
+
+de inmediato tras acertar a una criatura con un arma
+
+cuerpo a cuerpo o un ataque sin armas
+
+Alcance: Lanzador
+
+Componentes: V
+
+Duración: 1 minuto
+
+El objetivo sufrirá 1d6 de daño necrótico adicional del
+
+ataque y deberá superar una tirada de salvación de
+
+Sabiduría o tendrá el estado de asustado hasta que el
+
+conjuro termine. Al final de cada uno de sus turnos,
+
+el objetivo asustado repite la tirada de salvación y,
+
+si tiene éxito, se librará del conjuro.
+
+Con un espacio de conjuro de nivel superior. El daño
+
+aumenta en 1d6 por cada nivel por encima de 1 que tenga
+
+el espacio.
+
+---
+
+#### Cautiverio
+*Abjuración de nivel 9 (brujo, mago)*
+- **Tiempo de lanzamiento:** 1 minuto
+- **Alcance:** 9 m
+- **Componentes:** V, S, M (una estatuilla del objetivo que valga
 
 al menos 5000 po)
 
@@ -2691,22 +2536,11 @@ y el viaje interplanar. El semiplano puede ser un
 
 laberinto, una jaula, una torre o una estructura similar.
 
----
-
-#### Círculo de Poder
-*Abjuración de nivel 5 (clérigo, mago, paladín)*
+Sueño. El objetivo tiene el estado de inconsciente y no se
 
 le puede despertar.
 
-Tiempo de lanzamiento: Acción
-
-Alcance: Lanzador
-
 Poner fin al conjuro. Cuando lances el conjuro, especifica
-
-Duración: Concentración, hasta 10 minutos
-
-Sueño. El objetivo tiene el estado de inconsciente y no se
 
 una condición que le ponga fin. Puede ser tan sencilla
 
@@ -2744,7 +2578,56 @@ Duración: Hasta que sea disipado
 
 Tocas una puerta, ventana, portón, recipiente o trampilla
 
-Componentes: V
+cerrados y se cierra mágicamente como con llave hasta
+
+que el conjuro termine. Esta cerradura no puede abrirse
+
+por medios no mágicos, pero tú y las criaturas que designes
+
+cuando lanzas el conjuro podéis abrir y cerrar el objeto
+
+a pesar de esta cerradura. También puedes elegir una
+
+contraseña que, dicha en voz alta a 1,5 m o menos del objeto
+
+lo desbloquea durante 1 minuto.
+
+---
+
+#### Círculo de Muerte
+*Nigromancia de nivel 6 (brujo, hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 45 m
+- **Componentes:** V, S, M (una perla negra pulverizada que
+
+valga al menos 500 po)
+
+Duración: Instantáneo
+
+Una energía negativa se propaga en un radio de 18 m desde
+
+un punto que elijas dentro del alcance. Todas las criaturas
+
+situadas en la zona realizan una tirada de salvación de
+
+Constitución; sufrirán 8d8 de daño necrótico si la fallan
+
+o la mitad del daño si la superan.
+
+Con un espacio de conjuro de nivel superior. El daño
+
+aumenta en 2d8 por cada nivel por encima de 6 que tenga
+
+el espacio.
+
+---
+
+#### Círculo de Poder
+*Abjuración de nivel 5 (clérigo, mago, paladín)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Lanzador
+- **Componentes:** V
+- **Duración:** Concentración, hasta 10 minutos
 
 Un aura surge de ti en una emanación de 9 m hasta que
 
@@ -2783,59 +2666,17 @@ de 1,5 m de radio en el cual inscribes sellos que vinculan
 
 tu ubicación con un círculo de teletransportación
 
-cerrados y se cierra mágicamente como con llave hasta
-
 permanente de tu elección cuya secuencia de sellos
-
-cuando lanzas el conjuro podéis abrir y cerrar el objeto
-
-que permanecerá abierto hasta el final de tu siguiente
-
-que el conjuro termine. Esta cerradura no puede abrirse
-
-por medios no mágicos, pero tú y las criaturas que designes
 
 conozcas y que esté en el mismo plano de existencia que
 
 tú. En el círculo dibujado aparecerá un portal brillante
 
-a pesar de esta cerradura. También puedes elegir una
-
-contraseña que, dicha en voz alta a 1,5 m o menos del objeto,
-
-lo desbloquea durante 1 minuto.
+que permanecerá abierto hasta el final de tu siguiente
 
 turno. Cualquier criatura que entre en el portal aparecerá
 
----
-
-#### Círculo de Muerte
-*Nigromancia de nivel 6 (brujo, hechicero, mago)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** 45 m
-- **Componentes:** V, S, M (una perla negra pulverizada que
-
-valga al menos 500 po)
-
-Duración: Instantáneo
-
-Una energía negativa se propaga en un radio de 18 m desde
-
-un punto que elijas dentro del alcance. Todas las criaturas
-
-situadas en la zona realizan una tirada de salvación de
-
-Constitución; sufrirán 8d8 de daño necrótico si la fallan
-
-o la mitad del daño si la superan.
-
-Con un espacio de conjuro de nivel superior. El daño
-
-aumenta en 2d8 por cada nivel por encima de 6 que tenga
-
-el espacio.
-
-instantáneamente a 1,5 m o menos del círculo de destino
+,   instantáneamente a 1,5 m o menos del círculo de destino
 
 o en el espacio sin ocupar más cercano si ese está ocupado.
 
@@ -2869,20 +2710,11 @@ permanente.
 
 ---
 
-#### Círculo Mágico Clavo Mental
+#### Círculo Mágico
 *Abjuración de nivel 3 (brujo, clérigo, mago, paladín)*
-
-Adivinación de nivel 2 (brujo, hechicero, mago)
-
-Tiempo de lanzamiento: 1 minuto
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 36 m
-
-Alcance: 3 m
-
-Componentes: V, S, M (sal y plata en polvo que valga al
+- **Tiempo de lanzamiento:** 1 minuto
+- **Alcance:** 3 m
+- **Componentes:** V, S, M (sal y plata en polvo que valga al
 
 menos 100 po, que se consumen como parte del conjuro)
 
@@ -2910,37 +2742,7 @@ de las siguientes formas:
 
 cilindro por medios no mágicos. Si la criatura intenta
 
-usar el teletransporte o el viaje interplanar para hacerlo,
-
-Componentes: S
-
-Duración: Concentración, hasta 1 hora
-
-Introduces una púa de energía psiónica en la mente de una
-
-criatura que puedas ver dentro del alcance. El objetivo
-
-hace una tirada de salvación de Sabiduría; sufrirá 3d8 de
-
-daño psíquico si la falla o la mitad del daño si la supera.
-
-Además, si falla la tirada, conocerás en todo momento
-
-la ubicación del objetivo hasta que el conjuro termine,
-
-pero solo mientras los dos estéis en el mismo plano de
-
-existencia. Mientras tengas este conocimiento, la criatura
-
-no podrá ocultarse de ti y, si tiene el estado de invisible,
-
-no se beneficiará de dicho estado contra ti.
-
-Con un espacio de conjuro de nivel superior. El daño
-
-aumenta en 1d8 por cada nivel por encima de 2 que tenga
-
-el espacio.
+usar el teletransporte o el viaje interplanar para hacerlo
 
 antes deberá superar una tirada de salvación de Carisma.
 
@@ -2985,6 +2787,67 @@ Duración: Concentración, hasta 10 minutos
 Creas un sensor invisible dentro del alcance en un lugar
 
 que conozcas (que hayas visitado o visto antes) o en un
+
+lugar obvio, aunque no lo conozcas (por ejemplo, tras una
+
+puerta, al girar una esquina o en una arboleda). Este sensor
+
+intangible e invulnerable permanecerá allí hasta que el
+
+conjuro termine.
+
+Cuando lances el conjuro, elige la vista o el oído. Podrás
+
+usar el sentido elegido como si estuvieras en el espacio del
+
+sensor. Como acción adicional, puedes cambiar entre la
+
+vista y el oído.
+
+Cualquier criatura que pueda percibir el sensor
+
+(por ejemplo, que se esté beneficiando del conjuro
+
+ver invisibilidad o que tenga visión verdadera) verá un
+
+orbe luminoso del tamaño aproximado de tu puño.
+
+---
+
+#### Clavo Mental
+*Adivinación de nivel 2 (brujo, hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 36 m
+- **Componentes:** S
+- **Duración:** Concentración, hasta 1 hora
+
+Introduces una púa de energía psiónica en la mente de una
+
+criatura que puedas ver dentro del alcance. El objetivo
+
+hace una tirada de salvación de Sabiduría; sufrirá 3d8 de
+
+daño psíquico si la falla o la mitad del daño si la supera.
+
+Además, si falla la tirada, conocerás en todo momento
+
+la ubicación del objetivo hasta que el conjuro termine,
+
+pero solo mientras los dos estéis en el mismo plano de
+
+existencia. Mientras tengas este conocimiento, la criatura
+
+no podrá ocultarse de ti y, si tiene el estado de invisible,
+
+no se beneficiará de dicho estado contra ti.
+
+Con un espacio de conjuro de nivel superior. El daño
+
+aumenta en 1d8 por cada nivel por encima de 2 que tenga
+
+el espacio.
+
+,
 
 ---
 
@@ -3032,30 +2895,6 @@ se volverán inertes y no podrán ser devueltos a la vida,
 
 ya que el alma de la criatura está en otra parte.
 
-lugar obvio, aunque no lo conozcas (por ejemplo, tras una
-
-puerta, al girar una esquina o en una arboleda). Este sensor
-
-intangible e invulnerable permanecerá allí hasta que el
-
-conjuro termine.
-
-Cuando lances el conjuro, elige la vista o el oído. Podrás
-
-usar el sentido elegido como si estuvieras en el espacio del
-
-sensor. Como acción adicional, puedes cambiar entre la
-
-vista y el oído.
-
-Cualquier criatura que pueda percibir el sensor
-
-(por ejemplo, que se esté beneficiando del conjuro
-
-ver invisibilidad o que tenga visión verdadera) verá un
-
-orbe luminoso del tamaño aproximado de tu puño.
-
 ---
 
 #### Cofre Oculto de Leomund
@@ -3074,9 +2913,9 @@ menos 50 po)
 
 Duración: Hasta que sea disipado
 
-Ocultas un cofre y todo su contenido en el Plano Etéreo.
+Ocultas un cofre y todo su contenido en el Plano Etére
 
-Debes tocar el cofre y la réplica en miniatura que sirve
+Debes tocar el cofre y la réplica en miniatura que sir
 
 como componente material del conjuro. El cofre puede
 
@@ -3086,56 +2925,27 @@ contener hasta 0,34 m* de material inerte (90 cm por
 
 Mientras el cofre permanezca en el Plano Etéreo,
 
-puedes usar una acción de magia y tocar la réplica para
+puedes usar una acción de magia y tocar la réplica par
 
 recuperar dicho cofre, que aparecerá en un espacio sin
 
-ocupar en el suelo a 1,5 m de ti. Puedes enviar el cofre de
+ocupar en el suelo a 1,5 m de ti. Puedes enviar el cof
 
-regreso al Plano Etéreo usando una acción de magia para
+regreso al Plano Etéreo usando una acción de magia par
 
 tocar el cofre y la réplica.
 
----
+Después de 60 días, hay una posibilidad acumulativa d
 
-#### Comunión con la Naturaleza
-*Adivinación de nivel 5 (druida, explorador)*
-- **Tiempo de lanzamiento:** 1 minuto o un ritual
-- **Alcance:** Lanzador
-- **Componentes:** V, S
-- **Duración:** Instantáneo
+5% al final de cada día de que el efecto del conjuro t
 
-Comulgas con espíritus de la naturaleza y obtienes
+El conjuro también termina si vuelves a lanzarlo o si
 
-información sobre la zona circundante. En exteriores,
+destruye la réplica Diminuta del cofre. Si el conjuro
 
-el conjuro te proporciona información de la zona
-
-Después de 60 días, hay una posibilidad acumulativa del
-
-5% al final de cada día de que el efecto del conjuro termine.
-
-a 4,5 km a tu alrededor. En cavernas y otros entornos
-
-destruye la réplica Diminuta del cofre. Si el conjuro termina
-
-y el cofre grande está en el Plano Etéreo, permanecerá allí
-
-ha sido sustituida por construcciones, como castillos
-
-y asentamientos.
-
-El conjuro también termina si vuelves a lanzarlo o si se
+y el cofre grande está en el Plano Etéreo, permanecerá
 
 hasta que otra persona o tú lo encontréis.
-
-naturales subterráneos, el radio se ve limitado a 90 m.
-
-El conjuro no funciona en lugares en los que la naturaleza
-
-Elige tres de los siguientes hechos, que aprenderás
-
-según corresponda a la zona del conjuro:
 
 ---
 
@@ -3146,7 +2956,7 @@ según corresponda a la zona del conjuro:
 - **Componentes:** V, S
 - **Duración:** Concentración, hasta 1 minuto
 
-Todas las criaturas de tu elección que puedas ver dentro
+Todas las criaturas de tu elección que puedas ver dent
 
 del alcance deberán superar una tirada de salvación de
 
@@ -3154,19 +2964,92 @@ Sabiduría o tendrán el estado de hechizadas hasta que
 
 el conjuro termine.
 
-Mientras dure, puedes usar una acción adicional para
+Mientras dure, puedes usar una acción adicional par
 
 designar una dirección horizontal respecto a ti. Cada
 
 criatura hechizada deberá usar todo el movimiento que
 
-pueda para avanzar en esa dirección por la ruta más segura
+pueda para avanzar en esa dirección por la ruta más se
 
 durante su próximo turno. Tras moverse de este modo,
 
-un objetivo repite la tirada de salvación y, si tiene éxito,
+un objetivo repite la tirada de salvación y, si tiene
 
 se librará del conjuro.
+
+---
+
+#### Comunión
+*Adivinación de nivel 5 (clérigo)*
+- **Tiempo de lanzamiento:** 1 minuto o un ritual
+- **Alcance:** Lanzador
+- **Componentes:** V, S, M (incienso)
+- **Duración:** 1 minuto
+
+Te pones en contacto con una deidad o con un represent
+
+divino y le haces hasta tres preguntas que se puedan
+
+responder con sí o no. Tienes que realizar las pregunt
+
+antes de que el conjuro termine y recibirás una respue
+
+correcta a cada una de ellas.
+
+Los seres divinos no tienen por qué ser omniscientes
+
+por lo que si la deidad no tiene información sobre lo
+
+preguntas, puede responderte “ambiguo”. En caso de que
+
+una respuesta de una sola palabra pudiera inducir a er
+
+o ser contraria a los intereses de la deidad, tu DM po
+
+ofrecer en su lugar una frase corta.
+
+Si lanzas el conjuro más de una vez antes de finaliz
+
+un descanso largo, hay una posibilidad acumulativa del
+
+25 % por cada lanzamiento después del primero de que
+
+no recibas ninguna respuesta.
+
+o.
+
+ve        COMUNIÓN CON LA NATURALEZA
+
+Adivinación de nivel 5 (druida, explorador)
+
+Tiempo de lanzamiento: 1 minuto o un ritual
+
+Alcance: Lanzador
+
+a         Componentes: V, S
+
+Duración: Instantáneo
+
+re de     Comulgas con espíritus de la naturaleza y obtienes
+
+a         información sobre la zona circundante. En exteriores,
+
+el conjuro te proporciona información de la zona
+
+el        a 4,5 km a tu alrededor. En cavernas y otros entornos
+
+ermine.   naturales subterráneos, el radio se ve limitado a 90 m.
+
+se        El conjuro no funciona en lugares en los que la naturaleza
+
+termina   ha sido sustituida por construcciones, como castillos
+
+allí     y asentamientos.
+
+Elige tres de los siguientes hechos, que aprenderás
+
+según corresponda a la zona del conjuro:
 
 + Ubicaciones de asentamientos.
 
@@ -3182,7 +3065,7 @@ elemental, feérico, infernal o muerto viviente.
 
 (tú decides cuál).
 
-+ Ubicaciones de masas de agua.
+ro        + Ubicaciones de masas de agua.
 
 Por ejemplo, podrías determinar el paradero de un
 
@@ -3190,31 +3073,19 @@ monstruo poderoso en la zona y la ubicación de masas
 
 de agua y de cualquier pueblo cercano.
 
----
+a
 
-#### Confusión
-*Encantamiento de nivel 4 (bardo, druida, hechicero, mago)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** 27 m
-- **Componentes:** V, S, M (tres cáscaras de nuez)
-- **Duración:** Concentración, hasta 1 minuto
+CONFUSIÓN
 
+gura      Encantamiento de nivel 4 (bardo, druida, hechicero, mago)
 
+éxito,    Tiempo de lanzamiento: Acción
 
----
+Alcance: 27 m
 
-#### Comunión
-*Adivinación de nivel 5 (clérigo)*
-- **Tiempo de lanzamiento:** 1 minuto o un ritual
-- **Alcance:** Lanzador
-- **Componentes:** V, S, M (incienso)
-- **Duración:** 1 minuto
+Componentes: V, S, M (tres cáscaras de nuez)
 
-Te pones en contacto con una deidad o con un representante
-
-divino y le haces hasta tres preguntas que se puedan
-
-responder con sí o no. Tienes que realizar las preguntas
+Duración: Concentración, hasta 1 minuto
 
 Todas las criaturas situadas en una esfera de 3 m de
 
@@ -3230,65 +3101,37 @@ determinar su comportamiento ese turno. Para ello,
 
 consulta la tabla que se muestra a continuación.
 
-1d10
+ante
 
-Elobjetivo no usa ninguna acción y emplea todo
+1d10    Comportamiento del turno
 
-antes de que el conjuro termine y recibirás una respuesta
+as           1     Elobjetivo no usa ninguna acción y emplea todo
 
-su movimiento para desplazarse. Para determinar
-
-Los seres divinos no tienen por qué ser omniscientes,
+sta                su movimiento para desplazarse. Para determinar
 
 la dirección, tira 1d4: con un 1, se moverá al norte;
 
-con un 2, al este; con un 3, al sur; con un 4, al oeste.
+,                  con un 2, al este; con un 3, al sur; con un 4, al oeste.
 
-correcta a cada una de ellas.
+que le
 
-por lo que si la deidad no tiene información sobre lo que le
+2-6    El objetivo no se mueve ni realiza acciones.
 
-preguntas, puede responderte “ambiguo”. En caso de que
+ror         7-3    El objetivo no se mueve y emplea la acción de
 
-una respuesta de una sola palabra pudiera inducir a error
-
-2-6
-
-El objetivo no se mueve ni realiza acciones.
-
-7-3
-
-El objetivo no se mueve y emplea la acción de
-
-o ser contraria a los intereses de la deidad, tu DM podría
-
-ofrecer en su lugar una frase corta.
-
-Si lanzas el conjuro más de una vez antes de finalizar
-
-un descanso largo, hay una posibilidad acumulativa del
-
-25 % por cada lanzamiento después del primero de que
-
-no recibas ninguna respuesta.
-
-Comportamiento del turno
-
-atacar para hacer un ataque cuerpo a cuerpo contra
+dría               atacar para hacer un ataque cuerpo a cuerpo contra
 
 una criatura aleatoria dentro de su alcance. Si no
 
-hay ninguna dentro de su alcance, el objetivo no
+ar                 hay ninguna dentro de su alcance, el objetivo no
 
 hace ninguna acción.
 
-9-10
-
-El objetivo elige su comportamiento.
+9-10    El objetivo elige su comportamiento.
 
 Al final de cada uno de sus turnos, un objetivo afectado
 
-repite la tirada de salvación y, si tiene éxito, se librará del
+repite la tirada de salvación y, si tiene éxito, se librará
 
 conjuro.
 
@@ -3309,9 +3152,84 @@ de 4 que tenga el espacio.
 
 Conjuras espíritus de la naturaleza que aparecen como
 
+una manada Grande de animales espectrales e intangibles
+
+en un espacio sin ocupar que puedas ver dentro del alcance.
+
+La manada permanecerá hasta que el conjuro termine
+
+y puedes elegir la forma animal de los espíritus, como lobos
+
+serpientes O aves.
+
+Tienes ventaja en las tiradas de salvación de Fuerza
+
+mientras estés a 1,5 m o menos de la manada. Además,
+
+cuando te muevas en tu turno, también podrás mover a la
+
+manada hasta 9 m a un espacio sin ocupar que puedas ver.
+
+Siempre que la manada se mueva a 3 m o menos de una
+
+criatura que puedas ver y siempre que una criatura que
+
+puedas ver entre en un espacio a 3 m o menos de la manada
+
+o termine su turno allí, puedes obligar a la criatura a hace
+
+una tirada de salvación de Destreza. Si la falla, recibirá
+
+3d10 de daño cortante. Una criatura solo hace esta tirada
+
+una vez por turno.
+
+Con un espacio de conjuro de nivel superior. El daño
+
+aumenta en 1d10 por cada nivel por encima de 3 que tenga
+
+el espacio.
+
+---
+
+#### Conjurar Celestial
+*Conjuración de nivel 7 (clérigo)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 27 m
+- **Componentes:** V, S
+- **Duración:** Concentración, hasta 10 minutos
+
+Conjuras un espíritu de los Planos Superiores, que se
+
+manifiesta como un pilar de luz de 3 m de radio y 12 m
+
+de alto centrado en un punto dentro del alcance. Por cada
+
+criatura que puedas ver en el cilindro, elige qué tipo de lu
+
+brilla sobre ella:
+
+Luz abrasadora. El objetivo hace una tirada de salvación
+
+de Destreza; sufrirá 6d12 de daño radiante si la falla
+
+o la mitad del daño si la supera.
+
+Luz sanadora. El objetivo recupera una cantidad de
+
+puntos de golpe igual a 4d12 más tu modificador por
+
+aptitud mágica.
+
+Hasta que el conjuro termine, una luz brillante llena el
+
+cilindro y, cuando te muevas en tu turno, también puedes
+
+mover el cilindro hasta 9 m.
+
 Siempre que el cilindro entre en el espacio de una criatura
 
-que puedas ver y siempre que una criatura que puedas ver
+del   que puedas ver y siempre que una criatura que puedas ver
 
 entre en el cilindro o termine su turno en él, puedes bañar
 
@@ -3333,53 +3251,13 @@ que tenga el espacio.
 - **Alcance:** Lanzador
 - **Componentes:** V, S, M (un arma cuerpo a cuerpo o a distancia
 
-una manada Grande de animales espectrales e intangibles
-
 que valga al menos 1 pc)
 
 Duración: Instantáneo
 
-La manada permanecerá hasta que el conjuro termine
-
 Blandes el arma utilizada para lanzar el conjuro e invocas
 
-en un espacio sin ocupar que puedas ver dentro del alcance.
-
-y puedes elegir la forma animal de los espíritus, como lobos,
-
-serpientes O aves.
-
-Tienes ventaja en las tiradas de salvación de Fuerza
-
-mientras estés a 1,5 m o menos de la manada. Además,
-
-versiones espectrales parecidas (o munición para el tipo
-
-manada hasta 9 m a un espacio sin ocupar que puedas ver.
-
-de fuerza si la fallan o la mitad del daño si la superan.
-
-cuando te muevas en tu turno, también podrás mover a la
-
-Siempre que la manada se mueva a 3 m o menos de una
-
-criatura que puedas ver y siempre que una criatura que
-
-puedas ver entre en un espacio a 3 m o menos de la manada
-
-o termine su turno allí, puedes obligar a la criatura a hacer
-
-una tirada de salvación de Destreza. Si la falla, recibirá
-
-3d10 de daño cortante. Una criatura solo hace esta tirada
-
-una vez por turno.
-
-Con un espacio de conjuro de nivel superior. El daño
-
-aumenta en 1d10 por cada nivel por encima de 3 que tenga
-
-el espacio.
+,     versiones espectrales parecidas (o munición para el tipo
 
 de arma correspondiente) que salen disparadas hacia
 
@@ -3389,11 +3267,15 @@ elección que puedas ver en un cono de 18 m hacen una
 
 tirada de salvación de Destreza; sufrirán 5d8 de daño
 
+de fuerza si la fallan o la mitad del daño si la superan.
+
 Con un espacio de conjuro de nivel superior. El daño
 
 aumenta en 1d8 por cada nivel por encima de 3 que tenga
 
 el espacio.
+
+r
 
 ---
 
@@ -3401,17 +3283,6 @@ el espacio.
 *Conjuración de nivel 5 (druida, mago)*
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** 18 m
-- **Componentes:** V, S
-- **Duración:** Concentración, hasta 10 minutos
-
-
-
----
-
-#### Conjurar Celestial
-*Conjuración de nivel 7 (clérigo)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** 27 m
 - **Componentes:** V, S
 - **Duración:** Concentración, hasta 10 minutos
 
@@ -3429,35 +3300,13 @@ conjuro termine.
 
 Siempre que una criatura que puedas ver entre en el
 
-Conjuras un espíritu de los Planos Superiores, que se
-
 espacio del espíritu o empiece su turno a 1,5 m o menos
-
-de alto centrado en un punto dentro del alcance. Por cada
-
-criatura que puedas ver en el cilindro, elige qué tipo de luz
-
-brilla sobre ella:
-
-Destreza si el espíritu no tiene ninguna criatura apresada.
-
-manifiesta como un pilar de luz de 3 m de radio y 12 m
-
-Luz abrasadora. El objetivo hace una tirada de salvación
-
-de Destreza; sufrirá 6d12 de daño radiante si la falla
-
-o la mitad del daño si la supera.
-
-Luz sanadora. El objetivo recupera una cantidad de
-
-puntos de golpe igual a 4d12 más tu modificador por
-
-aptitud mágica.
 
 de él, puedes obligarla a hacer una tirada de salvación de
 
-Si la falla, el objetivo sufrirá 8d8 de daño del tipo del
+Destreza si el espíritu no tiene ninguna criatura apresada.
+
+z     Si la falla, el objetivo sufrirá 8d8 de daño del tipo del
 
 espíritu y tendrá el estado de apresado hasta que el conjuro
 
@@ -3475,30 +3324,14 @@ aumenta en 2d8 por cada nivel por encima de 5 que tenga
 
 el espacio.
 
-Hasta que el conjuro termine, una luz brillante llena el
-
-cilindro y, cuando te muevas en tu turno, también puedes
-
-mover el cilindro hasta 9 m.
-
-MONSTRUOS CON CONO DE FRÍO.
-
 ---
 
-#### Conjurar Elementales Menores Conjurar Feérico
+#### Conjurar Elementales Menores
 *Conjuración de nivel4 (druida, mago)*
-
-Conjuración de nivel 6 (druida)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: Lanzador
-
-Tiempo de lanzamiento: Acción
-
-Componentes: V, S
-
-Duración: Concentración, hasta 10 minutos
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Lanzador
+- **Componentes:** V, S
+- **Duración:** Concentración, hasta 10 minutos
 
 Conjuras espíritus de los Planos Elementales que revolotean
 
@@ -3524,11 +3357,16 @@ aumenta en 2d8 por cada nivel por encima de 4 que tenga
 
 el espacio.
 
-Alcance: 18 m
+MONSTRUOS CON CONO DE FRÍO.
 
-Componentes: V, S
+---
 
-Duración: Concentración, hasta 10 minutos
+#### Conjurar Feérico
+*Conjuración de nivel 6 (druida)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 18 m
+- **Componentes:** V, S
+- **Duración:** Concentración, hasta 10 minutos
 
 Conjuras un espíritu Mediano de los Parajes Feéricos en
 
@@ -3566,26 +3404,11 @@ el espacio.
 
 ---
 
-#### Conjurar Lluvia de Flechas Conocer las Leyendas
+#### Conjurar Lluvia de Flechas
 *Conjuración de nivel 5 (explorador)*
-
-Adivinación de nivel 5 (bardo, clérigo, mago)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 45 m
-
-Tiempo de lanzamiento: 10 minutos
-
-Alcance: Lanzador
-
-Componentes: V, S, M (incienso que valga al menos 250 po,
-
-que se consume como parte del conjuro, y cuatro tiras de
-
-marfil que valgan al menos 50 po)
-
-Componentes: V, S, M (un arma cuerpo a cuerpo o a distancia
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 45 m
+- **Componentes:** V, S, M (un arma cuerpo a cuerpo o a distancia
 
 que valga al menos 1 pc)
 
@@ -3599,25 +3422,13 @@ espectrales del arma (o munición para el tipo de arma
 
 correspondiente) caen en una lluvia y luego desaparecen.
 
-Duración: Instantáneo
-
-Nombra o describe a una persona, un lugar o un objeto
-
-famosos. El conjuro traerá a tu mente un breve resumen
-
-de la información relevante sobre lo nombrado, que
-
 Todas las criaturas de tu elección que puedas ver dentro
 
-describe tu DM.
+de un cilindro de 12 m de radio y 6 m de altura centrado
 
 en ese punto hacen una tirada de salvación de Destreza.
 
 Sufrirán 8d8 de daño de fuerza si la fallan o la mitad del
-
-revelaciones simpáticas o incluso conocimiento secreto
-
-de un cilindro de 12 m de radio y 6 m de altura centrado
 
 daño si la superan.
 
@@ -3646,7 +3457,70 @@ salvación de Sabiduría. Sufrirá 5d8 de daño de fuerza si
 
 la falla o la mitad del daño si la supera. Una criatura solo
 
+hace esta tirada una vez por turno.
+
+Además, hasta que termine el conjuro, puedes llevar
+
+a cabo la acción de destrabarse como acción adicional.
+
+Con un espacio de conjuro de nivel superior. El daño
+
+aumenta en 1d8 por cada nivel por encima de 4 que tenga
+
+el espacio.
+
+---
+
+#### Cono de Frío
+*Evocación de nivel 5 (druida, hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Lanzador
+- **Componentes:** V, S, M (un cono pequeño de cristal o vidrio)
+- **Duración:** Instantáneo
+
+Emites una ráfaga de aire helado. Todas las criaturas
+
+situadas en un cono de 18 m que se origina en ti hacen una
+
+tirada de salvación de Constitución; sufrirán 8d8 de daño
+
+de frío si la fallan o la mitad de daño si la superan. Si un
+
+criatura muere a causa de este conjuro, se convertirá en
+
+una estatua congelada hasta que se descongele.
+
+Con un espacio de conjuro de nivel superior. El daño
+
+aumenta en 1d8 por cada nivel por encima de 5 que tenga
+
+el espacio.
+
+---
+
+#### Conocer las Leyendas
+*Adivinación de nivel 5 (bardo, clérigo, mago)*
+- **Tiempo de lanzamiento:** 10 minutos
+- **Alcance:** Lanzador
+- **Componentes:** V, S, M (incienso que valga al menos 250 po,
+
+que se consume como parte del conjuro, y cuatro tiras de
+
+marfil que valgan al menos 50 po)
+
+Duración: Instantáneo
+
+Nombra o describe a una persona, un lugar o un objeto
+
+famosos. El conjuro traerá a tu mente un breve resumen
+
+de la información relevante sobre lo nombrado, que
+
+describe tu DM.
+
 Esta información pueden ser detalles importantes,
+
+revelaciones simpáticas o incluso conocimiento secreto
 
 que no es de dominio público. Cuanta más información
 
@@ -3678,31 +3552,13 @@ Duración: Hasta que sea disipado
 
 Tocas un punto e impregnas una zona a su alrededor con
 
-hace esta tirada una vez por turno.
-
 poder sagrado o impío. El área puede tener un radio de
 
-a cabo la acción de destrabarse como acción adicional.
-
-Con un espacio de conjuro de nivel superior. El daño
-
-aumenta en 1d8 por cada nivel por encima de 4 que tenga
-
-el espacio.
+hasta 18 m y el conjuro falla si el radio incluye cualquier
 
 zona que ya esté bajo el efecto de consagrar. La zona
 
 afectada tiene los siguientes efectos.
-
-Además, hasta que termine el conjuro, puedes llevar
-
----
-
-#### Cono de Frío
-*Evocación de nivel 5 (druida, hechicero, mago)*
-- **Tiempo de lanzamiento:** Acción
-
-hasta 18 m y el conjuro falla si el radio incluye cualquier
 
 Protección sagrada. Elige cualquiera de los siguientes
 
@@ -3720,27 +3576,9 @@ permanezcan en la zona.
 
 Efecto adicional. Vinculas un efecto adicional de la
 
-Alcance: Lanzador
-
 siguiente lista:
 
-Duración: Instantáneo
-
 Coraje. Las criaturas de cualesquiera tipos que elijas no
-
-Componentes: V, S, M (un cono pequeño de cristal o vidrio)
-
-Emites una ráfaga de aire helado. Todas las criaturas
-
-situadas en un cono de 18 m que se origina en ti hacen una
-
-tirada de salvación de Constitución; sufrirán 8d8 de daño
-
-de frío si la fallan o la mitad de daño si la superan. Si una
-
-criatura muere a causa de este conjuro, se convertirá en
-
-una estatua congelada hasta que se descongele.
 
 podrán obtener el estado de asustadas dentro de la zona.
 
@@ -3750,25 +3588,13 @@ no se pueden convertir en muertos vivientes.
 
 Don de lenguas. Las criaturas de cualesquiera tipos que
 
-elijas se pueden comunicar con cualquier otra criatura
+a     elijas se pueden comunicar con cualquier otra criatura
 
 en la zona, aunque no compartan ningún idioma común.
 
-Con un espacio de conjuro de nivel superior. El daño
+Intromisión extradimensional. Las criaturas de cuales-
 
-aumenta en 1d8 por cada nivel por encima de 5 que tenga
-
-el espacio.
-
-CLIMA PARA SALVAR UN PUEBLO DE UNA TORMENTA
-
-DESTRUCTIVA
-
-dl
-
-tr,
-
-Intromisión extradimensional. Las criaturas de cualesquiera tipos que elijas no pueden entrar en la zona ni salir
+quiera tipos que elijas no pueden entrar en la zona ni sal
 
 de ella usando el teletransporte o el viaje interplanar.
 
@@ -3776,25 +3602,11 @@ Luz del día. La zona se llena de luz brillante. La oscuridad
 
 mágica creada por conjuros de niveles menores que el de
 
-sobrenatural puede hacer añicos tu mente. Cuando lances
-
-este conjuro, haz una tirada de salvación de Inteligencia
-
-con CD 15. Si superas la tirada, puedes hacerle a la entidad
-
-hasta cinco preguntas, que debes realizar antes de que
-
 este conjuro no pueden extinguir la luz.
 
-el conjuro termine. Tu DM responderá a cada pregunta
-
-con una sola palabra, como “sí”, “no”, “puede”, “nunca”,
+Oscuridad. La zona se llena de oscuridad. La luz normal
 
 y la luz mágica creada por conjuros de niveles menores
-
-respuesta a la pregunta). Si una respuesta de una sola
-
-Oscuridad. La zona se llena de oscuridad. La luz normal
 
 que el de este conjuro no pueden iluminar la zona.
 
@@ -3833,7 +3645,29 @@ un erudito muerto hace tiempo o cualquier otra entidad
 
 ilustrada de otro plano. Contactar con esta inteligencia
 
+CLIMA PARA SALVAR UN PUEBLO DE UNA TORMENTA
+
+DESTRUCTIVA
+
+dl
+
+tr,
+
+sobrenatural puede hacer añicos tu mente. Cuando lances
+
+ir   este conjuro, haz una tirada de salvación de Inteligencia
+
+con CD 15. Si superas la tirada, puedes hacerle a la entidad
+
+hasta cinco preguntas, que debes realizar antes de que
+
+el conjuro termine. Tu DM responderá a cada pregunta
+
+con una sola palabra, como “sí”, “no”, “puede”, “nunca”,
+
 “irrelevante” o “ambiguo” (si la entidad no conoce la
+
+respuesta a la pregunta). Si una respuesta de una sola
 
 palabra pudiera inducir a error, tu DM podría ofrecer
 
@@ -3872,7 +3706,7 @@ elegida.
 
 El objetivo deberá repetir la tirada de salvación al final
 
-de cada uno de sus turnos hasta que la supere o la falle tres
+de cada uno de sus turnos hasta que la supere o la falle tre
 
 veces. Si supera tres de estas tiradas, el conjuro terminará
 
@@ -3890,49 +3724,15 @@ envenenado no terminará.
 
 ---
 
-#### Contrahechizo
-*Abjuración de nivel 3 (brujo, hechicero, mago)*
-- **Tiempo de lanzamiento:** Reacción, que llevas a cabo
-
-cuando una criatura que puedas ver a 18 m o menos
-
-de ti lance un conjuro usando componentes verbales,
-
-somáticos o materiales
-
-Alcance: 18 m
-
-Componentes: S
-
-Duración: Instantáneo
-
----
-
 #### Contingencia
 *Abjuración de nivel 6 (mago)*
 - **Tiempo de lanzamiento:** 10 minutos
 - **Alcance:** Lanzador
-- **Componentes:** V, S, M (una estatuilla de ti tallada y decorada
+- **Componentes:** V, S, M (una estatuilla de ti tallada y decorad
 
 con gemas que valga al menos 1500 po)
 
 Duración: 10 días
-
-Intentas interrumpir a una criatura que esté lanzando
-
-un conjuro. La criatura hace una tirada de salvación de
-
-Constitución. Si la falla, el conjuro se disipa sin causar
-
-efecto alguno y la acción, acción adicional o reacción
-
-empleada para lanzarlo se desperdiciará. Si ese conjuro
-
-se lanzó con un espacio de conjuro, dicho espacio no se
-
-gastará.
-
-l
 
 Elige un conjuro de nivel 5 o inferior que puedas lanzar,
 
@@ -3950,7 +3750,7 @@ sino que se activa cuando se produce una condición
 
 determinada. Describes esa condición cuando lanzas los dos
 
-conjuros. Por ejemplo, si lanzas contingencia junto a respirar
+conjuros. Por ejemplo, si lanzas contingencia junto a respir
 
 bajo el agua, podrías decir que respirar bajo el agua tenga
 
@@ -3997,6 +3797,40 @@ este efecto si te percibe mediante visión ciega o visión
 
 verdadera.
 
+s
+
+---
+
+#### Contrahechizo
+*Abjuración de nivel 3 (brujo, hechicero, mago)*
+- **Tiempo de lanzamiento:** Reacción, que llevas a cabo
+
+cuando una criatura que puedas ver a 18 m o menos
+
+de ti lance un conjuro usando componentes verbales,
+
+somáticos o materiales
+
+Alcance: 18 m
+
+Componentes: S
+
+Duración: Instantáneo
+
+Intentas interrumpir a una criatura que esté lanzando
+
+un conjuro. La criatura hace una tirada de salvación de
+
+Constitución. Si la falla, el conjuro se disipa sin causar
+
+efecto alguno y la acción, acción adicional o reacción
+
+a    empleada para lanzarlo se desperdiciará. Si ese conjuro
+
+se lanzó con un espacio de conjuro, dicho espacio no se            l
+
+gastará.
+
 ---
 
 #### Controlar Agua
@@ -4006,7 +3840,7 @@ verdadera.
 - **Componentes:** V, S, M (una mezcla de agua y polvo)
 - **Duración:** Concentración, hasta 10 minutos
 
-Hasta que el conjuro termine, controlas cualquier masa
+ar   Hasta que el conjuro termine, controlas cualquier masa
 
 de agua que esté en un área de tu elección y con forma de
 
@@ -4018,13 +3852,9 @@ puedes repetir el mismo efecto o elegir uno distinto.
 
 Abrir las aguas. Haces que las aguas de la zona se
 
-separen y creen un canal, que se extiende a lo largo
+separen y creen un canal, que se extiende a lo largo               '
 
-de toda el área del conjuro, con las aguas separadas
-
-'
-
-|
+de toda el área del conjuro, con las aguas separadas               |
 
 formando un muro a ambos lados. El canal se mantendrá
 
@@ -4062,163 +3892,194 @@ principio de tu siguiente turno mientras dure el efecto
 
 de la inundación.
 
-|
+|           Redirigir caudal. Haces que un caudal de agua en
 
-Redirigir caudal. Haces que un caudal de agua en la zona
+se mueva en la dirección que elijas, incluso si ti
 
-se mueva en la dirección que elijas, incluso si tiene que
+fluir por encima de obstáculos, subir muros o toma
 
-fluir por encima de obstáculos, subir muros o tomar otros
+|         rumbos extraños. El agua de la zona se moverá segú
 
-|
+instrucciones, pero una vez salga del área del con
 
-rumbos extraños. El agua de la zona se moverá según tus
+volverá a fluir de forma normal en función del ter
 
-instrucciones, pero una vez salga del área del conjuro,
+El agua seguirá moviéndose en la dirección que hay
 
-volverá a fluir de forma normal en función del terreno.
-
-El agua seguirá moviéndose en la dirección que hayas
-
-elegido hasta que el conjuro termine o hasta que elijas
+elegido hasta que el conjuro termine o hasta que e
 
 un efecto distinto.
 
-Remolino. Provocas que se forme un remolino en el
+Remolino. Provocas que se forme un remolino en e
 
-centro del área, que debe ser un cuadrado de al menos
+centro del área, que debe ser un cuadrado de al me
 
 15 m de lado y 7,5 m de profundidad. El remolino
 
-permanece hasta que elijas un efecto distinto o termine
+permanece hasta que elijas un efecto distinto o te
 
 el conjuro. El remolino tiene 1,5 m de ancho en su
 
-base y hasta 15 m en la parte superior, con una altura
+base y hasta 15 m en la parte superior, con una al
 
-de 7,5 m. Cualquier criatura que esté en el agua a 7,5 m
+de 7,5 m. Cualquier criatura que esté en el agua a
 
-o menos del remolino será atraída 3 m hacia él. Cuando
+o menos del remolino será atraída 3 m hacia él. Cu
 
-una criatura entre en el remolino por primera vez en un
+una criatura entre en el remolino por primera vez
 
-turno o termine su turno allí, hará una tirada de salvación
+turno o termine su turno allí, hará una tirada de
 
-de Fuerza. Si la falla, la criatura recibirá 2d8 de daño
+de Fuerza. Si la falla, la criatura recibirá 2d8 d
 
-contundente. Si la supera, recibirá la mitad de daño.
+contundente. Si la supera, recibirá la mitad de da
 
-Una criatura solo puede alejarse nadando del remolino
+Una criatura solo puede alejarse nadando del remol
 
-si usa primero una acción para apartarse y supera una
+si usa primero una acción para apartarse y supera
 
-prueba de Fuerza (Atletismo) contra tu CD de salvación
+prueba de Fuerza (Atletismo) contra tu CD de salva
 
 de conjuros.
 
 ---
 
-#### Controlar el Clima Corcel Fantasma
+#### Controlar el Clima
 *Transmutación de nivel 8 (clérigo, druida, mago)*
 - **Tiempo de lanzamiento:** 10 minutos
 - **Alcance:** Lanzador
 - **Componentes:** V, S, M (incienso para quemar)
 - **Duración:** Concentración, hasta 8 horas
 
-Hasta que termine el conjuro, asumes el control del clima
+Hasta que termine el conjuro, asumes el control de
 
-a7,5 km o menos de ti. Debes estar al aire libre para lanzar
+a7,5 km o menos de ti. Debes estar al aire libre p
 
-este conjuro y terminará antes de tiempo si entras en una
+este conjuro y terminará antes de tiempo si entras
 
 zona cubierta.
 
-Cuando lanzas el conjuro, cambias las condiciones
+Cuando lanzas el conjuro, cambias las condicione
 
 climatológicas actuales, que determinará tu DM.
 
 Puedes cambiar las precipitaciones, la temperatura
 
-y el viento. Se tardan 1d4 x 10 minutos en que las nuevas
+y el viento. Se tardan 1d4 x 10 minutos en que las
 
-condiciones surtan efecto. En cuanto lo hagan, puedes
+condiciones surtan efecto. En cuanto lo hagan, pue
 
-volver a cambiarlas. Cuando el conjuro termine, el clima
+volver a cambiarlas. Cuando el conjuro termine, el
 
 volverá poco a poco a su estado normal.
 
-Cuando cambies las condiciones meteorológicas, busca
+Cuando cambies las condiciones meteorológicas, b
 
-un estado en las tablas siguientes y modifica su nivel
+un estado en las tablas siguientes y modifica su n
 
-en uno, arriba o abajo. Si cambias el viento, también
+en uno, arriba o abajo. Si cambias el viento, tamb
 
 puedes alterar su dirección.
 
 PRECIPITACIONES
 
-Despejado
+Nivel   Estado
+
+1     Despejado
 
 Nubes escasas
 
-aa
-
-Estado
-
 wn
-
-Nivel
 
 Cielo cubierto o niebla de superficie
 
 Lluvia, granizo o nieve
 
-Lluvia torrencial, tormenta de granizo o ventisca
+aa
 
-TEMPERATURA
+Lluvia torrencial, tormenta de granizo o
 
-Nivel
+la zona
 
-Estado
+ene que
 
-VIENTO
+r otros
 
-Nivel
+n tus
 
-Estado
+juro,
 
-Ola de calor
+reno.
 
-Calmo
+as
 
-Caliente
+lijas
 
-Viento moderado
+nos
 
-Templado
+rmine
 
-Viento fuerte
+tura
 
-Fresco
+7,5 m
 
-Galerna
+ando
 
-S
+en un
 
-Frío
+salvación
 
-Tempestad
+e daño
 
-Frío extremo
+ño.
 
----
+ino
 
-#### Corcel Fantasma
-*Ilusionismo de nivel 3 (mago)*
-- **Tiempo de lanzamiento:** 1 minuto o un ritual
-- **Alcance:** 9 m
-- **Componentes:** V, S
-- **Duración:** 1 hora
+una
+
+ción
+
+CORCEL FANTASMA
+
+TEMPERATURA                     VIENTO
+
+Nivel   Estado                 Nivel   Estado
+
+l clima          1     Ola de calor             1     Calmo
+
+ara lanzar
+
+2     Caliente                 2     Viento moderado
+
+en una
+
+3     Templado                 3     Viento fuerte
+
+s               4      Fresco                  4      Galerna
+
+S     Frío                     5     Tempestad
+
+nuevas          6     Frío extremo
+
+des
+
+clima
+
+CORCEL FANTASMA
+
+usca         Ilusionismo de nivel 3 (mago)
+
+ivel
+
+Tiempo de lanzamiento: 1 minuto o un ritual
+
+ién
+
+Alcance: 9 m
+
+Componentes: V, S
+
+Duración: 1 hora
 
 Una criatura equina cuasi real de tamaño Grande aparece
 
@@ -4232,9 +4093,11 @@ se desvanecerá en una bocanada de humo si se lleva a más
 
 de 3 m de la montura.
 
+ventisca
+
 Hasta que termine el conjuro, tú o una criatura de tu
 
-elección podéis montar el corcel. El corcel utiliza el perfil
+elección podéis montar el corcel. El corcel utiliza el perfi
 
 del caballo de monta (consulta el apéndice B), excepto
 
@@ -4250,42 +4113,12 @@ recibe daño.
 
 ---
 
-#### Creación
-*Ilusionismo de nivel 5 (hechicero, mago)*
-- **Tiempo de lanzamiento:** 1 minuto
-- **Alcance:** 9 m
-- **Componentes:** V, S, M (un pincel)
-- **Duración:** Especial
-
-Tomas hebras de sombra del Páramo Sombrío para
-
----
-
 #### Cordón de Flechas
 *Transmutación de nivel 2 (explorador)*
 - **Tiempo de lanzamiento:** Acción
-
-crear un objeto dentro del alcance. Puede ser un objeto
-
-de materia vegetal (tela, cuerda, madera o algo similar)
-
-o mineral (piedra, cristal, metal o algo similar). El objeto
-
-no puede ser mayor que un cubo de 1,5 m de lado y debe
-
-Alcance: Toque
-
-tener una forma y un material que hayas visto.
-
-Duración: 8 horas
-
-como se muestra en la tabla “Materiales”. Si el objeto
-
-está compuesto de varios materiales, su duración será la
-
-menor. Si se usa cualquier objeto creado con este conjuro
-
-Componentes: V, S, M (una trenza ornamental)
+- **Alcance:** Toque
+- **Componentes:** V, S, M (una trenza ornamental)
+- **Duración:** 8 horas
 
 Tocas hasta cuatro flechas o virotes no mágicos y los
 
@@ -4299,50 +4132,6 @@ un espacio a 9 m o menos de la munición por primera vez
 
 en un turno o termine su turno allí, uno de los proyectiles
 
-La duración del conjuro depende del material del objeto,
-
-como componente material de otro conjuro, este último
-
-fallará.
-
-MATERIALES
-
-Material
-
-Duración
-
-Materia vegetal
-
-24 horas
-
-Piedra o cristal
-
-12 horas
-
-Metales preciosos
-
-1 hora
-
-Gemas
-
-10 minutos
-
-de tu elección para que el conjuro las ignore.
-
-Adamantina o mithral
-
-1 minuto
-
-de munición que puedes hechizar aumenta en 2 por cada
-
-nivel por encima de 2 que tenga el espacio.
-
-Con un espacio de conjuro de nivel superior. El tamaño
-
-del cubo aumenta en 1,5 m por cada nivel por encima de 5
-
-que tenga el espacio.
-
 saldrá volando para atacarla. La criatura deberá superar
 
 una tirada de salvación de Destreza o sufrirá 2d4 de
@@ -4355,7 +4144,13 @@ el suelo.
 
 Cuando lanzas este conjuro, puedes designar criaturas
 
+de tu elección para que el conjuro las ignore.
+
 Con un espacio de conjuro de nivel superior. La cantidad
+
+de munición que puedes hechizar aumenta en 2 por cada
+
+nivel por encima de 2 que tenga el espacio.
 
 ---
 
@@ -4382,6 +4177,80 @@ objetivo hechizado, que debe usar su acción antes de
 
 moverse cada turno para realizar un ataque cuerpo
 
+a cuerpo contra una criatura que elijas mentalmente
+
+y que no sea él mismo. El objetivo puede actuar con
+
+normalidad en su turno si no eliges ninguna criatura
+
+o no tiene ninguna a su alcance. El objetivo repetirá la
+
+tirada de salvación al final de cada uno de sus turnos y,
+
+si tiene éxito, se librará del conjuro.
+
+En tus siguientes turnos, debes realizar la acción de
+
+magia para mantener el control sobre el objetivo o el
+
+conjuro terminará.
+
+l   CREACIÓN
+
+Ilusionismo de nivel 5 (hechicero, mago)
+
+Tiempo de lanzamiento: 1 minuto
+
+Alcance: 9 m
+
+Componentes: V, S, M (un pincel)
+
+Duración: Especial
+
+Tomas hebras de sombra del Páramo Sombrío para
+
+crear un objeto dentro del alcance. Puede ser un objeto
+
+de materia vegetal (tela, cuerda, madera o algo similar)
+
+o mineral (piedra, cristal, metal o algo similar). El objeto
+
+no puede ser mayor que un cubo de 1,5 m de lado y debe
+
+tener una forma y un material que hayas visto.
+
+La duración del conjuro depende del material del objeto,
+
+como se muestra en la tabla “Materiales”. Si el objeto
+
+está compuesto de varios materiales, su duración será la
+
+menor. Si se usa cualquier objeto creado con este conjuro
+
+como componente material de otro conjuro, este último
+
+fallará.
+
+MATERIALES
+
+Material                        Duración
+
+Materia vegetal                24 horas
+
+Piedra o cristal               12 horas
+
+Metales preciosos              1 hora
+
+Gemas                          10 minutos
+
+Adamantina o mithral            1 minuto
+
+Con un espacio de conjuro de nivel superior. El tamaño
+
+del cubo aumenta en 1,5 m por cada nivel por encima de 5
+
+que tenga el espacio.
+
 ---
 
 #### Crear Comida y Agua
@@ -4403,57 +4272,20 @@ tu elección, mientras que el agua está limpia. La comida se
 
 estropea si no se consume en 24 horas.
 
-a cuerpo contra una criatura que elijas mentalmente
+---
 
-y que no sea él mismo. El objetivo puede actuar con
-
-normalidad en su turno si no eliges ninguna criatura
-
-o no tiene ninguna a su alcance. El objetivo repetirá la
-
-tirada de salvación al final de cada uno de sus turnos y,
-
-si tiene éxito, se librará del conjuro.
-
-En tus siguientes turnos, debes realizar la acción de
-
-magia para mantener el control sobre el objetivo o el
-
-conjuro terminará.
-
-CREAR LLAMA
-
-CREAR O DESTRUIR AGUA
-
-Tiempo de lanzamiento: Acción adicional
-
-Duración: 10 minutos
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 9 m
-
-Componentes: V, S, M (una mezcla de agua y arena)
-
-Duración: Instantáneo
+#### Crear Llama
+*Truco de conjuración (druida)*
+- **Tiempo de lanzamiento:** Acción adicional
+- **Alcance:** Lanzador
+- **Componentes:** V, S
+- **Duración:** 10 minutos
 
 En tu mano aparece una llama titilante, que permanece
 
-Produces uno de estos efectos:
+hasta que termine el conjuro. En tu mano, la llama no
 
 genera calor, no puede quemar nada y emite una luz
-
-Crear agua. Creas hasta 40 1 de agua limpia dentro del
-
-alcance en un recipiente abierto. Como alternativa, el
-
-Truco de conjuración (druida)
-
-Alcance: Lanzador
-
-Componentes: V, S
-
-hasta que termine el conjuro. En tu mano, la llama no
 
 brillante en un radio de 6 m y luz tenue 6 m más allá.
 
@@ -4463,7 +4295,7 @@ Hasta que el conjuro termine, puedes usar una acción
 
 de magia para arrojar la llama a una criatura u objeto
 
-a 18 m o menos de ti. Haz un ataque de conjuro a distancia.
+a 18 m o menos de ti. Haz un ataque de conjuro a dista
 
 Si acierta, el objetivo recibe 148 de daño de fuego.
 
@@ -4474,7 +4306,93 @@ alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).
 ---
 
 #### Crear Muerto Viviente
+*Nigromancia de nivel 6 (brujo, clérigo, mago)*
+- **Tiempo de lanzamiento:** 1 minuto
+- **Alcance:** 3 m
+- **Componentes:** V, S, M (un ónice negro que valga al meno
+
+150 po por cada cadáver)
+
+Duración: Instantáneo
+
+Solo puedes lanzar este conjuro por la noche. Elige
+
+hasta tres cadáveres de humanoides de tamaño Mediano
+
+o Pequeño dentro del alcance. Cada uno se convierte en
+
+un gul bajo tu control (consulta su perfil en el Manua
+
+de monstruos).
+
+Como acción adicional en cada uno de tus turnos,
+
+puedes dar órdenes mentalmente a cada criatura que
+
+hayas animado con el conjuro que esté a 36 m o menos
+
+de ti (si controlas a varias criaturas, puedes dar órd
+
+a cualesquiera de ellas a la vez transmitiéndole la mi
+
+orden a cada una). Tú decides qué acción llevará a cab
+
+la criatura y adónde se moverá en su siguiente turno,
+
+o puedes dar una orden general, como proteger un lugar
+
+en concreto. Si no das ninguna orden, la criatura hace
+
+acción de esquivar y solo se mueve para evitar peligro
+
+En cuanto se le dé una orden, la criatura la cumplirá
+
+hasta completar su tarea.
+
+La criatura estará bajo tu control durante 24 horas,
+
+las cuales dejará de obedecer cualquier orden que le h
+
+dado. Para mantener el control sobre ella otras 24 hor
+
+deberás volver a lanzarle este conjuro antes de que
+
+acabe el periodo actual de 24 horas. Este uso del conj
+
+refuerza tu control sobre hasta tres criaturas que hay
+
+animado con él y no anima nuevas criaturas.
+
+Con un espacio de conjuro de nivel superior. Si usas
+
+espacio de conjuro de nivel 7, puedes animar o reforza
+
+el control sobre cuatro gules. Si usas un espacio de
+
+conjuro de nivel 8, puedes animar o reforzar el contro
+
+sobre cinco gules o dos ghasts o tumularios. Si usas u
+
+espacio de conjuro de nivel 9, puedes animar o reforza
+
+control sobre seis gules, tres ghasts o tumularios o d
+
+momias. Consulta sus perfiles en el Manual de monstruo
+
+---
+
+#### Crear o Destruir Agua
 *Transmutación de nivel 1 (clérigo, druida)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 9 m
+- **Componentes:** V, S, M (una mezcla de agua y arena)
+- **Duración:** Instantáneo
+
+Produces uno de estos efectos:
+
+Crear agua. Creas hasta 40 1 de agua limpia dentro del
+
+alcance en un recipiente abierto. Como alternativa, el
 
 agua cae en forma de lluvia en un cubo de 9 m de lado
 
@@ -4483,6 +4401,8 @@ dentro del alcance y apaga las llamas abiertas de la zona.
 Destruir agua. Destruyes hasta 40 1 de agua dentro del
 
 alcance en un recipiente abierto. Como alternativa,
+
+ncia.
 
 puedes destruir niebla en un cubo de 9 m de lado dentro
 
@@ -4496,53 +4416,24 @@ en 1,5 m por cada nivel por encima de 1 que tenga el
 
 espacio.
 
-Nigromancia de nivel 6 (brujo, clérigo, mago)
-
-Tiempo de lanzamiento: 1 minuto
-
-Alcance: 3 m
-
-Componentes: V, S, M (un ónice negro que valga al menos
-
 ---
 
 #### Crecimiento Espinoso
 *Transmutación de nivel 2 (druida, explorador)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** 45 m
-- **Duración:** Instantáneo
 
-Solo puedes lanzar este conjuro por la noche. Elige
+s
 
-Duración: Concentración, hasta 10 minutos
+Tiempo de lanzamiento: Acción
 
-150 po por cada cadáver)
-
-hasta tres cadáveres de humanoides de tamaño Mediano
-
-o Pequeño dentro del alcance. Cada uno se convierte en
-
-un gul bajo tu control (consulta su perfil en el Manual
-
-de monstruos).
-
-Como acción adicional en cada uno de tus turnos,
-
-puedes dar órdenes mentalmente a cada criatura que
-
-hayas animado con el conjuro que esté a 36 m o menos
-
-de ti (si controlas a varias criaturas, puedes dar órdenes
-
-a cualesquiera de ellas a la vez transmitiéndole la misma
-
-orden a cada una). Tú decides qué acción llevará a cabo
+Alcance: 45 m
 
 Componentes: V, S, M (siete espinas)
 
+Duración: Concentración, hasta 10 minutos
+
 Del suelo en una esfera de 6 m de radio centrada en
 
-un punto dentro del alcance brotan espinas y pinchos.
+l       un punto dentro del alcance brotan espinas y pinchos.
 
 La zona se vuelve terreno difícil hasta que termine
 
@@ -4552,83 +4443,55 @@ desplaza por ella, recibe 2d4 de daño perforante por cada
 
 1,5 m que avanza.
 
-La transformación del suelo se camufla, de forma que
+enes      La transformación del suelo se camufla, de forma que
 
-parece natural. Cualquier criatura que no pueda ver la
+sma     parece natural. Cualquier criatura que no pueda ver la
 
-zona cuando se lanza el conjuro deberá emplear una
-
-la criatura y adónde se moverá en su siguiente turno,
+o       zona cuando se lanza el conjuro deberá emplear una
 
 acción de buscar y superar una prueba de Sabiduría
 
-en concreto. Si no das ninguna orden, la criatura hace la
-
-de conjuros para reconocer que el terreno es peligroso
-
-o puedes dar una orden general, como proteger un lugar
-
-acción de esquivar y solo se mueve para evitar peligros.
-
 (Percepción o Supervivencia) contra tu CD de salvación
 
-antes de adentrarse en él.
+la     de conjuros para reconocer que el terreno es peligroso
 
-En cuanto se le dé una orden, la criatura la cumplirá
+s.      antes de adentrarse en él.
 
-hasta completar su tarea.
+tras   CRECIMIENTO VEGETAL
 
-La criatura estará bajo tu control durante 24 horas, tras
+ayas    Transmutación de nivel 3 (bardo, druida, explorador)
 
-las cuales dejará de obedecer cualquier orden que le hayas
+as,
 
-dado. Para mantener el control sobre ella otras 24 horas,
-
-deberás volver a lanzarle este conjuro antes de que
-
-acabe el periodo actual de 24 horas. Este uso del conjuro
-
-refuerza tu control sobre hasta tres criaturas que hayas
-
-animado con él y no anima nuevas criaturas.
-
-Con un espacio de conjuro de nivel superior. Si usas un
-
-espacio de conjuro de nivel 7, puedes animar o reforzar
-
-el control sobre cuatro gules. Si usas un espacio de
-
-conjuro de nivel 8, puedes animar o reforzar el control
-
-sobre cinco gules o dos ghasts o tumularios. Si usas un
-
-espacio de conjuro de nivel 9, puedes animar o reforzar el
-
-control sobre seis gules, tres ghasts o tumularios o dos
-
-momias. Consulta sus perfiles en el Manual de monstruos.
-
----
-
-#### Crecimiento Vegetal
-*Transmutación de nivel 3 (bardo, druida, explorador)*
-- **Tiempo de lanzamiento:** Acción (sobrecrecimiento)
+Tiempo de lanzamiento: Acción (sobrecrecimiento)
 
 u 8 horas (fertilización)
 
+uro
+
 Alcance: 45 m
+
+as
 
 Componentes: V, S
 
 Duración: Instantáneo
 
-Este conjuro infunde vitalidad en las plantas. El tiempo
+un
+
+r       Este conjuro infunde vitalidad en las plantas. El tiempo
 
 de lanzamiento que uses determina si el conjuro tiene
 
-un efecto de sobrecrecimiento o de enriquecimiento,
+l       un efecto de sobrecrecimiento o de enriquecimiento,
 
-descritos a continuación.
+n       descritos a continuación.
+
+r el
+
+os
+
+s.
 
 Sobrecrecimiento. Elige un punto dentro del alcance.
 
@@ -4654,13 +4517,9 @@ comida al recolectarlas. Solo podrán beneficiarse de un
 
 crecimiento vegetal cada año.
 
-Y
-
-Cucmitto
-
 ---
 
-#### De Hielo Cuchillo de Hielo
+#### Cuchillo de Hielo
 *Conjuración de nivel 1 (druida, hechicero, mago)*
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** 18 m
@@ -4671,12 +4530,6 @@ Creas una esquirla de hielo y se la lanzas a una criatura
 
 dentro del alcance. Haz un ataque de conjuro a distancia
 
-del alcance. Las criaturas sanadas con este conjuro
-
-también se libran de los estados de cegadas, ensordecidas
-
-y envenenadas.
-
 contra el objetivo. Si acierta, el objetivo recibe 1d10 de
 
 daño perforante. Acierte o falle, el fragmento explotará.
@@ -4685,44 +4538,13 @@ El objetivo y todas las criaturas a 1,5 m menos de él
 
 deberán superar una tirada de salvación de Destreza
 
----
-
-#### Curar Heridas
-*Abjuración de nivel 1 (bardo, clérigo, druida, explorador,*
-
 orecibirán 2d6 de daño de frío.
 
-paladín)
+Con un espacio de conjuro de nivel superior. El daño de
 
 frío aumenta en 1d6 por cada nivel por encima de 1 que
 
 tenga el espacio.
-
-Alcance: Toque
-
-Con un espacio de conjuro de nivel superior. El daño de
-
-Tiempo de lanzamiento: Acción
-
-|
-
-Componentes: V, S
-
-|
-
-Una criatura a la que toques recupera una cantidad
-
-de puntos de golpe igual a 2d8 más tu modificador por
-
-aptitud mágica.
-
-Con un espacio de conjuro de nivel superior. La curación
-
-|
-
-]
-
-Duración: Instantáneo
 
 ---
 
@@ -4735,24 +4557,11 @@ Duración: Instantáneo
 
 Elige a una criatura que puedas ver dentro del alcance.
 
-aumenta en 2d8 por cada nivel por encima de 1 que tenga
-
-el espacio.
-
 Una energía positiva la recorre y hace que recupere
 
----
-
-#### Curar Heridas en Masa
-*Abjuración de nivel 5 (bardo, clérigo, druida)*
+70 puntos de golpe. El conjuro también elimina los estados
 
 de cegado, ensordecido y envenenado del objetivo.
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 18 m
-
-70 puntos de golpe. El conjuro también elimina los estados
 
 Con un espacio de conjuro de nivel superior. La curación
 
@@ -4764,6 +4573,60 @@ el espacio.
 
 #### Curar en Masa
 *Abjuración de nivel 9 (clérigo)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 18 m
+- **Componentes:** V, S
+- **Duración:** Instantáneo
+
+De ti brota una oleada de energía curativa que envuelve
+
+alas criaturas que te rodean. Haces recuperar hasta
+
+700 puntos de golpe, repartidos como tú escojas entre
+
+cualquier cantidad de criaturas que puedas ver dentro
+
+Cucmitto
+
+Y          DE HIELO
+
+del alcance. Las criaturas sanadas con este conjuro
+
+también se libran de los estados de cegadas, ensordecidas
+
+y envenenadas.
+
+---
+
+#### Curar Heridas
+*Abjuración de nivel 1 (bardo, clérigo, druida, explorador,*
+
+paladín)
+
+Tiempo de lanzamiento: Acción                                        |
+
+Alcance: Toque
+
+Componentes: V, S                                                    |
+
+Duración: Instantáneo
+
+Una criatura a la que toques recupera una cantidad
+
+de puntos de golpe igual a 2d8 más tu modificador por                |
+
+aptitud mágica.                                                      ]
+
+Con un espacio de conjuro de nivel superior. La curación
+
+aumenta en 2d8 por cada nivel por encima de 1 que tenga
+
+el espacio.
+
+---
+
+#### Curar Heridas en Masa
+*Abjuración de nivel 5 (bardo, clérigo, druida)*
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** 18 m
 - **Componentes:** V, S
@@ -4785,50 +4648,26 @@ aumenta en 1d8 por cada nivel por encima de 5 que tenga
 
 el espacio.
 
-De ti brota una oleada de energía curativa que envuelve
-
-alas criaturas que te rodean. Haces recuperar hasta
-
-700 puntos de golpe, repartidos como tú escojas entre
-
-cualquier cantidad de criaturas que puedas ver dentro
-
 ---
 
-#### Dañar Descarga de Fuego
+#### Dañar
 *Nigromancia de nivel 6 (clérigo)*
-
-Truco de evocación (hechicero, mago)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 18 m
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 36 m
-
-Componentes: V, S
-
-Componentes: V, S
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 18 m
+- **Componentes:** V, S
+- **Duración:** Instantáneo
 
 Desatas una magia virulenta sobre una criatura que
 
-Arrojas una mota de fuego a una criatura u objeto dentro
+puedas ver dentro del alcance. El objetivo hace una ti
 
-del alcance. Haz un ataque de conjuro a distancia contra
+de salvación de Constitución. Si la falla, sufre 14d6
 
-Duración: Instantáneo
+daño necrótico y sus puntos de golpe máximos se reduce
 
-puedas ver dentro del alcance. El objetivo hace una tirada
+en una cantidad igual al daño necrótico recibido. Si l
 
-de salvación de Constitución. Si la falla, sufre 14d6 de
-
-daño necrótico y sus puntos de golpe máximos se reducen
-
-en una cantidad igual al daño necrótico recibido. Si la
-
-supera, recibirá solo la mitad de daño. Este conjuro no
+supera, recibirá solo la mitad de daño. Este conjuro n
 
 puede reducir los puntos de golpe máximos del objetivo
 
@@ -4841,15 +4680,87 @@ a menos de 1.
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** 18 m
 - **Componentes:** V, S, M (una pluma de cocatriz)
+- **Duración:** Concentración, hasta 1 minuto
+
+Intentas convertir en piedra a una criatura que puedas
+
+ver dentro del alcance. El objetivo hace una tirada de
+
+salvación de Constitución. Si la falla, tendrá el esta
+
+de apresado hasta que el conjuro termine. Si la supera
+
+su velocidad será O hasta el principio de tu siguiente
+
+turno. Los autómatas superan automáticamente la tirada
+
+de salvación.
+
+Un objetivo apresado realiza otra tirada de salvació
+
+de Constitución al final de cada uno de sus turnos. Si
+
+supera tres veces, el conjuro termina. Si la falla tre
+
+se convierte en piedra y sufre el estado de petrificad
+
+hasta que termine el conjuro. Los éxitos y los fallos
+
+tienen por qué ser consecutivos: lleva la cuenta de am
+
+hasta que el objetivo tenga tres de un mismo tipo.
+
+Si mantienes la concentración en este conjuro durant
+
+toda su duración posible, el objetivo tendrá el estado
+
+petrificado hasta que un conjuro restablecimiento mayo
+
+u otro efecto mágico similar le ponga fin.
+
+---
+
+#### Dedo de la Muerte
+*Nigromancia de nivel 7 (brujo, hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 18 m
+- **Componentes:** V, S
 - **Duración:** Instantáneo
 
-el objetivo. Si acierta, el objetivo recibe 1d10 de daño de
+Desatas una energía negativa hacia una criatura que
 
-fuego. Los objetos inflamables a los que acierte el conjuro
+puedas ver dentro del alcance. El objetivo hace una ti
 
-empezarán a arder si nadie los lleva o viste.
+de salvación de Constitución; sufrirá 748 + 30 de daño
 
-Mejora de truco. El daño aumenta en 1d10 cuando
+necrótico si la falla o la mitad del daño si la supera
+
+Si un humanoide muere a causa de este conjuro, se
+
+alzará al principio de tu siguiente turno como un zomb
+
+(consulta el apéndice B) y seguirá tus órdenes verbale
+
+---
+
+#### Descarga de Fuego
+*Truco de evocación (hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 36 m
+- **Componentes:** V, S
+- **Duración:** Instantáneo
+
+Arrojas una mota de fuego a una criatura u objeto dentro
+
+rada       del alcance. Haz un ataque de conjuro a distancia contra
+
+de         el objetivo. Si acierta, el objetivo recibe 1d10 de daño de
+
+n          fuego. Los objetos inflamables a los que acierte el conjuro
+
+a          empezarán a arder si nadie los lleva o viste.
+
+o            Mejora de truco. El daño aumenta en 1d10 cuando
 
 alcanzas los niveles 5 (210), 11 (3d10) y 17 (4d10).
 
@@ -4858,77 +4769,51 @@ alcanzas los niveles 5 (210), 11 (3d10) y 17 (4d10).
 #### Descarga Sobrenatural
 *Truco de evocación (brujo)*
 - **Tiempo de lanzamiento:** Acción
-- **Alcance:** 36m
-
-*
-
-Componentes: V, S
-
-Duración: Instantáneo
+- **Alcance:** 36m    *
+- **Componentes:** V, S
+- **Duración:** Instantáneo
 
 Lanzas un rayo de energía chisporroteante. Haz un ataque
 
-Intentas convertir en piedra a una criatura que puedas
-
-ver dentro del alcance. El objetivo hace una tirada de
-
 de conjuro a distancia contra una criatura u objeto dentro
-
-de apresado hasta que el conjuro termine. Si la supera,
-
-su velocidad será O hasta el principio de tu siguiente
-
-turno. Los autómatas superan automáticamente la tirada
-
-Mejora de truco. El conjuro crea dos rayos a nivel 5,
-
-salvación de Constitución. Si la falla, tendrá el estado
 
 del alcance. Si acierta, el objetivo recibe 1d10 de daño de
 
-fuerza.
+do         fuerza.
+
+,            Mejora de truco. El conjuro crea dos rayos a nivel 5,
 
 tres rayos a nivel 11 y cuatro rayos a nivel 17. Puedes
-
-de salvación.
 
 dirigir los rayos al mismo objetivo o a objetivos distintos.
 
 Realiza una tirada de ataque por separado para cada rayo.
 
-de Constitución al final de cada uno de sus turnos. Si la
+n
 
-supera tres veces, el conjuro termina. Si la falla tres veces,
+la
 
-Deseo
+s veces,   Deseo
 
-Un objetivo apresado realiza otra tirada de salvación
+a          Conjuración de nivel 9 (hechicero, mago)
 
-se convierte en piedra y sufre el estado de petrificada
-
-hasta que termine el conjuro. Los éxitos y los fallos no
-
-tienen por qué ser consecutivos: lleva la cuenta de ambos
-
-hasta que el objetivo tenga tres de un mismo tipo.
-
-Si mantienes la concentración en este conjuro durante
-
-toda su duración posible, el objetivo tendrá el estado de
-
-petrificado hasta que un conjuro restablecimiento mayor
-
-u otro efecto mágico similar le ponga fin.
+no
 
 Tiempo de lanzamiento: Acción
+
+bos
 
 Alcance: Lanzador
 
 Componentes: V
 
+e
+
 Duración: Instantáneo
 
-Deseo es el conjuro más poderoso que puede lanzar un
+de
+
+r          Deseo es el conjuro más poderoso que puede lanzar un
 
 mortal. Solo con decirlo en voz alta, puedes alterar la
 
@@ -4936,41 +4821,13 @@ propia realidad.
 
 El uso básico de este conjuro es duplicar cualquier otro
 
-DEDO DE LA MUERTE
-
 conjuro de nivel 8 o inferior. Si lo usas de esta forma,
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 18 m
-
-simplemente surte efecto.
-
-Nigromancia de nivel 7 (brujo, hechicero, mago)
-
-Componentes: V, S
-
-Duración: Instantáneo
-
-Desatas una energía negativa hacia una criatura que
-
-puedas ver dentro del alcance. El objetivo hace una tirada
-
-de salvación de Constitución; sufrirá 748 + 30 de daño
-
-necrótico si la falla o la mitad del daño si la supera.
-
-Si un humanoide muere a causa de este conjuro, se
-
-alzará al principio de tu siguiente turno como un zombi
-
-(consulta el apéndice B) y seguirá tus órdenes verbales.
-
-Conjuración de nivel 9 (hechicero, mago)
 
 no necesitas cumplir ningún requisito de dicho conjuro,
 
 incluido cualquier componente costoso. El conjuro
+
+simplemente surte efecto.
 
 Como alternativa, puedes crear uno de los siguientes
 
@@ -4980,11 +4837,19 @@ Creación de objetos. Creas un objeto con un valor de
 
 hasta 25 000 po que no sea un objeto mágico. El objeto
 
+rada
+
 no puede medir más de 90 m en cualquier dimensión
 
 y aparecerá en un espacio sin ocupar que puedas ver
 
+.
+
 sobre el suelo.
+
+i
+
+s.
 
 Curación instantánea. Permites que hasta veinte
 
@@ -4993,14 +4858,6 @@ criaturas que puedas ver y tú recuperéis todos los
 puntos de golpe y pones fin a todos los efectos que
 
 sufráis descritos en el conjuro restablecimiento mayor.
-
-y haciendo únicamente actividades ligeras, tu tiempo de
-
-recuperación restante se reduce en 2 días. Por último,
-
-hay un 33 % de probabilidad de que no puedas volver
-
-a lanzar nunca deseo si sufres esta tensión.
 
 Resistencia. Concedes resistencia a un tipo de daño
 
@@ -5110,6 +4967,14 @@ tu puntuación de Fuerza se convierte en 3 durante
 
 2d4 días. Por cada uno de esos días que pases descansando
 
+y haciendo únicamente actividades ligeras, tu tiempo de
+
+recuperación restante se reduce en 2 días. Por último,
+
+hay un 33 % de probabilidad de que no puedas volver
+
+a lanzar nunca deseo si sufres esta tensión.
+
 ---
 
 #### Desintegrar
@@ -5205,24 +5070,12 @@ decidirá su actitud hacia ti.
 
 ---
 
-#### Desplazamiento Destierro
+#### Desplazamiento
 *Transmutación de nivel 3 (hechicero, mago)*
-
-Abjuración de nivel4 (brujo, clérigo, hechicero, mago, paladín)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: Lanzador
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 9 m
-
-Duración: 1 minuto
-
-Duración: Concentración, hasta 1 minuto
-
-Componentes: V, S
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Lanzador
+- **Componentes:** V, S
+- **Duración:** 1 minuto
 
 Tira 1d6 al final de cada uno de tus turnos hasta que el
 
@@ -5238,41 +5091,15 @@ sucede en el plano del que procedes, que se muestra en
 
 distintos tonos de gris, pero no puedes ver nada que esté
 
-Componentes: V, S, M (un pentáculo)
-
-Una criatura que puedas ver dentro del alcance deberá
-
-superar una tirada de salvación de Carisma o se
-
-teletransportará a un semiplano inofensivo hasta que
-
-termine el conjuro. Mientras permanezca allí, tendrá
-
-el estado de incapacitada. Cuando el conjuro termine,
-
-el objetivo reaparecerá en el espacio que abandonó o en
-
 a más de 18 m. Solo puedes afectar a criaturas que estén
-
-el espacio sin ocupar más cercano si dicho espacio está
-
-ocupado.
-
-a ti. Las criaturas que estén en el otro plano no pueden
-
-aberración, un celestial, un elemental, un feérico o un
-
-capacidad especial que les permita percibir cosas en el
-
-a un lugar aleatorio de un plano (a elección de tu DM)
 
 en el Plano Etéreo y solo estas criaturas te pueden afectar
 
-Si el conjuro dura 1 minuto y el objetivo es una
+a ti. Las criaturas que estén en el otro plano no pueden
 
 percibirte en el Plano Etéreo a menos que tengan una
 
-infernal, no regresará. En vez de ello, se teletransportará
+capacidad especial que les permita percibir cosas en el
 
 Plano Etéreo.
 
@@ -5280,24 +5107,20 @@ Al principio de tu siguiente turno, y si el conjuro
 
 acaba mientras estás en el Plano Etéreo, volverás al
 
-relacionado con su tipo de criatura.
-
-en ese alcance, aparecerás en el espacio sin ocupar más
-
-DETECTAR EL BIEN Y EL MAL
-
 otro plano y aparecerás en un espacio sin ocupar de tu
 
 elección que puedas ver a 3 m o menos del espacio que
 
 hayas abandonado. Si no hay ningún espacio sin ocupar
 
+en ese alcance, aparecerás en el espacio sin ocupar más
+
 cercano.
 
 ---
 
 #### Desplazamiento Entre Planos
-*Conjuración de nivel 7 (brujo, clérigo, druida, hechicero, mago)*
+*Conjuración de nivel 7 (brujo, clérigo, druida, hechicero, m*
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** Toque
 - **Componentes:** V, S, M (una vara de metal con forma de
@@ -5336,21 +5159,54 @@ has transportado, aparecerán en los espacios sin ocupar
 
 más cercanos a él.
 
+---
+
+#### Destierro
+*Abjuración de nivel4 (brujo, clérigo, hechicero, mago, paladín)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 9 m
+- **Componentes:** V, S, M (un pentáculo)
+- **Duración:** Concentración, hasta 1 minuto
+
+Una criatura que puedas ver dentro del alcance deberá
+
+superar una tirada de salvación de Carisma o se
+
+teletransportará a un semiplano inofensivo hasta que
+
+termine el conjuro. Mientras permanezca allí, tendrá
+
+el estado de incapacitada. Cuando el conjuro termine,
+
+el objetivo reaparecerá en el espacio que abandonó o en
+
+el espacio sin ocupar más cercano si dicho espacio está
+
+ocupado.
+
+Si el conjuro dura 1 minuto y el objetivo es una
+
+aberración, un celestial, un elemental, un feérico o un
+
+infernal, no regresará. En vez de ello, se teletransportará
+
+a un lugar aleatorio de un plano (a elección de tu DM)
+
+relacionado con su tipo de criatura.
+
 Con un espacio de conjuro de nivel superior. Puedes
 
 hacer objetivo a una criatura adicional por cada nivel
 
 por encima de 4 que tenga el espacio.
 
-Adivinación de nivel1 (clérigo, paladín)
+---
 
-Tiempo de lanzamiento: Acción
-
-Alcance: Lanzador
-
-Componentes: V, S
-
-Duración: Concentración, hasta 10 minutos
+#### Detectar el Bien y el Mal
+*Adivinación de nivel1 (clérigo, paladín)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Lanzador
+- **Componentes:** V, S
 
 Hasta que el conjuro termine, percibes la ubicación de
 
@@ -5464,6 +5320,39 @@ terminará.
 
 ---
 
+#### Detectar Trampas
+*Adivinación de nivel 2 (clérigo, druida, explorador)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 36 m
+- **Componentes:** V, S
+- **Duración:** Instantáneo
+
+Detectas cualquier trampa dentro del alcance que esté
+
+en tu línea de visión. En lo que a este conjuro respecta,
+
+una trampa incluye cualquier objeto o mecanismo
+
+que fuese creado para causar un daño u otro peligro.
+
+Por tanto, el conjuro detectaría los conjuros alarma
+
+y glifo custodio o una trampa de pozo mecánica, pero
+
+no revelaría una debilidad natural del suelo, un techo
+
+inestable o un socavón oculto.
+
+Este conjuro alerta de la existencia de una trampa,
+
+pero no te indica su ubicación. Aun así, descubres la
+
+naturaleza general del peligro que supone una trampa
+
+que detectas.
+
+---
+
 #### Detectar Venenos y Enfermedades
 *Adivinación de nivel 1 (clérigo, druida, explorador, paladín)*
 - **Tiempo de lanzamiento:** Acción o ritual
@@ -5525,46 +5414,9 @@ profundidad ni salir de él si se crea en el fondo de este.
 
 Si te alejas más de 30 m del disco (normalmente,
 
----
-
-#### Detectar Trampas
-*Adivinación de nivel 2 (clérigo, druida, explorador)*
-
 porque no pueda superar un obstáculo para seguirte),
 
 el conjuro termina.
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 36 m
-
-Componentes: V, S
-
-Duración: Instantáneo
-
-Detectas cualquier trampa dentro del alcance que esté
-
-en tu línea de visión. En lo que a este conjuro respecta,
-
-una trampa incluye cualquier objeto o mecanismo
-
-que fuese creado para causar un daño u otro peligro.
-
-Por tanto, el conjuro detectaría los conjuros alarma
-
-y glifo custodio o una trampa de pozo mecánica, pero
-
-no revelaría una debilidad natural del suelo, un techo
-
-inestable o un socavón oculto.
-
-Este conjuro alerta de la existencia de una trampa,
-
-pero no te indica su ubicación. Aun así, descubres la
-
-naturaleza general del peligro que supone una trampa
-
-que detectas.
 
 SE PLEDA
 
@@ -5576,38 +5428,20 @@ FLOTANTE DE TENSER.
 
 #### Disfrazarse
 *Ilusionismo de nivel 1 (bardo, hechicero, mago)*
-
-Abjuración de nivel 5 (clérigo, paladín)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: Lanzador
-
-Tiempo de lanzamiento: Acción
-
-Alcance: Lanzador
-
-Componentes: V, S
-
-Duración: 1 hora
-
-Componentes: V, S, M (plata y hierro en polvo)
-
-Duración: Concentración, hasta 1 minuto
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Lanzador
+- **Componentes:** V, S
+- **Duración:** 1 hora
 
 Haces que tu aspecto (incluyendo tu vestimenta,
 
-Hasta que termine el conjuro, celestiales, elementales,
+armadura, armas y otras posesiones que lleves contigo)
 
 parezca diferente hasta que el conjuro termine. Puedes
 
-en las tiradas de ataque contra ti. Puedes poner fin al conjuro
-
-armadura, armas y otras posesiones que lleves contigo)
-
 aparentar tener una altura 30 cm mayor o menor y una
 
-complexión más pesada o ligera. Debes adoptar una forma
+complexión más pesada o ligera. Debes adoptar una form
 
 que tenga la misma configuración de miembros que tú.
 
@@ -5617,7 +5451,7 @@ quieras de tu aspecto.
 
 Los cambios realizados por este conjuro pueden
 
-descubrirse mediante una inspección física. Por ejemplo,
+descubrirse mediante una inspección física. Por ejempl
 
 si usas este conjuro para añadir un sombrero a tu
 
@@ -5625,7 +5459,7 @@ vestimenta, los objetos atravesarán el sombrero
 
 y cualquiera que lo toque no sentirá nada.
 
-Para darse cuenta de que te has disfrazado, una criatura
+Para darse cuenta de que te has disfrazado, una cria
 
 debe emplear la acción de estudiar para inspeccionar
 
@@ -5633,13 +5467,24 @@ tu apariencia y superar una prueba de Inteligencia
 
 (Investigación) contra tu CD de salvación de conjuros.
 
-DISIPAR EL BIEN Y EL MAL
+---
+
+#### Disipar el Bien y el Mal
+*Abjuración de nivel 5 (clérigo, paladín)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Lanzador
+- **Componentes:** V, S, M (plata y hierro en polvo)
+- **Duración:** Concentración, hasta 1 minuto
+
+Hasta que termine el conjuro, celestiales, elementales,
 
 feéricos, infernales y muertos vivientes tendrán desventaja
 
+en las tiradas de ataque contra ti. Puedes poner fin al conjuro
+
 anticipadamente si usas cualquiera de las siguientes
 
-funciones especiales.
+a      funciones especiales.
 
 Despido. Como acción de magia, haces objetivo a una
 
@@ -5649,7 +5494,7 @@ uno de los tipos de criatura anteriores. El objetivo
 
 deberá superar una tirada de salvación de Carisma o será
 
-devuelto a su plano natal si no está allí ya. Si no están
+o,     devuelto a su plano natal si no está allí ya. Si no están
 
 en su plano natal, los muertos vivientes son enviados al
 
@@ -5657,7 +5502,7 @@ Páramo Sombrío, y los feéricos, a los Parajes Feéricos.
 
 Romper encantamiento. Como acción de magia,
 
-tocas a una criatura que tenga los estados de asustada
+tura   tocas a una criatura que tenga los estados de asustada
 
 o hechizada o esté poseída por una o más criaturas de los
 
@@ -5665,50 +5510,52 @@ tipos anteriores. La criatura objetivo deja de estar poseída,
 
 asustada o hechizada por dichas criaturas.
 
+---
+
+#### Disipar Magia
+*Abjuración de nivel 3 (bardo, brujo, clérigo, druida, explor*
+
+hechicero, mago, paladín)
+
+Tiempo de lanzamiento: Acción
+
+Alcance: 36 m
+
+Componentes: V, S
+
+Duración: Instantáneo
+
+Elige una criatura, un objeto o un efecto mágico dentro
+
+del alcance. Cualquier conjuro activo de nivel 3 o inferior
+
+presente en el objetivo termina. Para cada conjuro activo
+
+de nivel 4 o superior, haz una prueba de característica
+
+usando tu aptitud mágica (CD 10 más el nivel de ese
+
+conjuro). Si superas la tirada, el conjuro termina.
+
+Con un espacio de conjuro de nivel superior. Disipas
+
+automáticamente un conjuro sobre el objetivo cuyo nivel
+
+sea menor o igual al nivel del espacio de conjuro que
+
+hayas utilizado.
+
 Una CLÉRIGA TIEFLING LANZA DISIPAR EL
 
 BIEN Y EL MAL PARA EXPULSAR UN ESPÍRITU
 
 MALIGNO DE UNA INOCENTE POSEÍDA.
 
----
+DOMINAR BESTIA
 
-#### Disipar Magia Dominar Bestia
-*Abjuración de nivel 3 (bardo, brujo, clérigo, druida, explorador,*
-
-Encantamiento de nivel 4 (druida, explorador, hechicero)
-
-hechicero, mago, paladín)
+ador,   Encantamiento de nivel 4 (druida, explorador, hechicero)
 
 Tiempo de lanzamiento: Acción
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 36 m
-
-Componentes: V, S
-
-Duración: Instantáneo
-
-Elige una criatura, un objeto o un efecto mágico dentro
-
-del alcance. Cualquier conjuro activo de nivel 3 o inferior
-
-presente en el objetivo termina. Para cada conjuro activo
-
-de nivel 4 o superior, haz una prueba de característica
-
-usando tu aptitud mágica (CD 10 más el nivel de ese
-
-conjuro). Si superas la tirada, el conjuro termina.
-
-Con un espacio de conjuro de nivel superior. Disipas
-
-automáticamente un conjuro sobre el objetivo cuyo nivel
-
-sea menor o igual al nivel del espacio de conjuro que
-
-hayas utilizado.
 
 Alcance: 18 m
 
@@ -5752,153 +5599,36 @@ Puedes ordenarle al objetivo que lleve a cabo reacciones,
 
 pero para ello deberás usar tu propia reacción.
 
-Con un espacio de conjuro de nivel superior. Tu concentración puede durar más con un espacio de conjuro de
+Con un espacio de conjuro de nivel superior. Tu concen-
+
+tración puede durar más con un espacio de conjuro de
 
 nivel 5 (hasta 10 minutos), 6 (hasta 1 hora) o 7 o más
 
 (hasta 8 horas).
 
-CAPÍTULO 7
-
-| CONJUROS
+CAPÍTULO 7       | CONJUROS
 
 ---
 
-#### Disipar Magia Dominar Bestia
-*Abjuración de nivel 3 (bardo, brujo, clérigo, druida, explorador,*
-
-Encantamiento de nivel 4 (druida, explorador, hechicero)
-
-hechicero, mago, paladín)
-
-Tiempo de lanzamiento: Acción
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 36 m
-
-Componentes: V, S
-
-Duración: Instantáneo
-
-Elige una criatura, un objeto o un efecto mágico dentro
-
-del alcance. Cualquier conjuro activo de nivel 3 o inferior
-
-presente en el objetivo termina. Para cada conjuro activo
-
-de nivel 4 o superior, haz una prueba de característica
-
-usando tu aptitud mágica (CD 10 más el nivel de ese
-
-conjuro). Si superas la tirada, el conjuro termina.
-
-Con un espacio de conjuro de nivel superior. Disipas
-
-automáticamente un conjuro sobre el objetivo cuyo nivel
-
-sea menor o igual al nivel del espacio de conjuro que
-
-hayas utilizado.
-
-Alcance: 18 m
-
-Componentes: V, S
-
-Duración: Concentración, hasta 1 minuto
-
-Una bestia que puedas ver dentro del alcance deberá
-
-superar una tirada de salvación de Sabiduría o tendrá
-
-el estado de hechizada hasta que termine el conjuro.
-
-El objetivo tiene ventaja en la tirada si está luchando
-
-contra ti o tus aliados. Siempre que reciba daño, repetirá
-
-la tirada de salvación y, si tiene éxito, se librará del
-
-conjuro.
-
-Tendrás un vínculo telepático con el objetivo hechizado
-
-mientras estéis en el mismo plano de existencia. En tu
-
-turno, puedes usar este vínculo para dar órdenes al
-
-objetivo (no requiere acción), como “ataca a esa criatura”,
-
-“muévete hacia allí” o “tráeme ese objeto”. En su turno,
-
-el objetivo hace todo lo posible por obedecer. Si lleva
-
-a cabo una orden y no recibe más instrucciones de
-
-tu parte, actúa y se mueve libremente y se centra en
-
-protegerse.
-
-Puedes ordenarle al objetivo que lleve a cabo reacciones,
-
-pero para ello deberás usar tu propia reacción.
-
-Con un espacio de conjuro de nivel superior. Tu concentración puede durar más con un espacio de conjuro de
-
-nivel 5 (hasta 10 minutos), 6 (hasta 1 hora) o 7 o más
-
-(hasta 8 horas).
-
-CAPÍTULO 7
-
-| CONJUROS
-
----
-
-#### Dominar Monstruo Don de Lenguas
+#### Dominar Monstruo
 *Encantamiento de nivel 8 (bardo, brujo, hechicero, mago)*
-
-Adivinación de nivel 3 (bardo, brujo, clérigo, hechicero, mago)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 18 m
-
-Tiempo de lanzamiento: Acción
-
-Alcance: Toque
-
-Componentes: V, S
-
-Componentes: V, M (un zigurat en miniatura)
-
-Duración: Concentración, hasta 1 hora
-
-Duración: 1 hora
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 18 m
+- **Componentes:** V, S
+- **Duración:** Concentración, hasta 1 hora
 
 Una criatura que puedas ver dentro del alcance deberá
 
 superar una tirada de salvación de Sabiduría o tendrá
 
-Este conjuro permite a la criatura que toques comprender
-
-cualquier idioma hablado que oiga o lengua de signos que
-
 el estado de hechizada hasta que termine el conjuro.
 
 El objetivo tiene ventaja en la tirada si está luchando
 
-vea. Asimismo, cuando el objetivo se comunica oralmente
-
-la tirada de salvación y, si tiene éxito, se librará del
-
-o lo ve signar.
-
 contra ti o tus aliados. Siempre que reciba daño, repetirá
 
-o mediante signos, cualquier criatura que conozca al
-
-menos un idioma podrá entenderlo si lo escucha hablar
+la tirada de salvación y, si tiene éxito, se librará del
 
 conjuro.
 
@@ -5920,39 +5650,13 @@ tu parte, actúa y se mueve libremente y se centra en
 
 protegerse.
 
----
-
-#### Dormir
-*Encantamiento de nivel 1 (bardo, hechicero, mago)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** 18 m
-- **Componentes:** V, S, M (una pizca de arena o pétalos
-
-de rosa)
-
-Duración: Concentración, hasta 1 minuto
-
 Puedes ordenarle al objetivo que lleve a cabo reacciones,
 
 pero para ello deberás usar tu propia reacción.
 
-Todas las criaturas de tu elección en una esfera de 1,5 m
+Con un espacio de conjuro de nivel superior. Tu concen-
 
 tración puede durar más con un espacio de conjuro de
-
-el estado de incapacitadas hasta el final de su siguiente
-
-turno, momento en el que deberán repetir la tirada de
-
-salvación. Si un objetivo falla la segunda tirada, tendrá
-
-el estado de inconsciente hasta que termine el conjuro.
-
-El conjuro termina sobre un objetivo si recibe daño
-
-o si alguien a 1,5 m o menos de él emplea una acción
-
-Con un espacio de conjuro de nivel superior. Tu concen-
 
 nivel 9 (hasta 8 horas).
 
@@ -6009,9 +5713,56 @@ conjuro de nivel 6 (hasta 10 minutos), 7 (hasta 1 hora)
 
 u 8 o más (hasta 8 horas).
 
+---
+
+#### Don de Lenguas
+*Adivinación de nivel 3 (bardo, brujo, clérigo, hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Toque
+- **Componentes:** V, M (un zigurat en miniatura)
+- **Duración:** 1 hora
+
+Este conjuro permite a la criatura que toques comprender
+
+cualquier idioma hablado que oiga o lengua de signos que
+
+vea. Asimismo, cuando el objetivo se comunica oralmente
+
+o mediante signos, cualquier criatura que conozca al
+
+menos un idioma podrá entenderlo si lo escucha hablar
+
+o lo ve signar.
+
+---
+
+#### Dormir
+*Encantamiento de nivel 1 (bardo, hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 18 m
+- **Componentes:** V, S, M (una pizca de arena o pétalos
+
+de rosa)
+
+Duración: Concentración, hasta 1 minuto
+
+Todas las criaturas de tu elección en una esfera de 1,5 m
+
 de radio centrada en un punto dentro del alcance deben
 
 superar una tirada de salvación de Sabiduría o tendrán
+
+el estado de incapacitadas hasta el final de su siguiente
+
+turno, momento en el que deberán repetir la tirada de
+
+salvación. Si un objetivo falla la segunda tirada, tendrá
+
+el estado de inconsciente hasta que termine el conjuro.
+
+El conjuro termina sobre un objetivo si recibe daño
+
+o si alguien a 1,5 m o menos de él emplea una acción
 
 para zarandearlo y poner fin al efecto del conjuro.
 
@@ -6056,20 +5807,11 @@ de 9 m de él.
 
 ---
 
-#### Dulce Descanso Embelesar
+#### Dulce Descanso
 *Nigromancia de nivel 2 (clérigo, mago, paladín)*
-
-Encantamiento de nivel 2 (bardo, brujo)
-
-Tiempo de lanzamiento: Acción o ritual
-
-Alcance: Toque
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 18 m
-
-Componentes: V, S, M (2 piezas de cobre, que se consumen
+- **Tiempo de lanzamiento:** Acción o ritual
+- **Alcance:** Toque
+- **Componentes:** V, S, M (2 piezas de cobre, que se consumen
 
 como parte del conjuro)
 
@@ -6077,37 +5819,17 @@ Duración: 10 días
 
 Tocas un cadáver u otro tipo de restos mortales. Hasta
 
-Componentes: V, S
-
-Duración: Concentración, hasta 1 minuto
-
-Creas una serie de palabras encantadoras que provocan
-
-que una o más criaturas de tu elección a las que puedas
-
 que termine el conjuro, el objetivo está protegido de la
-
-ver dentro del alcance deban hacer una tirada de salvación
-
-El conjuro también amplía el tiempo máximo para
-
-Si la falla, el objetivo sufrirá un penalizador de -10 a las
 
 descomposición y no se puede convertir en un muerto
 
 viviente.
 
-de Sabiduría. Cualquier criatura contra la que luchéis
-
-tus aliados o tú superará automáticamente esta tirada.
+El conjuro también amplía el tiempo máximo para
 
 resucitar al objetivo, ya que los días que pasa bajo
 
 su influencia no cuentan para el límite de tiempo
-
-pruebas de Sabiduría (Percepción) y a la Percepción pasiva
-
-hasta que el conjuro termine.
 
 de conjuros como alzar a los muertos.
 
@@ -6117,31 +5839,12 @@ de conjuros como alzar a los muertos.
 *Truco de transmutación (druida, hechicero, mago)*
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** 9 m
-
-
-
----
-
-#### Encantar Animal
-*Encantamiento de nivel1 (bardo, druida, explorador)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** 9 m
 - **Componentes:** V, S
-- **Duración:** 24 horas
+- **Duración:** Instantáneo
 
 Controlas los elementos y creas uno de los siguientes
 
 efectos dentro del alcance:
-
-Haces objetivo a una bestia que puedas ver dentro del
-
-alcance. El objetivo deberá superar una tirada de salvación
-
-de Sabiduría o tendrá el estado de hechizado hasta que
-
-termine el conjuro. Si alguno de tus aliados o tú dañáis
-
-Duración: Instantáneo
 
 Esculpir los elementos. Haces que la tierra, arena, fuego,
 
@@ -6188,6 +5891,48 @@ que cubre superficies en una zona de 1,5 m de lado o haces
 que aparezca una sola palabra escrita con tu letra en una
 
 superficie de tierra o arena.
+
+---
+
+#### Embelesar
+*Encantamiento de nivel 2 (bardo, brujo)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 18 m
+- **Componentes:** V, S
+- **Duración:** Concentración, hasta 1 minuto
+
+Creas una serie de palabras encantadoras que provocan
+
+que una o más criaturas de tu elección a las que puedas
+
+ver dentro del alcance deban hacer una tirada de salvación
+
+de Sabiduría. Cualquier criatura contra la que luchéis
+
+tus aliados o tú superará automáticamente esta tirada.
+
+Si la falla, el objetivo sufrirá un penalizador de -10 a las
+
+pruebas de Sabiduría (Percepción) y a la Percepción pasiva
+
+hasta que el conjuro termine.
+
+---
+
+#### Encantar Animal
+*Encantamiento de nivel1 (bardo, druida, explorador)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 9 m
+- **Componentes:** V, S, M (unas migajas de comida)
+- **Duración:** 24 horas
+
+Haces objetivo a una bestia que puedas ver dentro del
+
+alcance. El objetivo deberá superar una tirada de salvación
+
+de Sabiduría o tendrá el estado de hechizado hasta que
+
+termine el conjuro. Si alguno de tus aliados o tú dañáis
 
 al objetivo, el conjuro termina.
 
@@ -6241,13 +5986,13 @@ FORMAS INSPIRADAS EN LOS MAGOS
 
 QUE LOS CONJURAN.
 
-Conjuración de nivel 1 (mago)
+---
 
-Tiempo de lanzamiento: 1 hora o un ritual
-
-Alcance: 3 m
-
-Componentes: V, S, M (incienso para quemar que valga al
+#### Encontrar Familiar
+*Conjuración de nivel 1 (mago)*
+- **Tiempo de lanzamiento:** 1 hora o un ritual
+- **Alcance:** 3 m
+- **Componentes:** V, S, M (incienso para quemar que valga a
 
 menos 10 po, que se consume como parte del conjuro)
 
@@ -6259,9 +6004,59 @@ adopta una forma animal de tu elección: araña, búho,
 
 comadreja, cuervo, gato, halcón, lagarto, murciélago,
 
-pulpo, rana, rata u otra bestia con un valor de desafío
+pulpo, rana, rata u otra bestia con un valor de desafí
 
 de O. El familiar, que aparecerá en un espacio sin
+
+ocupar dentro del alcance, tiene el perfil de la forma
+
+elegida (consulta el apéndice B), aunque es un celesti
+
+un feérico o un infernal (a tu elección) en vez de una
+
+bestia. Tu familiar actúa con independencia de ti, per
+
+obedece tus órdenes.
+
+Conexión telepática. Mientras tu familiar esté a 30
+
+o menos de ti, puedes comunicarte con él telepáticamen
+
+Además, como acción adicional, puedes ver a través de
+
+sus ojos y escuchar lo que oiga hasta el principio de
+
+siguiente turno, y también obtienes los beneficios de
+
+cualquier sentido especial que tenga.
+
+Por último, cuando lances un conjuro con un alcance
+
+de toque, puedes hacer que tu familiar sea quien toque
+
+al objetivo. Tu familiar debe estar a 30 m o menos de
+
+y debe usar una reacción para tocar al objetivo cuando
+
+lances el conjuro.
+
+Combate. El familiar se considera un aliado para tus
+
+aliados y para ti, tira su propia iniciativa y actúa e
+
+propio turno. Un familiar no puede atacar, pero puede
+
+realizar otras acciones de manera normal.
+
+276   CAPÍTULO
+
+7 | CONJUROS
+
+Desaparición del familiar. Si los puntos de golpe del
+
+familiar se reducen a O, desaparecerá y reaparecerá después
+
+de que vuelvas a lanzar este conjuro. Como acción de magia,
 
 puedes hacer que el familiar se retire temporalmente a una
 
@@ -6269,7 +6064,7 @@ dimensión de bolsillo. Como alternativa, puedes hacer
 
 que se desvanezca para siempre. Como acción de magia
 
-mientras esté desaparecido temporalmente, puedes hacer
+l      mientras esté desaparecido temporalmente, puedes hacer
 
 que reaparezca en un espacio sin ocupar a 9 m o menos de
 
@@ -6283,67 +6078,25 @@ Un solo familiar. No puedes tener más de un familiar al
 
 mismo tiempo. Si lanzas este conjuro mientras tengas un
 
-familiar, harás que adopte una nueva forma que cumpla
+o
 
-ocupar dentro del alcance, tiene el perfil de la forma
+familiar, harás que adopte una nueva forma que cumpla
 
 los requisitos.
 
-bestia. Tu familiar actúa con independencia de ti, pero
+al,
 
-ENGAÑAR
-
-elegida (consulta el apéndice B), aunque es un celestial,
-
-un feérico o un infernal (a tu elección) en vez de una
-
-obedece tus órdenes.
-
-Conexión telepática. Mientras tu familiar esté a 30 m
-
-o menos de ti, puedes comunicarte con él telepáticamente.
-
-Además, como acción adicional, puedes ver a través de
-
-sus ojos y escuchar lo que oiga hasta el principio de tu
-
-siguiente turno, y también obtienes los beneficios de
-
-cualquier sentido especial que tenga.
-
-Por último, cuando lances un conjuro con un alcance
-
-de toque, puedes hacer que tu familiar sea quien toque
-
-al objetivo. Tu familiar debe estar a 30 m o menos de ti
-
-y debe usar una reacción para tocar al objetivo cuando
-
-lances el conjuro.
-
-Combate. El familiar se considera un aliado para tus
-
-aliados y para ti, tira su propia iniciativa y actúa en su
-
-propio turno. Un familiar no puede atacar, pero puede
-
-realizar otras acciones de manera normal.
-
-de que vuelvas a lanzar este conjuro. Como acción de magia,
-
-CAPÍTULO
-
-7 | CONJUROS
+o      ENGAÑAR
 
 Ilusionismo de nivel 5 (bardo, brujo, mago)
 
-Tiempo de lanzamiento: Acción
+m      Tiempo de lanzamiento: Acción
 
-Alcance: Lanzador
+te.    Alcance: Lanzador
 
 Componentes: S
 
-Duración: Concentración, hasta 1 hora
+tu     Duración: Concentración, hasta 1 hora
 
 Obtienes el estado de invisible al mismo tiempo que un
 
@@ -6351,7 +6104,7 @@ doble ilusorio de ti aparece en tu sitio. El doble permanece
 
 hasta que termine el conjuro, pero la invisibilidad acaba
 
-de inmediato después de que hagas una tirada de ataque,
+ti     de inmediato después de que hagas una tirada de ataque,
 
 causes daño o lances un conjuro.
 
@@ -6359,31 +6112,15 @@ Como acción de magia, puedes hacer que tu doble
 
 ilusorio se mueva hasta el doble de tu velocidad y hacer
 
-que realice gestos, hable y se comporte del modo que
+n su   que realice gestos, hable y se comporte del modo que
 
 quieras. El doble es intangible e invulnerable.
 
-Puedes ver a través de sus ojos y oír con sus oídos como
-
-si estuvieras en su ubicación.
-
 MA
 
-ENCONTRAR FAMILIAR
+Puedes ver a través de sus ojos y oír con sus oídos como
 
-Desaparición del familiar. Si los puntos de golpe del
-
-familiar se reducen a O, desaparecerá y reaparecerá después
-
-z
-
-UN DRUIDA DRACÓNIDO EMPLEA
-
-ENMARAÑAR PARA DETENER A UNOS
-
-GNOLLS a”
-
-Unas plantas apresadoras surgen del suelo en un cuadrado
+si estuvieras en su ubicación.                                    z
 
 ---
 
@@ -6399,6 +6136,37 @@ Forjas un enlace telepático entre hasta ocho criaturas
 voluntarias de tu elección dentro del alcance y las vinculas
 
 psíquicamente unas con otras hasta que termine el conjuro.
+
+Las criaturas que no pueden comunicarse mediante idiomas
+
+no se ven afectadas.
+
+Hasta que el conjuro termine, los objetivos se pueden
+
+comunicar telepáticamente usando el enlace, tanto si
+
+comparten idioma como si no. Esta comunicación se
+
+puede producir a cualquier distancia, pero no se extiende
+
+a otros planos de existencia.
+
+---
+
+#### Enmarañar
+*Conjuración de nivel 1 (druida, explorador)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 27 m
+- **Componentes:** V, S
+- **Duración:** Concentración, hasta 1 minuto
+
+UN DRUIDA DRACÓNIDO EMPLEA
+
+ENMARAÑAR PARA DETENER A UNOS
+
+GNOLLS a”
+
+Unas plantas apresadoras surgen del suelo en un cuadrado
 
 de 6 m de lado dentro del alcance. Hasta que termine el
 
@@ -6420,37 +6188,12 @@ contra tu CD de salvación de conjuros. Si la supera, se
 
 liberará de las plantas y dejará de estar apresada por ellas.
 
-Las criaturas que no pueden comunicarse mediante idiomas
-
-no se ven afectadas.
-
-Hasta que el conjuro termine, los objetivos se pueden
-
-comunicar telepáticamente usando el enlace, tanto si
-
-comparten idioma como si no. Esta comunicación se
-
-puede producir a cualquier distancia, pero no se extiende
-
-a otros planos de existencia.
-
 ---
 
 #### Enredadera
 *Conjuración de nivel4 (druida, explorador)*
 - **Tiempo de lanzamiento:** Acción adicional
 - **Alcance:** 18 m
-- **Componentes:** V, S
-- **Duración:** Concentración, hasta 1 minuto
-
-
-
----
-
-#### Enmarañar
-*Conjuración de nivel 1 (druida, explorador)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** 27 m
 - **Componentes:** V, S
 - **Duración:** Concentración, hasta 1 minuto
 
@@ -6488,22 +6231,6 @@ de criaturas que puede agarrar la enredadera aumenta en
 
 uno por cada nivel por encima de 4 que tenga el espacio.
 
-Escupo
-
-Abjuración de nivel 1 (hechicero, mago)
-
-Tiempo de lanzamiento: Reacción, que llevas a cabo cuando
-
-te acierta una tirada de ataque o eres el objetivo del
-
-conjuro proyectil mágico
-
-Alcance: Lanzador
-
-Componentes: V, S
-
-Duración: 1 asalto
-
 ---
 
 #### Ensueño
@@ -6521,31 +6248,11 @@ toques o tú entraréis en un estado de trance y serviréis de
 
 mensajero onírico. Mientras esté en el trance, el mensajero
 
-Una barrera imperceptible de fuerza mágica te protege.
-
-Hasta el principio de tu siguiente turno, tienes un
-
-bonificador de +5 a la CA, incluido contra el ataque
-
-al que reacciona, y no recibes ningún daño del conjuro
-
-proyectil mágico.
-
----
-
-#### Escudo de Fe
-*Abjuración de nivel 1 (clérigo, paladín)*
-- **Tiempo de lanzamiento:** Acción adicional
-
 tendrá el estado de incapacitado y una velocidad de 0.
-
-Alcance: 18 m
 
 Si el objetivo está dormido, el mensajero aparece en sus
 
 sueños y puede conversar con él mientras siga dormido
-
-Duración: Concentración, hasta 10 minutos
 
 y hasta que termine el conjuro. El mensajero también
 
@@ -6555,37 +6262,21 @@ objetos y otras imágenes. El mensajero puede salir del
 
 trance en cualquier momento, lo que pondrá fin al conjuro.
 
-Componentes: V, S, M (un pergamino de plegarias)
-
-Un campo titilante envuelve a una criatura de tu elección
-
-dentro del alcance y le otorga un bonificador de +2 a la CA
-
-hasta que el conjuro termine.
-
-Al despertar, el objetivo recordará el sueño a la perfección.
+Al despertar, el objetivo recordará el sueño a la perfección
 
 Si el objetivo está despierto cuando lances el conjuro,
 
 el mensajero lo sabrá y podrá poner fin al trance (y al
 
-ESCUDO DE FUEGO
+conjuro) o esperar a que se duerma, momento en el cual
 
 entrará en sus sueños.
 
 Puedes hacer que el mensajero se le aparezca al objetivo
 
-Tiempo de lanzamiento: Acción
-
-Alcance: Lanzador
+como un ser aterrador. Si lo haces, el mensajero podrá
 
 entregar un mensaje de un máximo de 10 palabras y luego
-
-Duración: 10 minutos
-
-conjuro) o esperar a que se duerma, momento en el cual
-
-como un ser aterrador. Si lo haces, el mensajero podrá
 
 el objetivo hará una tirada de salvación de Sabiduría.
 
@@ -6602,7 +6293,7 @@ y sufrirá 3d6 de daño psíquico cuando se despierte.
 - **Componentes:** V, S, M (una pizca de hollín y sal)
 - **Duración:** 1 hora
 
-Hasta que el conjuro termine, entiendes el significado literal
+Hasta que el conjuro termine, entiendes el significado liter
 
 de las palabras que escuches o veas signadas en cualquier
 
@@ -6616,9 +6307,57 @@ Tardas aproximadamente 1 minuto en leer una página.
 
 Este conjuro no descifra mensajes secretos ni símbolos.
 
-Evocación de nivel 4 (druida, hechicero, mago)
+Escupo
 
-Componentes: V, S, M (una luciérnaga o una pizca de fósforo)
+Abjuración de nivel 1 (hechicero, mago)
+
+Tiempo de lanzamiento: Reacción, que llevas a cabo cuando
+
+te acierta una tirada de ataque o eres el objetivo del
+
+conjuro proyectil mágico
+
+Alcance: Lanzador
+
+Componentes: V, S
+
+Duración: 1 asalto
+
+Una barrera imperceptible de fuerza mágica te protege.
+
+Hasta el principio de tu siguiente turno, tienes un
+
+bonificador de +5 a la CA, incluido contra el ataque
+
+al que reacciona, y no recibes ningún daño del conjuro
+
+proyectil mágico.
+
+---
+
+#### Escudo de Fe
+*Abjuración de nivel 1 (clérigo, paladín)*
+- **Tiempo de lanzamiento:** Acción adicional
+- **Alcance:** 18 m        3
+- **Componentes:** V, S, M (un pergamino de plegarias)
+- **Duración:** Concentración, hasta 10 minutos
+
+Un campo titilante envuelve a una criatura de tu elección
+
+dentro del alcance y le otorga un bonificador de +2 a la CA
+
+hasta que el conjuro termine.
+
+.
+
+---
+
+#### Escudo de Fuego
+*Evocación de nivel 4 (druida, hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Lanzador
+- **Componentes:** V, S, M (una luciérnaga o una pizca de fósforo)
+- **Duración:** 10 minutos
 
 Unas llamas tenues envuelven tu cuerpo hasta que
 
@@ -6644,6 +6383,8 @@ daño de fuego de un escudo cálido o 2d8 de daño de frío
 
 de un escudo frío.
 
+al
+
 ---
 
 #### Escudriñar
@@ -6658,17 +6399,9 @@ llena de agua)
 
 Duración: Concentración, hasta 10 minutos
 
-EL CONJURO ESCUDRIÑAR AYUDA A UN BARDO GNOMO A ESTAR
-
-EN CONTACTO CON SU FAMILIA Y AMIGOS POR TODO EL MUNDO.
-
 Puedes ver y oír a una criatura de tu elección que esté en
 
-el conjuro. Si algo puede percibir el sensor, se mostrará
-
 el mismo plano de existencia que tú. El objetivo hace una
-
-como un orbe luminoso del tamaño aproximado de tu puño.
 
 tirada de salvación de Sabiduría, modificada en función
 
@@ -6682,23 +6415,51 @@ salvación; solo sabe que siente intranquilidad.
 
 Modificador
 
-Conocimiento sobre el objetivo
+de la tirad
 
-de la tirada
+Conocimiento sobre el objetivo                  de salvació
 
-de salvación
+De segundas (has oído hablar del objetivo)           +5
 
-De segundas (has oído hablar del objetivo)
+De primera mano (has conocido al objetivo)           +0
 
-+5
+Familiar (conoces bien al objetivo)                  -5
 
-De primera mano (has conocido al objetivo)
+Modificador
 
-+0
+de la tira
 
-Familiar (conoces bien al objetivo)
+¿Qué tienes del objetivo?                       de salvació
 
--5
+Dibujo u otro retrato                                -2
+
+Prenda u otra posesión                               -4
+
+Parte del cuerpo, mechón de pelo o trozo             -10
+
+de uña
+
+Si supera la tirada de salvación, el objetivo no se verá
+
+afectado y no podrás volver a usar este conjuro con él
+
+durante 24 horas.
+
+Si la falla, el conjuro crea un sensor invisible e intangi
+
+a 3 mo menos de él. Puedes ver y oír a través del sensor
+
+como si estuvieras allí. El sensor se mueve a la vez que el
+
+objetivo y permanece a 3 m o menos de él hasta que termine
+
+EL CONJURO ESCUDRIÑAR AYUDA A UN BARDO GNOMO A ESTAR
+
+EN CONTACTO CON SU FAMILIA Y AMIGOS POR TODO EL MUNDO.
+
+el conjuro. Si algo puede percibir el sensor, se mostrará
+
+como un orbe luminoso del tamaño aproximado de tu puño.
 
 En vez de hacer objetivo a una criatura, puedes elegir
 
@@ -6706,36 +6467,27 @@ una ubicación que hayas visto antes. Cuando lo hagas,
 
 el sensor aparecerá en ese lugar y no se moverá.
 
----
+ESFERA CONGELANTE DE OTILUKE
 
-#### Esfera Congelante de Otiluke
-*Evocación de nivel 6 (hechicero, mago)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** 90 m
-- **Componentes:** V, S, M (una esfera de cristal en miniatura)
-- **Duración:** Instantáneo
+a     Evocación de nivel 6 (hechicero, mago)
+
+n     Tiempo de lanzamiento: Acción
+
+Alcance: 90 m
+
+Componentes: V, S, M (una esfera de cristal en miniatura)
+
+Duración: Instantáneo
 
 Un globo glacial surge de ti y golpea un punto de tu elección
 
-Modificador
-
-de la tirada
-
-de salvación
-
 dentro del alcance, donde explota en una esfera de 18 m de
 
-Dibujo u otro retrato
+da    radio. Todas las criaturas situadas en la zona realizan una
 
--2
+n     tirada de salvación de Constitución; sufrirán 10d6 de daño
 
-Prenda u otra posesión
-
--4
-
-Parte del cuerpo, mechón de pelo o trozo
-
--10
+de frío si la fallan o la mitad del daño si la superan.
 
 Si el globo golpea una masa de agua, la congelará hasta
 
@@ -6749,82 +6501,41 @@ atrapadas en el hielo y tendrán el estado de apresadas.
 
 Una criatura atrapada puede utilizar una acción para
 
-¿Qué tienes del objetivo?
-
-de uña
-
-Si supera la tirada de salvación, el objetivo no se verá
-
-afectado y no podrás volver a usar este conjuro con él
-
-durante 24 horas.
-
-Si la falla, el conjuro crea un sensor invisible e intangible
-
-radio. Todas las criaturas situadas en la zona realizan una
-
-tirada de salvación de Constitución; sufrirán 10d6 de daño
-
-de frío si la fallan o la mitad del daño si la superan.
-
 hacer una prueba de Fuerza (Atletismo) contra tu CD
 
 de salvación de conjuros para liberarse.
 
-Puedes renunciar a lanzar el globo tras completar el
-
-a 3 mo menos de él. Puedes ver y oír a través del sensor
+ble     Puedes renunciar a lanzar el globo tras completar el
 
 conjuro. En ese caso, en tu mano aparecerá un globo de
 
-como si estuvieras allí. El sensor se mueve a la vez que el
-
-objetivo y permanece a 3 m o menos de él hasta que termine
+tamaño similar a un proyectil de honda que resulta frío
 
 al tacto. En cualquier momento, tú o una criatura a la que
-
-tamaño similar a un proyectil de honda que resulta frío
 
 UNA HECHICERA TIEFLING DESATA ESFERA
 
 VITRIÓLICA SOBRE UNOS NÓTICOS,
 
-le entregues el orbe podéis lanzarlo con la mano (hasta
+le entregues el orbe podéis lanzarlo con la mano (hast
 
-un alcance de 12 m) o arrojarlo con una honda (hasta el
+un alcance de 12 m) o arrojarlo con una honda (hasta e
 
-alcance normal de la honda). Se hará añicos al impactar
+alcance normal de la honda). Se hará añicos al impacta
 
-y causará el mismo efecto que el uso normal del conjuro.
-
-Con un espacio de conjuro de nivel superior. El daño
-
-aumenta en 1d6 por cada nivel por encima de 2 que tenga
-
-el espacio.
+y causará el mismo efecto que el uso normal del conjur
 
 También puedes dejar el orbe en el suelo sin hacerlo
 
-pedazos y, tras 1 minuto, explotará si nadie lo ha hecho
+pedazos y, tras 1 minuto, explotará si nadie lo ha hec
 
 estallar.
 
 Con un espacio de conjuro de nivel superior. El daño
 
-aumenta en 1d6 por cada nivel por encima de 6 que tenga
+aumenta en 1d6 por cada nivel por encima de 6 que teng
 
 el espacio.
-
----
-
-#### Esfera Elástica de Otiluke
-*Abjuración de nivel 4 (mago)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** 9 m
-- **Componentes:** V, S, M (una esfera de cristal)
-- **Duración:** Concentración, hasta 1 minuto
-
-
 
 ---
 
@@ -6836,6 +6547,58 @@ el espacio.
 - **Duración:** Concentración, hasta 1 minuto
 
 Creas una esfera de fuego de 1,5 m de diámetro en un
+
+espacio sin ocupar del suelo dentro del alcance, y dur
+
+hasta que termine el conjuro. Cualquier criatura que
+
+termine su turno a 1,5 m o menos de ella hará una tira
+
+de salvación de Destreza; sufrirá 2d6 de daño de fuego
+
+si la falla o la mitad de daño si la supera.
+
+Como acción adicional, puedes mover la esfera hasta
+
+9 m haciéndola rodar. Si mueves la esfera al espacio d
+
+criatura, esta hará la tirada de salvación contra la e
+
+que ya no podrá moverse más durante el turno.
+
+Cuando mueves la esfera, puedes llevarla por encima
+
+barreras de hasta 1,5 m de alto y hacer que salte huec
+
+de hasta 3 m de ancho. La esfera prende los objetos
+
+inflamables que toque y no lleve o vista nadie y emite
+
+brillante en un radio de 6 m y luz tenue otros 6 m más
+
+a          Con un espacio de conjuro de nivel superior. El daño
+
+l        aumenta en 1d6 por cada nivel por encima de 2 que tenga
+
+r        el espacio.
+
+o.
+
+ho       ESFERA ELÁSTICA DE OTILUKE
+
+Abjuración de nivel 4 (mago)
+
+Tiempo de lanzamiento: Acción
+
+a
+
+Alcance: 9 m
+
+Componentes: V, S, M (una esfera de cristal)
+
+Duración: Concentración, hasta 1 minuto
+
+Una esfera destellante encierra a una criatura u objeto
 
 Grande o más pequeño dentro del alcance. Una criatura
 
@@ -6851,61 +6614,33 @@ conjuros) puede atravesar la barrera en ninguna de sus
 
 direcciones, aunque una criatura que esté en la esfera
 
-espacio sin ocupar del suelo dentro del alcance, y durará
-
-hasta que termine el conjuro. Cualquier criatura que
-
-termine su turno a 1,5 m o menos de ella hará una tirada
-
-de salvación de Destreza; sufrirá 2d6 de daño de fuego
-
-puede respirar en su interior. La esfera es inmune a todo
-
-Como acción adicional, puedes mover la esfera hasta
-
-La esfera no pesa nada y tiene un tamaño justo como
-
-si la falla o la mitad de daño si la supera.
-
-9 m haciéndola rodar. Si mueves la esfera al espacio de una
-
-criatura, esta hará la tirada de salvación contra la esfera,
-
-que ya no podrá moverse más durante el turno.
-
-Cuando mueves la esfera, puedes llevarla por encima de
-
-barreras de hasta 1,5 m de alto y hacer que salte huecos
-
-de hasta 3 m de ancho. La esfera prende los objetos
-
-inflamables que toque y no lleve o vista nadie y emite luz
-
-brillante en un radio de 6 m y luz tenue otros 6 m más allá.
-
-Una esfera destellante encierra a una criatura u objeto
+ará      puede respirar en su interior. La esfera es inmune a todo
 
 el daño y una criatura o un objeto en su interior no puede
 
-sufrir daño por ataques o efectos que se originen en el
+da       sufrir daño por ataques o efectos que se originen en el
 
 exterior y tampoco puede dañar a nada que haya fuera
 
 de la esfera.
 
-para contener a la criatura o el objeto de su interior.
+La esfera no pesa nada y tiene un tamaño justo como
 
-Una criatura encerrada puede utilizar una acción para
+e una    para contener a la criatura o el objeto de su interior.
+
+sfera,   Una criatura encerrada puede utilizar una acción para
 
 empujar las paredes de la esfera y hacerla rodar a hasta
 
-la mitad de su velocidad. De forma similar, otras criaturas
+de       la mitad de su velocidad. De forma similar, otras criaturas
 
-pueden recoger la esfera y moverla.
+os       pueden recoger la esfera y moverla.
 
 Un conjuro desintegrar que haga objetivo a la esfera
 
-la destruirá, pero no dañará nada que haya dentro.
+luz     la destruirá, pero no dañará nada que haya dentro.
+
+allá.
 
 ---
 
@@ -6937,6 +6672,75 @@ Con un espacio de conjuro de nivel superior. El daño
 inicial aumenta en 2d4 por cada nivel por encima de 4 que
 
 tenga el espacio.
+
+---
+
+#### Espada de Mordenkainen
+*Evocación de nivel 7 (bardo, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 27 m
+- **Componentes:** V, S, M (una espada en miniatura que valga
+
+al menos 250 po)
+
+Duración: Concentración, hasta 1 minuto
+
+Creas una espada espectral que levitará dentro del alcance
+
+y durará hasta que termine el conjuro.
+
+Cuando aparezca la espada, puedes realizar un ataque
+
+de conjuro cuerpo a cuerpo contra un objetivo que se
+
+encuentre a 1,5 m o menos de ella. Si acierta, el objetivo
+
+recibe una cantidad de daño de fuerza igual a 4d12 más
+
+tu modificador por aptitud mágica.
+
+En tus turnos posteriores, puedes emplear una acción
+
+adicional para mover la espada hasta 9 m a un lugar que
+
+puedas ver y repetir el ataque contra el mismo objetivo
+
+u otro distinto.
+
+---
+
+#### Espejismo Arcano
+*Ilusionismo de nivel 7 (bardo, druida, mago)*
+- **Tiempo de lanzamiento:** 10 minutos
+- **Alcance:** Vista
+- **Componentes:** V, S
+- **Duración:** 10 días
+
+Haces que el terreno de una zona cuadrada de hasta
+
+1,5 km de lado tenga el aspecto, los sonidos, los olores
+
+e incluso las sensaciones de otro tipo de terreno. Podrías
+
+hacer que un campo abierto o una carretera se parezcan
+
+a un pantano, una colina, una grieta u otro tipo de terreno
+
+difícil o infranqueable. Se puede hacer que un estanque
+
+parezca una pradera cubierta de hierba, que un precipicio
+
+se aparezca como una suave cuesta o que un barranco
+
+pedregoso y estrecho se presente como una carretera
+
+amplia y lisa.
+
+De forma similar, puedes alterar el aspecto de las
+
+estructuras o añadir algunas donde no las hay. El conjuro
+
+no disfraza, oculta ni añade criaturas.
 
 La ilusión incluye elementos sonoros, visuales, táctiles
 
@@ -6973,48 +6777,13 @@ interactuar físicamente con ella.
 
 Unos espíritus protectores revolotean a tu alrededor en
 
----
-
-#### Espada de Mordenkainen
-*Evocación de nivel 7 (bardo, mago)*
-
 una emanación de 4,5 m hasta que el conjuro termine.
 
-Tiempo de lanzamiento: Acción
-
-Alcance: 27 m
+Si tu alineamiento es bueno o neutral, su forma espectral
 
 parece angelical o feérica (a tu elección). Si es malvado,
 
 su forma es infernal.
-
-Componentes: V, S, M (una espada en miniatura que valga
-
-al menos 250 po)
-
-Duración: Concentración, hasta 1 minuto
-
-Creas una espada espectral que levitará dentro del alcance
-
-y durará hasta que termine el conjuro.
-
-Cuando aparezca la espada, puedes realizar un ataque
-
-de conjuro cuerpo a cuerpo contra un objetivo que se
-
-encuentre a 1,5 m o menos de ella. Si acierta, el objetivo
-
-recibe una cantidad de daño de fuerza igual a 4d12 más
-
-tu modificador por aptitud mágica.
-
-En tus turnos posteriores, puedes emplear una acción
-
-adicional para mover la espada hasta 9 m a un lugar que
-
-puedas ver y repetir el ataque contra el mismo objetivo
-
-Si tu alineamiento es bueno o neutral, su forma espectral
 
 Cuando lanzas este conjuro, puedes elegir criaturas para
 
@@ -7042,48 +6811,14 @@ aumenta en 1d8 por cada nivel por encima de 3 que tenga
 
 el espacio.
 
-u otro distinto.
-
 ---
 
-#### Estallido Mágico Espejismo Arcano
-*Ilusionismo de nivel 7 (bardo, druida, mago)*
-- **Tiempo de lanzamiento:** 10 minutos
-- **Alcance:** Vista
+#### Estallido Mágico
+*Truco de evocación (hechicero)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 36 m
 - **Componentes:** V, S
-- **Duración:** 10 días
-
-Haces que el terreno de una zona cuadrada de hasta
-
-1,5 km de lado tenga el aspecto, los sonidos, los olores
-
-e incluso las sensaciones de otro tipo de terreno. Podrías
-
-hacer que un campo abierto o una carretera se parezcan
-
-a un pantano, una colina, una grieta u otro tipo de terreno
-
-difícil o infranqueable. Se puede hacer que un estanque
-
-parezca una pradera cubierta de hierba, que un precipicio
-
-se aparezca como una suave cuesta o que un barranco
-
-pedregoso y estrecho se presente como una carretera
-
-amplia y lisa.
-
-De forma similar, puedes alterar el aspecto de las
-
-Truco de evocación (hechicero)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 36 m
-
-Componentes: V, S
-
-Duración: Instantáneo
+- **Duración:** Instantáneo
 
 Lanzas energía mágica contra una criatura u objeto
 
@@ -7107,56 +6842,24 @@ Mejora de truco. El daño aumenta en 1d8 cuando
 
 alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).
 
-estructuras o añadir algunas donde no las hay. El conjuro
-
-no disfraza, oculta ni añade criaturas.
-
 ---
 
-#### Estática Sináptica Explosión Solar
+#### Estática Sináptica
 *Encantamiento de nivel 5 (bardo, brujo, hechicero, mago)*
-
-Evocación de nivel 8 (clérigo, druida, hechicero, mago)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 36 m
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 45 m
-
-Duración: Instantáneo
-
-Componentes: V, S, M (un trozo de heliolita)
-
-Duración: Instantáneo
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 36 m
+- **Componentes:** V, S
+- **Duración:** Instantáneo
 
 Una energía psíquica surge de ti hacia un punto dentro
 
-Una esfera de 18 m de radio centrada en un punto de tu
+del alcance. Todas las criaturas situadas en una esfera de
 
 6 m de radio centrada en ese punto hacen una tirada de
 
-luz solar. Todas las criaturas situadas en la esfera hacen
-
-Componentes: V, S
-
-del alcance. Todas las criaturas situadas en una esfera de
-
-elección dentro del alcance resplandece con una brillante
+salvación de Inteligencia; sufrirán 8d6 de daño psíquico
 
 si la fallan o la mitad del daño si la superan.
-
-una tirada de salvación de Constitución. Si la fallan,
-
-recibirán 12d6 daño radiante y tendrán el estado de
-
-a cualquier tirada de salvación de Constitución para
-
-de salvación de Constitución al final de cada uno de sus
-
-salvación de Inteligencia; sufrirán 8d6 de daño psíquico
 
 Si la falla, un objetivo también tendrá la mente nublada
 
@@ -7164,65 +6867,32 @@ durante 1 minuto. Durante ese tiempo, restará 1d6 a todas
 
 sus tiradas de ataque y pruebas de característica, así como
 
+a cualquier tirada de salvación de Constitución para
+
 mantener la concentración. El objetivo hará una tirada
 
 de salvación de Inteligencia al final de cada uno de sus
 
-cegadas durante 1 minuto. Si la superan, recibirán solo
-
-la mitad de daño.
-
-Una criatura cegada por este conjuro realiza una tirada
-
 turnos y, si tiene éxito, se librará del efecto.
 
-Este conjuro dispersa la oscuridad que haya en la zona
+---
 
-turnos y, si tiene éxito, se librará del efecto.
-
-y que fuera creada por un conjuro.
-
-EXCURSIÓN ETÉREA
-
-FABRICAR
-
-Tiempo de lanzamiento: Acción
-
-Alcance: Lanzador
-
-Tiempo de lanzamiento: 10 minutos
-
-Alcance: 36 m
-
-Conjuración de nivel 7 (bardo, brujo, clérigo, hechicero, mago)
-
-Componentes: V, S
-
-Duración: Hasta 8 horas
-
-Transmutación de nivel 4 (mago)
-
-Componentes: V, S
-
-Duración: Instantáneo
+#### Excursión Etérea
+*Conjuración de nivel 7 (bardo, brujo, clérigo, hechicero, ma*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Lanzador
+- **Componentes:** V, S
+- **Duración:** Hasta 8 horas
 
 Entras en las regiones fronterizas del Plano Etéreo,
-
-Conviertes materias primas en productos del mismo
-
-Durante este tiempo, puedes moverte en cualquier
-
-dirección. Si te mueves hacia arriba o hacia abajo,
-
-de cáñamo o prendas usando lino o lana.
-
-Elige materias primas que puedas ver dentro del
-
-alcance. Puedes fabricar un objeto Grande o más pequeño
 
 donde se superpone con tu plano actual. Permaneces
 
 en la Frontera Etérea hasta que termine el conjuro.
+
+Durante este tiempo, puedes moverte en cualquier
+
+dirección. Si te mueves hacia arriba o hacia abajo,
 
 cada metro de movimiento te cuesta 1 m adicional.
 
@@ -7250,9 +6920,80 @@ ocupado, te desplazarás al espacio sin ocupar más cercano
 
 y recibirás 2 de daño de fuerza por cada 30 cm que te
 
+hayas movido.
+
+Este conjuro termina al instante si lo lanzas mientras
+
+estás en el Plano Etéreo o en un plano que no tenga
+
+frontera con él, como alguno de los Planos Exteriores.
+
+Con un espacio de conjuro de nivel superior. Puedes
+
+hacer objetivo a hasta tres criaturas voluntarias
+
+(incluyéndote a ti) por cada nivel por encima de 7 que
+
+tenga el espacio. Estas criaturas deben estar a 3 m
+
+0 menos de ti cuando lances el conjuro.
+
+---
+
+#### Explosión Solar
+*Evocación de nivel 8 (clérigo, druida, hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 45 m
+- **Componentes:** V, S, M (un trozo de heliolita)
+- **Duración:** Instantáneo
+
+Una esfera de 18 m de radio centrada en un punto de tu
+
+elección dentro del alcance resplandece con una brillante
+
+luz solar. Todas las criaturas situadas en la esfera hacen
+
+una tirada de salvación de Constitución. Si la fallan,
+
+recibirán 12d6 daño radiante y tendrán el estado de
+
+cegadas durante 1 minuto. Si la superan, recibirán solo
+
+la mitad de daño.
+
+Una criatura cegada por este conjuro realiza una tirada
+
+de salvación de Constitución al final de cada uno de sus
+
+turnos y, si tiene éxito, se librará del efecto.
+
+Este conjuro dispersa la oscuridad que haya en la zona
+
+y que fuera creada por un conjuro.
+
+FABRICAR
+
+go)   Transmutación de nivel 4 (mago)
+
+Tiempo de lanzamiento: 10 minutos
+
+Alcance: 36 m
+
+Componentes: V, S
+
+Duración: Instantáneo
+
+Conviertes materias primas en productos del mismo
+
 material. Por ejemplo, puedes fabricar un puente de
 
 madera a partir de unos árboles, una cuerda con un trozo
+
+de cáñamo o prendas usando lino o lana.
+
+Elige materias primas que puedas ver dentro del
+
+alcance. Puedes fabricar un objeto Grande o más pequeño
 
 (que quepa en un cubo de 3 m de lado u ocho cubos
 
@@ -7278,37 +7019,16 @@ o armaduras, a menos que tengas competencia en el tipo
 
 de herramientas de artesano usadas para elaborar esos
 
-hayas movido.
-
 objetos.
 
-frontera con él, como alguno de los Planos Exteriores.
+---
 
-Con un espacio de conjuro de nivel superior. Puedes
-
-hacer objetivo a hasta tres criaturas voluntarias
-
-(incluyéndote a ti) por cada nivel por encima de 7 que
-
-tenga el espacio. Estas criaturas deben estar a 3 m
-
-0 menos de ti cuando lances el conjuro.
-
-FALSA VIDA
-
-Este conjuro termina al instante si lo lanzas mientras
-
-estás en el Plano Etéreo o en un plano que no tenga
-
-Nigromancia de nivel1 (hechicero, mago)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: Lanzador
-
-Componentes: V, S, M (una gota de alcohol)
-
-Duración: Instantáneo
+#### Falsa Vida
+*Nigromancia de nivel1 (hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Lanzador
+- **Componentes:** V, S, M (una gota de alcohol)
+- **Duración:** Instantáneo
 
 Obtienes 2d4 + 4 puntos de golpe temporales.
 
@@ -7322,7 +7042,7 @@ il
 
 ---
 
-#### El Conjuro Festín de Héroes Prepara a los Aventureros para la Grandeza Favor Divino
+#### El Conjuro Festín D a los Aventureros P Favor Divino
 *Transmutación de nivel 1 (paladín)*
 - **Tiempo de lanzamiento:** Acción adicional
 - **Alcance:** Lanzador
@@ -7333,7 +7053,35 @@ Hasta que el conjuro termine, tus ataques con armas
 
 infligen 1d4 de daño radiante adicional si aciertan.
 
-FESTÍN DE HÉROES
+---
+
+#### Festín de Héroes
+*Conjuración de nivel 6 (bardo, clérigo, druida)*
+- **Tiempo de lanzamiento:** 10 minutos
+- **Alcance:** Lanzador
+- **Componentes:** V, S, M (un cuenco incrustado de gemas
+
+que valga al menos 1000 po y que se consume como
+
+parte del conjuro)
+
+Duración: Instantáneo
+
+Conjuras un festín que aparece sobre una superficie en
+
+un cubo de 3 m de lado sin ocupar junto a ti. Se tarda
+
+1 hora en consumirlo, desaparece al final de ese tiempo
+
+y sus efectos beneficiosos no se aplican hasta que concluye
+
+dicha hora. En el festín pueden participar hasta doce
+
+criaturas.
+
+E HÉROES PREPARA
+
+ARA LA GRANDEZA
 
 Una criatura que participe obtiene varios beneficios
 
@@ -7354,16 +7102,7 @@ puntos de golpe.
 - **Tiempo de lanzamiento:** Acción o ritual
 - **Alcance:** Toque
 - **Componentes:** V, S, M (una pizca de tierra de cementerio)
-
-Conjuración de nivel 6 (bardo, clérigo, druida)
-
-Duración: 1 hora
-
-Tiempo de lanzamiento: 10 minutos
-
-Alcance: Lanzador
-
-Componentes: V, S, M (un cuenco incrustado de gemas
+- **Duración:** 1 hora
 
 Tocas a una criatura voluntaria y la sumes en un estado
 
@@ -7377,33 +7116,9 @@ intente averiguar su estado. El objetivo tendrá los estados
 
 de cegado e incapacitado y su velocidad será O.
 
-que valga al menos 1000 po y que se consume como
-
-parte del conjuro)
-
-Duración: Instantáneo
-
-Conjuras un festín que aparece sobre una superficie en
-
-un cubo de 3 m de lado sin ocupar junto a ti. Se tarda
-
-1 hora en consumirlo, desaparece al final de ese tiempo
-
-y sus efectos beneficiosos no se aplican hasta que concluye
-
-dicha hora. En el festín pueden participar hasta doce
-
 El objetivo también tendrá resistencia a todo el daño
 
 excepto el psíquico e inmunidad al estado de envenenado.
-
-criaturas.
-
-L ATREVIDO MAGO MELF APUNTAA UN TRO,
-
-Esuocano conil
-
-Cuando tu ataque contra el objetivo acierte o falle, el arma
 
 ---
 
@@ -7418,9 +7133,43 @@ Una brillante flecha verde sale disparada hacia un objetivo
 
 dentro del alcance y estalla en una lluvia de ácido. Haz un
 
-ataque de conjuro a distancia contra el objetivo. Si acierta,
+ataque de conjuro a distancia contra el objetivo. Si acierta
 
 el objetivo recibe 4d4 de daño de ácido y 2d4 de daño
+
+de ácido al final de su siguiente turno. Si falla, la flecha
+
+salpica al objetivo con ácido y solo le causa la mitad del
+
+daño inicial.
+
+Con un espacio de conjuro de nivel superior. El daño
+
+(tanto el inicial como el posterior) aumenta en 1d4 por
+
+cada nivel por encima de 2 que tenga el espacio.
+
+---
+
+#### Flecha de Relámpago
+*Transmutación de nivel 3 (explorador)*
+- **Tiempo de lanzamiento:** Acción adicional, que realizas
+
+de inmediato tras acertar o fallar un ataque a distancia
+
+con un arma contra un objetivo
+
+Alcance: Lanzador
+
+Componentes: V, S
+
+Duración: Instantáneo
+
+L ATREVIDO MAGO MELF APUNTAA UN TRO,
+
+Esuocano conil
+
+Cuando tu ataque contra el objetivo acierte o falle, el arma
 
 ola munición que usas se transforma en un relámpago.
 
@@ -7440,21 +7189,9 @@ Luego, el arma o la munición vuelve a la normalidad.
 
 Con un espacio de conjuro de nivel superior. El daño de
 
-los dos efectos del conjuro aumenta en 1d8 por cada nivel
+,   los dos efectos del conjuro aumenta en 1d8 por cada nivel
 
 por encima de 3 que tenga el espacio.
-
-de ácido al final de su siguiente turno. Si falla, la flecha
-
-salpica al objetivo con ácido y solo le causa la mitad del
-
-daño inicial.
-
-Con un espacio de conjuro de nivel superior. El daño
-
-(tanto el inicial como el posterior) aumenta en 1d4 por
-
-cada nivel por encima de 2 que tenga el espacio.
 
 ---
 
@@ -7464,24 +7201,6 @@ cada nivel por encima de 2 que tenga el espacio.
 - **Alcance:** Toque
 - **Componentes:** V, S, M (un poco de gasa)
 - **Duración:** Concentración, hasta 1 hora
-
-
-
----
-
-#### Flecha de Relámpago
-*Transmutación de nivel 3 (explorador)*
-- **Tiempo de lanzamiento:** Acción adicional, que realizas
-
-de inmediato tras acertar o fallar un ataque a distancia
-
-con un arma contra un objetivo
-
-Alcance: Lanzador
-
-Componentes: V, S
-
-Duración: Instantáneo
 
 Una criatura voluntaria a la que toques cambia de forma,
 
@@ -7524,30 +7243,6 @@ Con un espacio de conjuro de nivel superior. Puedes
 hacer objetivo a una criatura adicional por cada nivel
 
 por encima de 3 que tenga el espacio.
-
-Hasta que el conjuro termine, tienes resistencia al daño
-
-radiante y tus ataques cuerpo a cuerpo causarán 2d6 de
-
-daño radiante adicional cuando acierten.
-
-Además, inmediatamente después de recibir daño de
-
-una criatura que puedas ver a 18 m o menos de ti, puedes
-
-usar una reacción para obligar a la criatura a hacer una
-
-tirada de salvación de Constitución. Si la falla, tendrá el
-
-estado de cegada hasta el final de tu siguiente turno.
-
----
-
-#### Fuerza Fantasmal
-*Ilusionismo de nivel 2 (bardo, hechicero, mago)*
-- **Tiempo de lanzamiento:** Acción
-
-
 
 ---
 
@@ -7597,11 +7292,51 @@ termine el conjuro, los objetos y criaturas afectados
 
 emitirán luz tenue en un radio de 3 m y no podrán
 
-Alcance: 18 m
+beneficiarse del estado de invisibles.
 
-Componentes: V, S, M (un poco de vellón)
+Las tiradas de ataque contra las criaturas u objetos
 
-Duración: Concentración, hasta 1 minuto
+afectados tendrán ventaja si el atacante puede verlos.
+
+---
+
+#### Fuente de Luz Lunar
+*Evocación de nivel 4 (bardo, druida)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Lanzador
+- **Componentes:** V, S
+- **Duración:** Concentración, hasta 10 minutos
+
+Mientras dure el efecto, una luz fría envuelve tu cuerpo
+
+y emite luz brillante en un radio de 6 m y luz tenue 6 m
+
+más allá.
+
+Hasta que el conjuro termine, tienes resistencia al daño
+
+radiante y tus ataques cuerpo a cuerpo causarán 2d6 de
+
+daño radiante adicional cuando acierten.
+
+Además, inmediatamente después de recibir daño de
+
+una criatura que puedas ver a 18 m o menos de ti, puedes
+
+usar una reacción para obligar a la criatura a hacer una
+
+tirada de salvación de Constitución. Si la falla, tendrá el
+
+estado de cegada hasta el final de tu siguiente turno.
+
+---
+
+#### Fuerza Fantasmal
+*Ilusionismo de nivel 2 (bardo, hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 18 m
+- **Componentes:** V, S, M (un poco de vellón)
+- **Duración:** Concentración, hasta 1 minuto
 
 Intentas crear una ilusión en la mente de una criatura
 
@@ -7655,38 +7390,14 @@ El objetivo percibe el daño como de un tipo apropiado
 
 para la ilusión.
 
-beneficiarse del estado de invisibles.
-
-FUNDIRSE CON LA PIEDRA
-
-afectados tendrán ventaja si el atacante puede verlos.
-
-Tiempo de lanzamiento: Acción o ritual
-
-Alcance: Toque
-
-Las tiradas de ataque contra las criaturas u objetos
-
 ---
 
-#### Fuente de Luz Lunar
-*Evocación de nivel 4 (bardo, druida)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** Lanzador
+#### Fundirse con la Piedra
+*Transmutación de nivel 3 (clérigo, druida, explorador)*
+- **Tiempo de lanzamiento:** Acción o ritual
+- **Alcance:** Toque
 - **Componentes:** V, S
-- **Duración:** Concentración, hasta 10 minutos
-
-Mientras dure el efecto, una luz fría envuelve tu cuerpo
-
-y emite luz brillante en un radio de 6 m y luz tenue 6 m
-
-más allá.
-
-Transmutación de nivel 3 (clérigo, druida, explorador)
-
-Componentes: V, S
-
-Duración: 8 horas
+- **Duración:** 8 horas
 
 Entras en un objeto o una superficie de piedra lo
 
@@ -7712,23 +7423,11 @@ conjuros sobre ti. Puedes usar 1,5 m de tu movimiento
 
 para salir de la piedra por el punto en el que entraste,
 
-lo que pone fin al conjuro. Por lo demás, no te puedes mover.
+lo que pone fin al conjuro. Por lo demás, no te puedes mover
 
 Un daño físico menor hechoa la piedra no te afecta, pero
 
 su destrucción parcial o un cambio en su forma (de manera
-
-Cuando inscribes el glifo, decides qué lo activa y eliges
-
-si se trata de una runa explosiva o un glifo de conjuro,
-
-como se explica a continuación.
-
-Establecer el activador. Cuando lances el conjuro, decide
-
-qué activará el glifo. En el caso de los glifos inscritos
-
-en una superficie, las condiciones que suelen activarlos
 
 que ya no quepas en ella) te expulsa y te causa 6d6 de
 
@@ -7736,22 +7435,16 @@ daño de fuerza. La destrucción completa de la piedra
 
 (o su transmutación en una sustancia distinta) te expulsa
 
-de ella y te inflige 50 de daño de fuerza. Si eres expulsado,
-
-incluyen tocarlos o situarse sobre ellos, quitar otro objeto
-
-en el que entraste en ella y tendrás el estado de derribado.
-
-Puedes especificar aún más la condición, de modo
-
-que solo las criaturas de ciertos tipos puedan activarlo
+de ella y te inflige 50 de daño de fuerza. Si eres expulsado
 
 te mueves al espacio sin ocupar más cercano junto al punto
+
+en el que entraste en ella y tendrás el estado de derribado.
 
 ---
 
 #### Geas
-*Encantamiento de nivel 5 (bardo, clérigo, druida, mago, paladín)*
+*Encantamiento de nivel 5 (bardo, clérigo, druida, mago, pala*
 - **Tiempo de lanzamiento:** 1 minuto
 - **Alcance:** 18 m
 - **Componentes:** V
@@ -7831,19 +7524,37 @@ una prueba de Sabiduría (Percepción) contra tu CD de
 
 salvación de conjuros para detectarlo.
 
+Cuando inscribes el glifo, decides qué lo activa y eliges
+
+si se trata de una runa explosiva o un glifo de conjuro,
+
+como se explica a continuación.
+
+.        Establecer el activador. Cuando lances el conjuro, decide
+
+qué activará el glifo. En el caso de los glifos inscritos
+
+en una superficie, las condiciones que suelen activarlos
+
+incluyen tocarlos o situarse sobre ellos, quitar otro objeto
+
 que los cubra o acercarse a cierta distancia de ellos. En el
 
 caso de los glifos inscritos en un objeto, suelen activarse
 
-al abrir el objeto o mirar el glifo. En cuanto un glifo se
+,      al abrir el objeto o mirar el glifo. En cuanto un glifo se
 
 activa, este conjuro termina.
+
+Puedes especificar aún más la condición, de modo
+
+que solo las criaturas de ciertos tipos puedan activarlo
 
 (por ejemplo, que solo afecte a las aberraciones). También
 
 puedes establecer excepciones sobre qué criaturas no
 
-activarán el glifo; por ejemplo, las que pronuncien una
+dín)   activarán el glifo; por ejemplo, las que pronuncien una
 
 contraseña.
 
@@ -7928,37 +7639,17 @@ la barrera estará excluido de las áreas de efecto creadas
 
 por dichos conjuros.
 
-Con un espacio de conjuro de nivel superior. El daño
-
 Con un espacio de conjuro de nivel superior. La barrera
 
 bloquea los conjuros de un nivel más por cada nivel por
 
 encima de 6 que tenga el espacio.
 
-de fuego y radiante aumentan en 1d6 por cada nivel por
+---
 
-GOLPE APRESADOR
-
-GRASA
-
-encima de 5 que tenga el espacio.
-
-Conjuración de nivel1 (explorador)
-
-Conjuración de nivel 1 (hechicero, mago)
-
-Tiempo de lanzamiento: Acción adicional, que realizas
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 18 m
-
-Componentes: V, S, M (un poco de piel de cerdo
-
-o de mantequilla)
-
-Duración: 1 minuto
+#### Golpe Apresador
+*Conjuración de nivel1 (explorador)*
+- **Tiempo de lanzamiento:** Acción adicional, que realizas
 
 de inmediato tras acertar a una criatura con un arma
 
@@ -7978,33 +7669,15 @@ en esta tirada. Si la falla, tendrá el estado de apresado
 
 hasta que el conjuro termine. Si la supera, las enredaderas
 
-Una grasa no inflamable cubre una zona cuadrada del
-
-suelo de 3 m de lado centrada en un punto dentro del
-
-alcance y que la convierte en terreno difícil hasta que
-
-termina el conjuro.
-
-Cuando aparezca la grasa, las criaturas que haya en esa
-
 se marchitan y el conjuro termina.
 
 Mientras esté apresado, el objetivo sufrirá 1d6 de
 
-zona deberán superar una tirada de salvación de Destreza
+daño perforante al principio de cada uno de sus turnos.
 
 El objetivo o una criatura a su alcance puede emplear
 
-tirada de salvación o caerá derribada.
-
-daño perforante al principio de cada uno de sus turnos.
-
 una acción para hacer una prueba de Fuerza (Atletismo)
-
-o tendrán el estado de derribadas. Una criatura que entre
-
-en la zona o termine su turno ahí deberá superar esa
 
 contra tu CD de salvación de conjuros. Si la supera,
 
@@ -8015,16 +7688,6 @@ Con un espacio de conjuro de nivel superior. El daño
 aumenta en 1d6 por cada nivel por encima de 1 que tenga
 
 el espacio.
-
----
-
-#### Guarda Contra la Muerte
-*Abjuración de nivel 4 (clérigo, paladín)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** Toque
-- **Componentes:** V, S
-
-
 
 ---
 
@@ -8073,7 +7736,50 @@ de fuego y 5d6 de daño radiante si la fallan o la mitad de
 
 daño si la superan.
 
-Duración: 8 horas
+Con un espacio de conjuro de nivel superior. El daño
+
+de fuego y radiante aumentan en 1d6 por cada nivel por
+
+encima de 5 que tenga el espacio.
+
+---
+
+#### Grasa
+*Conjuración de nivel 1 (hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 18 m
+- **Componentes:** V, S, M (un poco de piel de cerdo
+
+o de mantequilla)
+
+Duración: 1 minuto
+
+Una grasa no inflamable cubre una zona cuadrada del
+
+suelo de 3 m de lado centrada en un punto dentro del
+
+alcance y que la convierte en terreno difícil hasta que
+
+termina el conjuro.
+
+Cuando aparezca la grasa, las criaturas que haya en esa
+
+zona deberán superar una tirada de salvación de Destreza
+
+o tendrán el estado de derribadas. Una criatura que entre
+
+en la zona o termine su turno ahí deberá superar esa
+
+tirada de salvación o caerá derribada.
+
+---
+
+#### Guarda Contra la Muerte
+*Abjuración de nivel 4 (clérigo, paladín)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Toque
+- **Componentes:** V, S
+- **Duración:** 8 horas
 
 Tocas a una criatura y le concedes cierta protección frente
 
@@ -8159,6 +7865,22 @@ niebla y pasan a estar muy oscuros. Además, en cada
 
 intersección o en cada camino que se divida y que permita
 
+elegir una dirección, hay un 50 % de probabilidad de que
+
+una criatura que no seas tú piense que va en la dirección
+
+contraria a la que haya elegido.
+
+Puertas. Todas las puertas de la zona protegida están
+
+cerradas de manera mágica, como si estuvieran afectadas
+
+por el conjuro cerradura arcana. Además, puedes cubrir
+
+hasta 10 puertas con una ilusión para que parezcan
+
+simples secciones de pared.
+
 Otro efecto del conjuro. Sitúas uno de los siguientes
 
 efectos mágicos dentro de la zona protegida:
@@ -8187,33 +7909,14 @@ criatura que entre en ella recibirá la sugestión
 
 mentalmente.
 
-elegir una dirección, hay un 50 % de probabilidad de que
+---
 
-una criatura que no seas tú piense que va en la dirección
-
-contraria a la que haya elegido.
-
-GUARDIA DE CUCHILLAS
-
-cerradas de manera mágica, como si estuvieran afectadas
-
-por el conjuro cerradura arcana. Además, puedes cubrir
-
-Tiempo de lanzamiento: Acción
-
-Alcance: Lanzador
-
-hasta 10 puertas con una ilusión para que parezcan
-
-Componentes: V, S
-
-Puertas. Todas las puertas de la zona protegida están
-
-simples secciones de pared.
-
-Truco de abjuración (bardo, brujo, hechicero, mago)
-
-Duración: Concentración, hasta 1 minuto
+#### Guardia de Cuchillas
+*Truco de abjuración (bardo, brujo, hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Lanzador
+- **Componentes:** V, S
+- **Duración:** Concentración, hasta 1 minuto
 
 Siempre que una criatura haga una tirada de ataque
 
@@ -8223,22 +7926,12 @@ restará 1d4 a esa tirada.
 
 ---
 
-#### Un Druida Humano Emplea Guardián de la Fe
+#### Guardián de la Fe
 *Conjuración de nivel 4 (clérigo)*
-
-HABLAR CON LOS ANIMALES
-
-PARA CHARLAR CON SU MEJOR
-
-AMIGO ÚRSIDO.
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 9 m
-
-Componentes: V
-
-Duración: 8 horas
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 9 m
+- **Componentes:** V
+- **Duración:** 8 horas
 
 Un guardián espectral Grande aparece en un espacio
 
@@ -8271,17 +7964,9 @@ cuando ha causado un total de 60 de daño.
 - **Componentes:** V, S
 - **Duración:** Concentración, hasta 1 minuto
 
-HABLAR CON LOS ANIMALES
-
 Tocas a una criatura voluntaria y eliges una habilidad.
 
-Adivinación de nivel 1 (bardo, brujo, druida, explorador)
-
 Hasta que el conjuro termine, la criatura añade 1d4 a una
-
-Tiempo de lanzamiento: Acción o ritual
-
-Alcance: Lanzador
 
 prueba de característica con la habilidad elegida.
 
@@ -8294,31 +7979,15 @@ prueba de característica con la habilidad elegida.
 - **Componentes:** V, S
 - **Duración:** 10 minutos
 
-Hasta que termine el conjuro, puedes comprender
-
-y comunicarte verbalmente con bestias y usar con
-
-ellas cualquiera de las opciones de la acción de influir.
-
-La mayoría de bestias tienen poco que decir en
-
-cuestiones que no tengan que ver con la supervivencia
-
 Insuflas una consciencia y una animación limitadas
-
-o la compañía, pero como mínimo podrán proporcionarte
-
-información sobre los lugares y monstruos cercanos,
-
-órdenes sencillas que les des. Puedes preguntar a las
-
-plantas acerca de sucesos que hayan ocurrido en la zona
-
-HABLAR CON LOS MUERTOS
 
 a las plantas en una emanación inmóvil de 9 m, lo que les
 
 otorga la capacidad de comunicarse contigo y obedecer
+
+órdenes sencillas que les des. Puedes preguntar a las
+
+plantas acerca de sucesos que hayan ocurrido en la zona
 
 del conjuro durante el último día y conseguir información
 
@@ -8348,17 +8017,47 @@ comunicarte con ella como si compartierais un idioma
 
 común.
 
+UN DRUIDA HUMANO EMPLEA
+
+HABLAR CON LOS ANIMALES
+
+PARA CHARLAR CON SU MEJOR
+
+AMIGO ÚRSIDO.
+
+---
+
+#### Hablar con los Animales
+*Adivinación de nivel 1 (bardo, brujo, druida, explorador)*
+- **Tiempo de lanzamiento:** Acción o ritual
+- **Alcance:** Lanzador
+- **Componentes:** V, S
+- **Duración:** 10 minutos
+
+Hasta que termine el conjuro, puedes comprender
+
+y comunicarte verbalmente con bestias y usar con
+
+ellas cualquiera de las opciones de la acción de influir.
+
+La mayoría de bestias tienen poco que decir en
+
+cuestiones que no tengan que ver con la supervivencia
+
+o la compañía, pero como mínimo podrán proporcionarte
+
+información sobre los lugares y monstruos cercanos,
+
 incluyendo lo que hayan percibido en el último día.
 
-Nigromancia de nivel 3 (bardo, clérigo, mago)
+---
 
-Tiempo de lanzamiento: Acción
-
-Alcance: 3 m
-
-Componentes: V, S, M (incienso para quemar)
-
-Duración: 10 minutos
+#### Hablar con los Muertos
+*Nigromancia de nivel 3 (bardo, clérigo, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 3 m
+- **Componentes:** V, S, M (incienso para quemar)
+- **Duración:** 10 minutos
 
 Otorgas una apariencia de vida a un cadáver de tu
 
@@ -8392,26 +8091,6 @@ no entiende nada que haya ocurrido después su muerte
 
 y no puede especular sobre sucesos futuros.
 
-lCorceL SOBRENATURAL
-
-|
-
-| CA:10+1 por cada nivel del conjuro
-
-PG: 5 + 10 por cada nivel del conjuro (el corcel tiene una
-
-cantidad de dados de golpe [d10] igual al nivel del conjuro)
-
-| Velocidad: 18 m, volar 18 m (requiere un conjuro de nivel 4
-
-|l
-
-| Celestial, feérico o infernal Grande (a tu elección), neutral
-
-o superior)
-
-MOD.
-
 ---
 
 #### Hacer Añicos
@@ -8429,7 +8108,7 @@ del alcance. Todas las criaturas situadas en una esfera de
 
 salvación de Constitución; sufrirán 3d8 de daño de trueno
 
-si la fallan o la mitad del daño si la superan. Los autómatas
+si la fallan o la mitad del daño si la superan. Los autómata
 
 tienen desventaja en esta tirada.
 
@@ -8462,87 +8141,15 @@ dentro del alcance. La criatura utiliza el perfil del corcel
 
 sobrenatural. Si ya tienes un corcel gracias a este
 
-SALV.
+conjuro, se sustituirá por el nuevo.
 
-MOD.
+El corcel se parece a un animal Grande que puedas
 
-SALV.
+montar de tu elección, como un caballo, un alce, un camello
 
-MOD.
+o un lobo terrible. Siempre que lances el conjuro, elige el
 
-ll
-
-Fue 18 +4
-
-+4
-
-Des 12 +1
-
-+1
-
-Conl4 +2
-
-+2
-
-l
-
-InT
-
--2
-
-Sam 12 +l
-
-+1
-
-Car 8-1
-
--1
-
-|
-
-6 -2
-
-| Sentidos: Percepción pasiva 11
-
-Idiomas: telepatía 1,5 km (solo funciona contigo)
-
-VD: ninguno (0 PX; BC igual a tu bonificador por competencia)
-
-| ATRIBUTOS
-
-Vínculo vital. Cuando recuperas puntos de golpe mediante
-
-un conjuro de nivel 1 o superior, el corcel recupera la misma |
-
-cantidad de puntos de golpe si estás a 1,5 m o menos de él. |
-
-| ACCIONES
-
-Golpetazo sobrenatural. Tirada de ataque cuerpo a cuerpo:
-
-bonificador igual a tu modificador de ataque de conjuros,
-
-l
-
-|
-
-alcance 1,5 m. Acierto: 1d8 más el nivel de daño radiante
-
-|
-
-(celestial), psíquico (feérico) o necrótico (infernal).
-
-ACCIONES ADICIONALES
-
-| Mirada siniestra (solo infernal; se recarga tras un descanso
-
-largo). Tirada de salvación de Sabiduría: CD igual a tu CD
-
-de salvación de conjuros, una criatura a 18 m o menos
-
-que el corcel pueda ver. Fallo: El objetivo tiene el estado
-
-| de asustado hasta el final de tu siguiente turno.
+tipo de criatura del corcel (celestial, feérico o infernal),
 
 lo que determinará ciertos atributos de su perfil.
 
@@ -8576,7 +8183,53 @@ del espacio de conjuro para determinar el nivel del conjuro
 
 en el perfil.
 
-l
+lCorceL SOBRENATURAL                                                       |
+
+| Celestial, feérico o infernal Grande (a tu elección), neutral
+
+cantidad de dados de golpe [d10] igual al nivel del conjuro)
+
+| Velocidad: 18 m, volar 18 m (requiere un conjuro de nivel 4              |
+
+o superior)
+
+MOD.   SALV.           MOD.   SALV.             MOD.   SALV.   ll
+
+InT    6 -2      -2      Sam 12 +l      +1      Car 8-1          -1      |
+
+| Sentidos: Percepción pasiva 11
+
+Idiomas: telepatía 1,5 km (solo funciona contigo)
+
+| ATRIBUTOS
+
+Vínculo vital. Cuando recuperas puntos de golpe mediante
+
+un conjuro de nivel 1 o superior, el corcel recupera la misma |
+
+cantidad de puntos de golpe si estás a 1,5 m o menos de él. |
+
+s   | ACCIONES
+
+Golpetazo sobrenatural. Tirada de ataque cuerpo a cuerpo:                 l
+
+bonificador igual a tu modificador de ataque de conjuros,                 |
+
+alcance 1,5 m. Acierto: 1d8 más el nivel de daño radiante                 |
+
+(celestial), psíquico (feérico) o necrótico (infernal).
+
+ACCIONES ADICIONALES
+
+| Mirada siniestra (solo infernal; se recarga tras un descanso
+
+largo). Tirada de salvación de Sabiduría: CD igual a tu CD
+
+de salvación de conjuros, una criatura a 18 m o menos
+
+que el corcel pueda ver. Fallo: El objetivo tiene el estado
+
+| de asustado hasta el final de tu siguiente turno.                         l
 
 | Paso feérico (solo feérico; se recarga tras un descanso largo). l
 
@@ -8584,29 +8237,13 @@ El corcel se teletransporta, junto con su jinete, a un espacio |
 
 sin ocupar de tu elección a 18 m o menos del corcel.
 
-Toque sanador (solo celestial; se recarga tras un descanso
+Toque sanador (solo celestial; se recarga tras un descanso                |
 
 largo). Una criatura a 1,5 m o menos del corcel recupera
 
 una cantidad de puntos de golpe igual a 2d8 más el nivel
 
 | del conjuro.
-
-El corcel se parece a un animal Grande que puedas
-
-o un lobo terrible. Siempre que lances el conjuro, elige el
-
-tipo de criatura del corcel (celestial, feérico o infernal),
-
-|
-
-SALV.
-
-conjuro, se sustituirá por el nuevo.
-
-montar de tu elección, como un caballo, un alce, un camello
-
-|
 
 ---
 
@@ -8635,10 +8272,6 @@ y las criaturas completamente dentro de ella tendrán el
 
 estado de cegadas.
 
-|
-
-AL INSACIABLE HAMBRE DE ÍADAR.
-
 Cualquier criatura que comience su turno dentro de
 
 la zona recibirá 2d6 de daño de frío. Cualquier criatura
@@ -8658,7 +8291,7 @@ nivel por encima de 3 que tenga el espacio.
 ---
 
 #### Hechizar Monstruo
-*Encantamiento de nivel 4 (bardo, brujo, druida, hechicero, mago)*
+*Encantamiento de nivel 4 (bardo, brujo, druida, hechicero, m*
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** 9 m
 - **Componentes:** V, S
@@ -8668,7 +8301,7 @@ Una criatura que puedas ver dentro del alcance realiza
 
 una tirada de salvación de Sabiduría. La hace con ventaja
 
-si está luchando contra ti o tus aliados. Si la falla, tendrá el
+si está luchando contra ti o tus aliados. Si la falla, tendr
 
 estado de hechizada hasta que el conjuro termine o hasta
 
@@ -8683,6 +8316,8 @@ Con un espacio de conjuro de nivel superior. Puedes
 hacer objetivo a una criatura adicional por cada nivel
 
 por encima de 4 que tenga el espacio.
+
+AL INSACIABLE HAMBRE DE ÍADAR.
 
 ---
 
@@ -8699,7 +8334,7 @@ una tirada de salvación de Sabiduría. La hace con ventaja
 
 si está luchando contra ti o tus aliados. Si la falla, tendrá el
 
-estado de hechizado hasta que el conjuro termine o hasta
+ago)   estado de hechizado hasta que el conjuro termine o hasta
 
 que tus aliados o tú le hagáis daño. La criatura hechizada
 
@@ -8713,6 +8348,8 @@ hacer objetivo a una criatura adicional por cada nivel
 
 por encima de 1 que tenga el espacio.
 
+á el
+
 HEroÍSMO
 
 Encantamiento de nivel 1 (bardo, paladín)
@@ -8725,15 +8362,9 @@ Componentes: V, S
 
 Duración: Concentración, hasta 1 minuto
 
-Si una criatura emplea su acción de estudiar para
-
 Insuflas valor a una criatura voluntaria a la que toques.
 
 Hasta que el conjuro termine, la criatura es inmune al
-
-examinar la imagen o el sonido, puede determinar que
-
-es una ilusión si supera una prueba de Inteligencia
 
 estado de asustada y obtiene una cantidad de puntos
 
@@ -8741,29 +8372,11 @@ de golpe temporales igual a tu modificador por aptitud
 
 mágica al principio de cada uno de sus turnos.
 
-(Investigación) contra tu CD de salvación de conjuros.
+Con un espacio de conjuro de nivel superior. Puedes
 
 hacer objetivo a una criatura adicional por cada nivel
 
 por encima de 1 que tenga el espacio.
-
-Sonido. Si creas un sonido, su volumen se situará
-
-entre el de un susurro y el de un grito. Puede ser tu voz,
-
-la de otra criatura, el rugido de un león, un redoblar de
-
-Si la criatura descubre que se trata de una ilusión, esta se
-
-irá desvaneciendo para esa criatura.
-
-Con un espacio de conjuro de nivel superior. Puedes
-
-tambores o cualquier otro sonido que elijas. El sonido
-
-continúa incesante mientras dure el conjuro o puedes
-
-originar sonidos distintos en diferentes momentos antes
 
 ---
 
@@ -8778,7 +8391,7 @@ Haces aparecer una hoja ardiente en tu mano libre que es
 
 similar en tamaño y forma a una cimitarra y que durará
 
-hasta que termine el conjuro. Si sueltas la hoja, desaparece,
+hasta que termine el conjuro. Si sueltas la hoja, desaparece
 
 pero puedes volver a invocarla como acción adicional.
 
@@ -8791,8 +8404,6 @@ el objetivo sufrirá una cantidad de daño de fuego igual
 a 3d6 más tu modificador por aptitud mágica.
 
 La hoja llameante emite luz brillante en un radio de
-
-3m
 
 y luz tenue 3 m más allá.
 
@@ -8848,6 +8459,30 @@ Consulta las descripciones a continuación para conocer sus
 
 efectos. La ilusión termina si lanzas el conjuro de nuevo.
 
+Si una criatura emplea su acción de estudiar para
+
+examinar la imagen o el sonido, puede determinar que
+
+es una ilusión si supera una prueba de Inteligencia
+
+(Investigación) contra tu CD de salvación de conjuros.
+
+Si la criatura descubre que se trata de una ilusión, esta se
+
+irá desvaneciendo para esa criatura.
+
+Sonido. Si creas un sonido, su volumen se situará
+
+entre el de un susurro y el de un grito. Puede ser tu voz,
+
+la de otra criatura, el rugido de un león, un redoblar de
+
+tambores o cualquier otro sonido que elijas. El sonido
+
+continúa incesante mientras dure el conjuro o puedes
+
+originar sonidos distintos en diferentes momentos antes
+
 del fin del conjuro.
 
 Imagen. Si creas la imagen de un objeto (como una silla,
@@ -8862,13 +8497,14 @@ La interacción física con la imagen revela que es una
 
 ilusión, ya que las cosas pueden atravesarla.
 
+,
+
 ---
 
 #### Ilusión Programada
 *Ilusionismo de nivel 6 (bardo, mago)*
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** 36 m
-- **Componentes:** V, S, M (polvo de jade con un valor
 
 de al menos 25 po)
 
@@ -8914,6 +8550,77 @@ Y LES PIDA AMABLEMENTE A LOS
 
 INTRUSOS QUE SE VAYAN
 
+IMAGEN SILENCIOSA
+
+PUEDE CREAR
+
+ILUSIONES MUNDANAS
+
+O EXTRAVAGANTES.
+
+Por ejemplo, podrías crear una ilusión de ti para que
+
+aparezca y avise a quienes intenten abrir una puerta
+
+con trampa.
+
+La interacción física con la imagen revela que es una
+
+ilusión, ya que las cosas pueden atravesarla. Si una
+
+criatura emplea una acción de estudiar para examinar
+
+la imagen, puede determinar que es una ilusión si supera
+
+una prueba de Inteligencia (Investigación) contra tu CD
+
+de salvación de conjuros. Si la criatura descubre que la
+
+imagen es una ilusión, no se dejará engañar por ella y lo
+
+sonidos que emita le sonarán huecos.
+
+---
+
+#### Imagen Mayor
+*Ilusionismo de nivel 3 (bardo, brujo, hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 36 m
+- **Componentes:** V, S, M (un poco de vellón)
+- **Duración:** Concentración, hasta 10 minutos
+
+Creas una imagen de un objeto, una criatura u otro tipo
+
+de fenómeno visible cuyas dimensiones no excedan las
+
+de un cubo de 6 m de lado. La imagen aparece en un sitio
+
+que puedas ver dentro del alcance y se mantiene hasta
+
+que termine el conjuro. Parece real e incluye sonidos,
+
+olores y temperatura apropiados para lo que se representa
+
+pero no puede hacer daño ni provocar estados.
+
+Si estás dentro del alcance de la ilusión, puedes utili
+
+una acción de magia para moverla a otro sitio dentro
+
+de dicho alcance. Al cambiarla de sitio, puedes alterar
+
+su apariencia de forma que sus movimientos parezcan
+
+naturales. Por ejemplo, si creas la imagen de una criatur
+
+y la mueves, puedes alterarla de forma que parezca estar
+
+andando. De forma similar, puedes hacer que la ilusión
+
+produzca distintos sonidos en diferentes momentos
+
+e incluso mantener una conversación, por ejemplo.
+
 La interacción física con la imagen revela que es una
 
 ilusión, ya que las cosas pueden atravesarla. Si una
@@ -8944,20 +8651,8 @@ si se lanza con un espacio de conjuro de nivel 4 o superior.
 *Ilusionismo de nivel 2 (bardo, brujo, hechicero, mago)*
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** Lanzador
-
-IMAGEN SILENCIOSA
-
-PUEDE CREAR
-
-ILUSIONES MUNDANAS
-
-O EXTRAVAGANTES.
-
-Componentes: V, S
-
-Duración:1 minuto
-
-criatura emplea una acción de estudiar para examinar
+- **Componentes:** V, S
+- **Duración:** 1 minuto
 
 En tu espacio aparecen tres duplicados ilusorios de ti.
 
@@ -8975,91 +8670,26 @@ tus duplicados restantes. Si cualquiera de los resultados
 
 es de 3 o más, uno de los duplicados recibe el golpe en tu
 
-de salvación de conjuros. Si la criatura descubre que la
+lugar y es destruido. Por lo demás, los duplicados ignoran
 
 el resto del daño y efectos. Cuando los tres duplicados son
 
 destruidos, el conjuro termina.
 
-Por ejemplo, podrías crear una ilusión de ti para que
-
-aparezca y avise a quienes intenten abrir una puerta
-
-con trampa.
-
-La interacción física con la imagen revela que es una
-
-ilusión, ya que las cosas pueden atravesarla. Si una
-
-la imagen, puede determinar que es una ilusión si supera
-
-una prueba de Inteligencia (Investigación) contra tu CD
-
-imagen es una ilusión, no se dejará engañar por ella y los
-
-sonidos que emita le sonarán huecos.
-
-lugar y es destruido. Por lo demás, los duplicados ignoran
-
 Una criatura no se verá afectada por este conjuro si tiene
+
+s
 
 el estado de cegada, visión ciega o visión verdadera.
 
-IMAGEN MAYOR
+---
 
-IMAGEN SILENCIOSA
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 36 m
-
-Componentes: V, S, M (un poco de vellón)
-
-Duración: Concentración, hasta 10 minutos
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 18 m
-
-Componentes: V, S, M (un poco de vellón)
-
-Ilusionismo de nivel 3 (bardo, brujo, hechicero, mago)
-
-Creas una imagen de un objeto, una criatura u otro tipo
-
-de fenómeno visible cuyas dimensiones no excedan las
-
-de un cubo de 6 m de lado. La imagen aparece en un sitio
-
-que puedas ver dentro del alcance y se mantiene hasta
-
-que termine el conjuro. Parece real e incluye sonidos,
-
-olores y temperatura apropiados para lo que se representa,
-
-pero no puede hacer daño ni provocar estados.
-
-Si estás dentro del alcance de la ilusión, puedes utilizar
-
-una acción de magia para moverla a otro sitio dentro
-
-de dicho alcance. Al cambiarla de sitio, puedes alterar
-
-su apariencia de forma que sus movimientos parezcan
-
-naturales. Por ejemplo, si creas la imagen de una criatura
-
-y la mueves, puedes alterarla de forma que parezca estar
-
-andando. De forma similar, puedes hacer que la ilusión
-
-produzca distintos sonidos en diferentes momentos
-
-e incluso mantener una conversación, por ejemplo.
-
-Ilusionismo de nivel1 (bardo, hechicero, mago)
-
-Duración: Concentración, hasta 10 minutos
+#### Imagen Silenciosa
+*Ilusionismo de nivel1 (bardo, hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 18 m
+- **Componentes:** V, S, M (un poco de vellón)
+- **Duración:** Concentración, hasta 10 minutos
 
 Creas una imagen de un objeto, una criatura u otro tipo
 
@@ -9071,11 +8701,15 @@ dentro del alcance y se mantiene hasta el final del conjuro.
 
 La imagen es solamente visual; no está acompañada de
 
+,
+
 sonido, olor u otros efectos sensoriales.
 
 Como acción de magia, puedes mover la imagen
 
 a cualquier sitio dentro del alcance. Al cambiarla de sitio,
+
+zar
 
 puedes alterar su apariencia de forma que sus movimientos
 
@@ -9084,6 +8718,8 @@ parezcan naturales. Por ejemplo, si creas la imagen de
 una criatura y la mueves, puedes alterarla de forma que
 
 parezca estar andando.
+
+a
 
 La interacción física con la imagen revela que es una
 
@@ -9113,39 +8749,15 @@ Duración: Instantáneo
 
 Un destello de perspicacia mágica te guía y haces un
 
-Hasta que termine el conjuro, escondes a un objetivo
-
-que toques ante los conjuros de adivinación. Este puede
-
-ser una criatura voluntaria, o un lugar o un objeto que
-
-no midan más de 3 m en ninguna de sus dimensiones.
-
-El objetivo no podrá ser el objetivo de conjuros de
-
-adivinación ni podrá ser percibido mediante sensores
-
-mágicos de escudriñamiento.
-
-INFLIGIR HERIDAS
-
 ataque con el arma empleada para lanzar el conjuro.
-
-Nigromancia de nivel 1 (clérigo)
-
-inflige daño, puede ser radiante o del tipo de daño normal
-
-del arma (a tu elección).
-
-Alcance: Toque
-
-Componentes: V, S
-
-Duración: Instantáneo
 
 El ataque usa tu aptitud mágica para las tiradas de ataque
 
 y de daño en lugar de la Fuerza o la Destreza. Si el ataque
+
+inflige daño, puede ser radiante o del tipo de daño normal
+
+del arma (a tu elección).
 
 Mejora de truco. Independientemente de si haces daño
 
@@ -9155,37 +8767,14 @@ radiante adicional cuando alcanzas los niveles 5 (146),
 
 11 (246) y 17 (346).
 
-Tiempo de lanzamiento: Acción
-
-Una criatura a la que toques hace una tirada de salvación
-
-de Constitución; sufrirá 2d10 de daño necrótico si la falla
-
-o la mitad del daño si la supera.
-
-Con un espacio de conjuro de nivel superior. El daño
-
-aumenta en 1d10 por cada nivel por encima de 1 que tenga
-
-IMPONER MALDICIÓN
-
-el espacio.
-
-Tiempo de lanzamiento: Acción
-
-Alcance: Toque
-
 ---
 
-#### Inmovilizar Monstruo
-*Encantamiento de nivel 5 (bardo, brujo, hechicero, mago)*
+#### Imponer Maldición
+*Nigromancia de nivel 3 (bardo, clérigo, mago)*
 - **Tiempo de lanzamiento:** Acción
-- **Alcance:** 27 m
+- **Alcance:** Toque
+- **Componentes:** V, S
 - **Duración:** Concentración, hasta 1 minuto
-
-Nigromancia de nivel 3 (bardo, clérigo, mago)
-
-Componentes: V, S
 
 Tocas a una criatura, que deberá superar una tirada de
 
@@ -9193,19 +8782,11 @@ salvación de Sabiduría o quedará maldecida hasta que
 
 el conjuro termine. Hasta que se rompa la maldición,
 
-Componentes: V, S, M (un trozo de hierro recto)
-
-Duración: Concentración, hasta 1 minuto
-
-el objetivo sufrirá uno de los siguientes efectos a tu elección:
-
-Elige a una criatura que puedas ver dentro del alcance.
+el objetivo sufrirá uno de los siguientes efectos a tu elecc
 
 + Elige una característica. El objetivo tendrá desventaja
 
 en las pruebas de característica y tiradas de salvación
-
-termine el conjuro. Al final de cada uno de sus turnos,
 
 hechas con esa característica.
 
@@ -9218,20 +8799,6 @@ contra ti.
 salvación de Sabiduría al principio de cada uno de sus
 
 turnos o se verá obligado a llevar a cabo la acción de
-
-El objetivo deberá superar una tirada de salvación de
-
-Sabiduría o tendrá el estado de paralizado hasta que
-
-el objetivo repite la tirada de salvación y, si tiene éxito,
-
-se librará del conjuro.
-
-Con un espacio de conjuro de nivel superior. Puedes
-
-hacer objetivo a una criatura adicional por cada nivel
-
-por encima de 5 que tenga el espacio.
 
 esquivar ese turno.
 
@@ -9247,11 +8814,11 @@ la concentración en él hasta 10 minutos. Si usas un espacio
 
 de nivel 5 o superior, el conjuro no requiere concentración
 
-y la duración pasará a ser de 8 horas (espacio de nivel 5 o 6)
+y la duración pasará a ser de 8 horas (espacio de nivel 5 o
 
-o de 24 horas (espacio de nivel 7 u 8). Si usas un espacio de
+o de 24 horas (espacio de nivel 7 u 8). Si usas un espacio d
 
-conjuro de nivel 9, el conjuro durará hasta que sea disipado.
+conjuro de nivel 9, el conjuro durará hasta que sea disipado
 
 ---
 
@@ -9267,6 +8834,68 @@ del conjuro)
 
 Duración: 8 horas
 
+Hasta que termine el conjuro, escondes a un objetivo
+
+que toques ante los conjuros de adivinación. Este puede
+
+ser una criatura voluntaria, o un lugar o un objeto que
+
+no midan más de 3 m en ninguna de sus dimensiones.
+
+El objetivo no podrá ser el objetivo de conjuros de
+
+adivinación ni podrá ser percibido mediante sensores
+
+mágicos de escudriñamiento.
+
+---
+
+#### Infligir Heridas
+*Nigromancia de nivel 1 (clérigo)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Toque
+- **Componentes:** V, S
+- **Duración:** Instantáneo
+
+Una criatura a la que toques hace una tirada de salvación
+
+de Constitución; sufrirá 2d10 de daño necrótico si la falla
+
+o la mitad del daño si la supera.
+
+Con un espacio de conjuro de nivel superior. El daño
+
+aumenta en 1d10 por cada nivel por encima de 1 que tenga
+
+el espacio.
+
+---
+
+#### Inmovilizar Monstruo
+*Encantamiento de nivel 5 (bardo, brujo, hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 27 m
+- **Componentes:** V, S, M (un trozo de hierro recto)
+- **Duración:** Concentración, hasta 1 minuto
+
+ión:   Elige a una criatura que puedas ver dentro del alcance.
+
+El objetivo deberá superar una tirada de salvación de
+
+Sabiduría o tendrá el estado de paralizado hasta que
+
+termine el conjuro. Al final de cada uno de sus turnos,
+
+el objetivo repite la tirada de salvación y, si tiene éxito,
+
+se librará del conjuro.
+
+Con un espacio de conjuro de nivel superior. Puedes
+
+hacer objetivo a una criatura adicional por cada nivel
+
+por encima de 5 que tenga el espacio.
+
 ---
 
 #### Inmovilizar Persona
@@ -9280,9 +8909,11 @@ Alcance: 18 m
 
 Componentes: V, S, M (un trozo de hierro recto)
 
-Duración: Concentración, hasta 1 minuto
+6)     Duración: Concentración, hasta 1 minuto
 
-Elige a un humanoide que puedas ver dentro del alcance.
+e
+
+.      Elige a un humanoide que puedas ver dentro del alcance.
 
 El objetivo deberá superar una tirada de salvación de
 
@@ -9300,137 +8931,50 @@ hacer objetivo a un humanoide adicional por cada nivel
 
 por encima de 2 que tenga el espacio.
 
-La criatura se considera un aliado para tus aliados
-
-y para ti. En combate, la criatura comparte tu orden de
-
-iniciativa, pero su turno va justo después del tuyo, obedece
-
 ---
 
 #### Insecto Gigante
 *Conjuración de nivel 4 (druida)*
-
-tus órdenes verbales (no requiere acción) y, si no le das
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 18 m
-
-ninguna, realiza la acción de esquivar y usa su movimiento
-
-para evitar el peligro.
-
-Componentes: V, S
-
-Con un espacio de conjuro de nivel superior. Usa el nivel
-
-Duración: Concentración, hasta 10 minutos
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 18 m
+- **Componentes:** V, S
+- **Duración:** Concentración, hasta 10 minutos
 
 Invocas una araña, una avispa o un ciempiés gigantes
-
-del espacio de conjuro para determinar el nivel del conjuro
-
-en el perfil.
-
-y utiliza el perfil del insecto gigante. La forma que
-
-INVERTIR LA GRAVEDAD
 
 (a tu elección cuando lanzas el conjuro). Se manifiesta en
 
 un espacio sin ocupar que puedas ver dentro del alcance
 
+y utiliza el perfil del insecto gigante. La forma que
+
 elijas determina ciertos aspectos de su perfil. La criatura
-
-Transmutación de nivel 7 (druida, hechicero, mago)
-
-el conjuro termina.
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 30 m
-
-Componentes: V, S, M (un imán natural y virutas de hierro)
 
 desaparecerá si sus puntos de golpe se reducen a 0 o si
 
-Duración: Concentración, hasta 1 minuto
+el conjuro termina.
 
 l Bestia Grande, sin alineamiento
 
-Este conjuro invierte la gravedad en un cilindro de 15 m
-
-de radio y 30 m de alto centrado en un punto dentro del
-
-alcance. Todas las criaturas y objetos dentro de la zona
-
-que no estén fijados al suelo caerán hacia arriba y llegarán
-
-a la parte superior del cilindro. Una criatura puede hacer
-
-CA: 11 + el nivel del conjuro
-
-PG: 30 + 10 por cada nivel del conjuro superior al 4
-
 Velocidad: 12 m, trepar 12 m, volar 12 m (solo avispa)
 
-MOD.
+MOD.   SALV.           M         LV          MOD
 
-SALV.
+nr 4 EEN                 Sab ION                [Cars EAS
 
-Fue 174343
-
-nr 4 EEN
-
-M
-
-Des 13 HI
-
-LV
-
-70+10
-
-Sab ION
-
-MOD.
-
-Con 151+2
-
-SALV.
-
-+2.
-
-[Cars EAS
-
-una tirada de salvación de Destreza para agarrarse a un
-
-objeto fijo a su alcance y así evitar la caída hacia arriba.
-
-|
-
-|
-
-Si un techo o un objeto fijo se interpone en la caída, las
-
-Sentidos: visión en la oscuridad 18 m, Percepción pasiva 12 l
+Sentidos: visión en la oscuridad 18 m, Percepción pasiva 12
 
 Idiomas: entiende los idiomas que conozcas
 
-|
-
-criaturas y objetos chocan contra él como harían en una
-
 ATRIBUTOS
 
-Cuando ocurra, las criaturas y objetos afectados caerán
+Trepar cual arácnido. El insecto puede trepar por superfici
 
-VD: ninguno (0 PX; BC igual a tu bonificador por competencia)
+difíciles e incluso recorrer techos sin tener que realizar
 
----
+pruebas de característica.
 
-#### Invisibilidad Acciones
-*Ilusionismo de nivel 2 (bardo, brujo, hechicero, mago)*
+ACCIONES
 
 Ataque múltiple. El insecto realiza una cantidad de ataques
 
@@ -9438,11 +8982,19 @@ igual a la mitad del nivel de este conjuro (redondeado
 
 hacia abajo).
 
-Proyectil de telarañas (solo araña). Tirada de ataque a distancia:
+Punzada venenosa. Tirada de ataque cuerpo a cuerpo:
 
 bonificador igual a tu modificador de ataque de conjuros,
 
-alcance 18 m. Acierto: 1410 + 3 más el nivel del conjuro de daño
+alcance 3 m. Acierto: 1d6 + 3 más el nivel del conjuro de
+
+daño perforante más 1d4 de daño de Veneno.
+
+Proyectil de telarañas (solo araña). Tirada de ataque a dis
+
+bonificador igual a tu modificador de ataque de conjuros,
+
+alcance 18 m. Acierto: 1410 + 3 más el nivel del conjuro de
 
 contundente y la velocidad del objetivo se reduce a O hasta
 
@@ -9458,37 +9010,70 @@ que el insecto pueda ver a 3 m o menos. Fallo: el objetivo
 
 tendrá el estado de envenenado hasta el principio del
 
-a la parte superior del cilindro sin chocarse con nada,
+siguiente turno del insecto.
+
+La criatura se considera un aliado para tus aliados
+
+y para ti. En combate, la criatura comparte tu orden de
+
+iniciativa, pero su turno va justo después del tuyo, obedece
+
+tus órdenes verbales (no requiere acción) y, si no le das
+
+ninguna, realiza la acción de esquivar y usa su movimiento
+
+para evitar el peligro.
+
+Con un espacio de conjuro de nivel superior. Usa el nivel
+
+del espacio de conjuro para determinar el nivel del conjuro
+
+en el perfil.
+
+---
+
+#### Invertir la Gravedad
+*Transmutación de nivel 7 (druida, hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 30 m
+- **Componentes:** V, S, M (un imán natural y virutas de hierro)
+- **Duración:** Concentración, hasta 1 minuto
+
+Este conjuro invierte la gravedad en un cilindro de 15 m
+
+de radio y 30 m de alto centrado en un punto dentro del
+
+alcance. Todas las criaturas y objetos dentro de la zona
+
+que no estén fijados al suelo caerán hacia arriba y llegarán
+
+.   SALV.            a la parte superior del cilindro. Una criatura puede hacer
+
++2.     |        una tirada de salvación de Destreza para agarrarse a un
+
+objeto fijo a su alcance y así evitar la caída hacia arriba.
+
+|     Si un techo o un objeto fijo se interpone en la caída, las
+
+l                   criaturas y objetos chocan contra él como harían en una
+
+|                   caída normal hacia abajo. Si una criatura u objeto llega
+
+a)                   a la parte superior del cilindro sin chocarse con nada,
 
 permanecerá allí flotando hasta que el conjuro termine.
 
-hacia abajo.
+Cuando ocurra, las criaturas y objetos afectados caerán
 
-Trepar cual arácnido. El insecto puede trepar por superficies
+es                   hacia abajo.
 
-difíciles e incluso recorrer techos sin tener que realizar
+---
 
-pruebas de característica.
-
-Punzada venenosa. Tirada de ataque cuerpo a cuerpo:
-
-bonificador igual a tu modificador de ataque de conjuros,
-
-alcance 3 m. Acierto: 1d6 + 3 más el nivel del conjuro de
-
-daño perforante más 1d4 de daño de Veneno.
-
-caída normal hacia abajo. Si una criatura u objeto llega
-
-Tiempo de lanzamiento: Acción
-
-Alcance: Toque
-
-Componentes: V, S, M (una pestaña envuelta en goma
-
-|
-
-|
+#### Invisibilidad
+*Ilusionismo de nivel 2 (bardo, brujo, hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Toque
+- **Componentes:** V, S, M (una pestaña envuelta en goma
 
 arábiga)
 
@@ -9498,77 +9083,26 @@ Una criatura a la que tocas tiene el estado de invisible
 
 hasta que el conjuro termine. El conjuro terminará
 
-inmediatamente después de que el objetivo haga una
+tancia:              inmediatamente después de que el objetivo haga una
 
 tirada de ataque, cause daño o lance un conjuro.
 
-|l
-
-Con un espacio de conjuro de nivel superior. Puedes
+daño                  Con un espacio de conjuro de nivel superior. Puedes
 
 hacer objetivo a una criatura adicional por cada nivel
 
-por encima de 2 que tenga el espacio.
-
-l
+|l       por encima de 2 que tenga el espacio.
 
 fl
 
-siguiente turno del insecto.
+---
 
-Invocas un espíritu aberrante que se manifiesta en un
-
-espacio sin ocupar que puedas ver dentro del alcance y usa
-
-el perfil del espíritu aberrante. Cuando lances el conjuro,
-
-elige azotamentes, contemplador o slaad. La criatura se
-
-parecerá a una aberración de ese tipo, lo que determinará
-
-ciertos detalles de su perfil. La criatura desaparecerá si sus
-
-puntos de golpe se reducen a O o si el conjuro termina.
-
-La criatura se considera un aliado para tus aliados
-
-y para ti. En combate, comparte tu orden de iniciativa,
-
-pero su turno va justo después del tuyo, obedece tus
-
-órdenes verbales (no requiere acción) y, si no le das ninguna,
-
-realiza la acción de esquivar y usa su movimiento para
-
-evitar el peligro.
-
-Con un espacio de conjuro de nivel superior. Usa el nivel
-
-ESPÍRITU ABERRANTE (CONTEMPLADOR)
-
-del espacio de conjuro para determinar el nivel del conjuro
-
-en el perfil.
-
->
-
-ARA
-
-a
-
-1 ESPÍRITU ABERRANTE
-
->
-
-WI
-
-Tiempo de lanzamiento: Acción
-
-Alcance: Toque
-
-Componentes: V, S
-
-Duración: Concentración, hasta 1 minuto
+#### Espíritu Aberrante (contemplador) Invisibilidad Mejorada
+*Ilusionismo de nivel 4 (bardo, hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Toque
+- **Componentes:** V, S
+- **Duración:** Concentración, hasta 1 minuto
 
 Una criatura a la que tocas tiene el estado de invisible
 
@@ -9601,9 +9135,9 @@ magia para decir el nombre del objeto y aplastar el zafiro.
 
 El objeto aparecerá en tu mano al instante, sin importar
 
-las distancias físicas o interplanares, y el conjuro terminará.
+las distancias físicas o interplanares, y el conjuro termina
 
-Si otra criatura sostiene o lleva el objeto consigo, aplastar
+Si otra criatura sostiene o lleva el objeto consigo, apla
 
 el zafiro no lo llevará hasta ti. En su lugar, descubrirás
 
@@ -9623,49 +9157,51 @@ al menos 400 po)
 
 Duración: Concentración, hasta 1 hora
 
+Invocas un espíritu aberrante que se manifiesta en un
+
+espacio sin ocupar que puedas ver dentro del alcance y usa
+
+el perfil del espíritu aberrante. Cuando lances el conjuro,
+
+elige azotamentes, contemplador o slaad. La criatura se
+
+parecerá a una aberración de ese tipo, lo que determinará
+
+ciertos detalles de su perfil. La criatura desaparecerá si sus
+
+puntos de golpe se reducen a O o si el conjuro termina.
+
+La criatura se considera un aliado para tus aliados
+
+y para ti. En combate, comparte tu orden de iniciativa,
+
+pero su turno va justo después del tuyo, obedece tus
+
+órdenes verbales (no requiere acción) y, si no le das ninguna,
+
+realiza la acción de esquivar y usa su movimiento para
+
+evitar el peligro.
+
+Con un espacio de conjuro de nivel superior. Usa el nivel
+
+del espacio de conjuro para determinar el nivel del conjuro
+
+en el perfil.
+
+>       ARA                                         a                     >
+
+1 ESPÍRITU ABERRANTE
+
+WI
+
 Aberración Mediana, neutral
-
-| CA: 11 + el nivel del conjuro
-
-PG: 40 + 10 por cada nivel del conjuro superior al 4
 
 | Velocidad: 9 m, volar 9 m (levitar; solo contemplador)
 
-MOD.
+MOD.   SALV.          MOD.   SALV.          MOD.   SALV.
 
-Fue 16 +3
-
-Int 16 +3
-
-SALV.
-
-+3
-
-+3
-
-MOD.
-
-Des10 +0
-
-Sam 10 +0
-
-SALV.
-
-+0
-
-+0
-
-MOD.
-
-Con15 +2
-
-Car 6 -2
-
-SALV.
-
-+2
-
--2
+Int 16 +3       +3      Sam 10 +0     +0      Car 6 -2      -2
 
 inmunidades: psíquico
 
@@ -9674,8 +9210,6 @@ Sentidos: visión en la oscuridad 18 m, Percepción pasiva 10
 Idiomas: habla de las profundidades, entiende los idiomas
 
 que conozcas
-
-VD: ninguno (0 PX; BC igual a tu bonificador por competencia)
 
 ATRIBUTOS
 
@@ -9687,13 +9221,9 @@ el estado de incapacitado. Tirada de salvación de Sabiduría:
 
 CD igual a tu CD de salvación de conjuros, todas las
 
-criaturas (excepto tú) a 1,5 m o menos del espíritu.
+criaturas (excepto tú) a 1,5 m o menos del espíritu.             |
 
-|
-
-Fallo: 2d6 de daño psíquico.
-
-|
+Fallo: 2d6 de daño psíquico.                                     |
 
 Regeneración (solo slaad). El espíritu recupera 5 puntos
 
@@ -9705,9 +9235,9 @@ Ataque múltiple. El espíritu realiza una cantidad de ataques
 
 igual a la mitad del nivel de este conjuro (redondeado
 
-hacia abajo).
+rá.       hacia abajo).
 
-| Garra (solo slaad). Tirada de ataque cuerpo a cuerpo:
+star    | Garra (solo slaad). Tirada de ataque cuerpo a cuerpo:
 
 | bonificador igual a tu modificador de ataque de conjuros,
 
@@ -9735,92 +9265,91 @@ daño psíquico.
 
 mm
 
----
-
-#### Invisibilidad Mejorada
-*Ilusionismo de nivel 4 (bardo, hechicero, mago)*
-
-ESPÍRITU AUTÓMATA
-
-(PIEDRA)
-
 ESPÍRITU AUTÓMATA
 
 Autómata Mediano, neutral
 
-CA: 13 + el nivel del conjuro
-
-PG: 40 + 15 por cada nivel del conjuro superior al 4
-
 | Velocidad: 9 m
 
-MOD.
+MOD.   SALY.          MOD.   SAL'           M
 
-SALY.
-
-MOD.
-
-SAL'
-
-MOD.
-
-SALV.
-
-Fue 18 +4
-
-+4
-
-Des10+0
-
-+0
-
-Conl3 +4
-
-+4
-
-InT 14 +2
-
-+2
-
-Sab 11 +0
-
-+0
-
-Car 5 -3
-
--3
+InT 14 +2       +2      Sab 11 +0     +0     Car 5 -3
 
 | Resistencias: veneno
 
-| | Inmunidades: asustado, cansancio, envenenado, hechizado, |
+| | Inmunidades: asustado, cansancio, envenenado, hechizado,
 
-[|
+[|     paralizado
 
-paralizado
-
-|| Sentidos: visión en la oscuridad 18 m, Percepción pasiva 10
+|| Sentidos: visión en la oscuridad 18 m, Percepción pasiva
 
 | Idiomas: entiende los idiomas que conozcas
-
-VD: ninguno (0 PX; BC igual a tu bonificador por
 
 competencia)
 
 ATRIBUTOS
 
-| Cuerpo abrasador (solo metal). Una criatura que acierte al
-
-INVOCAR AUTÓMATA
+| Cuerpo abrasador (solo metal). Una criatura que acierte a
 
 | espíritu con un ataque cuerpo a cuerpo o empiece su turno
 
-Conjuración de nivel 4 (mago)
+| en un agarre con el espíritu sufre 1410 de daño de fuego.
 
 | Letargo pétreo (solo piedra). Cuando una criatura empieza
 
 | su turno a 3 m o menos del espíritu, este puede hacerla
 
 objetivo con energía mágica si puede verla. Tirada de
+
+salvación de Sabiduría: CD igual a tu CD
+
+de salvación
+
+de conjuros, el objetivo. Fallo: hasta el principio de
+
+siguiente turno, el objetivo no puede realizar ataques
+
+de oportunidad y su velocidad se reduce a la mitad.
+
+ACCIONES
+
+Ataque múltiple. El espíritu realiza una cantidad de at
+
+con su golpe igual a la mitad del nivel de este conjuro
+
+(redondeado hacia abajo).
+
+Golpe. Tirada de ataque cuerpo a cuerpo: bonificador ig
+
+a tu modificador de ataque de conjuros, alcance 1,5 m.
+
+Acierto: 148 + 4 + el nivel del conjuro de daño contund
+
+REACCIONES
+
+Azote berserk (solo arcilla). Detonante: el espíritu re
+
+daño de una criatura. Respuesta: el espíritu realiza un
+
+ataque con su golpe contra esa criatura si es posible
+
+o se mueve hasta la mitad de su velocidad hacia esa
+
+criatura sin provocar ataques de oportunidad.
+
+ESPÍRITU AUTÓMATA
+
+(PIEDRA)
+
+OD.    SALV.
+
++4
+
+-3
+
+l              INVOCAR AUTÓMATA
+
+Conjuración de nivel 4 (mago)
 
 Tiempo de lanzamiento: Acción
 
@@ -9832,43 +9361,7 @@ al menos 400 po)
 
 Duración: Concentración, hasta 1 hora
 
-| en un agarre con el espíritu sufre 1410 de daño de fuego.
-
-salvación de Sabiduría: CD igual a tu CD
-
-de salvación
-
-de conjuros, el objetivo. Fallo: hasta el principio de su
-
-siguiente turno, el objetivo no puede realizar ataques
-
-de oportunidad y su velocidad se reduce a la mitad.
-
-ACCIONES
-
-Ataque múltiple. El espíritu realiza una cantidad de ataques
-
-con su golpe igual a la mitad del nivel de este conjuro
-
-(redondeado hacia abajo).
-
-Golpe. Tirada de ataque cuerpo a cuerpo: bonificador igual
-
-a tu modificador de ataque de conjuros, alcance 1,5 m.
-
-Acierto: 148 + 4 + el nivel del conjuro de daño contundente.
-
-REACCIONES
-
-Azote berserk (solo arcilla). Detonante: el espíritu recibe
-
-daño de una criatura. Respuesta: el espíritu realiza un
-
-ataque con su golpe contra esa criatura si es posible
-
-o se mueve hasta la mitad de su velocidad hacia esa
-
-criatura sin provocar ataques de oportunidad.
+su
 
 Invocas el espíritu de un autómata, que se manifiesta en
 
@@ -9880,23 +9373,23 @@ el conjuro, elige un material: arcilla, metal o piedra.
 
 La criatura parecerá una estatua animada (tú decides
 
-el aspecto) hecha del material en cuestión, lo que
+aques          el aspecto) hecha del material en cuestión, lo que
 
 determinará ciertos detalles de su perfil. La criatura
 
 desaparecerá si sus puntos de golpe se reducen a 0 o si el
 
-conjuro termina.
+ual            conjuro termina.
 
 La criatura se considera un aliado para tus aliados
 
-y para ti. En combate, la criatura comparte tu orden
+ente.          y para ti. En combate, la criatura comparte tu orden
 
 de iniciativa, pero su turno va justo después del tuyo,
 
 obedece tus órdenes verbales (no requiere acción) y,
 
-si no le das ninguna, realiza la acción de esquivar y usa
+cibe           si no le das ninguna, realiza la acción de esquivar y usa
 
 su movimiento para evitar el peligro.
 
@@ -9924,9 +9417,9 @@ Invocas un espíritu bestial que se manifiesta en un espacio
 
 sin ocupar que puedas ver dentro del alcance y usa el
 
-perfil del espíritu bestial. Cuando lances el conjuro, elige
+perfil del espíritu bestial. Cuando lances el conjuro, elig
 
-un hábitat: tierra, mar o aire. La criatura se parecerá a un
+un hábitat: tierra, mar o aire. La criatura se parecerá a u
 
 animal de tu elección de ese hábitat, lo que determinará
 
@@ -9946,11 +9439,7 @@ si no le das ninguna, realiza la acción de esquivar y usa
 
 su movimiento para evitar el peligro.
 
-EsPÍRITU CELE
-
 Con un espacio de conjuro de nivel superior. Usa el nivel
-
-(VENGADOR)
 
 del espacio de conjuro para determinar el nivel del conjuro
 
@@ -9960,92 +9449,87 @@ ESPÍRITU BESTIAL
 
 Bestia Pequeña, neutral
 
-CA: 11 + el nivel del conjuro
-
-PG: 20 (solo aire) o 30 (solo mary tierra) + 5 por cada nivel
-
 del conjuro superior al 2
 
-| Velocidad: 9 m, nadar 9 m (solo mar), trepar 9 m (solo tierra),
+| Velocidad: 9 m, nadar 9 m (solo mar), trepar 9 m (solo tie
 
 volar 18 m (solo aire)
 
-MOD.
-
-SALV.
-
-MOD.
-
-SALV.
-
-MOD.
-
-SALV.
-
-Fue 18 +4
-
-+4
-
-Des 11 +0
-
-+0
-
-ConNl6 +3
-
-+3
-
-INT 4-3
-
--3
-
-Sab 14 +2
-
-+2
-
-Car 5 -3
-
--3
+MOD.   SALV.          MOD.   SALV.          MOD.
 
 Sentidos: visión en la oscuridad 18 m, Percepción pasiva 12
 
 Idiomas: entiende los idiomas que conozcas
 
-l
-
-VD: ninguno (0 PX; BC igual a tu bonificador por competencia)
-
 ATRIBUTOS
 
-Atacar en manada (solo mar
-
-y tierra). El espíritu tiene
+Atacar en manada (solo mar   y tierra). El espíritu tiene
 
 ventaja en una tirada de ataque contra una criatura si al
 
 menos uno de los aliados del espíritu se encuentra a 1,5 m
 
----
+o menos de la criatura y no tiene el estado de incapacitado
 
-#### Invocar Celestial
-*Conjuración de nivel 5 (clérigo, paladín)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** 27 m
-- **Componentes:** V, S, M (un relicario que valga al menos 500 po)
-- **Duración:** Concentración, hasta 1 hora
-
-Invocas un espíritu celestial que se manifiesta con una
-
-forma angelical en un espacio sin ocupar que puedas ver
-
-o menos de la criatura y no tiene el estado de incapacitado.
-
-Pasar volando (solo aire). El espíritu no provoca ataques de
+Pasar volando (solo aire). El espíritu no provoca ataques d
 
 oportunidad cuando vuela para ponerse fuera del alcance
 
 de un enemigo.
 
-dentro del alcance y usa el perfil del espíritu celestial.
+Respirar en el agua (solo mar). El espíritu solo puede
+
+respirar bajo el agua.
+
+ACCIONES
+
+Ataque múltiple. El espíritu realiza una cantidad de ataque
+
+de desgarro igual a la mitad del nivel de este conjuro
+
+(redondeado hacia abajo).
+
+Desgarro. Tirada de ataque cuerpo a cuerpo: bonificador
+
+igual a tu modificador de ataque de conjuros, alcance 1,5 m
+
+Acierto: 148 + 4 + el nivel del conjuro de daño perforante.
+
+dde
+
+e
+
+n
+
+EsPÍRITU CELE
+
+(VENGADOR)
+
+el
+
+rra),
+
+SALV.
+
+-3
+
+INVOCAR CELESTIAL
+
+a)             Conjuración de nivel 5 (clérigo, paladín)
+
+Tiempo de lanzamiento: Acción
+
+Alcance: 27 m
+
+Componentes: V, S, M (un relicario que valga al menos 500 po)
+
+Duración: Concentración, hasta 1 hora
+
+Invocas un espíritu celestial que se manifiesta con una
+
+.              forma angelical en un espacio sin ocupar que puedas ver
+
+e              dentro del alcance y usa el perfil del espíritu celestial.
 
 Cuando lances el conjuro, elige defensor o vengador.
 
@@ -10057,51 +9541,29 @@ a 0 o si el conjuro termina.
 
 La criatura se considera un aliado para tus aliados
 
-Respirar en el agua (solo mar). El espíritu solo puede
-
-respirar bajo el agua.
-
-ACCIONES
-
 y para ti. En combate, la criatura comparte tu orden
 
-de iniciativa, pero su turno va justo después del tuyo,
+s              de iniciativa, pero su turno va justo después del tuyo,
 
 obedece tus órdenes verbales (no requiere acción) y,
 
-Ataque múltiple. El espíritu realiza una cantidad de ataques
-
-de desgarro igual a la mitad del nivel de este conjuro
-
-(redondeado hacia abajo).
-
-Desgarro. Tirada de ataque cuerpo a cuerpo: bonificador
-
 si no le das ninguna, realiza la acción de esquivar y usa
-
-|
-
-igual a tu modificador de ataque de conjuros, alcance 1,5 m. |
-
-Acierto: 148 + 4 + el nivel del conjuro de daño perforante.
-
-[
-
-dde
-
-Y
 
 su movimiento para evitar el peligro.
 
 Con un espacio de conjuro de nivel superior. Usa el nivel
 
+. |
+
 del espacio de conjuro para determinar el nivel del conjuro
+
+[
 
 en el perfil.
 
 ---
 
-#### Invocar Dragón
+#### Y Invocar Dragón
 *Conjuración de nivel 5 (mago)*
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** 18 m
@@ -10111,21 +9573,15 @@ dragón grabada en él que valga al menos 500 po)
 
 Duración: Concentración, hasta 1 hora
 
-Invocas el espíritu de un dragón, que se manifiesta en un
+Invocas el espíritu de un dragón, que se manifiesta en u
 
-espacio sin ocupar que puedas ver dentro del alcance y usa
+espacio sin ocupar que puedas ver dentro del alcance y u
 
-el perfil del espíritu dracónico. La criatura desaparecerá
+el perfil del espíritu dracónico. La criatura desaparece
 
 si sus puntos de golpe se reducen a 0 o si el conjuro
 
-Espíritu
-
-DRACÓNICO
-
 termina.
-
-CERÍO)
 
 La criatura se considera un aliado para tus aliados
 
@@ -10135,135 +9591,43 @@ de iniciativa, pero su turno va justo después del tuyo,
 
 obedece tus órdenes verbales (no requiere acción) y,
 
-si no le das ninguna, realiza la acción de esquivar y usa
+si no le das ninguna, realiza la acción de esquivar y us
 
 su movimiento para evitar el peligro.
 
-Con un espacio de conjuro de nivel superior. Usa el nivel
+Con un espacio de conjuro de nivel superior. Usa el ni
 
-del espacio de conjuro para determinar el nivel del conjuro
+del espacio de conjuro para determinar el nivel del conj
 
 en el perfil.
 
-==
-
-A
-
->
+==                  A               >
 
 | ESPÍRITU CELESTIAL
 
-ESPÍRITU DRACÓNICO
-
 I| Celestial Grande, neutral
 
-| CA: 11 + el nivel del conjuro
-
-+ 2 (solo defensor)
-
-J
-
-Dragón Grande, neutral
+J    + 2 (solo defensor)
 
 l PG: 40 + 10 por cada nivel del conjuro superior al 5
 
 | Velocidad: 9 m, volar 12 m
 
-|
+| FUE T6 +3          +3     Des14 +2      +2          CoNl6
 
-MOD. SALV.
-
-MOD. SALV.
-
-MOD. SALV.
-
-| FUE T6 +3
-
-+3
-
-Des14 +2
-
-+2
-
-CoNl6 +3
-
-+3
-
-InT 10 +0
-
-+0
-
-SaB 14 +2
-
-+2
-
-CAR 16 +3
-
-+3
-
-|
+InT 10 +0        +0      SaB 14 +2   +2           CAR 16
 
 Resistencias: radiante
 
-MOD. SALV.
-
-MOD. SALV.
-
-MOD. SALV.
-
-Fue 19 +4
-
-+4
-
-Des 14 +2
-
-+2
-
-CON17 +3
-
-+3
-
-InT 10 +0
-
-+0
-
-Sab 14 +2
-
-+2
-
-CAR 14 +2
-
-+2
-
-Resistencias: ácido, frío, fuego, relámpago, veneno
-
 Inmunidades: asustado, hechizado
 
-Inmunidades: asustado, envenenado, hechizado
+Sentidos: visión en la oscuridad 18 m, Percepción pasiva
 
-Sentidos: visión en la oscuridad 18 m, Percepción pasiva 12
+Idiomas: celestial, entiende los idiomas que conozcas
 
-VD: ninguno (0 PX; BC igual a tu bonificador por competencia) |
+| ACCIONES                                       za
 
-za
-
-|
-
-Toque sanador (1/día). El espíritu toca a otra criatura.
-
-El objetivo recupera una cantidad de puntos de golpe igual
-
-a 2d8 + el nivel del conjuro.
-
-Percepción pasiva 12
-
-Idiomas: dracónico, entiende los idiomas que conozcas
-
-VD: ninguno (0 PX; BC igual a tu bonificador por competencia)
-
-ATRIBUTOS
-
-l Ataque múltiple. El espíritu realiza una cantidad de ataques
+l Ataque múltiple. El espíritu realiza una cantidad de ataqu
 
 | igual a la mitad del nivel de este conjuro (redondeado
 
@@ -10273,7 +9637,7 @@ l Ataque múltiple. El espíritu realiza una cantidad de ataques
 
 La cuerpo: bonificador igual a tu modificador de ataque de
 
-conjuros, alcance 1,5 m. Acierto: 1410 + 3 + el nivel del
+conjuros, alcance 1,5 m. Acierto: 1410 + 3 + el nivel de
 
 | conjuro de daño radiante, y el espíritu puede elegirse así
 
@@ -10283,29 +9647,59 @@ objetivo. La criatura elegida gana 1410 puntos de golpe
 
 temporales.
 
-| Arco radiante (solo vengador). Tirada de ataque a distancia:
+| Arco radiante (solo vengador). Tirada de ataque a distanc
 
-| bonificador igual a tu modificador de ataque de conjuros,
+| bonificador igual a tu modificador de ataque de conjuros
 
-| alcance 180 m. Acierto: 2d6 + 2 + el nivel del conjuro de
+| alcance 180 m. Acierto: 2d6 + 2 + el nivel del conjuro d
 
 daño radiante.
 
-I
+Toque sanador (1/día). El espíritu toca a otra criatura.
 
-Sentidos: visión ciega 9 m, visión en la oscuridad 18 m,
+El objetivo recupera una cantidad de puntos de golpe igu
 
-Idiomas: celestial, entiende los idiomas que conozcas
+a 2d8 + el nivel del conjuro.
 
-| ACCIONES
+n
 
-CA: 14 + el nivel del conjuro
+sa
 
-PG: 50 + 10 por cada nivel del conjuro superior al 5
+rá
+
+Espíritu
+
+DRACÓNICO
+
+CERÍO)
+
+a
+
+vel
+
+uro
+
+ESPÍRITU DRACÓNICO
+
+Dragón Grande, neutral
 
 Velocidad: 9 m, nadar 9 m, volar 18 m
 
-l
++3    +3                 Fue 19 +4      +4      Des 14 +2    +2      CON17 +3        +3
+
++3   +3                 InT 10 +0      +0      Sab 14 +2    +2      CAR 14 +2       +2
+
+Resistencias: ácido, frío, fuego, relámpago, veneno
+
+Inmunidades: asustado, envenenado, hechizado                     I
+
+12                     Sentidos: visión ciega 9 m, visión en la oscuridad 18 m,
+
+Percepción pasiva 12
+
+ncia) |                 Idiomas: dracónico, entiende los idiomas que conozcas
+
+es                      ATRIBUTOS
 
 | Resistencias compartidas. Cuando invoques al espíritu,
 
@@ -10313,53 +9707,29 @@ elige una de sus resistencias. Tienes resistencia al tipo
 
 de daño elegido hasta que el conjuro termine.
 
-ACCIONES
+l                       ACCIONES
 
-|
-
-| Ataque múltiple. El espíritu realiza una cantidad de
+|    | Ataque múltiple. El espíritu realiza una cantidad de
 
 l| ataques de desgarro igual a la mitad del nivel del conjuro
 
 (redondeado hacia abajo) y utiliza su ataque de aliento.
 
-Il
+Il     Desgarro. Tirada de ataque cuerpo a cuerpo: bonificador
 
-|
+ia:               |      igual a tu modificador de ataque de conjuros, alcance 3 m.
 
-|
+,                 |    | Acierto: 1d6 + 4 + el nivel del conjuro de daño perforante.
 
-Desgarro. Tirada de ataque cuerpo a cuerpo: bonificador
-
-igual a tu modificador de ataque de conjuros, alcance 3 m.
-
-| Acierto: 1d6 + 4 + el nivel del conjuro de daño perforante.
-
-Ataque de aliento. Tirada de salvación de Destreza: CD igual
+e                       Ataque de aliento. Tirada de salvación de Destreza: CD igual
 
 a tu CD de salvación de conjuros, todas las criaturas en
 
 un cono de 9 m. Fallo: 2d6 de daño de un tipo al que este
 
-espíritu tenga resistencia (a tu elección cuando lanzas el
+al                      espíritu tenga resistencia (a tu elección cuando lanzas el
 
 conjuro). Éxito: la mitad del daño.
-
-p—
-
-ESPÍRITU ELEMENTAL
-
-Elemental Mediano, neutral
-
-CA: 11 + el nivel del conjuro
-
-PG: 50 + 10 por cada nivel del conjuro superior al 4
-
-Velocidad: 12 m, excavar 12 m (solo tierra), nadar 12 m
-
-(solo agua), volar 12 m (levitar; solo aire)
-
-MOD. SALV.
 
 ---
 
@@ -10369,7 +9739,7 @@ MOD. SALV.
 - **Alcance:** 27 m
 - **Componentes:** V, S, M (aire, un guijarro, ceniza y agua
 
-dentro de un vial con incrustaciones de oro que valga
+dentro de un vial con incrustaciones de oro que valg
 
 al menos 400 po)
 
@@ -10377,65 +9747,49 @@ Duración: Concentración, hasta 1 hora
 
 Invocas un espíritu elemental que se manifiesta en un
 
-espacio sin ocupar que puedas ver dentro del alcance y usa
+espacio sin ocupar que puedas ver dentro del alcance y
 
-el perfil del espíritu elemental. Cuando lances el conjuro,
+el perfil del espíritu elemental. Cuando lances el con
 
-elige un elemento: agua, aire, fuego o tierra. La criatura se
+elige un elemento: agua, aire, fuego o tierra. La cria
 
-parecerá a un ser bípedo envuelto en el elemento elegido,
+parecerá a un ser bípedo envuelto en el elemento elegi
 
-lo que determinará ciertos detalles de su perfil. La criatura
+lo que determinará ciertos detalles de su perfil. La c
 
-desaparecerá si sus puntos de golpe se reducen a 0 o si el
+desaparecerá si sus puntos de golpe se reducen a 0 o s
 
 conjuro termina.
 
 La criatura se considera un aliado para tus aliados
 
-y para ti. En combate, la criatura comparte tu orden de
+y para ti. En combate, la criatura comparte tu orden d
 
-iniciativa, pero su turno va justo después del tuyo, obedece
+iniciativa, pero su turno va justo después del tuyo, o
 
-tus órdenes verbales (no requiere acción) y, si no le das
+tus órdenes verbales (no requiere acción) y, si no le
 
-ninguna, realiza la acción de esquivar y usa su movimiento
+ninguna, realiza la acción de esquivar y usa su movimi
 
 para evitar el peligro.
 
-Con un espacio de conjuro de nivel superior. Usa el nivel
+Con un espacio de conjuro de nivel superior. Usa el
 
-del espacio de conjuro para determinar el nivel del conjuro
+del espacio de conjuro para determinar el nivel del co
 
 en el perfil.
 
-MOD. SALV.
+p—
 
-MOD. SALV.
+ESPÍRITU ELEMENTAL
 
-Fue 18 +4
+Elemental Mediano, neutral
 
-+4
+Velocidad: 12 m, excavar 12 m (solo tierra), nadar 12 m
 
-Des 15+2
+(solo agua), volar 12 m (levitar; solo aire)
 
-+2
-
-CoN17 +3
-
-+3
-
-InT 4-3
-
--3
-
-Sam 10 +0
-
-+0
-
-CAR 16 +3
-
-+3
+InT 4-3        -3     Sam 10 +0      +0     CAR 16 +3    +3
 
 Resistencias: ácido (solo agua), cortante y perforante
 
@@ -10443,93 +9797,39 @@ Resistencias: ácido (solo agua), cortante y perforante
 
 Inmunidades: fuego (solo fuego), veneno; cansancio,
 
-envenenado, paralizado, petrificado
+a            envenenado, paralizado, petrificado
 
 Sentidos: visión en la oscuridad 18 m, Percepción pasiva 10
 
 Idiomas: primordial, entiende los idiomas que conozcas
 
-| VD: ninguno (0 PX; BC igual a tu bonificador por competencia)
+usa      | ATRIBUTOS
 
-| ATRIBUTOS
+juro,
 
-Forma amorfa (solo agua, aire y fuego). El espíritu puede
+tura se    Forma amorfa (solo agua, aire y fuego). El espíritu puede
 
-moverse a través de un espacio de solo 2,5 cm de ancho
+do,        moverse a través de un espacio de solo 2,5 cm de ancho
 
-sin que cuente como terreno difícil.
+riatura    sin que cuente como terreno difícil.
 
-ACCIONES
+i el       ACCIONES
 
 Ataque múltiple. El espíritu realiza una cantidad de ataques
 
-con su golpe igual a la mitad del nivel de este conjuro
+e          con su golpe igual a la mitad del nivel de este conjuro
 
-(redondeado hacia abajo).
+bedece     (redondeado hacia abajo).
 
-Golpe. Tirada de ataque cuerpo a cuerpo: bonificador igual
+das        Golpe. Tirada de ataque cuerpo a cuerpo: bonificador igual
 
-a tu modificador de ataque de conjuros, alcance 1,5 m.
+ento       a tu modificador de ataque de conjuros, alcance 1,5 m.
 
 Acierto: 1410 + 4 + el nivel del conjuro de daño contundente
 
-(solo tierra), de frío (solo agua), de fuego (solo fuego)
+nivel      (solo tierra), de frío (solo agua), de fuego (solo fuego)
 
-o de relámpago (solo aire).
-
-CONVOCAR A UN ESPÍRITU FEÉRICO ENFURECIDO:
-
-r
-
-Feérico Pequeño, neutral
-
-CA: 12 + el nivel del conjuro
-
-| PG: 30 + 10 por cada nivel del conjuro superior al 3
-
-Velocidad: 9 m, volar 9 m
-
-MOD.
-
-SALV.
-
-MOD.
-
-SALV.
-
-MOD.
-
-SALV.
-
-Fue 13 +1
-
-+1.
-
-Des16 +3
-
-+3
-
-Conl4 +2
-
-+2
-
-InT 14 +2
-
-+2
-
-SAB 11 +0 +0
-
-Car 16 +3
-
-+3
-
-Inmunidades: hechizado
-
-Sentidos: visión en la oscuridad 18 m, Percepción pasiva 10
-
-Idiomas: silvano, entiende los idiomas que conozcas
-
-VD: ninguno (0 PX; BC igual a tu bonificador por competencia)
+njuro      o de relámpago (solo aire).
 
 ---
 
@@ -10577,6 +9877,24 @@ del espacio de conjuro para determinar el nivel del conjuro
 
 en el perfil.
 
+CONVOCAR A UN ESPÍRITU FEÉRICO ENFURECIDO:
+
+r
+
+Feérico Pequeño, neutral
+
+Velocidad: 9 m, volar 9 m
+
+MOD.   SALV.         MOD.   SALV.          MOD.   SALV.
+
+InT 14 +2       +2      SAB 11 +0 +0         Car 16 +3     +3
+
+Inmunidades: hechizado
+
+Sentidos: visión en la oscuridad 18 m, Percepción pasiva 10
+
+Idiomas: silvano, entiende los idiomas que conozcas
+
 ACCIONES
 
 Ataque múltiple. El espíritu realiza una cantidad de ataques
@@ -10595,9 +9913,7 @@ ACCIONES ADICIONALES
 
 Paso feérico. El espíritu se teletransporta mágicamente hasta
 
-9 ma
-
-un espacio sin ocupar que pueda ver. A continuación,
+9 ma   un espacio sin ocupar que pueda ver. A continuación,
 
 se produce uno de los siguientes efectos, en función del
 
@@ -10625,7 +9941,7 @@ de ataque que realice antes del final de este turno.
 
 ---
 
-#### Espíritu Infernal (diablo) Invocar Infernal
+#### Invocar Infernal
 *Conjuración de nivel 6 (brujo, mago)*
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** 27 m
@@ -10677,63 +9993,27 @@ ESPÍRITU INFERNAL
 
 Infernal Grande, neutral
 
-CA: 12 + el nivel del conjuro
-
-PG: 50 (solo demonio) o 40 (solo diablo) o 60 (solo
-
 | yugoloth) + 15 por cada nivel del conjuro superior al 6
 
 | Velocidad: 12 m, trepar 12 m (solo demonio), volar 18 m
 
 (solo diablo)
 
-||
-
-|
-
-MOD. SALV
-
-MOD. SALV
-
-MOD. SALV
-
-| Fue 13 +1
-
-+1.
-
-Des 16 +3
-
-+3.
-
-CoNn15 +2
-
-+2
-
-InT 10 +0
-
-+0
-
-Sam 10 +0
-
-+0
-
-Car 16 +3
-
-+3
+InT 10 +0       +0     Sam 10 +0       +0    Car 16 +3
 
 || Resistencias: fuego
 
 l inmunidades: veneno; envenenado
 
-[| Sentidos: visión en la oscuridad 18 m, Percepción pasiva 10
+[| Sentidos: visión en la oscuridad 18 m, Percepción pasiva
 
 [| Idiomas: abisal, infernal; telepatía 18 m
 
-[| VD: ninguno (0 PX; BC igual a tu bonificador por competencia)
+[| VD: ninguno (0 PX; BC igual a tu bonificador por competen
 
 | ATRIBUTOS
 
-| Resistencia mágica. El espíritu tiene ventaja en las tiradas
+| Resistencia mágica. El espíritu tiene ventaja en las tirad
 
 | de salvación contra conjuros y otros efectos mágicos.
 
@@ -10743,11 +10023,13 @@ l inmunidades: veneno; envenenado
 
 | el espíritu explotará. Tirada de salvación de Destreza:
 
-| CDiigual a tu CD de salvación de conjuros, todas las criaturas
+| CDiigual a tu CD de salvación de conjuros, todas las cria
 
 | en una emanación de 3 m que se origina en el espíritu.
 
-|
+ESPÍRITU INFERNAL
+
+(DIABLO)
 
 Fallo: 2410 más el nivel de este conjuro de daño de fuego.
 
@@ -10757,59 +10039,43 @@ Vista del diablo (solo diablo). La oscuridad mágica no
 
 dificulta la visión en la oscuridad del espíritu.
 
-ACCIONES
++2     Ataque múltiple. El espíritu realiza una cantidad de ataques
 
-Ataque múltiple. El espíritu realiza una cantidad de ataques
-
-igual a la mitad del nivel de este conjuro (redondeado
++3     igual a la mitad del nivel de este conjuro (redondeado
 
 hacia abajo).
 
 Garras (solo yugoloth). Tirada de ataque cuerpo a cuerpo:
 
-bonificador igual a tu modificador de ataque de conjuros,
-
-|
+10          bonificador igual a tu modificador de ataque de conjuros,      |
 
 alcance 1,5 m. Acierto: 148 + 3 + el nivel del conjuro de
 
-daño cortante. Inmediatamente después de que el ataque
-
-|
+cia)        daño cortante. Inmediatamente después de que el ataque           |
 
 acierte o falle, el espíritu puede teletransportarse hasta 9 m |
 
-a un espacio sin ocupar que pueda ver.
+a un espacio sin ocupar que pueda ver.                               |
 
-|
+as
 
 Mordisco (solo demonio). Tirada de ataque cuerpo a cuerpo:
 
 bonificador igual a tu modificador de ataque de conjuros,
 
-alcance 1,5 m. Acierto: 1412 + 3 + el nivel del conjuro de
+alcance 1,5 m. Acierto: 1412 + 3 + el nivel del conjuro de        |
 
-|
+daño necrótico.                                                  l
 
-daño necrótico.
+Golpe ardiente (solo diablo). Tirada de ataque cuerpo            l
 
-l
+turas
 
-Golpe ardiente (solo diablo). Tirada de ataque cuerpo
+a cuerpo o a distancia: bonificador igual a tu modificador       l
 
-a cuerpo o a distancia: bonificador igual a tu modificador
+de ataque de conjuros, alcance 1,5 m o 45 m a distancia.         ll
 
-l
-
-l
-
-Acierto: 2d6 + 3 + el nivel del conjuro de daño de fuego.
-
-|
-
-de ataque de conjuros, alcance 1,5 m o 45 m a distancia.
-
-ll
+Acierto: 2d6 + 3 + el nivel del conjuro de daño de fuego.        |
 
 ---
 
@@ -10829,13 +10095,13 @@ un espacio sin ocupar que puedas ver dentro del alcance
 
 y usa el perfil del espíritu muerto viviente. Cuando
 
-lances el conjuro, elige la forma de la criatura: esquelética,
+lances el conjuro, elige la forma de la criatura: esquel
 
 fantasmal o pútrida. El espíritu se parecerá a un muerto
 
-viviente con la forma elegida, lo que determinará ciertos
+viviente con la forma elegida, lo que determinará cierto
 
-detalles de su perfil. La criatura desaparecerá si sus puntos
+detalles de su perfil. La criatura desaparecerá si sus p
 
 de golpe se reducen a 0 o si el conjuro termina.
 
@@ -10847,81 +10113,35 @@ de iniciativa, pero su turno va justo después del tuyo,
 
 obedece tus órdenes verbales (no requiere acción) y,
 
-si no le das ninguna, realiza la acción de esquivar y usa
+si no le das ninguna, realiza la acción de esquivar y us
 
 su movimiento para evitar el peligro.
 
-Con un espacio de conjuro de nivel superior. Usa el nivel
+Con un espacio de conjuro de nivel superior. Usa el n
 
-del espacio de conjuro para determinar el nivel del conjuro
+del espacio de conjuro para determinar el nivel del conj
 
 en el perfil.
 
-ESPÍRITU MUERTO VIVIENTE (FANTASMAL)
-
 [ESPÍRITU MUERTO VIVIENTE
 
-|
-
 | Muerto viviente Mediano, neutral
-
-|
-
-| CA: 11 + el nivel del conjuro
-
-| PG: 30 (solo fantasmal o pútrido) o 20 (solo esquelético) +
 
 | 10 por cada nivel del conjuro superior al 3
 
 | Velocidad: 9 m, volar 12 m (levitar; solo fantasmal)
 
-MOD.
+MOD.   SALV.         M      SALV.         MOD
 
-| Fue 12 +1
-
-I
-
-INT 4-3
-
-SALV.
-
-M
-
-SALV.
-
-MOD.
-
-SALV.
-
-+1
-
-Des16+3
-
-+3" CoN15 +2
-
-+2
-
--3
-
-Sam 10+0
-
-+0
-
--1
-
-Car 9 -1
-
-necrótico, veneno; asustado, cansancio,
-
-| Inmunidades:
+| Inmunidades:   necrótico, veneno; asustado, cansancio,
 
 envenenado, paralizado
 
-Sentidos: visión en la oscuridad 18 m, Percepción pasiva 10
+Sentidos: visión en la oscuridad 18 m, Percepción pasiva
 
 Idiomas: entiende los idiomas que conozcas
 
-[| VD: ninguno (0 PX; BC igual a tu bonificador por competencia)
+[| VD: ninguno (0 PX; BC igual a tu bonificador por competen
 
 ATRIBUTOS
 
@@ -10937,57 +10157,51 @@ una emanación de 1,5 m que se origina en el espíritu.
 
 | el principio de su siguiente turno.
 
-Pasaje incorpóreo (solo fantasmal). El espíritu puede moverse
+Pasaje incorpóreo (solo fantasmal). El espíritu puede mo
 
-a través de otras criaturas y objetos como si fueran terreno
+a través de otras criaturas y objetos como si fueran ter
 
-difícil. Si acaba su turno dentro de un objeto, se desplaza al
+difícil. Si acaba su turno dentro de un objeto, se despl
 
-Q
+Q                                                  E
 
-E
+ética,
 
-espacio sin ocupar más cercano y recibe 1410 de daño de
+s
 
-fuerza por cada 1,5 m recorridos.
+untos
 
-ACCIONES
+a
 
-|
+ivel
 
-|
+uro
 
-l
+ESPÍRITU MUERTO VIVIENTE (FANTASMAL)
 
-|[
+espacio sin ocupar más cercano y recibe 1410 de daño de            |
 
-l
++           fuerza por cada 1,5 m recorridos.                                  l
 
-Ataque múltiple. El espíritu realiza una cantidad de ataques | I
+ACCIONES                                                           |[
 
-igual a la mitad del nivel de este conjuro (redondeado
+.   SALV.   Ataque múltiple. El espíritu realiza una cantidad de ataques | I
 
-l
++2      igual a la mitad del nivel de este conjuro (redondeado                 '
 
-'
+hacia abajo).                                                      l
 
-hacia abajo).
+-1
 
-l
+Garra purulenta (solo pútrido). Tirada de ataque cuerpo                |
 
-Garra purulenta (solo pútrido). Tirada de ataque cuerpo
+a cuerpo: bonificador igual a tu modificador de ataque                 |
 
-a cuerpo: bonificador igual a tu modificador de ataque
-
-de conjuros, alcance 1,5 m. Acierto: 1d6 + 3 + el nivel del
+10          de conjuros, alcance 1,5 m. Acierto: 1d6 + 3 + el nivel del
 
 conjuro de daño cortante. Si el objetivo tiene el estado de
 
-envenenado, tendrá el estado de paralizado hasta el final
-
-|
-
-|
+cia)        envenenado, tendrá el estado de paralizado hasta el final
 
 de su siguiente turno.
 
@@ -11005,11 +10219,11 @@ Rayo sepulcral (solo esquelético). Tirada de ataque a distancia:
 
 bonificador igual a tu modificador de ataque de conjuros,
 
-alcance 45 m. Acierto: 2d4 + 3 + el nivel del conjuro de daño
+verse       alcance 45 m. Acierto: 2d4 + 3 + el nivel del conjuro de daño
 
-necrótico.
+reno        necrótico.
 
-Hasta que el conjuro termine, cuando hagas una prueba de
+aza al
 
 ---
 
@@ -11031,50 +10245,21 @@ elección dentro del alcance. Puede ser una jaula o una
 
 caja de paredes sólidas, según desees.
 
-Carisma, puedes sustituir el resultado de la tirada por un
-
-15. Además, digas lo que digas, cualquier magia usada para
-
-detectar si dices la verdad indicará que la estás diciendo.
-
----
-
-#### Látigo de Espinas
-*Truco de transmutación (druida)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** 9 m
-- **Componentes:** V, S, M (el tallo de una planta con espinas)
-- **Duración:** Instantáneo
-
 Una prisión con forma de jaula puede tener hasta 6 m
 
-Creas un látigo similar a una enredadera cubierta de
+de lado y estar hecha de barrotes de 1,25 cm de diámetro
 
 separados 1,25 cm entre sí. Una prisión con forma de caja
-
-del alcance. Haz un ataque de conjuro cuerpo a cuerpo
-
-de lado y estar hecha de barrotes de 1,25 cm de diámetro
 
 puede tener hasta 3 m de lado. Creará una barrera sólida
 
 que impida que cualquier materia la atraviese y bloqueará
 
-espinas que fustiga bajo tus órdenes a una criatura dentro
-
-contra el objetivo. Si acierta, el objetivo sufre 146 de
-
-daño perforante y, si es Grande o más pequeño, puedes
-
 cualquier conjuro que se lance a esa zona o desde ella.
 
-arrastrarlo hasta 3 m hacia ti.
+Cuando lances el conjuro, cualquier criatura que
 
 esté completamente dentro del área de la jaula quedará
-
-alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).
-
-Cuando lances el conjuro, cualquier criatura que
 
 atrapada en ella. A las criaturas que se encuentren solo
 
@@ -11094,7 +10279,7 @@ huir, primero deberá hacer una tirada de salvación de
 
 Carisma. Si la supera, podrá usar esa magia para salir de la
 
-jaula. Si falla la tirada, no saldrá y se perderá el espacio de
+jaula. Si falla la tirada, no saldrá y se perderá el espacio
 
 conjuro o el efecto. La jaula también se extiende hasta el
 
@@ -11123,7 +10308,57 @@ El objetivo puede llevar a cabo una acción de estudiar
 
 para intentar escapar. Cuando lo haga, realizará una
 
+prueba de Inteligencia (Investigación) con CD 20.
+
+Si la supera, escapará y el conjuro terminará.
+
+Cuando el conjuro termine, el objetivo reaparecerá
+
+en el espacio que abandonó o en el espacio sin ocupar
+
+más cercano si dicho espacio está ocupado.
+
+---
+
+#### Labia
+*Encantamiento de nivel 8 (bardo, brujo)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Lanzador
+- **Componentes:** V
+- **Duración:** 1 hora
+
+Hasta que el conjuro termine, cuando hagas una prueba de
+
+Carisma, puedes sustituir el resultado de la tirada por un
+
+15. Además, digas lo que digas, cualquier magia usada para
+
+detectar si dices la verdad indicará que la estás diciendo.
+
+---
+
+#### Látigo de Espinas
+*Truco de transmutación (druida)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 9 m
+- **Componentes:** V, S, M (el tallo de una planta con espinas)
+- **Duración:** Instantáneo
+
+Creas un látigo similar a una enredadera cubierta de
+
+espinas que fustiga bajo tus órdenes a una criatura dentro
+
+del alcance. Haz un ataque de conjuro cuerpo a cuerpo
+
+contra el objetivo. Si acierta, el objetivo sufre 146 de
+
+daño perforante y, si es Grande o más pequeño, puedes
+
+arrastrarlo hasta 3 m hacia ti.
+
 Mejora de truco. El daño aumenta en 1d6 cuando
+
+alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).
 
 ---
 
@@ -11134,7 +10369,7 @@ Mejora de truco. El daño aumenta en 1d6 cuando
 - **Componentes:** V, S
 - **Duración:** Instantáneo
 
-Con tan solo tocar a una criatura o un objeto, eliminarás
+de   Con tan solo tocar a una criatura o un objeto, eliminarás
 
 todas las maldiciones que le afecten. Si el objetivo es un
 
@@ -11163,38 +10398,19 @@ El conjuro puede hacer levitar un objeto que pese hasta
 
 250 kg y no afecta a una criatura no voluntaria que
 
-prueba de Inteligencia (Investigación) con CD 20.
-
 supere una tirada de salvación de Constitución.
 
-Cuando el conjuro termine, el objetivo reaparecerá
-
-en el espacio que abandonó o en el espacio sin ocupar
-
-más cercano si dicho espacio está ocupado.
+El objetivo solo puede moverse empujándose o tirando
 
 de un objeto fijo o una superficie a su alcance (como una
 
 pared o techo), lo que le permite desplazarse como si
-
-Si la supera, escapará y el conjuro terminará.
-
-El objetivo solo puede moverse empujándose o tirando
 
 estuviera trepando. En tu turno, puedes variar la altitud
 
 del objetivo hasta 6 m en cualquier sentido. Si tú mismo
 
 eres el objetivo, te puedes mover hacia arriba o abajo como
-
----
-
-#### Labia
-*Encantamiento de nivel 8 (bardo, brujo)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** Lanzador
-- **Componentes:** V
-- **Duración:** 1 hora
 
 parte de tu movimiento. En caso contrario, puedes usar
 
@@ -11257,6 +10473,44 @@ Una llama surge de un objeto que toques. El efecto emite
 
 una luz brillante en un radio de 6 m y una luz tenue 6 m
 
+más allá. Parece una llama normal, pero no genera calor ni
+
+consume combustible. La llama se puede tapar u ocultar,
+
+pero no se puede apagar ni extinguir.
+
+---
+
+#### Llama Sagrada
+*Truco de evocación (clérigo)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 18 m
+- **Componentes:** V, S
+- **Duración:** Instantáneo
+
+Un fulgor de llamas desciende sobre una criatura que
+
+puedas ver dentro del alcance. El objetivo deberá superar
+
+una tirada de salvación de Destreza o sufrirá 1d8 de daño
+
+radiante. No podrá beneficiarse de la cobertura media
+
+o tres cuartos en esta tirada.
+
+Mejora de truco. El daño aumenta en 1d8 cuando
+
+alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).
+
+---
+
+#### Llamar Al Relámpago
+*Conjuración de nivel 3 (druida)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 36 m
+- **Componentes:** V, S
+- **Duración:** Concentración, hasta 10 minutos
+
 Una nube de tormenta aparece en un punto dentro del
 
 alcance que puedas ver por encima de ti. La nube adopta
@@ -11314,41 +10568,12 @@ cercana que esté a 7,5 km o menos, siempre y cuando haya
 
 alguna.
 
-más allá. Parece una llama normal, pero no genera calor ni
-
-consume combustible. La llama se puede tapar u ocultar,
-
-pero no se puede apagar ni extinguir.
-
 ---
 
 #### Localizar Criatura
 *Adivinación de nivel 4 (bardo, clérigo, druida, explorador,*
 
 mago, paladín)
-
----
-
-#### Llama Sagrada
-*Truco de evocación (clérigo)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** 18 m
-- **Componentes:** V, S
-- **Duración:** Instantáneo
-
-Un fulgor de llamas desciende sobre una criatura que
-
-puedas ver dentro del alcance. El objetivo deberá superar
-
-una tirada de salvación de Destreza o sufrirá 1d8 de daño
-
-radiante. No podrá beneficiarse de la cobertura media
-
-o tres cuartos en esta tirada.
-
-Mejora de truco. El daño aumenta en 1d8 cuando
-
-alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).
 
 Tiempo de lanzamiento: Acción
 
@@ -11380,13 +10605,6 @@ una forma distinta, por ejemplo bajo los efectos de un
 
 conjuro de la carne a la piedra o polimorfar, este conjuro
 
----
-
-#### Llamar Al Relámpago
-*Conjuración de nivel 3 (druida)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** 36 m
-
 no la localiza.
 
 El conjuro no puede localizar a una criatura si hay
@@ -11395,14 +10613,10 @@ cualquier grosor de plomo que bloquee una ruta directa
 
 entre la criatura y tú.
 
-Componentes: V, S
-
-Duración: Concentración, hasta 10 minutos
-
 ---
 
 #### Conjuro Luz del Día para Traer la Luz del Amanecer a una Corte Vampírica Localizar Objeto
-*Adivinación de nivel2 (bardo, clérigo, druida, explorador,*
+*Adivinación de nivel2 (bardo, clérigo, druida, explora*
 
 mago, paladín)
 
@@ -11410,13 +10624,13 @@ Tiempo de lanzamiento: Acción
 
 Alcance: Lanzador
 
-Componentes: V, S, M (una ramita con forma de horquilla)
+Componentes: V, S, M (una ramita con forma de horquill
 
 Duración: Concentración, hasta 10 minutos
 
 Describe o nombra un objeto que conozcas. Presientes
 
-la dirección en la que se encuentra dicho objeto si está
+la dirección en la que se encuentra dicho objeto si es
 
 a 300 m o menos de ti. Si el objeto se está moviendo,
 
@@ -11424,30 +10638,37 @@ conoces la dirección de su movimiento.
 
 El conjuro puede localizar un objeto específico que
 
-conozcas si lo has visto de cerca (a 9 m o menos) al menos
+conozcas si lo has visto de cerca (a 9 m o menos) al m
 
-una vez. Como alternativa, el conjuro puede localizar el
+una vez. Como alternativa, el conjuro puede localizar
 
-objeto más cercano de un tipo particular, como un cierto
+objeto más cercano de un tipo particular, como un cier
 
 tipo de ropa, joyas, muebles, herramientas o armas.
 
-El conjuro no puede localizar un objeto si hay cualquier
+El conjuro no puede localizar un objeto si hay cualq
 
----
+grosor de plomo que bloquee una ruta directa entre dic
 
-#### Luces Danzantes
-*Truco de ilusionismo (bardo, hechicero, mago)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** 36 m
-- **Componentes:** V, S, M (una pizca de fósforo)
-- **Duración:** Concentración, hasta 1 minuto
+objeto y tú.
+
+LUCES DANZANTES
+
+dor,   Truco de ilusionismo (bardo, hechicero, mago)
+
+Tiempo de lanzamiento: Acción
+
+Alcance: 36 m
+
+Componentes: V, S, M (una pizca de fósforo)
+
+a)     Duración: Concentración, hasta 1 minuto
 
 Creas hasta cuatro luces del tamaño de antorchas dentro
 
 del alcance. Puedes darles la apariencia de antorchas,
 
-linternas u orbes luminosos, y levitarán hasta que
+tá     linternas u orbes luminosos, y levitarán hasta que
 
 el conjuro termine. Como alternativa, combinas las
 
@@ -11455,19 +10676,17 @@ cuatro luces en una sola de tamaño Mediano y aspecto
 
 vagamente humanoide. En ambos casos, cada luz proyecta
 
-una luz tenue en un radio de 3 m.
+enos   una luz tenue en un radio de 3 m.
 
-Como acción adicional, puedes mover las luces hasta
+el       Como acción adicional, puedes mover las luces hasta
 
-18 m a otro espacio dentro del alcance. Cada luz debe estar
+to     18 m a otro espacio dentro del alcance. Cada luz debe estar
 
 a 6 mo menos de otra luz creada por este conjuro y se
 
-desvanecerá si sale del alcance del mismo.
+uier   desvanecerá si sale del alcance del mismo.
 
-grosor de plomo que bloquee una ruta directa entre dicho
-
-objeto y tú.
+ho
 
 Luz
 
@@ -11495,7 +10714,7 @@ bloquea la luz. El conjuro termina si lo vuelves a lanzar.
 
 Luz DEL DÍA
 
-Evocación de nivel 3 (clérigo, druida, explorador, hechicero,
+Evocación de nivel 3 (clérigo, druida, explorador, hechicero
 
 paladín)
 
@@ -11531,51 +10750,6 @@ zona de oscuridad creada por un conjuro de nivel 3
 
 o inferior, el conjuro que creó esa oscuridad se disipa.
 
----
-
-#### Maleficio
-*Encantamiento de nivel1 (brujo)*
-- **Tiempo de lanzamiento:** Acción adicional
-- **Alcance:** 27 m
-- **Componentes:** V, S, M (el ojo petrificado de un tritón)
-- **Duración:** Concentración, hasta 1 hora
-
-Impones una maldición a una criatura que puedas ver
-
-dentro del alcance. Hasta que el conjuro termine, infliges
-
-1d6 de daño necrótico adicional al objetivo siempre que
-
-le aciertes con una tirada de ataque. Además, elige una
-
-característica cuando lances el conjuro. El objetivo tendrá
-
-desventaja en las pruebas que haga con la característica
-
-elegida.
-
-Silos puntos de golpe del objetivo se reducen a O antes de
-
-que el conjuro termine, puedes usar una acción adicional
-
-en un turno posterior para maldecir a una nueva criatura.
-
-Con un espacio de conjuro de nivel superior. Tu concentración puede durar más si usas un espacio de conjuro
-
-de nivel 2 (hasta 4 horas), 3 o 4 (hasta 8 horas) o 5 o más
-
-(24 horas).
-
-MANO DE BiGBY
-
-Evocación de nivel 5 (hechicero, mago)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 36 m
-
-Componentes: V, S, M (una cáscara de huevo y un guante)
-
 MAL DE Ojo
 
 Nigromancia de nivel 6 (bardo, brujo, hechicero, mago)
@@ -11584,27 +10758,11 @@ Tiempo de lanzamiento: Acción
 
 Alcance: Lanzador
 
-Duración: Concentración, hasta 1 minuto
-
-Creas una mano de energía mágica brillante de tamaño
-
-Grande en un espacio sin ocupar que puedas ver dentro del
-
-alcance. Esta mano durará hasta que el conjuro termine
-
 Componentes: V, S
 
 Duración: Concentración, hasta 1 minuto
 
-y estará bajo tus órdenes, imitando los movimientos de tu
-
-propia mano.
-
 Hasta que el conjuro termine, tus ojos se convierten en
-
-de puntos de golpe igual a tus puntos de golpe máximos.
-
-Si sus puntos de golpe se reducen a O, el conjuro termina.
 
 un vacío oscuro. Una criatura de tu elección que puedas
 
@@ -11614,9 +10772,7 @@ salvación de Sabiduría o se verá afectada por uno de los
 
 efectos descritos debajo, a tu elección, hasta que termine
 
-el conjuro.
-
-S
+el conjuro.                            S
 
 En cada uno de tus turnos hasta que el conjuro termine,
 
@@ -11648,7 +10804,70 @@ Se despertará si recibe algún dañoo si otra criatura utiliza
 
 una acción para despertarlo.
 
+---
+
+#### Maleficio
+*Encantamiento de nivel1 (brujo)*
+- **Tiempo de lanzamiento:** Acción adicional
+- **Alcance:** 27 m
+- **Componentes:** V, S, M (el ojo petrificado de un tritón)
+- **Duración:** Concentración, hasta 1 hora
+
+Impones una maldición a una criatura que puedas ver
+
+,   dentro del alcance. Hasta que el conjuro termine, infliges
+
+1d6 de daño necrótico adicional al objetivo siempre que
+
+le aciertes con una tirada de ataque. Además, elige una
+
+característica cuando lances el conjuro. El objetivo tendrá
+
+desventaja en las pruebas que haga con la característica
+
+elegida.
+
+Silos puntos de golpe del objetivo se reducen a O antes de
+
+que el conjuro termine, puedes usar una acción adicional
+
+en un turno posterior para maldecir a una nueva criatura.
+
+Con un espacio de conjuro de nivel superior. Tu concen-
+
+tración puede durar más si usas un espacio de conjuro
+
+de nivel 2 (hasta 4 horas), 3 o 4 (hasta 8 horas) o 5 o más
+
+(24 horas).
+
+MANO DE BiGBY
+
+Evocación de nivel 5 (hechicero, mago)
+
+Tiempo de lanzamiento: Acción
+
+Alcance: 36 m
+
+Componentes: V, S, M (una cáscara de huevo y un guante)
+
+Duración: Concentración, hasta 1 minuto
+
+Creas una mano de energía mágica brillante de tamaño
+
+Grande en un espacio sin ocupar que puedas ver dentro del
+
+alcance. Esta mano durará hasta que el conjuro termine
+
+y estará bajo tus órdenes, imitando los movimientos de tu
+
+propia mano.
+
 La mano es un objeto con una CA de 20 y una cantidad
+
+de puntos de golpe igual a tus puntos de golpe máximos.
+
+Si sus puntos de golpe se reducen a O, el conjuro termina.
 
 La mano no ocupa el espacio en el que se encuentra.
 
@@ -11690,11 +10909,7 @@ por aptitud mágica. La mano se mueve a la vez que el
 
 objetivo y permanece a 1,5 m o menos de él.
 
-"
-
-/
-
-ds
+"   /   ds
 
 EL maco BicBY USA SU CONJURO —
 
@@ -11704,17 +10919,17 @@ QUE NO INTERRUMPAN SU INVESTIGACIÓN:
 
 Mano interpuesta. La mano te proporciona cobertura
 
-media contra ataques y otros efectos que se originen en
+media contra ataques y otros efectos que se originen
 
-su espacio o intenten atravesarla. Además, ese espacio
+su espacio o intenten atravesarla. Además, ese espac
 
 se considera terreno difícil para tus enemigos.
 
-Puño cerrado. La mano golpea a un objetivo a 1,5 m o menos
+Puño cerrado. La mano golpea a un objetivo a 1,5 m o m
 
 de ella. Haz un ataque de conjuro cuerpo a cuerpo.
 
-Si acierta, el objetivo recibe 5d8 de daño de fuerza.
+Si acierta, el objetivo recibe 5d8 de daño de fuerza
 
 Con un espacio de conjuro de nivel superior. El daño
 
@@ -11724,29 +10939,9 @@ apresadora aumenta en 2d6 por cada nivel por encima
 
 de 5 que tenga el espacio.
 
-Cuando lances este conjuro, puedes utilizar la mano
-
-para manipular un objeto, abrir una puerta o un recipiente
-
-que no estén cerrados con llave, sacar un objeto de un
-
-recipiente abierto o guardarlo en él o verter el contenido
-
-de un vial.
-
-Como acción de magia en tus siguientes turnos, puedes
-
-volver a controlar la mano de esta forma. Como parte de
-
-la acción, puedes mover la mano hasta 9 m.
-
-La mano no puede atacar, activar objetos mágicos ni
-
-llevar más de 5 kg de peso.
-
 ---
 
-#### Manos Ardientes Mano de Mago
+#### Mano de Mago
 *Truco de conjuración (bardo, brujo, hechicero, mago)*
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** 9 m
@@ -11759,19 +10954,38 @@ tu elección dentro del alcance. La mano dura hasta que
 
 el conjuro termine. Además, desaparecerá si en algún
 
-momento está a más de 9 m de ti o si vuelves a lanzar este
+momento está a más de 9 m de ti o si vuelves a lanzar
 
 conjuro.
 
-Evocación de nivel 1 (hechicero, mago)
+Cuando lances este conjuro, puedes utilizar la mano
 
-Tiempo de lanzamiento: Acción
+en    para manipular un objeto, abrir una puerta o un recipiente
 
-Alcance: Lanzador
+io     que no estén cerrados con llave, sacar un objeto de un
 
-Componentes: V, S
+recipiente abierto o guardarlo en él o verter el contenido
 
-Duración: Instantáneo
+enos   de un vial.
+
+Como acción de magia en tus siguientes turnos, puedes
+
+.      volver a controlar la mano de esta forma. Como parte de
+
+la acción, puedes mover la mano hasta 9 m.
+
+La mano no puede atacar, activar objetos mágicos ni
+
+llevar más de 5 kg de peso.
+
+---
+
+#### Manos Ardientes
+*Evocación de nivel 1 (hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Lanzador
+- **Componentes:** V, S
+- **Duración:** Instantáneo
 
 Una fina capa de llamas se proyecta desde ti. Todas las
 
@@ -11782,6 +10996,8 @@ de salvación de Destreza; sufrirán 3d6 de daño de fuego
 si la fallan o la mitad del daño si la superan.
 
 Los objetos inflamables dentro del cono que no lleve
+
+este
 
 o vista nadie empezarán a arder.
 
@@ -11797,110 +11013,209 @@ A SUS HUÉSPEDES A SU MORADA MÁGICA,
 
 LA MANSIÓN MAGNÍFICA DE MORDENKAINEN.
 
-ZP de ymA
-
-El personal de servicio está compuesto de 100 sirvientes
+c
 
 ---
 
-#### Mansión Magnífica de Mordenkainen
+#### Mansión Magnífica de Mordenkainen T
 *Conjuración de nivel 7 (bardo, mago)*
 
-casi transparentes que atienden a todos los que entran.
+q
 
-Tú decides la apariencia y el atuendo de estos sirvientes,
+Tiempo de lanzamiento: 1 minuto                            p
 
-Duración: 24 horas
+Alcance: 90 m                                              p
 
-que son invulnerables y obedecen tus órdenes. Los sirvientes
+Componentes: V, S, M (una puerta en miniatura que valga    d
 
-pueden realizar las tareas que haría un humano, pero no
+al menos 15 po)                                          y
 
-pueden atacar ni realizar ninguna acción que dañaría
+Duración: 24 horas                                         f
 
-directamente a otra criatura. Por lo tanto, pueden traer
-
-y llevar cosas, limpiar, arreglar y plegar ropa, encender
-
-fuegos, servir comida y vino, etc, aunque no pueden
+a
 
 Conjuras una puerta brillante dentro del alcance que
 
-abandonar el lugar.
-
-mide 1,5 m de ancho y 3 m de alto y lleva a una morada
-
-que queden en el espacio extradimensional son expulsados
-
-Puedes abrirla o cerrarla (no requiere acción) si estás
-
-MANTO DEL CRUZADO
-
-Tiempo de lanzamiento: 1 minuto
-
-Alcance: 90 m
-
-Componentes: V, S, M (una puerta en miniatura que valga
-
-al menos 15 po)
-
 permanece hasta que el conjuro termine. La puerta
 
-extradimensional. Tú y cualquier criatura que designes
+mide 1,5 m de ancho y 3 m de alto y lleva a una morada     q
+
+extradimensional. Tú y cualquier criatura que designes     a
 
 cuando lances el conjuro podréis entrar en la morada
 
 extradimensional mientras la puerta permanezca abierta.
 
-a 9 mo menos de ella. Mientras permanezca cerrada,
+Puedes abrirla o cerrarla (no requiere acción) si estás    M
 
-es imperceptible.
+a 9 mo menos de ella. Mientras permanezca cerrada,         E
 
-Al otro lado de la puerta encuentras un fastuoso
+es imperceptible.                                          T
 
-recibidor, tras la cual se hallan numerosas estancias.
+Al otro lado de la puerta encuentras un fastuoso         A
 
-La morada está limpia y es fresca y cálida.
+recibidor, tras la cual se hallan numerosas estancias.     C
+
+La morada está limpia y es fresca y cálida.                D
 
 Puedes crear cualquier plano de planta que desees,
 
-pero no puede superar los 50 cubos contiguos, cada
+pero no puede superar los 50 cubos contiguos, cada         I
 
-uno de 3 m de lado. El lugar está amueblado y decorado
+uno de 3 m de lado. El lugar está amueblado y decorado     M
 
-como elijas y contiene comida suficiente como para
+como elijas y contiene comida suficiente como para         1
 
-servir un banquete de nueve platos a hasta 100 personas.
-
-Cuando el conjuro termina, todas las criaturas u objetos
-
-a los espacios sin ocupar más cercanos a la entrada.
-
-Evocación de nivel 3 (paladín)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: Lanzador
-
-Componentes: V
-
-Duración: Concentración, hasta 1 minuto
-
-Irradias un aura mágica en una emanación de 9 m.
-
-Mientras permanezcáis dentro, tus aliados y tú causaréis
-
-1d4 de daño radiante adicional cuando acertéis con un
-
-arma o un ataque sin armas.
+servir un banquete de nueve platos a hasta 100 personas.   a
 
 Los muebles y otros objetos creados por este conjuro se
 
 convierten en humo si se sacan del lugar.
 
+ZP de ymA
+
+El personal de servicio está compuesto de 100 sirvientes
+
+asi transparentes que atienden a todos los que entran.
+
+ú decides la apariencia y el atuendo de estos sirvientes,
+
+ue son invulnerables y obedecen tus órdenes. Los sirvientes
+
+ueden realizar las tareas que haría un humano, pero no
+
+ueden atacar ni realizar ninguna acción que dañaría
+
+irectamente a otra criatura. Por lo tanto, pueden traer
+
+llevar cosas, limpiar, arreglar y plegar ropa, encender
+
+uegos, servir comida y vino, etc, aunque no pueden
+
+bandonar el lugar.
+
+Cuando el conjuro termina, todas las criaturas u objetos
+
+ue queden en el espacio extradimensional son expulsados
+
+los espacios sin ocupar más cercanos a la entrada.
+
+ANTO DEL CRUZADO
+
+vocación de nivel 3 (paladín)
+
+iempo de lanzamiento: Acción
+
+lcance: Lanzador
+
+omponentes: V
+
+uración: Concentración, hasta 1 minuto
+
+rradias un aura mágica en una emanación de 9 m.
+
+ientras permanezcáis dentro, tus aliados y tú causaréis
+
+d4 de daño radiante adicional cuando acertéis con un
+
+rma o un ataque sin armas.
+
 CAPITULO 7 | CONJUROS
 
-Adivinación de nivel 1 (explorador)
+---
+
+#### Marca del Cazador
+*Adivinación de nivel 1 (explorador)*
+- **Tiempo de lanzamiento:** Acción adicional
+- **Alcance:** 27 m
+- **Componentes:** V
+- **Duración:** Concentración, hasta 1 hora
+
+Marcas mágicamente a una criatura que puedas ver
+
+dentro del alcance como tu presa. Hasta que el conjuro
+
+termine, infliges 1d6 de daño de fuerza adicional al
+
+objetivo siempre que le aciertes con una tirada de ata
+
+También tendrás ventaja en cualquier prueba de Sabidur
+
+(Percepción o Supervivencia) que realices para buscarl
+
+Si los puntos de golpe del objetivo se reducen a O a
+
+de que el conjuro termine, puedes emplear una acción
+
+adicional para transferir la marca a una nueva criatur
+
+que puedas ver dentro del alcance.
+
+Con un espacio de conjuro de nivel superior. Tu conc
+
+tración puede durar más si usas un espacio de conjuro
+
+nivel 3 o 4 (hasta 8 horas) o 5 o más (hasta 24 horas)
+
+---
+
+#### Marchitar
+*Nigromancia de nivel 4 (brujo, druida, hechicero, mago*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 9 m
+- **Componentes:** V, S
+- **Duración:** Instantáneo
+
+Una criatura a la que puedas ver dentro del alcance
+
+deberá hacer una tirada de salvación de Constitución;
+
+sufrirá 8d8 de daño necrótico si la falla o la mitad d
+
+daño si la supera. Las criaturas de tipo “planta” fall
+
+automáticamente la tirada.
+
+Como alternativa, haz objetivo a una planta no
+
+mágica que no sea una criatura, como un árbol o un
+
+arbusto. No hará una tirada de salvación: simplemente
+
+se marchitará y morirá.
+
+Con un espacio de conjuro de nivel superior. El daño
+
+aumenta en 1d8 por cada nivel por encima de 4 que teng
+
+el espacio.
+
+---
+
+#### Mastín Fiel de Mordenkainen
+*Conjuración de nivel 4 (mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 9 m
+- **Componentes:** V, S, M (un silbato de plata)
+- **Duración:** 3 horas
+
+Conjuras un perro guardián en un espacio sin ocupar qu
+
+puedas ver dentro del alcance. El perro permanece hast
+
+que el conjuro termine o hasta que os alejéis a más de
+
+Solo tú puedes verlo y es intangible e invulnerable.
+
+Cuando una criatura Pequeña o de mayor tamaño se
+
+acerque a 9 m o menos de él sin decir la contraseña qu
+
+especifiques al lanzar el conjuro, el mastín empezará
+
+a ladrar ruidosamente. Además, tiene visión verdadera
+
+hasta 9 m.
 
 Al principio de cada uno de tus turnos, el mastín tratará
 
@@ -11908,71 +11223,31 @@ de morder a un enemigo que esté a 1,5 m o menos de él.
 
 Ese enemigo deberá superar una tirada de salvación de
 
-Tiempo de lanzamiento: Acción adicional
-
-Alcance: 27 m
+Destreza o sufrirá 4d8 de daño de fuerza.
 
 En tus siguientes turnos, puedes usar una acción
 
 de magia para mover el mastín hasta 9 m.
 
-MARCA DEL CAZADOR
+---
 
-Componentes: V
+#### Mensaje
+*Truco de transmutación (bardo, druida, hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
 
-Destreza o sufrirá 4d8 de daño de fuerza.
-
-Duración: Concentración, hasta 1 hora
-
-Marcas mágicamente a una criatura que puedas ver
-
-MENSAJE
-
-termine, infliges 1d6 de daño de fuerza adicional al
-
-(Percepción o Supervivencia) que realices para buscarlo.
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 36 m
-
-Componentes: S, M (un alambre de cobre)
-
-Duración: 1 asalto
-
-de que el conjuro termine, puedes emplear una acción
+ntes
 
 Señalas a una criatura dentro del alcance y susurras un
 
-dentro del alcance como tu presa. Hasta que el conjuro
-
-objetivo siempre que le aciertes con una tirada de ataque.
-
-También tendrás ventaja en cualquier prueba de Sabiduría
-
-Si los puntos de golpe del objetivo se reducen a O antes
-
-adicional para transferir la marca a una nueva criatura
-
-que puedas ver dentro del alcance.
-
-Con un espacio de conjuro de nivel superior. Tu concen-
-
-tración puede durar más si usas un espacio de conjuro de
-
-nivel 3 o 4 (hasta 8 horas) o 5 o más (hasta 24 horas).
-
-Truco de transmutación (bardo, druida, hechicero, mago)
-
-mensaje. El objetivo (y únicamente el objetivo) escucha el
+a        mensaje. El objetivo (y únicamente el objetivo) escucha el
 
 mensaje y puede responder con un susurro que solamente
 
-tú puedes oír.
+en-      tú puedes oír.
 
-Puedes lanzar este conjuro a través de objetos físicos si
+de         Puedes lanzar este conjuro a través de objetos físicos si
 
-conoces al objetivo.y sabes que está detrás de la barrera.
+.        conoces al objetivo.y sabes que está detrás de la barrera.
 
 El silencio mágico, 30 cm de piedra, metal o madera o una
 
@@ -11980,76 +11255,16 @@ lámina fina de plomo bloquean el conjuro.
 
 ---
 
-#### Marchitar
-*Nigromancia de nivel 4 (brujo, druida, hechicero, mago)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** 9 m
-- **Componentes:** V, S
-- **Duración:** Instantáneo
-
-Una criatura a la que puedas ver dentro del alcance
-
-deberá hacer una tirada de salvación de Constitución;
-
-sufrirá 8d8 de daño necrótico si la falla o la mitad del
-
-daño si la supera. Las criaturas de tipo “planta” fallan
-
-automáticamente la tirada.
-
-Como alternativa, haz objetivo a una planta no
-
-mágica que no sea una criatura, como un árbol o un
-
-arbusto. No hará una tirada de salvación: simplemente
-
-se marchitará y morirá.
-
-Con un espacio de conjuro de nivel superior. El daño
-
-aumenta en 1d8 por cada nivel por encima de 4 que tenga
-
-el espacio.
-
----
-
-#### Mastín Fiel de Mordenkainen
-*Conjuración de nivel 4 (mago)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** 9 m
-- **Componentes:** V, S, M (un silbato de plata)
-- **Duración:** 3 horas
-
-Conjuras un perro guardián en un espacio sin ocupar que
-
-puedas ver dentro del alcance. El perro permanece hasta
-
-que el conjuro termine o hasta que os alejéis a más de 90 m.
-
-Solo tú puedes verlo y es intangible e invulnerable.
-
-Cuando una criatura Pequeña o de mayor tamaño se
-
-acerque a 9 m o menos de él sin decir la contraseña que
-
-especifiques al lanzar el conjuro, el mastín empezará
-
-a ladrar ruidosamente. Además, tiene visión verdadera
-
-hasta 9 m.
-
----
-
-#### Mensajero Animal
+#### ) Mensajero Animal
 *Encantamiento de nivel 2 (bardo, druida, explorador)*
 - **Tiempo de lanzamiento:** Acción o ritual
 - **Alcance:** 9 m
 - **Componentes:** V, S, M (unas migajas de comida)
 - **Duración:** 24 horas
 
-Una bestia Diminuta de tu elección que puedas ver dentro
+el       Una bestia Diminuta de tu elección que puedas ver dentro
 
-del alcance deberá superar una tirada de salvación de
+an       del alcance deberá superar una tirada de salvación de
 
 Carisma o intentará enviar un mensaje por ti (si el valor
 
@@ -12063,7 +11278,7 @@ uniforme de guardia de la ciudad” o “una enana pelirroja
 
 con un gorro puntiagudo”. Además, le transmites al animal
 
-un mensaje de hasta 25 palabras. Hasta que termine el
+a        un mensaje de hasta 25 palabras. Hasta que termine el
 
 conjuro, la bestia viajará hacia el lugar elegido y recorrerá
 
@@ -12085,136 +11300,19 @@ Con un espacio de conjuro de nivel superior. La duración
 
 del conjuro aumenta en 48 horas por cada nivel por
 
-encima de 2 que tenga el espacio.
+e        encima de 2 que tenga el espacio.
+
+a
+
+90 m.
 
 ---
 
 #### Mente en Blanco
 *Abjuración de nivel 8 (bardo, mago)*
-- **Tiempo de lanzamiento:** Acción
 - **Alcance:** Toque
 - **Componentes:** V, S
 - **Duración:** 24 horas
-
----
-
-#### Marchitar
-*Nigromancia de nivel 4 (brujo, druida, hechicero, mago)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** 9 m
-- **Componentes:** V, S
-- **Duración:** Instantáneo
-
-Una criatura a la que puedas ver dentro del alcance
-
-deberá hacer una tirada de salvación de Constitución;
-
-sufrirá 8d8 de daño necrótico si la falla o la mitad del
-
-daño si la supera. Las criaturas de tipo “planta” fallan
-
-automáticamente la tirada.
-
-Como alternativa, haz objetivo a una planta no
-
-mágica que no sea una criatura, como un árbol o un
-
-arbusto. No hará una tirada de salvación: simplemente
-
-se marchitará y morirá.
-
-Con un espacio de conjuro de nivel superior. El daño
-
-aumenta en 1d8 por cada nivel por encima de 4 que tenga
-
-el espacio.
-
----
-
-#### Mastín Fiel de Mordenkainen
-*Conjuración de nivel 4 (mago)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** 9 m
-- **Componentes:** V, S, M (un silbato de plata)
-- **Duración:** 3 horas
-
-Conjuras un perro guardián en un espacio sin ocupar que
-
-puedas ver dentro del alcance. El perro permanece hasta
-
-que el conjuro termine o hasta que os alejéis a más de 90 m.
-
-Solo tú puedes verlo y es intangible e invulnerable.
-
-Cuando una criatura Pequeña o de mayor tamaño se
-
-acerque a 9 m o menos de él sin decir la contraseña que
-
-especifiques al lanzar el conjuro, el mastín empezará
-
-a ladrar ruidosamente. Además, tiene visión verdadera
-
-hasta 9 m.
-
----
-
-#### Mensajero Animal
-*Encantamiento de nivel 2 (bardo, druida, explorador)*
-- **Tiempo de lanzamiento:** Acción o ritual
-- **Alcance:** 9 m
-- **Componentes:** V, S, M (unas migajas de comida)
-- **Duración:** 24 horas
-
-Una bestia Diminuta de tu elección que puedas ver dentro
-
-del alcance deberá superar una tirada de salvación de
-
-Carisma o intentará enviar un mensaje por ti (si el valor
-
-de desafío del objetivo no es O, la supera automáticamente).
-
-Indica un lugar que hayas visitado y da una descripción
-
-general del destinatario, como “una persona que lleva un
-
-uniforme de guardia de la ciudad” o “una enana pelirroja
-
-con un gorro puntiagudo”. Además, le transmites al animal
-
-un mensaje de hasta 25 palabras. Hasta que termine el
-
-conjuro, la bestia viajará hacia el lugar elegido y recorrerá
-
-aproximadamente 37,5 km cada 24 horas o 75 km si puede
-
-volar.
-
-Cuando llegue, la bestia entregará tu mensaje a la criatura
-
-que le hayas descrito e imitará tu forma de comunicarte.
-
-Si la bestia no llega a su destino antes de que el conjuro
-
-termine, el mensaje se pierde y la bestia regresa al lugar
-
-donde lanzaste el conjuro.
-
-Con un espacio de conjuro de nivel superior. La duración
-
-del conjuro aumenta en 48 horas por cada nivel por
-
-encima de 2 que tenga el espacio.
-
----
-
-#### Mente en Blanco
-*Abjuración de nivel 8 (bardo, mago)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** Toque
-- **Componentes:** V, S
-- **Duración:** 24 horas
-
-|
 
 Hasta que el conjuro termine, una criatura voluntaria
 
@@ -12224,61 +11322,24 @@ estado de hechizada. Además, no se verá afectada por nada
 
 que pudiera percibir sus emociones o alineamiento, leer
 
----
-
-#### Muro de Espinas
-*Conjuración de nivel 6 (druida)*
-
 sus pensamientos o detectar mágicamente su ubicación,
 
 y ningún conjuro (ni siquiera deseo) puede conseguir
 
-Tiempo de lanzamiento: Acción
-
-Alcance: 36 m
-
-Componentes: V, S, M (un puñado de espinas vegetales)
+información sobre el objetivo, observarlo desde lejos
 
 o controlar su mente.
-
-Duración: Concentración, hasta 10 minutos
 
 ---
 
 #### Moldear la Piedra
 *Transmutación de nivel 4 (clérigo, druida, mago)*
-
-Creas un muro de maleza enmarañada que está repleta de
-
-espinas puntiagudas como agujas. Este muro aparecerá
-
-dentro del alcance sobre una superficie sólida y durará
-
-hasta que termine el conjuro. Eliges si crear un muro
-
-Tiempo de lanzamiento: Acción
-
-recto de hasta 18 m de longitud, 3 m de altura y 1,5 m de
-
-Componentes: V, S, M (arcilla blanda)
-
-6 m de altura y 1,5 m de grosor. El muro bloquea la línea
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Toque
+- **Componentes:** V, S, M (arcilla blanda)
+- **Duración:** Instantáneo
 
 Tocas un objeto de piedra de tamaño Mediano o más
-
-en su área hacen una tirada de salvación de Destreza;
-
-información sobre el objetivo, observarlo desde lejos
-
-Alcance: Toque
-
-grosor o un círculo de arbustos de hasta 6 m de diámetro,
-
-Duración: Instantáneo
-
-de visión.
-
-Cuando aparezca el muro, todas las criaturas situadas
 
 pequeño, o una sección de piedra que no mida más de
 
@@ -12298,26 +11359,6 @@ dos bisagras y un pestillo, pero no es posible dotarlo de
 
 detalles mecánicos más precisos.
 
-sufrirán 748 de daño perforante si la fallan o la mitad
-
-de daño si la superan.
-
-Las criaturas pueden atravesar el muro, pero es un
-
-proceso lento y doloroso. Una criatura que atraviese el
-
-muro deberá gastar 4 m de movimiento por cada metro
-
-que avance. Además, la primera vez que una criatura
-
-entre en un espacio del muro o termine su turno allí,
-
-realizará una tirada de salvación de Destreza; sufrirá 748
-
-de daño cortante si la falla o la mitad del daño si la supera
-
-Una criatura solo hace esta tirada una vez por turno.
-
 ---
 
 #### Mover la Tierra
@@ -12335,7 +11376,7 @@ forma de la tierra, la arena o la arcilla del área hasta que
 
 termine el conjuro. Puedes aumentar o reducir la elevación
 
-de la zona, crear o llenar una zanja, levantar o derribar una
+de la zona, crear o llenar una zanja, levantar o derribar un
 
 pared o formar una columna. La extensión de cualquiera
 
@@ -12377,6 +11418,59 @@ esta podría hundirse.
 
 De forma similar, este conjuro no afecta directamente al
 
+crecimiento vegetal y la tierra desplazada se lleva con ella
+
+cualquier planta que haya.
+
+---
+
+#### Muro de Espinas
+*Conjuración de nivel 6 (druida)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 36 m
+- **Componentes:** V, S, M (un puñado de espinas vegetales)
+- **Duración:** Concentración, hasta 10 minutos
+
+Creas un muro de maleza enmarañada que está repleta de
+
+espinas puntiagudas como agujas. Este muro aparecerá
+
+dentro del alcance sobre una superficie sólida y durará
+
+hasta que termine el conjuro. Eliges si crear un muro
+
+recto de hasta 18 m de longitud, 3 m de altura y 1,5 m de
+
+grosor o un círculo de arbustos de hasta 6 m de diámetro,
+
+6 m de altura y 1,5 m de grosor. El muro bloquea la línea
+
+de visión.
+
+Cuando aparezca el muro, todas las criaturas situadas
+
+en su área hacen una tirada de salvación de Destreza;
+
+sufrirán 748 de daño perforante si la fallan o la mitad
+
+de daño si la superan.
+
+Las criaturas pueden atravesar el muro, pero es un
+
+proceso lento y doloroso. Una criatura que atraviese el
+
+muro deberá gastar 4 m de movimiento por cada metro
+
+que avance. Además, la primera vez que una criatura
+
+entre en un espacio del muro o termine su turno allí,
+
+realizará una tirada de salvación de Destreza; sufrirá 748
+
+de daño cortante si la falla o la mitad del daño si la supera
+
+Una criatura solo hace esta tirada una vez por turno.
+
 Con un espacio de conjuro de nivel superior. Los dos
 
 tipos de daño aumentan en 1d8 por cada nivel por encima
@@ -12392,7 +11486,7 @@ de 6 que tenga el espacio.
 - **Componentes:** V, S, M (un trozo de carbón)
 - **Duración:** Concentración, hasta 1 minuto
 
-Creas un muro de fuego en una superficie sólida dentro
+a   Creas un muro de fuego en una superficie sólida dentro
 
 del alcance. Puedes formar un muro recto de hasta 18 m
 
@@ -12430,42 +11524,18 @@ aumenta en 1d8 por cada nivel por encima de 4 que tenga
 
 el espacio.
 
-crecimiento vegetal y la tierra desplazada se lleva con ella
-
-cualquier planta que haya.
-
 ---
 
-#### Muro de Fuerza Muro de Piedra
+#### Muro de Fuerza
 *Evocación de nivel 5 (mago)*
-
-Evocación de nivel 5 (druida, hechicero, mago)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 36 m
-
-Componentes: V, S, M (un trozo de vidrio)
-
-Duración: Concentración, hasta 10 minutos
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 36 m
-
-Componentes: V, S, M (un cubo de granito)
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 36 m
+- **Componentes:** V, S, M (un trozo de vidrio)
+- **Duración:** Concentración, hasta 10 minutos
 
 Un muro de fuerza invisible surge de la nada en un punto
 
 de tu elección dentro del alcance. Este muro adopta la
-
-Un muro no mágico de piedra sólida brota en un punto
-
-de tu elección dentro del alcance. Tiene 15 cm de grosor
-
-y está compuesto de 10 paneles de 3 m por 3 m. Cada panel
-
-debe estar adyacente a otro panel. Como alternativa,
 
 orientación que tú elijas y puede ser tanto una barrera
 
@@ -12522,9 +11592,60 @@ a otro panel. En cualquiera de las formas, el muro tiene un
 
 grosor de 30 cm y durará hasta que termine el conjuro.
 
-Al aparecer, si el muro atraviesa el espacio de una criatura,
+Al aparecer, si el muro atraviesa el espacio de una criatu
 
-Duración: Concentración, hasta 10 minutos
+esta es empujada hacia un lado del muro (tú eliges cuál)
+
+y hace una tirada de salvación de Destreza; sufrirá 10d6
+
+de daño de frío si la falla o la mitad de daño si la supera.
+
+El muro es un objeto que se puede dañar y, por tanto,
+
+atravesar. Tiene una CA de 12, 30 puntos de golpe por
+
+cada sección de 3 m de lado, inmunidad al daño de frío,
+
+psíquico y de veneno y vulnerabilidad al daño de fuego.
+
+Si se reduce una sección del muro de 3 m de lado a O puntos
+
+de golpe, se destruirá y dejará una capa de aire gélido en
+
+el lugar que ocupaba.
+
+Si una criatura pasa por la capa de aire gélido por
+
+primera vez en un turno, deberá hacer una tirada de
+
+salvación de Constitución; sufrirá 5d6 de daño de frío
+
+si la falla o la mitad de daño si la supera.
+
+Con un espacio de conjuro de nivel superior. El daño que
+
+causa el muro al aparecer aumenta en 2d6 y el que se sufre
+
+por cruzar la capa de aire gélido aumenta en 1d6 por cada
+
+nivel por encima de 6 que tenga el espacio.
+
+---
+
+#### Muro de Piedra
+*Evocación de nivel 5 (druida, hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 36 m
+- **Componentes:** V, S, M (un cubo de granito)
+- **Duración:** Concentración, hasta 10 minutos
+
+Un muro no mágico de piedra sólida brota en un punto
+
+de tu elección dentro del alcance. Tiene 15 cm de grosor
+
+y está compuesto de 10 paneles de 3 m por 3 m. Cada panel
+
+debe estar adyacente a otro panel. Como alternativa,
 
 puedes crear paneles de 3 m por 6 m cuyo grosor sea
 
@@ -12586,43 +11707,7 @@ toda su duración, el muro se vuelve permanente y no se
 
 puede disipar. De lo contrario, desaparece en cuanto el
 
-conjuro termine.
-
-esta es empujada hacia un lado del muro (tú eliges cuál)
-
-y hace una tirada de salvación de Destreza; sufrirá 10d6
-
-de daño de frío si la falla o la mitad de daño si la supera.
-
-El muro es un objeto que se puede dañar y, por tanto,
-
-atravesar. Tiene una CA de 12, 30 puntos de golpe por
-
-cada sección de 3 m de lado, inmunidad al daño de frío,
-
-psíquico y de veneno y vulnerabilidad al daño de fuego.
-
-Si se reduce una sección del muro de 3 m de lado a O puntos
-
-de golpe, se destruirá y dejará una capa de aire gélido en
-
-el lugar que ocupaba.
-
-Si una criatura pasa por la capa de aire gélido por
-
-primera vez en un turno, deberá hacer una tirada de
-
-salvación de Constitución; sufrirá 5d6 de daño de frío
-
-si la falla o la mitad de daño si la supera.
-
-Con un espacio de conjuro de nivel superior. El daño que
-
-causa el muro al aparecer aumenta en 2d6 y el que se sufre
-
-por cruzar la capa de aire gélido aumenta en 1d6 por cada
-
-nivel por encima de 6 que tenga el espacio.
+ra,   conjuro termine.
 
 ---
 
@@ -12653,171 +11738,9 @@ sufrirán 4d8 de daño contundente si la fallan o la mitad
 
 de daño si la superan.
 
-Orden
-
 El viento fuerte mantiene a raya la niebla, el humo
 
 y otros gases. Las criaturas voladoras de tamaño Pequeño
-
-asedio y los proyectiles similares no se ven afectados.
-
-Las criaturas en forma gaseosa no pueden atravesarlo.
-
-mediante un viento fuerte (como el que crea
-
-ráfaga de viento).
-
-Verde. Si falla la tirada: 1246 de daño de veneno.
-
-Si supera la tirada: la mitad de daño. Efectos
-
-adicionales: un conjuro pasamuros u otro del
-
-mismo nivel o superior que puedan abrir un portal
-
-en una superficie sólida destruirán esta capa.
-
-Azul. Si falla la tirada: 12d6 de daño de frío.
-
-Abjuración de nivel 9 (bardo, mago)
-
-Componentes: V, S
-
-vertical opaco (de hasta 27 m de largo, 9 m de alto y 2,5 cm
-
-de grosor) centrado en un punto dentro del alcance. Como
-
-alternativa, le das al muro la forma de un globo de hasta
-
-9 m de diámetro centrado en un punto dentro del alcance.
-
-25 de daño de fuego.
-
-Si la falla tres veces, tendrá el estado de petrificado
-
-hasta que lo libere un efecto como el del conjuro
-
-restablecimiento mayor. Los éxitos y los fallos no
-
-Si lo colocas en un espacio que ocupa una criatura,
-
-el conjuro termina al instante sin surtir efecto.
-
-tienen por qué ser consecutivos: lleva la cuenta
-
-El muro emite luz brillante hasta 30 m y luz tenue
-
-30 m más allá. Las criaturas que indiques cuando lanzas
-
-de ambos hasta que el objetivo tenga tres de un
-
-mismo tipo. Efectos adicionales: no es posible
-
-lanzar conjuros a través de esta capa, que puede
-
-destruirse mediante la luz brillante del conjuro
-
-luz del día.
-
-el conjuro y tú podéis atravesar el muro y estar cerca de
-
-él sin sufrir daños. Si otra criatura que pueda ver el muro
-
-se acerca a 6 m o menos de él, deberá superar una tirada
-
-de salvación de Constitución o tendrá el estado de cegada
-
-7.
-
-las propiedades de esa capa, como se describe en la tabla
-
-“Capas prismáticas”.
-
-El muro, que tiene una CA de 10, se puede destruir
-
-capa por capa, en orden de rojo a violeta, por el medio
-
-Orden
-
-i
-
-estado de cegado y hará una tirada de salvación
-
-de Sabiduría al principio de tu siguiente turno.
-
-el estado terminará y la criatura se teletransportará
-
-a otro plano de existencia (a elección de tu DM).
-
-Efectos adicionales: esta capa puede destruirse
-
-mediante disipar magia.
-
-tirada de salvación de Destreza o quedará afectada por
-
-CAPAS PRISMÁTICAS
-
-Violeta. Si falla la tirada: el objetivo tendrá el
-
-Si la supera, el estado terminará. Si la falla,
-
-superarlas todas. Para cada una, deberá realizar una
-
-específico para cada una de ellas. Si se destruye una capa,
-
-seguirá eliminada hasta que termine el conjuro. Campo
-
-antimagia no tiene efecto en el muro y disipar magia solo
-
-puede afectar a la capa violeta.
-
-Añil. Si falla la tirada: el objetivo tendrá el estado
-
-de apresado y hará una tirada de salvación de
-
-Constitución al final de cada uno de sus turnos.
-
-Si la supera tres veces, el estado terminará.
-
-El muro permanecerá allí hasta que termine el conjuro.
-
-durante 1 minuto.
-
-El muro consta de siete capas, cada una de un color
-
-distinto. Cuando una criatura meta una mano en el
-
-muro o lo atraviese, lo debe hacer capa por capa hasta
-
-Si supera la tirada: la mitad de daño. Efectos
-
-adicionales: la capa se destruye si recibe al menos
-
-Duración: 10 minutos
-
-Un plano de luz rutilante y multicolor forma un muro
-
-Amarilla. Si falla la tirada: 1246 de daño de
-
-relámpago. Si supera la tirada: la mitad de daño.
-
-Efectos adicionales: la capa se destruye si recibe
-
-al menos 60 de daño de fuerza.
-
-MURO PRISMÁTICO
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 18 m
-
-Naranja. Sifalla la tirada: 12d6 de daño de ácido.
-
-Si supera la tirada: la mitad de daño. Efectos
-
-adicionales: los ataques a distancia mágicos
-
-no atraviesan esta capa, que puede destruirse
 
 o menor no pueden atravesar el muro. Los materiales
 
@@ -12831,7 +11754,170 @@ salen despedidos hacia arriba y fallan automáticamente.
 
 Los pedruscos lanzados por gigantes o máquinas de
 
-Efectos
+asedio y los proyectiles similares no se ven afectados.
+
+Las criaturas en forma gaseosa no pueden atravesarlo.
+
+---
+
+#### Muro Prismático
+*Abjuración de nivel 9 (bardo, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 18 m
+- **Componentes:** V, S
+- **Duración:** 10 minutos
+
+Un plano de luz rutilante y multicolor forma un muro
+
+vertical opaco (de hasta 27 m de largo, 9 m de alto y 2,5 cm
+
+de grosor) centrado en un punto dentro del alcance. Como
+
+alternativa, le das al muro la forma de un globo de hasta
+
+9 m de diámetro centrado en un punto dentro del alcance.
+
+El muro permanecerá allí hasta que termine el conjuro.
+
+Si lo colocas en un espacio que ocupa una criatura,
+
+el conjuro termina al instante sin surtir efecto.
+
+El muro emite luz brillante hasta 30 m y luz tenue
+
+30 m más allá. Las criaturas que indiques cuando lanzas
+
+el conjuro y tú podéis atravesar el muro y estar cerca de
+
+él sin sufrir daños. Si otra criatura que pueda ver el muro
+
+se acerca a 6 m o menos de él, deberá superar una tirada
+
+de salvación de Constitución o tendrá el estado de cegada
+
+durante 1 minuto.
+
+El muro consta de siete capas, cada una de un color
+
+distinto. Cuando una criatura meta una mano en el
+
+muro o lo atraviese, lo debe hacer capa por capa hasta
+
+superarlas todas. Para cada una, deberá realizar una
+
+tirada de salvación de Destreza o quedará afectada por
+
+las propiedades de esa capa, como se describe en la tabla
+
+“Capas prismáticas”.
+
+El muro, que tiene una CA de 10, se puede destruir
+
+capa por capa, en orden de rojo a violeta, por el medio
+
+específico para cada una de ellas. Si se destruye una capa,
+
+seguirá eliminada hasta que termine el conjuro. Campo
+
+antimagia no tiene efecto en el muro y disipar magia solo
+
+puede afectar a la capa violeta.
+
+CAPAS PRISMÁTICAS
+
+Orden    Efectos
+
+i     Roja. Si falla la tirada: 1246 de daño de fuego.
+
+Si supera la tirada: la mitad de daño. Efectos
+
+adicionales: los ataques a distancia no mágicos
+
+no pueden atravesar esta capa, que se destruye
+
+si recibe al menos 25 de daño de frío.
+
+Orden    Efectos
+
+2      Naranja. Sifalla la tirada: 12d6 de daño de ácido.
+
+Si supera la tirada: la mitad de daño. Efectos
+
+adicionales: los ataques a distancia mágicos
+
+no atraviesan esta capa, que puede destruirse
+
+mediante un viento fuerte (como el que crea
+
+ráfaga de viento).
+
+3      Amarilla. Si falla la tirada: 1246 de daño de
+
+relámpago. Si supera la tirada: la mitad de daño.
+
+Efectos adicionales: la capa se destruye si recibe
+
+al menos 60 de daño de fuerza.
+
+4      Verde. Si falla la tirada: 1246 de daño de veneno.
+
+Si supera la tirada: la mitad de daño. Efectos
+
+adicionales: un conjuro pasamuros u otro del
+
+mismo nivel o superior que puedan abrir un portal
+
+en una superficie sólida destruirán esta capa.
+
+5      Azul. Si falla la tirada: 12d6 de daño de frío.
+
+Si supera la tirada: la mitad de daño. Efectos
+
+adicionales: la capa se destruye si recibe al menos
+
+25 de daño de fuego.
+
+6      Añil. Si falla la tirada: el objetivo tendrá el estado
+
+de apresado y hará una tirada de salvación de
+
+Constitución al final de cada uno de sus turnos.
+
+Si la supera tres veces, el estado terminará.
+
+Si la falla tres veces, tendrá el estado de petrificado
+
+hasta que lo libere un efecto como el del conjuro
+
+restablecimiento mayor. Los éxitos y los fallos no
+
+tienen por qué ser consecutivos: lleva la cuenta
+
+de ambos hasta que el objetivo tenga tres de un
+
+mismo tipo. Efectos adicionales: no es posible
+
+lanzar conjuros a través de esta capa, que puede
+
+destruirse mediante la luz brillante del conjuro
+
+luz del día.
+
+7.    Violeta. Si falla la tirada: el objetivo tendrá el
+
+estado de cegado y hará una tirada de salvación
+
+de Sabiduría al principio de tu siguiente turno.
+
+Si la supera, el estado terminará. Si la falla,
+
+el estado terminará y la criatura se teletransportará
+
+a otro plano de existencia (a elección de tu DM).
+
+Efectos adicionales: esta capa puede destruirse
+
+mediante disipar magia.
 
 ---
 
@@ -12839,24 +11925,10 @@ Efectos
 *Conjuración de nivel 5 (hechicero, mago)*
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** 36 m
-
-Efectos
-
-Componentes: V, S
-
-Roja. Si falla la tirada: 1246 de daño de fuego.
-
-Si supera la tirada: la mitad de daño. Efectos
-
-adicionales: los ataques a distancia no mágicos
+- **Componentes:** V, S
+- **Duración:** Concentración, hasta 10 minutos
 
 Creas una esfera de una niebla amarillo-verdosa de 6 m
-
-no pueden atravesar esta capa, que se destruye
-
-si recibe al menos 25 de daño de frío.
-
-Duración: Concentración, hasta 10 minutos
 
 de radio centrada en un punto dentro del alcance. La niebla
 
@@ -12870,25 +11942,25 @@ oscura.
 
 Todas las criaturas situadas en la esfera hacen una
 
-tirada de salvación de Constitución; sufrirán 5d8 de daño
+tirada de salvación de Constitución; sufrirán 5d8 de d
 
-de veneno si la fallan o la mitad del daño si la superan.
+de veneno si la fallan o la mitad del daño si la super
 
-Una criatura también deberá hacer esta tirada cuando la
+Una criatura también deberá hacer esta tirada cuando l
 
-esfera entre en su espacio o cuando la criatura entre en la
+esfera entre en su espacio o cuando la criatura entre
 
-esfera o termine su turno en ella. Una criatura solo hace
+esfera o termine su turno en ella. Una criatura solo h
 
 esta tirada una vez por turno.
 
-La esfera se aleja de ti 3 m al principio de cada uno de
+La esfera se aleja de ti 3 m al principio de cada un
 
 tus turnos.
 
-Con un espacio de conjuro de nivel superior. El daño
+Con un espacio de conjuro de nivel superior. El dañ
 
-aumenta en 1d8 por cada nivel por encima de 5 que tenga
+aumenta en 1d8 por cada nivel por encima de 5 que teng
 
 el espacio.
 
@@ -12905,40 +11977,89 @@ Creas una esfera de gas nauseabundo y amarillento de
 
 6 m de radio centrada en un punto dentro del alcance.
 
-La nube está muy oscura y permanece en el aire hasta que
+La nube está muy oscura y permanece en el aire hasta q
 
-el conjuro termine o hasta que la disperse un viento fuerte
+el conjuro termine o hasta que la disperse un viento f
 
 (por ejemplo, el que crea ráfaga de viento).
 
-Todas las criaturas que comiencen su turno en la esfera
+Todas las criaturas que comiencen su turno en la es
 
-deberán superar una tirada de salvación de Constitución
+deberán superar una tirada de salvación de Constitució
 
 o tendrán el estado de envenenadas hasta el final del
 
-turno actual. Mientras estén envenenadas de esta forma,
+turno actual. Mientras estén envenenadas de esta forma
 
 no podrán realizar acciones ni acciones adicionales.
 
-y dura hasta que el conjuro termine o hasta que la disperse
+---
 
-un viento fuerte (por ejemplo, el que crea ráfaga de viento).
+#### Nube de Dagas
+*Conjuración de nivel 2 (bardo, brujo, hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 18 m
+- **Componentes:** V, S, M (un fragmento de cristal)
+- **Duración:** Concentración, hasta 1 minuto
 
-Con un espacio de conjuro de nivel superior. El radio de la
+Conjuras dagas giratorias en un cubo de 1,5 m centrado
 
-niebla aumenta en 6 m por cada nivel por encima de 1 que
+en un punto dentro del alcance. Todas las criaturas
 
-tenga el espacio.
+situadas en esa zona sufren 4d4 de daño cortante.
+
+Una criatura también recibe daño si entra en el cubo,
+
+si termina su turno en él o si el cubo entra en su esp
+
+Una criatura solo sufre este daño una vez por turno.
+
+En tus siguientes turnos, puedes usar una acción de
+
+magia para teletransportar el cubo hasta 9 m.
+
+Con un espacio de conjuro de nivel superior. El dañ
+
+aumenta en 2d4 por cada nivel por encima de 2 que teng
+
+el espacio.
 
 ---
 
-#### Nube Incendiaria
-*Conjuración de nivel 8 (druida, hechicero, mago)*
+#### Nube de Oscurecimiento
+*Conjuración de nivel 1 (druida, explorador, hechicero,*
 - **Tiempo de lanzamiento:** Acción
-- **Alcance:** 45 m
+- **Alcance:** 36 m
 - **Componentes:** V, S
-- **Duración:** Concentración, hasta 1 minuto
+- **Duración:** Concentración, hasta 1 hora
+
+Creas una esfera de niebla de 6 m de radio centrada en
+
+año      un punto dentro del alcance. La esfera está muy oscura
+
+an.      y dura hasta que el conjuro termine o hasta que la disperse
+
+a        un viento fuerte (por ejemplo, el que crea ráfaga de viento).
+
+en la      Con un espacio de conjuro de nivel superior. El radio de la
+
+ace      niebla aumenta en 6 m por cada nivel por encima de 1 que
+
+tenga el espacio.
+
+o de
+
+o        NUBE INCENDIARIA
+
+a        Conjuración de nivel 8 (druida, hechicero, mago)
+
+Tiempo de lanzamiento: Acción
+
+Alcance: 45 m
+
+Componentes: V, S
+
+Duración: Concentración, hasta 1 minuto
 
 Una nube turbulenta de humo y ascuas llena una esfera
 
@@ -12954,67 +12075,28 @@ Cuando aparezca la nube, todas las criaturas dentro de
 
 ella harán una tirada de salvación de Destreza; sufrirán
 
-10d8 de daño de fuego si la fallan o la mitad del daño si la
+ue       10d8 de daño de fuego si la fallan o la mitad del daño si la
 
-superan. Una criatura también deberá hacer esta tirada
+uerte    superan. Una criatura también deberá hacer esta tirada
 
 cuando la esfera entre en su espacio o cuando la criatura
 
-entre en la esfera o termine su turno en ella. Una criatura
+fera     entre en la esfera o termine su turno en ella. Una criatura
 
-solo hace esta tirada una vez por turno.
+n        solo hace esta tirada una vez por turno.
 
 La nube se aleja de ti 3 m en la dirección que elijas al
 
-principio de cada uno de tus turnos.
+,        principio de cada uno de tus turnos.
 
 ---
 
-#### Ofuscación Nube de Dagas
+#### Ofuscación
 *Encantamiento de nivel 8 (bardo, brujo, druida, mago)*
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** 45 m
 - **Componentes:** V, S, M (un llavero sin llaves)
 - **Duración:** Instantáneo
-
-Conjuración de nivel 2 (bardo, brujo, hechicero, mago)
-
-Duración: Concentración, hasta 1 minuto
-
-Conjuras dagas giratorias en un cubo de 1,5 m centrado
-
-en un punto dentro del alcance. Todas las criaturas
-
-situadas en esa zona sufren 4d4 de daño cortante.
-
-Una criatura también recibe daño si entra en el cubo,
-
-si termina su turno en él o si el cubo entra en su espacio.
-
-Una criatura solo sufre este daño una vez por turno.
-
-En tus siguientes turnos, puedes usar una acción de
-
-magia para teletransportar el cubo hasta 9 m.
-
-Con un espacio de conjuro de nivel superior. El daño
-
-aumenta en 2d4 por cada nivel por encima de 2 que tenga
-
-el espacio.
-
----
-
-#### Nube de Oscurecimiento
-*Conjuración de nivel 1 (druida, explorador, hechicero, mago)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** 36 m
-- **Componentes:** V, S
-- **Duración:** Concentración, hasta 1 hora
-
-Creas una esfera de niebla de 6 m de radio centrada en
-
-un punto dentro del alcance. La esfera está muy oscura
 
 Atacas la mente de una criatura que puedas ver dentro
 
@@ -13026,7 +12108,7 @@ Si la falla, sufrirá 10412 de daño psíquico y no podrá
 
 lanzar conjuros ni realizar acciones de magia. Al final
 
-de cada 30 días, el objetivo repite la tirada de salvación
+acio.    de cada 30 días, el objetivo repite la tirada de salvación
 
 y, si tiene éxito, se librará del efecto. También se puede
 
@@ -13034,14 +12116,15 @@ finalizar este efecto mediante un conjuro curar, deseo
 
 o restablecimiento mayor.
 
-Si supera la tirada, solo sufrirá la mitad de ese daño.
+o           Si supera la tirada, solo sufrirá la mitad de ese daño.
+
+a
 
 ---
 
 #### Ojo Arcano
 *Adivinación de nivel 4 (mago)*
 - **Tiempo de lanzamiento:** Acción
-- **Alcance:** 9 m
 - **Componentes:** V, S, M (un poco de pelo de murciélago)
 - **Duración:** Concentración, hasta 1 hora
 
@@ -13051,7 +12134,7 @@ levita hasta que el conjuro termine. Recibes mentalmente
 
 información visual desde el ojo, que puede mirar en
 
-cualquier dirección y tiene visión en la oscuridad hasta 9 m.
+cualquier dirección y tiene visión en la oscuridad hasta 9 m
 
 Como acción adicional, puedes mover el ojo hasta 9 m
 
@@ -13061,57 +12144,24 @@ barrera sólida, pero podrá pasar por cualquier abertura
 
 de 2,5 cm de diámetro como mínimo.
 
-ds HECHICERA HUMANA REPRENDE A UNOS,
-
-IN LA ENERGÍA IMPREDECIBLE DE
-
-E CROMÁTICO.
-
----
-
-#### Ola Destructora
-*Evocación de nivel 5 (paladín)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** Lanzador
-- **Componentes:** V
-- **Duración:** Instantáneo
-
-Una energía destructiva surge de ti formando ondas en
-
 ---
 
 #### Ola Atronadora
 *Evocación de nivel 1 (bardo, druida, hechicero, mago)*
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** Lanzador
-
-una emanación de 9 m. Las criaturas que elijas dentro de la
-
-emanación realizan una tirada de salvación de Constitución.
-
-Si la fallan, sufrirán 5d6 de daño de trueno, 5d6 de daño
-
-radiante o necrótico (a tu elección) y tendrán el estado de
-
-derribadas. Si la superan, solamente recibirán la mitad de
-
-Componentes: V, S
-
-Duración: Instantáneo
-
-ese daño.
+- **Componentes:** V, S
+- **Duración:** Instantáneo
 
 Desatas una ola de energía atronadora. Todas las criaturas
 
 situadas en un cubo de 4,5 m de lado adyacente a ti harán
 
-ORBE CROMÁTICO
-
 una tirada de salvación de Constitución. Si la fallan,
 
 recibirán 2d8 de daño de trueno y serán empujadas 3 m
 
-respecto a ti. Si la superan, solo sufrirán la mitad de ese daño.
+respecto a ti. Si la superan, solo sufrirán la mitad de ese
 
 Además, a los objetos sueltos que estén completamente
 
@@ -13125,13 +12175,47 @@ aumenta en 1d8 por cada nivel por encima de 1 que tenga
 
 el espacio.
 
-Evocación de nivel 1 (hechicero, mago)
+7        ds HECHICERA HUMANA REPRENDE A UNOS,
+
+IN LA ENERGÍA IMPREDECIBLE DE
+
+E CROMÁTICO.
+
+---
+
+#### Ola Destructora
+*Evocación de nivel 5 (paladín)*
+
+.
 
 Tiempo de lanzamiento: Acción
 
-Alcance: 27 m
+Alcance: Lanzador
 
-Componentes: V, S, M (un diamante que valga al menos
+Componentes: V
+
+Duración: Instantáneo
+
+Una energía destructiva surge de ti formando ondas en
+
+una emanación de 9 m. Las criaturas que elijas dentro de la
+
+emanación realizan una tirada de salvación de Constitución.
+
+Si la fallan, sufrirán 5d6 de daño de trueno, 5d6 de daño
+
+radiante o necrótico (a tu elección) y tendrán el estado de
+
+derribadas. Si la superan, solamente recibirán la mitad de
+
+ese daño.
+
+---
+
+#### Orbe Cromático
+*Evocación de nivel 1 (hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Componentes:** V, S, M (un diamante que valga al menos
 
 50 po)
 
@@ -13147,29 +12231,19 @@ ataque de conjuro a distancia contra el objetivo. Si acierta,
 
 el objetivo recibe 3d8 de daño del tipo elegido.
 
-CAPÍTULO 7
-
-| CONJUROS
+CAPÍTULO 7    | CONJUROS             315
 
 Si sacas el mismo número en dos o más de los d8, el orbe
 
 salta a otro objetivo distinto de tu elección que esté a 9 m
 
-PALABRA DE CURACIÓN
-
 o menos del objetivo. Haz una tirada de ataque contra el
-
-Abjuración de nivel 1 (bardo, clérigo, druida)
-
-espacio de nivel 2 o superior.
-
-Tiempo de lanzamiento: Acción adicional
-
-Alcance: 18 m
 
 nuevo objetivo y otra tirada de daño. El orbe no puede
 
 volver a saltar, a menos que lances el conjuro con un
+
+espacio de nivel 2 o superior.
 
 Con un espacio de conjuro de nivel superior. El daño
 
@@ -13180,18 +12254,6 @@ el espacio. El orbe puede saltar un máximo de veces igual
 al nivel del espacio gastado. Una criatura solo puede ser
 
 el objetivo una vez por cada lanzamiento del conjuro.
-
-Componentes: V
-
-Duración: Instantáneo
-
-Una criatura de tu elección que puedas ver dentro del
-
-alcance recupera una cantidad de puntos de golpe igual
-
-a 2d4 más tu modificador por aptitud mágica.
-
-Con un espacio de conjuro de nivel superior. La curación
 
 ---
 
@@ -13204,34 +12266,13 @@ Con un espacio de conjuro de nivel superior. La curación
 
 Das una orden de una sola palabra a una criatura que
 
-aumenta en 2d4 por cada nivel por encima de 1 que tenga
-
-el espacio.
-
----
-
-#### Palabra de Curación en Masa
-*Abjuración de nivel 3 (bardo, clérigo)*
-- **Tiempo de lanzamiento:** Acción adicional
-- **Alcance:** 18 m
-
 puedas ver dentro del alcance. El objetivo debe superar
 
-Componentes: V
-
-Duración: Instantáneo
+una tirada de salvación de Sabiduría o verse obligado
 
 a obedecer la orden en su próximo turno. Elige una de las
 
 siguientes órdenes:
-
-Hasta seis criaturas de tu elección que puedas ver dentro
-
-del alcance recuperan una cantidad de puntos de golpe
-
-igual a 2d4 más tu modificador por aptitud mágica.
-
-una tirada de salvación de Sabiduría o verse obligado
 
 Acércate. El objetivo se acerca a ti por la ruta más corta
 
@@ -13245,27 +12286,13 @@ acciones ni acciones adicionales.
 
 Huye. El objetivo emplea su turno en alejarse de ti de
 
-Con un espacio de conjuro de nivel superior. La curación
-
-aumenta en 1d4 por cada nivel por encima de 3 que tenga
-
-el espacio.
-
-PALABRA DE PODER: ATURDIR
-
 la manera más rápida posible.
 
 Póstrate. El objetivo adopta el estado de derribado
 
-Encantamiento de nivel 8 (bardo, brujo, hechicero, mago)
+y termina su turno.
 
 Suelta. El objetivo suelta lo que sea que esté sujetando
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 18 m
-
-y termina su turno.
 
 y acaba su turno.
 
@@ -13281,26 +12308,7 @@ de 1 que tenga el espacio.
 *Evocación de nivel 2 (brujo, hechicero, mago)*
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** 18 m
-- **Componentes:** V
-- **Duración:** Instantáneo
-
-Abrumas la mente de una criatura que puedas ver dentro
-
-del alcance. Si el objetivo tiene 150 puntos de golpe
-
-o menos, tendrá el estado de aturdido. De lo contrario,
-
-su velocidad será O hasta el principio de tu siguiente
-
-turno.
-
-El objetivo aturdido hace una tirada de salvación de
-
-Constitución al final de cada uno de sus turnos y, si tiene
-
-éxito, se librará del estado.
-
-Componentes: V, M (pelaje de murciélago y un trozo
+- **Componentes:** V, M (pelaje de murciélago y un trozo
 
 de carbón)
 
@@ -13328,7 +12336,77 @@ Si cualquier zona del conjuro se superpone con una
 
 zona de luz brillante o luz tenue creada por un conjuro
 
-de nivel 2 o inferior, el conjuro que creó esa luz se disipa.
+de nivel 2 o inferior, el conjuro que creó esa luz se disipa
+
+---
+
+#### Palabra de Curación
+*Abjuración de nivel 1 (bardo, clérigo, druida)*
+- **Tiempo de lanzamiento:** Acción adicional
+- **Alcance:** 18 m
+- **Componentes:** V
+- **Duración:** Instantáneo
+
+Una criatura de tu elección que puedas ver dentro del
+
+alcance recupera una cantidad de puntos de golpe igual
+
+a 2d4 más tu modificador por aptitud mágica.
+
+Con un espacio de conjuro de nivel superior. La curación
+
+aumenta en 2d4 por cada nivel por encima de 1 que tenga
+
+el espacio.
+
+---
+
+#### Palabra de Curación en Masa
+*Abjuración de nivel 3 (bardo, clérigo)*
+- **Tiempo de lanzamiento:** Acción adicional
+- **Alcance:** 18 m
+- **Componentes:** V
+- **Duración:** Instantáneo
+
+Hasta seis criaturas de tu elección que puedas ver dentro
+
+del alcance recuperan una cantidad de puntos de golpe
+
+igual a 2d4 más tu modificador por aptitud mágica.
+
+Con un espacio de conjuro de nivel superior. La curación
+
+aumenta en 1d4 por cada nivel por encima de 3 que tenga
+
+el espacio.
+
+PALABRA DE PODER: ATURDIR
+
+Encantamiento de nivel 8 (bardo, brujo, hechicero, mago)
+
+Tiempo de lanzamiento: Acción
+
+Alcance: 18 m
+
+Componentes: V
+
+Duración: Instantáneo
+
+Abrumas la mente de una criatura que puedas ver dentro
+
+del alcance. Si el objetivo tiene 150 puntos de golpe
+
+o menos, tendrá el estado de aturdido. De lo contrario,
+
+su velocidad será O hasta el principio de tu siguiente
+
+turno.
+
+El objetivo aturdido hace una tirada de salvación de
+
+Constitución al final de cada uno de sus turnos y, si tiene
+
+éxito, se librará del estado.
 
 PALABRA DE PODER: FORTALECER
 
@@ -13348,34 +12426,23 @@ del alcance. El conjuro proporciona 120 puntos de golpe
 
 temporales, que divides entre los objetivos.
 
+.
+
 PALABRA DE PODER: MATAR
 
----
-
-#### Palabra Divina
-*Encantamiento de nivel 9 (bardo, brujo, hechicero, mago)*
-
-Evocación de nivel 7 (clérigo)
+Encantamiento de nivel 9 (bardo, brujo, hechicero, mago)
 
 Tiempo de lanzamiento: Acción
 
 Alcance: 18 m
 
-Tiempo de lanzamiento: Acción adicional
+Componentes: V
 
-Alcance: 9 m
+Duración: Instantáneo
 
 Obligas a morir a una criatura que puedas ver dentro del
 
 alcance. Si el objetivo tiene 100 puntos de golpe o menos,
-
-Susurras una palabra imbuida con el poder de los Planos
-
-Superiores. Todas las criaturas de tu elección dentro
-
-Componentes: V
-
-Duración: Instantáneo
 
 morirá. De lo contrario, sufrirá 12d12 de daño psíquico.
 
@@ -13403,9 +12470,68 @@ o paralizada, los estados terminan. Si la criatura tiene
 
 el estado de derribada, puede usar su reacción para
 
-Componentes: V
+levantarse.
 
-Duración: Instantáneo
+---
+
+#### Palabra de Regreso
+*Conjuración de nivel 6 (clérigo)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 1,5 m
+- **Componentes:** V
+- **Duración:** Instantáneo
+
+Tú y hasta cinco criaturas voluntarias a 1,5 m o menos de
+
+ti os teletransportáis al instante a un santuario designado
+
+previamente. Tú y cualquier criatura que se teletransporte
+
+contigo apareceréis en el espacio sin ocupar más cercano
+
+al punto designado al preparar el santuario (consulta más
+
+adelante). Si lanzas este conjuro sin preparar antes un
+
+santuario, no tiene ningún efecto.
+
+Debes designar un lugar como santuario lanzando este
+
+conjuro allí; por ejemplo, en un templo.
+
+---
+
+#### Palabra de Resplandor
+*Truco de evocación (clérigo)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Lanzador
+- **Componentes:** V, M (un símbolo con forma de rayo)
+- **Duración:** Instantáneo
+
+Un fulgor ardiente surge de ti en una emanación de 1,5 m.
+
+Todas las criaturas de tu elección que puedas ver en ella
+
+deberán superar una tirada de salvación de Constitución
+
+o sufrirán 1d6 de daño radiante.
+
+Mejora de truco. El daño aumenta en 1d6 cuando
+
+alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).
+
+---
+
+#### Palabra Divina
+*Evocación de nivel 7 (clérigo)*
+- **Tiempo de lanzamiento:** Acción adicional
+- **Alcance:** 9 m
+- **Componentes:** V
+- **Duración:** Instantáneo
+
+Susurras una palabra imbuida con el poder de los Planos
+
+Superiores. Todas las criaturas de tu elección dentro
 
 del alcance realizan una tirada de salvación de Carisma.
 
@@ -13429,76 +12555,30 @@ cualquier medio que no sea un conjuro deseo.
 
 EFECTOS DE PALABRA DIVINA
 
-Puntos de golpe
+Puntos de golpe      Efecto
 
-0-20
+0-20          El objetivo muere.
 
-El objetivo muere.
-
-21-30
-
-El objetivo tiene los estados de aturdido,
+21-30         El objetivo tiene los estados de aturdido,
 
 cegado y ensordecido durante 1 hora.
 
-levantarse.
-
----
-
-#### Palabra de Regreso
-*Conjuración de nivel 6 (clérigo)*
-
-Efecto
-
-31-40
-
-El objetivo tiene los estados de cegado
+31-40         El objetivo tiene los estados de cegado
 
 y ensordecido durante 10 minutos.
 
-41-50
-
-El objetivo tiene el estado de
+41-50         El objetivo tiene el estado de
 
 ensordecido durante 1 minuto.
 
-Tiempo de lanzamiento: Acción
+---
 
-Alcance: 1,5 m
-
-Componentes: V
-
-Duración: Instantáneo
-
-PARAR EL TIEMPO
-
-Tú y hasta cinco criaturas voluntarias a 1,5 m o menos de
-
-ti os teletransportáis al instante a un santuario designado
-
-previamente. Tú y cualquier criatura que se teletransporte
-
-contigo apareceréis en el espacio sin ocupar más cercano
-
-Tiempo de lanzamiento: Acción
-
-Alcance: Lanzador
-
-al punto designado al preparar el santuario (consulta más
-
-adelante). Si lanzas este conjuro sin preparar antes un
-
-santuario, no tiene ningún efecto.
-
-Debes designar un lugar como santuario lanzando este
-
-conjuro allí; por ejemplo, en un templo.
-
-Transmutación de nivel 9 (hechicero, mago)
-
-Componentes: V
-
-Duración: Instantáneo
+#### Parar el Tiempo
+*Transmutación de nivel 9 (hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Lanzador
+- **Componentes:** V
+- **Duración:** Instantáneo
 
 Detienes el paso del tiempo brevemente para todo el mundo
 
@@ -13509,27 +12589,6 @@ avanza, mientras que tú puedes llevar a cabo 1d4 + 1 turnos
 seguidos, durante los cuales puedes usar acciones y moverte
 
 con normalidad.
-
----
-
-#### Palabra de Resplandor
-*Truco de evocación (clérigo)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** Lanzador
-- **Componentes:** V, M (un símbolo con forma de rayo)
-- **Duración:** Instantáneo
-
-Un fulgor ardiente surge de ti en una emanación de 1,5 m.
-
-Todas las criaturas de tu elección que puedas ver en ella
-
-deberán superar una tirada de salvación de Constitución
-
-o sufrirán 1d6 de daño radiante.
-
-Mejora de truco. El daño aumenta en 1d6 cuando
-
-alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).
 
 Este conjuro termina si una de las acciones que usas
 
@@ -13562,21 +12621,21 @@ superficie de madera, yeso o piedra (como una pared,
 
 un techo o un suelo) dentro del alcance y se mantiene
 
-hasta que termine el conjuro. Tú eliges las dimensiones
+hasta que termine el conjuro. Tú eliges las dimensione
 
-de la abertura: hasta 1,5 m de ancho, 2,4 m de alto y 6 m
+de la abertura: hasta 1,5 m de ancho, 2,4 m de alto y
 
-de largo. El pasaje no crea ninguna inestabilidad en la
+de largo. El pasaje no crea ninguna inestabilidad en l
 
 estructura que lo rodea.
 
 Cuando la abertura desaparece, las criaturas o los
 
-objetos que sigan en el pasaje creado por el conjuro serán
+objetos que sigan en el pasaje creado por el conjuro s
 
 expulsados sin daño alguno al espacio sin ocupar más
 
-cercano a la superficie sobre la que lanzaste el conjuro.
+cercano a la superficie sobre la que lanzaste el conju
 
 ---
 
@@ -13585,6 +12644,42 @@ cercano a la superficie sobre la que lanzaste el conjuro.
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** Lanzador
 - **Componentes:** V, S, M (cenizas de muérdago quemado)
+- **Duración:** Concentración, hasta 1 hora
+
+Hasta que el conjuro termine, irradias un aura de ocul
+
+en una emanación de 9 m. Mientras permanezcáis dentro,
+
+las criaturas que elijas y tú tendréis un bonificador
+
+alas pruebas de Destreza (Sigilo) y no dejaréis huella
+
+---
+
+#### Paso Arbóreo
+*Conjuración de nivel 5 (druida, explorador)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Lanzador
+- **Componentes:** V, S
+- **Duración:** Concentración, hasta 1 minuto
+
+Obtienes la capacidad de entrar en un árbol y moverte
+
+desde dentro al interior de otro árbol del mismo tipo
+
+esté a 150 m o menos. Ambos árboles tienen que estar
+
+vivos y ser al menos del mismo tamaño que tú. Para ent
+
+en un árbol debes gastar 1,5 m de movimiento. Al insta
+
+conoces la ubicación de todos los demás árboles del mi
+
+tipo situados a 150 m o menos y, como parte del movimi
+
+gastado para entrar en el árbol, puedes pasar al inter
+
+de uno de esos árboles o salir del árbol en el que est
 
 Apareces en un punto de tu elección a 1,5 m o menos del
 
@@ -13592,63 +12687,53 @@ Apareces en un punto de tu elección a 1,5 m o menos del
 
 Si no te queda movimiento, apareces a 1,5 m o menos
 
-del árbol en el que entraste.
+s        del árbol en el que entraste.
 
-Puedes usar esta capacidad de transporte solo una vez
+6 m        Puedes usar esta capacidad de transporte solo una vez
 
-en cada uno de tus turnos y debes terminar cada turno
+a        en cada uno de tus turnos y debes terminar cada turno
 
 fuera de un árbol.
 
----
+erán
 
-#### Paso Brumoso
-*Conjuración de nivel2 (brujo, hechicero, mago)*
-- **Tiempo de lanzamiento:** Acción adicional
-- **Alcance:** Lanzador
-- **Componentes:** V
-- **Duración:** Instantáneo
+PASO BRUMOSO
+
+ro.      Conjuración de nivel2 (brujo, hechicero, mago)
+
+Tiempo de lanzamiento: Acción adicional
+
+Alcance: Lanzador
+
+Componentes: V
+
+Duración: Instantáneo
 
 Una niebla plateada te rodea brevemente y te teletransportas
 
 hasta 9 m a un espacio sin ocupar que puedas ver.
 
-Duración: Concentración, hasta 1 hora
+tación   PATRÓN HIPNÓTICO
 
-Hasta que el conjuro termine, irradias un aura de ocultación
+Ilusionismo de nivel 3 (bardo, brujo, hechicero, mago)
 
-en una emanación de 9 m. Mientras permanezcáis dentro,
-
-las criaturas que elijas y tú tendréis un bonificador de +10
-
-alas pruebas de Destreza (Sigilo) y no dejaréis huellas.
-
----
-
-#### Paso Arbóreo Patrón Hipnótico
-*Ilusionismo de nivel 3 (bardo, brujo, hechicero, mago)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** 36 m
-- **Componentes:** V, S, M (una pizca de confeti)
-- **Duración:** Concentración, hasta 1 minuto
-
-Conjuración de nivel 5 (druida, explorador)
-
-Creas un patrón de colores que se retuercen en un cubo
+de +10
 
 Tiempo de lanzamiento: Acción
 
-Alcance: Lanzador
+s.
 
-instante y se desvanece. Todas las criaturas de la zona
+Alcance: 36 m
 
-Componentes: V, S
+Componentes: V, S, M (una pizca de confeti)
 
 Duración: Concentración, hasta 1 minuto
 
-Obtienes la capacidad de entrar en un árbol y moverte
+Creas un patrón de colores que se retuercen en un cubo
 
 de 9 m de lado dentro del alcance. El patrón aparece un
+
+instante y se desvanece. Todas las criaturas de la zona
 
 que puedan ver el patrón deberán superar una tirada de
 
@@ -13658,63 +12743,30 @@ hasta que termine el conjuro. Mientras estén hechizadas,
 
 las criaturas tendrán una velocidad de O y el estado de
 
-desde dentro al interior de otro árbol del mismo tipo que
-
-incapacitadas.
-
-vivos y ser al menos del mismo tamaño que tú. Para entrar
-
-en un árbol debes gastar 1,5 m de movimiento. Al instante
-
-conoces la ubicación de todos los demás árboles del mismo
-
-recibe daño o si alguien más emplea una acción para
-
-sacudir a dicha criatura y sacarla de su estupor.
-
-esté a 150 m o menos. Ambos árboles tienen que estar
-
-tipo situados a 150 m o menos y, como parte del movimiento
-
-gastado para entrar en el árbol, puedes pasar al interior
-
-de uno de esos árboles o salir del árbol en el que estás.
+que      incapacitadas.
 
 El conjuro finaliza para una criatura afectada si esta
 
-Elige a una criatura dentro del alcance que tenga O puntos
+rar      recibe daño o si alguien más emplea una acción para
 
-de golpe y no esté muerta. La criatura pasa a estar estable.
+nte      sacudir a dicha criatura y sacarla de su estupor.
 
-Mejora de truco. El alcance se duplica cuando alcanzas
+smo
 
-los niveles 5 (9 m), 11 (18 m) y 17 (36 m).
+ento
 
----
+ior
 
-#### Piel Pétrea
-*Transmutación de nivel 4 (druida, explorador, hechicero, mago)*
-
-
+ás.
 
 ---
 
 #### Pequeña Choza de Leomund
 *Evocación de nivel 3 (bardo, mago)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** Toque
-- **Componentes:** V, S, M (polvo de diamante que valga al
+- **Tiempo de lanzamiento:** 1 minuto o un ritual
+- **Alcance:** Lanzador
+- **Componentes:** V, S, M (una cuenta de cristal)
 - **Duración:** 8 horas
-
-menos 100 po y que se consume como parte del conjuro)
-
-Duración: Concentración, hasta 1 hora
-
-Hasta que el conjuro termine, una criatura voluntaria a la
-
-que toques tiene resistencia al daño contundente, cortante
-
-y perforante.
 
 Una emanación de 3 m surge a tu alrededory permanece
 
@@ -13748,47 +12800,18 @@ el exterior, la emanación es opaca y del color que elijas,
 
 pero es transparente desde el interior.
 
----
-
-#### Piel Robliza
-*Transmutación de nivel 2 (druida, explorador)*
-- **Tiempo de lanzamiento:** Acción adicional
-- **Alcance:** Toque
-- **Componentes:** V, S, M (un puñado de corteza)
-- **Duración:** 1 hora
-
-Tocas a una criatura voluntaria. Hasta que el conjuro
-
-termine, la piel del objetivo adopta una apariencia de
-
-corteza y su clase de armadura no podrá ser inferior a 17.
-
----
-
-#### Plaga de Insectos
-*Conjuración de nivel 5 (clérigo, druida, hechicero)*
+El conjuro termina antes si sales de la emanación
 
 o lo vuelves a lanzar.
 
-Tiempo de lanzamiento: Acción
+---
 
-Alcance: 90 m
-
-PERDICIÓN
-
-Un enjambre de langostas llena una esfera de 6 m de radio
-
-El conjuro termina antes si sales de la emanación
-
-Encantamiento de nivel 1 (bardo, clérigo, brujo)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 9 m
-
-Componentes: V, S, M (una gota de sangre)
-
-Duración: Concentración, hasta 1 minuto
+#### Perdición
+*Encantamiento de nivel 1 (bardo, clérigo, brujo)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 9 m
+- **Componentes:** V, S, M (una gota de sangre)
+- **Duración:** Concentración, hasta 1 minuto
 
 Hasta tres criaturas de tu elección a las que puedas ver
 
@@ -13808,9 +12831,66 @@ hacer objetivo a una criatura adicional por cada nivel
 
 por encima de 1 que tenga el espacio.
 
-Componentes: V, S, M (una langosta)
+---
 
-Duración: Concentración, hasta 10 minutos
+#### Piedad con los Moribundos
+*Truco de nigromancia (clérigo, druida)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 4,5 m
+- **Componentes:** V, S
+- **Duración:** Instantáneo
+
+Elige a una criatura dentro del alcance que tenga O puntos
+
+de golpe y no esté muerta. La criatura pasa a estar estable.
+
+Mejora de truco. El alcance se duplica cuando alcanzas
+
+los niveles 5 (9 m), 11 (18 m) y 17 (36 m).
+
+---
+
+#### Piel Pétrea
+*Transmutación de nivel 4 (druida, explorador, hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Toque
+- **Componentes:** V, S, M (polvo de diamante que valga al
+
+menos 100 po y que se consume como parte del conjuro)
+
+Duración: Concentración, hasta 1 hora
+
+Hasta que el conjuro termine, una criatura voluntaria a la
+
+que toques tiene resistencia al daño contundente, cortante
+
+y perforante.
+
+---
+
+#### Piel Robliza
+*Transmutación de nivel 2 (druida, explorador)*
+- **Tiempo de lanzamiento:** Acción adicional
+- **Alcance:** Toque
+- **Componentes:** V, S, M (un puñado de corteza)
+- **Duración:** 1 hora
+
+Tocas a una criatura voluntaria. Hasta que el conjuro
+
+termine, la piel del objetivo adopta una apariencia de
+
+corteza y su clase de armadura no podrá ser inferior a 17.
+
+---
+
+#### Plaga de Insectos
+*Conjuración de nivel 5 (clérigo, druida, hechicero)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 90 m
+- **Componentes:** V, S, M (una langosta)
+- **Duración:** Concentración, hasta 10 minutos
+
+Un enjambre de langostas llena una esfera de 6 m de radio
 
 centrada en un punto de tu elección dentro del alcance.
 
@@ -13840,50 +12920,37 @@ el espacio.
 
 ---
 
-#### Plegaria de Curación Piedad con los Moribundos
-*Truco de nigromancia (clérigo, druida)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** 4,5 m
-- **Componentes:** V, S
+#### Plegaria de Curación
+*Abjuración de nivel 2 (clérigo, paladín)*
+- **Tiempo de lanzamiento:** 10 minutos
+- **Alcance:** 9 m
+- **Componentes:** V
+- **Duración:** Instantáneo
 
-Abjuración de nivel 2 (clérigo, paladín)
-
-Tiempo de lanzamiento: 10 minutos
-
-Alcance: 9 m
-
-Componentes: V
-
-Duración: Instantáneo
-
-Duración: Instantáneo
-
-a
-
-|
+a|
 
 Hasta cinco criaturas de tu elección que permanezcan
 
-dentro del alcance del conjuro durante todo su lanzamiento
+dentro del alcance del conjuro durante todo su lanzami
 
 obtienen los beneficios de un descanso corto y también
 
 recuperan 2d8 puntos de golpe. Las criaturas no pueden
 
-volver a beneficiarse de este conjuro hasta que finalicen
+volver a beneficiarse de este conjuro hasta que finali
 
 un descanso largo.
 
-Con un espacio de conjuro de nivel superior. La curación
+Con un espacio de conjuro de nivel superior. La cur
 
-aumenta en 1d8 por cada nivel por encima de 2 que tenga
+aumenta en 1d8 por cada nivel por encima de 2 que teng
 
 el espacio.
 
 ---
 
 #### Polimorfar
-*Transmutación de nivel 4 (bardo, druida, hechicero, mago)*
+*Transmutación de nivel 4 (bardo, druida, hechicero, ma*
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** 18 m
 - **Componentes:** V, S, M (un capullo de oruga)
@@ -13891,35 +12958,35 @@ el espacio.
 
 Intentas transformar en una bestia a una criatura que
 
-puedas ver dentro del alcance. El objetivo debe superar
+puedas ver dentro del alcance. El objetivo debe supera
 
-una tirada de salvación de Sabiduría o adoptará la forma
+una tirada de salvación de Sabiduría o adoptará la for
 
 de una bestia hasta que termine el conjuro. Esa forma
 
-Puede ser la de cualquier bestia que elijas y cuyo valor de
+Puede ser la de cualquier bestia que elijas y cuyo val
 
-desafío sea igual o menor que el del objetivo (o que el nivel
+desafío sea igual o menor que el del objetivo (o que e
 
-del objetivo si este no tiene un valor de desafío). El perfil
+del objetivo si este no tiene un valor de desafío). El
 
-del objetivo se sustituye por el de la bestia elegida, pero el
+del objetivo se sustituye por el de la bestia elegida,
 
-objetivo conservará su alineamiento, personalidad, tipo
+objetivo conservará su alineamiento, personalidad, tip
 
-de criatura, puntos de golpe y dados de puntos de golpe.
+de criatura, puntos de golpe y dados de puntos de golp
 
-En el apéndice B puedes consultar varios perfiles de bestias.
+En el apéndice B puedes consultar varios perfiles de b
 
 El objetivo obtiene una cantidad de puntos de golpe
 
 temporales igual a los puntos de golpe de la forma de
 
-bestia. Estos puntos de golpe temporales se desvanecerán
+bestia. Estos puntos de golpe temporales se desvanecer
 
-si conservas alguno cuando el conjuro termine. El conjuro
+si conservas alguno cuando el conjuro termine. El conj
 
-termina antes de tiempo si el objetivo se queda sin puntos
+termina antes de tiempo si el objetivo se queda sin pu
 
 de golpe temporales.
 
@@ -13929,9 +12996,9 @@ limitadas por la anatomía de su nueva forma y no podrá
 
 hablar ni lanzar conjuros.
 
-El equipo del objetivo se funde con su nueva formay la
+El equipo del objetivo se funde con su nueva formay
 
-criatura no podrá usar ese equipo ni beneficiarse de él.
+criatura no podrá usar ese equipo ni beneficiarse de é
 
 ---
 
@@ -13949,17 +13016,43 @@ Elige a una criatura o un objeto no mágico que puedas
 
 ver dentro del alcance. La criatura adopta la forma de
 
-otra criatura o la de un objeto no mágico, o el objeto se
+otra criatura o la de un objeto no mágico, o el objeto
+
+convierte en una criatura (el objeto no puede llevarse
+
+vestirse). La transformación dura hasta que el conjuro
+
+termine o hasta que el objetivo muera o sea destruido,
+
+pero si mantienes la concentración en el conjuro duran
+
+su duración completa, permanecerá hasta que sea disipa
+
+Una criatura no voluntaria puede hacer una tirada de
+
+salvación de Sabiduría y, si la supera, el conjuro no
+
+Criatura en criatura. Si conviertes a una criatura e
+
+otro tipo de criatura, la nueva forma puede ser cualqu
+
+tipo que elijas y que tenga un valor de desafío igual
+
+que el valor de desafío o el nivel del objetivo. El perfil del
+
+ento           objetivo se reemplaza por el perfil de la nueva forma, pero
+
+mantiene sus puntos de golpe, dados de puntos de golpe,
 
 alineamiento y personalidad.
 
-El objetivo obtiene una cantidad de puntos de golpe
+cen              El objetivo obtiene una cantidad de puntos de golpe
 
 temporales igual a los puntos de golpe de la nueva forma.
 
-Estos puntos de golpe temporales se desvanecerán si
+ación          Estos puntos de golpe temporales se desvanecerán si
 
-conservas alguno cuando el conjuro termine.
+a              conservas alguno cuando el conjuro termine.
 
 Las acciones que puede realizar el objetivo están
 
@@ -13969,7 +13062,7 @@ hablar ni lanzar conjuros.
 
 El equipo del objetivo se funde con su nueva forma y la
 
-criatura no podrá usar ese equipo ni beneficiarse de él.
+go)            criatura no podrá usar ese equipo ni beneficiarse de él.
 
 Objeto en criatura. Puedes convertir un objeto en
 
@@ -13983,39 +13076,47 @@ y tus aliados. En combate, sus turnos van inmediatamente
 
 después de los tuyos y obedece tus órdenes.
 
-Si el conjuro dura más de una hora, dejas de controlar
+r                 Si el conjuro dura más de una hora, dejas de controlar
 
-a la criatura, que puede seguir siendo amistosa contigo
+ma             a la criatura, que puede seguir siendo amistosa contigo
 
 en función de cómo la hayas tratado.
 
-Criatura en objeto. Si conviertes a una criatura en un
+or de            Criatura en objeto. Si conviertes a una criatura en un
 
-objeto, se transforma en esa forma junto con todo lo que
+l nivel        objeto, se transforma en esa forma junto con todo lo que
 
-lleve o vista, siempre que el tamaño del objeto no sea mayor
+perfil        lleve o vista, siempre que el tamaño del objeto no sea mayor
 
-que el de la criatura. El perfil de la criatura pasa a ser el del
+pero el       que el de la criatura. El perfil de la criatura pasa a ser el del
 
-objeto y no tiene recuerdos del tiempo pasado en esa forma
+o              objeto y no tiene recuerdos del tiempo pasado en esa forma
 
-después de que el conjuro termine y vuelva a la normalidad.
+e.             después de que el conjuro termine y vuelva a la normalidad.
 
----
+estias.
 
-#### Portal
-*Conjuración de nivel 9 (brujo, clérigo, hechicero, mago)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** 18 m
-- **Componentes:** V, S, M (un diamante que valga al menos
+PORTAL
+
+án             Conjuración de nivel 9 (brujo, clérigo, hechicero, mago)
+
+uro
+
+Tiempo de lanzamiento: Acción
+
+ntos
+
+Alcance: 18 m
+
+Componentes: V, S, M (un diamante que valga al menos
 
 5000 po)
 
 Duración: Concentración, hasta 1 minuto
 
-Conjuras un portal que enlaza un espacio sin ocupar que
+la             Conjuras un portal que enlaza un espacio sin ocupar que
 
-puedas ver dentro del alcance con una ubicación precisa
+l.             puedas ver dentro del alcance con una ubicación precisa
 
 situada en otro plano de existencia. El portal es una
 
@@ -14041,53 +13142,27 @@ cercano al portal.
 
 Las deidades y otros gobernantes de planos pueden
 
-impedir que los portales creados mediante este conjuro se
+se            impedir que los portales creados mediante este conjuro se
 
-convierte en una criatura (el objeto no puede llevarse ni
-
-vestirse). La transformación dura hasta que el conjuro
-
-termine o hasta que el objetivo muera o sea destruido,
-
-pero si mantienes la concentración en el conjuro durante
-
-abran en su presencia o en cualquier lugar dentro de sus
-
-Una criatura no voluntaria puede hacer una tirada de
-
-tuyo, el portal se abrirá junto a la criatura mencionada
-
-Criatura en criatura. Si conviertes a una criatura en
-
-otro tipo de criatura, la nueva forma puede ser cualquier
-
-tipo que elijas y que tenga un valor de desafío igual o menor
-
-lado del portal. No obtienes ningún poder especial sobre
-
-su duración completa, permanecerá hasta que sea disipado.
-
-salvación de Sabiduría y, si la supera, el conjuro no le afectará.
-
-que el valor de desafío o el nivel del objetivo. El perfil del
-
-objetivo se reemplaza por el perfil de la nueva forma, pero
-
-mantiene sus puntos de golpe, dados de puntos de golpe,
+ni            abran en su presencia o en cualquier lugar dentro de sus
 
 dominios.
 
 Cuando lances el conjuro, puedes decir el nombre de una
 
-criatura específica (no sirven un pseudónimo, un título
+te             criatura específica (no sirven un pseudónimo, un título
 
-o un apodo). Si esa criatura está en un plano distinto al
+do.            o un apodo). Si esa criatura está en un plano distinto al
 
-y la transportará al espacio sin ocupar más cercano en tu
+tuyo, el portal se abrirá junto a la criatura mencionada
 
-la criatura y será libre de actuar según tu DM considere
+le afectará.   y la transportará al espacio sin ocupar más cercano en tu
 
-apropiado: puede irse, atacarte o ayudarte.
+n              lado del portal. No obtienes ningún poder especial sobre
+
+ier            la criatura y será libre de actuar según tu DM considere
+
+o menor        apropiado: puede irse, atacarte o ayudarte.
 
 ABRIR UN ACCESO A LAS TIERRAS
 
@@ -14095,16 +13170,10 @@ EXTERIORES.
 
 ---
 
-#### Potenciar Característica Presencia Regia de Yolande
-*Transmutación de nivel 2 (bardo, clérigo, druida, explorador,*
-
-Encantamiento de nivel5 (bardo, mago)
+#### Potenciar Característica
+*Transmutación de nivel 2 (bardo, clérigo, druida, expl*
 
 hechicero, mago)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: Lanzador
 
 Tiempo de lanzamiento: Acción
 
@@ -14118,7 +13187,7 @@ Tocas a una criatura y eliges Fuerza, Destreza,
 
 Inteligencia, Sabiduría o Carisma. Hasta que termine
 
-el conjuro, el objetivo tiene ventaja en las pruebas con
+el conjuro, el objetivo tiene ventaja en las pruebas c
 
 la característica elegida.
 
@@ -14126,7 +13195,7 @@ Con un espacio de conjuro de nivel superior. Puedes
 
 hacer objetivo a una criatura adicional por cada nivel
 
-por encima de 2 que tenga el espacio. Puedes elegir una
+por encima de 2 que tenga el espacio. Puedes elegir un
 
 característica distinta para cada objetivo.
 
@@ -14139,17 +13208,25 @@ característica distinta para cada objetivo.
 - **Componentes:** V, S, M (una pluma de colibrí)
 - **Duración:** 8 horas
 
-Tocas a una criatura voluntaria y la dotas de una capacidad
+Tocas a una criatura voluntaria y la dotas de una capa
 
-limitada de ver el futuro inmediato. Hasta que el conjuro
+limitada de ver el futuro inmediato. Hasta que el conj
 
-termine, el objetivo tendrá ventaja en las pruebas con d20
+termine, el objetivo tendrá ventaja en las pruebas con
 
-y las demás criaturas tendrán desventaja en las tiradas de
+y las demás criaturas tendrán desventaja en las tirada
 
-ataque contra él. El conjuro termina antes si lo vuelves
+ataque contra él. El conjuro termina antes si lo vuelv
 
 a lanzar.
+
+PRESENCIA REGIA DE YOLANDE
+
+orador,   Encantamiento de nivel5 (bardo, mago)
+
+Tiempo de lanzamiento: Acción
+
+Alcance: Lanzador
 
 Componentes: V, S, M (una tiara en miniatura)
 
@@ -14163,7 +13240,7 @@ espacio de una criatura que puedas ver
 
 y siempre que una
 
-criatura que puedas ver entre en la emanación o termine
+on        criatura que puedas ver entre en la emanación o termine
 
 su turno allí, puedes obligar a la criatura a hacer una tirada
 
@@ -14171,7 +13248,7 @@ de salvación de Sabiduría. Si la falla, el objetivo sufrirá 4d6
 
 de daño psíquico, tendrá el estado de derribado y podrás
 
-empujarlo hasta 3 m respecto a ti. Si la supera, solo sufrirá
+a         empujarlo hasta 3 m respecto a ti. Si la supera, solo sufrirá
 
 la mitad de ese daño. Una criatura solo hace esta tirada
 
@@ -14186,61 +13263,45 @@ una vez por turno.
 - **Componentes:** V, S
 - **Duración:** Hasta 1 hora
 
-Creas un efecto mágico dentro del alcance, elegido de
+cidad
 
-entre las opciones a continuación. Si lanzas este conjuro
+uro       Creas un efecto mágico dentro del alcance, elegido de
 
-varias veces, puedes mantener activos a la vez hasta tres
+d20      entre las opciones a continuación. Si lanzas este conjuro
 
-de sus efectos no instantáneos.
+s de      varias veces, puedes mantener activos a la vez hasta tres
 
-Efecto sensorial. Creas un efecto sensorial instantáneo
+es        de sus efectos no instantáneos.
 
-e inofensivo, como una lluvia de chispas, una ligera ráfaga
+Efecto sensorial. Creas un efecto sensorial instantá
+
+e inofensivo, como una lluvia de chispas, una ligera r
 
 de viento, tenues notas musicales o un olor extraño.
 
-a la que toques estará protegida contra aberraciones,
+Jugar con fuego. Enciendes o apagas al instante una
 
 una antorcha o una hoguera pequeña.
 
-Limpiar o ensuciar. Limpias o ensucias al instante un
-
-Las criaturas de esos tipos tendrán desventaja en las
-
-tiradas de ataque contra el objetivo. El objetivo tampoco
-
-puede ser poseído por las criaturas ni obtener los estados
-
-Jugar con fuego. Enciendes o apagas al instante una vela,
+Limpiar o ensuciar. Limpias o ensucias al instante u
 
 objeto de hasta 0,03 m'.
 
 Sensación menor. Enfrías, calientas o das sabor a un
 
-celestiales, elementales, feéricos, infernales o muertos
-
-vivientes. La protección concede varios beneficios.
-
-de asustado o hechizado a causa de ellas. Si el objetivo
-
 material inerte de hasta 0,03 mi durante 1 hora.
 
-ya está asustado, hechizado o poseído por una criatura
+Marca mágica. Haces que aparezca una mancha de color
 
-imagen ilusoria que te cabe en la mano y dura hasta el
-
-PROTECCIÓN CONTRA ENERGÍA
-
-Marca mágica. Haces que aparezca una mancha de color,
-
-una pequeña marca o un símbolo en un objeto o superficie
+una pequeña marca o un símbolo en un objeto o superfic
 
 durante 1 hora.
 
 Creación menor. Creas un abalorio no mágico o una
 
-final de tu siguiente turno. El abalorio no inflige daño
+imagen ilusoria que te cabe en la mano y dura hasta el
+
+final de tu siguiente turno. El abalorio no inflige da
 
 y no tiene valor monetario.
 
@@ -14264,51 +13325,85 @@ de 9 m. Hasta que termine el conjuro, ninguna criatura
 
 podrá teletransportarse a esa zona ni entrar en ella
 
-usando portales, como los creados por el conjuro portal.
+usando portales, como los creados por el conjuro porta
 
-El conjuro protege la zona frente al viaje interplanar,
+El conjuro protege la zona frente al viaje interplanar
 
-por lo que impide que cualquier criatura entre en el área
+por lo que impide que cualquier criatura entre en el á
 
 mediante el Plano Astral, el Plano Etéreo, los Parajes
 
-Feéricos, el Páramo Sombrío o el conjuro desplazamiento
+Feéricos, el Páramo Sombrío o el conjuro desplazamient
 
 entre planos.
 
-Además, el conjuro daña a los tipos de criaturas que elijas
+Además, el conjuro daña a los tipos de criaturas qu
 
-al lanzarlo. Elige uno o más de los siguientes: aberraciones,
+al lanzarlo. Elige uno o más de los siguientes: aberra
 
-celestiales, elementales, feéricos, infernales y muertos
+celestiales, elementales, feéricos, infernales y muert
 
-vivientes. Cuando una criatura de un tipo elegido entre en
+vivientes. Cuando una criatura de un tipo elegido entr
 
-la zona del conjuro por primera vez en un turno o termine
+la zona del conjuro por primera vez en un turno o term
 
-su turno allí, recibirá 5d10 de daño radiante o necrótico
+su turno allí, recibirá 5d10 de daño radiante o necrót
 
 (a tu elección cuando lanzas el conjuro).
 
 Puedes designar una contraseña cuando lanzas el
 
-conjuro. Si una criatura pronuncia la contraseña al entrar
+conjuro. Si una criatura pronuncia la contraseña al en
 
 en el área, no recibirá daño del conjuro.
 
 La zona del conjuro no se puede superponer con la de
 
-otro conjuro prohibición. Si lanzas prohibición todos los
+otro conjuro prohibición. Si lanzas prohibición todos
 
 días durante 30 días en la misma ubicación, el conjuro
 
 durará hasta que sea disipado y los componentes
 
-de estos tipos, dicho objetivo tendrá ventaja en cualquier
+materiales se consumirán en el último lanzamiento.
 
-nueva tirada de salvación contra el efecto correspondiente.
+---
 
-Abjuración de nivel 3 (clérigo, druida, explorador, hechicero,
+#### Protección Contra el Bien y el Mal
+*Abjuración de nivel 1 (brujo, clérigo, druida, mago, p*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Toque
+- **Componentes:** V, S, M (un frasco de agua bendita que va
+
+al menos 25 po, que se consume como parte del conjur
+
+Duración: Concentración, hasta 10 minutos
+
+neo        Hasta que el conjuro termine, una criatura voluntaria
+
+áfaga      a la que toques estará protegida contra aberraciones,
+
+celestiales, elementales, feéricos, infernales o muertos
+
+vela,      vivientes. La protección concede varios beneficios.
+
+Las criaturas de esos tipos tendrán desventaja en las
+
+n          tiradas de ataque contra el objetivo. El objetivo tampoco
+
+puede ser poseído por las criaturas ni obtener los estados
+
+de asustado o hechizado a causa de ellas. Si el objetivo
+
+ya está asustado, hechizado o poseído por una criatura
+
+,          de estos tipos, dicho objetivo tendrá ventaja en cualquier
+
+ie         nueva tirada de salvación contra el efecto correspondiente.
+
+PROTECCIÓN CONTRA ENERGÍA
+
+ño         Abjuración de nivel 3 (clérigo, druida, explorador, hechicero,
 
 mago)
 
@@ -14332,24 +13427,42 @@ tu elección: ácido, frío, fuego, relámpago o trueno.
 *Abjuración de nivel 2 (clérigo, druida, explorador, paladín)*
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** Toque
-- **Componentes:** V, S
-- **Duración:** 1 hora
+
+l.
+
+Componentes: V, S
+
+,
+
+Duración: 1 hora
+
+rea
 
 Tocas a una criatura y pones fin al estado de envenenada
 
-silo sufre. Hasta que termine el conjuro, el objetivo tiene
+o          silo sufre. Hasta que termine el conjuro, el objetivo tiene
 
 ventaja en las tiradas de salvación para evitar o poner fin
 
-al estado de envenenado y resistencia al daño de veneno.
+e elijas   al estado de envenenado y resistencia al daño de veneno.
 
----
+ciones,
 
-#### Proyección Astral
-*Nigromancia de nivel 9 (brujo, clérigo, mago)*
-- **Tiempo de lanzamiento:** 1 hora
-- **Alcance:** 3 m
-- **Componentes:** V, S, M (por cada objetivo del conjuro,
+os
+
+e en       PROYECCIÓN ASTRAL
+
+ine        Nigromancia de nivel 9 (brujo, clérigo, mago)
+
+ico
+
+Tiempo de lanzamiento: 1 hora
+
+Alcance: 3 m
+
+Componentes: V, S, M (por cada objetivo del conjuro,
+
+trar
 
 un jacinto que valga al menos 1000 po y un lingote de
 
@@ -14357,9 +13470,9 @@ plata que valga al menos 100 po, que se consumen como
 
 parte del conjuro)
 
-Duración: Hasta que sea disipado
+los
 
-PROTECCIÓN CONTRA EL BIEN Y EL MAL
+Duración: Hasta que sea disipado
 
 Tú y hasta ocho criaturas voluntarias dentro del alcance
 
@@ -14371,31 +13484,15 @@ material que deja atrás un objetivo queda en animación
 
 suspendida; tiene el estado de inconsciente, no necesita
 
-Abjuración de nivel 1 (brujo, clérigo, druida, mago, paladín)
-
-aire ni comida y no envejece.
-
-materiales se consumirán en el último lanzamiento.
-
-Tiempo de lanzamiento: Acción
-
-Alcance: Toque
-
-Componentes: V, S, M (un frasco de agua bendita que valga
-
-al menos 25 po, que se consume como parte del conjuro)
-
-Duración: Concentración, hasta 10 minutos
-
-Hasta que el conjuro termine, una criatura voluntaria
+aladín)    aire ni comida y no envejece.
 
 El cuerpo astral de un objetivo es semejante a su
 
 cuerpo en casi todo y replica su perfil y sus posesiones.
 
-La diferencia principal es un cordón plateado que sale de
+lga        La diferencia principal es un cordón plateado que sale de
 
-entre los omóplatos de la forma astral y se desvanece a los
+o)         entre los omóplatos de la forma astral y se desvanece a los
 
 30 cm. Si el cordón se corta (algo que solo puede ocurrir
 
@@ -14403,15 +13500,9 @@ si un efecto así lo indica), el cuerpo y la forma astral del
 
 objetivo mueren.
 
-UN MAGO HUMANO SE DEFIENDE DEL PELIGRO CON
-
-ARMADURA DE MAGO Y CON LOS DARDOS INFALIBLES
-
-DE PROYECTIL MÁGICO
-
 Una forma astral puede viajar a través del Plano Astral.
 
-Si abandona el plano, el cuerpo y las posesiones del objetivo
+Si abandona el plano, el cuerpo y las posesiones del objetiv
 
 viajan a través del cordón de plata, permitiéndole volver
 
@@ -14423,71 +13514,31 @@ astral no afectan al cuerpo del objetivo y viceversa.
 
 Si los puntos de golpe del cuerpo del objetivo o de su
 
-Puedes ver a través de sus ojos y oír con sus oídos como
-
-si estuvieras en su espacio. Como acción de magia, puedes
-
-hacer que se mueva hasta 18 m y que realice gestos, hable
-
-y se comporte del modo que quieras. Imita tu gestualidad
-
-a la perfección.
-
-La interacción física con la imagen revela que es una
-
 forma astral se reducen a O, el conjuro terminará para él.
-
-ilusión, ya que las cosas pueden atravesarla. Si una criatura
-
-emplea una acción de estudiar para examinar la imagen,
 
 El conjuro termina para todos los objetivos si empleas
 
 una acción de magia para ponerle fin.
 
-de Inteligencia (Investigación) contra tu CD de salvación
-
-puede determinar que es una ilusión si supera una prueba
+Cuando el conjuro termine para un'objetivo que no
 
 esté muerto, reaparecerá en su cuerpo y concluirá su
 
 animación suspendida.
 
-de conjuros. Si la criatura descubre que la imagen es una
+---
 
-ilusión, no se dejará engañar por ella y los sonidos que
-
-emita le sonarán huecos.
-
-PROYECTAR IMAGEN
-
-PROYECTIL MÁGICO
-
-Cuando el conjuro termine para un'objetivo que no
-
-Ilusionismo de nivel 7 (bardo, mago)
-
-Evocación de nivel1 (hechicero, mago)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 750 km
-
-Componentes: V, S, M (una estatuilla de ti que valga
+#### Proyectar Imagen
+*Ilusionismo de nivel 7 (bardo, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 750 km
+- **Componentes:** V, S, M (una estatuilla de ti que valga
 
 al menos 5 po)
 
 Duración: Concentración, hasta 1 día
 
-Tiempo de lanzamiento: Acción
-
 Creas una copia ilusoria de ti que dura hasta que termine
-
-de ellos golpea a una criatura de tu elección a la que puedas
-
-ver dentro del alcance. Cada dardo inflige 144 +1 de daño de
-
-fuerza al objetivo. Todos los dardos aciertan a la vez y puedes
 
 el conjuro. La copia puede aparecer en cualquier lugar
 
@@ -14499,13 +13550,52 @@ tu aspecto y suena como tú, pero es intangible. Si recibe
 
 cualquier daño, desaparecerá y el conjuro terminará.
 
-Alcance: 36 m
+ARMADURA DE MAGO Y CON LOS DARDOS INFALIBLES
 
-Componentes: V, S
+DE PROYECTIL MÁGICO
 
-Duración: Instantáneo
+Puedes ver a través de sus ojos y oír con sus oídos como
+
+o   si estuvieras en su espacio. Como acción de magia, puedes
+
+hacer que se mueva hasta 18 m y que realice gestos, hable
+
+y se comporte del modo que quieras. Imita tu gestualidad
+
+a la perfección.
+
+La interacción física con la imagen revela que es una
+
+ilusión, ya que las cosas pueden atravesarla. Si una criatura
+
+emplea una acción de estudiar para examinar la imagen,
+
+puede determinar que es una ilusión si supera una prueba
+
+de Inteligencia (Investigación) contra tu CD de salvación
+
+de conjuros. Si la criatura descubre que la imagen es una
+
+ilusión, no se dejará engañar por ella y los sonidos que
+
+emita le sonarán huecos.
+
+---
+
+#### Proyectil Mágico
+*Evocación de nivel1 (hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 36 m
+- **Componentes:** V, S
+- **Duración:** Instantáneo
 
 Creas tres dardos brillantes de fuerza mágica y cada uno
+
+de ellos golpea a una criatura de tu elección a la que puedas
+
+ver dentro del alcance. Cada dardo inflige 144 +1 de daño de
+
+fuerza al objetivo. Todos los dardos aciertan a la vez y puedes
 
 dirigirlos para que acierten a una sola criatura o a varias.
 
@@ -14517,28 +13607,16 @@ tenga el espacio.
 
 ---
 
-#### Puerta Arcana Ráfaga de Viento
+#### Puerta Arcana
 *Conjuración de nivel 6 (brujo, hechicero, mago)*
-
-Evocación de nivel 2 (druida, explorador, hechicero, mago)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 150 m
-
-Tiempo de lanzamiento: Acción
-
-Duración: Concentración, hasta 10 minutos
-
-Duración: Concentración, hasta 1 minuto
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 150 m
+- **Componentes:** V, S
+- **Duración:** Concentración, hasta 10 minutos
 
 Creas portales de teletransporte enlazados. Elige dos
 
 espacios Grandes sin ocupar en el suelo que puedas ver,
-
-De ti surge una ráfaga de viento fuerte en una línea
-
-Componentes: V, S
 
 uno dentro del alcance y el otro a 3 m o menos de ti.
 
@@ -14562,9 +13640,70 @@ entre sí. Como acción adicional, puedes cambiar
 
 la orientación de los lados abiertos.
 
-Alcance: Lanzador
+---
 
-Componentes: V, S, M (la semilla de una legumbre)
+#### Puerta Dimensional
+*Conjuración de nivel 4 (bardo, brujo, hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 150 m
+- **Componentes:** V
+- **Duración:** Instantáneo
+
+Te teletransportas a una ubicación dentro del alcance
+
+y llegas exactamente al sitio deseado. Puede ser un lugar
+
+que tengas a la vista, uno que logres visualizar o uno que
+
+puedas describir indicando la distancia y la dirección,
+
+como “60 m en línea recta hacia abajo” o “90 m hacia
+
+arriba y hacia el noroeste en un ángulo de 45 grados”.
+
+También puedes teletransportar contigo a una criatura
+
+voluntaria. La criatura deberá estar a 1,5 m o menos de
+
+ti cuando te teletransportes y aparecerá en un espacio
+
+a 1,5 m o menos de tu espacio de destino.
+
+Si la otra criatura, tú o las dos fuerais a llegar a un
+
+espacio ya ocupado por una criatura o totalmente ocupado
+
+por uno o más objetos, la criatura que viaje contigo y tú
+
+sufriréis 4d6 de daño de fuerza y la teletransportación
+
+fallará.
+
+---
+
+#### Purificar Comida y Bebida
+*Transmutación de nivel 1 (clérigo, druida, paladín)*
+- **Tiempo de lanzamiento:** Acción o ritual
+- **Alcance:** 3 m
+- **Componentes:** V, S
+- **Duración:** Instantáneo
+
+Eliminas el veneno y la podredumbre de la comida
+
+y bebida no mágicas en una esfera de 1,5 m de radio
+
+centrada en un punto dentro del alcance.
+
+---
+
+#### Ráfaga de Viento
+*Evocación de nivel 2 (druida, explorador, hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Lanzador
+- **Componentes:** V, S, M (la semilla de una legumbre)
+- **Duración:** Concentración, hasta 1 minuto
+
+De ti surge una ráfaga de viento fuerte en una línea
 
 recta de 18 m de largo y 3 m de ancho en la dirección que
 
@@ -14594,41 +13733,7 @@ y tienen un 50 % de probabilidad de apagarse.
 
 Como acción adicional en tus siguientes turnos,
 
-PUERTA DIMENSIONAL
-
 puedes cambiar la dirección en la que la línea surge de ti.
-
-Conjuración de nivel 4 (bardo, brujo, hechicero, mago)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 150 m
-
-Componentes: V
-
-Duración: Instantáneo
-
-Te teletransportas a una ubicación dentro del alcance
-
-y llegas exactamente al sitio deseado. Puede ser un lugar
-
-que tengas a la vista, uno que logres visualizar o uno que
-
-puedas describir indicando la distancia y la dirección,
-
-como “60 m en línea recta hacia abajo” o “90 m hacia
-
-arriba y hacia el noroeste en un ángulo de 45 grados”.
-
-También puedes teletransportar contigo a una criatura
-
-voluntaria. La criatura deberá estar a 1,5 m o menos de
-
-ti cuando te teletransportes y aparecerá en un espacio
-
-a 1,5 m o menos de tu espacio de destino.
-
-Si la otra criatura, tú o las dos fuerais a llegar a un
 
 ---
 
@@ -14655,37 +13760,9 @@ salvación de Destreza y no puede llevar a cabo reacciones.
 
 En sus turnos, puede realizar una acción o una acción
 
-espacio ya ocupado por una criatura o totalmente ocupado
-
-por uno o más objetos, la criatura que viaje contigo y tú
-
-sufriréis 4d6 de daño de fuerza y la teletransportación
-
 adicional, pero no ambas, y solo puede hacer un ataque
 
 si emplea la acción de atacar. Si lanza un conjuro con un
-
-PURIFICAR COMIDA Y BEBIDA
-
-final de cada uno de sus turnos y, si tiene éxito, se librará
-
-fallará.
-
-Transmutación de nivel 1 (clérigo, druida, paladín)
-
-Tiempo de lanzamiento: Acción o ritual
-
-Alcance: 3 m
-
-Componentes: V, S
-
-Duración: Instantáneo
-
-Eliminas el veneno y la podredumbre de la comida
-
-y bebida no mágicas en una esfera de 1,5 m de radio
-
-centrada en un punto dentro del alcance.
 
 componente somático, hay un 25 % de probabilidades
 
@@ -14694,6 +13771,8 @@ de que el conjuro falle porque el objetivo haga los gestos
 demasiado despacio.
 
 Un objetivo afectado repetirá la tirada de salvación al
+
+final de cada uno de sus turnos y, si tiene éxito, se librará
 
 del conjuro.
 
@@ -14739,7 +13818,7 @@ Lanzas un rayo helado de luz blanquiazul hacia una
 
 criatura dentro del alcance. Haz un ataque de conjuro
 
-a distancia contra el objetivo. Si acierta, el objetivo recibe
+a distancia contra el objetivo. Si acierta, el objetivo reci
 
 1d8 de daño de frío y su velocidad se reduce en 3 m hasta
 
@@ -14778,7 +13857,7 @@ falla.
 
 El conjuro termina si en algún momento el objetivo
 
-queda fuera del alcance del conjuro o si consigue tener
+be   queda fuera del alcance del conjuro o si consigue tener
 
 cobertura completa respecto a ti.
 
@@ -14788,43 +13867,30 @@ inicial aumenta en 1d12 por cada nivel por encima de 1 que
 
 tenga el espacio.
 
-CAPÍTULO 7
-
-CONJUROS
-
-Con un espacio de conjuro de nivel superior. El daño
-
-RAYO DE LUNA
-
-aumenta en 1d8 por cada nivel por encima de 1 que tenga
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 36 m
-
-Componentes: V, S, M (una hoja con forma de media luna)
-
 ---
 
-#### Rayo Solar
+#### Capítulo 7 Conjuros Rayo de Luna
 *Evocación de nivel 2 (druida)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 36 m
+- **Componentes:** V, S, M (una hoja con forma de media luna
 - **Duración:** Concentración, hasta 1 minuto
 
-Un rayo de luz pálida y plateada brilla en un cilindro de
+Un rayo de luz pálida y plateada brilla en un cilindro
 
-1,5 m de radio y 12 m de alto centrado en un punto dentro
+1,5 m de radio y 12 m de alto centrado en un punto den
 
-del alcance. Hasta que el conjuro termine, una luz tenue
+del alcance. Hasta que el conjuro termine, una luz ten
 
 llena el cilindro y puedes emplear una acción de magia
 
-en turnos posteriores para mover el cilindro hasta 18 m.
+en turnos posteriores para mover el cilindro hasta 18
 
 Cuando el cilindro aparezca, todas las criaturas
 
 que haya en él realizan una tirada de salvación de
 
-Constitución. Si la fallan, recibirán 2d10 de daño radiante,
+Constitución. Si la fallan, recibirán 2d10 de daño rad
 
 y si una criatura ha cambiado de forma (por ejemplo,
 
@@ -14832,57 +13898,21 @@ como resultado del conjuro polimorfar), volverá a su
 
 forma real y no podrá cambiarla hasta que salga del
 
-Evocación de nivel 6 (clérigo, druida, hechicero, mago)
+cilindro. Si la superan, solo sufrirán la mitad de ese
 
-Tiempo de lanzamiento: Acción
+Una criatura también deberá hacer esta tirada cuando e
 
-Alcance: Lanzador
+área del conjuro entre en su espacio o cuando la criat
 
-Componentes: V, S, M (una lupa)
-
-Duración: Concentración, hasta 1 minuto
-
-Lanzas un rayo solar en una línea de 1,5 m de ancho
-
-y 18 m de largo. Todas las criaturas situadas en esa línea
-
-harán una tirada de salvación de Constitución. Si la fallan,
-
-recibirán 6d8 de daño radiante y tendrán el estado de
-
-cegadas hasta el principio de tu siguiente turno. Si la
-
-superan, recibirán solo la mitad de daño.
-
-cilindro. Si la superan, solo sufrirán la mitad de ese daño.
-
-Hasta que el conjuro termine, puedes emplear una
-
-acción de magia para crear una nueva línea de luz
-
-entre en el área o acabe su turno en ella. Una criatura
-
-Hasta que termine el conjuro, por encima de ti brillará
-
-una mota radiante que emite luz brillante en un radio
-
-aumenta en 1d10 por cada nivel por encima de 2 que tenga
-
-el espacio.
-
-RECADO
-
-Una criatura también deberá hacer esta tirada cuando el
-
-área del conjuro entre en su espacio o cuando la criatura
-
-radiante.
+entre en el área o acabe su turno en ella. Una criatur
 
 solo hace esta tirada una vez por turno.
 
 Con un espacio de conjuro de nivel superior. El daño
 
-de 9 m y luz tenue 9 m más allá. Esta luz es luz solar.
+aumenta en 1d10 por cada nivel por encima de 2 que ten
+
+el espacio.
 
 ---
 
@@ -14895,29 +13925,86 @@ de 9 m y luz tenue 9 m más allá. Esta luz es luz solar.
 
 Un haz de energía debilitadora surge de ti hacia una
 
-criatura dentro del alcance. El objetivo deberá hacer una
+criatura dentro del alcance. El objetivo deberá hacer
 
-tirada de salvación de Constitución. Si la supera, tendrá
+tirada de salvación de Constitución. Si la supera, ten
 
-desventaja en la siguiente tirada de ataque que haga hasta
+desventaja en la siguiente tirada de ataque que haga h
 
 el principio de tu siguiente turno.
 
-Si la falla, tendrá desventaja en las pruebas con d20
+Si la falla, tendrá desventaja en las pruebas con d
 
 basadas en la Fuerza hasta que termine el conjuro.
 
 Durante ese tiempo, también restará 1d8 a todas las
 
-tiradas de daño que haga. El objetivo repetirá la tirada
+tiradas de daño que haga. El objetivo repetirá la tira
 
-de salvación al final de cada uno de sus turnos y, si tiene
+de salvación al final de cada uno de sus turnos y, si
 
 éxito, se librará del conjuro.
 
 ---
 
-#### Rayo Nauseabundo Ss
+#### Rayo Nauseabundo
+*Nigromancia de nivel 1 (hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 18 m
+- **Componentes:** V, S
+- **Duración:** Instantáneo
+
+Disparas un rayo verduzco hacia una criatura dentro
+
+del alcance. Haz un ataque de conjuro a distancia cont
+
+el objetivo. Si acierta, el objetivo sufrirá 2d8 de da
+
+veneno y tendrá el estado de envenenado hasta el final
+
+de tu siguiente turno.
+
+Con un espacio de conjuro de nivel superior. El daño
+
+aumenta en 1d8 por cada nivel por encima de 1 que tenga
+
+el espacio.
+
+---
+
+#### Rayo Solar )
+*Evocación de nivel 6 (clérigo, druida, hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+
+m.       Lanzas un rayo solar en una línea de 1,5 m de ancho
+
+y 18 m de largo. Todas las criaturas situadas en esa línea
+
+harán una tirada de salvación de Constitución. Si la fallan,
+
+iante,   recibirán 6d8 de daño radiante y tendrán el estado de
+
+cegadas hasta el principio de tu siguiente turno. Si la
+
+superan, recibirán solo la mitad de daño.
+
+Hasta que el conjuro termine, puedes emplear una
+
+daño.   acción de magia para crear una nueva línea de luz
+
+l        radiante.             SS
+
+ura        Hasta que termine el conjuro, por encima de ti brillará
+
+a        una mota radiante que emite luz brillante en un radio
+
+de 9 m y luz tenue 9 m más allá. Esta luz es luz solar.
+
+ga
+
+---
+
+#### Recado
 *Adivinación de nivel 3 (bardo, clérigo, mago)*
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** Ilimitado
@@ -14932,63 +14019,43 @@ descrito alguien que la conozca. El objetivo escucha
 
 el mensaje en su mente, te reconoce como emisor si
 
-sabe quién eres y puede responder de manera similar
+una      sabe quién eres y puede responder de manera similar
 
-inmediatamente. El conjuro permite que los objetivos
+drá      inmediatamente. El conjuro permite que los objetivos
 
-comprendan el significado del mensaje.
+asta     comprendan el significado del mensaje.
 
 Puedes enviar el mensaje a cualquier distancia e incluso
 
-a otros planos de existencia, pero si el objetivo está en un
+20       a otros planos de existencia, pero si el objetivo está en un
 
 plano diferente al tuyo, existe una probabilidad del 5 % de
 
 que el mensaje no llegue. Si el mensaje no llega, lo sabrás.
 
-Al recibir tu mensaje, una criatura puede impedir que
+da         Al recibir tu mensaje, una criatura puede impedir que
 
-te pongas en contacto con ella otra vez con este conjuro
+tiene    te pongas en contacto con ella otra vez con este conjuro
 
 durante 8 horas. Si intentas enviarle otro mensaje durante
 
 ese tiempo, sabrás que te ha bloqueado y el conjuro fallará.
 
-Nigromancia de nivel 1 (hechicero, mago)
+---
 
-RECLUIR
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 18 m
-
-Tiempo de lanzamiento: Acción
-
-Componentes: V, S
-
-Duración: Instantáneo
-
-Disparas un rayo verduzco hacia una criatura dentro
-
-del alcance. Haz un ataque de conjuro a distancia contra
-
-el objetivo. Si acierta, el objetivo sufrirá 2d8 de daño de
-
-veneno y tendrá el estado de envenenado hasta el final
-
-de tu siguiente turno.
-
-el espacio.
-
-Transmutación de nivel 7 (mago)
-
-Alcance: Toque
-
-Componentes: V, S, M (polvo de piedras preciosas que valga
+#### Recluir
+*Transmutación de nivel 7 (mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Toque
+- **Componentes:** V, S, M (polvo de piedras preciosas que valga
 
 al menos 5000 po, que se consume como parte del conjuro)
 
 Duración: Hasta que sea disipado
+
+ra
+
+ño de
 
 Con un toque, recluyes mágicamente un objeto o a una
 
@@ -15020,39 +14087,11 @@ termina si el objetivo recibe cualquier daño.
 
 ---
 
-#### Reencarnar Relámpago
-*Evocación de nivel 3 (hechicero, mago)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** Lanzador
-- **Componentes:** V, S, M (un poco de pelaje y una vara
-
-de cristal)
-
-Duración: Instantáneo
-
-Un relámpago que forma una línea de 30 m de largo
-
-y 1,5 m de ancho surge de ti en la dirección que elijas.
-
-Todas las criaturas situadas en esa línea deberán hacer
-
-una tirada de salvación de Destreza; sufrirán 8d6 de daño
-
-de relámpago si la fallan o la mitad del daño si la superan.
-
-Con un espacio de conjuro de nivel superior. El daño
-
-aumenta en 1d6 por cada nivel por encima de 3 que tenga
-
-el espacio.
-
-Nigromancia de nivel 5 (druida)
-
-Tiempo de lanzamiento: 1 hora
-
-Alcance: Toque
-
-Componentes: V, S, M (aceites raros que valgan al menos
+#### Reencarnar
+*Nigromancia de nivel 5 (druida)*
+- **Tiempo de lanzamiento:** 1 hora
+- **Alcance:** Toque
+- **Componentes:** V, S, M (aceites raros que valgan al menos
 
 1000 po, que se consumen como parte del conjuro)
 
@@ -15070,52 +14109,17 @@ a continuación para determinar la especie del cuerpo,
 
 o bien tu DM elige otra especie jugable.
 
----
+1d10     Especie                  1410      Especie
 
-#### Relámpago en Cadena
-*Evocación de nivel 6 (hechicero, mago)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** 45 m
-- **Componentes:** V, S, M (tres alfileres de plata)
-- **Duración:** Instantáneo
+1      Aasimar                    6      Goliat
 
-Lanzas un relámpago hacia un objetivo que puedas
+2      Dracónido                  7      Humano
 
-ver dentro del alcance. A continuación, de ese objetivo
+3      Elfo                       8      Mediano
 
-surgirán otros tres relámpagos dirigidos a otros tantos
+4      Enano                      o)     Orco
 
-objetivos de tu elección, cada uno de los cuales deberá
-
-1d10
-
-Especie
-
-Especie
-
-Aasimar
-
-Goliat
-
-Dracónido
-
-Humano
-
-Elfo
-
-Mediano
-
-Enano
-
-o)
-
-Orco
-
->)
-
-Gnomo
-
-Tiefling
+>)     Gnomo                     10      Tiefling
 
 La criatura reencarnada hace cualquier elección que
 
@@ -15145,6 +14149,51 @@ golpe. Hasta que el conjuro termine, el objetivo recupera
 y los miembros cercenados crecen de nuevo al cabo de
 
 2 minutos.
+
+---
+
+#### Relámpago
+*Evocación de nivel 3 (hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Lanzador
+- **Componentes:** V, S, M (un poco de pelaje y una vara
+
+de cristal)
+
+Duración: Instantáneo
+
+Un relámpago que forma una línea de 30 m de largo
+
+y 1,5 m de ancho surge de ti en la dirección que elijas.
+
+Todas las criaturas situadas en esa línea deberán hacer
+
+una tirada de salvación de Destreza; sufrirán 8d6 de daño
+
+de relámpago si la fallan o la mitad del daño si la superan.
+
+Con un espacio de conjuro de nivel superior. El daño
+
+aumenta en 1d6 por cada nivel por encima de 3 que tenga
+
+el espacio.
+
+---
+
+#### Relámpago en Cadena
+*Evocación de nivel 6 (hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 45 m
+- **Componentes:** V, S, M (tres alfileres de plata)
+- **Duración:** Instantáneo
+
+Lanzas un relámpago hacia un objetivo que puedas
+
+ver dentro del alcance. A continuación, de ese objetivo
+
+surgirán otros tres relámpagos dirigidos a otros tantos
+
+objetivos de tu elección, cada uno de los cuales deberá
 
 estar a 9 m o menos del primero. Un objetivo puede ser
 
@@ -15201,14 +14250,6 @@ objeto mágico, pero no puede restaurar su magia.
 *Evocación de nivel 1 (brujo)*
 - **Tiempo de lanzamiento:** Reacción, que llevas a cabo en
 
-Cuando la criatura sufra daño del tipo elegido antes de
-
-que termine el conjuro, reduce el daño total recibido en
-
-144. Una criatura solo puede beneficiarse de este conjuro
-
-una vez por turno.
-
 respuesta a recibir daño de una criatura que puedas ver
 
 a 18 mo menos de ti
@@ -15237,8 +14278,24 @@ el espacio.
 
 #### Resistencia
 *Truco de abjuración (clérigo, druida)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Toque
+- **Componentes:** V, S
+- **Duración:** Concentración, hasta 1 minuto
 
+Tocas a una criatura voluntaria y eliges un tipo de daño:
 
+ácido, contundente, cortante, frío, fuego, necrótico,
+
+perforante, radiante, relámpago, trueno o veneno.
+
+Cuando la criatura sufra daño del tipo elegido antes de
+
+que termine el conjuro, reduce el daño total recibido en
+
+144. Una criatura solo puede beneficiarse de este conjuro
+
+una vez por turno.
 
 ---
 
@@ -15259,35 +14316,22 @@ afectadas también conservan su modo de respiración
 
 normal.
 
-RESTABLECIMIENTO MAYOR
+---
 
-Tiempo de lanzamiento: Acción
-
-Abjuración de nivel 5 (bardo, clérigo, druida, explorador,
+#### Restablecimiento Mayor
+*Abjuración de nivel 5 (bardo, clérigo, druida, explorador,*
 
 paladín)
-
-Componentes: V, S
-
-Duración: Concentración, hasta 1 minuto
 
 Tiempo de lanzamiento: Acción
 
 Alcance: Toque
 
-Tocas a una criatura voluntaria y eliges un tipo de daño:
-
-ácido, contundente, cortante, frío, fuego, necrótico,
+Componentes: V, S, M (polvo de diamante que valga al
 
 menos 100 po y que se consume como parte del conjuro)
 
 Duración: Instantáneo
-
-Alcance: Toque
-
-perforante, radiante, relámpago, trueno o veneno.
-
-Componentes: V, S, M (polvo de diamante que valga al
 
 Tocas a una criatura y eliminas mágicamente uno de los
 
@@ -15328,42 +14372,9 @@ Tocas a una criatura y le pones fin a un estado que tenga:
 
 cegada, ensordecida, envenenada o paralizada.
 
-Este conjuro cierra todas las heridas, neutraliza cualquier
-
-veneno, cura todas las enfermedades mágicas y levanta
-
-las maldiciones que afectaran a la criatura cuando murió.
-
-También sustituye los órganos y las extremidades que
-
-le falten o sufrieran daños. Si la criatura era un muerto
-
-viviente, la resucitará con su forma normal.
-
-El conjuro puede proporcionar un nuevo cuerpo si
-
-el original ya no existe, en cuyo caso debes pronunciar
-
-el nombre de la criatura. A continuación, esta aparecerá
-
-en un espacio sin ocupar que elijas a 3 m o menos de ti.
-
 ---
 
-#### Retirada Expeditiva
-*Transmutación de nivel 1 (brujo, hechicero, mago)*
-- **Tiempo de lanzamiento:** Acción adicional
-- **Alcance:** Lanzador
-- **Componentes:** V, S
-- **Duración:** Concentración, hasta 10 minutos
-
-Realizas la acción de correr y, hasta que el conjuro
-
-termine, puedes volver a hacerla como acción adicional.
-
----
-
-#### Revivir Resurrección
+#### Resurrección
 *Nigromancia de nivel 7 (bardo, clérigo)*
 - **Tiempo de lanzamiento:** 1 hora
 - **Alcance:** Toque
@@ -15417,13 +14428,52 @@ conjuros y tendrás desventaja en las pruebas con d20.
 
 Duración: Instantáneo
 
-Nigromancia de nivel 3 (clérigo, druida, explorador, paladín)
+Tocas a una criatura que no lleve más de 200 años muerta
 
-Tiempo de lanzamiento: Acción
+y que falleciera por cualquier motivo menos de vieja.
 
-Alcance: Toque
+La criatura revive con todos sus puntos de golpe.
 
-Componentes: V, S, M (un diamante que valga al menos
+Este conjuro cierra todas las heridas, neutraliza cualquier
+
+veneno, cura todas las enfermedades mágicas y levanta
+
+las maldiciones que afectaran a la criatura cuando murió.
+
+También sustituye los órganos y las extremidades que
+
+le falten o sufrieran daños. Si la criatura era un muerto
+
+viviente, la resucitará con su forma normal.
+
+El conjuro puede proporcionar un nuevo cuerpo si
+
+el original ya no existe, en cuyo caso debes pronunciar
+
+el nombre de la criatura. A continuación, esta aparecerá
+
+en un espacio sin ocupar que elijas a 3 m o menos de ti.
+
+---
+
+#### Retirada Expeditiva
+*Transmutación de nivel 1 (brujo, hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción adicional
+- **Alcance:** Lanzador
+- **Componentes:** V, S
+- **Duración:** Concentración, hasta 10 minutos
+
+Realizas la acción de correr y, hasta que el conjuro
+
+termine, puedes volver a hacerla como acción adicional.
+
+---
+
+#### Revivir
+*Nigromancia de nivel 3 (clérigo, druida, explorador, paladín)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Toque
+- **Componentes:** V, S, M (un diamante que valga al menos
 
 300 po, que se consume como parte del conjuro)
 
@@ -15472,12 +14522,6 @@ hacer objetivo a una criatura adicional por cada nivel
 
 por encima de 1 que tenga el espacio.
 
-Tocas a una criatura que no lleve más de 200 años muerta
-
-y que falleciera por cualquier motivo menos de vieja.
-
-La criatura revive con todos sus puntos de golpe.
-
 ROCIADA DE COLOR
 
 Hlusionismo de nivel1 (bardo, hechicero, mago)
@@ -15486,17 +14530,17 @@ Tiempo de lanzamiento: Acción
 
 Alcance: Lanzador
 
-Componentes: V, S, M (una pizca de arena de colores)
+Componentes: V, S, M (una pizca de arena de colo
 
 Duración: Instantáneo
 
-Emites una ráfaga de luces brillantes y parpadeantes de
+Emites una ráfaga de luces brillantes y parpadea
 
-múltiples colores. Todas las criaturas situadas en un cono
+múltiples colores. Todas las criaturas situadas
 
-de 4,5 m que se origina en ti deberán superar una tirada de
+de 4,5 m que se origina en ti deberán superar un
 
-salvación de Constitución o tendrán el estado de cegadas
+salvación de Constitución o tendrán el estado de
 
 hasta el final de tu siguiente turno.
 
@@ -15509,185 +14553,171 @@ hasta el final de tu siguiente turno.
 - **Componentes:** V, S
 - **Duración:** Instantáneo
 
-Ocho rayos de luz surgen de tu mano en un cono de 18 m.
+Ocho rayos de luz surgen de tu mano en un cono d
 
-Todas las criaturas situadas en el cono hacen una tirada
+Todas las criaturas situadas en el cono hacen un
 
-UNIENANO/ TUVO UN DESAFORTUNADO
+de salvación de Destreza. Por cada objetivo, tir
 
-de salvación de Destreza. Por cada objetivo, tira 18 para
-
-ENCUENTRO CON UN RAYO AÑIL DE UNA
-
-ROCIADA PRISMÁTICA.
-
-determinar qué rayo de color le afecta y consulta la tabla
+determinar qué rayo de color le afecta y consult
 
 “Rayos prismáticos”.
 
 ]
 
-|
-
 RAYOS PRISMÁTICOS
 
-1d8
+1d8    Rayo
 
-Rayo
-
-Truco de nigromancia (brujo, druida, hechicero, mago)
-
-Rojo. Si falla la tirada: 1246 de daño de fuego.
+1    Rojo. Si falla la tirada: 1246 de daño d
 
 Si supera la tirada: la mitad de daño.
 
-Tiempo de lanzamiento: Acción
-
-Alcance: 9 m
-
-Componentes: V, S
-
-a
-
-Duración: Instantáneo
-
-Naranja. Si falla la tirada: 12d6 de daño de ácido.
+2    Naranja. Si falla la tirada: 12d6 de dañ
 
 Si supera la tirada: la mitad de daño.
 
-Amarillo. Si falla la tirada: 12d6 de daño de relámpago.
+3    Amarillo. Si falla la tirada: 12d6 de da
 
-Verde. Si falla la tirada: 12d6 de daño de veneno.
+Si supera la tirada: la mitad de daño.
+
+4    Verde. Si falla la tirada: 12d6 de daño
 
 Si supera la tirada: la mitad de daño,
 
-Azul. Si falla la tirada: 12d6 de daño de frío.
+5    Azul. Si falla la tirada: 12d6 de daño d
 
 Si supera la tirada: la mitad de daño.
 
-RON
+6    Añil. Si falla la tirada: el objetivo te
 
-veneno.
+de apresado y hará una tirada de salvaci
 
-Si supera la tirada: la mitad de daño.
+Constitución al final de cada uno de sus
 
-Añil. Si falla la tirada: el objetivo tendrá el estado
+Si la supera tres veces, el estado termi
 
-de apresado y hará una tirada de salvación de
+tres veces, tendrá el estado de petrific
 
-Constitución al final de cada uno de sus turnos.
+libere un efecto como el del conjuro res
 
-Si la supera tres veces, el estado terminará. Si la falla
+mayor. Los éxitos y los fallos no tienen
 
-tres veces, tendrá el estado de petrificado hasta que lo
-
-libere un efecto como el del conjuro restablecimiento
-
-mayor. Los éxitos y los fallos no tienen por qué ser
-
-consecutivos: lleva la cuenta de ambos hasta que
+consecutivos: lleva la cuenta de ambos h
 
 el objetivo tenga tres de un mismo tipo.
 
-7.
+7.   Violeta. Si falla la tirada: El objetivo
 
-Violeta. Si falla la tirada: El objetivo tendrá el estado
+de cegado y hará una tirada de salvación
 
-de cegado y hará una tirada de salvación de Sabiduría
+al principio de tu siguiente turno. Si l
 
-al principio de tu siguiente turno. Si la supera,
+el estado terminará. Si la falla, el est
 
-el estado terminará. Si la falla, el estado terminará
-
-y la criatura se teletransportará a otro plano de
+y la criatura se teletransportará a otro
 
 existencia (a elección de tu DM).
 
-330 |
-
-ROCIADA VENENOSA
-
-Especial. Dos rayos alcanzan al objetivo. Tira dos
+8    Especial. Dos rayos alcanzan al objetivo
 
 veces y repite los resultados de 8.
 
-Rocías a una criatura dentro del alcance con una niebla
+res)
+
+ntes de
+
+en un cono
+
+a tirada de
+
+cegadas
+
+e 18 m.
+
+a tirada                                UNIENANO/ TUVO UN DESAFORTUNADO
+
+a 18 para                               ENCUENTRO CON UN RAYO AÑIL DE UNA
+
+a la tabla                              ROCIADA PRISMÁTICA.
+
+---
+
+#### Rociada Venenosa
+*Truco de nigromancia (brujo, druida, hechicero, mago)*
+- **Alcance:** 9 m
+- **Componentes:** V, S
+
+o de ácido.               a
+
+Duración: Instantáneo
+
+ño de relámpago.    Rocías a una criatura dentro del alcance con una niebla
 
 tóxica. Haz un ataque de conjuro a distancia contra el
 
 bjetivo. Si acierta,
 
-el objeti
+el objeti     ibe 1d12 de daño d
 
-ibe 1d12 de daño
+de veneno.          RON                                           a
 
-d
-
-a
+veneno.
 
 Mejora de truco. El daño aumenta en 1d12 cuando
 
-alcanzas los niveles 5 (2d12), 11 (3d12) y 17 (4d12).
+e frío.             alcanzas los niveles 5 (2d12), 11 (3d12) y 17 (4d12).
+
+ndrá el estado
+
+ón de
 
 ---
 
 #### Saber Druídico
 *Truco de transmutación (druida)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** 9 m
-- **Componentes:** V, S
-- **Duración:** Instantáneo
 
-Susurras a los espíritus de la naturaleza y produces uno
+turnos.
+
+nará. Si la falla   Tiempo de lanzamiento: Acción
+
+ado hasta que lo    Alcance: 9 m
+
+Componentes: V, S
+
+tablecimiento
+
+Duración: Instantáneo
+
+por qué ser
+
+asta que            Susurras a los espíritus de la naturaleza y produces uno
 
 de los siguientes efectos dentro del alcance.
 
 Sensor climático. Creas un efecto sensorial Diminuto
 
+tendrá el estado
+
 e inofensivo que predice el clima que habrá en tu ubicación
 
-durante las siguientes 24 horas. El efecto se manifiesta
+de Sabiduría       durante las siguientes 24 horas. El efecto se manifiesta
 
-como un orbe dorado para los cielos despejados, una nube
+a supera,           como un orbe dorado para los cielos despejados, una nube
 
-para la lluvia, copos de nieve para la nieve, etc. Este efecto
+ado terminará       para la lluvia, copos de nieve para la nieve, etc. Este efecto
 
-persiste durante 1 asalto.
+plano de           persiste durante 1 asalto.
 
 Florecer. Haces que, al instante, una flor florezca, una
 
-vaina de semillas se abra o el brote de una hoja germine.
-
----
-
-#### Salto
-*Transmutación de nivel 1 (druida, explorador, hechicero, mago)*
+. Tira dos          vaina de semillas se abra o el brote de una hoja germine.
 
 SABER ORVÍDICO
 
 PARA HACER
 
 CRECER FLORES.
-
-Tiempo de lanzamiento: Acción adicional
-
-Alcance: Toque
-
-Componentes: V, S, M (la pata trasera de un saltamontes)
-
-Duración: 1 minuto
-
-Tocas a una criatura voluntaria. Una vez en cada uno de
-
-sus turnos hasta que el conjuro termine, la criatura puede
-
-saltar hasta 9 m usando 3 m de movimiento.
-
-Con un espacio de conjuro de nivel superior. Puedes
-
-hacer objetivo a una criatura adicional por cada nivel
-
-por encima de 1 que tenga el espacio.
 
 Efecto sensorial. Creas un efecto sensorial inofensivo,
 
@@ -15707,8 +14737,66 @@ una antorcha o una hoguera.
 *Evocación de nivel1 (clérigo)*
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** 36 m
+- **Componentes:** V, S
+- **Duración:** 1 asalto
 
+Lanzas un rayo de luz hacia una criatura dentro del
 
+alcance. Haz un ataque de conjuro a distancia contra
+
+el objetivo. Si acierta, el objetivo recibirá 4d6 de daño
+
+radiante y la siguiente tirada de ataque contra él antes
+
+del final de tu siguiente turno tendrá ventaja.
+
+Con un espacio de conjuro de nivel superior. El daño
+
+aumenta en 1d6 por cada nivel por encima de 1 que tenga
+
+el espacio.
+
+---
+
+#### Salpicadura Ácida
+*Truco de evocación (hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 18 m
+- **Componentes:** V, S
+- **Duración:** Instantáneo
+
+Creas una burbuja ácida en un punto dentro del alcance,
+
+donde explotará en una esfera de 1,5 m de radio. Todas las
+
+criaturas situadas en la esfera deberán superar una tirada
+
+de salvación de Destreza o sufrirán 1d6 de daño de ácido.
+
+Mejora de truco. El daño aumenta en 1d6 cuando
+
+alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).
+
+---
+
+#### Salto
+*Transmutación de nivel 1 (druida, explorador, hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción adicional
+- **Alcance:** Toque
+- **Componentes:** V, S, M (la pata trasera de un saltamontes)
+- **Duración:** 1 minuto
+
+Tocas a una criatura voluntaria. Una vez en cada uno de
+
+sus turnos hasta que el conjuro termine, la criatura puede
+
+saltar hasta 9 m usando 3 m de movimiento.
+
+Con un espacio de conjuro de nivel superior. Puedes
+
+hacer objetivo a una criatura adicional por cada nivel
+
+por encima de 1 que tenga el espacio.
 
 ---
 
@@ -15723,37 +14811,25 @@ Haces que una zona dentro del alcance sea mágicamente
 
 segura. Esta zona es un cubo que puede tener un tamaño
 
-Duración: 1 asalto
-
 desde tan solo 1,5 m de lado a hasta 30 m y permanecerá
 
 hasta que el conjuro termine.
 
 Cuando lanzas el conjuro, decides el tipo de seguridad
 
-Lanzas un rayo de luz hacia una criatura dentro del
+que proporciona eligiendo cualesquiera de las siguientes
 
 propiedades:
-
-Componentes: V, S
-
-alcance. Haz un ataque de conjuro a distancia contra
-
-el objetivo. Si acierta, el objetivo recibirá 4d6 de daño
-
-radiante y la siguiente tirada de ataque contra él antes
-
-que proporciona eligiendo cualesquiera de las siguientes
 
 + El sonido no puede atravesar la barrera del perímetro
 
 de la zona protegida.
 
-del final de tu siguiente turno tendrá ventaja.
-
 + La barrera de la zona protegida parece oscura y con
 
-el espacio.
+niebla, impidiendo ver a través de ella (incluso a la visión
+
+en la oscuridad).
 
 + Dentro de la zona protegida no pueden aparecer
 
@@ -15761,43 +14837,15 @@ sensores creados mediante conjuros de adivinación,
 
 ni estos pueden atravesar la barrera del perímetro.
 
-Con un espacio de conjuro de nivel superior. El daño
-
-aumenta en 1d6 por cada nivel por encima de 1 que tenga
-
-niebla, impidiendo ver a través de ella (incluso a la visión
-
-en la oscuridad).
-
-SALPICADURA ÁCIDA
-
 + Las criaturas en la zona no pueden ser el objetivo
 
-Tiempo de lanzamiento: Acción
-
-Alcance: 18 m
+de conjuros de adivinación.
 
 + Nada puede teletransportarse ni al interior ni al exterior
 
 del área protegida.
 
 + El viaje interplanar está bloqueado dentro de la zona.
-
-Truco de evocación (hechicero, mago)
-
-Componentes: V, S
-
-Duración: Instantáneo
-
-Creas una burbuja ácida en un punto dentro del alcance,
-
-donde explotará en una esfera de 1,5 m de radio. Todas las
-
-criaturas situadas en la esfera deberán superar una tirada
-
-de salvación de Destreza o sufrirán 1d6 de daño de ácido.
-
-de conjuros de adivinación.
 
 Si este conjuro se lanza a diario en el mismo lugar
 
@@ -15809,56 +14857,30 @@ aumentar el tamaño del cubo en 30 m por cada nivel
 
 por encima de 4 que tenga el espacio.
 
-Mejora de truco. El daño aumenta en 1d6 cuando
-
-alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).
-
 ---
 
-#### Santuario Sentidos de la Bestia
+#### Santuario
 *Abjuración de nivel 1 (clérigo)*
+- **Tiempo de lanzamiento:** Acción adicional
+- **Alcance:** 9 m
+- **Componentes:** V, S, M (un trozo de vidrio de un espejo)
+- **Duración:** 1 minuto
 
-Adivinación de nivel 2 (druida, explorador)
-
-Tiempo de lanzamiento: Acción adicional
-
-Alcance: 9 m
-
-Tiempo de lanzamiento: Acción o ritual
-
-Alcance: Toque
-
-Componentes: V, S, M (un trozo de vidrio de un espejo)
-
-Duración: 1 minuto
-
-Componentes: S
-
-Duración: Concentración, hasta 1 hora
+Proteges a una criatura que esté dentro del alcance.
 
 Hasta que el conjuro termine, cualquier criatura que
 
 haga objetivo a la criatura protegida con un ataque
 
-Tocas a una bestia voluntaria. Hasta que el conjuro
-
-termine, puedes percibir a través de los sentidos de la
-
-bestia, así como de los tuyos. Cuando percibes a través
+o un conjuro que inflija daño deberá superar primero
 
 una tirada de salvación de Sabiduría; de lo contrario,
 
-tenga.
+elegirá un nuevo objetivo o perderá el ataque o conjur
 
-Proteges a una criatura que esté dentro del alcance.
+Este conjuro no protege a la criatura contra los efect
 
-o un conjuro que inflija daño deberá superar primero
-
-elegirá un nuevo objetivo o perderá el ataque o conjuro.
-
-Este conjuro no protege a la criatura contra los efectos
-
-de área. El conjuro termina si la criatura protegida hace
+de área. El conjuro termina si la criatura protegida h
 
 una tirada de ataque, lanza un conjuro o inflige daño.
 
@@ -15879,22 +14901,91 @@ puerta puede abrirse y cerrarse y lleva a un semiplano
 
 que parece una habitación vacía de 9 m de lado en cada
 
-dimensión, hecha de madera o de piedra (a tu elección).
+dimensión, hecha de madera o de piedra (a tu elección)
 
 Cuando el conjuro termina, la puerta se desvanecerá
 
 y todos los objetos dentro del semiplano permanecerán
 
-de ella, te beneficias de cualquier sentido especial que
+en él. Las criaturas que haya también se quedarán dent
+
+salvo que prefieran que la puerta las expulse cuando
+
+se desvanece, lo que hará que aterricen con el estado
+
+de derribadas en los espacios sin ocupar más cercanos
+
+a donde estaba la puerta.
+
+Cada vez que lances este conjuro, puedes crear un
+
+nuevo semiplano o hacer que la puerta de sombras conec
+
+con un semiplano que hayas creado previamente con el
+
+conjuro. Además, si conoces la naturaleza y el conteni
+
+de un semiplano creado cuando otra criatura lanzó
+
+este conjuro, en su lugar puedes hacer que la puerta
+
+de sombras conecte con dicho semiplano.
 
 ---
 
-#### Shillelagh
-*Truco de transmutación (druida)*
-- **Tiempo de lanzamiento:** Acción adicional
-- **Alcance:** Lanzador
-- **Componentes:** V, S, M (muérdago)
-- **Duración:** 1 minuto
+#### Señal de Esperanza
+*Abjuración de nivel 3 (clérigo)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 9 m
+- **Componentes:** V, S
+- **Duración:** Concentración, hasta 1 minuto
+
+Elige cualquier cantidad de criaturas dentro del alcan
+
+Hasta que el conjuro termine, todos los objetivos tien
+
+ventaja en sus tiradas de salvación de Sabiduría y sus
+
+tiradas de salvación contra muerte, y también recupera
+
+la cantidad máxima posible de puntos de golpe en cualq
+
+curación.
+
+---
+
+#### Sentidos de la Bestia
+*Adivinación de nivel 2 (druida, explorador)*
+- **Tiempo de lanzamiento:** Acción o ritual
+- **Alcance:** Toque
+- **Componentes:** S
+- **Duración:** Concentración, hasta 1 hora
+
+Tocas a una bestia voluntaria. Hasta que el conjuro
+
+termine, puedes percibir a través de los sentidos de la
+
+bestia, así como de los tuyos. Cuando percibes a través
+
+de ella, te beneficias de cualquier sentido especial que
+
+tenga.
+
+o.
+
+os
+
+ace    SHILLELAGH
+
+Truco de transmutación (druida)
+
+Tiempo de lanzamiento: Acción adicional
+
+Alcance: Lanzador
+
+Componentes: V, S, M (muérdago)
+
+Duración:1 minuto
 
 Un bastón o un garrote que sostengas se ve impregnado
 
@@ -15912,56 +15003,13 @@ o del tipo de daño normal del arma (a tu elección).
 
 El conjuro termina antes de tiempo si lo vuelves a lanzar
 
-o si sueltas el arma.
+.      o si sueltas el arma.
 
 Mejora de truco. El dado de daño cambia cuando
 
 alcanzas los niveles 5 (d10), 11 (d12) y 17 (2d6).
 
-en él. Las criaturas que haya también se quedarán dentro
-
-salvo que prefieran que la puerta las expulse cuando
-
-se desvanece, lo que hará que aterricen con el estado
-
-de derribadas en los espacios sin ocupar más cercanos
-
-a donde estaba la puerta.
-
-Cada vez que lances este conjuro, puedes crear un
-
-nuevo semiplano o hacer que la puerta de sombras conecte
-
-con un semiplano que hayas creado previamente con el
-
-conjuro. Además, si conoces la naturaleza y el contenido
-
-de un semiplano creado cuando otra criatura lanzó
-
-este conjuro, en su lugar puedes hacer que la puerta
-
-de sombras conecte con dicho semiplano.
-
----
-
-#### Señal de Esperanza
-*Abjuración de nivel 3 (clérigo)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** 9 m
-- **Componentes:** V, S
-- **Duración:** Concentración, hasta 1 minuto
-
-Elige cualquier cantidad de criaturas dentro del alcance.
-
-Hasta que el conjuro termine, todos los objetivos tienen
-
-ventaja en sus tiradas de salvación de Sabiduría y sus
-
-tiradas de salvación contra muerte, y también recuperan
-
-la cantidad máxima posible de puntos de golpe en cualquier
-
-curación.
+ro
 
 ---
 
@@ -15969,8 +15017,14 @@ curación.
 *Ilusionismo de nivel 2 (bardo, clérigo, explorador)*
 - **Tiempo de lanzamiento:** Acción o ritual
 - **Alcance:** 36 m
-- **Componentes:** V, S
-- **Duración:** Concentración, hasta 10 minutos
+
+te
+
+Componentes: V, S
+
+Duración: Concentración, hasta 10 minutos
+
+do
 
 Hasta que termine el conjuro, creas una esfera de 6 m
 
@@ -15992,11 +15046,22 @@ tengan un componente verbal.
 
 #### Símbolo
 *Abjuración de nivel 7 (bardo, clérigo, druida, mago)*
-- **Tiempo de lanzamiento:** 1 minuto
-- **Alcance:** Toque
-- **Componentes:** V, S, M (diamante en polvo que valga al
+
+ce.
+
+Tiempo de lanzamiento: 1 minuto
+
+en
+
+Alcance: Toque
+
+Componentes: V, S, M (diamante en polvo que valga al
+
+n
 
 menos 1000 po y que se consume como parte del conjuro)
+
+uier
 
 Duración: Hasta que sea disipado o se active
 
@@ -16008,28 +15073,15 @@ se pueda cerrar (como un libro o un cofre). Este puede
 
 abarcar una zona de hasta 3 m de diámetro. Si eliges un
 
----
-
-#### Simulacro
-*Ilusionismo de nivel 7 (mago)*
-
 objeto, este debe permanecer en su sitio; si se mueve más
 
-Tiempo de lanzamiento: 12 horas
+de 3 m respecto al lugar donde lanzaste el conjuro, el glifo
 
 se romperá y el conjuro terminará sin activarse.
-
-Componentes: V, S, M (rubí
-
-en polvo que valga al menos
 
 El glifo es casi imperceptible y es necesario superar
 
 una prueba de Sabiduría (Percepción) contra tu CD de
-
-Duración: Hasta que sea disipado
-
-de 3 m respecto al lugar donde lanzaste el conjuro, el glifo
 
 salvación de conjuros para detectarlo.
 
@@ -16043,7 +15095,7 @@ a continuación).
 
 Establecer el activador. Cuando lances el conjuro, decide
 
-qué activará el glifo. En el caso de los glifos inscritos en una
+qué activará el glifo. En el caso de los glifos inscritos en
 
 superficie, las condiciones que suelen activarlos incluyen
 
@@ -16091,9 +15143,57 @@ Discordia. Cada objetivo hace una tirada de salvación
 
 de Sabiduría. Si la falla, el objetivo discutirá verbalmente
 
-Alcance: Toque
+con otras criaturas durante 1 minuto. Durante este tiempo,
+
+no podrá comunicarse de forma razonable y tendrá
+
+desventaja en las tiradas de ataque y las pruebas de
+
+característica.                           >
+
+Dolor. Cada objetivo deberá superar una tirada
+
+de salvación de Constitución o tendrá el estado de
+
+incapacitado durante 1 minuto.
+
+Muerte. Cada objetivo hace una tirada de salvación
+
+de Constitución; sufrirá 10d10 de daño necrótico si la
+
+falla o la mitad del daño si la supera.
+
+Sueño. Cada objetivo deberá superar una tirada de
+
+salvación de Sabiduría o tendrá el estado de inconsciente
+
+durante 10 minutos. Una criatura se despierta si recibe
+
+daño o si alguien utiliza una acción para sacudirla.
+
+Terror. Cada objetivo deberá superar una tirada de
+
+salvación de Sabiduría o tendrá el estado de asustado
+
+durante 1 minuto. Mientras esté asustado, el objetivo
+
+deberá alejarse al menos 9 m del glifo en cada uno de
+
+sus turnos si puede.
+
+---
+
+#### Simulacro
+*Ilusionismo de nivel 7 (mago)*
+- **Tiempo de lanzamiento:** 12 horas
+- **Alcance:** Toque
+- **Componentes:** V, S, M (rubí
+
+en polvo que valga al menos
 
 1500 po, que se consume como parte del conjuro)
+
+Duración: Hasta que sea disipado
 
 Creas un simulacro de una bestia o humanoide que
 
@@ -16107,7 +15207,7 @@ tamaño, de modo que la pila se transformará en un
 
 simulacro y será una criatura. El simulacro tendrá el perfil
 
-de la criatura original en el momento del lanzamiento,
+una   de la criatura original en el momento del lanzamiento,
 
 excepto que es un autómata, tiene la mitad de puntos de
 
@@ -16147,56 +15247,12 @@ destruye al instante.
 
 #### Sirviente Invisible
 *Conjuración de nivel 1 (bardo, brujo, mago)*
-
-no podrá comunicarse de forma razonable y tendrá
-
-desventaja en las tiradas de ataque y las pruebas de
-
-Tiempo de lanzamiento: Acción o ritual
-
-Alcance: 18 m
-
-Componentes: V, S, M (un trozo de cuerda y uno de madera)
-
-Duración: 1 hora
-
-característica.
+- **Tiempo de lanzamiento:** Acción o ritual
+- **Alcance:** 18 m
+- **Componentes:** V, S, M (un trozo de cuerda y uno de madera)
+- **Duración:** 1 hora
 
 Este conjuro crea una fuerza invisible de tamaño
-
-con otras criaturas durante 1 minuto. Durante este tiempo,
-
->
-
-Dolor. Cada objetivo deberá superar una tirada
-
-de salvación de Constitución o tendrá el estado de
-
-incapacitado durante 1 minuto.
-
-Muerte. Cada objetivo hace una tirada de salvación
-
-de Constitución; sufrirá 10d10 de daño necrótico si la
-
-falla o la mitad del daño si la supera.
-
-Sueño. Cada objetivo deberá superar una tirada de
-
-salvación de Sabiduría o tendrá el estado de inconsciente
-
-durante 10 minutos. Una criatura se despierta si recibe
-
-daño o si alguien utiliza una acción para sacudirla.
-
-Terror. Cada objetivo deberá superar una tirada de
-
-salvación de Sabiduría o tendrá el estado de asustado
-
-durante 1 minuto. Mientras esté asustado, el objetivo
-
-deberá alejarse al menos 9 m del glifo en cada uno de
-
-sus turnos si puede.
 
 Mediano, sin mente y sin forma, que realiza las tareas
 
@@ -16232,12 +15288,10 @@ Si ordenas al sirviente que lleve a cabo una tarea que
 
 lo alejaría más de 18 m de ti, el conjuro termina.
 
-podrías decir: “Id hasta el pueblo por ese camino y ayudad
-
 ---
 
 #### Sordera/Ceguera
-*Transmutación de nivel 2 (bardo, clérigo, hechicero, mago)*
+*Transmutación de nivel 2 (bardo, clérigo, hechicero, m*
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** 36 m
 - **Componentes:** V
@@ -16245,13 +15299,13 @@ podrías decir: “Id hasta el pueblo por ese camino y ayudad
 
 Una criatura que puedas ver dentro del alcance deberá
 
-superar una tirada de salvación de Constitución o tendrá
+superar una tirada de salvación de Constitución o tend
 
-el estado de cegada o ensordecida (a tu elección) hasta
+el estado de cegada o ensordecida (a tu elección) hast
 
-que el conjuro termine. Al final de cada uno de sus turnos,
+que el conjuro termine. Al final de cada uno de sus tu
 
-el objetivo repite la tirada de salvación y, si tiene éxito,
+el objetivo repite la tirada de salvación y, si tiene
 
 se librará del conjuro.
 
@@ -16264,78 +15318,39 @@ por encima de 2 que tenga el espacio.
 ---
 
 #### Sugestión
-*Encantamiento de nivel 2 (bardo, brujo, hechicero, mago)*
-
-o quizá “no es momento de luchar; soltad las armas,
-
-poneos a bailar y no paréis hasta dentro de una hora”.
-
-Todos los objetivos deberán superar una tirada de
-
-salvación de Sabiduría o tendrán el estado de hechizados
-
-hasta que termine el conjuro o hasta que tus aliados o tú
-
-les hagáis daño. Cada objetivo hechizado llevará a cabo
-
-la sugerencia lo mejor que pueda. La actividad sugerida
-
-puede seguir hasta que termine el conjuro, pero si se
-
-puede completar en menos tiempo, el conjuro terminará
-
-sobre un objetivo cuando la complete.
-
-Con un espacio de conjuro de nivel superior. La duración
-
-aumenta al usar espacios de nivel 7 (10 días), 8 (30 días)
-
-09 (366 días).
-
----
-
-#### Susurros Discordantes
-*Encantamiento de nivel1 (bardo)*
+*Encantamiento de nivel 2 (bardo, brujo, hechicero, mag*
 - **Tiempo de lanzamiento:** Acción
-- **Alcance:** 18 m
+- **Alcance:** 9 m
 - **Componentes:** V, M (una gota de miel)
 - **Duración:** Concentración, hasta 8 horas
-
-Una criatura de tu elección que puedas ver dentro
-
-del alcance oye una melodía discordante en su mente.
-
-El objetivo hace una tirada de salvación de Sabiduría.
-
-Alcance: 9 m
 
 Sugieres un curso de acción (de no más de 25 palabras)
 
 a una criatura que puedas ver dentro del alcance y que
 
-te pueda oír y entender. La sugerencia tiene que parecer
+te pueda oír y entender. La sugerencia tiene que parec
 
-factible y no ser claramente dañina para el objetivo o sus
+factible y no ser claramente dañina para el objetivo o
 
-aliados. Por ejemplo, podrías decir: “Ve a por la llave de la
+aliados. Por ejemplo, podrías decir: “Ve a por la llav
 
-cámara del tesoro de la secta y tráemela”, o quizá “deja de
+cámara del tesoro de la secta y tráemela”, o quizá “de
 
-luchar, vete pacíficamente de la biblioteca y no vuelvas”.
+luchar, vete pacíficamente de la biblioteca y no vuelv
 
 El objetivo deberá superar una tirada de salvación
 
 de Sabiduría o tendrá el estado de hechizado hasta que
 
-termine el conjuro o hasta que tus aliados o tú le hagáis
+termine el conjuro o hasta que tus aliados o tú le hag
 
-daño. El objetivo hechizado llevará a cabo la sugerencia
+daño. El objetivo hechizado llevará a cabo la sugerenc
 
 lo mejor que pueda. La actividad sugerida puede seguir
 
-hasta que termine el conjuro, pero si se puede completar
+hasta que termine el conjuro, pero si se puede complet
 
-en menos tiempo, el conjuro terminará sobre el objetivo
+en menos tiempo, el conjuro terminará sobre el objetiv
 
 cuando la complete.
 
@@ -16354,34 +15369,93 @@ a doce o menos criaturas que puedas ver dentro del
 
 alcance y que te puedan oír y entender. La sugerencia
 
-tiene que parecer factible y no ser claramente dañina para
+tiene que parecer factible y no ser claramente dañina
 
-cualquiera de los objetivos o sus aliados. Por ejemplo,
+cualquiera de los objetivos o sus aliados. Por ejemplo
+
+podrías decir: “Id hasta el pueblo por ese camino y ayudad
 
 a sus habitantes a recoger la cosecha hasta que atardezca”,
 
-Si la falla, recibirá 3d6 de daño psíquico y deberá utilizar
+o quizá “no es momento de luchar; soltad las armas,
 
-su reacción inmediatamente, si es posible, para alejarse
+ago)
 
-de ti tanto como pueda por la ruta más segura. Si supera
+poneos a bailar y no paréis hasta dentro de una hora”.
 
-la tirada, solo sufrirá la mitad de ese daño.
+Todos los objetivos deberán superar una tirada de
 
-Con un espacio de conjuro de nivel superior. El daño
+salvación de Sabiduría o tendrán el estado de hechizados
 
-aumenta en 1d6 por cada nivel por encima de 1 que tenga
+hasta que termine el conjuro o hasta que tus aliados o tú
 
-el espacio.
+les hagáis daño. Cada objetivo hechizado llevará a cabo
+
+la sugerencia lo mejor que pueda. La actividad sugerida
+
+rá        puede seguir hasta que termine el conjuro, pero si se
+
+puede completar en menos tiempo, el conjuro terminará
+
+a
+
+rnos,     sobre un objetivo cuando la complete.
+
+Con un espacio de conjuro de nivel superior. La duración
+
+éxito,
+
+aumenta al usar espacios de nivel 7 (10 días), 8 (30 días)
+
+09 (366 días).
 
 ---
 
-#### Tañido por los Muertos
-*Truco de nigromancia (brujo, clérigo, mago)*
+#### Susurros Discordantes
+*Encantamiento de nivel1 (bardo)*
 - **Tiempo de lanzamiento:** Acción
-- **Alcance:** 18 m
-- **Componentes:** V, S
+- **Componentes:** V
 - **Duración:** Instantáneo
+
+Una criatura de tu elección que puedas ver dentro
+
+del alcance oye una melodía discordante en su mente.
+
+El objetivo hace una tirada de salvación de Sabiduría.
+
+Si la falla, recibirá 3d6 de daño psíquico y deberá utilizar
+
+er        su reacción inmediatamente, si es posible, para alejarse
+
+de ti tanto como pueda por la ruta más segura. Si supera
+
+sus
+
+la tirada, solo sufrirá la mitad de ese daño.
+
+e de la
+
+Con un espacio de conjuro de nivel superior. El daño
+
+ja de
+
+as”.      aumenta en 1d6 por cada nivel por encima de 1 que tenga
+
+el espacio.
+
+áis
+
+ia        TAÑIDO POR LOS MUERTOS
+
+Truco de nigromancia (brujo, clérigo, mago)
+
+ar        Tiempo de lanzamiento: Acción
+
+o         Alcance: 18 m
+
+Componentes: V, S
+
+Duración: Instantáneo
 
 Señalas a una criatura que puedas ver dentro del alcance
 
@@ -16401,7 +15475,9 @@ alcanzas los niveles 5 (2d8 o 2d12), 11 (3d8 o 3d12)
 
 y 17 (4d8 o 4d12).
 
-Las telarañas son inflamables. Cualquier cubo de
+para
+
+,
 
 ---
 
@@ -16430,61 +15506,19 @@ o ventana que no esté cerrada con llave.
 
 Ojos alterados. Cambias el aspecto de tus ojos durante
 
-telarañas de 1,5 m de lado expuesto al fuego se quema
-
-por completo en 1 asalto y causa 2d4 de daño de fuego
-
-a cualquier criatura que comience su turno en el incendio.
-
----
-
-#### Telepatía
-*Adivinación de nivel 8 (mago)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** limitado
-- **Componentes:** V, S, M (un par de anillos de plata
-
-enlazados)
-
-Duración: 24 horas
-
-Creas un enlace telepático entre tú y una criatura
-
-procede de un punto de tu elección dentro del alcance.
-
-voluntaria que conozcas. El objetivo puede estar en
-
-cualquier lugar del mismo plano de existencia que tú,
-
-pero el conjuro terminará si dejáis de estar en el mismo
-
-plano.
-
-Hasta que el conjuro termine, el objetivo y tú podéis
-
-cuervo o unos susurros de mal agúero.
-
-sonidos y otros mensajes sensoriales mediante el enlace,
-
-daños durante 1 minuto.
-
-está comunicando. El conjuro permite que una criatura
-
-comprenda el significado de tus palabras y cualquier
-
-mensaje sensorial que le envíes.
-
 1 minuto.
 
 Sonido fantasmal. Creas un sonido instantáneo que
 
+procede de un punto de tu elección dentro del alcance.
+
 Por ejemplo, el retumbar de un trueno, el graznido de un
 
-compartir de forma instantánea palabras, imágenes,
+cuervo o unos susurros de mal agúero.
 
 Temblores. Provocas que la tierra tiemble sin causar
 
-y el objetivo te reconoce como la criatura con la que se
+daños durante 1 minuto.
 
 Voz atronadora. Tu voz resuena hasta tres veces más
 
@@ -16494,29 +15528,14 @@ el conjuro, tienes ventaja en las pruebas de Carisma
 
 (Intimidación).
 
-“TELEQUINESIS
+---
 
-Transmutación de nivel 5 (hechicero, mago)
-
-TELARAÑA
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 18 m
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 18 m
-
-Componentes: V, S, M (un poco de tela de araña)
-
-Duración: Concentración, hasta 1 hora
-
-Componentes: V, S
-
-Duración: Concentración, hasta 10 minutos
-
-Conjuración de nivel 2 (hechicero, mago)
+#### Telaraña
+*Conjuración de nivel 2 (hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 18 m
+- **Componentes:** V, S, M (un poco de tela de araña)
+- **Duración:** Concentración, hasta 1 hora
 
 Conjuras una masa de telarañas pegajosas en un punto
 
@@ -16555,6 +15574,62 @@ hacer una prueba de Fuerza (Atletismo) contra tu CD
 de salvación de conjuros. Si la supera, dejará de estar
 
 apresada.
+
+Las telarañas son inflamables. Cualquier cubo de
+
+telarañas de 1,5 m de lado expuesto al fuego se quema
+
+por completo en 1 asalto y causa 2d4 de daño de fuego
+
+a cualquier criatura que comience su turno en el incendio.
+
+---
+
+#### Telepatía
+*Adivinación de nivel 8 (mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** limitado
+- **Componentes:** V, S, M (un par de anillos de plata
+
+enlazados)
+
+Duración: 24 horas
+
+Creas un enlace telepático entre tú y una criatura
+
+voluntaria que conozcas. El objetivo puede estar en
+
+cualquier lugar del mismo plano de existencia que tú,
+
+pero el conjuro terminará si dejáis de estar en el mismo
+
+plano.
+
+Hasta que el conjuro termine, el objetivo y tú podéis
+
+compartir de forma instantánea palabras, imágenes,
+
+sonidos y otros mensajes sensoriales mediante el enlace,
+
+y el objetivo te reconoce como la criatura con la que se
+
+está comunicando. El conjuro permite que una criatura
+
+comprenda el significado de tus palabras y cualquier
+
+mensaje sensorial que le envíes.
+
+“TELEQUINESIS
+
+Transmutación de nivel 5 (hechicero, mago)
+
+Tiempo de lanzamiento: Acción
+
+Alcance: 18 m
+
+Componentes: V, S
+
+Duración: Concentración, hasta 10 minutos
 
 Obtienes la capacidad de mover o manipular criaturas
 
@@ -16616,115 +15691,24 @@ del alcance del conjuro.
 
 Puedes ejercer un control más preciso de los objetos con
 
-RESULTADO DEL TELETRANSPORTE
-
-Familiaridad
-
-Círculo
-
-Enel
-
-objetivo
-
-=
-
-—
-
-01-00
-
-=
-
-=
-
-=
-
-01-00
-
-Muy familiar
-
-01-05
-
-06-13
-
-14-24
-
-25-00
-
-Visto espo-
-
-01-33
-
-34-43
-
-44-53
-
-54-00
-
-01-43
-
-44-53
-
-54-73
-
-74-00
-
-01-50
-
-51-00
-
-—
-
-—-
-
-permanente
+tu agarre telequinético, como, por ejemplo, manipular una
 
 herramienta sencilla o abrir una puerta o un contenedor,
 
-Objeto vinculado
+guardar o sacar un objeto de un contenedor abierto
 
 o verter el contenido de un vial.
 
-Lejosdel
+---
 
-objetivo
-
-=
-
-tu agarre telequinético, como, por ejemplo, manipular una
-
-guardar o sacar un objeto de un contenedor abierto
-
-Área
-
-Percance similar
-
-rádicamente
-
-TELETRANSPORTE
-
-Visto una vez
-
-Conjuración de nivel 7 (bardo, hechicero, mago)
-
-o descrito
-
-Tiempo de lanzamiento: Acción
-
-Destino falso
-
-Componentes: V
-
-Duración: Instantáneo
-
-Familiaridad. Los términos de la columna “Familiaridad”
-
-de la tabla significan lo siguiente:
+#### Teletransporte
+*Conjuración de nivel 7 (bardo, hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 3 m
+- **Componentes:** V
+- **Duración:** Instantáneo
 
 Este conjuro os transporta a un destino que elijas a ti
-
-+ “Círculo permanente” se refiere a un círculo de
-
-Alcance: 3 m
 
 y a hasta ocho criaturas voluntarias que puedas ver
 
@@ -16743,6 +15727,36 @@ que conoces el destino es decisivo para conseguir llegar
 a él. Tu DM tira 1d100 y consulta la tabla “Resultado
 
 del teletransporte” y las explicaciones que la siguen.
+
+RESULTADO DEL TELETRANSPORTE
+
+Área      Lejosdel      Enel
+
+Familiaridad       Percance similar   objetivo     objetivo
+
+Círculo               =        =          —         01-00
+
+permanente
+
+Objeto vinculado      =        =          =         01-00
+
+Muy familiar        01-05    06-13     14-24       25-00
+
+Visto espo-          01-33    34-43     44-53       54-00
+
+rádicamente
+
+Visto una vez        01-43    44-53     54-73       74-00
+
+o descrito
+
+Destino falso       01-50    51-00      —            —-
+
+Familiaridad. Los términos de la columna “Familiaridad”
+
+de la tabla significan lo siguiente:
+
++ “Círculo permanente” se refiere a un círculo de
 
 teletransportación permanente cuya secuencia de
 
@@ -16768,25 +15782,15 @@ más de una vez, pero que no conoces muy bien.
 
 visto en una ocasión, quizá mediante la magia, o un sitio
 
-“TERREMOTO
-
-Transmutación de nivel 8 (clérigo, druida, hechicero)
-
 que conoces de segunda mano, quizá por un mapa.
 
-Tiempo de lanzamiento: Acción
++ “Destino falso” es un lugar que no existe. Es posible
 
 que trataras de escrudiñar el sanctasanctórum de
 
 un enemigo, pero que, en su lugar, vieras una ilusión,
 
 o puede que intentes teletransportarte a una ubicación
-
-Componentes: V, S, M (una piedra fracturada)
-
-Duración: Concentración, hasta 1 minuto
-
-+ “Destino falso” es un lugar que no existe. Es posible
 
 que ya no existe.
 
@@ -16824,7 +15828,62 @@ con un 1, al este; con un 2, al sureste; con un 3, al sur;
 
 con un 4, al suroeste; con un 5, al oeste; con un 6,
 
+al noroeste; con un 7, al norte, y con un 8, al noreste.
+
+En el objetivo. Tu grupo y tú (o el objeto objetivo)
+
+aparecéis donde tú querías.
+
+---
+
+#### Tentáculos Negros de Evard
+*Conjuración de nivel 4 (mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 27 m
+- **Componentes:** V, S, M (un tentáculo)
+- **Duración:** Concentración, hasta 1 minuto
+
+Unos tentáculos color ébano que se retuercen llenan
+
+un cuadrado en el suelo de 6 m de lado que puedas
+
+ver dentro del alcance. Hasta que termine el conjuro,
+
+estos tentáculos convertirán la zona en terreno difícil.
+
+Todas las criaturas situadas en esa zona hacen una
+
+tirada de salvación de Fuerza. Si la fallan, sufrirán 3d6
+
+de daño contundente y tendrán el estado de apresadas
+
+hasta que el conjuro termine. Una criatura también
+
+deberá hacer la tirada si entra en la zona o termina su
+
+turno en ella. Cada criatura solo hace esta tirada una
+
+vez por turno.
+
+Una criatura apresada puede emplear una acción para
+
+hacer una prueba de Fuerza (Atletismo) contra tu CD
+
+de salvación de conjuros y, si la supera, pondrá fin a su
+
+estado.
+
+“TERREMOTO
+
+Transmutación de nivel 8 (clérigo, druida, hechicero)
+
+Tiempo de lanzamiento: Acción
+
 Alcance: 150 m
+
+Componentes: V, S, M (una piedra fracturada)
+
+Duración: Concentración, hasta 1 minuto
 
 Elige un punto del suelo que puedas ver dentro del
 
@@ -16864,11 +15923,9 @@ que esté en el mismo espacio que una grieta deberá superar
 
 una tirada de salvación de Destreza o caerá en ella. Si la
 
-al noroeste; con un 7, al norte, y con un 8, al noreste.
-
 supera, la criatura se moverá a la vez que se abre el borde
 
-aparecéis donde tú querías.
+de la grieta y se mantendrá allí.
 
 Estructuras. El temblor causa 50 de daño contundente
 
@@ -16880,19 +15937,6 @@ de tus turnos hasta que el conjuro termine. Si los puntos
 
 de golpe de una estructura se reducen a O, se derrumbará.
 
-En el objetivo. Tu grupo y tú (o el objeto objetivo)
-
----
-
-#### Tentáculos Negros de Evard
-*Conjuración de nivel 4 (mago)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** 27 m
-- **Componentes:** V, S, M (un tentáculo)
-- **Duración:** Concentración, hasta 1 minuto
-
-de la grieta y se mantendrá allí.
-
 Una criatura que se encuentre a una distancia de una
 
 estructura que se derrumba igual a la mitad de su altura
@@ -16903,41 +15947,11 @@ sufrirá 12d6 de daño contundente, tendrá el estado de
 
 derribada y quedará enterrada entre los escombros.
 
-Unos tentáculos color ébano que se retuercen llenan
-
 Para escapar, como acción tendrá que superar una
 
-ver dentro del alcance. Hasta que termine el conjuro,
-
-estos tentáculos convertirán la zona en terreno difícil.
-
-Todas las criaturas situadas en esa zona hacen una
-
-tirada de salvación de Fuerza. Si la fallan, sufrirán 3d6
-
-de daño contundente y tendrán el estado de apresadas
+prueba de Fuerza (Atletismo) con CD 20. Si la supera,
 
 solo sufrirá la mitad de ese daño.
-
-un cuadrado en el suelo de 6 m de lado que puedas
-
-hasta que el conjuro termine. Una criatura también
-
-deberá hacer la tirada si entra en la zona o termina su
-
-turno en ella. Cada criatura solo hace esta tirada una
-
-vez por turno.
-
-Una criatura apresada puede emplear una acción para
-
-hacer una prueba de Fuerza (Atletismo) contra tu CD
-
-de salvación de conjuros y, si la supera, pondrá fin a su
-
-estado.
-
-prueba de Fuerza (Atletismo) con CD 20. Si la supera,
 
 ---
 
@@ -16956,35 +15970,35 @@ olores de otro tipo de terreno natural. Por ejemplo, puedes
 
 hacer que un campo abierto o una carretera se parezcan
 
-a un pantano, una colina, una grieta u otro tipo de terreno
+a un pantano, una colina, una grieta u otro tipo de te
 
-difícil o infranqueable. Se puede hacer que un estanque
+difícil o infranqueable. Se puede hacer que un estanqu
 
-parezca una pradera cubierta de hierba, que un precipicio
+parezca una pradera cubierta de hierba, que un precipi
 
 se aparezca como una suave cuesta o que un barranco
 
 pedregoso y estrecho se presente como una carretera
 
-amplia y lisa. Las estructuras fabricadas, el equipo y las
+amplia y lisa. Las estructuras fabricadas, el equipo y
 
 criaturas en la zona no cambian.
 
 Las características táctiles del terreno no cambian,
 
-por lo que es probable que las criaturas que entren en la
+por lo que es probable que las criaturas que entren en
 
-zona descubran que es una ilusión. Si la diferencia no es
+zona descubran que es una ilusión. Si la diferencia no
 
-obvia al tacto, cualquier criatura que examine la ilusión
+obvia al tacto, cualquier criatura que examine la ilus
 
-puede usar una acción de estudiar y hacer una prueba de
+puede usar una acción de estudiar y hacer una prueba d
 
-Inteligencia (Investigación) contra tu CD de salvación de
+Inteligencia (Investigación) contra tu CD de salvación
 
-conjuros para distinguirla. Si criatura percibe que es una
+conjuros para distinguirla. Si criatura percibe que es
 
-ilusión, la verá como una imagen difusa y superpuesta al
+ilusión, la verá como una imagen difusa y superpuesta
 
 terreno de verdad.
 
@@ -17000,29 +16014,88 @@ Componentes: V, S, M (una pluma blanca)
 
 Duración: Concentración, hasta 1 minuto
 
+Todas las criaturas situadas en un cono de 9 m deberán
+
+superar una tirada de salvación de Sabiduría o soltará
+
+cualquier cosa que tengan agarrada y tendrán el estado
+
+de asustadas hasta que termine el conjuro.
+
+Una criatura asustada realizará la acción de correr
+
+en todos sus turnos para alejarse de ti por la ruta
+
+más segura, a menos que no haya por dónde huir.
+
+Si la criatura acaba su turno en un espacio desde el
+
+que no tenga línea de visión directa de ti, hará una
+
+tirada de salvación de Sabiduría. Si la supera, el con
+
+terminará para ella.
+
 ---
 
-#### Texto Ilusorio
-*Ilusionismo de nivel1 (bardo, brujo, mago)*
-- **Tiempo de lanzamiento:** 1 minuto o un ritual
-- **Alcance:** Toque
-- **Componentes:** S, M (tinta que valga al menos 10 po,
+#### Terror Abyecto
+*Ilusionismo de nivel 9 (brujo, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 36 m
+- **Componentes:** V, S
+- **Duración:** Concentración, hasta 1 minuto
+
+Intentas crear horrores ilusorios en las mentes de otr
+
+Todas las criaturas de tu elección situadas en una esf
+
+de 9 m de radio centrada en un punto dentro del alcanc
+
+realizan una tirada de salvación de Sabiduría. Si la f
+
+los objetivos sufrirán 10d10 de daño psíquico y tendrá
+
+el estado de asustados hasta que el conjuro termine.
+
+Si la superan, solamente recibirán la mitad de ese dañ
+
+Un objetivo asustado hará una tirada de salvación de
+
+Sabiduría al final de cada uno de sus turnos. Si la fa
+
+sufrirá 5d10 de daño psíquico. Si la supera, el conjur
+
+terminará para ese objetivo.
+
+rreno
+
+e        TEXTO ILUSORIO
+
+cio
+
+Ilusionismo de nivel1 (bardo, brujo, mago)
+
+Tiempo de lanzamiento: 1 minuto o un ritual
+
+las     Alcance: Toque
+
+Componentes: S, M (tinta que valga al menos 10 po,
 
 que se consume como parte del conjuro)
 
-Duración: 10 días
+la      Duración: 10 días
 
-Escribes en pergamino, papel u otro material adecuado
+es      Escribes en pergamino, papel u otro material adecuado
 
-y lo impregnas con una ilusión hasta que termine el conjuro.
+ión      y lo impregnas con una ilusión hasta que termine el conjuro.
 
-Para ti y las demás criaturas que designes cuando lanzas
+e        Para ti y las demás criaturas que designes cuando lanzas
 
-el conjuro, el texto parece normal, escrito con tu letra,
+de      el conjuro, el texto parece normal, escrito con tu letra,
 
-y transmite el significado que pretendieras al escribirlo.
+una     y transmite el significado que pretendieras al escribirlo.
 
-Para los demás, el texto parece escrito en letra mágica
+al       Para los demás, el texto parece escrito en letra mágica
 
 o desconocida y es ininteligible. Como alternativa,
 
@@ -17040,31 +16113,9 @@ Una criatura con visión verdadera puede leer el mensaje
 
 oculto.
 
-Todas las criaturas situadas en un cono de 9 m deberán
-
-superar una tirada de salvación de Sabiduría o soltarán
-
-cualquier cosa que tengan agarrada y tendrán el estado
-
-de asustadas hasta que termine el conjuro.
-
-Una criatura asustada realizará la acción de correr
-
-en todos sus turnos para alejarse de ti por la ruta
-
 TOQUE HELADO
 
-Si la criatura acaba su turno en un espacio desde el
-
-que no tenga línea de visión directa de ti, hará una
-
-tirada de salvación de Sabiduría. Si la supera, el conjuro
-
-terminará para ella.
-
-Canalizas un frío sepulcral y haces un ataque de conjuro
-
-más segura, a menos que no haya por dónde huir.
+n
 
 Truco de nigromancia (brujo, hechicero, mago)
 
@@ -17076,76 +16127,46 @@ Componentes: V, S
 
 Duración: Instantáneo
 
+Canalizas un frío sepulcral y haces un ataque de conjuro
+
 cuerpo a cuerpo contra un objetivo dentro del alcance.
 
-Si acierta, el objetivo recibirá 1d10 de daño necrótico
+juro     Si acierta, el objetivo recibirá 1d10 de daño necrótico
 
 y no podrá recuperar puntos de golpe hasta el final de
 
 tu siguiente turno.
 
----
-
-#### Terror Abyecto
-*Ilusionismo de nivel 9 (brujo, mago)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** 36 m
-
 Mejora de truco. El daño aumenta en 1d10 cuando
 
 alcanzas los niveles 5 (2d10), 11 (3d10) y 17 (4d10).
 
-TOQUE VAMPÍRICO
+---
 
-Componentes: V, S
+#### Toque Vampírico
+*Nigromancia de nivel 3 (brujo, hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Componentes:** V, S
 
-Nigromancia de nivel 3 (brujo, hechicero, mago)
-
-Duración: Concentración, hasta 1 minuto
-
-Intentas crear horrores ilusorios en las mentes de otros.
-
-Tiempo de lanzamiento: Acción
-
-Alcance: Lanzador
-
-de 9 m de radio centrada en un punto dentro del alcance
+era
 
 Duración: Concentración, hasta 1 minuto
 
-Todas las criaturas de tu elección situadas en una esfera
+e
 
-Componentes: V, S
+allan,   El toque de tu mano envuelta en sombras puede absorber
 
-realizan una tirada de salvación de Sabiduría. Si la fallan,
-
-los objetivos sufrirán 10d10 de daño psíquico y tendrán
-
-El toque de tu mano envuelta en sombras puede absorber
-
-la fuerza vital de otros para curar tus heridas. Haz un
-
-el estado de asustados hasta que el conjuro termine.
-
-Si la superan, solamente recibirán la mitad de ese daño.
-
-Un objetivo asustado hará una tirada de salvación de
-
-Sabiduría al final de cada uno de sus turnos. Si la falla,
-
-sufrirá 5d10 de daño psíquico. Si la supera, el conjuro
-
-terminará para ese objetivo.
+n        la fuerza vital de otros para curar tus heridas. Haz un
 
 ataque de conjuro cuerpo a cuerpo contra una criatura
 
-dentro del alcance. Si acierta, el objetivo sufrirá 3d6 de
+o.       dentro del alcance. Si acierta, el objetivo sufrirá 3d6 de
 
 daño necrótico y tú recuperarás una cantidad de puntos
 
-de golpe igual a la mitad del daño necrótico infligido.
+lla,     de golpe igual a la mitad del daño necrótico infligido.
 
-Hasta que el conjuro termine, podrás realizar el ataque
+o          Hasta que el conjuro termine, podrás realizar el ataque
 
 otra vez como acción de magia en cada uno de tus turnos
 
@@ -17163,30 +16184,12 @@ e
 
 #### Tormenta de Aguanieve
 *Conjuración de nivel 3 (druida, hechicero, mago)*
-
-Evocación de nivel 4 (druida, hechicero, mago)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 45 m
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 90 m
-
-Duración: Concentración, hasta 1 minuto
-
-Duración: Instantáneo
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 45 m
+- **Componentes:** V, S, M (un paraguas en miniatura)
+- **Duración:** Concentración, hasta 1 minuto
 
 Hasta que el conjuro termine, caerá aguanieve en un
-
-Una granizada cae en un cilindro de 6 m de radio y 12 m
-
-de altura centrado en un punto dentro del alcance.
-
-Todas las criaturas situadas en el cilindro hacen una
-
-Componentes: V, S, M (un paraguas en miniatura)
 
 cilindro de 12 m de alto y 6 m de radio centrado en un
 
@@ -17194,21 +16197,13 @@ punto que elijas dentro del alcance. La zona está muy
 
 oscura y las llamas desprotegidas que haya en ella se
 
-Componentes: V, S, M (una manopla)
-
 apagan.
 
-tirada de salvación de Destreza; sufrirán 2d10 de daño
-
-contundente y 4d6 de daño de frío si la fallan o la mitad
+El suelo abarcado en el cilindro es terreno difícil.
 
 Cuando una criatura entre en el cilindro por primera vez
 
 en un turno o comience su turno en él, deberá superar
-
-en terreno difícil hasta el final de tu siguiente turno.
-
-El suelo abarcado en el cilindro es terreno difícil.
 
 una tirada de salvación de Destreza o tendrá el estado
 
@@ -17221,10 +16216,6 @@ Conjuración de nivel 1 (explorador)
 Tiempo de lanzamiento: Acción adicional, que realizas
 
 de inmediato tras acertar a una criatura con un arma
-
-|
-
-TORMENTA DE HIELO
 
 a distancia
 
@@ -17273,15 +16264,38 @@ Todas las criaturas situadas en la zona de 4,5 m deberán
 
 realizar una tirada de salvación de Destreza; sufrirán
 
-7d10 de daño de fuego si la fallan o la mitad del daño si
+7d10 de daño de fuego si la fallan o la mitad del daño s
 
 la superan.
 
 Los objetos inflamables dentro del área que no lleve
 
+o vista nadie empezarán a arder.
+
+---
+
+#### Tormenta de Hielo
+*Evocación de nivel 4 (druida, hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 90 m
+- **Componentes:** V, S, M (una manopla)
+- **Duración:** Instantáneo
+
+Una granizada cae en un cilindro de 6 m de radio y 12 m
+
+de altura centrado en un punto dentro del alcance.
+
+Todas las criaturas situadas en el cilindro hacen una
+
+tirada de salvación de Destreza; sufrirán 2d10 de daño
+
+contundente y 4d6 de daño de frío si la fallan o la mitad
+
 del daño si la superan.
 
 Las bolas de granizo convierten el suelo del cilindro
+
+en terreno difícil hasta el final de tu siguiente turno.
 
 Con un espacio de conjuro de nivel superior. El daño
 
@@ -17348,38 +16362,17 @@ sufren 1d6 de daño de frío. Hasta que el conjuro termine,
 
 la zona es terreno difícil y está muy oscura. Además,
 
-es imposible hacer ataques con armas a distancia, ya que
+i   es imposible hacer ataques con armas a distancia, ya que
 
 un fuerte viento sopla en toda la zona.
 
-o vista nadie empezarán a arder.
-
-LA MAGA JALLARZI HACE QUE UNOS VROCKS SE ARREPIENTAN
-
-Xx
+2                        Xx
 
 “TORMENTA DE METEORITOS
 
-DE HABER SALIDO DEL ABISMO.
-
-Pg
-
----
-
-#### Tormenta Resplandeciente de Jallarzi
-*Evocación de nivel 9 (hechicero, mago)*
-
-Evocación de nivel 5 (brujo, mago)
+Evocación de nivel 9 (hechicero, mago)
 
 Tiempo de lanzamiento: Acción
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 36 m
-
-Componentes: V, S, M (una pizca de fósforo)
-
-Duración: Concentración, hasta 1 minuto
 
 Alcance: 1,5 km
 
@@ -17401,6 +16394,35 @@ Sufrirán 20d6 de daño de fuego y 20d6 de daño
 
 contundente si la fallan o la mitad del daño si la superan.
 
+Las criaturas que estén situadas en el área de efecto
+
+de más de una de las esferas ardientes solo se verán
+
+afectadas por una.
+
+Los objetos no mágicos que se encuentren dentro
+
+del área del conjuro también recibirán el daño, salvo
+
+silos lleva o viste una criatura, y empezarán a arder
+
+si son inflamables.
+
+LA MAGA JALLARZI HACE QUE UNOS VROCKS SE ARREPIENTAN
+
+DE HABER SALIDO DEL ABISMO.
+
+Pg
+
+---
+
+#### Tormenta Resplandeciente de Jallarzi
+*Evocación de nivel 5 (brujo, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 36 m
+- **Componentes:** V, S, M (una pizca de fósforo)
+- **Duración:** Concentración, hasta 1 minuto
+
 Desatas una tormenta de luz intermitente y truenos
 
 intensos en un cilindro de 3 m de radio diámetro y 12 m
@@ -17415,29 +16437,15 @@ conjuros que tengan un componente verbal.
 
 Cuando aparezca la tormenta, todas las criaturas
 
-Las criaturas que estén situadas en el área de efecto
-
 dentro de ella harán una tirada de salvación de
-
-afectadas por una.
-
-de daño de trueno si la fallan o la mitad del daño si la
-
-del área del conjuro también recibirán el daño, salvo
-
-silos lleva o viste una criatura, y empezarán a arder
-
-entre en el área del conjuro por primera vez en un turno
-
-de más de una de las esferas ardientes solo se verán
-
-Los objetos no mágicos que se encuentren dentro
-
-si son inflamables.
 
 Constitución; sufrirán 2d10 de daño radiante y 2d10
 
+de daño de trueno si la fallan o la mitad del daño si la
+
 superan. Una criatura también hará esta tirada cuando
+
+entre en el área del conjuro por primera vez en un turno
 
 o termine su turno allí. Una criatura solo hace esta tirada
 
@@ -17449,23 +16457,14 @@ radiante y de trueno aumenta en 1d10 por cada nivel
 
 por encima de 5 que tenga el espacio.
 
-TREPAR CUAL ARÁCNIDO
+---
 
-TSUNAMI
-
-Tiempo de lanzamiento: Acción
-
-Alcance: Toque
-
-Tiempo de lanzamiento: 1 minuto
-
-Duración: Concentración, hasta 1 hora
-
-Duración: Concentración, hasta 6 asaltos
-
-Transmutación de nivel 2 (brujo, hechicero, mago)
-
-Componentes: V, S, M (una gota de betún y una araña)
+#### Trepar Cual Arácnido
+*Transmutación de nivel 2 (brujo, hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Toque
+- **Componentes:** V, S, M (una gota de betún y una araña)
+- **Duración:** Concentración, hasta 1 hora
 
 Hasta que el conjuro termine, una criatura voluntaria
 
@@ -17488,47 +16487,11 @@ por encima de 2 que tenga el espacio.
 ---
 
 #### Tronar
-*Conjuración de nivel 8 (druida)*
-- **Alcance:** 1,5 km
-- **Componentes:** V, S
-
-Un muro de agua surge de la nada en un punto de tu
-
-elección dentro del alcance. Puedes hacerlo de hasta 90 m
-
-de longitud, 90 m de alto y 15 m de grosor y durará hasta
-
-que termine el conjuro.
-
-Cuando aparezca el muro, todas las criaturas situadas
-
-en su área hacen una tirada de salvación de Fuerza;
-
-sufrirán 6d10 de daño contundente si la fallan o la mitad
-
-de daño si la superan.
-
-Al principio de cada uno de tus turnos tras la aparición
-
-del muro, se alejará 15 m de tijunto con todas las criaturas
-
-que haya en su interior. Cualquier criatura Enorme o más
-
-pequeña dentro del muro, o a cuyo espacio entre el muro
-
-Truco de evocación (bardo, brujo, druida, hechicero, mago)
-
-cuando este se mueva, deberá superar una tirada de
-
-Tiempo de lanzamiento: Acción
-
-Alcance: Lanzador
-
-Una criatura solo puede sufrir este daño una vez por
-
-Componentes: S
-
-Duración: Instantáneo
+*Truco de evocación (bardo, brujo, druida, hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Lanzador
+- **Componentes:** S
+- **Duración:** Instantáneo
 
 Todas las criaturas situadas en una emanación de
 
@@ -17558,7 +16521,70 @@ Duración: 1 hora
 
 Tocas una cuerda, lo que hace que uno de sus extremos
 
+flote hacia arriba hasta que la cuerda se ponga
+
+perpendicular al suelo o toque un techo. En el extremo
+
+superior de la cuerda se abre un portal invisible de 0,9 m
+
+por 1,5 m, el cual conduce a un espacio extradimensional
+
+que dura hasta que el conjuro termine. Este espacio puede
+
+alcanzarse trepando por la cuerda, que puede recogerse
+
+o soltarse desde el interior.
+
+En el espacio caben hasta ocho criaturas Medianas
+
+o más pequeñas. Los ataques, conjuros y otros efectos
+
+no pueden cruzar el espacio en ningún sentido, pero las
+
+criaturas que están dentro pueden ver a través del portal.
+
+Todo lo que esté dentro del espacio caerá fuera cuando
+
+el conjuro termine.
+
+---
+
+#### Tsunami
+*Conjuración de nivel 8 (druida)*
+- **Tiempo de lanzamiento:** 1 minuto
+- **Alcance:** 1,5 km
+- **Componentes:** V, S
+- **Duración:** Concentración, hasta 6 asaltos
+
+Un muro de agua surge de la nada en un punto de tu
+
+elección dentro del alcance. Puedes hacerlo de hasta 90 m
+
+de longitud, 90 m de alto y 15 m de grosor y durará hasta
+
+que termine el conjuro.
+
+Cuando aparezca el muro, todas las criaturas situadas
+
+en su área hacen una tirada de salvación de Fuerza;
+
+sufrirán 6d10 de daño contundente si la fallan o la mitad
+
+de daño si la superan.
+
+Al principio de cada uno de tus turnos tras la aparición
+
+del muro, se alejará 15 m de tijunto con todas las criaturas
+
+que haya en su interior. Cualquier criatura Enorme o más
+
+pequeña dentro del muro, o a cuyo espacio entre el muro
+
+cuando este se mueva, deberá superar una tirada de
+
 salvación de Fuerza o sufrirá 5d10 de daño contundente.
+
+Una criatura solo puede sufrir este daño una vez por
 
 asalto. Al final del turno, la altura del muro se reduce en
 
@@ -17592,39 +16618,15 @@ que valga al menos 500 po)
 
 Duración: Hasta que sea disipado
 
-flote hacia arriba hasta que la cuerda se ponga
-
 Tu cuerpo entra en estado catatónico y tu alma lo
 
-superior de la cuerda se abre un portal invisible de 0,9 m
+abandona y entra en el recipiente que has usado como
 
 componente material del conjuro. Mientras tu alma esté
 
 dentro del recipiente, serás consciente de lo que te rodea,
 
 igual que si estuvieras en el espacio de dicho recipiente.
-
-perpendicular al suelo o toque un techo. En el extremo
-
-por 1,5 m, el cual conduce a un espacio extradimensional
-
-que dura hasta que el conjuro termine. Este espacio puede
-
-alcanzarse trepando por la cuerda, que puede recogerse
-
-o soltarse desde el interior.
-
-En el espacio caben hasta ocho criaturas Medianas
-
-o más pequeñas. Los ataques, conjuros y otros efectos
-
-no pueden cruzar el espacio en ningún sentido, pero las
-
-criaturas que están dentro pueden ver a través del portal.
-
-Todo lo que esté dentro del espacio caerá fuera cuando
-
-abandona y entra en el recipiente que has usado como
 
 No podrás moverte ni llevar a cabo reacciones. La única
 
@@ -17635,8 +16637,6 @@ acción que puedes realizar es proyectar tu alma hasta
 (y poner fin al conjuro) o bien para tratar de poseer el
 
 cuerpo de un humanoide.
-
-el conjuro termine.
 
 Puedes intentar poseer a cualquier humanoide que
 
@@ -17656,7 +16656,7 @@ tus esfuerzos por poseerlo y no podrás volver a intentarlo
 
 durante 24 horas.
 
-En cuanto posees el cuerpo de una criatura, lo controlas.
+En cuanto posees el cuerpo de una criatura, lo controlas
 
 Tus puntos de golpe, dados de puntos de golpe, Fuerza,
 
@@ -17675,44 +16675,6 @@ de incapacitada.
 Mientras posees un cuerpo, puedes usar una
 
 acción de magia para volver del cuerpo anfitrión al
-
-Tú y hasta diez criaturas voluntarias que elijas dentro
-
-del alcance asumís formas gaseosas hasta que termine
-
-el conjuro y tenéis la apariencia de jirones de nubes.
-
-En esta forma de nube, un objetivo tiene una velocidad
-
-volando de 90 m, puede levitar, tiene inmunidad al
-
-estado de derribado y resistencia al daño contundente,
-
-cortante y perforante. Las únicas acciones que puede
-
-realizar un objetivo en esta forma son la acción de correr
-
-o una acción de magia para empezar a volver a su forma
-
-normal. Recuperarla lleva 1 minuto, durante el cual el
-
-objetivo tendrá el estado de aturdido. Hasta que el conjuro
-
-termine, el objetivo puede volver a la forma de nube,
-
-lo que también requiere una acción de magia seguida
-
-de una transformación de 1 minuto.
-
-Si un objetivo se encuentra en forma de nube y volando
-
-cuando el efecto termina, desciende 18 m por asalto
-
-durante 1 minuto hasta aterrizar, lo que hace sin ningún
-
-peligro. Si transcurrido ese minuto no ha aterrizado,
-
-caerá la distancia restante.
 
 recipiente si está a 30 m o menos de ti, lo que hace que
 
@@ -17738,13 +16700,75 @@ criatura está en el recipiente cuando es destruido, esa
 
 alma volverá a su cuerpo, siempre y cuando esté vivo
 
-y
-
-a30 m o menos de ella. De lo contrario, esa criatura
+y    a30 m o menos de ella. De lo contrario, esa criatura
 
 morirá.
 
 Cuando el conjuro termine, el recipiente se destruirá.
+
+---
+
+#### Ver Invisibilidad
+*Adivinación de nivel 2 (bardo, hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Lanzador
+- **Componentes:** V, S, M (una pizca de talco)
+- **Duración:** 1 hora
+
+Hasta que termine el conjuro, ves a las criaturas y objetos
+
+que tengan el estado de invisibles como si fueran visibles
+
+y puedes ver en el Plano Etéreo. Las criaturas y objetos
+
+que haya en él tendrán un aspecto fantasmal.
+
+---
+
+#### Viajar con el Viento
+*Transmutación de nivel 6 (druida)*
+- **Tiempo de lanzamiento:** 1 minuto
+- **Alcance:** 9 m
+- **Componentes:** V, S, M (una vela)
+- **Duración:** 8 horas
+
+Tú y hasta diez criaturas voluntarias que elijas dentro
+
+del alcance asumís formas gaseosas hasta que termine
+
+el conjuro y tenéis la apariencia de jirones de nubes.
+
+En esta forma de nube, un objetivo tiene una velocidad
+
+volando de 90 m, puede levitar, tiene inmunidad al
+
+estado de derribado y resistencia al daño contundente,
+
+cortante y perforante. Las únicas acciones que puede
+
+realizar un objetivo en esta forma son la acción de correr
+
+o una acción de magia para empezar a volver a su forma
+
+.   normal. Recuperarla lleva 1 minuto, durante el cual el
+
+objetivo tendrá el estado de aturdido. Hasta que el conjuro
+
+termine, el objetivo puede volver a la forma de nube,
+
+lo que también requiere una acción de magia seguida
+
+de una transformación de 1 minuto.
+
+Si un objetivo se encuentra en forma de nube y volando
+
+cuando el efecto termina, desciende 18 m por asalto
+
+durante 1 minuto hasta aterrizar, lo que hace sin ningún
+
+peligro. Si transcurrido ese minuto no ha aterrizado,
+
+caerá la distancia restante.
 
 ---
 
@@ -17753,9 +16777,7 @@ Cuando el conjuro termine, el recipiente se destruirá.
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** 3 m
 - **Componentes:** V, S
-- **Duración:** 
-
-1 minuto
+- **Duración:** 1 minuto
 
 Este conjuro crea un vínculo mágico entre una planta
 
@@ -17775,44 +16797,14 @@ movimiento.
 
 ---
 
-#### Ver Invisibilidad
-*Adivinación de nivel 2 (bardo, hechicero, mago)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** Lanzador
-- **Componentes:** V, S, M (una pizca de talco)
-- **Duración:** 1 hora
-
-
-
----
-
 #### Vigor Arcano
 *Abjuración de nivel 2 (hechicero, mago)*
 - **Tiempo de lanzamiento:** Acción adicional
 - **Alcance:** Lanzador
-
-Hasta que termine el conjuro, ves a las criaturas y objetos
-
-Componentes: V, S
-
-Duración: Instantáneo
-
-y puedes ver en el Plano Etéreo. Las criaturas y objetos
+- **Componentes:** V, S
+- **Duración:** Instantáneo
 
 Recurres a tu fuerza vital para curarte. Tira uno o dos de
-
-que tengan el estado de invisibles como si fueran visibles
-
-que haya en él tendrán un aspecto fantasmal.
-
----
-
-#### Viajar con el Viento
-*Transmutación de nivel 6 (druida)*
-- **Tiempo de lanzamiento:** 1 minuto
-- **Alcance:** 9 m
-- **Componentes:** V, S, M (una vela)
-- **Duración:** 8 horas
 
 tus dados de puntos de golpe no gastados para recuperar
 
@@ -17827,8 +16819,6 @@ Con un espacio de conjuro de nivel superior. La cantidad
 de dados de golpe no gastados que puedes tirar aumenta
 
 en uno por cada nivel por encima de 2 que tenga el espacio.
-
-Con un espacio de conjuro de nivel superior. Puedes
 
 ---
 
@@ -17864,6 +16854,60 @@ a O o si el objetivo y tú os separáis más de 18 m. También
 
 termina si se lanza otra vez sobre cualquiera de las dos
 
+criaturas conectadas.
+
+---
+
+#### Visión en la Oscuridad
+*Transmutación de nivel 2 (druida, explorador, hechicero, mag*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Toque
+- **Componentes:** V, S, M (una zanahoria seca)
+- **Duración:** 8 horas
+
+Hasta que el conjuro termine, una criatura voluntaria
+
+a la que toques tendrá visión en la oscuridad hasta 45 m.
+
+---
+
+#### Visión Veraz
+*Adivinación de nivel 6 (bardo, brujo, clérigo, hechicero, ma*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Toque
+- **Componentes:** V, S, M (hongos pulverizados que valgan
+
+al menos 25 po, que se consumen como parte del
+
+conjuro)
+
+Duración: 1 hora
+
+Hasta que el conjuro termine, la criatura voluntaria
+
+ala que toques tendrá visión verdadera hasta 36 m.
+
+---
+
+#### Volar
+*Transmutación de nivel 3 (brujo, hechicero, mago)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Toque
+- **Componentes:** V, S, M (una pluma)
+- **Duración:** Concentración, hasta 10 minutos
+
+Tocas a una criatura voluntaria. Hasta que el conjuro
+
+termine, el objetivo consigue una velocidad volando
+
+de 18 m y puede levitar. Cuando el conjuro termine,
+
+el objetivo caerá si aún está en el aire, excepto si puede
+
+detener la caída.
+
+Con un espacio de conjuro de nivel superior. Puedes
+
 hacer objetivo a una criatura adicional por cada nivel
 
 por encima de 3 que tenga el espacio.
@@ -17893,34 +16937,13 @@ Mejora de truco. El daño aumenta en 1d8 cuando
 
 alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).
 
-criaturas conectadas.
-
 ---
 
-#### Zancada Prodigiosa Visión en la Oscuridad
+#### Zancada Prodigiosa
 *Transmutación de nivel 1 (bardo, druida, explorador, mago)*
-
-Transmutación de nivel 2 (druida, explorador, hechicero, mago)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: Toque
-
-Tiempo de lanzamiento: Acción
-
-Alcance: Toque
-
-Componentes: V, S, M (una zanahoria seca)
-
-Duración: 8 horas
-
-Hasta que el conjuro termine, una criatura voluntaria
-
-a la que toques tendrá visión en la oscuridad hasta 45 m.
-
-Componentes: V, S, M (una pizca de tierra)
-
-Duración:1 hora
+- **Alcance:** Toque
+- **Componentes:** V, S, M (una pizca de tierra)
+- **Duración:** 1 hora
 
 Tocas a una criatura y su velocidad aumenta en 3 m hasta
 
@@ -17932,44 +16955,24 @@ hacer objetivo a una criatura adicional por cada nivel
 
 por encima de 1 que tenga el espacio.
 
+go)
+
 ---
 
-#### Visión Veraz
-*Adivinación de nivel 6 (bardo, brujo, clérigo, hechicero, mago)*
-
-ZONA DE LA VERDAD
-
-Tiempo de lanzamiento: Acción
-
-Alcance: Toque
-
-Componentes: V, S, M (hongos pulverizados que valgan
-
-al menos 25 po, que se consumen como parte del
-
-Tiempo de lanzamiento: Acción
-
-Duración: 1 hora
-
-Duración: 10 minutos
-
-Hasta que el conjuro termine, la criatura voluntaria
+#### Zona de la Verdad
+*Encantamiento de nivel2 (bardo, clérigo, paladín)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 18 m
+- **Componentes:** V, S
+- **Duración:** 10 minutos
 
 Creas una zona mágica que protege contra el engaño
 
-conjuro)
-
-Encantamiento de nivel2 (bardo, clérigo, paladín)
-
-Alcance: 18 m
-
-Componentes: V, S
-
-ala que toques tendrá visión verdadera hasta 36 m.
-
 en una esfera de 4,5 m de radio centrada en un punto
 
-VOLAR
+dentro del alcance. Hasta que el conjuro termine, una
+
+criatura que entre en la zona del conjuro por primera
 
 vez en un turno o comience su turno allí realizará una
 
@@ -17978,24 +16981,6 @@ tirada de salvación de Carisma. Si la falla, no podrá decir
 una mentira voluntariamente mientras esté en el radio
 
 del conjuro. Sabrás si una criatura supera o falla esta
-
-Transmutación de nivel 3 (brujo, hechicero, mago)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: Toque
-
-Componentes: V, S, M (una pluma)
-
-Duración: Concentración, hasta 10 minutos
-
-Tocas a una criatura voluntaria. Hasta que el conjuro
-
-termine, el objetivo consigue una velocidad volando
-
-dentro del alcance. Hasta que el conjuro termine, una
-
-criatura que entre en la zona del conjuro por primera
 
 tirada.
 
@@ -18006,9 +16991,3 @@ evitar responder a preguntas a las que normalmente
 respondería con una mentira. Dicha criatura puede dar
 
 respuestas evasivas, pero deberá ser sincera.
-
-de 18 m y puede levitar. Cuando el conjuro termine,
-
-el objetivo caerá si aún está en el aire, excepto si puede
-
-detener la caída.
