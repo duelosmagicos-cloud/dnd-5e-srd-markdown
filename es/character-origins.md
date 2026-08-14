@@ -2,373 +2,363 @@
 
 ## Trasfondos de los Personajes
 
-El trasfondo de tu personaje es una colección de características que representan el lugar y la ocupación que fueron más formativos antes de que tu personaje se embarcara en una vida de aventuras.
+El trasfondo de tu personaje es una compilación de características que representan el lugar y la ocupación que hayan sido más relevantes para tu personaje antes de convertirse en aventurero. Cada trasfondo incluye un breve relato de cómo podría haber sido el pasado de tu personaje. Puedes alterar a tu gusto los detalles de esos relatos.
 
 ### Partes de un Trasfondo
 
-Un trasfondo incluye las siguientes partes.
+Un trasfondo consta de las siguientes partes:
 
-#### Puntuaciones de Característica
+- **Puntuaciones de característica.** El trasfondo indica tres puntuaciones de característica de tu personaje. Aumenta una de ellas en 2 y otra en 1, o aumenta las tres en 1. Estos aumentos no pueden hacer que una puntuación sea superior a 20.
+- **Dote.** El trasfondo aporta a tu personaje una determinada dote de origen (descritas en el capítulo 5).
+- **Competencias en habilidades.** El trasfondo proporciona a tu personaje competencia en dos habilidades determinadas.
+- **Competencia con herramientas.** El trasfondo proporciona a tu personaje competencia con una herramienta, ya sea una herramienta específica o una elegida de la categoría de herramientas de artesano.
+- **Equipo.** El trasfondo te da la opción de elegir entre un paquete de equipo o 50 po.
 
-Un trasfondo enumera tres de las puntuaciones de característica de tu personaje. Incrementa una en 2 y otra en 1, o incrementa las tres en 1. Ninguno de estos incrementos puede elevar una puntuación por encima de 20.
-
-#### Dote
-
-Un trasfondo otorga a tu personaje una dote de Origen específica (descrita en "Dotes").
-
-#### Competencias en Habilidades
-
-Un trasfondo otorga a tu personaje competencia en dos habilidades específicas.
-
-#### Competencia con Herramientas
-
-Cada trasfondo otorga a un personaje competencia con una herramienta —ya sea una herramienta específica o una elegida de la categoría de Herramientas de Artesano. Las herramientas se dotean en "Equipo".
-
-#### Equipo
-
-Cada trasfondo ofrece una opción entre un paquete de equipo y 50 po.
-
-### Descripciones de los Trasfondos
+### Descripciones de Trasfondos
 
 #### Acólito
+**Puntuaciones de característica:** Inteligencia, Sabiduría, Carisma
+**Dote:** Iniciado en la magia (clérigo)
+**Competencias en habilidades:** Perspicacia y Religión
+**Competencia con herramientas:** suministros de calígrafo
+**Equipo:** Elige A o B: (A) suministros de calígrafo, libro (de oraciones), pergamino (10 hojas), símbolo sagrado, túnica y 8 po, o (B) 50 po
 
-**Puntuaciones de Característica:** Inteligencia, Sabiduría, Carisma
-**Dote:** Iniciado en la Magia (Clérigo) (ver "Dotes")
-**Competencias en Habilidades:** Perspicacia y Religión
-**Competencia con Herramientas:** Suministros de calígrafo
-**Equipo:** _Elige A o B:_ (A) Suministros de calígrafo, libro (oraciones), símbolo sagrado, pergamino (10 hojas), túnica, 8 po; o (B) 50 po
+Dedicabas tu vida al servicio de un templo enclavado en un pueblo o apartado en un bosquecillo sagrado. En él, realizabas ceremonias en honor a un dios o panteón. Servías a las órdenes de un sacerdote y estudiaste la religión. Gracias a la tutela de ese sacerdote y a tu propia devoción, también aprendiste a canalizar un ápice de poder divino al servicio de tu lugar de culto y de la gente que rezaba en él.
+
+#### Animador
+**Puntuaciones de característica:** Fuerza, Destreza, Carisma
+**Dote:** Músico
+**Competencias en habilidades:** Acrobacias e Interpretación
+**Competencia con herramientas:** elige un tipo de instrumento musical
+**Equipo:** Elige A o B: (A) instrumento musical (el mismo que arriba), 2 disfraces, espejo, perfume, ropas de viaje y 11 po, o (B) 50 po
+
+Pasaste buena parte de tu juventud recorriendo ferias y festivales en los que desempeñabas tareas diversas para músicos y acróbatas a cambio de que te formaran. Quizá aprendiste a caminar sobre la cuerda floja, a tocar el laúd con un estilo particular o a recitar poesía con una dicción impecable. Aún hoy te creces con los aplausos y anhelas subir al escenario.
+
+#### Artesano
+**Puntuaciones de característica:** Fuerza, Destreza, Inteligencia
+**Dote:** Fabricante
+**Competencias en habilidades:** Investigación y Persuasión
+**Competencia con herramientas:** elige un tipo de herramientas de artesano
+**Equipo:** Elige A o B: (A) herramientas de artesano (las mismas que arriba), 2 bolsas, ropas de viaje y 32 po, o (B) 50 po
+
+Comenzaste barriendo suelos y fregando las mesas del taller de un artesano a cambio de unas monedas al día en cuanto tuviste fuerza suficiente para levantar un cubo. Cuando alcanzaste la edad necesaria para convertirte en aprendiz, empezaste a crear tus propias obras básicas, así como a camelarte a los clientes exigentes que de vez en cuando llamaban a vuestra puerta. Tu oficio te brindó también un buen ojo para los detalles.
+
+#### Campesino
+**Puntuaciones de característica:** Fuerza, Constitución, Sabiduría
+**Dote:** Duro
+**Competencias en habilidades:** Naturaleza y Trato con animales
+**Competencia con herramientas:** herramientas de carpintero
+**Equipo:** Elige A o B: (A) hoz, herramientas de carpintero, útiles de sanador, olla de hierro, pala, ropas de viaje y 30 po, o (B) 50 po
+
+Te criaste en el campo. Los años cuidando animales y cultivando la tierra te recompensaron con paciencia y una salud de hierro. Sientes un gran aprecio por la generosidad de la naturaleza y un prudente respeto por su ira.
+
+#### Charlatán
+**Puntuaciones de característica:** Destreza, Constitución, Carisma
+**Dote:** Habilidoso
+**Competencias en habilidades:** Engaño y Juego de manos
+**Competencia con herramientas:** útiles para falsificar
+**Equipo:** Elige A o B: (A) útiles para falsificar, disfraz, ropas de calidad y 15 po, o (B) 50 po
+
+En cuanto tuviste edad suficiente para pedir una pinta, no tardaste en apropiarte de un taburete en cada taberna a 10 km a la redonda del lugar en que naciste. Mientras recorrías bares y antros, aprendiste a aprovecharte de los desafortunados que se dejaban colar alguna mentira reconfortante o dos, como una poción falsa o un árbol genealógico falsificado.
+
+#### Comerciante
+**Puntuaciones de característica:** Constitución, Inteligencia, Carisma
+**Dote:** Afortunado
+**Competencias en habilidades:** Persuasión y Trato con animales
+**Competencia con herramientas:** herramientas de navegante
+**Equipo:** Elige A o B: (A) herramientas de navegante, 2 bolsas, ropas de viaje y 22 po, o (B) 50 po
+
+Fuiste aprendiz de un comerciante, caravanero o tendero y aprendiste los rudimentos del comercio. Viajabas por todas partes y te ganabas la vida comprando y vendiendo las materias primas que los artesanos necesitaban para sus creaciones o las obras acabadas de aquellos profesionales. Quizá transportabas mercancías de un lugar a otro en barco, carro o en caravana, o se las comprabas a mercaderes ambulantes y las vendías en tu propia tienda.
 
 #### Criminal
+**Puntuaciones de característica:** Destreza, Constitución, Inteligencia
+**Dote:** Alerta
+**Competencias en habilidades:** Juego de manos y Sigilo
+**Competencia con herramientas:** herramientas de ladrón
+**Equipo:** Elige A o B: (A) 2 dagas, herramientas de ladrón, 2 bolsas, palanqueta, ropas de viaje y 16 po, o (B) 50 po
 
-**Puntuaciones de Característica:** Destreza, Constitución, Inteligencia
-**Dote:** Alerta (ver "Dotes")
-**Competencias en Habilidades:** Juego de Manos y Sigilo
-**Competencia con Herramientas:** Herramientas de ladrón
-**Equipo:** _Elige A o B:_ (A) 2 dagas, herramientas de ladrón, palanqueta, 2 bolsas, ropa de viajero, 16 po; o (B) 50 po
+Te buscabas la vida en los callejones oscuros, birlando carteras o robando en comercios. Quizá formabas parte de una pequeña banda de malhechores con ideas afines y dispuestos a echarse una mano. O puede que fueras un lobo solitario que se desmarcaba del gremio de ladrones local y de otros delincuentes más temibles.
 
-#### Sabio
+#### Ermitaño
+**Puntuaciones de característica:** Constitución, Sabiduría, Carisma
+**Dote:** Sanador
+**Competencias en habilidades:** Medicina y Religión
+**Competencia con herramientas:** útiles de herborista
+**Equipo:** Elige A o B: (A) bastón, útiles de herborista, aceite (3 frascos), lámpara, libro (de filosofía), petate, ropas de viaje y 16 po, o (B) 50 po
 
-**Puntuaciones de Característica:** Constitución, Inteligencia, Sabiduría
-**Dote:** Iniciado en la Magia (Mago) (ver "Dotes")
-**Competencias en Habilidades:** Conocimiento Arcano e Historia
-**Competencia con Herramientas:** Suministros de calígrafo
-**Equipo:** _Elige A o B:_ (A) Bastón, suministros de calígrafo, libro (historia), pergamino (8 hojas), túnica, 8 po; o (B) 50 po
+Te pasaste los años de juventud en un refugio o monasterio situado en medio de la nada. En aquella época, tu única compañía eran las criaturas del bosque y las visitas esporádicas que traían noticias del exterior y suministros. La soledad te permitió reflexionar durante muchas horas acerca de los misterios de la creación.
+
+#### Erudito
+**Puntuaciones de característica:** Constitución, Inteligencia, Sabiduría
+**Dote:** Iniciado en la magia (mago)
+**Competencias en habilidades:** Conocimiento arcano e Historia
+**Competencia con herramientas:** suministros de calígrafo
+**Equipo:** Elige A o B: (A) bastón, suministros de calígrafo, libro (de historia), pergamino (3 hojas), túnica y 8 po, o (B) 50 po
+
+Pasaste tus años formativos viajando entre palacetes y monasterios, desempeñando diversos oficios y servicios para que te dejaran acceder a sus bibliotecas. Dedicaste muchas tardes a estudiar libros y pergaminos para adquirir conocimientos acerca del multiverso e incluso los rudimentos de la magia, y tu mente ansía tener ciertos conocimientos que creas poder hallar explorando el mundo.
+
+#### Escriba
+**Puntuaciones de característica:** Destreza, Inteligencia, Sabiduría
+**Dote:** Habilidoso
+**Competencias en habilidades:** Investigación y Percepción
+**Competencia con herramientas:** suministros de calígrafo
+**Equipo:** Elige A o B: (A) suministros de calígrafo, aceite (3 frascos), lámpara, pergamino (12 hojas), ropas de calidad y 23 po, o (B) 50 po
+
+Pasaste tus años de formación en un scriptorium, un monasterio consagrado a la conservación del conocimiento o un organismo gubernamental, donde aprendiste a escribir con letra clara y producir textos exquisitos. Quizá transcribías documentos oficiales o copiabas tomos de literatura. Podrías tener ciertas cualidades para la poesía, la narrativa o la investigación. Sobre todo, prestas mucha atención a los detalles, lo que te impide cometer errores en los documentos que copias y creas.
+
+#### Guardia
+**Puntuaciones de característica:** Fuerza, Inteligencia, Sabiduría
+**Dote:** Alerta
+**Competencias en habilidades:** Atletismo y Percepción
+**Competencia con herramientas:** elige un tipo de juego
+**Equipo:** Elige A o B: (A) lanza, ballesta ligera, 20 virotes, juego (el mismo que arriba), aljaba, esposas, linterna sorda, ropas de viaje y 12 po, o (B) 50 po
+
+Te duelen los pies al recordar las innumerables horas pasadas en tu puesto de la torre. Te entrenaron para permanecer ojo avizor ante lo que acontecía extramuros, en busca de merodeadores ocultos en el bosque, a la par que estabas pendiente de los posibles rateros y pendencieros de intramuros.
+
+#### Guía
+**Puntuaciones de característica:** Destreza, Constitución, Sabiduría
+**Dote:** Iniciado en la magia (druida)
+**Competencias en habilidades:** Sigilo y Supervivencia
+**Competencia con herramientas:** herramientas de cartógrafo
+**Equipo:** Elige A o B: (A) arco corto, 20 flechas, herramientas de cartógrafo, aljaba, petate, tienda, ropas de viaje y 3 po, o (B) 50 po
+
+Alcanzaste la mayoría de edad en plena naturaleza, lejos de tierras pobladas. Tu hogar era cualquier sitio donde pudieras extender tu petate. Las tierras salvajes están llenas de maravillas (monstruos extraños, bosques y arroyos inmaculados, ruinas descuidadas de grandes salones otrora recorridos por gigantes) y aprendiste a valértelas por tu cuenta al explorarlas. De vez en cuando, servías de guía a sacerdotes de la naturaleza que te enseñaron los fundamentos para canalizar la magia de la tierra.
+
+#### Marinero
+**Puntuaciones de característica:** Fuerza, Destreza, Sabiduría
+**Dote:** Matón de taberna
+**Competencias en habilidades:** Acrobacias y Percepción
+**Competencia con herramientas:** herramientas de navegante
+**Equipo:** Elige A o B: (A) daga, herramientas de navegante, cuerda, ropas de viaje y 20 po, o (B) 50 po
+
+Llevaste una vida en la mar, con el viento en popa y las cubiertas meciéndose bajo tus pies. Visitaste más tabernas de los puertos de escala de las que puedes recordar, te enfrentaste a grandes tormentas e intercambiaste anécdotas con gente que vivía bajo las olas.
+
+#### Noble
+**Puntuaciones de característica:** Fuerza, Inteligencia, Carisma
+**Dote:** Habilidoso
+**Competencias en habilidades:** Historia y Persuasión
+**Competencia con herramientas:** elige un tipo de juego
+**Equipo:** Elige A o B: (A) juego (el mismo que arriba), perfume, ropas de calidad y 29 po, o (B) 50 po
+
+Te criaste en un castillo entre riqueza, poder y privilegios. Tu familia de aristócratas menores procuró que recibieras la mejor educación, parte de la cual apreciabas y parte de la cual aborrecías. El tiempo que pasaste en el castillo, en especial las muchas horas que dedicabas a observar a tu familia en la corte, también te aportó amplios conocimientos sobre el liderazgo.
 
 #### Soldado
+**Puntuaciones de característica:** Fuerza, Destreza, Constitución
+**Dote:** Atacante salvaje
+**Competencias en habilidades:** Atletismo e Intimidación
+**Competencia con herramientas:** elige un tipo de juego
+**Equipo:** Elige A o B: (A) lanza, arco corto, 20 flechas, aljaba, juego (el mismo que arriba), útiles de sanador, ropas de viaje y 14 po, o (B) 50 po
 
-**Puntuaciones de Característica:** Fuerza, Destreza, Constitución
-**Dote:** Atacante Salvaje (ver "Dotes")
-**Competencias en Habilidades:** Atletismo e Intimidación
-**Competencia con Herramientas:** _Elige un tipo de_ Juego de Tablero (ver "Equipo")
-**Equipo:** _Elige A o B:_ (A) Lanza, arco corto, 20 flechas, juego de tablero (el mismo elegido arriba), estuche de curandero, carcaj, ropa de viajero, 14 po; o (B) 50 po
+Comenzaste a entrenarte para la guerra nada más llegar a la edad adulta y tienes pocos recuerdos preciados de tu vida anterior a tomar las armas. Luchar es parte de tu identidad y a veces realizas sin darte cuenta los primeros ejercicios básicos de combate que aprendiste. En algún momento, sacaste partido a tu entrenamiento en el campo de batalla y protegiste el reino.
 
-## Razas/Especies de los Personajes
+#### Vagabundo
+**Puntuaciones de característica:** Destreza, Sabiduría, Carisma
+**Dote:** Afortunado
+**Competencias en habilidades:** Perspicacia y Sigilo
+**Competencia con herramientas:** herramientas de ladrón
+**Equipo:** Elige A o B: (A) 2 dagas, herramientas de ladrón, juego (cualquiera), 2 bolsas, petate, ropas de viaje y 16 po, o (B) 50 po
 
-Cuando eliges la especie de tu personaje, determinas si tu personaje es un humano o un miembro de una especie fantástica, como un draconiano o un gnomo.
+Creciste en las calles junto a personas con expectativas tan aciagas como las tuyas, entre las que había algunas amistades y algunos rivales. Dormías donde podías y hacías encargos ocasionales a cambio de comida. A veces, cuando el hambre se volvía insoportable, recurrías al robo. Sin embargo, nunca renunciaste a tu orgullo ni perdiste la esperanza. El destino aún tiene algo reservado para ti.
 
-Los pueblos del multiverso provienen de diferentes mundos e incluyen muchos tipos de formas de vida conscientes. La especie de un personaje jugador es el conjunto de rasgos de juego que un aventurero obtiene por ser una de esas formas de vida.
+## Especies de los Personajes
 
-Algunas especies pueden rastrear su origen hasta un solo mundo, plano de existencia o dios, mientras que otras especies aparecieron por primera vez en múltiples reinos a la vez. Cualquiera que sea la génesis de una especie, sus miembros se han extendido por todo el multiverso y contribuyen a muchos culturas diferentes.
+Cuando escoges la especie de tu personaje, determinas si es humano o forma parte de una especie fantástica, como los dracónidos o los gnomos.
 
-Los miembros de la mayoría de las especies viven alrededor de 80 años, con excepciones indicadas en el texto sobre la especie en "Orígenes de los Personajes". Independientemente de la esperanza de vida, los miembros de todas las especies alcanzan la madurez física aproximadamente a la misma edad. Tu personaje puede tener cualquier edad que no supere la esperanza de vida normal de su especie.
+Los pueblos del multiverso proceden de mundos distintos e incluyen muchos tipos de formas de vida inteligente. La especie de un personaje es el conjunto de atributos del juego que un aventurero obtiene por ser una de estas formas de vida.
+
+Los miembros de la mayor parte de especies viven unos 80 años, salvo las excepciones indicadas en los textos sobre las especies. Sea cual sea su esperanza de vida, los miembros de todas las especies alcanzan la madurez física más o menos a la misma edad. Tu personaje puede tener los años que quieras mientras no superen la esperanza de vida habitual de la especie.
 
 ### Partes de una Especie
 
-Una especie incluye las siguientes partes.
+Una especie consta de las siguientes partes:
 
-#### Tipo de Criatura
-
-La especie de un personaje determina el tipo de criatura del personaje, el cual se describe en "Glosario de Reglas". Todas las especies en "Orígenes de los Personajes" son Humanoides; las especies jugables no humanoides aparecen en otros libros.
-
-#### Tamaño
-
-La especie de tu personaje determina su tamaño. Los individuos dentro de una especie abarcan una amplia gama de alturas, y algunas especies incluyen tal diversidad de tamaño que puedes elegir si tu personaje es Pequeño o Mediano.
-
-#### Velocidad
-
-La especie de tu personaje determina su Velocidad.
-
-#### Rasgos Especiales
-
-Cada especie otorga a un personaje rasgos especiales —características únicas basadas en la fisiología o naturaleza mágica de la especie. Cuando eliges una especie, tu personaje obtiene todos los rasgos especiales enumerados para ella. Algunos rasgos implican tomar una decisión entre un puñado de opciones.
+- **Tipo de criatura.** La especie de un personaje determina su tipo de criatura. Todas las especies de este capítulo son humanoides.
+- **Tamaño.** La especie de tu personaje determina su tamaño. En una especie puede haber individuos de una gran variedad de estaturas y algunas especies poseen tal diversidad de tamaños que puedes elegir si tu personaje es Pequeño o Mediano.
+- **Velocidad.** La especie de tu personaje determina su velocidad.
+- **Atributos especiales.** Cada especie aporta al personaje una serie de atributos especiales, que son capacidades distintivas que se basan en la fisiología o la naturaleza mágica de la especie.
 
 ### Descripciones de las Especies
 
-#### Dracónido (Dragonborn)
+En esta sección se presentan diez especies ordenadas alfabéticamente: aasimar, dracónido, elfo, enano, gnomo, goliat, humano, mediano, orco y tiefling.
 
-**Tipo de Criatura:** Humanoide
-**Tamaño:** Mediano (aproximadamente de 5 a 7 pies (1.5 a 2.1 metros) de altura)
-**Velocidad:** 30 pies (9 metros)
+#### Aasimar
 
-Como dracónido, tienes estos rasgos especiales.
+Los aasimars son mortales cuyas almas albergan una chispa de los Planos Superiores. Viven hasta 160 años y tienen rasgos que insinúan su herencia celestial.
 
-_Ascendencia Dracónica._ Tu linaje proviene de un progenitor dragón. Elige el tipo de dragón de la tabla Ancestros Dracónicos. Tu elección afecta a tus rasgos de Arma de Aliento y Resistencia al Daño, así como a tu apariencia.
+**Tipo de criatura:** humanoide
+**Tamaño:** Mediano (entre 1,2 y 2,1 m de altura) o Pequeño (entre 60 cm y 1,2 m de altura), elegido al seleccionar la especie
+**Velocidad:** 9 m
 
-**Ancestros Dracónicos**
+Como aasimar, tienes estos atributos especiales:
 
-<table>
-  <thead>
-    <tr>
-      <th>Dragón</th>
-      <th>Tipo de Daño</th>
-      <th>Dragón</th>
-      <th>Tipo de Daño</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Negro</td>
-      <td>Ácido</td>
-      <td>Dorado</td>
-      <td>Fuego</td>
-    </tr>
-    <tr>
-      <td>Azul</td>
-      <td>Relámpago</td>
-      <td>Verde</td>
-      <td>Veneno</td>
-    </tr>
-    <tr>
-      <td>Latón</td>
-      <td>Fuego</td>
-      <td>Rojo</td>
-      <td>Fuego</td>
-    </tr>
-    <tr>
-      <td>Bronce</td>
-      <td>Relámpago</td>
-      <td>Plata</td>
-      <td>Frío</td>
-    </tr>
-    <tr>
-      <td>Cobre</td>
-      <td>Ácido</td>
-      <td>Blanco</td>
-      <td>Frío</td>
-    </tr>
-  </tbody>
-</table>
+- **Manos curativas.** Como acción de magia, tocas a una criatura y tiras una cantidad de d4 igual a tu bonificador por competencia. La criatura recupera una cantidad de puntos de golpe igual al resultado total de la tirada. Cuando uses este atributo, no podrás volver a hacerlo hasta que finalices un descanso largo.
+- **Portador de luz.** Conoces el truco *luz*. El Carisma es tu aptitud mágica para lanzarlo.
+- **Resistencia celestial.** Tienes resistencia al daño necrótico y al radiante.
+- **Visión en la oscuridad.** Tienes visión en la oscuridad hasta 18 m.
+- **Revelación celestial.** Cuando alcanzas el nivel 3 de personaje, puedes transformarte como acción adicional y usar una de las opciones que aparecen a continuación (elige la opción cada vez que te transformes). La transformación dura 1 minuto o hasta que le pongas fin (no requiere acción). Cuando te transformes, no podrás volver a hacerlo hasta que finalices un descanso largo. Una vez en cada uno de tus turnos hasta que finalice la transformación, puedes infligir daño adicional a un objetivo cuando le hagas daño con un ataque o un conjuro. El daño adicional es igual a tu bonificador por competencia y el tipo es necrótico para Mortaja necrótica o radiante para Alas celestiales y Fulgor interior. Estas son las opciones de transformación:
+  - **Alas celestiales.** Dos alas espectrales brotan temporalmente de tu espalda. Hasta que la transformación termine, tienes una velocidad volando igual a tu velocidad.
+  - **Fulgor interior.** De tus ojos y tu boca surge temporalmente una luz abrasadora. Durante este tiempo, emites luz brillante en un radio de 3 m y luz tenue 3 m más allá y, al final de cada uno de tus turnos, cada criatura a 3 m o menos de ti recibirá una cantidad de daño radiante igual a tu bonificador por competencia.
+  - **Mortaja necrótica.** Tus ojos se vuelven brevemente pozos de oscuridad y unas alas que no te permiten volar brotan temporalmente de tu espalda. Las criaturas que no sean tus aliados y estén a 3 m o menos de ti deberán superar una tirada de salvación de Carisma (CD 8 más tu modificador por Carisma y tu bonificador por competencia) o tendrán el estado de asustadas hasta el final de tu siguiente turno.
 
-_Arma de Aliento._ Cuando realizas la acción de Ataque en tu turno, puedes reemplazar uno de tus ataques con una exhalación de energía mágica ya sea en un cono de 15 pies (4.5 metros) o una línea de 30 pies (9 metros) de largo y 5 pies (1.5 metros) de ancho (elige la forma cada vez). Cada criatura en esa área debe realizar una tirada de salvación de Destreza (CD 8 más tu modificador de Constitución y tu Bonificador de Competencia). Si falla la salvación, la criatura recibe 1d10 de daño del tipo determinado por tu rasgo de Ascendencia Dracónica. Si tiene éxito, recibe la mitad de ese daño. Este daño aumenta en 1d10 cuando alcanzas los niveles de personaje 5 (2d10), 11 (3d10) y 17 (4d10).
+#### Dracónido
 
-Puedes usar esta Arma de Aliento un número de veces igual a tu Bonificador de Competencia, y recuperas todos los usos gastados cuando terminas un Descanso Largo.
+Los antepasados de los dracónidos eclosionaron de los huevos de los dragones cromáticos y metálicos.
 
-_Resistencia al Daño._ Tienes Resistencia al tipo de daño determinado por tu rasgo de Ascendencia Dracónica.
+**Tipo de criatura:** humanoide
+**Tamaño:** Mediano (entre 1,5 y 2,1 m de altura)
+**Velocidad:** 9 m
 
-_Visión en la Oscuridad._ Tienes Visión en la Oscuridad con un alcance de 60 pies (18 metros).
+Como dracónido, tienes estos atributos especiales:
 
-_Vuelo Dracónico._ Cuando alcanzas el nivel de personaje 5, puedes canalizar magia dracónica para otorgarte vuelo temporal. Como Acción Adicional, te brotan alas espectrales en tu espalda que duran 10 minutos o hasta que las retraigas (no requiere acción) o tengas la condición de Incapacitado. Durante ese tiempo, tienes una Velocidad de Vuelo igual a tu Velocidad. Tus alas parecen estar hechas de la misma energía que tu Arma de Aliento. Una vez que usas este rasgo, no puedes volver a usarlo hasta que termines un Descanso Largo.
+- **Linaje dracónico.** Tu linaje proviene de un progenitor dragón. Elige el tipo de dragón en la tabla "Ancestros dracónicos". Tu elección afectará a tus atributos Ataque de aliento y Resistencia al daño además de a tu aspecto.
 
-#### Enano
+| Dragón | Tipo de daño | Dragón | Tipo de daño |
+|--------|--------------|--------|--------------|
+| Azul | Relámpago | Oro | Fuego |
+| Blanco | Frío | Oropel | Fuego |
+| Bronce | Relámpago | Plata | Frío |
+| Cobre | Ácido | Rojo | Fuego |
+| Negro | Ácido | Verde | Veneno |
 
-**Tipo de Criatura:** Humanoide
-**Tamaño:** Mediano (aproximadamente de 4 a 5 pies (1.2 a 1.5 metros) de altura)
-**Velocidad:** 30 pies (9 metros)
-
-Como enano, tienes estos rasgos especiales.
-
-_Visión en la Oscuridad._ Tienes Visión en la Oscuridad con un alcance de 120 pies (36 metros).
-
-_Resiliencia Enana._ Tienes Resistencia al daño de Veneno. También tienes Ventaja en las tiradas de salvación que realices para evitar o terminar la condición de Envenenado.
-
-_Robustez Enana._ Tu máximo de Puntos de Golpe (PG) aumenta en 1, y aumenta en 1 más cada vez que subes de nivel.
-
-_Afinidad con la Piedra._ Como Acción Adicional, obtienes Sentido de la Vibración con un alcance de 60 pies (18 metros) durante 10 minutos. Debes estar sobre una superficie de piedra o tocando una superficie de piedra para usar este Sentido de la Vibración. La piedra puede ser natural o trabajada.
-
-Puedes usar esta Acción Adicional un número de veces igual a tu Bonificador de Competencia, y recuperas todos los usos gastados cuando terminas un Descanso Largo.
+- **Ataque de aliento.** Cuando lleves a cabo la acción de atacar en tu turno, puedes sustituir uno de tus ataques por una exhalación de energía mágica en un cono de 4,5 m o en una línea de 9 m de largo y 1,5 m de ancho (elige la forma cada vez). Todas las criaturas situadas en esa zona deberán hacer una tirada de salvación de Destreza (CD 8 más tu modificador por Constitución y tu bonificador por competencia). Si la fallan, sufrirán 1d10 de daño del tipo determinado por tu atributo Linaje dracónico. Si la superan, recibirán la mitad de ese daño. El daño aumenta en 1d10 cuando alcanzas los niveles 5 (2d10), 11 (3d10) y 17 (4d10) de personaje. Puedes utilizar este ataque de aliento una cantidad de veces igual a tu bonificador por competencia y recuperas todos los usos tras finalizar un descanso largo.
+- **Resistencia al daño.** Tienes resistencia al tipo de daño determinado por tu atributo Linaje dracónico.
+- **Visión en la oscuridad.** Tienes visión en la oscuridad hasta 18 m.
+- **Vuelo dracónico.** Cuando alcanzas el nivel 5 de personaje, puedes canalizar la magia dracónica para volar de forma temporal. Como acción adicional, haces que en la espalda te broten unas alas espectrales que duran 10 minutos o hasta que las repliegues (no requiere acción) o tengas el estado de incapacitado. Durante ese tiempo, tendrás una velocidad volando igual a tu velocidad. Tus alas parecen hechas de la misma energía que tu ataque de aliento. Cuando uses este atributo, no podrás volver a hacerlo hasta que finalices un descanso largo.
 
 #### Elfo
 
-**Tipo de Criatura:** Humanoide
-**Tamaño:** Mediano (aproximadamente de 5 a 6 pies (1.5 a 1.8 metros) de altura)
-**Velocidad:** 30 pies (9 metros)
+Viven unos 750 años y no duermen, sino que entran en trance cuando necesitan descansar.
 
-Como elfo, tienes estos rasgos especiales.
+**Tipo de criatura:** humanoide
+**Tamaño:** Mediano (entre 1,5 y 1,8 m de altura)
+**Velocidad:** 9 m
 
-_Visión en la Oscuridad._ Tienes Visión en la Oscuridad con un alcance de 60 pies (18 metros).
+Como elfo, tienes estos atributos especiales:
 
-_Linaje Élfico._ Formas parte de un linaje que te otorga habilidades sobrenaturales. Elige un linaje de la tabla Linajes Élficos. Obtienes el beneficio de nivel 1 de ese linaje.
+- **Linaje élfico.** Formas parte de un linaje que te otorga capacidades sobrenaturales. Elige un linaje de la tabla "Linajes élficos". Obtienes el beneficio de nivel 1 de ese linaje. Cuando alcanzas los niveles 3 y 5 de personaje, aprendes un conjuro de nivel superior, como se muestra en la tabla. Siempre tienes ese conjuro preparado. Puedes lanzarlo una vez sin gastar un espacio de conjuro y recuperas la capacidad de hacerlo de esta forma tras finalizar un descanso largo. También puedes lanzar el conjuro usando cualquier espacio de conjuro que tengas del nivel apropiado. La Inteligencia, la Sabiduría o el Carisma es tu aptitud mágica para los conjuros que lances con este atributo (elige la característica al seleccionar el linaje).
 
-Cuando alcanzas los niveles de personaje 3 y 5, aprendes un conjuro de nivel superior, como se muestra en la tabla. Siempre tienes ese conjuro preparado. Puedes lanzarlo una vez sin gastar un espacio de conjuro, y recuperas la capacidad de lanzarlo de esa manera cuando terminas un Descanso Largo. También puedes lanzar el conjuro usando cualquier espacio de conjuro de nivel apropiado que tengas.
+| Linaje | Nivel 1 | Nivel 3 | Nivel 5 |
+|--------|---------|---------|---------|
+| Alto elfo | Conoces el truco *prestidigitación*. Tras finalizar un descanso largo, puedes sustituir ese truco por otro truco diferente de la lista de conjuros de mago. | *Detectar magia* | *Paso brumoso* |
+| Drow | El alcance de tu visión en la oscuridad aumenta a 36 m. También conoces el truco *luces danzantes*. | *Fuego feérico* | *Oscuridad* |
+| Elfo de los bosques | Tu velocidad aumenta a 10,5 m. También conoces el truco *saber druídico*. | *Zancada prodigiosa* | *Pasar sin rastro* |
 
-Inteligencia, Sabiduría o Carisma es tu característica para lanzar conjuros para los conjuros que lanzas con este rasgo (elige la característica cuando selecciones el linaje).
+- **Linaje feérico.** Tienes ventaja en las tiradas de salvación para evitar o poner fin al estado de hechizado.
+- **Sentidos agudos.** Tienes competencia en la habilidad de Percepción, Perspicacia o Supervivencia.
+- **Trance.** No necesitas dormir y la magia no puede dormirte. Puedes finalizar un descanso largo en 4 horas si las pasas en una meditación similar a un trance, tiempo durante el cual conservas la consciencia.
+- **Visión en la oscuridad.** Tienes visión en la oscuridad hasta 18 m.
 
-**Linajes Élficos**
+#### Enano
 
-<table>
-  <thead>
-    <tr>
-      <th>Linaje</th>
-      <th>Nivel 1</th>
-      <th>Nivel 3</th>
-      <th>Nivel 5</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Drow</td>
-      <td>El alcance de tu Visión en la Oscuridad aumenta a 120 pies (36 metros). También conoces el truco Luces Danzantes (Dancing Lights).</td>
-      <td>Fuego Fata (Faerie Fire)</td>
-      <td>Oscuridad (Darkness)</td>
-    </tr>
-    <tr>
-      <td>Alto Elfo</td>
-      <td>Conoces el truco Prestidigitación (Prestidigitation). Cada vez que terminas un Descanso Largo, puedes reemplazar ese truco con un truco diferente de la lista de conjuros del Mago.</td>
-      <td>Detectar Magia (Detect Magic)</td>
-      <td>Paso Brumoso (Misty Step)</td>
-    </tr>
-    <tr>
-      <td>Elfo de los Bosques</td>
-      <td>Tu Velocidad aumenta a 35 pies (10.5 metros). También conoces el truco Druidismo (Druidcraft).</td>
-      <td>Zancada Prodigiosa (Longstrider)</td>
-      <td>Pasar sin Rastro (Pass without Trace)</td>
-    </tr>
-  </tbody>
-</table>
+Fueron creados por una deidad de la forja, viven unos 350 años y tienen afinidad por la piedra y el metal.
 
-_Ancestros Feéricos._ Tienes Ventaja en las tiradas de salvación que realices para evitar o terminar la condición de Hechizado.
+**Tipo de criatura:** humanoide
+**Tamaño:** Mediano (entre 1,2 y 1,5 m de altura)
+**Velocidad:** 9 m
 
-_Sentidos Aguzados._ Tienes competencia en la habilidad de Perspicacia, Percepción o Supervivencia.
+Como enano, tienes estos atributos especiales:
 
-_Trance._ No necesitas dormir, y la magia no puede dormirte. Puedes terminar un Descanso Largo en 4 horas si pasas esas horas en una meditación en forma de trance, durante la cual mantienes la consciencia.
+- **Afinidad con la piedra.** Como acción adicional, ganas la capacidad de sentir vibraciones con un alcance de 18 m durante 10 minutos. Debes encontrarte sobre una superficie de piedra o en contacto con una superficie de piedra para usar esta capacidad. La piedra puede ser natural o labrada. Puedes usar esta acción adicional una cantidad de veces igual a tu bonificador por competencia y recuperas todos los usos tras finalizar un descanso largo.
+- **Aguante enano.** Tus puntos de golpe máximos se incrementan en 1 y aumentarán en 1 más cada vez que subas un nivel.
+- **Resistencia enana.** Tienes resistencia al daño de veneno. También tienes ventaja en las tiradas de salvación para evitar o poner fin al estado de envenenado.
+- **Visión en la oscuridad.** Tienes visión en la oscuridad hasta 36 m.
 
 #### Gnomo
 
-**Tipo de Criatura:** Humanoide
-**Tamaño:** Pequeño (aproximadamente de 3 a 4 pies (0.9 a 1.2 metros) de altura)
-**Velocidad:** 30 pies (9 metros)
+Los gnomos son un pueblo mágico creado por los dioses de la inventiva. Viven unos 425 años.
 
-Como gnomo, tienes estos rasgos especiales.
+**Tipo de criatura:** humanoide
+**Tamaño:** Pequeño (entre 90 cm y 1,2 m de altura)
+**Velocidad:** 9 m
 
-_Visión en la Oscuridad._ Tienes Visión en la Oscuridad con un alcance de 60 pies (18 metros).
+Como gnomo, tienes estos atributos especiales:
 
-_Astucia Gnomica._ Tienes Ventaja en las tiradas de salvación de Inteligencia, Sabiduría y Carisma.
-
-_Linaje Gnómico._ Formas parte de un linaje que te otorga habilidades sobrenaturales. Elige una de las siguientes opciones; cualquiera que elijas, Inteligencia, Sabiduría o Carisma es tu característica para lanzar conjuros para los conjuros que lanzas con este rasgo (elige la característica cuando selecciones el linaje):
-
-**Gnomo de los Bosques.** Conoces el truco _Ilusión Menor (Minor Illusion)_. También tienes siempre preparado el conjuro _Hablar con los Animales (Speak with Animals)_. Puedes lanzarlo sin un espacio de conjuro un número de veces igual a tu Bonificador de Competencia, y recuperas todos los usos gastados cuando terminas un Descanso Largo. También puedes usar cualquier espacio de conjuro que tengas para lanzar el conjuro.
-
-**Gnomo de las Rocas.** Conoces los trucos _Remendar (Mending)_ y _Prestidigitación (Prestidigitation)_. Además, puedes pasar 10 minutos lanzando _Prestidigitación_ para crear un dispositivo de relojería Diminuto (CA 5, 1 PG), como un juguete, un encendedor de fuego o una caja de música. Cuando creas el dispositivo, determinas su función eligiendo un efecto de _Prestidigitación_; el dispositivo produce ese efecto cada vez que tú u otra criatura realiza una Acción Adicional para activarlo con un toque. Si el efecto elegido tiene opciones dentro de él, eliges una de esas opciones para el dispositivo cuando lo creas. Por ejemplo, si eliges el efecto de encender-apagar del conjuro, determinas si el dispositivo enciende o apaga el fuego; el dispositivo no hace ambas cosas. Puedes tener tres de estos dispositivos en existencia a la vez, y cada uno se desarma 8 horas después de su creación o cuando lo desmantelas con un toque como una acción de Utilizar.
+- **Astucia gnoma.** Tienes ventaja en las tiradas de salvación de Inteligencia, Sabiduría y Carisma.
+- **Linaje gnomo.** Formas parte de un linaje que te otorga capacidades sobrenaturales. Escoge una de las siguientes opciones; elijas la que elijas, la Inteligencia, la Sabiduría o el Carisma es tu aptitud mágica para los conjuros que lances con este atributo (elige la característica al seleccionar el linaje):
+  - **Gnomo de las rocas.** Conoces los trucos *prestidigitación* y *reparar*. Además, puedes pasar 10 minutos lanzando *prestidigitación* para crear un dispositivo mecánico Diminuto (CA 5, 1 pg), como un juguete, un encendedor o una caja de música. Cuando crees el dispositivo, determinarás su función eligiendo un efecto de *prestidigitación*. El dispositivo producirá ese efecto cada vez que otra criatura o tú empleéis una acción adicional para activarlo con un toque. Si el efecto elegido tiene varias opciones, escoges una de ellas para el dispositivo cuando lo crees. Puedes tener tres de estos dispositivos activos al mismo tiempo y se desarman 8 horas después de crearlos o cuando los desmontes con un toque como acción de utilizar.
+  - **Gnomo de los bosques.** Conoces el truco *ilusión menor*. Además, siempre tienes el conjuro *hablar con los animales* preparado. Puedes lanzarlo sin gastar un espacio de conjuro una cantidad de veces igual a tu bonificador por competencia y recuperas todos los usos tras finalizar un descanso largo. También puedes usar cualquier espacio de conjuro que tengas para lanzarlo.
+- **Visión en la oscuridad.** Tienes visión en la oscuridad hasta 18 m.
 
 #### Goliat
 
-**Tipo de Criatura:** Humanoide
-**Tamaño:** Mediano (aproximadamente de 7 a 8 pies (2.1 a 2.4 metros) de altura)
-**Velocidad:** 35 pies (10.5 metros)
+Los goliats son descendientes lejanos de los gigantes y sobrepasan en altura a la mayoría de especies.
 
-Como goliat, tienes estos rasgos especiales.
+**Tipo de criatura:** humanoide
+**Tamaño:** Mediano (entre 2,1 y 2,4 m de altura)
+**Velocidad:** 10,5 m
 
-_Ancestros Gigantes._ Desciendes de los Gigantes. Elige uno de los siguientes beneficios —una bendición sobrenatural de tus ancestros; puedes usar el beneficio elegido un número de veces igual a tu Bonificador de Competencia, y recuperas todos los usos gastados cuando terminas un Descanso Largo:
+Como goliat, tienes estos atributos especiales:
 
-**Viaje de la Nube (Gigante de las Nubes).** Como Acción Adicional, te teletransportas mágicamente hasta 30 pies (9 metros) a un espacio desocupado que puedas ver.
-
-**Quemadura del Fuego (Gigante del Fuego).** Cuando golpeas a un objetivo con una tirada de ataque e infliges daño, también puedes infligir 1d10 de daño de Fuego a ese objetivo.
-
-**Frío de la Escarcha (Gigante de la Escarcha).** Cuando golpeas a un objetivo con una tirada de ataque e infliges daño, también puedes infligir 1d6 de daño de Frío a ese objetivo y reducir su Velocidad en 10 pies (3 metros) hasta el comienzo de tu siguiente turno.
-
-**Tropiezo de la Colina (Gigante de las Colinas).** Cuando golpeas a una criatura Grande o más pequeña con una tirada de ataque e infliges daño, puedes otorgarle a ese objetivo la condición de Derribado (Prone).
-
-**Aguante de la Piedra (Gigante de las Piedras).** Cuando recibes daño, puedes realizar una Reacción para tirar 1d12. Suma tu modificador de Constitución al número obtenido y reduce el daño en ese total.
-
-**Trueno de la Tormenta (Gigante de las Tormentas).** Cuando recibes daño de una criatura a menos de 60 pies (18 metros) de ti, puedes realizar una Reacción para infligir 1d8 de daño de Trueno a esa criatura.
-
-_Forma Grande._ A partir del nivel de personaje 5, puedes cambiar tu tamaño a Grande como una Acción Adicional si te encuentras en un espacio lo suficientemente grande. Esta transformación dura 10 minutos o hasta que la termines (no requiere acción). Durante ese tiempo, tienes Ventaja en las pruebas de Fuerza y tu Velocidad aumenta en 10 pies (3 metros). Una vez que usas este rasgo, no puedes volver a usarlo hasta que termines un Descanso Largo.
-
-_Constitución Poderosa._ Tienes Ventaja en cualquier prueba de característica que realices para terminar la condición de Agarrado. También cuentas como un tamaño más grande al determinar tu capacidad de carga.
-
-#### Mediano (Halfling)
-
-**Tipo de Criatura:** Humanoide
-**Tamaño:** Pequeño (aproximadamente de 2 a 3 pies (0.6 a 0.9 metros) de altura)
-**Velocidad:** 30 pies (9 metros)
-
-Como mediano, tienes estos rasgos especiales.
-
-_Valiente._ Tienes Ventaja en las tiradas de salvación que realices para evitar o terminar la condición de Asustado.
-
-_Agilidad Mediana._ Puedes moverte a través del espacio de cualquier criatura que sea un tamaño más grande que tú, pero no puedes detenerte en el mismo espacio.
-
-_Suerte._ Cuando obtienes un 1 en el d20 de una Prueba de D20, puedes volver a tirar el dado y debes usar la nueva tirada.
-
-_Sigiloso por Naturaleza._ Puedes realizar la acción de Esconderse incluso cuando estás oculto solo por una criatura que sea al menos un tamaño más grande que tú.
+- **Constitución poderosa.** Tienes ventaja en cualquier prueba de característica que hagas para poner fin al estado de agarrado. Además, al determinar tu capacidad de carga, cuentas como si tuvieras un tamaño una categoría superior.
+- **Forma grande.** A partir del nivel 5 de personaje, puedes cambiar de tamaño a Grande como acción adicional si estás en un lugar lo bastante espacioso. Esta transformación dura 10 minutos o hasta que le pongas fin (no requiere acción). Durante ese tiempo, tendrás ventaja en las pruebas de Fuerza y tu velocidad aumentará en 3 m. Cuando uses este atributo, no podrás volver a hacerlo hasta que finalices un descanso largo.
+- **Linaje gigante.** Desciendes de los gigantes. Elige uno de los siguientes beneficios sobrenaturales que te concede tu linaje; podrás usar el beneficio elegido una cantidad de veces igual a tu bonificador por competencia y recuperas todos los usos tras finalizar un descanso largo:
+  - **Abrasión del fuego (gigante de fuego).** Cuando aciertes a un objetivo con una tirada de ataque y le causes daño, también puedes causarle 1d10 de daño de fuego.
+  - **Caída de las colinas (gigante de las colinas).** Cuando aciertes a una criatura Grande o más pequeña con una tirada de ataque y le causes daño, también puedes infligirle el estado de derribada.
+  - **Excursión de las nubes (gigante de las nubes).** Como acción adicional, te teletransportas mágicamente hasta 9 m a un espacio sin ocupar que puedas ver.
+  - **Frío de la escarcha (gigante de escarcha).** Cuando aciertes a un objetivo con una tirada de ataque y le causes daño, también puedes causarle 1d6 de daño de frío y reducir su velocidad en 3 m hasta el principio de tu siguiente turno.
+  - **Resistencia de la piedra (gigante de piedra).** Cuando recibas daño, puedes usar una reacción para tirar 1d12. Suma tu modificador por Constitución al resultado y reduce el daño en ese total.
+  - **Trueno de la tormenta (gigante de las tormentas).** Cuando una criatura que esté a 18 m o menos de ti te cause daño, puedes usar una reacción para infligirle 1d8 de daño de trueno.
 
 #### Humano
 
-**Tipo de Criatura:** Humanoide
-**Tamaño:** Mediano (aproximadamente de 4 a 7 pies (1.2 a 2.1 metros) de altura) o Pequeño (aproximadamente de 2 a 4 pies (0.6 a 1.2 metros) de altura), elegido cuando seleccionas esta especie
-**Velocidad:** 30 pies (9 metros)
+Los humanos son variados y ambiciosos, repartidos por todo el multiverso.
 
-Como humano, tienes estos rasgos especiales.
+**Tipo de criatura:** humanoide
+**Tamaño:** Mediano (entre 1,2 y 2,1 m de altura) o Pequeño (entre 60 cm y 1,2 m de altura), elegido al seleccionar la especie
+**Velocidad:** 9 m
 
-_Ingenioso._ Obtienes Inspiración Heroica cada vez que terminas un Descanso Largo.
+Como humano, tienes estos atributos especiales:
 
-_Habilidoso._ Obtienes competencia en una habilidad de tu elección.
+- **Diestro.** Ganas competencia en una habilidad de tu elección.
+- **Ingenioso.** Obtienes inspiración heroica tras finalizar un descanso largo.
+- **Versátil.** Obtienes una dote de origen de tu elección (consulta el capítulo 5). Se recomienda *Habilidoso*.
 
-_Versátil._ Obtienes una dote de Origen de tu elección (ver "Dotes"). Se recomienda Habilidoso.
+#### Mediano
+
+Los medianos tienen una famosa suerte y viven unos 150 años.
+
+**Tipo de criatura:** humanoide
+**Tamaño:** Pequeño (entre 60 y 90 cm de altura)
+**Velocidad:** 9 m
+
+Como mediano, tienes estos atributos especiales:
+
+- **Agilidad de mediano.** Puedes moverte a través del espacio ocupado por cualquier criatura de tamaño superior al tuyo, pero no puedes detenerte en el mismo espacio.
+- **Fortuna.** Cuando saques un 1 en una prueba con d20, podrás repetir la tirada y deberás utilizar el nuevo resultado.
+- **Sigiloso por naturaleza.** Puedes llevar a cabo la acción de esconderte incluso tras una criatura cuyo tamaño sea, al menos, una categoría superior al tuyo.
+- **Valiente.** Tienes ventaja en las tiradas de salvación que hagas para evitar o poner fin al estado de asustado.
 
 #### Orco
 
-**Tipo de Criatura:** Humanoide
-**Tamaño:** Mediano (aproximadamente de 6 a 7 pies (1.8 a 2.1 metros) de altura)
-**Velocidad:** 30 pies (9 metros)
+Los orcos deben su creación a Gruumsh y tienen una gran resistencia.
 
-Como orco, tienes estos rasgos especiales.
+**Tipo de criatura:** humanoide
+**Tamaño:** Mediano (entre 1,8 y 2,1 m de altura)
+**Velocidad:** 9 m
 
-_Subidón de Adrenalina._ Puedes realizar la acción de Correr (Dash) como una Acción Adicional. Cuando lo haces, obtienes un número de Puntos de Golpe Temporales igual a tu Bonificador de Competencia.
+Como orco, tienes estos atributos especiales:
 
-Puedes usar este rasgo un número de veces igual a tu Bonificador de Competencia, y recuperas todos los usos gastados cuando terminas un Descanso Corto o Largo.
+- **Aguante incansable.** Cuando tus puntos de golpe se reducen a 0 pero no mueres inmediatamente, puedes recuperar 1 punto de golpe. Cuando uses este atributo, no podrás volver a hacerlo hasta que finalices un descanso largo.
+- **Descarga de adrenalina.** Puedes llevar a cabo la acción de correr como acción adicional. Cuando lo hagas, obtendrás una cantidad de puntos de golpe temporales igual a tu bonificador por competencia. Puedes usar este atributo una cantidad de veces igual a tu bonificador por competencia y recuperas todos los usos tras finalizar un descanso corto o largo.
+- **Visión en la oscuridad.** Tienes visión en la oscuridad hasta 36 m.
 
-_Visión en la Oscuridad._ Tienes Visión en la Oscuridad con un alcance de 120 pies (36 metros).
+#### Tiefling
 
-_Resistencia Incansable._ Cuando tus Puntos de Golpe se reducen a 0 pero no mueres en el acto, puedes caer a 1 Punto de Golpe en su lugar. Una vez que usas este rasgo, no puedes volver a hacerlo hasta que termines un Descanso Largo.
+Los tieflings tienen una conexión de sangre con los Planos Inferiores.
 
-#### Tiflin (Tiefling)
+**Tipo de criatura:** humanoide
+**Tamaño:** Mediano (entre 1,2 y 2,1 m de altura) o Pequeño (entre 90 cm y 1,2 m de altura), elegido al seleccionar la especie
+**Velocidad:** 9 m
 
-**Tipo de Criatura:** Humanoide
-**Tamaño:** Mediano (aproximadamente de 4 a 7 pies (1.2 a 2.1 metros) de altura) o Pequeño (aproximadamente de 3 a 4 pies (0.9 a 1.2 metros) de altura), elegido cuando seleccionas esta especie
-**Velocidad:** 30 pies (9 metros)
+Como tiefling, tienes los siguientes atributos especiales:
 
-Como tiflin, tienes los siguientes rasgos especiales.
+- **Legado infernal.** Eres el destinatario de un legado que te otorga capacidades sobrenaturales. Elige un legado de la tabla "Legados infernales". Obtienes el beneficio de nivel 1 del legado elegido. Cuando alcanzas los niveles 3 y 5 de personaje, aprendes un conjuro de nivel superior, como se muestra en la tabla. Siempre tienes ese conjuro preparado. Puedes lanzarlo una vez sin gastar un espacio de conjuro y recuperas la capacidad de hacerlo de esta forma tras finalizar un descanso largo. También puedes lanzar el conjuro usando cualquier espacio de conjuro que tengas del nivel apropiado. La Inteligencia, la Sabiduría o el Carisma es tu aptitud mágica para los conjuros que lances con este atributo (elige la característica al seleccionar el legado).
 
-_Visión en la Oscuridad._ Tienes Visión en la Oscuridad con un alcance de 60 pies (18 metros).
+| Legado | Nivel 1 | Nivel 3 | Nivel 5 |
+|--------|---------|---------|---------|
+| Abisal | Tienes resistencia al daño de veneno. También conoces el truco *rociada venenosa*. | *Rayo nauseabundo* | *Inmovilizar persona* |
+| Ctónico | Tienes resistencia al daño necrótico. También conoces el truco *toque helado*. | *Falsa vida* | *Rayo debilitador* |
+| Infernal | Tienes resistencia al daño de fuego. También conoces el truco *descarga de fuego*. | *Reprensión infernal* | *Oscuridad* |
 
-_Legado Infernal._ Eres el receptor de un legado que te otorga habilidades sobrenaturales. Elige un legado de la tabla Legados Infernales. Obtienes el beneficio de nivel 1 del legado elegido.
-
-Cuando alcanzas los niveles de personaje 3 and 5, aprendes un conjuro de nivel superior, como se muestra en la tabla. Siempre tienes ese conjuro preparado. Puedes lanzarlo una vez sin gastar un espacio de conjuro, y recuperas la capacidad de lanzarlo de esa manera cuando terminas un Descanso Largo. También puedes lanzar el conjuro usando cualquier espacio de conjuro de nivel apropiado que tengas.
-
-Inteligencia, Sabiduría o Carisma es tu característica para lanzar conjuros para los conjuros que lanzas con este rasgo (elige la característica cuando selecciones el legado).
-
-**Legados Infernales**
-
-<table>
-  <thead>
-    <tr>
-      <th>Legado</th>
-      <th>Nivel 1</th>
-      <th>Nivel 3</th>
-      <th>Nivel 5</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Abisal</td>
-      <td>Tienes Resistencia al daño de Veneno. También conoces el truco Rociada de Veneno (Poison Spray).</td>
-      <td>Rayo de Enfermedad (Ray of Sickness)</td>
-      <td>Retener Persona (Hold Person)</td>
-    </tr>
-    <tr>
-      <td>Ctónico</td>
-      <td>Tienes Resistencia al daño Necrótico. También conoces el truco Toque Helado (Chill Touch).</td>
-      <td>Vida Falsa (False Life)</td>
-      <td>Rayo de Debilitamiento (Ray of Enfeeblement)</td>
-    </tr>
-    <tr>
-      <td>Infernal</td>
-      <td>Tienes Resistencia al daño de Fuego. También conoces el truco Descarga de Fuego (Fire Bolt).</td>
-      <td>Reprensión Infernal (Hellish Rebuke)</td>
-      <td>Oscuridad (Darkness)</td>
-    </tr>
-  </tbody>
-</table>
-
-_Presencia de Otro Mundo._ Conoces el truco _Taumaturgia (Thaumaturgy)_. Cuando lo lanzas con este rasgo, el conjuro utiliza la misma característica para lanzar conjuros que usas para tu rasgo de Legado Infernal.
+- **Presencia sobrenatural.** Conoces el truco *taumaturgia*. Cuando lo lances con este atributo, el conjuro utiliza la misma aptitud mágica que la de tu atributo Legado infernal.
+- **Visión en la oscuridad.** Tienes visión en la oscuridad hasta 18 m.
