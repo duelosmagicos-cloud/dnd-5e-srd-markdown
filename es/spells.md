@@ -106,13 +106,7 @@ Normalmente, el alcance de un conjuro se presenta en una de estas formas:
 
 - **Distancia.** El alcance se expresa en metros.
 - **Toque.** El efecto del conjuro se origina en algo, según defina el conjuro, que el lanzador debe tocar dentro de su alcance.
-- **Lanzador.** El conjuro se lanza sobre el usuario o emana de él, según se indique en el conjuro.
-
-Si un conjuro tiene efectos desplazables, no se verán restringidos por su alcance, salvo que la descripción indique lo contrario.
-
-### Componentes
-
-Los componentes de un conjuro son los requisitos físicos que debe cumplir su lanzador para poder lanzarlo. La descripción de cada conjuro indica si este precisa de componente verbal (V), somático (S) o material (M). Si el lanzador no dispone de alguno de los componentes del conjuro, no podrá lanzarlo.
+- **Lanzador.** El conjuro se lanza sobre el usuario o emana de él, según se indique en el conjuro. Si un conjuro tiene efectos desplazables, no se verán restringidos por su alcance, salvo que la descripción indique lo contrario. ### Componentes Los componentes de un conjuro son los requisitos físicos que debe cumplir su lanzador para poder lanzarlo. La descripción de cada conjuro indica si este precisa de componente verbal (V), somático (S) o material (M). Si el lanzador no dispone de alguno de los componentes del conjuro, no podrá lanzarlo.
 
 #### Verbal (V)
 Un componente verbal consiste en un canto esotérico que carece de sentido para quienes no practican la magia. Las palabras deben pronunciarse con voz normal. Aunque el mensaje en sí no es el origen del poder del conjuro, la combinación concreta de ciertos sonidos con una cadencia y un tono específicos pone en movimiento las hebras de la magia. Así, una criatura amordazada o en una zona de silencio mágico no podrá lanzar conjuros con componente verbal.
@@ -131,11 +125,7 @@ La duración de un conjuro es el tiempo que este permanece activo después de la
 
 - **Concentración.** Si la duración requiere concentración, sigue las reglas correspondientes.
 - **Instantáneo.** Una duración instantánea significa que la magia del conjuro tendrá efecto solo un instante y luego desaparecerá.
-- **Periodo de tiempo.** Una duración que indica un periodo de tiempo especifica cuánto dura el conjuro en asaltos, minutos, horas o similares. Por ejemplo, si en la duración se indica "1 minuto", significa que el conjuro termina una vez que ha transcurrido 1 minuto. Mientras un conjuro que tú hayas lanzado siga activo dentro de su periodo de tiempo, puedes ponerle fin (no requiere acción) si no tienes el estado de incapacitado.
-
-### Efectos
-
-Los efectos de un conjuro se describen tras el apartado de la duración. Estos detalles indican con exactitud lo que hace el conjuro, que ignora las leyes físicas normales. Cualquier otro resultado más allá de sus efectos queda a discreción de cada DM. Sean cuales sean los efectos, suelen tener que ver con objetivos, tiradas de salvación, tiradas de ataque o las tres cosas a la vez.
+- **Periodo de tiempo.** Una duración que indica un periodo de tiempo especifica cuánto dura el conjuro en asaltos, minutos, horas o similares. Por ejemplo, si en la duración se indica "1 minuto", significa que el conjuro termina una vez que ha transcurrido 1 minuto. Mientras un conjuro que tú hayas lanzado siga activo dentro de su periodo de tiempo, puedes ponerle fin (no requiere acción) si no tienes el estado de incapacitado. ### Efectos Los efectos de un conjuro se describen tras el apartado de la duración. Estos detalles indican con exactitud lo que hace el conjuro, que ignora las leyes físicas normales. Cualquier otro resultado más allá de sus efectos queda a discreción de cada DM. Sean cuales sean los efectos, suelen tener que ver con objetivos, tiradas de salvación, tiradas de ataque o las tres cosas a la vez.
 
 #### Objetivos
 Lo más normal es que un conjuro obligue a su lanzador a elegir uno o más objetivos. La descripción de un conjuro indica si hace objetivo a criaturas, objetos u otra cosa.
@@ -241,10 +231,9 @@ afecta.
 - **Tiempo de lanzamiento:** Acción o ritual
 - **Alcance:** Lanzador
 - **Componentes:** V, S, M (incienso que valga al menos 25 po,
+- **Duración:** Instantáneo
 
 que se consume como parte del conjuro)
-
-Duración: Instantáneo
 
 Este conjuro te pone en contacto con un dios o sus
 
@@ -389,10 +378,10 @@ a 18 m o menos de la zona vigilada.
 
 #### Aliado Planar
 *Conjuración de nivel 6 (clérigo)*
-- **Tiempo de lanzamiento:** 10 minutos
-- **Alcance:** 18 m
-- **Componentes:** V, S
-- **Duración:** Instantáneo
+- **Tiempo de lanzamiento:** Acción adicional
+- **Alcance:** Toque
+- **Componentes:** V, S, M (una guindilla)
+- **Duración:** Concentración, hasta 1 minuto
 
 Suplicas la ayuda de una entidad de otro mundo, la cual
 
@@ -479,14 +468,6 @@ criatura, esta regresará a su plano natal de inmediato.
 ,   ALIENTO DE DRAGÓN
 
 Transmutación de nivel 2 (hechicero, mago)
-
-Tiempo de lanzamiento: Acción adicional
-
-Alcance: Toque
-
-Componentes: V, S, M (una guindilla)
-
-Duración: Concentración, hasta 1 minuto
 
 Tocas a una criatura voluntaria y eliges ácido, frío, fuego,
 
@@ -675,10 +656,9 @@ pasado de la criatura (espacio de nivel 9).
 - **Tiempo de lanzamiento:** 1 hora
 - **Alcance:** Toque
 - **Componentes:** V, S, M (un diamante que valga al menos
+- **Duración:** Instantáneo
 
 500 po y que se consume como parte del conjuro)
-
-Duración: Instantáneo
 
 Con un toque, revives a una criatura que no lleve más
 
@@ -748,10 +728,9 @@ el conjuro termine, el objetivo sabrá que lo hechizaste.
 - **Tiempo de lanzamiento:** 1 minuto
 - **Alcance:** 3 m
 - **Componentes:** V, S, M (una gota de sangre, un pedazo
+- **Duración:** Instantáneo
 
 de carne y una pizca de polvo de hueso)
-
-Duración: Instantáneo
 
 Elige un montón de huesos o un cadáver de un humanoide
 
@@ -886,7 +865,17 @@ o
 
 Autómata Enorme o más pequeño, sin alineamiento
 
+| CA: 15
+
+| PG: 10 (Mediano o más pequeño), 20 (Grande), 40 (Enorm
+
 Velocidad: 9 m
+
+MOD. SAL.            MOD. SALV.            MO
+
+Fue 16 +3       +3    Des10+0       +0     CoNnl0 +0
+
+INT 3 -=4       -4    Sab 3 -4      -4     Car     1-5
 
 Inmunidades: psíquico, veneno; asustado, cansancio,
 
@@ -895,6 +884,8 @@ envenenado, hechizado, paralizado
 Sentidos: visión ciega 9 m, Percepción pasiva 6
 
 Idiomas: entiende los idiomas que conozcas
+
+VD: ninguno (0 PX; BC igual a tu bonificador por compet
 
 ACCIONES
 
@@ -1096,10 +1087,10 @@ o superior.
 
 #### Armadura de Agathys
 *Abjuración de nivel 1 (brujo)*
-- **Tiempo de lanzamiento:** Acción adicional
+- **Tiempo de lanzamiento:** Acción
 - **Alcance:** Lanzador
-- **Componentes:** V, S, M (un trozo de vidrio azul)
-- **Duración:** 1 hora
+- **Componentes:** V, S, M (un trozo de piel curtida)
+- **Duración:** 8 horas
 
 RA DE
 
@@ -1131,13 +1122,7 @@ ARMADURA DE MAGO
 
 r           Abjuración de nivel1 (hechicero, mago)
 
-Tiempo de lanzamiento: Acción
-
 6           Alcance: Toque
-
-Componentes: V, S, M (un trozo de piel curtida)
-
-Duración: 8 horas
 
 Tocas a una criatura voluntaria que no lleve armadura.
 
@@ -1246,10 +1231,9 @@ O hasta que el objetivo le ponga fin como acción adicional.
 - **Tiempo de lanzamiento:** 1 hora
 - **Alcance:** 18 m
 - **Componentes:** V, S, M (una joya que valga al menos
+- **Duración:** 24 horas
 
 1000 po y que se consume como parte del conjuro)
-
-Duración: 24 horas
 
 Intentas obligar a un celestial, un elemental, un feérico
 
@@ -1306,10 +1290,9 @@ aumenta con un espacio de nivel 6 (10 días), 7 (30 días),
 - **Tiempo de lanzamiento:** 1 minuto o un ritual
 - **Alcance:** Lanzador
 - **Componentes:** V, S, M (palitos, huesos, cartas u otros abalorios
+- **Duración:** Instantáneo
 
 marcados de forma especial que valgan al menos 25 po)
-
-Duración: Instantáneo
 
 Obtienes un presagio de una entidad de otro mundo
 
@@ -1454,10 +1437,9 @@ s
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** Lanzador
 - **Componentes:** V, S, M (un relicario que valga al menos
+- **Duración:** Concentración, hasta 1 minuto
 
 1000 po)
-
-Duración: Concentración, hasta 1 minuto
 
 Hasta que termine el conjuro, emites un aura en una
 
@@ -1539,10 +1521,10 @@ termina.
 
 #### Barrera de Cuchillas
 *Evocación de nivel 6 (clérigo)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** 27 m
-- **Componentes:** V, S
-- **Duración:** Concentración, hasta 10 minutos
+- **Tiempo de lanzamiento:** 1 minuto o un ritual
+- **Alcance:** 9 m
+- **Componentes:** V, S, M (polvo de jade que valga al menos
+- **Duración:** Concentración, hasta 1 minuto
 
 Creas un muro de cuchillas giratorias hechas de energí
 
@@ -1588,8 +1570,6 @@ ntrol      Componentes: V, S, M (un símbolo sagrado que valga
 
 juro         al menos 5 po)
 
-Duración: Concentración, hasta 1 minuto
-
 Bendices hasta tres criaturas dentro del alcance. Siempre
 
 que un objetivo haga una tirada de ataque o de salvación
@@ -1609,12 +1589,6 @@ a          BOCA MÁGICA
 a
 
 Ilusionismo de nivel 2 (bardo, mago)
-
-Tiempo de lanzamiento: 1 minuto o un ritual
-
-Alcance: 9 m
-
-Componentes: V, S, M (polvo de jade que valga al menos
 
 10 po, que se consume como parte del conjuro)
 
@@ -1683,10 +1657,9 @@ o cuando una campana de plata suene a 9 m o menos de él.
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** 45 m
 - **Componentes:** V, S, M (una pelota de guano de murciélago
+- **Duración:** Instantáneo
 
 y azufre)
-
-Duración: Instantáneo
 
 Una ráfaga brillante surge de ti hacia un punto de tu
 
@@ -1719,10 +1692,9 @@ el espacio.
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** 45 m
 - **Componentes:** V, S, M (una pelota de guano de murciélago
+- **Duración:** Concentración, hasta 1 minuto
 
 y azufre)
-
-Duración: Concentración, hasta 1 minuto
 
 Un rayo de luz amarilla surge de ti y se condensa en un
 
@@ -1852,16 +1824,13 @@ alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).
 #### Caída de Pluma
 *Transmutación de nivel1 (bardo, hechicero, mago)*
 - **Tiempo de lanzamiento:** Reacción, que llevas a cabo cua
+- **Alcance:** 18 m
+- **Componentes:** V, M (una pluma pequeña o un poco
+- **Duración:** 1 minuto
 
 tú una criatura que puedas ver a 18 m o menos de ti
 
-Alcance: 18 m
-
-Componentes: V, M (una pluma pequeña o un poco
-
 de plumón)
-
-Duración:1 minuto
 
 250   CAPÍTULO 7        CONJUROS
 
@@ -1886,10 +1855,13 @@ esa criatura.
 #### Caldero Burbujeante de Tasha
 *Conjuración de nivel 6 (brujo, mago)*
 - **Alcance:** 1,5 m
+- **Duración:** 10 minutos
+
+ar        Tiempo de lanzamiento: Acción
+
+de       Componentes: V, S, M (un cucharón bañado en oro que
 
 no.         valga al menos 500 po)
-
-Duración: 10 minutos
 
 Conjuras un caldero con patas de garra y lleno de un líquido
 
@@ -2020,10 +1992,9 @@ DURANTE UN COMBATE MÁGICO.
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** Lanzador
 - **Componentes:** V, S, M (una diadema de jade que valga
+- **Duración:** Concentración, hasta 1 hora
 
 al menos 1500 po)
-
-Duración: Concentración, hasta 1 hora
 
 Asumes la forma de otra criatura hasta que termine
 
@@ -2105,10 +2076,9 @@ de la superficie al líquido que hay debajo.
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** Lanzador
 - **Componentes:** V, S, M (virutas de hierro)
+- **Duración:** Concentración, hasta 1 hora
 
 s.
-
-Duración: Concentración, hasta 1 hora
 
 o
 
@@ -2209,16 +2179,13 @@ LOS REINOS ACUÁTICOS.
 #### Castigo Abrasador
 *Evocación de nivel1 (paladín)*
 - **Tiempo de lanzamiento:** Acción adicional, que realizas de
+- **Alcance:** Lanzador
+- **Componentes:** V
+- **Duración:** 1 minuto
 
 inmediato tras acertar a un objetivo con un arma cuerpo
 
 a cuerpo o un ataque sin armas
-
-Alcance: Lanzador
-
-Componentes: V
-
-Duración: 1 minuto
 
 Al golpear al objetivo, sufre 1d6 de daño de fuego adicional
 
@@ -2243,16 +2210,13 @@ el espacio.
 #### Desata una Ira Sagrada Sobre Varios Melzoloths In Castigo Abrumador
 *Encantamiento de nivel4 (paladín)*
 - **Tiempo de lanzamiento:** Acción adicional, que realizas
+- **Alcance:** Lanzador
+- **Componentes:** V
+- **Duración:** Instantáneo
 
 de inmediato tras acertar a una criatura con un arma
 
 cuerpo a cuerpo o un ataque sin armas
-
-Alcance: Lanzador
-
-Componentes: V
-
-Duración: Instantáneo
 
 El objetivo recibirá 4d6 de daño psíquico adicional de
 
@@ -2273,16 +2237,13 @@ de 4 que tenga el espacio.
 #### Castigo Atronador
 *Evocación de nivel1 (paladín)*
 - **Tiempo de lanzamiento:** Acción adicional, que realizas
+- **Alcance:** Lanzador
+- **Componentes:** V
+- **Duración:** Concentración, hasta 1 minuto
 
 de inmediato tras acertar a un objetivo con un arma
 
 cuerpo a cuerpo o un ataque sin armas
-
-Alcance: Lanzador
-
-Componentes: V
-
-Duración: Instantáneo
 
 254   CAPÍTULO 7      | CONJUROS
 
@@ -2316,12 +2277,6 @@ inmediato tras acertar a una criatura con un arma cuerpo
 
 a cuerpo o un ataque sin armas
 
-Alcance: Lanzador
-
-Componentes: V
-
-Duración: Concentración, hasta 1 minuto
-
 El objetivo del golpe recibe 2d6 de daño radiante adicional
 
 del ataque. Hasta que el conjuro termine, el objetivo
@@ -2343,16 +2298,13 @@ el espacio.
 #### Castigo Cegador
 *Evocación de nivel 3 (paladín)*
 - **Tiempo de lanzamiento:** Acción adicional, que realizas
+- **Alcance:** Lanzador
+- **Componentes:** V
+- **Duración:** 1 minuto
 
 de inmediato tras acertar a una criatura con un arma
 
 cuerpo a cuerpo o un ataque sin armas
-
-Alcance: Lanzador
-
-Componentes: V
-
-Duración: 1 minuto
 
 El objetivo del golpe sufrirá 3d8 de daño radiante adicional
 
@@ -2375,16 +2327,13 @@ de 3 que tenga el espacio.
 #### Castigo Desterrador
 *Conjuración de nivel 5 (paladín)*
 - **Tiempo de lanzamiento:** Acción adicional, que realizas
+- **Alcance:** Lanzador
+- **Componentes:** V
+- **Duración:** Concentración, hasta 1 minuto
 
 de inmediato tras acertar a una criatura con un arma
 
 cuerpo a cuerpo o un ataque sin armas
-
-Alcance: Lanzador
-
-Componentes: V
-
-Duración: Concentración, hasta 1 minuto
 
 El objetivo de la tirada de ataque recibe 5d10 de daño de
 
@@ -2409,16 +2358,13 @@ cercano si dicho espacio está ocupado.
 #### Castigo Divino
 *Evocación de nivel 1 (paladín)*
 - **Tiempo de lanzamiento:** Acción adicionál, que realizas
+- **Alcance:** Lanzador
+- **Componentes:** V
+- **Duración:** Instantáneo
 
 de inmediato tras acertar a un objetivo con un arma
 
 cuerpo a cuerpo o un ataque sin armas
-
-Alcance: Lanzador
-
-Componentes: V
-
-Duración: Instantáneo
 
 El objetivo sufre 2d8 de daño radiante adicional del ataque.
 
@@ -2437,16 +2383,13 @@ el espacio.
 #### Castigo Furioso
 *Nigromancia de nivel1 (paladín)*
 - **Tiempo de lanzamiento:** Acción adicional, que realizas
+- **Alcance:** Lanzador
+- **Componentes:** V
+- **Duración:** 1 minuto
 
 de inmediato tras acertar a una criatura con un arma
 
 cuerpo a cuerpo o un ataque sin armas
-
-Alcance: Lanzador
-
-Componentes: V
-
-Duración: 1 minuto
 
 El objetivo sufrirá 1d6 de daño necrótico adicional del
 
@@ -2473,10 +2416,9 @@ el espacio.
 - **Tiempo de lanzamiento:** 1 minuto
 - **Alcance:** 9 m
 - **Componentes:** V, S, M (una estatuilla del objetivo que valga
+- **Duración:** Hasta que sea disipado
 
 al menos 5000 po)
-
-Duración: Hasta que sea disipado
 
 Creas una restricción mágica para apresar a una criatura
 
@@ -2571,10 +2513,9 @@ crearla.
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** Toque
 - **Componentes:** V, S, M (polvo de oro que valga al menos
+- **Duración:** Hasta que sea disipado
 
 25 po, que se consume como parte del conjuro)
-
-Duración: Hasta que sea disipado
 
 Tocas una puerta, ventana, portón, recipiente o trampilla
 
@@ -2599,10 +2540,9 @@ lo desbloquea durante 1 minuto.
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** 45 m
 - **Componentes:** V, S, M (una perla negra pulverizada que
+- **Duración:** Instantáneo
 
 valga al menos 500 po)
-
-Duración: Instantáneo
 
 Una energía negativa se propaga en un radio de 18 m desde
 
@@ -2649,16 +2589,13 @@ no sufrirá daño si la supera.
 
 #### Círculo de Teletransportación
 *Conjuración de nivel 5 (bardo, brujo, hechicero, mago)*
+- **Alcance:** 3 m
+- **Componentes:** V, M (tintas inusuales que valgan al menos
+- **Duración:** 1 asalto
 
 Tiempo de lanzamieñto: 1 minuto
 
-Alcance: 3 m
-
-Componentes: V, M (tintas inusuales que valgan al menos
-
 50 po, que se consumen como parte del conjuro)
-
-Duración: 1 asalto
 
 Mientras lanzas el conjuro, trazas en el suelo un círculo
 
@@ -2715,10 +2652,9 @@ permanente.
 - **Tiempo de lanzamiento:** 1 minuto
 - **Alcance:** 3 m
 - **Componentes:** V, S, M (sal y plata en polvo que valga al
+- **Duración:** 1 hora
 
 menos 100 po, que se consumen como parte del conjuro)
-
-Duración: 1 hora
 
 Creas un cilindro de energía mágica de 3 m de radio y 6 m
 
@@ -2777,12 +2713,11 @@ tenga el espacio.
 - **Tiempo de lanzamiento:** 10 minutos
 - **Alcance:** 1,5 km
 - **Componentes:** V, S, M (un canalizador que valga al menos
+- **Duración:** Concentración, hasta 10 minutos
 
 100 po; puede ser una trompetilla enjoyada o un ojo de
 
 cristal)
-
-Duración: Concentración, hasta 10 minutos
 
 Creas un sensor invisible dentro del alcance en un lugar
 
@@ -2856,14 +2791,13 @@ el espacio.
 - **Tiempo de lanzamiento:** 1 hora
 - **Alcance:** Toque
 - **Componentes:** V, S, M (un diamante que valga al menos
+- **Duración:** Instantáneo
 
 1000 po, que se consume como parte del conjuro, y un
 
 recipiente sellable que valga al menos 2000 po y sea lo
 
 bastante grande como para alojar a la criatura que se clone)
-
-Duración: Instantáneo
 
 Tocas a una criatura o al menos un cubo de su carne de
 
@@ -2902,6 +2836,7 @@ ya que el alma de la criatura está en otra parte.
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** Toque
 - **Componentes:** V, S, M (un cofre de con unas dimensiones
+- **Duración:** Hasta que sea disipado
 
 de 90 cm por 60 cm por 60 cm, construido de materiales
 
@@ -2910,8 +2845,6 @@ raros que valgan al menos 5000 po, así como una réplica
 Diminuta hecha de los mismos materiales y que valga al
 
 menos 50 po)
-
-Duración: Hasta que sea disipado
 
 Ocultas un cofre y todo su contenido en el Plano Etére
 
@@ -2983,9 +2916,9 @@ se librará del conjuro.
 #### Comunión
 *Adivinación de nivel 5 (clérigo)*
 - **Tiempo de lanzamiento:** 1 minuto o un ritual
-- **Alcance:** Lanzador
-- **Componentes:** V, S, M (incienso)
-- **Duración:** 1 minuto
+- **Alcance:** 27 m
+- **Componentes:** V, S, M (tres cáscaras de nuez)
+- **Duración:** Concentración, hasta 1 minuto
 
 Te pones en contacto con una deidad o con un represent
 
@@ -3023,13 +2956,7 @@ ve        COMUNIÓN CON LA NATURALEZA
 
 Adivinación de nivel 5 (druida, explorador)
 
-Tiempo de lanzamiento: 1 minuto o un ritual
-
-Alcance: Lanzador
-
 a         Componentes: V, S
-
-Duración: Instantáneo
 
 re de     Comulgas con espíritus de la naturaleza y obtienes
 
@@ -3080,12 +3007,6 @@ CONFUSIÓN
 gura      Encantamiento de nivel 4 (bardo, druida, hechicero, mago)
 
 éxito,    Tiempo de lanzamiento: Acción
-
-Alcance: 27 m
-
-Componentes: V, S, M (tres cáscaras de nuez)
-
-Duración: Concentración, hasta 1 minuto
 
 Todas las criaturas situadas en una esfera de 3 m de
 
@@ -3250,10 +3171,9 @@ que tenga el espacio.
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** Lanzador
 - **Componentes:** V, S, M (un arma cuerpo a cuerpo o a distancia
+- **Duración:** Instantáneo
 
 que valga al menos 1 pc)
-
-Duración: Instantáneo
 
 Blandes el arma utilizada para lanzar el conjuro e invocas
 
@@ -3409,10 +3329,9 @@ el espacio.
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** 45 m
 - **Componentes:** V, S, M (un arma cuerpo a cuerpo o a distancia
+- **Duración:** Instantáneo
 
 que valga al menos 1 pc)
-
-Duración: Instantáneo
 
 Blandes el arma utilizada para lanzar el conjuro y eliges
 
@@ -3503,12 +3422,11 @@ el espacio.
 - **Tiempo de lanzamiento:** 10 minutos
 - **Alcance:** Lanzador
 - **Componentes:** V, S, M (incienso que valga al menos 250 po,
+- **Duración:** Instantáneo
 
 que se consume como parte del conjuro, y cuatro tiras de
 
 marfil que valgan al menos 50 po)
-
-Duración: Instantáneo
 
 Nombra o describe a una persona, un lugar o un objeto
 
@@ -3545,10 +3463,9 @@ y el conjuro fallará.
 - **Tiempo de lanzamiento:** 24 horas
 - **Alcance:** Toque
 - **Componentes:** V, S, M (incienso que valga al menos
+- **Duración:** Hasta que sea disipado
 
 1000 po, que se consume como parte del conjuro)
-
-Duración: Hasta que sea disipado
 
 Tocas un punto e impregnas una zona a su alrededor con
 
@@ -3729,10 +3646,9 @@ envenenado no terminará.
 - **Tiempo de lanzamiento:** 10 minutos
 - **Alcance:** Lanzador
 - **Componentes:** V, S, M (una estatuilla de ti tallada y decorad
+- **Duración:** 10 días
 
 con gemas que valga al menos 1500 po)
-
-Duración: 10 días
 
 Elige un conjuro de nivel 5 o inferior que puedas lanzar,
 
@@ -3804,18 +3720,15 @@ s
 #### Contrahechizo
 *Abjuración de nivel 3 (brujo, hechicero, mago)*
 - **Tiempo de lanzamiento:** Reacción, que llevas a cabo
+- **Alcance:** 18 m
+- **Componentes:** S
+- **Duración:** Instantáneo
 
 cuando una criatura que puedas ver a 18 m o menos
 
 de ti lance un conjuro usando componentes verbales,
 
 somáticos o materiales
-
-Alcance: 18 m
-
-Componentes: S
-
-Duración: Instantáneo
 
 Intentas interrumpir a una criatura que esté lanzando
 
@@ -3946,10 +3859,10 @@ de conjuros.
 
 #### Controlar el Clima
 *Transmutación de nivel 8 (clérigo, druida, mago)*
-- **Tiempo de lanzamiento:** 10 minutos
-- **Alcance:** Lanzador
-- **Componentes:** V, S, M (incienso para quemar)
-- **Duración:** Concentración, hasta 8 horas
+- **Tiempo de lanzamiento:** 1 minuto o un ritual
+- **Alcance:** 9 m
+- **Componentes:** V, S
+- **Duración:** 1 hora
 
 Hasta que termine el conjuro, asumes el control de
 
@@ -4071,15 +3984,7 @@ usca         Ilusionismo de nivel 3 (mago)
 
 ivel
 
-Tiempo de lanzamiento: 1 minuto o un ritual
-
 ién
-
-Alcance: 9 m
-
-Componentes: V, S
-
-Duración: 1 hora
 
 Una criatura equina cuasi real de tamaño Grande aparece
 
@@ -4156,10 +4061,10 @@ nivel por encima de 2 que tenga el espacio.
 
 #### Corona de la Locura
 *Encantamiento de nivel 2 (bardo, brujo, hechicero, mago)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** 36 m
-- **Componentes:** V, S
-- **Duración:** Concentración, hasta 1 minuto
+- **Tiempo de lanzamiento:** 1 minuto
+- **Alcance:** 9 m
+- **Componentes:** V, S, M (un pincel)
+- **Duración:** Especial
 
 Una criatura que puedas ver dentro del alcance
 
@@ -4198,14 +4103,6 @@ conjuro terminará.
 l   CREACIÓN
 
 Ilusionismo de nivel 5 (hechicero, mago)
-
-Tiempo de lanzamiento: 1 minuto
-
-Alcance: 9 m
-
-Componentes: V, S, M (un pincel)
-
-Duración: Especial
 
 Tomas hebras de sombra del Páramo Sombrío para
 
@@ -4310,10 +4207,9 @@ alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).
 - **Tiempo de lanzamiento:** 1 minuto
 - **Alcance:** 3 m
 - **Componentes:** V, S, M (un ónice negro que valga al meno
+- **Duración:** Instantáneo
 
 150 po por cada cadáver)
-
-Duración: Instantáneo
 
 Solo puedes lanzar este conjuro por la noche. Elige
 
@@ -4420,16 +4316,12 @@ espacio.
 
 #### Crecimiento Espinoso
 *Transmutación de nivel 2 (druida, explorador)*
+- **Tiempo de lanzamiento:** Acción (sobrecrecimiento)
+- **Alcance:** 45 m
+- **Componentes:** V, S
+- **Duración:** Instantáneo
 
 s
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 45 m
-
-Componentes: V, S, M (siete espinas)
-
-Duración: Concentración, hasta 10 minutos
 
 Del suelo en una esfera de 6 m de radio centrada en
 
@@ -4463,19 +4355,11 @@ ayas    Transmutación de nivel 3 (bardo, druida, explorador)
 
 as,
 
-Tiempo de lanzamiento: Acción (sobrecrecimiento)
-
 u 8 horas (fertilización)
 
 uro
 
-Alcance: 45 m
-
 as
-
-Componentes: V, S
-
-Duración: Instantáneo
 
 un
 
@@ -4600,16 +4484,12 @@ y envenenadas.
 
 #### Curar Heridas
 *Abjuración de nivel 1 (bardo, clérigo, druida, explorador,*
+- **Tiempo de lanzamiento:** Acción                                        |
+- **Alcance:** Toque
+- **Componentes:** V, S                                                    |
+- **Duración:** Instantáneo
 
 paladín)
-
-Tiempo de lanzamiento: Acción                                        |
-
-Alcance: Toque
-
-Componentes: V, S                                                    |
-
-Duración: Instantáneo
 
 Una criatura a la que toques recupera una cantidad
 
@@ -4769,8 +4649,8 @@ alcanzas los niveles 5 (210), 11 (3d10) y 17 (4d10).
 #### Descarga Sobrenatural
 *Truco de evocación (brujo)*
 - **Tiempo de lanzamiento:** Acción
-- **Alcance:** 36m    *
-- **Componentes:** V, S
+- **Alcance:** Lanzador
+- **Componentes:** V
 - **Duración:** Instantáneo
 
 Lanzas un rayo de energía chisporroteante. Haz un ataque
@@ -4799,17 +4679,9 @@ a          Conjuración de nivel 9 (hechicero, mago)
 
 no
 
-Tiempo de lanzamiento: Acción
-
 bos
 
-Alcance: Lanzador
-
-Componentes: V
-
 e
-
-Duración: Instantáneo
 
 de
 
@@ -5029,10 +4901,9 @@ el espacio.
 - **Tiempo de lanzamiento:** 8 horas
 - **Alcance:** Toque
 - **Componentes:** V, S, M (un ágata que valga al menos
+- **Duración:** Instantáneo
 
 1000 po y que se consume como parte del conjuro)
-
-Duración: Instantáneo
 
 Dedicas el tiempo de lanzamiento a trazar surcos mágicos
 
@@ -5124,12 +4995,11 @@ cercano.
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** Toque
 - **Componentes:** V, S, M (una vara de metal con forma de
+- **Duración:** Instantáneo
 
 horquilla que valga al menos 250 po y esté sintonizada
 
 con un plano de existencia)
-
-Duración: Instantáneo
 
 Tú y hasta ocho criaturas voluntarias que unan sus manos
 
@@ -5208,6 +5078,8 @@ por encima de 4 que tenga el espacio.
 - **Alcance:** Lanzador
 - **Componentes:** V, S
 
+ago)   Duración: Concentración, hasta 10 minutos
+
 Hasta que el conjuro termine, percibes la ubicación de
 
 cualquier aberración, celestial, elemental, feérico, infernal
@@ -5226,16 +5098,12 @@ o madera, 2,5 cm de metal o una lámina fina de plomo.
 
 #### Detectar Magia
 *Adivinación de nivel 1 (bardo, brujo, clérigo, druida,*
+- **Tiempo de lanzamiento:** Acción o ritual
+- **Alcance:** Lanzador
+- **Componentes:** V, S
+- **Duración:** Concentración, hasta 10 minutos
 
 explorador, hechicero, mago, paladín)
-
-Tiempo de lanzamiento: Acción o ritual
-
-Alcance: Lanzador
-
-Componentes: V, S
-
-Duración: Concentración, hasta 10 minutos
 
 Hasta que el conjuro termine, podrás percibir la presencia
 
@@ -5356,9 +5224,9 @@ que detectas.
 #### Detectar Venenos y Enfermedades
 *Adivinación de nivel 1 (clérigo, druida, explorador, paladín)*
 - **Tiempo de lanzamiento:** Acción o ritual
-- **Alcance:** Lanzador
-- **Componentes:** V, S, M (una hoja de tejo)
-- **Duración:** Concentración, hasta 10 minutos
+- **Alcance:** 9 m
+- **Componentes:** V, S, M (una gota de mercurio)
+- **Duración:** 1 hora
 
 Hasta que el conjuro termine, percibes la ubicación de
 
@@ -5375,14 +5243,6 @@ o madera, 2,5 cm de metal o una lámina fina de plomo.
 DIsco FLOTANTE DE TENSER
 
 Conjuración de nivel1 (mago)
-
-Tiempo de lanzamiento: Acción o ritual
-
-Alcance: 9 m
-
-Componentes: V, S, M (una gota de mercurio)
-
-Duración: 1 hora
 
 Este conjuro crea un plano de fuerza horizontal de 90 cm
 
@@ -5514,16 +5374,12 @@ asustada o hechizada por dichas criaturas.
 
 #### Disipar Magia
 *Abjuración de nivel 3 (bardo, brujo, clérigo, druida, explor*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 18 m
+- **Componentes:** V, S
+- **Duración:** Concentración, hasta 1 minuto
 
 hechicero, mago, paladín)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 36 m
-
-Componentes: V, S
-
-Duración: Instantáneo
 
 Elige una criatura, un objeto o un efecto mágico dentro
 
@@ -5554,14 +5410,6 @@ MALIGNO DE UNA INOCENTE POSEÍDA.
 DOMINAR BESTIA
 
 ador,   Encantamiento de nivel 4 (druida, explorador, hechicero)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 18 m
-
-Componentes: V, S
-
-Duración: Concentración, hasta 1 minuto
 
 Una bestia que puedas ver dentro del alcance deberá
 
@@ -5741,10 +5589,9 @@ o lo ve signar.
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** 18 m
 - **Componentes:** V, S, M (una pizca de arena o pétalos
+- **Duración:** Concentración, hasta 1 minuto
 
 de rosa)
-
-Duración: Concentración, hasta 1 minuto
 
 Todas las criaturas de tu elección en una esfera de 1,5 m
 
@@ -5812,10 +5659,9 @@ de 9 m de él.
 - **Tiempo de lanzamiento:** Acción o ritual
 - **Alcance:** Toque
 - **Componentes:** V, S, M (2 piezas de cobre, que se consumen
+- **Duración:** 10 días
 
 como parte del conjuro)
-
-Duración: 10 días
 
 Tocas un cadáver u otro tipo de restos mortales. Hasta
 
@@ -5949,12 +5795,11 @@ por encima de 1 que tenga el espacio.
 - **Tiempo de lanzamiento:** 1 minuto
 - **Alcance:** Lanzador
 - **Componentes:** V, S, M (un juego de herramientas de
+- **Duración:** Concentración, hasta 1 día
 
 adivinación, como cartas o runas, que valga al menos
 
 100 po)
-
-Duración: Concentración, hasta 1 día
 
 Percibes mágicamente el camino físico más corto hacia
 
@@ -5992,11 +5837,10 @@ QUE LOS CONJURAN.
 *Conjuración de nivel 1 (mago)*
 - **Tiempo de lanzamiento:** 1 hora o un ritual
 - **Alcance:** 3 m
-- **Componentes:** V, S, M (incienso para quemar que valga a
+- **Componentes:** S
+- **Duración:** Instantáneo
 
 menos 10 po, que se consume como parte del conjuro)
-
-Duración: Instantáneo
 
 Obtienes los servicios de un familiar, un espíritu que
 
@@ -6093,8 +5937,6 @@ Ilusionismo de nivel 5 (bardo, brujo, mago)
 m      Tiempo de lanzamiento: Acción
 
 te.    Alcance: Lanzador
-
-Componentes: S
 
 tu     Duración: Concentración, hasta 1 hora
 
@@ -6288,10 +6130,10 @@ y sufrirá 3d6 de daño psíquico cuando se despierte.
 
 #### Entender Idiomas
 *Adivinación de nivel 1 (bardo, brujo, hechicero, mago)*
-- **Tiempo de lanzamiento:** Acción o ritual
+- **Tiempo de lanzamiento:** Reacción, que llevas a cabo cuando
 - **Alcance:** Lanzador
-- **Componentes:** V, S, M (una pizca de hollín y sal)
-- **Duración:** 1 hora
+- **Componentes:** V, S
+- **Duración:** 1 asalto
 
 Hasta que el conjuro termine, entiendes el significado liter
 
@@ -6311,17 +6153,9 @@ Escupo
 
 Abjuración de nivel 1 (hechicero, mago)
 
-Tiempo de lanzamiento: Reacción, que llevas a cabo cuando
-
 te acierta una tirada de ataque o eres el objetivo del
 
 conjuro proyectil mágico
-
-Alcance: Lanzador
-
-Componentes: V, S
-
-Duración: 1 asalto
 
 Una barrera imperceptible de fuerza mágica te protege.
 
@@ -6390,14 +6224,13 @@ al
 #### Escudriñar
 *Adivinación de nivel 5 (bardo, brujo, clérigo, druida, mago)*
 - **Tiempo de lanzamiento:** 10 minutos
-- **Alcance:** Lanzador
-- **Componentes:** V, S, M (un canalizador que valga al menos
+- **Alcance:** 90 m
+- **Componentes:** V, S, M (una esfera de cristal en miniatura)
+- **Duración:** Instantáneo
 
 1000 po, como una bola de cristal, un espejo o una pila
 
 llena de agua)
-
-Duración: Concentración, hasta 10 minutos
 
 Puedes ver y oír a una criatura de tu elección que esté en
 
@@ -6473,12 +6306,6 @@ a     Evocación de nivel 6 (hechicero, mago)
 
 n     Tiempo de lanzamiento: Acción
 
-Alcance: 90 m
-
-Componentes: V, S, M (una esfera de cristal en miniatura)
-
-Duración: Instantáneo
-
 Un globo glacial surge de ti y golpea un punto de tu elección
 
 dentro del alcance, donde explota en una esfera de 18 m de
@@ -6542,8 +6369,8 @@ el espacio.
 #### Esfera de Llamas
 *Conjuración de nivel 2 (druida, hechicero, mago)*
 - **Tiempo de lanzamiento:** Acción
-- **Alcance:** 18 m
-- **Componentes:** V, S, M (una bola de cera)
+- **Alcance:** 9 m
+- **Componentes:** V, S, M (una esfera de cristal)
 - **Duración:** Concentración, hasta 1 minuto
 
 Creas una esfera de fuego de 1,5 m de diámetro en un
@@ -6588,15 +6415,7 @@ ho       ESFERA ELÁSTICA DE OTILUKE
 
 Abjuración de nivel 4 (mago)
 
-Tiempo de lanzamiento: Acción
-
 a
-
-Alcance: 9 m
-
-Componentes: V, S, M (una esfera de cristal)
-
-Duración: Concentración, hasta 1 minuto
 
 Una esfera destellante encierra a una criatura u objeto
 
@@ -6680,10 +6499,9 @@ tenga el espacio.
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** 27 m
 - **Componentes:** V, S, M (una espada en miniatura que valga
+- **Duración:** Concentración, hasta 1 minuto
 
 al menos 250 po)
-
-Duración: Concentración, hasta 1 minuto
 
 Creas una espada espectral que levitará dentro del alcance
 
@@ -6942,9 +6760,9 @@ tenga el espacio. Estas criaturas deben estar a 3 m
 
 #### Explosión Solar
 *Evocación de nivel 8 (clérigo, druida, hechicero, mago)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** 45 m
-- **Componentes:** V, S, M (un trozo de heliolita)
+- **Tiempo de lanzamiento:** 10 minutos
+- **Alcance:** 36 m
+- **Componentes:** V, S
 - **Duración:** Instantáneo
 
 Una esfera de 18 m de radio centrada en un punto de tu
@@ -6974,14 +6792,6 @@ y que fuera creada por un conjuro.
 FABRICAR
 
 go)   Transmutación de nivel 4 (mago)
-
-Tiempo de lanzamiento: 10 minutos
-
-Alcance: 36 m
-
-Componentes: V, S
-
-Duración: Instantáneo
 
 Conviertes materias primas en productos del mismo
 
@@ -7060,12 +6870,11 @@ infligen 1d4 de daño radiante adicional si aciertan.
 - **Tiempo de lanzamiento:** 10 minutos
 - **Alcance:** Lanzador
 - **Componentes:** V, S, M (un cuenco incrustado de gemas
+- **Duración:** Instantáneo
 
 que valga al menos 1000 po y que se consume como
 
 parte del conjuro)
-
-Duración: Instantáneo
 
 Conjuras un festín que aparece sobre una superficie en
 
@@ -7154,16 +6963,13 @@ cada nivel por encima de 2 que tenga el espacio.
 #### Flecha de Relámpago
 *Transmutación de nivel 3 (explorador)*
 - **Tiempo de lanzamiento:** Acción adicional, que realizas
+- **Alcance:** Lanzador
+- **Componentes:** V, S
+- **Duración:** Instantáneo
 
 de inmediato tras acertar o fallar un ataque a distancia
 
 con un arma contra un objetivo
-
-Alcance: Lanzador
-
-Componentes: V, S
-
-Duración: Instantáneo
 
 L ATREVIDO MAGO MELF APUNTAA UN TRO,
 
@@ -7497,10 +7303,9 @@ anteriormente.
 - **Tiempo de lanzamiento:** 1 hora
 - **Alcance:** Toque
 - **Componentes:** V, S, M (diamante en polvo que valga al
+- **Duración:** Hasta que sea disipado o se active
 
 menos 200 po, que se consume como parte del conjuro)
-
-Duración: Hasta que sea disipado o se active
 
 Inscribes un glifo que liberará posteriormente un efecto
 
@@ -7650,14 +7455,11 @@ encima de 6 que tenga el espacio.
 #### Golpe Apresador
 *Conjuración de nivel1 (explorador)*
 - **Tiempo de lanzamiento:** Acción adicional, que realizas
+- **Alcance:** Lanzador
+- **Componentes:** V
+- **Duración:** Concentración, hasta 1 minuto
 
 de inmediato tras acertar a una criatura con un arma
-
-Alcance: Lanzador
-
-Componentes: V
-
-Duración: Concentración, hasta 1 minuto
 
 Al acertar al objetivo, unas enredaderas aparecerán
 
@@ -7696,10 +7498,9 @@ el espacio.
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** 9 m
 - **Componentes:** S, M (un arma cuerpo a cuerpo que valga
+- **Duración:** Instantáneo
 
 al menos 1 pp)
-
-Duración: Instantáneo
 
 Blandes el arma utilizada al lanzar el conjuro y luego
 
@@ -7749,10 +7550,9 @@ encima de 5 que tenga el espacio.
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** 18 m
 - **Componentes:** V, S, M (un poco de piel de cerdo
+- **Duración:** 1 minuto
 
 o de mantequilla)
-
-Duración: 1 minuto
 
 Una grasa no inflamable cubre una zona cuadrada del
 
@@ -7804,10 +7604,9 @@ se niega ese efecto y el conjuro termina.
 - **Tiempo de lanzamiento:** 1 hora
 - **Alcance:** Toque
 - **Componentes:** V, S, M (una vara de plata que valga
+- **Duración:** 24 horas
 
 al menos 10 po)
-
-Duración: 24 horas
 
 Creas una protección que cubre hasta 250 m? de espacio
 
@@ -8187,6 +7986,10 @@ lCorceL SOBRENATURAL                                                       |
 
 | Celestial, feérico o infernal Grande (a tu elección), neutral
 
+| CA:10+1 por cada nivel del conjuro                                      |l
+
+PG: 5 + 10 por cada nivel del conjuro (el corcel tiene una
+
 cantidad de dados de golpe [d10] igual al nivel del conjuro)
 
 | Velocidad: 18 m, volar 18 m (requiere un conjuro de nivel 4              |
@@ -8195,11 +7998,15 @@ o superior)
 
 MOD.   SALV.           MOD.   SALV.             MOD.   SALV.   ll
 
+Fue 18 +4        +4      Des 12 +1      +1      Conl4 +2         +2      l
+
 InT    6 -2      -2      Sam 12 +l      +1      Car 8-1          -1      |
 
 | Sentidos: Percepción pasiva 11
 
 Idiomas: telepatía 1,5 km (solo funciona contigo)
+
+VD: ninguno (0 PX; BC igual a tu bonificador por competencia)
 
 | ATRIBUTOS
 
@@ -8324,9 +8131,9 @@ AL INSACIABLE HAMBRE DE ÍADAR.
 #### Hechizar Persona
 *Encantamiento de nivel1 (bardo, brujo, druida, hechicero, mago)*
 - **Tiempo de lanzamiento:** Acción
-- **Alcance:** 9 m
+- **Alcance:** Toque
 - **Componentes:** V, S
-- **Duración:** 1 hora
+- **Duración:** Concentración, hasta 1 minuto
 
 Un humanoide que puedas ver dentro del alcance realiza
 
@@ -8353,14 +8160,6 @@ por encima de 1 que tenga el espacio.
 HEroÍSMO
 
 Encantamiento de nivel 1 (bardo, paladín)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: Toque
-
-Componentes: V, S
-
-Duración: Concentración, hasta 1 minuto
 
 Insuflas valor a una criatura voluntaria a la que toques.
 
@@ -8505,10 +8304,11 @@ ilusión, ya que las cosas pueden atravesarla.
 *Ilusionismo de nivel 6 (bardo, mago)*
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** 36 m
+- **Duración:** Hasta que sea disipado
+
+3m   Componentes: V, S, M (polvo de jade con un valor
 
 de al menos 25 po)
-
-Duración: Hasta que sea disipado
 
 Creas una ilusión de un objeto, una criatura u otro tipo de
 
@@ -8742,10 +8542,9 @@ imagen es una ilusión, no se dejará engañar por ella.
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** Lanzador
 - **Componentes:** S, M (un arma con la que tengas
+- **Duración:** Instantáneo
 
 competencia y que valga al menos 1 pc)
-
-Duración: Instantáneo
 
 Un destello de perspicacia mágica te guía y haces un
 
@@ -8827,12 +8626,11 @@ conjuro de nivel 9, el conjuro durará hasta que sea disipado
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** Toque
 - **Componentes:** V, S, M (una pizca de diamante en polvo
+- **Duración:** 8 horas
 
 que valga al menos 25 po, que se consume como parte
 
 del conjuro)
-
-Duración: 8 horas
 
 Hasta que termine el conjuro, escondes a un objetivo
 
@@ -8900,14 +8698,11 @@ por encima de 5 que tenga el espacio.
 
 #### Inmovilizar Persona
 *Encantamiento de nivel 2 (bardo, brujo, clérigo, druida,*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 18 m
+- **Componentes:** V, S, M (un trozo de hierro recto)
 
 hechicero, mago)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 18 m
-
-Componentes: V, S, M (un trozo de hierro recto)
 
 6)     Duración: Concentración, hasta 1 minuto
 
@@ -8956,15 +8751,23 @@ el conjuro termina.
 
 l Bestia Grande, sin alineamiento
 
+CA: 11 + el nivel del conjuro
+
+PG: 30 + 10 por cada nivel del conjuro superior al 4
+
 Velocidad: 12 m, trepar 12 m, volar 12 m (solo avispa)
 
 MOD.   SALV.           M         LV          MOD
+
+Fue 174343               Des 13 HI    70+10     Con 151+2
 
 nr 4 EEN                 Sab ION                [Cars EAS
 
 Sentidos: visión en la oscuridad 18 m, Percepción pasiva 12
 
 Idiomas: entiende los idiomas que conozcas
+
+VD: ninguno (0 PX; BC igual a tu bonificador por competenci
 
 ATRIBUTOS
 
@@ -9149,13 +8952,12 @@ quién es la criatura que lo tiene y su paradero actual.
 *Conjuración de nivel 4 (brujo, mago)*
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** 27 m
-- **Componentes:** V, S, M (un tentáculo en salmuera y un globo
+- **Componentes:** V, S, M (una caja de seguridad que valga
+- **Duración:** Concentración, hasta 1 hora
 
 ocular en un vial con incrustaciones de platino que valga
 
 al menos 400 po)
-
-Duración: Concentración, hasta 1 hora
 
 Invocas un espíritu aberrante que se manifiesta en un
 
@@ -9197,9 +8999,15 @@ WI
 
 Aberración Mediana, neutral
 
+| CA: 11 + el nivel del conjuro
+
+PG: 40 + 10 por cada nivel del conjuro superior al 4
+
 | Velocidad: 9 m, volar 9 m (levitar; solo contemplador)
 
 MOD.   SALV.          MOD.   SALV.          MOD.   SALV.
+
+Fue 16 +3       +3      Des10 +0      +0       Con15 +2     +2
 
 Int 16 +3       +3      Sam 10 +0     +0      Car 6 -2      -2
 
@@ -9210,6 +9018,8 @@ Sentidos: visión en la oscuridad 18 m, Percepción pasiva 10
 Idiomas: habla de las profundidades, entiende los idiomas
 
 que conozcas
+
+VD: ninguno (0 PX; BC igual a tu bonificador por competencia)
 
 ATRIBUTOS
 
@@ -9269,9 +9079,15 @@ ESPÍRITU AUTÓMATA
 
 Autómata Mediano, neutral
 
+CA: 13 + el nivel del conjuro
+
+PG: 40 + 15 por cada nivel del conjuro superior al 4
+
 | Velocidad: 9 m
 
 MOD.   SALY.          MOD.   SAL'           M
+
+Fue 18 +4       +4      Des10+0       +0     Conl3 +4
 
 InT 14 +2       +2      Sab 11 +0     +0     Car 5 -3
 
@@ -9284,6 +9100,8 @@ InT 14 +2       +2      Sab 11 +0     +0     Car 5 -3
 || Sentidos: visión en la oscuridad 18 m, Percepción pasiva
 
 | Idiomas: entiende los idiomas que conozcas
+
+VD: ninguno (0 PX; BC igual a tu bonificador por
 
 competencia)
 
@@ -9351,15 +9169,7 @@ l              INVOCAR AUTÓMATA
 
 Conjuración de nivel 4 (mago)
 
-Tiempo de lanzamiento: Acción
-
-Alcance: 27 m
-
-Componentes: V, S, M (una caja de seguridad que valga
-
 al menos 400 po)
-
-Duración: Concentración, hasta 1 hora
 
 su
 
@@ -9405,13 +9215,12 @@ en el perfil.
 *Conjuración de nivel 2 (druida, explorador)*
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** 27 m
-- **Componentes:** V, S, M (una pluma, un poco de pelaje y cola
+- **Componentes:** V, S, M (un relicario que valga al menos 500 po)
+- **Duración:** Concentración, hasta 1 hora
 
 de pez dentro de una bellota bañada en oro que valga al
 
 menos 200 po)
-
-Duración: Concentración, hasta 1 hora
 
 Invocas un espíritu bestial que se manifiesta en un espacio
 
@@ -9449,6 +9258,10 @@ ESPÍRITU BESTIAL
 
 Bestia Pequeña, neutral
 
+CA: 11 + el nivel del conjuro
+
+PG: 20 (solo aire) o 30 (solo mary tierra) + 5 por cada niv
+
 del conjuro superior al 2
 
 | Velocidad: 9 m, nadar 9 m (solo mar), trepar 9 m (solo tie
@@ -9457,9 +9270,15 @@ volar 18 m (solo aire)
 
 MOD.   SALV.          MOD.   SALV.          MOD.
 
+Fue 18 +4        +4      Des 11 +0     +0      ConNl6 +3
+
+INT 4-3          -3      Sab 14 +2     +2      Car 5 -3
+
 Sentidos: visión en la oscuridad 18 m, Percepción pasiva 12
 
 Idiomas: entiende los idiomas que conozcas
+
+VD: ninguno (0 PX; BC igual a tu bonificador por competenci
 
 ATRIBUTOS
 
@@ -9517,14 +9336,6 @@ INVOCAR CELESTIAL
 
 a)             Conjuración de nivel 5 (clérigo, paladín)
 
-Tiempo de lanzamiento: Acción
-
-Alcance: 27 m
-
-Componentes: V, S, M (un relicario que valga al menos 500 po)
-
-Duración: Concentración, hasta 1 hora
-
 Invocas un espíritu celestial que se manifiesta con una
 
 .              forma angelical en un espacio sin ocupar que puedas ver
@@ -9568,10 +9379,9 @@ en el perfil.
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** 18 m
 - **Componentes:** V, S, M (un objeto con la imagen de un
+- **Duración:** Concentración, hasta 1 hora
 
 dragón grabada en él que valga al menos 500 po)
-
-Duración: Concentración, hasta 1 hora
 
 Invocas el espíritu de un dragón, que se manifiesta en u
 
@@ -9607,11 +9417,15 @@ en el perfil.
 
 I| Celestial Grande, neutral
 
+| CA: 11 + el nivel del conjuro
+
 J    + 2 (solo defensor)
 
 l PG: 40 + 10 por cada nivel del conjuro superior al 5
 
 | Velocidad: 9 m, volar 12 m
+
+|              MOD. SALV.           MOD. SALV.
 
 | FUE T6 +3          +3     Des14 +2      +2          CoNl6
 
@@ -9624,6 +9438,8 @@ Inmunidades: asustado, hechizado
 Sentidos: visión en la oscuridad 18 m, Percepción pasiva
 
 Idiomas: celestial, entiende los idiomas que conozcas
+
+VD: ninguno (0 PX; BC igual a tu bonificador por compete
 
 | ACCIONES                                       za
 
@@ -9683,7 +9499,15 @@ ESPÍRITU DRACÓNICO
 
 Dragón Grande, neutral
 
+CA: 14 + el nivel del conjuro
+
+PG: 50 + 10 por cada nivel del conjuro superior al 5
+
 Velocidad: 9 m, nadar 9 m, volar 18 m
+
+MOD. SALV.       |
+
+MOD. SALV.           MOD. SALV.           MOD. SALV.
 
 +3    +3                 Fue 19 +4      +4      Des 14 +2    +2      CON17 +3        +3
 
@@ -9698,6 +9522,8 @@ Inmunidades: asustado, envenenado, hechizado                     I
 Percepción pasiva 12
 
 ncia) |                 Idiomas: dracónico, entiende los idiomas que conozcas
+
+|         VD: ninguno (0 PX; BC igual a tu bonificador por competencia)
 
 es                      ATRIBUTOS
 
@@ -9738,12 +9564,11 @@ conjuro). Éxito: la mitad del daño.
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** 27 m
 - **Componentes:** V, S, M (aire, un guijarro, ceniza y agua
+- **Duración:** Concentración, hasta 1 hora
 
 dentro de un vial con incrustaciones de oro que valg
 
 al menos 400 po)
-
-Duración: Concentración, hasta 1 hora
 
 Invocas un espíritu elemental que se manifiesta en un
 
@@ -9785,9 +9610,17 @@ ESPÍRITU ELEMENTAL
 
 Elemental Mediano, neutral
 
+CA: 11 + el nivel del conjuro
+
+PG: 50 + 10 por cada nivel del conjuro superior al 4
+
 Velocidad: 12 m, excavar 12 m (solo tierra), nadar 12 m
 
 (solo agua), volar 12 m (levitar; solo aire)
+
+MOD. SALV.            MOD. SALV.          MOD. SALV.
+
+Fue 18 +4      +4     Des 15+2       +2     CoN17 +3     +3
 
 InT 4-3        -3     Sam 10 +0      +0     CAR 16 +3    +3
 
@@ -9802,6 +9635,8 @@ a            envenenado, paralizado, petrificado
 Sentidos: visión en la oscuridad 18 m, Percepción pasiva 10
 
 Idiomas: primordial, entiende los idiomas que conozcas
+
+| VD: ninguno (0 PX; BC igual a tu bonificador por competencia)
 
 usa      | ATRIBUTOS
 
@@ -9838,10 +9673,9 @@ njuro      o de relámpago (solo aire).
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** 27 m
 - **Componentes:** V, S, M (una flor bañada.en oro que valga
+- **Duración:** Concentración, hasta 1 hora
 
 al menos 300 po)
-
-Duración: Concentración, hasta 1 hora
 
 Invocas un espíritu feérico que se manifiesta en un espacio
 
@@ -9883,9 +9717,15 @@ r
 
 Feérico Pequeño, neutral
 
+CA: 12 + el nivel del conjuro
+
+| PG: 30 + 10 por cada nivel del conjuro superior al 3
+
 Velocidad: 9 m, volar 9 m
 
 MOD.   SALV.         MOD.   SALV.          MOD.   SALV.
+
+Fue 13 +1       +1.     Des16 +3     +3      Conl4 +2      +2
 
 InT 14 +2       +2      SAB 11 +0 +0         Car 16 +3     +3
 
@@ -9894,6 +9734,8 @@ Inmunidades: hechizado
 Sentidos: visión en la oscuridad 18 m, Percepción pasiva 10
 
 Idiomas: silvano, entiende los idiomas que conozcas
+
+VD: ninguno (0 PX; BC igual a tu bonificador por competencia)
 
 ACCIONES
 
@@ -9946,10 +9788,9 @@ de ataque que realice antes del final de este turno.
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** 27 m
 - **Componentes:** V, S, M (un vial con sangre que valga
+- **Duración:** Concentración, hasta 1 hora
 
 al menos 600 po)
-
-Duración: Concentración, hasta 1 hora
 
 Invocas un espíritu infernal que se manifiesta en un
 
@@ -9993,11 +9834,19 @@ ESPÍRITU INFERNAL
 
 Infernal Grande, neutral
 
+CA: 12 + el nivel del conjuro
+
+PG: 50 (solo demonio) o 40 (solo diablo) o 60 (solo
+
 | yugoloth) + 15 por cada nivel del conjuro superior al 6
 
 | Velocidad: 12 m, trepar 12 m (solo demonio), volar 18 m
 
 (solo diablo)
+
+|              MOD. SALV           MOD. SALV
+
+| Fue 13 +1          +1.    Des 16 +3       +3.   CoNn15 +2
 
 InT 10 +0       +0     Sam 10 +0       +0    Car 16 +3
 
@@ -10038,6 +9887,8 @@ Fallo: 2410 más el nivel de este conjuro de daño de fuego.
 Vista del diablo (solo diablo). La oscuridad mágica no
 
 dificulta la visión en la oscuridad del espíritu.
+
+MOD. SALV   ACCIONES
 
 +2     Ataque múltiple. El espíritu realiza una cantidad de ataques
 
@@ -10084,10 +9935,9 @@ Acierto: 2d6 + 3 + el nivel del conjuro de daño de fuego.        |
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** 27 m
 - **Componentes:** V, S, M (una calavera bañada en oro que
+- **Duración:** Concentración, hasta 1 hora
 
 valga al menos 300 po)
-
-Duración: Concentración, hasta 1 hora
 
 Invocas un espíritu muerto viviente que se manifiesta en
 
@@ -10127,11 +9977,19 @@ en el perfil.
 
 | Muerto viviente Mediano, neutral
 
+| CA: 11 + el nivel del conjuro
+
+| PG: 30 (solo fantasmal o pútrido) o 20 (solo esquelético)
+
 | 10 por cada nivel del conjuro superior al 3
 
 | Velocidad: 9 m, volar 12 m (levitar; solo fantasmal)
 
 MOD.   SALV.         M      SALV.         MOD
+
+| Fue 12 +1           +1       Des16+3   +3" CoN15 +2
+
+INT 4-3          -3      Sam 10+0   +0        Car 9 -1
 
 | Inmunidades:   necrótico, veneno; asustado, cansancio,
 
@@ -10232,10 +10090,9 @@ aza al
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** 30 m
 - **Componentes:** V, S, M (polvo de rubí que valga al menos
+- **Duración:** Concentración, hasta 1 hora
 
 1500 po, que se consume como parte del conjuro)
-
-Duración: Concentración, hasta 1 hora
 
 Una prisión inmóvil e invisible con forma de cubo
 
@@ -10464,10 +10321,9 @@ por encima de 4 que tenga el espacio.
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** Toque
 - **Componentes:** V, S, M (polvo de rubí que valga al menos
+- **Duración:** Hasta que sea disipado
 
 50 po, que se consume como parte del conjuro)
-
-Duración: Hasta que sea disipado
 
 Una llama surge de un objeto que toques. El efecto emite
 
@@ -10572,16 +10428,12 @@ alguna.
 
 #### Localizar Criatura
 *Adivinación de nivel 4 (bardo, clérigo, druida, explorador,*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Lanzador
+- **Componentes:** V, S, M (pelaje de un sabueso)
+- **Duración:** Concentración, hasta 1 hora
 
 mago, paladín)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: Lanzador
-
-Componentes: V, S, M (pelaje de un sabueso)
-
-Duración: Concentración, hasta 1 hora
 
 Describe o nombra una criatura que conozcas. Presientes
 
@@ -10617,16 +10469,12 @@ entre la criatura y tú.
 
 #### Conjuro Luz del Día para Traer la Luz del Amanecer a una Corte Vampírica Localizar Objeto
 *Adivinación de nivel2 (bardo, clérigo, druida, explora*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Lanzador
+- **Componentes:** V, S
+- **Duración:** Concentración, hasta 1 minuto
 
 mago, paladín)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: Lanzador
-
-Componentes: V, S, M (una ramita con forma de horquill
-
-Duración: Concentración, hasta 10 minutos
 
 Describe o nombra un objeto que conozcas. Presientes
 
@@ -10655,12 +10503,6 @@ objeto y tú.
 LUCES DANZANTES
 
 dor,   Truco de ilusionismo (bardo, hechicero, mago)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 36 m
-
-Componentes: V, S, M (una pizca de fósforo)
 
 a)     Duración: Concentración, hasta 1 minuto
 
@@ -10692,14 +10534,6 @@ Luz
 
 Truco de evocación (bardo, clérigo, hechicero, mago)
 
-Tiempo de lanzamiento: Acción
-
-Alcance: Toque
-
-Componentes: V, M (una luciérnaga o musgo fosforescente)
-
-Duración: 1 hora
-
 Tocas un objeto Grande o más pequeño que nadie lleve
 
 o vista. Hasta que el conjuro termine, el objeto emitirá luz
@@ -10717,14 +10551,6 @@ Luz DEL DÍA
 Evocación de nivel 3 (clérigo, druida, explorador, hechicero
 
 paladín)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 18 m
-
-Componentes: V, S
-
-Duración: 1 hora
 
 Hasta que el conjuro termine, una luz solar se extiende
 
@@ -10753,14 +10579,6 @@ o inferior, el conjuro que creó esa oscuridad se disipa.
 MAL DE Ojo
 
 Nigromancia de nivel 6 (bardo, brujo, hechicero, mago)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: Lanzador
-
-Componentes: V, S
-
-Duración: Concentración, hasta 1 minuto
 
 Hasta que el conjuro termine, tus ojos se convierten en
 
@@ -10808,10 +10626,10 @@ una acción para despertarlo.
 
 #### Maleficio
 *Encantamiento de nivel1 (brujo)*
-- **Tiempo de lanzamiento:** Acción adicional
-- **Alcance:** 27 m
-- **Componentes:** V, S, M (el ojo petrificado de un tritón)
-- **Duración:** Concentración, hasta 1 hora
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** 36 m
+- **Componentes:** V, S, M (una cáscara de huevo y un guante)
+- **Duración:** Concentración, hasta 1 minuto
 
 Impones una maldición a una criatura que puedas ver
 
@@ -10844,14 +10662,6 @@ de nivel 2 (hasta 4 horas), 3 o 4 (hasta 8 horas) o 5 o más
 MANO DE BiGBY
 
 Evocación de nivel 5 (hechicero, mago)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 36 m
-
-Componentes: V, S, M (una cáscara de huevo y un guante)
-
-Duración: Concentración, hasta 1 minuto
 
 Creas una mano de energía mágica brillante de tamaño
 
@@ -11019,18 +10829,14 @@ c
 
 #### Mansión Magnífica de Mordenkainen T
 *Conjuración de nivel 7 (bardo, mago)*
+- **Tiempo de lanzamiento:** 1 minuto                            p
+- **Alcance:** 90 m                                              p
+- **Componentes:** V, S, M (una puerta en miniatura que valga    d
+- **Duración:** 24 horas                                         f
 
 q
 
-Tiempo de lanzamiento: 1 minuto                            p
-
-Alcance: 90 m                                              p
-
-Componentes: V, S, M (una puerta en miniatura que valga    d
-
 al menos 15 po)                                          y
-
-Duración: 24 horas                                         f
 
 a
 
@@ -11235,6 +11041,12 @@ de magia para mover el mastín hasta 9 m.
 *Truco de transmutación (bardo, druida, hechicero, mago)*
 - **Tiempo de lanzamiento:** Acción
 
+que.     Alcance: 36 m
+
+ía       Componentes: S, M (un alambre de cobre)
+
+o.       Duración: 1 asalto
+
 ntes
 
 Señalas a una criatura dentro del alcance y susurras un
@@ -11313,6 +11125,8 @@ a
 - **Alcance:** Toque
 - **Componentes:** V, S
 - **Duración:** 24 horas
+
+e        Tiempo de lanzamiento: Acción
 
 Hasta que el conjuro termine, una criatura voluntaria
 
@@ -12029,9 +11843,9 @@ el espacio.
 #### Nube de Oscurecimiento
 *Conjuración de nivel 1 (druida, explorador, hechicero,*
 - **Tiempo de lanzamiento:** Acción
-- **Alcance:** 36 m
+- **Alcance:** 45 m
 - **Componentes:** V, S
-- **Duración:** Concentración, hasta 1 hora
+- **Duración:** Concentración, hasta 1 minuto
 
 Creas una esfera de niebla de 6 m de radio centrada en
 
@@ -12052,14 +11866,6 @@ o de
 o        NUBE INCENDIARIA
 
 a        Conjuración de nivel 8 (druida, hechicero, mago)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 45 m
-
-Componentes: V, S
-
-Duración: Concentración, hasta 1 minuto
 
 Una nube turbulenta de humo y ascuas llena una esfera
 
@@ -12128,6 +11934,8 @@ a
 - **Componentes:** V, S, M (un poco de pelo de murciélago)
 - **Duración:** Concentración, hasta 1 hora
 
+mago)   Alcance: 9 m
+
 Creas un ojo invisible e invulnerable dentro del alcance que
 
 levita hasta que el conjuro termine. Recibes mentalmente
@@ -12185,16 +11993,12 @@ E CROMÁTICO.
 
 #### Ola Destructora
 *Evocación de nivel 5 (paladín)*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Lanzador
+- **Componentes:** V
+- **Duración:** Instantáneo
 
 .
-
-Tiempo de lanzamiento: Acción
-
-Alcance: Lanzador
-
-Componentes: V
-
-Duración: Instantáneo
 
 Una energía destructiva surge de ti formando ondas en
 
@@ -12216,10 +12020,11 @@ ese daño.
 *Evocación de nivel 1 (hechicero, mago)*
 - **Tiempo de lanzamiento:** Acción
 - **Componentes:** V, S, M (un diamante que valga al menos
+- **Duración:** Instantáneo
+
+daño.   Alcance: 27 m
 
 50 po)
-
-Duración: Instantáneo
 
 Lanzas un orbe de energía a un objetivo dentro del
 
@@ -12309,10 +12114,9 @@ de 1 que tenga el espacio.
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** 18 m
 - **Componentes:** V, M (pelaje de murciélago y un trozo
+- **Duración:** Concentración, hasta 10 minutos
 
 de carbón)
-
-Duración: Concentración, hasta 10 minutos
 
 Hasta que el conjuro termine, una oscuridad mágica se
 
@@ -12363,7 +12167,7 @@ el espacio.
 
 #### Palabra de Curación en Masa
 *Abjuración de nivel 3 (bardo, clérigo)*
-- **Tiempo de lanzamiento:** Acción adicional
+- **Tiempo de lanzamiento:** Acción
 - **Alcance:** 18 m
 - **Componentes:** V
 - **Duración:** Instantáneo
@@ -12383,14 +12187,6 @@ el espacio.
 PALABRA DE PODER: ATURDIR
 
 Encantamiento de nivel 8 (bardo, brujo, hechicero, mago)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 18 m
-
-Componentes: V
-
-Duración: Instantáneo
 
 Abrumas la mente de una criatura que puedas ver dentro
 
@@ -12412,14 +12208,6 @@ PALABRA DE PODER: FORTALECER
 
 Encantamiento de nivel 7 (bardo, clérigo)
 
-Tiempo de lanzamiento: Acción
-
-Alcance: 18 m
-
-Componentes: V
-
-Duración: Instantáneo
-
 Refuerzas a hasta seis criaturas que puedas ver dentro
 
 del alcance. El conjuro proporciona 120 puntos de golpe
@@ -12432,14 +12220,6 @@ PALABRA DE PODER: MATAR
 
 Encantamiento de nivel 9 (bardo, brujo, hechicero, mago)
 
-Tiempo de lanzamiento: Acción
-
-Alcance: 18 m
-
-Componentes: V
-
-Duración: Instantáneo
-
 Obligas a morir a una criatura que puedas ver dentro del
 
 alcance. Si el objetivo tiene 100 puntos de golpe o menos,
@@ -12449,14 +12229,6 @@ morirá. De lo contrario, sufrirá 12d12 de daño psíquico.
 PALABRA DE PODER: SANAR
 
 Encantamiento de nivel 9 (bardo, clérigo)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 18 m
-
-Componentes: V
-
-Duración: Instantáneo
 
 Una criatura que puedas ver dentro del alcance se ve
 
@@ -12659,8 +12431,8 @@ alas pruebas de Destreza (Sigilo) y no dejaréis huella
 #### Paso Arbóreo
 *Conjuración de nivel 5 (druida, explorador)*
 - **Tiempo de lanzamiento:** Acción
-- **Alcance:** Lanzador
-- **Componentes:** V, S
+- **Alcance:** 36 m
+- **Componentes:** V, S, M (una pizca de confeti)
 - **Duración:** Concentración, hasta 1 minuto
 
 Obtienes la capacidad de entrar en un árbol y moverte
@@ -12701,14 +12473,6 @@ PASO BRUMOSO
 
 ro.      Conjuración de nivel2 (brujo, hechicero, mago)
 
-Tiempo de lanzamiento: Acción adicional
-
-Alcance: Lanzador
-
-Componentes: V
-
-Duración: Instantáneo
-
 Una niebla plateada te rodea brevemente y te teletransportas
 
 hasta 9 m a un espacio sin ocupar que puedas ver.
@@ -12719,15 +12483,7 @@ Ilusionismo de nivel 3 (bardo, brujo, hechicero, mago)
 
 de +10
 
-Tiempo de lanzamiento: Acción
-
 s.
-
-Alcance: 36 m
-
-Componentes: V, S, M (una pizca de confeti)
-
-Duración: Concentración, hasta 1 minuto
 
 Creas un patrón de colores que se retuercen en un cubo
 
@@ -12855,10 +12611,9 @@ los niveles 5 (9 m), 11 (18 m) y 17 (36 m).
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** Toque
 - **Componentes:** V, S, M (polvo de diamante que valga al
+- **Duración:** Concentración, hasta 1 hora
 
 menos 100 po y que se consume como parte del conjuro)
-
-Duración: Concentración, hasta 1 hora
 
 Hasta que el conjuro termine, una criatura voluntaria a la
 
@@ -13005,12 +12760,11 @@ criatura no podrá usar ese equipo ni beneficiarse de é
 #### Polimorfar Verdadero
 *Transmutación de nivel 9 (bardo, brujo, mago)*
 - **Tiempo de lanzamiento:** Acción
-- **Alcance:** 9 m
-- **Componentes:** V, S, M (una gota de mercurio, un poco
+- **Alcance:** 18 m
+- **Componentes:** V, S, M (un diamante que valga al menos
+- **Duración:** Concentración, hasta 1 minuto
 
 de goma arábiga y un jirón de humo)
-
-Duración: Concentración, hasta 1 hora
 
 Elige a una criatura o un objeto no mágico que puedas
 
@@ -13102,17 +12856,9 @@ PORTAL
 
 uro
 
-Tiempo de lanzamiento: Acción
-
 ntos
 
-Alcance: 18 m
-
-Componentes: V, S, M (un diamante que valga al menos
-
 5000 po)
-
-Duración: Concentración, hasta 1 minuto
 
 la             Conjuras un portal que enlaza un espacio sin ocupar que
 
@@ -13172,16 +12918,12 @@ EXTERIORES.
 
 #### Potenciar Característica
 *Transmutación de nivel 2 (bardo, clérigo, druida, expl*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Toque
+- **Componentes:** V, S, M (pelo de animal o una pluma)
+- **Duración:** Concentración, hasta 1 hora
 
 hechicero, mago)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: Toque
-
-Componentes: V, S, M (pelo de animal o una pluma)
-
-Duración: Concentración, hasta 1 hora
 
 Tocas a una criatura y eliges Fuerza, Destreza,
 
@@ -13203,10 +12945,10 @@ característica distinta para cada objetivo.
 
 #### Presciencia
 *Adivinación de nivel 9 (bardo, brujo, druida, mago)*
-- **Tiempo de lanzamiento:** 1 minuto
-- **Alcance:** Toque
-- **Componentes:** V, S, M (una pluma de colibrí)
-- **Duración:** 8 horas
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Lanzador
+- **Componentes:** V, S, M (una tiara en miniatura)
+- **Duración:** Concentración, hasta 1 minuto
 
 Tocas a una criatura voluntaria y la dotas de una capa
 
@@ -13223,14 +12965,6 @@ a lanzar.
 PRESENCIA REGIA DE YOLANDE
 
 orador,   Encantamiento de nivel5 (bardo, mago)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: Lanzador
-
-Componentes: V, S, M (una tiara en miniatura)
-
-Duración: Concentración, hasta 1 minuto
 
 Te rodeas de una majestuosidad sobrenatural en una
 
@@ -13312,10 +13046,9 @@ y no tiene valor monetario.
 - **Tiempo de lanzamiento:** 10 minutos o un ritual
 - **Alcance:** Toque
 - **Componentes:** V, S, M (polvo de rubí que valga al menos
+- **Duración:** 1 día
 
 1000 po)
-
-Duración: 1 día
 
 Creas una protección contra los viajes mágicos que
 
@@ -13373,11 +13106,10 @@ materiales se consumirán en el último lanzamiento.
 *Abjuración de nivel 1 (brujo, clérigo, druida, mago, p*
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** Toque
-- **Componentes:** V, S, M (un frasco de agua bendita que va
+- **Componentes:** V, S
+- **Duración:** Concentración, hasta 1 hora
 
 al menos 25 po, que se consume como parte del conjur
-
-Duración: Concentración, hasta 10 minutos
 
 neo        Hasta que el conjuro termine, una criatura voluntaria
 
@@ -13407,14 +13139,6 @@ PROTECCIÓN CONTRA ENERGÍA
 
 mago)
 
-Tiempo de lanzamiento: Acción
-
-Alcance: Toque
-
-Componentes: V, S
-
-Duración: Concentración, hasta 1 hora
-
 Hasta que termine el conjuro, una criatura voluntaria
 
 a la que toques tendrá resistencia a un tipo de daño de
@@ -13425,16 +13149,14 @@ tu elección: ácido, frío, fuego, relámpago o trueno.
 
 #### Protección Contra Veneno
 *Abjuración de nivel 2 (clérigo, druida, explorador, paladín)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** Toque
+- **Tiempo de lanzamiento:** 1 hora
+- **Alcance:** 3 m
+- **Componentes:** V, S, M (por cada objetivo del conjuro,
+- **Duración:** Hasta que sea disipado
 
 l.
 
-Componentes: V, S
-
 ,
-
-Duración: 1 hora
 
 rea
 
@@ -13456,12 +13178,6 @@ ine        Nigromancia de nivel 9 (brujo, clérigo, mago)
 
 ico
 
-Tiempo de lanzamiento: 1 hora
-
-Alcance: 3 m
-
-Componentes: V, S, M (por cada objetivo del conjuro,
-
 trar
 
 un jacinto que valga al menos 1000 po y un lingote de
@@ -13471,8 +13187,6 @@ plata que valga al menos 100 po, que se consumen como
 parte del conjuro)
 
 los
-
-Duración: Hasta que sea disipado
 
 Tú y hasta ocho criaturas voluntarias dentro del alcance
 
@@ -13533,10 +13247,9 @@ animación suspendida.
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** 750 km
 - **Componentes:** V, S, M (una estatuilla de ti que valga
+- **Duración:** Concentración, hasta 1 día
 
 al menos 5 po)
-
-Duración: Concentración, hasta 1 día
 
 Creas una copia ilusoria de ti que dura hasta que termine
 
@@ -13976,6 +13689,12 @@ el espacio.
 *Evocación de nivel 6 (clérigo, druida, hechicero, mago)*
 - **Tiempo de lanzamiento:** Acción
 
+de      Alcance: Lanzador
+
+tro      Componentes: V, S, M (una lupa)
+
+ue       Duración: Concentración, hasta 1 minuto
+
 m.       Lanzas un rayo solar en una línea de 1,5 m de ancho
 
 y 18 m de largo. Todas las criaturas situadas en esa línea
@@ -14048,10 +13767,9 @@ ese tiempo, sabrás que te ha bloqueado y el conjuro fallará.
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** Toque
 - **Componentes:** V, S, M (polvo de piedras preciosas que valga
+- **Duración:** Hasta que sea disipado
 
 al menos 5000 po, que se consume como parte del conjuro)
-
-Duración: Hasta que sea disipado
 
 ra
 
@@ -14092,10 +13810,9 @@ termina si el objetivo recibe cualquier daño.
 - **Tiempo de lanzamiento:** 1 hora
 - **Alcance:** Toque
 - **Componentes:** V, S, M (aceites raros que valgan al menos
+- **Duración:** Instantáneo
 
 1000 po, que se consumen como parte del conjuro)
-
-Duración: Instantáneo
 
 Tocas a un humanoide muerto o una parte de sus
 
@@ -14157,10 +13874,9 @@ y los miembros cercenados crecen de nuevo al cabo de
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** Lanzador
 - **Componentes:** V, S, M (un poco de pelaje y una vara
+- **Duración:** Instantáneo
 
 de cristal)
-
-Duración: Instantáneo
 
 Un relámpago que forma una línea de 30 m de largo
 
@@ -14217,16 +13933,12 @@ por cada nivel por encima de 6 que tenga el espacio.
 
 #### Reparar
 *Truco de transmutación (bardo, clérigo, druida, hechicero,*
+- **Tiempo de lanzamiento:** 1 minuto
+- **Alcance:** Toque
+- **Componentes:** V, S, M (dos imanes naturales)
+- **Duración:** Instantáneo
 
 mago)
-
-Tiempo de lanzamiento: 1 minuto
-
-Alcance: Toque
-
-Componentes: V, S, M (dos imanes naturales)
-
-Duración: Instantáneo
 
 Este conjuro repara una sola grieta o desgarrón en un
 
@@ -14249,16 +13961,13 @@ objeto mágico, pero no puede restaurar su magia.
 #### Reprensión Infernal
 *Evocación de nivel 1 (brujo)*
 - **Tiempo de lanzamiento:** Reacción, que llevas a cabo en
+- **Alcance:** 18 m
+- **Componentes:** V, S
+- **Duración:** Instantáneo
 
 respuesta a recibir daño de una criatura que puedas ver
 
 a 18 mo menos de ti
-
-Alcance: 18 m
-
-Componentes: V, S
-
-Duración: Instantáneo
 
 La criatura que te ha dañado se ve rodeada
 
@@ -14320,18 +14029,14 @@ normal.
 
 #### Restablecimiento Mayor
 *Abjuración de nivel 5 (bardo, clérigo, druida, explorador,*
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Toque
+- **Componentes:** V, S, M (polvo de diamante que valga al
+- **Duración:** Instantáneo
 
 paladín)
 
-Tiempo de lanzamiento: Acción
-
-Alcance: Toque
-
-Componentes: V, S, M (polvo de diamante que valga al
-
 menos 100 po y que se consume como parte del conjuro)
-
-Duración: Instantáneo
 
 Tocas a una criatura y eliminas mágicamente uno de los
 
@@ -14357,16 +14062,12 @@ del objetivo.
 
 #### Restablecimiento Menor
 *Abjuración de nivel 2 (bardo, clérigo, druida, explorador,*
+- **Tiempo de lanzamiento:** Acción adicional
+- **Alcance:** Toque
+- **Componentes:** V, S
+- **Duración:** Instantáneo
 
 paladín)
-
-Tiempo de lanzamiento: Acción adicional
-
-Alcance: Toque
-
-Componentes: V, S
-
-Duración: Instantáneo
 
 Tocas a una criatura y le pones fin a un estado que tenga:
 
@@ -14379,10 +14080,9 @@ cegada, ensordecida, envenenada o paralizada.
 - **Tiempo de lanzamiento:** 1 hora
 - **Alcance:** Toque
 - **Componentes:** V, S, M (un diamante que valga al menos
+- **Duración:** Instantáneo
 
 1000 po y que se consume como parte del conjuro)
-
-Duración: Instantáneo
 
 Con un toque, revives a una criatura que no lleve más de
 
@@ -14423,10 +14123,9 @@ conjuros y tendrás desventaja en las pruebas con d20.
 - **Tiempo de lanzamiento:** 1 hora
 - **Alcance:** Toque
 - **Componentes:** V, S, M (diamantes que valgan al menos
+- **Duración:** Instantáneo
 
 25 000 po, que se consumen como parte del conjuro)
-
-Duración: Instantáneo
 
 Tocas a una criatura que no lleve más de 200 años muerta
 
@@ -14474,10 +14173,9 @@ termine, puedes volver a hacerla como acción adicional.
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** Toque
 - **Componentes:** V, S, M (un diamante que valga al menos
+- **Duración:** Instantáneo
 
 300 po, que se consume como parte del conjuro)
-
-Duración: Instantáneo
 
 Tocas a una criatura que haya muerto en el último minuto.
 
@@ -14492,9 +14190,9 @@ devolverle las partes del cuerpo que haya perdido.
 #### Risa Horrible de Tasha
 *Encantamiento de nivel 1 (bardo, brujo, mago)*
 - **Tiempo de lanzamiento:** Acción
-- **Alcance:** 9 m
-- **Componentes:** V, S, M (una tarta y una pluma)
-- **Duración:** Concentración, hasta 1 minuto
+- **Alcance:** Lanzador
+- **Componentes:** V, S, M (una pizca de arena de colo
+- **Duración:** Instantáneo
 
 Una criatura de tu elección que puedas ver dentro
 
@@ -14525,14 +14223,6 @@ por encima de 1 que tenga el espacio.
 ROCIADA DE COLOR
 
 Hlusionismo de nivel1 (bardo, hechicero, mago)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: Lanzador
-
-Componentes: V, S, M (una pizca de arena de colo
-
-Duración: Instantáneo
 
 Emites una ráfaga de luces brillantes y parpadea
 
@@ -14647,10 +14337,11 @@ a la tabla                              ROCIADA PRISMÁTICA.
 *Truco de nigromancia (brujo, druida, hechicero, mago)*
 - **Alcance:** 9 m
 - **Componentes:** V, S
+- **Duración:** Instantáneo
+
+e fuego.            Tiempo de lanzamiento: Acción
 
 o de ácido.               a
-
-Duración: Instantáneo
 
 ño de relámpago.    Rocías a una criatura dentro del alcance con una niebla
 
@@ -14676,6 +14367,8 @@ ndrá el estado
 
 #### Saber Druídico
 *Truco de transmutación (druida)*
+- **Componentes:** V, S
+- **Duración:** Instantáneo
 
 turnos.
 
@@ -14683,11 +14376,7 @@ nará. Si la falla   Tiempo de lanzamiento: Acción
 
 ado hasta que lo    Alcance: 9 m
 
-Componentes: V, S
-
 tablecimiento
-
-Duración: Instantáneo
 
 por qué ser
 
@@ -14956,10 +14645,10 @@ curación.
 
 #### Sentidos de la Bestia
 *Adivinación de nivel 2 (druida, explorador)*
-- **Tiempo de lanzamiento:** Acción o ritual
-- **Alcance:** Toque
-- **Componentes:** S
-- **Duración:** Concentración, hasta 1 hora
+- **Tiempo de lanzamiento:** Acción adicional
+- **Alcance:** Lanzador
+- **Componentes:** V, S, M (muérdago)
+- **Duración:** 1 minuto
 
 Tocas a una bestia voluntaria. Hasta que el conjuro
 
@@ -14978,14 +14667,6 @@ os
 ace    SHILLELAGH
 
 Truco de transmutación (druida)
-
-Tiempo de lanzamiento: Acción adicional
-
-Alcance: Lanzador
-
-Componentes: V, S, M (muérdago)
-
-Duración:1 minuto
 
 Un bastón o un garrote que sostengas se ve impregnado
 
@@ -15017,12 +14698,10 @@ ro
 *Ilusionismo de nivel 2 (bardo, clérigo, explorador)*
 - **Tiempo de lanzamiento:** Acción o ritual
 - **Alcance:** 36 m
+- **Componentes:** V, S
+- **Duración:** Concentración, hasta 10 minutos
 
 te
-
-Componentes: V, S
-
-Duración: Concentración, hasta 10 minutos
 
 do
 
@@ -15046,24 +14725,20 @@ tengan un componente verbal.
 
 #### Símbolo
 *Abjuración de nivel 7 (bardo, clérigo, druida, mago)*
+- **Tiempo de lanzamiento:** 1 minuto
+- **Alcance:** Toque
+- **Componentes:** V, S, M (diamante en polvo que valga al
+- **Duración:** Hasta que sea disipado o se active
 
 ce.
 
-Tiempo de lanzamiento: 1 minuto
-
 en
-
-Alcance: Toque
-
-Componentes: V, S, M (diamante en polvo que valga al
 
 n
 
 menos 1000 po y que se consume como parte del conjuro)
 
 uier
-
-Duración: Hasta que sea disipado o se active
 
 Inscribes un glifo dañino bien en una superficie (como
 
@@ -15188,12 +14863,11 @@ sus turnos si puede.
 - **Tiempo de lanzamiento:** 12 horas
 - **Alcance:** Toque
 - **Componentes:** V, S, M (rubí
+- **Duración:** Hasta que sea disipado
 
 en polvo que valga al menos
 
 1500 po, que se consume como parte del conjuro)
-
-Duración: Hasta que sea disipado
 
 Creas un simulacro de una bestia o humanoide que
 
@@ -15414,8 +15088,10 @@ aumenta al usar espacios de nivel 7 (10 días), 8 (30 días)
 #### Susurros Discordantes
 *Encantamiento de nivel1 (bardo)*
 - **Tiempo de lanzamiento:** Acción
-- **Componentes:** V
+- **Componentes:** V, S
 - **Duración:** Instantáneo
+
+o)        Alcance: 18 m
 
 Una criatura de tu elección que puedas ver dentro
 
@@ -15452,10 +15128,6 @@ Truco de nigromancia (brujo, clérigo, mago)
 ar        Tiempo de lanzamiento: Acción
 
 o         Alcance: 18 m
-
-Componentes: V, S
-
-Duración: Instantáneo
 
 Señalas a una criatura que puedas ver dentro del alcance
 
@@ -15588,12 +15260,11 @@ a cualquier criatura que comience su turno en el incendio.
 #### Telepatía
 *Adivinación de nivel 8 (mago)*
 - **Tiempo de lanzamiento:** Acción
-- **Alcance:** limitado
-- **Componentes:** V, S, M (un par de anillos de plata
+- **Alcance:** 18 m
+- **Componentes:** V, S
+- **Duración:** Concentración, hasta 10 minutos
 
 enlazados)
-
-Duración: 24 horas
 
 Creas un enlace telepático entre tú y una criatura
 
@@ -15622,14 +15293,6 @@ mensaje sensorial que le envíes.
 “TELEQUINESIS
 
 Transmutación de nivel 5 (hechicero, mago)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 18 m
-
-Componentes: V, S
-
-Duración: Concentración, hasta 10 minutos
 
 Obtienes la capacidad de mover o manipular criaturas
 
@@ -15839,8 +15502,8 @@ aparecéis donde tú querías.
 #### Tentáculos Negros de Evard
 *Conjuración de nivel 4 (mago)*
 - **Tiempo de lanzamiento:** Acción
-- **Alcance:** 27 m
-- **Componentes:** V, S, M (un tentáculo)
+- **Alcance:** 150 m
+- **Componentes:** V, S, M (una piedra fracturada)
 - **Duración:** Concentración, hasta 1 minuto
 
 Unos tentáculos color ébano que se retuercen llenan
@@ -15876,14 +15539,6 @@ estado.
 “TERREMOTO
 
 Transmutación de nivel 8 (clérigo, druida, hechicero)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 150 m
-
-Componentes: V, S, M (una piedra fracturada)
-
-Duración: Concentración, hasta 1 minuto
 
 Elige un punto del suelo que puedas ver dentro del
 
@@ -15957,10 +15612,10 @@ solo sufrirá la mitad de ese daño.
 
 #### Terreno Alucinatorio
 *Ilusionismo de nivel 4 (bardo, brujo, druida, mago)*
-- **Tiempo de lanzamiento:** 10 minutos
-- **Alcance:** 90 m
-- **Componentes:** V, S, M (una seta)
-- **Duración:** 24 horas
+- **Tiempo de lanzamiento:** Acción
+- **Alcance:** Lanzador
+- **Componentes:** V, S, M (una pluma blanca)
+- **Duración:** Concentración, hasta 1 minuto
 
 Haces que un terreno natural en un cubo de 45 m de
 
@@ -16006,14 +15661,6 @@ terreno de verdad.
 
 Ilusionismo de nivel 3 (bardo, brujo, hechicero, mago)
 
-Tiempo de lanzamiento: Acción
-
-Alcance: Lanzador
-
-Componentes: V, S, M (una pluma blanca)
-
-Duración: Concentración, hasta 1 minuto
-
 Todas las criaturas situadas en un cono de 9 m deberán
 
 superar una tirada de salvación de Sabiduría o soltará
@@ -16041,9 +15688,9 @@ terminará para ella.
 #### Terror Abyecto
 *Ilusionismo de nivel 9 (brujo, mago)*
 - **Tiempo de lanzamiento:** Acción
-- **Alcance:** 36 m
+- **Alcance:** Toque
 - **Componentes:** V, S
-- **Duración:** Concentración, hasta 1 minuto
+- **Duración:** Instantáneo
 
 Intentas crear horrores ilusorios en las mentes de otr
 
@@ -16075,11 +15722,7 @@ cio
 
 Ilusionismo de nivel1 (bardo, brujo, mago)
 
-Tiempo de lanzamiento: 1 minuto o un ritual
-
 las     Alcance: Toque
-
-Componentes: S, M (tinta que valga al menos 10 po,
 
 que se consume como parte del conjuro)
 
@@ -16119,14 +15762,6 @@ n
 
 Truco de nigromancia (brujo, hechicero, mago)
 
-Tiempo de lanzamiento: Acción
-
-Alcance: Toque
-
-Componentes: V, S
-
-Duración: Instantáneo
-
 Canalizas un frío sepulcral y haces un ataque de conjuro
 
 cuerpo a cuerpo contra un objetivo dentro del alcance.
@@ -16147,10 +15782,11 @@ alcanzas los niveles 5 (2d10), 11 (3d10) y 17 (4d10).
 *Nigromancia de nivel 3 (brujo, hechicero, mago)*
 - **Tiempo de lanzamiento:** Acción
 - **Componentes:** V, S
+- **Duración:** Concentración, hasta 1 minuto
+
+os.      Alcance: Lanzador
 
 era
-
-Duración: Concentración, hasta 1 minuto
 
 e
 
@@ -16184,10 +15820,10 @@ e
 
 #### Tormenta de Aguanieve
 *Conjuración de nivel 3 (druida, hechicero, mago)*
-- **Tiempo de lanzamiento:** Acción
-- **Alcance:** 45 m
+- **Tiempo de lanzamiento:** Acción adicional, que realizas
+- **Alcance:** Lanzador
 - **Componentes:** V, S, M (un paraguas en miniatura)
-- **Duración:** Concentración, hasta 1 minuto
+- **Duración:** Instantáneo
 
 Hasta que el conjuro termine, caerá aguanieve en un
 
@@ -16213,17 +15849,11 @@ de derribada y perderá la concentración.
 
 Conjuración de nivel 1 (explorador)
 
-Tiempo de lanzamiento: Acción adicional, que realizas
-
 de inmediato tras acertar a una criatura con un arma
 
 a distancia
 
-Alcance: Lanzador
-
 Componentes: V
-
-Duración: Instantáneo
 
 Al golpear a la criatura, el conjuro crea una lluvia de
 
@@ -16310,7 +15940,7 @@ de 4 que tenga el espacio.
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** 1,5 km
 - **Componentes:** V, S
-- **Duración:** Concentración, hasta 1 minuto
+- **Duración:** Instantáneo
 
 Hasta que termine el conjuro, una nube de tormenta
 
@@ -16371,14 +16001,6 @@ un fuerte viento sopla en toda la zona.
 “TORMENTA DE METEORITOS
 
 Evocación de nivel 9 (hechicero, mago)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: 1,5 km
-
-Componentes: V, S
-
-Duración: Instantáneo
 
 Unos orbes de fuego abrasador caen en picado en
 
@@ -16489,9 +16111,9 @@ por encima de 2 que tenga el espacio.
 #### Tronar
 *Truco de evocación (bardo, brujo, druida, hechicero, mago)*
 - **Tiempo de lanzamiento:** Acción
-- **Alcance:** Lanzador
-- **Componentes:** S
-- **Duración:** Instantáneo
+- **Alcance:** Toque
+- **Componentes:** V, S, M (un trozo de cuerda)
+- **Duración:** 1 hora
 
 Todas las criaturas situadas en una emanación de
 
@@ -16510,14 +16132,6 @@ alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).
 “TRUCO DE LA CUERDA
 
 Transmutación de nivel 2 (mago)
-
-Tiempo de lanzamiento: Acción
-
-Alcance: Toque
-
-Componentes: V, S, M (un trozo de cuerda)
-
-Duración: 1 hora
 
 Tocas una cuerda, lo que hace que uno de sus extremos
 
@@ -16613,10 +16227,9 @@ al suelo.
 - **Tiempo de lanzamiento:** 1 minuto
 - **Alcance:** Lanzador
 - **Componentes:** V, S, M (una gema, un cristal o un relicario
+- **Duración:** Hasta que sea disipado
 
 que valga al menos 500 po)
-
-Duración: Hasta que sea disipado
 
 Tu cuerpo entra en estado catatónico y tu alma lo
 
@@ -16827,14 +16440,13 @@ en uno por cada nivel por encima de 2 que tenga el espacio.
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** Toque
 - **Componentes:** V, S, M (un par de anillos de platino que
+- **Duración:** 1 hora
 
 valgan al menos 50 po cada uno y que debéis llevar
 
 puestos tanto tú como el objetivo hasta que termine
 
 el conjuro)
-
-Duración: 1 hora
 
 Tocas a otra criatura voluntaria y creas una conexión
 
@@ -16876,12 +16488,11 @@ a la que toques tendrá visión en la oscuridad hasta 45 m.
 - **Tiempo de lanzamiento:** Acción
 - **Alcance:** Toque
 - **Componentes:** V, S, M (hongos pulverizados que valgan
+- **Duración:** 1 hora
 
 al menos 25 po, que se consumen como parte del
 
 conjuro)
-
-Duración: 1 hora
 
 Hasta que el conjuro termine, la criatura voluntaria
 
@@ -16944,6 +16555,8 @@ alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).
 - **Alcance:** Toque
 - **Componentes:** V, S, M (una pizca de tierra)
 - **Duración:** 1 hora
+
+o)    Tiempo de lanzamiento: Acción
 
 Tocas a una criatura y su velocidad aumenta en 3 m hasta
 

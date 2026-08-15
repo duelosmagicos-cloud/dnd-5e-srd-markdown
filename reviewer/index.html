@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Revisor de Conjuros D&D 5e (2024)</title>
+  <style>
+    :root {
+      --bg-main: #0f172a;
+      --bg-card: #1e293b;
+      --bg-card-hover: #334155;
+      --border-color: #334155;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --primary: #38bdf8;
+      --primary-hover: #0284c7;
+      --ok-color: #10b981;
+      --ok-bg: rgba(16, 185, 129, 0.15);
+      --pending-color: #f59e0b;
+      --pending-bg: rgba(245, 158, 11, 0.15);
+      --rejected-color: #ef4444;
+      --rejected-bg: rgba(239, 68, 68, 0.15);
+      --font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-main);
+      color: var(--text-main);
+      font-family: var(--font-family);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+      border-bottom: 1px solid var(--border-color);
+      padding: 1.25rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .header-title h1 {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .header-title p {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-top: 0.2rem;
+    }
+
+    .header-actions {
+      display: flex;
+      gap: 0.75rem;
+    }
+
+    .btn {
+      background: var(--bg-card);
+      color: var(--text-main);
+      border: 1px solid var(--border-color);
+      padding: 0.5rem 0.9rem;
+      border-radius: 0.5rem;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .btn:hover {
+      background: var(--bg-card-hover);
+      border-color: var(--primary);
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      color: #0f172a;
+      border: none;
+    }
+
+    .btn-primary:hover {
+      background: var(--primary-hover);
+      color: #fff;
+    }
+
+    main {
+      flex: 1;
+      padding: 1.5rem 2rem;
+      max-width: 1600px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    /* KPI Metrics Dashboard */
+    .metrics-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .metric-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 0.75rem;
+      padding: 1rem 1.25rem;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    .metric-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 4px;
+      height: 100%;
+    }
+
+    .metric-card.total::before { background: var(--primary); }
+    .metric-card.ok::before { background: var(--ok-color); }
+    .metric-card.pending::before { background: var(--pending-color); }
+    .metric-card.rejected::before { background: var(--rejected-color); }
+
+    .metric-label {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    .metric-value {
+      font-size: 1.75rem;
+      font-weight: 800;
+      margin: 0.3rem 0;
+    }
+
+    .progress-bar-bg {
+      background: rgba(255,255,255,0.05);
+      height: 5px;
+      border-radius: 3px;
+      overflow: hidden;
+      margin-top: 0.4rem;
+    }
+
+    .progress-bar-fill {
+      height: 100%;
+      background: var(--ok-color);
+      width: 0%;
+      transition: width 0.3s ease;
+    }
+
+    /* Controls Panel */
+    .controls-panel {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 0.75rem;
+      padding: 1rem 1.25rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .search-group {
+      flex: 1;
+      min-width: 280px;
+      position: relative;
+    }
+
+    .search-input {
+      width: 100%;
+      background: var(--bg-main);
+      border: 1px solid var(--border-color);
+      color: var(--text-main);
+      padding: 0.6rem 1rem 0.6rem 2.4rem;
+      border-radius: 0.5rem;
+      font-size: 0.875rem;
+      outline: none;
+    }
+
+    .search-input:focus {
+      border-color: var(--primary);
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 0.85rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-muted);
+    }
+
+    .filters-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+
+    .filter-select {
+      background: var(--bg-main);
+      border: 1px solid var(--border-color);
+      color: var(--text-main);
+      padding: 0.6rem 0.9rem;
+      border-radius: 0.5rem;
+      font-size: 0.85rem;
+      outline: none;
+      cursor: pointer;
+    }
+
+    .filter-select:focus {
+      border-color: var(--primary);
+    }
+
+    /* Table Container */
+    .table-container {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 0.75rem;
+      overflow-x: auto;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    }
+
+    table.spells-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.85rem;
+      text-align: left;
+    }
+
+    table.spells-table th {
+      background: #111827;
+      color: var(--text-muted);
+      padding: 0.85rem 1rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 0.75rem;
+      letter-spacing: 0.05em;
+      border-bottom: 1px solid var(--border-color);
+      cursor: pointer;
+      user-select: none;
+      white-space: nowrap;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    table.spells-table th:hover {
+      color: var(--primary);
+      background: #1e293b;
+    }
+
+    table.spells-table th .sort-icon {
+      margin-left: 0.3rem;
+      font-size: 0.75rem;
+      color: var(--primary);
+    }
+
+    table.spells-table td {
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid rgba(51, 65, 85, 0.4);
+      vertical-align: middle;
+    }
+
+    table.spells-table tr:hover td {
+      background: rgba(56, 189, 248, 0.03);
+    }
+
+    .spell-name-cell {
+      font-weight: 700;
+      color: var(--text-main);
+      font-size: 0.9rem;
+    }
+
+    .badge-level {
+      background: rgba(56, 189, 248, 0.15);
+      color: var(--primary);
+      padding: 0.2rem 0.5rem;
+      border-radius: 0.3rem;
+      font-weight: 700;
+      font-size: 0.75rem;
+      display: inline-block;
+    }
+
+    .badge-stage {
+      padding: 0.25rem 0.55rem;
+      border-radius: 1rem;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      display: inline-block;
+    }
+
+    .badge-stage-ok { background: var(--ok-bg); color: var(--ok-color); border: 1px solid rgba(16,185,129,0.3); }
+    .badge-stage-pendiente { background: var(--pending-bg); color: var(--pending-color); border: 1px solid rgba(245,158,11,0.3); }
+    .badge-stage-rechazado { background: var(--rejected-bg); color: var(--rejected-color); border: 1px solid rgba(239,68,68,0.3); }
+
+    .stage-select {
+      background: var(--bg-main);
+      border: 1px solid var(--border-color);
+      color: var(--text-main);
+      padding: 0.35rem 0.6rem;
+      border-radius: 0.4rem;
+      font-size: 0.8rem;
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+    .stage-select.ok { color: var(--ok-color); border-color: var(--ok-color); }
+    .stage-select.pendiente { color: var(--pending-color); border-color: var(--pending-color); }
+    .stage-select.rechazado { color: var(--rejected-color); border-color: var(--rejected-color); }
+
+    .revision-input {
+      width: 100%;
+      min-width: 160px;
+      background: var(--bg-main);
+      border: 1px solid var(--border-color);
+      color: var(--text-main);
+      border-radius: 0.4rem;
+      padding: 0.35rem 0.6rem;
+      font-size: 0.8rem;
+      outline: none;
+    }
+
+    .revision-input:focus {
+      border-color: var(--primary);
+    }
+
+    .btn-view {
+      background: transparent;
+      color: var(--primary);
+      border: 1px solid rgba(56,189,248,0.3);
+      padding: 0.25rem 0.6rem;
+      border-radius: 0.35rem;
+      font-size: 0.75rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .btn-view:hover {
+      background: var(--primary);
+      color: #0f172a;
+    }
+
+    .save-indicator {
+      font-size: 0.7rem;
+      color: var(--ok-color);
+      margin-left: 0.4rem;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .save-indicator.show { opacity: 1; }
+
+    /* Modal */
+    .modal-overlay {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(15, 23, 42, 0.85);
+      backdrop-filter: blur(4px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.25s ease;
+    }
+
+    .modal-overlay.open { opacity: 1; pointer-events: auto; }
+
+    .modal-content {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 1rem;
+      width: 90%;
+      max-width: 700px;
+      max-height: 85vh;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+    }
+
+    .modal-header {
+      padding: 1.25rem 1.5rem;
+      border-bottom: 1px solid var(--border-color);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .modal-header h2 { font-size: 1.2rem; color: var(--primary); }
+    .modal-close { background: transparent; border: none; color: var(--text-muted); font-size: 1.5rem; cursor: pointer; }
+    .modal-body { padding: 1.5rem; overflow-y: auto; font-size: 0.9rem; line-height: 1.6; color: #e2e8f0; white-space: pre-wrap; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-title">
+      <h1>📋 Tabla de Revisión de Conjuros D&D 5e (2024)</h1>
+      <p>Modo Tabla Interactivo • Ordenamiento por columnas y persistencia en CSV</p>
+    </div>
+    <div class="header-actions">
+      <button class="btn" id="export-csv-btn">📥 Exportar CSV</button>
+      <button class="btn btn-primary" id="sync-server-btn">🔄 Sincronizar</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Metric Cards -->
+    <div class="metrics-grid">
+      <div class="metric-card total">
+        <span class="metric-label">Total de Conjuros</span>
+        <span class="metric-value" id="total-count">0</span>
+        <span class="metric-label">Base de Datos 2024</span>
+      </div>
+
+      <div class="metric-card ok">
+        <span class="metric-label">Aprobados (OK)</span>
+        <span class="metric-value" id="ok-count" style="color: var(--ok-color)">0</span>
+        <div class="progress-bar-bg">
+          <div class="progress-bar-fill" id="ok-progress"></div>
+        </div>
+      </div>
+
+      <div class="metric-card pending">
+        <span class="metric-label">Pendientes</span>
+        <span class="metric-value" id="pending-count" style="color: var(--pending-color)">0</span>
+        <span class="metric-label">Por revisar</span>
+      </div>
+
+      <div class="metric-card rejected">
+        <span class="metric-label">Rechazados</span>
+        <span class="metric-value" id="rejected-count" style="color: var(--rejected-color)">0</span>
+        <span class="metric-label">Con observaciones</span>
+      </div>
+    </div>
+
+    <!-- Controls Panel -->
+    <div class="controls-panel">
+      <div class="search-group">
+        <span class="search-icon">🔍</span>
+        <input type="text" class="search-input" id="search-input" placeholder="Buscar conjuro por nombre, escuela, clase o texto...">
+      </div>
+
+      <div class="filters-group">
+        <select class="filter-select" id="filter-stage">
+          <option value="todos">Estado: Todos</option>
+          <option value="pendiente">🟡 Pendiente</option>
+          <option value="ok">🟢 OK (Aprobado)</option>
+          <option value="rechazado">🔴 Rechazado</option>
+        </select>
+
+        <select class="filter-select" id="filter-nivel">
+          <option value="todos">Nivel: Todos</option>
+          <option value="0">Truco (Nivel 0)</option>
+          <option value="1">Nivel 1</option>
+          <option value="2">Nivel 2</option>
+          <option value="3">Nivel 3</option>
+          <option value="4">Nivel 4</option>
+          <option value="5">Nivel 5</option>
+          <option value="6">Nivel 6</option>
+          <option value="7">Nivel 7</option>
+          <option value="8">Nivel 8</option>
+          <option value="9">Nivel 9</option>
+        </select>
+
+        <select class="filter-select" id="filter-escuela">
+          <option value="todos">Escuela: Todas</option>
+          <option value="Abjuración">Abjuración</option>
+          <option value="Adivinación">Adivinación</option>
+          <option value="Conjuración">Conjuración</option>
+          <option value="Encantamiento">Encantamiento</option>
+          <option value="Evocación">Evocación</option>
+          <option value="Ilusionismo">Ilusionismo</option>
+          <option value="Nigromancia">Nigromancia</option>
+          <option value="Transmutación">Transmutación</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Spells Table Container -->
+    <div class="table-container">
+      <table class="spells-table">
+        <thead>
+          <tr>
+            <th data-sort="nombre">Nombre <span class="sort-icon" id="sort-icon-nombre">▲</span></th>
+            <th data-sort="nivel">Nivel <span class="sort-icon" id="sort-icon-nivel"></span></th>
+            <th data-sort="escuela">Escuela <span class="sort-icon" id="sort-icon-escuela"></span></th>
+            <th data-sort="clases">Clases <span class="sort-icon" id="sort-icon-clases"></span></th>
+            <th data-sort="tiempo_de_lanzamiento">Tiempo <span class="sort-icon" id="sort-icon-tiempo_de_lanzamiento"></span></th>
+            <th data-sort="alcance">Alcance <span class="sort-icon" id="sort-icon-alcance"></span></th>
+            <th data-sort="componentes">Comp. <span class="sort-icon" id="sort-icon-componentes"></span></th>
+            <th data-sort="duracion">Duración <span class="sort-icon" id="sort-icon-duracion"></span></th>
+            <th data-sort="stage">Estado (Stage) <span class="sort-icon" id="sort-icon-stage"></span></th>
+            <th data-sort="revision">Notas de Revisión <span class="sort-icon" id="sort-icon-revision"></span></th>
+            <th>Acción</th>
+          </tr>
+        </thead>
+        <tbody id="table-body">
+          <!-- Rows injected dynamically -->
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <!-- Modal Description -->
+  <div class="modal-overlay" id="desc-modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 id="modal-spell-title">Nombre del Conjuro</h2>
+        <button class="modal-close" id="modal-close-btn">&times;</button>
+      </div>
+      <div class="modal-body" id="modal-spell-body"></div>
+    </div>
+  </div>
+
+  <script>
+    let spellsData = [];
+    let currentSortColumn = 'nombre';
+    let currentSortAsc = true;
+
+    const tableBody = document.getElementById('table-body');
+    const searchInput = document.getElementById('search-input');
+    const filterStage = document.getElementById('filter-stage');
+    const filterNivel = document.getElementById('filter-nivel');
+    const filterEscuela = document.getElementById('filter-escuela');
+
+    const totalCountEl = document.getElementById('total-count');
+    const okCountEl = document.getElementById('ok-count');
+    const pendingCountEl = document.getElementById('pending-count');
+    const rejectedCountEl = document.getElementById('rejected-count');
+    const okProgressEl = document.getElementById('ok-progress');
+
+    const descModal = document.getElementById('desc-modal');
+    const modalSpellTitle = document.getElementById('modal-spell-title');
+    const modalSpellBody = document.getElementById('modal-spell-body');
+    const modalCloseBtn = document.getElementById('modal-close-btn');
+
+    async function loadSpells() {
+      try {
+        const res = await fetch('/api/spells');
+        if (res.ok) {
+          spellsData = await res.json();
+          renderTable();
+        }
+      } catch (err) {
+        console.error('Failed connecting to server', err);
+      }
+    }
+
+    function renderMetrics() {
+      const total = spellsData.length;
+      let okCount = 0, pendingCount = 0, rejectedCount = 0;
+
+      spellsData.forEach(s => {
+        const stage = s.stage || 'pendiente';
+        if (stage === 'ok') okCount++;
+        else if (stage === 'rechazado') rejectedCount++;
+        else pendingCount++;
+      });
+
+      totalCountEl.textContent = total;
+      okCountEl.textContent = okCount;
+      pendingCountEl.textContent = pendingCount;
+      rejectedCountEl.textContent = rejectedCount;
+
+      const pct = total > 0 ? (okCount / total) * 100 : 0;
+      okProgressEl.style.width = `${pct}%`;
+    }
+
+    function sortSpells(data) {
+      return data.sort((a, b) => {
+        let valA = a[currentSortColumn] ?? '';
+        let valB = b[currentSortColumn] ?? '';
+
+        if (currentSortColumn === 'nivel') {
+          valA = parseInt(valA) || 0;
+          valB = parseInt(valB) || 0;
+        } else {
+          valA = String(valA).toLowerCase();
+          valB = String(valB).toLowerCase();
+        }
+
+        if (valA < valB) return currentSortAsc ? -1 : 1;
+        if (valA > valB) return currentSortAsc ? 1 : -1;
+        return 0;
+      });
+    }
+
+    function updateSortIcons() {
+      document.querySelectorAll('th[data-sort]').forEach(th => {
+        const col = th.dataset.sort;
+        const iconEl = document.getElementById(`sort-icon-${col}`);
+        if (iconEl) {
+          if (col === currentSortColumn) {
+            iconEl.textContent = currentSortAsc ? '▲' : '▼';
+          } else {
+            iconEl.textContent = '';
+          }
+        }
+      });
+    }
+
+    function renderTable() {
+      renderMetrics();
+      updateSortIcons();
+
+      const query = searchInput.value.toLowerCase().trim();
+      const stageVal = filterStage.value;
+      const nivelVal = filterNivel.value;
+      const escuelaVal = filterEscuela.value;
+
+      let filtered = spellsData.filter(s => {
+        const stageMatch = (stageVal === 'todos') || (s.stage || 'pendiente') === stageVal;
+        const nivelMatch = (nivelVal === 'todos') || String(s.nivel) === nivelVal;
+        const escuelaMatch = (escuelaVal === 'todos') || (s.escuela.toLowerCase() === escuelaVal.toLowerCase());
+        
+        const qMatch = !query || 
+          s.nombre.toLowerCase().includes(query) ||
+          s.escuela.toLowerCase().includes(query) ||
+          s.clases.toLowerCase().includes(query) ||
+          s.descripcion.toLowerCase().includes(query) ||
+          (s.revision && s.revision.toLowerCase().includes(query));
+
+        return stageMatch && nivelMatch && escuelaMatch && qMatch;
+      });
+
+      filtered = sortSpells(filtered);
+
+      tableBody.innerHTML = '';
+
+      if (filtered.length === 0) {
+        tableBody.innerHTML = `<tr><td colspan="11" style="text-align: center; color: var(--text-muted); padding: 3rem;">No se encontraron conjuros con los filtros seleccionados.</td></tr>`;
+        return;
+      }
+
+      filtered.forEach(spell => {
+        const tr = document.createElement('tr');
+        const stage = spell.stage || 'pendiente';
+        const nivelLabel = spell.nivel === 0 || spell.nivel === "0" ? 'Truco' : `Nivel ${spell.nivel}`;
+
+        tr.innerHTML = `
+          <td class="spell-name-cell">${spell.nombre}</td>
+          <td><span class="badge-level">${nivelLabel}</span></td>
+          <td>${spell.escuela}</td>
+          <td style="color: var(--text-muted); font-size: 0.8rem;">${spell.clases}</td>
+          <td>${spell.tiempo_de_lanzamiento}</td>
+          <td>${spell.alcance}</td>
+          <td style="max-width: 120px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${spell.componentes}</td>
+          <td>${spell.duracion}</td>
+          <td>
+            <select class="stage-select ${stage}" data-name="${spell.nombre}">
+              <option value="pendiente" ${stage === 'pendiente' ? 'selected' : ''}>🟡 Pendiente</option>
+              <option value="ok" ${stage === 'ok' ? 'selected' : ''}>🟢 OK</option>
+              <option value="rechazado" ${stage === 'rechazado' ? 'selected' : ''}>🔴 Rechazado</option>
+            </select>
+          </td>
+          <td>
+            <div style="display: flex; align-items: center;">
+              <input type="text" class="revision-input" data-name="${spell.nombre}" value="${escapeHtml(spell.revision || '')}" placeholder="Añadir nota...">
+              <span class="save-indicator" id="status-${cleanId(spell.nombre)}">✓</span>
+            </div>
+          </td>
+          <td>
+            <button class="btn-view" data-name="${spell.nombre}">Ver</button>
+          </td>
+        `;
+
+        tableBody.appendChild(tr);
+      });
+
+      attachTableListeners();
+    }
+
+    function escapeHtml(str) {
+      return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+    }
+
+    function cleanId(name) {
+      return name.replace(/[^a-zA-Z0-9]/g, '_');
+    }
+
+    function attachTableListeners() {
+      // Select stage change
+      document.querySelectorAll('.stage-select').forEach(sel => {
+        sel.addEventListener('change', async (e) => {
+          const name = e.target.dataset.name;
+          const stage = e.target.value;
+          e.target.className = `stage-select ${stage}`;
+          await updateSpell(name, stage, null);
+        });
+      });
+
+      // Revision input change
+      document.querySelectorAll('.revision-input').forEach(inp => {
+        inp.addEventListener('change', async (e) => {
+          const name = e.target.dataset.name;
+          const revText = e.target.value;
+          await updateSpell(name, null, revText);
+        });
+      });
+
+      // View details modal
+      document.querySelectorAll('.btn-view').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          const name = e.target.dataset.name;
+          const spell = spellsData.find(s => s.nombre === name);
+          if (spell) {
+            modalSpellTitle.textContent = `${spell.nombre} (${spell.tipo} - ${spell.escuela})`;
+            modalSpellBody.textContent = spell.descripcion;
+            descModal.classList.add('open');
+          }
+        });
+      });
+    }
+
+    async function updateSpell(nombre, stage, revision) {
+      const spell = spellsData.find(s => s.nombre === nombre);
+      if (!spell) return;
+
+      if (stage !== null) spell.stage = stage;
+      if (revision !== null) spell.revision = revision;
+
+      renderMetrics();
+
+      try {
+        const res = await fetch('/api/update', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ nombre, stage: spell.stage, revision: spell.revision })
+        });
+        if (res.ok) {
+          const statusEl = document.getElementById(`status-${cleanId(nombre)}`);
+          if (statusEl) {
+            statusEl.classList.add('show');
+            setTimeout(() => statusEl.classList.remove('show'), 1500);
+          }
+        }
+      } catch (err) {
+        console.error('Failed saving to server', err);
+      }
+    }
+
+    // Column Sorting Headers Event
+    document.querySelectorAll('th[data-sort]').forEach(th => {
+      th.addEventListener('click', () => {
+        const col = th.dataset.sort;
+        if (currentSortColumn === col) {
+          currentSortAsc = !currentSortAsc;
+        } else {
+          currentSortColumn = col;
+          currentSortAsc = true;
+        }
+        renderTable();
+      });
+    });
+
+    // Modal close
+    modalCloseBtn.addEventListener('click', () => descModal.classList.remove('open'));
+    descModal.addEventListener('click', (e) => {
+      if (e.target === descModal) descModal.classList.remove('open');
+    });
+
+    // Search and Filters
+    searchInput.addEventListener('input', renderTable);
+    filterStage.addEventListener('change', renderTable);
+    filterNivel.addEventListener('change', renderTable);
+    filterEscuela.addEventListener('change', renderTable);
+
+    document.getElementById('sync-server-btn').addEventListener('click', loadSpells);
+
+    // Export CSV fallback
+    document.getElementById('export-csv-btn').addEventListener('click', () => {
+      if (!spellsData.length) return;
+      const headers = ["nombre", "nivel", "tipo", "escuela", "clases", "tiempo_de_lanzamiento", "alcance", "componentes", "duracion", "descripcion", "stage", "revision"];
+      let csvContent = "data:text/csv;charset=utf-8," + headers.join(",") + "\n";
+
+      spellsData.forEach(row => {
+        const line = headers.map(h => `"${(row[h] || '').replace(/"/g, '""')}"`).join(",");
+        csvContent += line + "\n";
+      });
+
+      const encodedUri = encodeURI(csvContent);
+      const link = document.createElement("a");
+      link.setAttribute("href", encodedUri);
+      link.setAttribute("download", "spells_revision_export.csv");
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    });
+
+    loadSpells();
+  </script>
+</body>
+</html>

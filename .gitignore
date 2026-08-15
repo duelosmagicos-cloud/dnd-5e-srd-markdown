@@ -1,31 +1,12 @@
-# Editor directories and files
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Python cache & temporary files
+__pycache__/
+*.pyc
+scratch/
+
+# System / IDE
 .DS_Store
-
-# OS files
-Thumbs.db
-Desktop.ini
-
-# Build outputs
-dist/
-build/
-*.log
-
-# Dependencies
-node_modules/
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
-
-# Generated files
-.cache/
-temp/
-tmp/
-
-# Local environment
-.env
-.env.local
