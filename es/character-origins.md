@@ -8,155 +8,121 @@ El trasfondo de tu personaje es una compilación de características que represe
 
 Un trasfondo consta de las siguientes partes:
 
-- **Puntuaciones de característica.** El trasfondo indica tres puntuaciones de característica de tu personaje. Aumenta una de ellas en 2 y otra en 1, o aumenta las tres en 1. Estos aumentos no pueden hacer que una puntuación sea superior a 20.
 - **Dote.** El trasfondo aporta a tu personaje una determinada dote de origen (descritas en el capítulo 5).
 - **Competencias en habilidades.** El trasfondo proporciona a tu personaje competencia en dos habilidades determinadas.
-- **Competencia con herramientas.** El trasfondo proporciona a tu personaje competencia con una herramienta, ya sea una herramienta específica o una elegida de la categoría de herramientas de artesano.
 - **Equipo.** El trasfondo te da la opción de elegir entre un paquete de equipo o 50 po.
 
 ### Descripciones de Trasfondos
 
 #### Acólito
-**Puntuaciones de característica:** Inteligencia, Sabiduría, Carisma
 **Dote:** Iniciado en la magia (clérigo)
 **Competencias en habilidades:** Perspicacia y Religión
-**Competencia con herramientas:** suministros de calígrafo
-**Equipo:** Elige A o B: (A) suministros de calígrafo, libro (de oraciones), pergamino (10 hojas), símbolo sagrado, túnica y 8 po, o (B) 50 po
+**Equipo:** Elige A o B: (A) libro (de oraciones), pergamino (10 hojas), símbolo sagrado, túnica y 8 po, o (B) 50 po
 
 Dedicabas tu vida al servicio de un templo enclavado en un pueblo o apartado en un bosquecillo sagrado. En él, realizabas ceremonias en honor a un dios o panteón. Servías a las órdenes de un sacerdote y estudiaste la religión. Gracias a la tutela de ese sacerdote y a tu propia devoción, también aprendiste a canalizar un ápice de poder divino al servicio de tu lugar de culto y de la gente que rezaba en él.
 
 #### Animador
-**Puntuaciones de característica:** Fuerza, Destreza, Carisma
 **Dote:** Músico
 **Competencias en habilidades:** Acrobacias e Interpretación
-**Competencia con herramientas:** elige un tipo de instrumento musical
-**Equipo:** Elige A o B: (A) instrumento musical (el mismo que arriba), 2 disfraces, espejo, perfume, ropas de viaje y 11 po, o (B) 50 po
+**Equipo:** Elige A o B: (A) instrumento musical, 2 disfraces, espejo, perfume, ropas de viaje y 11 po, o (B) 50 po
 
 Pasaste buena parte de tu juventud recorriendo ferias y festivales en los que desempeñabas tareas diversas para músicos y acróbatas a cambio de que te formaran. Quizá aprendiste a caminar sobre la cuerda floja, a tocar el laúd con un estilo particular o a recitar poesía con una dicción impecable. Aún hoy te creces con los aplausos y anhelas subir al escenario.
 
 #### Artesano
-**Puntuaciones de característica:** Fuerza, Destreza, Inteligencia
 **Dote:** Fabricante
 **Competencias en habilidades:** Investigación y Persuasión
-**Competencia con herramientas:** elige un tipo de herramientas de artesano
-**Equipo:** Elige A o B: (A) herramientas de artesano (las mismas que arriba), 2 bolsas, ropas de viaje y 32 po, o (B) 50 po
+**Equipo:** Elige A o B: (A) herramientas de artesano, 2 bolsas, ropas de viaje y 32 po, o (B) 50 po
 
 Comenzaste barriendo suelos y fregando las mesas del taller de un artesano a cambio de unas monedas al día en cuanto tuviste fuerza suficiente para levantar un cubo. Cuando alcanzaste la edad necesaria para convertirte en aprendiz, empezaste a crear tus propias obras básicas, así como a camelarte a los clientes exigentes que de vez en cuando llamaban a vuestra puerta. Tu oficio te brindó también un buen ojo para los detalles.
 
 #### Campesino
-**Puntuaciones de característica:** Fuerza, Constitución, Sabiduría
 **Dote:** Duro
 **Competencias en habilidades:** Naturaleza y Trato con animales
-**Competencia con herramientas:** herramientas de carpintero
-**Equipo:** Elige A o B: (A) hoz, herramientas de carpintero, útiles de sanador, olla de hierro, pala, ropas de viaje y 30 po, o (B) 50 po
+**Equipo:** Elige A o B: (A) hoz, útiles de sanador, olla de hierro, pala, ropas de viaje y 30 po, o (B) 50 po
 
 Te criaste en el campo. Los años cuidando animales y cultivando la tierra te recompensaron con paciencia y una salud de hierro. Sientes un gran aprecio por la generosidad de la naturaleza y un prudente respeto por su ira.
 
 #### Charlatán
-**Puntuaciones de característica:** Destreza, Constitución, Carisma
 **Dote:** Habilidoso
 **Competencias en habilidades:** Engaño y Juego de manos
-**Competencia con herramientas:** útiles para falsificar
-**Equipo:** Elige A o B: (A) útiles para falsificar, disfraz, ropas de calidad y 15 po, o (B) 50 po
+**Equipo:** Elige A o B: (A) disfraz, ropas de calidad y 15 po, o (B) 50 po
 
 En cuanto tuviste edad suficiente para pedir una pinta, no tardaste en apropiarte de un taburete en cada taberna a 10 km a la redonda del lugar en que naciste. Mientras recorrías bares y antros, aprendiste a aprovecharte de los desafortunados que se dejaban colar alguna mentira reconfortante o dos, como una poción falsa o un árbol genealógico falsificado.
 
 #### Comerciante
-**Puntuaciones de característica:** Constitución, Inteligencia, Carisma
 **Dote:** Afortunado
 **Competencias en habilidades:** Persuasión y Trato con animales
-**Competencia con herramientas:** herramientas de navegante
-**Equipo:** Elige A o B: (A) herramientas de navegante, 2 bolsas, ropas de viaje y 22 po, o (B) 50 po
+**Equipo:** Elige A o B: (A) 2 bolsas, ropas de viaje y 22 po, o (B) 50 po
 
 Fuiste aprendiz de un comerciante, caravanero o tendero y aprendiste los rudimentos del comercio. Viajabas por todas partes y te ganabas la vida comprando y vendiendo las materias primas que los artesanos necesitaban para sus creaciones o las obras acabadas de aquellos profesionales. Quizá transportabas mercancías de un lugar a otro en barco, carro o en caravana, o se las comprabas a mercaderes ambulantes y las vendías en tu propia tienda.
 
 #### Criminal
-**Puntuaciones de característica:** Destreza, Constitución, Inteligencia
 **Dote:** Alerta
 **Competencias en habilidades:** Juego de manos y Sigilo
-**Competencia con herramientas:** herramientas de ladrón
-**Equipo:** Elige A o B: (A) 2 dagas, herramientas de ladrón, 2 bolsas, palanqueta, ropas de viaje y 16 po, o (B) 50 po
+**Equipo:** Elige A o B: (A) 2 dagas, 2 bolsas, palanqueta, ropas de viaje y 16 po, o (B) 50 po
 
 Te buscabas la vida en los callejones oscuros, birlando carteras o robando en comercios. Quizá formabas parte de una pequeña banda de malhechores con ideas afines y dispuestos a echarse una mano. O puede que fueras un lobo solitario que se desmarcaba del gremio de ladrones local y de otros delincuentes más temibles.
 
 #### Ermitaño
-**Puntuaciones de característica:** Constitución, Sabiduría, Carisma
 **Dote:** Sanador
 **Competencias en habilidades:** Medicina y Religión
-**Competencia con herramientas:** útiles de herborista
-**Equipo:** Elige A o B: (A) bastón, útiles de herborista, aceite (3 frascos), lámpara, libro (de filosofía), petate, ropas de viaje y 16 po, o (B) 50 po
+**Equipo:** Elige A o B: (A) bastón, aceite (3 frascos), lámpara, libro (de filosofía), petate, ropas de viaje y 16 po, o (B) 50 po
 
 Te pasaste los años de juventud en un refugio o monasterio situado en medio de la nada. En aquella época, tu única compañía eran las criaturas del bosque y las visitas esporádicas que traían noticias del exterior y suministros. La soledad te permitió reflexionar durante muchas horas acerca de los misterios de la creación.
 
 #### Erudito
-**Puntuaciones de característica:** Constitución, Inteligencia, Sabiduría
 **Dote:** Iniciado en la magia (mago)
 **Competencias en habilidades:** Conocimiento arcano e Historia
-**Competencia con herramientas:** suministros de calígrafo
-**Equipo:** Elige A o B: (A) bastón, suministros de calígrafo, libro (de historia), pergamino (3 hojas), túnica y 8 po, o (B) 50 po
+**Equipo:** Elige A o B: (A) bastón, libro (de historia), pergamino (3 hojas), túnica y 8 po, o (B) 50 po
 
 Pasaste tus años formativos viajando entre palacetes y monasterios, desempeñando diversos oficios y servicios para que te dejaran acceder a sus bibliotecas. Dedicaste muchas tardes a estudiar libros y pergaminos para adquirir conocimientos acerca del multiverso e incluso los rudimentos de la magia, y tu mente ansía tener ciertos conocimientos que creas poder hallar explorando el mundo.
 
 #### Escriba
-**Puntuaciones de característica:** Destreza, Inteligencia, Sabiduría
 **Dote:** Habilidoso
 **Competencias en habilidades:** Investigación y Percepción
-**Competencia con herramientas:** suministros de calígrafo
-**Equipo:** Elige A o B: (A) suministros de calígrafo, aceite (3 frascos), lámpara, pergamino (12 hojas), ropas de calidad y 23 po, o (B) 50 po
+**Equipo:** Elige A o B: (A) aceite (3 frascos), lámpara, pergamino (12 hojas), ropas de calidad y 23 po, o (B) 50 po
 
 Pasaste tus años de formación en un scriptorium, un monasterio consagrado a la conservación del conocimiento o un organismo gubernamental, donde aprendiste a escribir con letra clara y producir textos exquisitos. Quizá transcribías documentos oficiales o copiabas tomos de literatura. Podrías tener ciertas cualidades para la poesía, la narrativa o la investigación. Sobre todo, prestas mucha atención a los detalles, lo que te impide cometer errores en los documentos que copias y creas.
 
 #### Guardia
-**Puntuaciones de característica:** Fuerza, Inteligencia, Sabiduría
 **Dote:** Alerta
 **Competencias en habilidades:** Atletismo y Percepción
-**Competencia con herramientas:** elige un tipo de juego
-**Equipo:** Elige A o B: (A) lanza, ballesta ligera, 20 virotes, juego (el mismo que arriba), aljaba, esposas, linterna sorda, ropas de viaje y 12 po, o (B) 50 po
+**Equipo:** Elige A o B: (A) lanza, ballesta ligera, 20 virotes, aljaba, esposas, linterna sorda, ropas de viaje y 12 po, o (B) 50 po
 
 Te duelen los pies al recordar las innumerables horas pasadas en tu puesto de la torre. Te entrenaron para permanecer ojo avizor ante lo que acontecía extramuros, en busca de merodeadores ocultos en el bosque, a la par que estabas pendiente de los posibles rateros y pendencieros de intramuros.
 
 #### Guía
-**Puntuaciones de característica:** Destreza, Constitución, Sabiduría
 **Dote:** Iniciado en la magia (druida)
 **Competencias en habilidades:** Sigilo y Supervivencia
-**Competencia con herramientas:** herramientas de cartógrafo
-**Equipo:** Elige A o B: (A) arco corto, 20 flechas, herramientas de cartógrafo, aljaba, petate, tienda, ropas de viaje y 3 po, o (B) 50 po
+**Equipo:** Elige A o B: (A) arco corto, 20 flechas, aljaba, petate, tienda, ropas de viaje y 3 po, o (B) 50 po
 
 Alcanzaste la mayoría de edad en plena naturaleza, lejos de tierras pobladas. Tu hogar era cualquier sitio donde pudieras extender tu petate. Las tierras salvajes están llenas de maravillas (monstruos extraños, bosques y arroyos inmaculados, ruinas descuidadas de grandes salones otrora recorridos por gigantes) y aprendiste a valértelas por tu cuenta al explorarlas. De vez en cuando, servías de guía a sacerdotes de la naturaleza que te enseñaron los fundamentos para canalizar la magia de la tierra.
 
 #### Marinero
-**Puntuaciones de característica:** Fuerza, Destreza, Sabiduría
 **Dote:** Matón de taberna
 **Competencias en habilidades:** Acrobacias y Percepción
-**Competencia con herramientas:** herramientas de navegante
-**Equipo:** Elige A o B: (A) daga, herramientas de navegante, cuerda, ropas de viaje y 20 po, o (B) 50 po
+**Equipo:** Elige A o B: (A) daga, cuerda, ropas de viaje y 20 po, o (B) 50 po
 
 Llevaste una vida en la mar, con el viento en popa y las cubiertas meciéndose bajo tus pies. Visitaste más tabernas de los puertos de escala de las que puedes recordar, te enfrentaste a grandes tormentas e intercambiaste anécdotas con gente que vivía bajo las olas.
 
 #### Noble
-**Puntuaciones de característica:** Fuerza, Inteligencia, Carisma
 **Dote:** Habilidoso
 **Competencias en habilidades:** Historia y Persuasión
-**Competencia con herramientas:** elige un tipo de juego
-**Equipo:** Elige A o B: (A) juego (el mismo que arriba), perfume, ropas de calidad y 29 po, o (B) 50 po
+**Equipo:** Elige A o B: (A) perfume, ropas de calidad y 29 po, o (B) 50 po
 
 Te criaste en un castillo entre riqueza, poder y privilegios. Tu familia de aristócratas menores procuró que recibieras la mejor educación, parte de la cual apreciabas y parte de la cual aborrecías. El tiempo que pasaste en el castillo, en especial las muchas horas que dedicabas a observar a tu familia en la corte, también te aportó amplios conocimientos sobre el liderazgo.
 
 #### Soldado
-**Puntuaciones de característica:** Fuerza, Destreza, Constitución
 **Dote:** Atacante salvaje
 **Competencias en habilidades:** Atletismo e Intimidación
-**Competencia con herramientas:** elige un tipo de juego
-**Equipo:** Elige A o B: (A) lanza, arco corto, 20 flechas, aljaba, juego (el mismo que arriba), útiles de sanador, ropas de viaje y 14 po, o (B) 50 po
+**Equipo:** Elige A o B: (A) lanza, arco corto, 20 flechas, aljaba, útiles de sanador, ropas de viaje y 14 po, o (B) 50 po
 
 Comenzaste a entrenarte para la guerra nada más llegar a la edad adulta y tienes pocos recuerdos preciados de tu vida anterior a tomar las armas. Luchar es parte de tu identidad y a veces realizas sin darte cuenta los primeros ejercicios básicos de combate que aprendiste. En algún momento, sacaste partido a tu entrenamiento en el campo de batalla y protegiste el reino.
 
 #### Vagabundo
-**Puntuaciones de característica:** Destreza, Sabiduría, Carisma
 **Dote:** Afortunado
 **Competencias en habilidades:** Perspicacia y Sigilo
-**Competencia con herramientas:** herramientas de ladrón
-**Equipo:** Elige A o B: (A) 2 dagas, herramientas de ladrón, juego (cualquiera), 2 bolsas, petate, ropas de viaje y 16 po, o (B) 50 po
+**Equipo:** Elige A o B: (A) 2 dagas, 2 bolsas, petate, ropas de viaje y 16 po, o (B) 50 po
 
 Creciste en las calles junto a personas con expectativas tan aciagas como las tuyas, entre las que había algunas amistades y algunos rivales. Dormías donde podías y hacías encargos ocasionales a cambio de comida. A veces, cuando el hambre se volvía insoportable, recurrías al robo. Sin embargo, nunca renunciaste a tu orgullo ni perdiste la esperanza. El destino aún tiene algo reservado para ti.
 

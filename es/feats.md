@@ -67,23 +67,17 @@ _Repetible._ Una dote se puede adquirir solo una vez, a menos que su descripció
 
 _Dote de Origen_
 
-Obtienes los siguientes beneficios:
+Tienes una reserva de puntos de suerte que puedes gastar en los siguientes beneficios. Tienes 3 puntos de suerte y recuperas todos los puntos de suerte gastados tras finalizar un descanso largo.
 
-__Puntos de suerte.__ Tienes una cantidad de puntos de suerte igual a tu bonificador por competencia y puedes gastarlos en los siguientes beneficios. Recuperas los puntos de suerte gastados tras finalizar un descanso largo.
+__Ventaja en prueba.__ Cuando tires un d20 para realizar una prueba con d20, puedes gastar 1 punto de suerte para otorgarte ventaja en la tirada.
 
-__Ventaja.__ Cuando tires un d20 para realizar una prueba con d20, puedes gastar 1 punto de suerte para otorgarte ventaja en la tirada.
-
-__Desventaja.__ Cuando una criatura tire un d20 en una tirada de ataque contra ti, puedes gastar 1 punto de suerte para imponerle desventaja en esa tirada.
+__Desventaja en ataque.__ Cuando una criatura tire un d20 en una tirada de ataque contra ti, puedes gastar 1 punto de suerte para imponerle desventaja en esa tirada.
 
 ### Alerta
 
 _Dote de Origen_
 
-Obtienes los siguientes beneficios:
-
-__Competencia en iniciativa.__ Cuando tires iniciativa, puedes sumar tu bonificador por competencia a la tirada.
-
-__Intercambio de iniciativa.__ Justo después de tirar iniciativa, puedes cambiar tu iniciativa con la de un aliado que esté dispuesto a hacerlo en el mismo combate. No puedes hacer este intercambio si el aliado o tú tenéis el estado de incapacitado.
+Obtienes ventaja en las tiradas de iniciativa. Además, el alcance de tu visión en la penumbra aumenta en 18 m, y la magia no puede dormirte.
 
 ### Atacante Salvaje
 
@@ -103,24 +97,21 @@ _Dote de Origen_
 
 Obtienes los siguientes beneficios:
 
-__Competencia con herramientas.__ Ganas competencia con tres herramientas de artesano que elijas de la tabla “Fabricación rápida”.
+__Maestría artesanal.__ Ganas competencia en una herramienta de artesano de tu elección.
 
-__Descuento.__ Cuando compres un objeto no mágico, conseguirás un 20 % de descuento.
+__Descuento en compras.__ Cuando compres un objeto no mágico, conseguirás un 20 % de descuento.
 
-__Fabricación rápida.__ Tras finalizar un descanso largo, puedes fabricar un objeto de la tabla “Fabricación rápida” si posees las herramientas de artesano asociadas a ese objeto y tienes competencia con ellas. El objeto durará hasta que acabes otro descanso largo; en ese momento, se deshará.
+__Fabricación rápida.__ Tras finalizar un descanso largo, puedes fabricar un objeto de la tabla “Objetos de Fabricación Rápida” si dispones de los materiales ordinarios y una hora de trabajo. El objeto durará hasta que acabes otro descanso largo; en ese momento, se deshará.
 
-#### Tabla: Fabricación Rápida
+#### Tabla: Objetos de Fabricación Rápida
 
-| Herramientas de artesano | Equipo fabricado |
+| Objeto | Coste Material |
 | :--- | :--- |
-| Herramientas de albañil | Polipasto |
-| Herramientas de alfarero | Jarro, lámpara |
-| Herramientas de carpintero | Antorcha, escalera |
-| Herramientas de curtidor | Bolsa, estuche |
-| Herramientas de ebanista | Bastón, garrote, garrote grande |
-| Herramientas de herrero | Abrojos, bolas de metal, cubo, garfio de escalada, olla de hierro |
-| Herramientas de manitas | Campana, pala, yesca |
-| Herramientas de tejedor | Cesta, cuerda, red, tienda |
+| Antorcha (1d4) | 1 po |
+| Cesta, cuerda (15 m) | 2 po |
+| Escalera (3 m) | 1 po |
+| Escudo de madera | 5 po |
+| Olla de hierro | 2 po |
 
 ### Habilidoso
 
@@ -172,7 +163,7 @@ _Dote de Origen_
 
 Obtienes los siguientes beneficios:
 
-__Médico de batalla.__ Si tienes útiles de sanador, puedes gastar un uso y tratar a una criatura que esté a 1,5 m o menos de ti como acción de utilizar. La criatura puede gastar uno de sus dados de golpe no gastados, tirarlo y recuperar una cantidad de puntos de golpe igual al resultado más tu bonificador por competencia.
+__Médico de batalla.__ Si tienes útiles de sanador, puedes gastar un uso y tratar a una criatura que esté a 1,5 m o menos de ti como acción de utilizar. La criatura puede gastar uno de sus dados de golpe no gastados, tirarlo y recuperar una cantidad de puntos de golpe igual al resultado más 2.
 
 __Curaciones sanadoras.__ Siempre que tires uno o varios dados para determinar la cantidad de puntos de golpe que recupera una criatura con un conjuro o con el beneficio de médico de batalla de esta dote, podrás volver a tirar cualquiera de los dados que muestre un 1, pero deberás utilizar el nuevo resultado.
 
@@ -280,9 +271,9 @@ __Aumento de característica.__ Aumenta tu puntuación de Constitución o Sabidu
 
 __Cocinero experto.__ Ganas competencia con los utensilios de cocinero.
 
-__Comida reconfortante.__ Durante un descanso corto, puedes preparar comida especial si dispones de utensilios de cocinero. Puedes preparar suficiente comida para una cantidad de criaturas igual a 4 más tu bonificador por competencia. Al final del descanso corto, cualquier criatura que coma esta comida y gaste uno o más dados de golpe recupera 1d8 puntos de golpe adicionales.
+__Comida reconfortante.__ Durante un descanso corto, puedes preparar comida especial si dispones de utensilios de cocinero. Puedes preparar suficiente comida para hasta 6 criaturas. Al final del descanso corto, cualquier criatura que coma esta comida y gaste uno o más dados de golpe recupera 1d8 puntos de golpe adicionales.
 
-__Golosinas curativas.__ Tras finalizar un descanso largo, puedes preparar una cantidad de golosinas especiales igual a tu bonificador por competencia. Como acción adicional, una criatura puede comer una golosina para ganar puntos de golpe temporales iguales a tu bonificador por competencia.
+__Golosinas curativas.__ Tras finalizar un descanso largo, puedes preparar 3 golosinas especiales. Como acción adicional, una criatura puede comer una golosina para ganar 4 puntos de golpe temporales.
 
 ### Combatiente Con Dos Armas
 
@@ -316,7 +307,7 @@ Obtienes los siguientes beneficios:
 
 __Aumento de característica.__ Aumenta tu puntuación de Destreza en 1, hasta un máximo de 20.
 
-__Parada hábil.__ Cuando empuñes un arma sutil con la que seas competente y otra criatura te acierte con un ataque cuerpo a cuerpo, puedes llevar a cabo una reacción para sumar tu bonificador por competencia a tu CA para ese ataque, lo que puede causar que el ataque falle.
+__Parada hábil.__ Cuando empuñes un arma sutil con la que seas competente y otra criatura te acierte con un ataque cuerpo a cuerpo, puedes llevar a cabo una reacción para sumar 2 a tu CA para ese ataque, lo que puede causar que el ataque falle.
 
 ### Entrenamiento Con Armas Marciales
 
@@ -336,7 +327,7 @@ __Ignorar resistencia a veneno.__ El daño de veneno que infliges ignora la resi
 
 __Aplicar veneno rápido.__ Puedes aplicar veneno a un arma o a una pieza de munición como acción adicional en lugar de una acción.
 
-__Elaborar veneno potente.__ Con 1 hora de trabajo y 50 po de materiales, puedes elaborar una cantidad de dosis de veneno potente igual a tu bonificador por competencia. El veneno mantiene su potencia durante 24 horas. Una criatura impactada por un arma o munición envenenada con este veneno debe superar una tirada de salvación de Constitución CD 14 o recibir 2d8 de daño de veneno y sufrir el estado de envenenado hasta el final de tu siguiente turno.
+__Elaborar veneno potente.__ Con 1 hora de trabajo y 50 po de materiales, puedes elaborar 3 dosis de veneno potente. El veneno mantiene su potencia durante 24 horas. Una criatura impactada por un arma o munición envenenada con este veneno debe superar una tirada de salvación de Constitución CD 14 o recibir 2d8 de daño de veneno y sufrir el estado de envenenado hasta el final de tu siguiente turno.
 
 ### Experto En Ballestas
 
@@ -468,7 +459,7 @@ Obtienes los siguientes beneficios:
 
 __Aumento de característica.__ Aumenta tu puntuación de Fuerza o Constitución en 1, hasta un máximo de 20.
 
-__Reducción de daño.__ Mientras lleves armadura pesada, el daño contundente, perforante y cortante que recibas de ataques no mágicos se reduce en una cantidad igual a tu bonificador por competencia.
+__Reducción de daño.__ Mientras lleves armadura pesada, el daño contundente, perforante y cortante que recibas de ataques no mágicos se reduce en 2.
 
 ### Maestro En Armas De Asta
 
@@ -492,7 +483,7 @@ __Aumento de característica.__ Aumenta tu puntuación de Fuerza en 1, hasta un 
 
 __Ataque adicional por crítico o derribo.__ Cuando asestas un golpe crítico con un arma cuerpo a cuerpo o reduces a una criatura a 0 puntos de golpe con una, puedes realizar un ataque de arma cuerpo a cuerpo como acción adicional.
 
-__Daño pesado.__ Cuando aciertes con un arma pesada como parte de la acción de atacar, puedes sumar tu bonificador por competencia a la tirada de daño.
+__Daño pesado.__ Cuando aciertes con un arma pesada como parte de la acción de atacar, puedes sumar 2 a la tirada de daño.
 
 ### Maestro En Escudos
 
@@ -714,7 +705,7 @@ Cuando empuñes un arma cuerpo a cuerpo en una mano y ninguna otra arma, obtiene
 
 _Dote de Estilo de Combate (Prerrequisito: Rasgo de Estilo de Combate)_
 
-Cuando una criatura a 1,5 m o menos de ti reciba daño de un ataque, puedes usar tu reacción para reducir el daño recibido en 1d10 + tu bonificador por competencia (si empuñas un escudo o un arma sencilla o marcial).
+Cuando una criatura a 1,5 m o menos de ti reciba daño de un ataque, puedes usar tu reacción para reducir el daño recibido en 1d10 + 2 (si empuñas un escudo o un arma sencilla o marcial).
 
 ### Lucha A Ciegas
 
