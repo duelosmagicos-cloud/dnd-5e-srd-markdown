@@ -1,77 +1,97 @@
-# Clases
+# Clases de Personaje
 
-## Bárbaro (Barbarian)
+Una clase de personaje otorga las capacidades más interesantes de un personaje. Este capítulo describe doce clases y cuatro subclases de cada una, todas ellas resumidas a continuación:
 
-**Rasgos Principales del Bárbaro (Barbarian)**
+- **Bárbaro.** Déjate llevar por la furia y entabla combates cuerpo a cuerpo. Después, sigue la senda del *Árbol del Mundo* para acceder a la vitalidad cósmica; *berserker* para desatar la violencia pura y dura; *corazón salvaje* para expresar tu afinidad con los animales; o *fanático* para expresar tu furia unido a una divinidad.
+- **Bardo.** Lanza conjuros que inspiren y curen a tus aliados o engatusen a tus enemigos. Después, únete al colegio *de la danza* para aprovechar tu agilidad en la batalla; *del conocimiento* para hacer acopio de sabiduría y secretos mágicos; *del glamour* para urdir la magia cautivadora de los Parajes Feéricos; o *del valor* para empuñar armas con conjuros.
+- **Brujo.** Lanza conjuros procedentes del ocultismo. Después, haz un pacto con el *patrón celestial* para curar con magia celestial; *patrón feérico* para teletransportarte y emplear la magia feérica; *patrón infernal* para recurrir a poderes siniestros; o *patrón primigenio* para profundizar en los conocimientos prohibidos.
+- **Clérigo.** Recurre a la magia de los dioses. Después, encarna el dominio divino *de la guerra* para destacar en la batalla; *de la luz* para abrasar a tus enemigos y curar a tus aliados; *de la vida* para destacar como sanador; o *del engaño* para desorientar a tus enemigos con ilusiones.
+- **Druida.** Canaliza la magia de la naturaleza y transfórmate en bestias salvajes. Después, únete al círculo *de la luna* para adoptar poderosas formas de bestia; *de la tierra* para canalizar la magia de la naturaleza de tu entorno; *de las estrellas* para aprovechar los secretos del cosmos; o *del mar* para invocar la furia del océano.
+- **Explorador.** Combina la destreza marcial con la magia de la naturaleza para enfrentarte a tus enemigos. Después, conviértete en un *acechador umbrío* para combatir en la oscuridad; *cazador* para adaptarte a cualquier enemigo; *errante feérico* para emplear la magia de los Parajes Feéricos; o *señor de las bestias* para luchar junto a una poderosa criatura.
+- **Guerrero.** Domina todas las armas y armaduras imaginables. Después, conviértete en un *caballero arcano* para complementar tus dotes bélicas con conjuros; *campeón* para asestar golpes letales; *guerrero psiónico* para potenciarte con poderes mentales; o *maestro de la batalla* para ejecutar maniobras tácticas.
+- **Hechicero.** Canaliza la magia innata de tu estirpe o de una fuente cósmica. Después, desata el poder del *alma de dragón* para canalizar el poderío dracónico; *alma mecánica* para imponer el orden cósmico; *magia salvaje* para desencadenar el caos; o *mente aberrante* para dominar poderes psíquicos.
+- **Mago.** Estudia los secretos del multiverso para dominar la magia arcana. Después, especialízate en la escuela de *abjuración* para proteger y defender; *adivinación* para vislumbrar el futuro; *evocación* para causar estragos elementales; o *ilusión* para engañar a los sentidos.
+- **Monje.** Domina la energía mística del ki y el combate desarmado. Después, sigue la tradición del *guerrero de la mano abierta* para controlar el combate cuerpo a cuerpo; *guerrero de la misericordia* para manipular la vida y la muerte; *guerrero de la sombra* para moverte en la oscuridad; o *guerrero de los elementos* para desatar fuerzas elementales.
+- **Paladín.** Presta un juramento sagrado y combate el mal con devoción divina. Después, formula el *juramento de entrega* para personificar la rectitud; *juramento de gloria* para realizar hazañas heroicas; *juramento de los antiguos* para proteger la luz del mundo; o *juramento de venganza* para castigar a los malhechores.
+- **Pícaro.** Utiliza el sigilo, la astucia y la precisión para superar cualquier obstáculo. Después, sigue el arquetipo de *asesino* para tender emboscadas letales; *embaucador arcano* para complementar el sigilo con magia; *ladrón* para moverte con agilidad insuperable; o *rebanaalmas* para empuñar hojas de energía psíquica.
+
+---
+
+## Bárbaro
+
+Los bárbaros son poderosos combatientes que se alimentan de las fuerzas primigenias del multiverso y las manifiestan a modo de furia. No se trata de una simple emoción, ni mucho menos un enfado: esta furia refleja la ferocidad de un depredador, la violencia de una tormenta y la agitación de un mar.
+
+Algunos bárbaros conciben su furia como si fuera un espíritu feroz o un antepasado al que veneran. Otros la ven como una conexión con el dolor y la angustia del mundo, como una maraña impersonal de magia salvaje o como la expresión de su yo más profundo. Para todos los bárbaros, la furia es un poder que no solo aviva su arrojo en el combate, sino que también afila sus asombrosos reflejos y agudiza sus sentidos.
+
+Los bárbaros normalmente actúan de protectores y líderes de sus comunidades, por lo que no dudan en lanzarse al peligro para evitar que sean sus protegidos quienes pasen por ello. El valor frente a la adversidad los convierte en excelentes aventureros.
+
+### Atributos básicos de bárbaro
 
 <table>
   <tbody>
     <tr>
-      <td>Característica Primaria</td>
+      <td><strong>Característica principal</strong></td>
       <td>Fuerza</td>
     </tr>
     <tr>
-      <td>Dado de Puntos de Golpe</td>
-      <td>D12 per Barbarian level</td>
+      <td><strong>Dado de puntos de golpe</strong></td>
+      <td>1d12 por nivel de bárbaro</td>
     </tr>
     <tr>
-      <td>Competencia en Tiradas de Salvación</td>
-      <td>Fuerza and Constitución</td>
+      <td><strong>Competencias en tiradas de salvación</strong></td>
+      <td>Fuerza y Constitución</td>
     </tr>
     <tr>
-      <td>Competencia en Habilidades</td>
-      <td>Choose 2: Animal Handling, Athletics, Intimidation, Nature, Perception, or Survival</td>
+      <td><strong>Competencias en habilidades</strong></td>
+      <td>Elige dos: Atletismo, Intimidación, Naturaleza, Percepción, Supervivencia o Trato con animales</td>
     </tr>
     <tr>
-      <td>Competencia en Armas</td>
-      <td>Simple and Martial weapons</td>
+      <td><strong>Competencias con armas</strong></td>
+      <td>Armas sencillas y marciales</td>
     </tr>
     <tr>
-      <td>Entrenamiento con Armaduras</td>
-      <td>Light and Medium armor and Shields</td>
+      <td><strong>Entrenamiento con armaduras</strong></td>
+      <td>Armaduras ligeras y medias y escudos</td>
     </tr>
     <tr>
-      <td>Equipo Inicial</td>
-      <td>Choose A or B: (A) Greataxe, 4 Handaxes, Explorer's Pack, and 15 po; or (B) 75 po</td>
+      <td><strong>Equipo inicial</strong></td>
+      <td>Elige A o B: (A) hacha a dos manos, 4 hachas de mano, paquete de explorador y 15 po; o (B) 75 po</td>
     </tr>
   </tbody>
 </table>
 
-### Becoming a Barbarian …
+### Convertirse en bárbaro
 
-#### As a Level 1 Character
+#### Como personaje de nivel 1
+- Obtienes todos los atributos de la tabla "Atributos básicos de bárbaro".
+- Obtienes los rasgos de nivel 1 de bárbaro, que se muestran en la tabla "Rasgos de bárbaro".
 
-• Gain all the traits in the Core Barbarian Traits table.
+#### Como personaje multiclase
+- Obtienes los siguientes atributos de la tabla "Atributos básicos de bárbaro": dado de puntos de golpe, competencia con armas marciales y entrenamiento con escudos.
+- Obtienes los rasgos de nivel 1 de bárbaro, que se muestran en la tabla "Rasgos de bárbaro".
 
-• Gain the Barbarian's level 1 features, which are listed in the Barbarian Features table.
+### Rasgos de clase de bárbaro
 
-#### As a Multiclass Character
+Como bárbaro, obtienes los siguientes rasgos de clase cuando alcanzas los niveles de bárbaro especificados. Estos rasgos se muestran en la tabla "Rasgos de bárbaro".
 
-• Gain the following traits from the Core Barbarian Traits table: Hit Point Die, proficiency with Martial weapons, and training with Shields.
-• Gain the Barbarian's level 1 features, which are listed in the Barbarian Features table.
-
-### Bárbaro (Barbarian) Class Features
-
-As a Barbarian, you gain the following class features when you reach the specified Barbarian levels. These features are listed in the Barbarian Features table.
-
-**Barbarian Features**
+**Rasgos de bárbaro**
 
 <table>
   <thead>
     <tr>
-      <th>Level</th>
-      <th>Proficiency Bonus</th>
-      <th>Class Features</th>
-      <th>Rages</th>
-      <th>Rage Damage</th>
-      <th>Weapon Mastery</th>
+      <th>Nivel</th>
+      <th>Bonificador por competencia</th>
+      <th>Rasgos de clase</th>
+      <th>N.º de furias</th>
+      <th>Daño por furia</th>
+      <th>Maestría con armas</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>1</td>
       <td>+2</td>
-      <td>Rage, Unarmored Defense, Weapon Mastery</td>
+      <td>Defensa sin armadura, Furia, Maestría con armas</td>
       <td>2</td>
       <td>+2</td>
       <td>2</td>
@@ -79,7 +99,7 @@ As a Barbarian, you gain the following class features when you reach the specifi
     <tr>
       <td>2</td>
       <td>+2</td>
-      <td>Danger Sense, Reckless Attack</td>
+      <td>Ataque temerario, Sentir el peligro</td>
       <td>2</td>
       <td>+2</td>
       <td>2</td>
@@ -87,7 +107,7 @@ As a Barbarian, you gain the following class features when you reach the specifi
     <tr>
       <td>3</td>
       <td>+2</td>
-      <td>Barbarian Subclass, Primal Knowledge</td>
+      <td>Conocimiento primigenio, Subclase de bárbaro</td>
       <td>3</td>
       <td>+2</td>
       <td>2</td>
@@ -95,7 +115,7 @@ As a Barbarian, you gain the following class features when you reach the specifi
     <tr>
       <td>4</td>
       <td>+2</td>
-      <td>Ability Score Improvement</td>
+      <td>Mejora de característica</td>
       <td>3</td>
       <td>+2</td>
       <td>3</td>
@@ -103,7 +123,7 @@ As a Barbarian, you gain the following class features when you reach the specifi
     <tr>
       <td>5</td>
       <td>+3</td>
-      <td>Extra Attack, Fast Movement</td>
+      <td>Ataque adicional, Movimiento rápido</td>
       <td>3</td>
       <td>+2</td>
       <td>3</td>
@@ -111,7 +131,7 @@ As a Barbarian, you gain the following class features when you reach the specifi
     <tr>
       <td>6</td>
       <td>+3</td>
-      <td>Subclass feature</td>
+      <td>Rasgo de subclase</td>
       <td>4</td>
       <td>+2</td>
       <td>3</td>
@@ -119,7 +139,7 @@ As a Barbarian, you gain the following class features when you reach the specifi
     <tr>
       <td>7</td>
       <td>+3</td>
-      <td>Feral Instinct, Instinctive Pounce</td>
+      <td>Instinto salvaje, Salto instintivo</td>
       <td>4</td>
       <td>+2</td>
       <td>3</td>
@@ -127,7 +147,7 @@ As a Barbarian, you gain the following class features when you reach the specifi
     <tr>
       <td>8</td>
       <td>+3</td>
-      <td>Ability Score Improvement</td>
+      <td>Mejora de característica</td>
       <td>4</td>
       <td>+2</td>
       <td>3</td>
@@ -135,7 +155,7 @@ As a Barbarian, you gain the following class features when you reach the specifi
     <tr>
       <td>9</td>
       <td>+4</td>
-      <td>Brutal Strike</td>
+      <td>Golpe brutal</td>
       <td>4</td>
       <td>+3</td>
       <td>3</td>
@@ -143,7 +163,7 @@ As a Barbarian, you gain the following class features when you reach the specifi
     <tr>
       <td>10</td>
       <td>+4</td>
-      <td>Subclass feature</td>
+      <td>Rasgo de subclase</td>
       <td>4</td>
       <td>+3</td>
       <td>4</td>
@@ -151,7 +171,7 @@ As a Barbarian, you gain the following class features when you reach the specifi
     <tr>
       <td>11</td>
       <td>+4</td>
-      <td>Relentless Rage</td>
+      <td>Furia implacable</td>
       <td>4</td>
       <td>+3</td>
       <td>4</td>
@@ -159,7 +179,7 @@ As a Barbarian, you gain the following class features when you reach the specifi
     <tr>
       <td>12</td>
       <td>+4</td>
-      <td>Ability Score Improvement</td>
+      <td>Mejora de característica</td>
       <td>5</td>
       <td>+3</td>
       <td>4</td>
@@ -167,7 +187,7 @@ As a Barbarian, you gain the following class features when you reach the specifi
     <tr>
       <td>13</td>
       <td>+5</td>
-      <td>Improved Brutal Strike</td>
+      <td>Golpe brutal mejorado</td>
       <td>5</td>
       <td>+3</td>
       <td>4</td>
@@ -175,7 +195,7 @@ As a Barbarian, you gain the following class features when you reach the specifi
     <tr>
       <td>14</td>
       <td>+5</td>
-      <td>Subclass feature</td>
+      <td>Rasgo de subclase</td>
       <td>5</td>
       <td>+3</td>
       <td>4</td>
@@ -183,7 +203,7 @@ As a Barbarian, you gain the following class features when you reach the specifi
     <tr>
       <td>15</td>
       <td>+5</td>
-      <td>Persistent Rage</td>
+      <td>Furia persistente</td>
       <td>5</td>
       <td>+3</td>
       <td>4</td>
@@ -191,7 +211,7 @@ As a Barbarian, you gain the following class features when you reach the specifi
     <tr>
       <td>16</td>
       <td>+5</td>
-      <td>Ability Score Improvement</td>
+      <td>Mejora de característica</td>
       <td>5</td>
       <td>+4</td>
       <td>4</td>
@@ -199,7 +219,7 @@ As a Barbarian, you gain the following class features when you reach the specifi
     <tr>
       <td>17</td>
       <td>+6</td>
-      <td>Improved Brutal Strike</td>
+      <td>Golpe brutal mejorado</td>
       <td>6</td>
       <td>+4</td>
       <td>4</td>
@@ -207,7 +227,7 @@ As a Barbarian, you gain the following class features when you reach the specifi
     <tr>
       <td>18</td>
       <td>+6</td>
-      <td>Indomitable Might</td>
+      <td>Poderío indómito</td>
       <td>6</td>
       <td>+4</td>
       <td>4</td>
@@ -215,7 +235,7 @@ As a Barbarian, you gain the following class features when you reach the specifi
     <tr>
       <td>19</td>
       <td>+6</td>
-      <td>Epic Boon</td>
+      <td>Don épico</td>
       <td>6</td>
       <td>+4</td>
       <td>4</td>
@@ -223,7 +243,7 @@ As a Barbarian, you gain the following class features when you reach the specifi
     <tr>
       <td>20</td>
       <td>+6</td>
-      <td>Primal Champion</td>
+      <td>Campeón primordial</td>
       <td>6</td>
       <td>+4</td>
       <td>4</td>
@@ -231,229 +251,287 @@ As a Barbarian, you gain the following class features when you reach the specifi
   </tbody>
 </table>
 
-#### Level 1: Rage
+#### Nivel 1: Defensa sin armadura
+Mientras no lleves armadura alguna, tu clase de armadura base será igual a 10 más tus modificadores por Destreza y Constitución. Obtienes este beneficio aunque lleves un escudo.
 
-You can imbue yourself with a primal power called Rage, a force that grants you extraordinary might and resilience. You can enter it as a Bonus Action if you aren't wearing Heavy armor.
+#### Nivel 1: Furia
+Puedes imbuirte de un poder primigenio llamado furia, que te otorga una fuerza y resistencia extraordinarias. Puedes dejarte llevar por ella como acción adicional si no llevas puesta una armadura pesada.
 
-You can enter your Rage the number of times shown for your Barbarian level in the Rages column of the Barbarian Features table. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.
+Puedes dejarte llevar por la furia tantas veces como se indica para tu nivel de bárbaro en la columna "N.º de furias" de la tabla "Rasgos de bárbaro". Recuperas uno de los usos gastados tras finalizar un descanso corto y todos tras finalizar un descanso largo.
 
-While active, your Rage follows the rules below.
+Mientras estés enfurecido, usa las siguientes reglas:
+- **Resistencia al daño.** Tienes resistencia al daño contundente, cortante y perforante.
+- **Daño por furia.** Cuando llevas a cabo un ataque que use la Fuerza (ya sea con un arma o un ataque sin armas) y causas daño al objetivo, obtienes un bonificador al daño que aumenta conforme subes de nivel de bárbaro, como se muestra en la columna "Daño por furia" de la tabla "Rasgos de bárbaro".
+- **Ventaja en Fuerza.** Tienes ventaja en las pruebas de Fuerza y en las tiradas de salvación de Fuerza.
+- **Sin concentración ni conjuros.** No puedes mantener la concentración ni lanzar conjuros.
+- **Duración.** La furia dura hasta el final de tu siguiente turno y termina antes si te pones una armadura pesada o recibes el estado de incapacitado. Si la furia sigue activa en tu siguiente turno, puedes prolongarla otro asalto de una de las siguientes formas:
+  - Haces una tirada de ataque contra un enemigo.
+  - Empleas una acción adicional para prolongar tu furia.
+  - Obligas a un enemigo a hacer una tirada de salvación.
 
-_Damage Resistance._ You have Resistance to Bludgeoning, Piercing, and Slashing damage.
+Cada vez que prolongues la furia, durará hasta el final de tu siguiente turno. Puedes mantener una furia hasta 10 minutos.
 
-_Rage Damage._ When you make an attack using Fuerza—with either a weapon or an Unarmed Strike—and deal damage to the target, you gain a bonus to the damage that increases as you gain levels as a Barbarian, as shown in the Rage Damage column of the Barbarian Features table.
+#### Nivel 1: Maestría con armas
+Tu entrenamiento con armas te permite utilizar las propiedades de maestría con dos tipos de armas cuerpo a cuerpo sencillas o marciales de tu elección, como las hachas a dos manos y las hachas de mano. Tras finalizar un descanso largo, puedes llevar a cabo ejercicios con armas y cambiar una de dichas elecciones.
 
-_Fuerza Advantage._ You have Advantage on Fuerza checks and Fuerza saving throws.
+Cuando alcances ciertos niveles de bárbaro, adquirirás la capacidad de usar las propiedades de maestría con más tipos de armas, como se muestra en la columna "Maestría con armas" de la tabla "Rasgos de bárbaro".
 
-_No Concentration or Spells._ You can't maintain Concentration, and you can't cast spells.
+#### Nivel 2: Ataque temerario
+Puedes abandonar por completo tu defensa para atacar con una mayor fiereza. Cuando vayas a realizar la primera tirada de ataque de tu turno, puedes decidir atacar temerariamente. Si lo haces, tendrás ventaja en las tiradas de ataque que utilicen la Fuerza hasta el principio de tu siguiente turno, pero las tiradas de ataque contra ti también tendrán ventaja durante ese tiempo.
 
-_Duration._ The Rage lasts until the end of your next turn, and it ends early if you don Heavy armor or have the Incapacitated condition. If your Rage is still active on your next turn, you can extend the Rage for another round by doing one of the following:
+#### Nivel 2: Sentir el peligro
+Eres capaz de percibir de forma casi sobrenatural cuándo las cosas no son como deberían. Gracias a ello, se te da bien evitar el peligro. Tienes ventaja en las tiradas de salvación de Destreza salvo que tengas el estado de incapacitado.
 
-- Make an attack roll against an enemy.
-- Force an enemy to make a saving throw.
-- Take a Bonus Action to extend your Rage.
+#### Nivel 3: Conocimiento primigenio
+Ganas competencia en otra habilidad de tu elección de la lista de habilidades disponibles para los bárbaros en el nivel 1.
 
-Each time the Rage is extended, it lasts until the end of your next turn. You can maintain a Rage for up to 10 minutes.
+Además, mientras estés enfurecido, puedes canalizar el poder primigenio cuando intentes determinadas tareas. Siempre que hagas una prueba de característica con una de las siguientes habilidades, podrás hacerla como una prueba de Fuerza incluso si normalmente utiliza otra característica: Acrobacias, Intimidación, Percepción, Sigilo o Supervivencia. Cuando utilizas esta capacidad, tu Fuerza representa el poder primigenio que fluye por ti y agudiza tu agilidad, porte y sentidos.
 
-#### Level 1: Unarmored Defense
+#### Nivel 3: Subclase de bárbaro
+Consigues una subclase de bárbaro de tu elección. Las subclases de la senda del Árbol del Mundo, la senda del berserker, la senda del corazón salvaje y la senda del fanático se detallan tras la descripción de esta clase.
 
-While you aren't wearing any armor, your base Armor Class equals 10 plus your Destreza and Constitución modifiers. You can use a Shield and still gain this benefit.
+Una subclase es una especialización que te proporciona rasgos cuando alcanzas ciertos niveles de bárbaro. De aquí en adelante, obtienes todos los rasgos de tu subclase que sean de tu nivel de bárbaro e inferiores.
 
-#### Level 1: Weapon Mastery
+#### Nivel 4: Mejora de característica
+Obtienes la dote Mejora de característica (consulta el capítulo 5) u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles de bárbaro 8, 12 y 16.
 
-Your training with weapons allows you to use the mastery properties of two kinds of Simple or Martial Melee weapons of your choice, such as Greataxes and Handaxes. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.
+#### Nivel 5: Ataque adicional
+Cuando lleves a cabo la acción de atacar en tu turno, podrás hacer dos ataques en lugar de uno.
 
-When you reach certain Barbarian levels, you gain the ability to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Barbarian Features table.
+#### Nivel 5: Movimiento rápido
+Tu velocidad aumenta en 3 m si no llevas armadura pesada.
 
-#### Level 2: Danger Sense
+#### Nivel 7: Instinto salvaje
+Tus instintos están tan afinados que tienes ventaja en las tiradas de iniciativa.
 
-You gain an uncanny sense of when things aren't as they should be, giving you an edge when you dodge perils. You have Advantage on Destreza saving throws unless you have the Incapacitated condition.
+#### Nivel 7: Salto instintivo
+Como parte de la acción adicional para dejarte llevar por la furia, puedes moverte hasta la mitad de tu velocidad.
 
-#### Level 2: Reckless Attack
+#### Nivel 9: Golpe brutal
+Si utilizas Ataque temerario, puedes renunciar a cualquier ventaja en una tirada de ataque de tu elección basada en la Fuerza en tu turno. La tirada de ataque elegida no debe tener desventaja. Si la tirada de ataque elegida acierta, el objetivo sufre 1d10 de daño adicional del mismo tipo que inflija el arma o el ataque sin armas y puedes causar un efecto de Golpe brutal de tu elección. Tienes las siguientes opciones de efectos:
+- **Golpe enérgico.** El objetivo es empujado 4,5 m respecto a ti en línea recta. Luego puedes moverte hasta la mitad de tu velocidad directamente hacia el objetivo sin provocar ataques de oportunidad.
+- **Golpe ralentizador.** La velocidad del objetivo se reduce en 4,5 m hasta el principio de tu siguiente turno. Un objetivo solo puede sufrir un golpe ralentizador cada vez: el más reciente.
 
-You can throw aside all concern for defense to attack with increased ferocity. When you make your first attack roll on your turn, you can decide to attack recklessly. Doing so gives you Advantage on attack rolls using Fuerza until the start of your next turn, but attack rolls against you have Advantage during that time.
+#### Nivel 11: Furia implacable
+Tu furia te permite seguir luchando incluso tras sufrir heridas graves. Si tus puntos de golpe se reducen a 0 mientras estás enfurecido, pero no mueres inmediatamente, puedes hacer una tirada de salvación de Constitución con CD 10. Si la superas, tus puntos de golpe pasarán a ser una cantidad igual al doble de tu nivel de bárbaro.
 
-#### Level 3: Barbarian Subclass
+Siempre que uses este rasgo después de la primera vez, la CD aumenta en 5. Tras finalizar un descanso corto o largo, la CD vuelve a ser 10.
 
-You gain a Barbarian subclass of your choice. The Path of the Berserker subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Barbarian levels. For the rest of your career, you gain each of your subclass's features that are of your Barbarian level or lower.
+#### Nivel 13: Golpe brutal mejorado
+Has perfeccionado tus formas de atacar con fiereza. Entre las opciones de Golpe brutal se encuentran ahora los siguientes efectos:
+- **Golpe abrumador.** El objetivo tiene desventaja en la siguiente tirada de salvación que haga y no puede llevar a cabo ataques de oportunidad hasta el principio de tu siguiente turno.
+- **Golpe desgarrador.** Antes del principio de tu siguiente turno, la próxima tirada de ataque realizada por otra criatura contra el objetivo obtiene un bonificador de +5. Una tirada de ataque puede obtener solo un bonificador de un golpe desgarrador.
 
-#### Level 3: Primal Knowledge
+#### Nivel 15: Furia persistente
+Cuando tires iniciativa, puedes recuperar todos los usos gastados de la furia. Tras recuperar los usos de la furia de esta manera, no podrás volver a hacerlo hasta que finalices un descanso largo.
 
-You gain proficiency in another skill of your choice from the skill list available to Barbarians at level 1.
+Además, tu furia es tan intensa que ahora dura 10 minutos sin necesidad de hacer nada para prolongarla de un asalto a otro. Tu furia termina antes si recibes el estado de inconsciente (no solo el de incapacitado) o te pones una armadura pesada.
 
-In addition, while your Rage is active, you can channel primal power when you attempt certain tasks; whenever you make an ability check using one of the following skills, you can make it as a Fuerza check even if it normally uses a different ability: Acrobatics, Intimidation, Perception, Stealth, or Survival. When you use this ability, your Fuerza represents primal power coursing through you, honing your agility, bearing, and senses.
+#### Nivel 17: Golpe brutal mejorado
+El daño adicional de tu Golpe brutal aumenta a 2d10. Además, puedes utilizar dos efectos diferentes de Golpe brutal siempre que uses tu rasgo Golpe brutal.
 
-#### Level 4: Ability Score Improvement
+#### Nivel 18: Poderío indómito
+Si tu resultado en una prueba de Fuerza o una tirada de salvación de Fuerza es inferior a tu puntuación de Fuerza, puedes usar esa puntuación en lugar del resultado.
 
-You gain the Ability Score Improvement feat (see "Feats") or another feat of your choice for which you qualify. You gain this feature again at Barbarian levels 8, 12, and 16.
+#### Nivel 19: Don épico
+Obtienes una dote de don épico (consulta el capítulo 5) u otra dote de tu elección para la que cumplas las condiciones. Se recomienda Don del ataque imparable.
 
-#### Level 5: Extra Attack
+#### Nivel 20: Campeón primordial
+Encarnas un poder primigenio. Tus puntuaciones de Fuerza y Constitución aumentan en 4, hasta un máximo de 25.
 
-You can attack twice instead of once whenever you take the Attack action on your turn.
+---
 
-#### Level 5: Fast Movement
+### Subclases de bárbaro
 
-Your speed increases by 10 pies while you aren't wearing Heavy armor.
+Una subclase de bárbaro es una especialización que te proporciona rasgos cuando alcanzas ciertos niveles de bárbaro, según se especifique en la subclase. Esta sección te presenta las subclases de la senda del Árbol del Mundo, la senda del berserker, la senda del corazón salvaje y la senda del fanático.
 
-#### Level 7: Feral Instinct
+#### Senda del Árbol del Mundo
 
-Your instincts are so honed that you have Advantage on Initiative rolls.
+*Localiza las raíces y las ramas del multiverso.*
 
-#### Level 7: Instinctive Pounce
+Los bárbaros que siguen la senda del Árbol del Mundo conectan con el árbol cósmico Yggdrasil a través de su furia. Este árbol crece entre los Planos Exteriores, a los que vincula entre sí además de con el Plano Material. Estos bárbaros recurren a la magia del árbol para obtener vitalidad y como medio de transporte dimensional.
 
-As part of the Bonus Action you take to enter your Rage, you can move up to half your Speed.
+##### Nivel 3: Vitalidad del árbol
+Tu furia se nutre de la fuerza vital del Árbol del Mundo. Obtienes los siguientes beneficios:
+- **Oleada de vitalidad.** Cuando te enfurezcas, obtendrás una cantidad de puntos de golpe temporales igual a tu nivel de bárbaro.
+- **Fuerza revitalizante.** Al principio de cada uno de tus turnos mientras estés enfurecido, puedes elegir a otra criatura a 3 m o menos de ti para que obtenga puntos de golpe temporales. Para determinarlos, tira una cantidad de d6 igual a tu bonificación de daño por furia y suma los resultados. Si algunos de estos puntos de golpe temporales permanecen cuando dejes de estar enfurecido, se desvanecerán.
 
-#### Level 9: Brutal Strike
+##### Nivel 6: Ramas del árbol
+Cuando una criatura que puedas ver comience su turno a 9 m o menos de ti mientras estás enfurecido, podrás llevar a cabo una reacción para invocar unas ramas espectrales del Árbol del Mundo a su alrededor. El objetivo deberá superar una tirada de salvación de Fuerza (CD 8 más tu modificador por Fuerza y tu bonificador por competencia) o se teletransportará a un espacio sin ocupar que puedas ver a 1,5 m de ti o al espacio sin ocupar más cercano que puedas ver. Después de que el objetivo se teletransporte, puedes reducir su velocidad a 0 hasta el final del turno actual.
 
-If you use Reckless Attack, you can forgo any Advantage on one Fuerza-based attack roll of your choice on your turn. The chosen attack roll mustn't have Disadvantage. If the chosen attack roll hits, the target takes an extra 1d10 damage of the same type dealt by the weapon or Unarmed Strike, and you can cause one Brutal Strike effect of your choice. You have the following effect options.
+##### Nivel 10: Raíces apaleadoras
+Durante tu turno, tu alcance es 3 m superior con cualquier arma cuerpo a cuerpo que tenga la propiedad de pesada o versátil, ya que los zarcillos del Árbol del Mundo se prolongan desde tu cuerpo. Cuando aciertes con un arma así en tu turno, podrás activar la propiedad de maestría de derribar o empujar, además de otra propiedad de maestría diferente que utilices con ese arma.
 
-_Forceful Blow._ The target is pushed 15 pies straight away from you. You can then move up to half your Speed straight toward the target without provoking Opportunity Attacks.
-_Hamstring Blow._ The target's Speed is reduced by 15 pies until the start of your next turn. A target can be affected by only one Hamstring Blow at a time—the most recent one.
+##### Nivel 14: Viajar por el árbol
+Cuando te enfureces y como acción adicional mientras estés enfurecido, puedes teletransportarte hasta 18 m a un espacio sin ocupar que puedas ver.
 
-#### Level 11: Relentless Rage
+Asimismo, una vez por furia, puedes aumentar el alcance del teletransporte a 45 m. Si lo haces, también puedes transportar hasta seis criaturas voluntarias que estén a 3 m o menos de ti. Cada criatura se teletransportará a un espacio sin ocupar de tu elección a 3 m o menos de tu espacio de destino.
 
-Your Rage can keep you fighting despite grievous wounds. If you drop to 0 Hit Points while your Rage is active and don't die outright, you can make a DC 10 Constitución saving throw. If you succeed, your Hit Points instead change to a number equal to twice your Barbarian level.
+---
 
-Each time you use this feature after the first, the DC increases by 5. When you finish a Short or Long Rest, the DC resets to 10.
+#### Senda del Berserker
 
-#### Level 13: Improved Brutal Strike
+*Canaliza la furia en una violencia indómita.*
 
-You have honed new ways to attack furiously. The following effects are now among your Brutal Strike options.
+Los bárbaros que recorren la senda del berserker ponen su furia principalmente al servicio de la violencia. Su senda se asienta en una rabia sin cortapisas y estos bárbaros se embriagan del caos del combate mientras dejan que su furia se apodere de ellos y los fortalezca.
 
-_Staggering Blow._ The target has Disadvantage on the next saving throw it makes, and it can't make Opportunity Attacks until the start of your next turn.
+##### Nivel 3: Frenesí
+Si utilizas Ataque temerario mientras estás enfurecido, causarás daño adicional al primer objetivo al que aciertes en tu turno con un ataque basado en la Fuerza. Para determinar el daño adicional, tira una cantidad de d6 igual a tu bonificación de daño por furia y suma los resultados. El daño será del mismo tipo que el del arma o ataque sin armas utilizado para el ataque.
 
-_Sundering Blow._ Before the start of your next turn, the next attack roll made by another creature against the target gains a +5 bonus to the roll. An attack roll can gain only one Sundering Blow bonus.
+##### Nivel 6: Furia irracional
+Tienes inmunidad a los estados de asustado y hechizado mientras estés enfurecido. Si estás asustado o hechizado cuando te dejes llevar por la furia, el estado terminará para ti.
 
-#### Level 15: Persistent Rage
+##### Nivel 10: Represalia
+Cuando recibas daño de una criatura que esté a 1,5 m o menos de ti, puedes llevar a cabo una reacción para hacer un ataque cuerpo a cuerpo contra esa criatura usando un arma o un ataque sin armas.
 
-When you roll Initiative, you can regain all expended uses of Rage. After you regain uses of Rage in this way, you can't do so again until you finish a Long Rest.
+##### Nivel 14: Presencia intimidante
+Como acción adicional, puedes sembrar el terror en los demás con tu mera presencia amenazadora y tu poder primigenio. Cuando lo hagas, todas las criaturas de tu elección situadas en una emanación de 9 m originada en ti deberá hacer una tirada de salvación de Sabiduría (CD 8 más tu modificador por Fuerza y tu bonificador por competencia). Si la fallan, tendrán el estado de asustadas durante 1 minuto. Al final de cada uno de sus turnos, las criaturas asustadas repiten la tirada de salvación y, si tienen éxito, se librarán del efecto.
 
-In addition, your Rage is so fierce that it now lasts for 10 minutes without you needing to do anything to extend it from round to round. Your Rage ends early if you have the Unconscious condition (not just the Incapacitated condition) or don Heavy armor.
+Cuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un descanso largo, a menos que gastes un uso de tu furia (no requiere acción) para restablecer su uso.
 
-#### Level 17: Improved Brutal Strike
+---
 
-The extra damage of your Brutal Strike increases to 2d10. In addition, you can use two different Brutal Strike effects whenever you use your Brutal Strike feature.
+#### Senda del Corazón Salvaje
 
-#### Level 18: Indomitable Might
+*Camina en comunión con el mundo animal.*
 
-If your total for a Fuerza check or Fuerza saving throw is less than your Fuerza score, you can use that score in place of the total.
+Los bárbaros que siguen la senda del corazón salvaje sienten afinidad por los animales. Aprenden métodos mágicos de comunicarse con ellos y su furia aumenta su conexión, ya que los imbuye de una fuerza sobrenatural.
 
-#### Level 19: Epic Boon
+##### Nivel 3: Furia de lo salvaje
+Tu furia se sirve del poder primigenio de los animales. Cuando te enfurezcas, obtendrás una de las siguientes opciones, a tu elección:
+- **Águila.** Cuando te enfurezcas, podrás llevar a cabo las acciones de destrabarse y correr como parte de esa acción adicional. Mientras estés enfurecido, puedes usar una acción adicional para llevar a cabo ambas acciones.
+- **Lobo.** Mientras estés enfurecido, tus aliados tendrán ventaja en las tiradas de ataque contra cualquiera de tus enemigos que se encuentre a 1,5 m o menos de ti.
+- **Oso.** Mientras estés enfurecido, tendrás resistencia a todos los tipos de daño salvo de fuerza, necrótico, psíquico y radiante.
 
-You gain an Epic Boon feat (see "Feats") or another feat of your choice for which you qualify. Boon of Irresistible Offense is recommended.
+##### Nivel 3: Portavoz de los animales
+Puedes lanzar los conjuros *hablar con los animales* y *sentidos de la bestia*, pero solo como rituales. La Sabiduría es tu aptitud mágica para lanzarlos.
 
-#### Level 20: Primal Champion
+##### Nivel 6: Aspecto de lo salvaje
+Obtienes una de las siguientes opciones, a tu elección. Tras finalizar un descanso largo, puedes cambiar de opción:
+- **Búho.** Tienes visión en la oscuridad hasta 18 m. Si ya posees visión en la oscuridad, su alcance aumenta en 18 m.
+- **Pantera.** Tienes una velocidad trepando igual a tu velocidad.
+- **Salmón.** Tienes una velocidad nadando igual a tu velocidad.
 
-You embody primal power. Your Fuerza and Constitución scores increase by 4, to a maximum of 25.
+##### Nivel 10: Hablante de la naturaleza
+Puedes lanzar el conjuro *comunión con la naturaleza*, pero solo como ritual. La Sabiduría es tu aptitud mágica para lanzarlo.
 
-### Bárbaro (Barbarian) Subclass: Path of the Berserker
+##### Nivel 14: Poder de lo salvaje
+Cuando te enfurezcas, obtendrás una de las siguientes opciones, a tu elección:
+- **Carnero.** Mientras estés enfurecido, podrás hacer que una criatura Grande o más pequeña sufra el estado de derribada si la aciertas con un ataque cuerpo a cuerpo.
+- **Halcón.** Mientras estés enfurecido, tendrás una velocidad volando igual a tu velocidad si no llevas ninguna armadura.
+- **León.** Mientras estés enfurecido, cualquier enemigo que esté a 1,5 m o menos de ti tendrá desventaja en las tiradas de ataque contra otros objetivos que no seáis tú u otro bárbaro que tenga esta opción activa.
 
-_Channel Rage into Violent Fury_
+---
 
-Barbarians who walk the Path of the Berserker direct their Rage primarily toward violence. Their path is one of untrammeled fury, and they thrill in the chaos of battle as they allow their Rage to seize and empower them.
+#### Senda del Fanático
 
-#### Level 3: Frenzy
+*Expresa tu furia en una eufórica unión con una divinidad.*
 
-If you use Reckless Attack while your Rage is active, you deal extra damage to the first target you hit on your turn with a Fuerza-based attack. To determine the extra damage, roll a number of d6s equal to your Rage Damage bonus, and add them together. The damage has the same type as the weapon or Unarmed Strike used for the attack.
+Los bárbaros que siguen la senda del fanático reciben beneficios de un dios o panteón. Estos bárbaros experimentan su furia como un episodio eufórico de unión divina que les imbuye de poder. Habitualmente, se alían con sacerdotes y otros seguidores de su dios o panteón.
 
-#### Level 6: Mindless Rage
+##### Nivel 3: Furia divina
+Puedes canalizar el poder divino hacia tus ataques. En cada uno de tus turnos mientras estés enfurecido, la primera criatura a la que aciertes con un arma o un ataque sin armas sufrirá una cantidad de daño adicional igual a 1d6 más la mitad de tu nivel de bárbaro (redondeando hacia abajo). El daño adicional es necrótico o radiante, que eliges cada vez que lo causas.
 
-You have Immunity to the Charmed and Frightened conditions while your Rage is active. If you're Charmed or Frightened when you enter your Rage, the condition ends on you.
+##### Nivel 3: Guerrero de los dioses
+Una entidad divina ayuda a garantizar que continúes la batalla. Cuentas con una reserva de cuatro d12 que puedes gastar para curarte. Como acción adicional, puedes gastar dados de la reserva, tirarlos y recuperar una cantidad de puntos de golpe igual al resultado total de la tirada.
 
-#### Level 10: Retaliation
+Tu reserva recupera todos los dados gastados tras finalizar un descanso largo.
 
-When you take damage from a creature that is within 5 pies of you, you can take a Reaction to make one melee attack against that creature, using a weapon or an Unarmed Strike.
+El número máximo de dados de la reserva aumenta en uno cuando alcanzas los niveles 6 (5 dados), 12 (6 dados) y 17 (7 dados) de bárbaro.
 
-#### Level 14: Intimidating Presence
+##### Nivel 6: Foco fanático
+Una vez por furia, si fallas una tirada de salvación, podrás repetirla con un bonificador igual a tu bonificación de daño por furia y deberás utilizar el nuevo resultado.
 
-As a Bonus Action, you can strike terror into others with your menacing presence and primal power. When you do so, each creature of your choice in a 30-foot Emanation originating from you must make a Sabiduría saving throw (DC 8 plus your Fuerza modifier and Proficiency Bonus). On a failed save, a creature has the Frightened condition for 1 minute. At the end of each of the Frightened creature's turns, the creature repeats the save, ending the effect on itself on a success.
+##### Nivel 10: Presencia ferviente
+Como acción adicional, profieres un grito de guerra imbuido de energía divina. Hasta diez criaturas de tu elección que estén a 18 m o menos de ti obtendrán ventaja en las tiradas de ataque y tiradas de salvación hasta el principio de tu siguiente turno.
 
-Una vez que use this feature, you can't use it again until you finish a Long Rest unless you expend a use of your Rage (no action required) to restore your use of it.
+Cuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un descanso largo, a menos que gastes un uso de tu furia (no requiere acción) para restablecer su uso.
 
-## Bardo (Bard)
+##### Nivel 14: Furia de los dioses
+Cuando te enfureces, puedes adoptar la forma de un guerrero divino. Esta forma dura 1 minuto o hasta que tus puntos de golpe se reduzcan a 0. Cuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un descanso largo.
 
-**Rasgos Principales del Bardo (Bard)**
+Mientras tengas esta forma, obtendrás los siguientes beneficios:
+- **Resistencia.** Tienes resistencia al daño necrótico, psíquico y radiante.
+- **Revitalización.** Cuando los puntos de golpe de una criatura que esté a 9 m o menos de ti fueran a reducirse a 0, puedes llevar a cabo una reacción para gastar un uso de tu furia y hacer que los puntos de golpe del objetivo cambien a una cantidad igual a tu nivel de bárbaro.
+- **Vuelo.** Tienes una velocidad volando igual a tu velocidad y puedes levitar.
+
+---
+
+## Bardo
+
+Los bardos, que invocan la magia a través de la música, la danza y la poesía, son duchos en inspirar a los demás, en sanar heridas, en desmoralizar al enemigo y en crear ilusiones. Creen que el multiverso nació del habla de los dioses y que los ecos de sus palabras de creación aún resuenan y brillan en cada plano de existencia. La magia bárdica aspira a servirse de estas palabras que trascienden cualquier idioma.
+
+Cualquier cosa puede inspirar una nueva canción o historia, así que los bardos sienten fascinación por casi todo. Llegan a dominar muchos ámbitos, como la música, la magia o la mofa.
+
+Los bardos se pasan la vida viajando, recopilando conocimientos, contando historias y viviendo de la buena voluntad de su público, como la mayoría de artistas. Sin embargo, su amplitud de conocimientos y su dominio de la magia los distingue del resto de intérpretes.
+
+### Atributos básicos de bardo
 
 <table>
   <tbody>
     <tr>
-      <td>Característica Primaria</td>
+      <td><strong>Característica principal</strong></td>
       <td>Carisma</td>
     </tr>
     <tr>
-      <td>Dado de Puntos de Golpe</td>
-      <td>D8 per Bard level</td>
+      <td><strong>Dado de puntos de golpe</strong></td>
+      <td>1d8 por nivel de bardo</td>
     </tr>
     <tr>
-      <td>Competencia en Tiradas de Salvación</td>
-      <td>Destreza and Carisma</td>
+      <td><strong>Competencias en tiradas de salvación</strong></td>
+      <td>Destreza y Carisma</td>
     </tr>
     <tr>
-      <td>Competencia en Habilidades</td>
-      <td>Choose any 3 skills (see Playing the Game)</td>
+      <td><strong>Competencias en habilidades</strong></td>
+      <td>Elige tres cualesquiera (consulta el capítulo 1)</td>
     </tr>
     <tr>
-      <td>Competencia en Armas</td>
-      <td>Simple weapons</td>
+      <td><strong>Competencias con armas</strong></td>
+      <td>Armas sencillas</td>
     </tr>
     <tr>
-      <td>Tool Proficiencies</td>
-      <td>Choose 3 Musical Instruments (see Equipment)</td>
+      <td><strong>Competencias con herramientas</strong></td>
+      <td>Elige tres instrumentos musicales (consulta el capítulo 6)</td>
     </tr>
     <tr>
-      <td>Entrenamiento con Armaduras</td>
-      <td>Light armor</td>
+      <td><strong>Entrenamiento con armaduras</strong></td>
+      <td>Armaduras ligeras</td>
     </tr>
     <tr>
-      <td>Equipo Inicial</td>
-      <td>Choose A or B: (A) Leather Armor, 2 Daggers, Musical Instrument of your choice, Entertainer's Pack, and 19 po; or (B) 90 po</td>
+      <td><strong>Equipo inicial</strong></td>
+      <td>Elige A o B: (A) armadura de cuero, 2 dagas, instrumento musical de tu elección, paquete de artista y 19 po; o (B) 90 po</td>
     </tr>
   </tbody>
 </table>
 
-### Becoming a Bard …
+### Convertirse en bardo
 
-#### As a Level 1 Character
+#### Como personaje de nivel 1
+- Obtienes todos los atributos de la tabla "Atributos básicos de bardo".
+- Obtienes los rasgos de nivel 1 de bardo, que se muestran en la tabla "Rasgos de bardo".
 
-• Gain all the traits in the Core Bard Traits table.
+#### Como personaje multiclase
+- Obtienes los siguientes atributos de la tabla "Atributos básicos de bardo": dado de puntos de golpe, competencia en una habilidad de tu elección, competencia con un instrumento musical de tu elección y entrenamiento con armaduras ligeras.
+- Obtienes los rasgos de nivel 1 de bardo, que se muestran en la tabla "Rasgos de bardo". Consulta las reglas de multiclase del capítulo 2 para determinar tus espacios de conjuro disponibles.
 
-• Gain the Bard's level 1 features, which are listed in the Bard Features table.
+### Rasgos de clase de bardo
 
-#### As a Multiclass Character
+Como bardo, obtienes los siguientes rasgos de clase cuando alcanzas los niveles de bardo especificados. Estos rasgos se muestran en la tabla "Rasgos de bardo".
 
-• Gain the following traits from the Core Bard Traits table: Hit Point Die, proficiency in one skill of your choice, proficiency with one Musical Instrument of your choice, and training with Light armor.
-• Gain the Bard's level 1 features, which are listed in the Bard Features table. See the multiclassing rules in "Character Creation" to determine your available spell slots.
-
-### Bardo (Bard) Class Features
-
-As a Bard, you gain the following class features when you reach the specified Bard levels. These features are listed in the Bard Features table.
-
-**Bard Features**
+**Rasgos de bardo**
 
 <table>
   <thead>
     <tr>
-      <th>Level</th>
-      <th>Proficiency Bonus</th>
-      <th>Class Features</th>
-      <th>Bardic Die</th>
-      <th>Cantrips</th>
-      <th>Prepared Spells</th>
-      <th colspan="9">——Spell Slots per Spell Level——</th>
+      <th rowspan="2">Nivel</th>
+      <th rowspan="2">Bonificador por competencia</th>
+      <th rowspan="2">Rasgos de clase</th>
+      <th rowspan="2">Dado bárdico</th>
+      <th rowspan="2">Trucos</th>
+      <th rowspan="2">Conjuros preparados</th>
+      <th colspan="9">Espacios de conjuro por nivel de conjuro</th>
     </tr>
     <tr>
-      <th>
-      </th>
-      <th>
-      </th>
-      <th>
-      </th>
-      <th>
-      </th>
-      <th>
-      </th>
-      <th>
-      </th>
       <th>1</th>
       <th>2</th>
       <th>3</th>
@@ -469,8 +547,8 @@ As a Bard, you gain the following class features when you reach the specified Ba
     <tr>
       <td>1</td>
       <td>+2</td>
-      <td>Bardic Inspiration, Spellcasting</td>
-      <td>D6</td>
+      <td>Inspiración bárdica, Lanzamiento de conjuros</td>
+      <td>d6</td>
       <td>2</td>
       <td>4</td>
       <td>2</td>
@@ -482,14 +560,12 @@ As a Bard, you gain the following class features when you reach the specified Ba
       <td>—</td>
       <td>—</td>
       <td>—</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>2</td>
       <td>+2</td>
-      <td>Expertise, Jack of All Trades</td>
-      <td>D6</td>
+      <td>Aprendiz de mucho, Pericia</td>
+      <td>d6</td>
       <td>2</td>
       <td>5</td>
       <td>3</td>
@@ -501,14 +577,12 @@ As a Bard, you gain the following class features when you reach the specified Ba
       <td>—</td>
       <td>—</td>
       <td>—</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>3</td>
       <td>+2</td>
-      <td>Bard Subclass</td>
-      <td>D6</td>
+      <td>Subclase de bardo</td>
+      <td>d6</td>
       <td>2</td>
       <td>6</td>
       <td>4</td>
@@ -520,14 +594,12 @@ As a Bard, you gain the following class features when you reach the specified Ba
       <td>—</td>
       <td>—</td>
       <td>—</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>4</td>
       <td>+2</td>
-      <td>Ability Score Improvement</td>
-      <td>D6</td>
+      <td>Mejora de característica</td>
+      <td>d6</td>
       <td>3</td>
       <td>7</td>
       <td>4</td>
@@ -539,14 +611,12 @@ As a Bard, you gain the following class features when you reach the specified Ba
       <td>—</td>
       <td>—</td>
       <td>—</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>5</td>
       <td>+3</td>
-      <td>Font of Inspiration</td>
-      <td>D8</td>
+      <td>Fuente de inspiración</td>
+      <td>d8</td>
       <td>3</td>
       <td>9</td>
       <td>4</td>
@@ -558,14 +628,12 @@ As a Bard, you gain the following class features when you reach the specified Ba
       <td>—</td>
       <td>—</td>
       <td>—</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>6</td>
       <td>+3</td>
-      <td>Subclass feature</td>
-      <td>D8</td>
+      <td>Rasgo de subclase</td>
+      <td>d8</td>
       <td>3</td>
       <td>10</td>
       <td>4</td>
@@ -577,14 +645,12 @@ As a Bard, you gain the following class features when you reach the specified Ba
       <td>—</td>
       <td>—</td>
       <td>—</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>7</td>
       <td>+3</td>
-      <td>Countercharm</td>
-      <td>D8</td>
+      <td>Contraencantamiento</td>
+      <td>d8</td>
       <td>3</td>
       <td>11</td>
       <td>4</td>
@@ -596,14 +662,12 @@ As a Bard, you gain the following class features when you reach the specified Ba
       <td>—</td>
       <td>—</td>
       <td>—</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>8</td>
       <td>+3</td>
-      <td>Ability Score Improvement</td>
-      <td>D8</td>
+      <td>Mejora de característica</td>
+      <td>d8</td>
       <td>3</td>
       <td>12</td>
       <td>4</td>
@@ -615,14 +679,12 @@ As a Bard, you gain the following class features when you reach the specified Ba
       <td>—</td>
       <td>—</td>
       <td>—</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>9</td>
       <td>+4</td>
-      <td>Expertise</td>
-      <td>D8</td>
+      <td>Pericia</td>
+      <td>d8</td>
       <td>3</td>
       <td>14</td>
       <td>4</td>
@@ -634,14 +696,12 @@ As a Bard, you gain the following class features when you reach the specified Ba
       <td>—</td>
       <td>—</td>
       <td>—</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>10</td>
       <td>+4</td>
-      <td>Magical Secrets</td>
-      <td>D10</td>
+      <td>Secretos mágicos</td>
+      <td>d10</td>
       <td>4</td>
       <td>15</td>
       <td>4</td>
@@ -653,14 +713,12 @@ As a Bard, you gain the following class features when you reach the specified Ba
       <td>—</td>
       <td>—</td>
       <td>—</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>11</td>
       <td>+4</td>
       <td>—</td>
-      <td>D10</td>
+      <td>d10</td>
       <td>4</td>
       <td>16</td>
       <td>4</td>
@@ -672,14 +730,12 @@ As a Bard, you gain the following class features when you reach the specified Ba
       <td>—</td>
       <td>—</td>
       <td>—</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>12</td>
       <td>+4</td>
-      <td>Ability Score Improvement</td>
-      <td>D10</td>
+      <td>Mejora de característica</td>
+      <td>d10</td>
       <td>4</td>
       <td>16</td>
       <td>4</td>
@@ -691,14 +747,12 @@ As a Bard, you gain the following class features when you reach the specified Ba
       <td>—</td>
       <td>—</td>
       <td>—</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>13</td>
       <td>+5</td>
       <td>—</td>
-      <td>D10</td>
+      <td>d10</td>
       <td>4</td>
       <td>17</td>
       <td>4</td>
@@ -710,14 +764,12 @@ As a Bard, you gain the following class features when you reach the specified Ba
       <td>1</td>
       <td>—</td>
       <td>—</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>14</td>
       <td>+5</td>
-      <td>Subclass feature</td>
-      <td>D10</td>
+      <td>Rasgo de subclase</td>
+      <td>d10</td>
       <td>4</td>
       <td>17</td>
       <td>4</td>
@@ -729,14 +781,12 @@ As a Bard, you gain the following class features when you reach the specified Ba
       <td>1</td>
       <td>—</td>
       <td>—</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>15</td>
       <td>+5</td>
       <td>—</td>
-      <td>D12</td>
+      <td>d12</td>
       <td>4</td>
       <td>18</td>
       <td>4</td>
@@ -748,14 +798,12 @@ As a Bard, you gain the following class features when you reach the specified Ba
       <td>1</td>
       <td>1</td>
       <td>—</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>16</td>
       <td>+5</td>
-      <td>Ability Score Improvement</td>
-      <td>D12</td>
+      <td>Mejora de característica</td>
+      <td>d12</td>
       <td>4</td>
       <td>18</td>
       <td>4</td>
@@ -767,14 +815,12 @@ As a Bard, you gain the following class features when you reach the specified Ba
       <td>1</td>
       <td>1</td>
       <td>—</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>17</td>
       <td>+6</td>
       <td>—</td>
-      <td>D12</td>
+      <td>d12</td>
       <td>4</td>
       <td>19</td>
       <td>4</td>
@@ -786,14 +832,12 @@ As a Bard, you gain the following class features when you reach the specified Ba
       <td>1</td>
       <td>1</td>
       <td>1</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>18</td>
       <td>+6</td>
-      <td>Superior Inspiration</td>
-      <td>D12</td>
+      <td>Inspiración superior</td>
+      <td>d12</td>
       <td>4</td>
       <td>20</td>
       <td>4</td>
@@ -805,14 +849,12 @@ As a Bard, you gain the following class features when you reach the specified Ba
       <td>1</td>
       <td>1</td>
       <td>1</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>19</td>
       <td>+6</td>
-      <td>Epic Boon</td>
-      <td>D12</td>
+      <td>Don épico</td>
+      <td>d12</td>
       <td>4</td>
       <td>21</td>
       <td>4</td>
@@ -824,14 +866,12 @@ As a Bard, you gain the following class features when you reach the specified Ba
       <td>1</td>
       <td>1</td>
       <td>1</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>20</td>
       <td>+6</td>
-      <td>Words of Creation</td>
-      <td>D12</td>
+      <td>Palabras de creación</td>
+      <td>d12</td>
       <td>4</td>
       <td>22</td>
       <td>4</td>
@@ -843,986 +883,1071 @@ As a Bard, you gain the following class features when you reach the specified Ba
       <td>2</td>
       <td>1</td>
       <td>1</td>
-      <td>
-      </td>
     </tr>
   </tbody>
 </table>
 
-#### Level 1: Bardic Inspiration
+#### Nivel 1: Inspiración bárdica
+Puedes recurrir a tus palabras, música o danza para inspirar de forma sobrenatural a los demás. Esta inspiración se representa con tu dado de Inspiración bárdica, que es un d6.
 
-You can supernaturally inspire others through words, music, or dance. This inspiration is represented by your Bardic Inspiration die, which is a d6.
+- **Utilizar la Inspiración bárdica.** Como acción adicional, puedes inspirar a otra criatura que esté a 18 m o menos de ti y que te pueda ver u oír. Esa criatura obtiene uno de tus dados de Inspiración bárdica. Cada criatura no puede tener más de un dado de Inspiración bárdica.
+- **Una sola vez durante la siguiente hora**, cuando la criatura falle una prueba con d20, podrá tirar el dado de Inspiración bárdica y sumar el resultado al d20, lo que podría hacerle superar la prueba. Un dado de Inspiración bárdica se gasta al tirarlo.
+- **Número de usos.** Puedes conceder un dado de Inspiración bárdica una cantidad de veces igual a tu modificador por Carisma (mínimo una vez) y recuperas todos sus usos tras finalizar un descanso largo.
+- **A niveles superiores.** Tu dado de Inspiración bárdica cambia cuando alcanzas ciertos niveles de bardo, como se muestra en la columna "Dado bárdico" de la tabla "Rasgos de bardo". El dado se convierte en un d8 en el nivel 5, un d10 en el nivel 10 y un d12 en el nivel 15.
 
-_Using Bardic Inspiration._ As a Bonus Action, you can inspire another creature within 60 pies of yourself who can see or hear you. That creature gains one of your Bardic Inspiration dice. A creature can have only one Bardic Inspiration die at a time.
+#### Nivel 1: Lanzamiento de conjuros
+Has aprendido a lanzar conjuros mediante tus artes bárdicas. Consulta el capítulo 7 para ver las reglas sobre el lanzamiento de conjuros. La información presentada a continuación detalla cómo usar esas reglas con los conjuros de bardo, que encontrarás más adelante en la lista de conjuros de bardo de la descripción de la clase.
 
-Una vez within the next hour when the creature fails a D20 Test, the creature can roll the Bardic Inspiration die and add the number rolled to the d20, potentially turning the failure into a success. A Bardic Inspiration die is expended when it's rolled.
+- **Trucos.** Conoces dos trucos de tu elección escogidos de entre los de la lista de conjuros de bardo. Se recomiendan *burla dañina* y *luces danzantes*. Cada vez que subas un nivel de bardo, puedes sustituir uno de tus trucos por otro truco de tu elección de la lista de conjuros de bardo. Cuando alcances los niveles 4 y 10 de bardo, aprenderás otro truco de tu elección de la lista de conjuros de bardo, como se muestra en la columna "Trucos" de la tabla "Rasgos de bardo".
+- **Espacios de conjuro.** La tabla "Rasgos de bardo" muestra cuántos espacios de conjuro tienes para lanzar tus conjuros de nivel 1 y superiores. Recuperas todos los espacios utilizados tras finalizar un descanso largo.
+- **Conjuros preparados de nivel 1 y superiores.** Preparas una serie de conjuros de nivel 1 y superiores, que son los que podrás lanzar con este rasgo. Para empezar, elige cuatro conjuros de nivel 1 de la lista de conjuros de bardo. Se recomiendan *hechizar persona*, *palabra de curación*, *rociada de color* y *susurros discordantes*.
+  El número de conjuros de tu lista aumenta conforme subes de nivel de bardo, como se muestra en la columna "Conjuros preparados" de la tabla "Rasgos de bardo". Cuando ese número aumente, elige conjuros adicionales de la lista de conjuros de bardo hasta que el número de conjuros de tu lista coincida con el número de la tabla. Estos conjuros deben ser de un nivel para el que tengas espacios de conjuro. Por ejemplo, si eres un bardo de nivel 3, podrías preparar cualquier combinación de seis conjuros de nivel 1 o 2.
+  Si otro rasgo de bardo te proporciona conjuros que siempre tienes preparados, esos conjuros no cuentan para el total que puedes preparar con este rasgo, pero sí que cuentan como conjuros de bardo para ti.
+- **Cambiar los conjuros preparados.** Cada vez que subas un nivel de bardo, puedes sustituir un conjuro de tu lista por otro conjuro de bardo para el que tengas espacios de conjuro.
+- **Aptitud mágica.** El Carisma es tu aptitud mágica en lo que respecta a tus conjuros de bardo.
+- **Canalizador mágico.** Puedes utilizar un instrumento musical como canalizador mágico para tus conjuros de bardo.
 
-_Number of Uses._ You can confer a Bardic Inspiration die a number of times equal to your Carisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.
+#### Nivel 2: Aprendiz de mucho
+Puedes sumar la mitad de tu bonificador por competencia (redondeando hacia abajo) a cualquier prueba de característica que hagas que utilice una habilidad en la que no seas competente y que no use de otro modo tu bonificador por competencia.
 
-_At Higher Levels._ Your Bardic Inspiration die changes when you reach certain Bard levels, as shown in the Bardic Die column of the Bard Features table. The die becomes a d8 at level 5, a d10 at level 10, and a d12 at level 15.
+Por ejemplo, si haces una prueba de Fuerza (Atletismo) y no eres competente en Atletismo, puedes sumar la mitad de tu bonificador por competencia a la prueba.
 
-#### Level 1: Spellcasting
+#### Nivel 2: Pericia
+Ganas pericia (consulta el glosario de reglas) en dos de tus competencias en habilidades de tu elección. Se recomiendan *Interpretación* y *Persuasión* si eres competente en ellas.
 
-You have learned to cast spells through your bardic arts. See "Spells" for the rules on spellcasting. The information below details how you use those rules with Bard spells, which appear in the Bard spell list later in the class's description.
+En el nivel 9 de bardo ganas pericia en otras dos competencias de tu elección.
 
-_Cantrips._ You know two cantrips of your choice from the Bard spell list. _Dancing Lights_ and _Vicious Mockery_ are recommended.
+#### Nivel 3: Subclase de bardo
+Consigues una subclase de bardo de tu elección. Las subclases del colegio de la danza, el colegio del conocimiento, el colegio del glamour y el colegio del valor se detallan tras la descripción de esta clase. Una subclase es una especialización que te proporciona rasgos cuando alcanzas ciertos niveles de bardo. De aquí en adelante, obtienes todos los rasgos de tu subclase que sean de tu nivel de bardo e inferiores.
 
-Whenever you gain a Bard level, you can replace one of your cantrips with another cantrip of your choice from the Bard spell list.
+#### Nivel 4: Mejora de característica
+Obtienes la dote Mejora de característica (consulta el capítulo 5) u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16 de bardo.
 
-When you reach Bard levels 4 and 10, you learn another cantrip of your choice from the Bard spell list, as shown in the Cantrips column of the Bard Features table.
+#### Nivel 5: Fuente de inspiración
+Ahora recuperas todos los usos de Inspiración bárdica tras finalizar un descanso corto o largo.
 
-_Spell Slots._ The Bard Features table shows how muchos spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.
+Además, puedes gastar un espacio de conjuro (no requiere acción) para recuperar un uso gastado de Inspiración bárdica.
 
-_Prepared Spells of Level 1+._ You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose four level 1 spells from the Bard spell list. _Charm Person_, _Color Spray_, _Dissonant Whispers_, and _Healing Word_ are recommended.
+#### Nivel 7: Contraencantamiento
+Puedes emplear notas musicales o palabras de poder para interrumpir los efectos que afectan a la mente. Si tú o una criatura que esté a 9 m o menos de ti falláis una tirada de salvación contra un efecto que aplique el estado de asustado o hechizado, puedes llevar a cabo una reacción para que se repita la tirada de salvación, y la nueva tirada tendrá ventaja.
 
-The number of spells on your list increases as you gain Bard levels, as shown in the Prepared Spells column of the Bard Features table. Whenever that number increases, choose additional spells from the Bard spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. Por ejemplo, if you're a level 3 Bard, your list of prepared spells can include six spells of levels 1 and 2 in any combination.
+#### Nivel 10: Secretos mágicos
+Has aprendido secretos de diversas tradiciones mágicas. Cada vez que alcances un nivel de bardo (incluido este) y aumente la cantidad de conjuros preparados de la tabla "Rasgos de bardo", podrás elegir cualquiera de los nuevos conjuros preparados de entre las listas de conjuros de bardo, clérigo, druida y mago. Los conjuros elegidos contarán como conjuros de bardo para ti (consulta las listas de conjuros en la sección de la clase correspondiente). Además, cuando sustituyas un conjuro preparado para esta clase, podrás hacerlo con un conjuro de esas listas.
 
-If another Bard feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Bard spells for you.
+#### Nivel 18: Inspiración superior
+Cuando tires iniciativa, recuperarás usos gastados de Inspiración bárdica hasta que tengas dos, si tuvieras menos de esta cifra.
 
-_Changing Your Prepared Spells._ Whenever you gain a Bard level, you can replace one spell on your list with another Bard spell for which you have spell slots.
+#### Nivel 19: Don épico
+Obtienes una dote de don épico (consulta el capítulo 5) u otra dote de tu elección para la que cumplas las condiciones. Se recomienda *Don del recuerdo de conjuros*.
 
-_Spellcasting Ability._ Carisma is your spellcasting ability for your Bard spells.
+#### Nivel 20: Palabras de creación
+Ahora dominas dos de las palabras de creación: las palabras de la vida y de la muerte. Por tanto, siempre tienes preparados los conjuros *palabra de poder: sanar* y *palabra de poder: matar*. Cuando lances uno de estos conjuros, podrás hacer objetivo a una segunda criatura si esta se encuentra a 3 m o menos del primer objetivo.
 
-_Spellcasting Focus._ You can use a Musical Instrument as a Spellcasting Focus for your Bard spells.
+---
 
-#### Level 2: Expertise
+### Lista de conjuros de bardo
 
-You gain Expertise (see "Rules Glossary") in two of your skill proficiencies of your choice. Performance and Persuasion are recommended if you have proficiency in them.
+Esta sección presenta la lista de conjuros de bardo. Los conjuros se organizan por su nivel y por orden alfabético. En la columna "Especial", **C** denota que el conjuro requiere concentración, **R** denota que es un ritual y **M** denota que requiere un componente material consumible o con coste específico.
 
-At Bard level 9, you gain Expertise in two more of your skill proficiencies of your choice.
+#### Trucos (Nivel 0)
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Agarre electrizante | Evocación | — |
+| Burla dañina | Encantamiento | — |
+| Conmoción | Evocación | — |
+| Cuchillada de trueno | Evocación | — |
+| Descarga de fuego | Evocación | — |
+| Ilusión menor | Ilusionismo | — |
+| Luces danzantes | Ilusionismo | C |
+| Luz | Evocación | — |
+| Mano de mago | Conjuración | — |
+| Mensaje | Transmutación | — |
+| Prestidigitación | Transmutación | — |
+| Reparar | Transmutación | — |
+| Rociada venenosa | Nigromancia | — |
+| Toque helado | Nigromancia | — |
 
-#### Level 2: Jack of All Trades
+#### Nivel 1
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Caída de pluma | Transmutación | — |
+| Comprensión idiomática | Adivinación | R |
+| Curar heridas | Abjuración | — |
+| Detectar magia | Adivinación | C, R |
+| Disfrazarse | Ilusionismo | — |
+| Dormir | Encantamiento | C |
+| Encantar animal | Encantamiento | — |
+| Fuego feérico | Evocación | C |
+| Hechizar persona | Encantamiento | — |
+| Heroísmo | Encantamiento | C |
+| Identificar | Adivinación | R, M |
+| Imagen silenciosa | Ilusionismo | C |
+| Ola atronadora | Evocación | — |
+| Onda de caos | Evocación | — |
+| Palabra de curación | Abjuración | — |
+| Perdición | Encantamiento | C |
+| Risa horrible de Tasha | Encantamiento | C |
+| Rociada de color | Ilusionismo | — |
+| Sirviente invisible | Conjuración | R |
+| Susurros discordantes | Encantamiento | — |
+| Texto ilusorio | Ilusionismo | R, M |
+| Zancada prodigiosa | Transmutación | — |
 
-You can add half your Proficiency Bonus (round down) to any ability check you make that uses a skill proficiency you lack and that doesn't otherwise use your Proficiency Bonus.
+#### Nivel 2
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Abrir | Transmutación | — |
+| Boca mágica | Ilusionismo | R, M |
+| Calmar emociones | Encantamiento | C |
+| Ceguera/sordera | Nigromancia | — |
+| Corona de locura | Encantamiento | C |
+| Destrozar (Hacer añicos) | Evocación | — |
+| Detectar pensamientos | Adivinación | C |
+| Embelesar | Encantamiento | — |
+| Fuerza fantasmal | Ilusionismo | C |
+| Imagen múltiple | Ilusionismo | — |
+| Invisibilidad | Ilusionismo | C |
+| Levitación | Transmutación | C |
+| Localizar animales o plantas | Adivinación | R |
+| Localizar objeto | Adivinación | C |
+| Nube de dagas | Conjuración | C |
+| Potenciar característica | Transmutación | C |
+| Restablecimiento menor | Abjuración | — |
+| Silencio | Ilusionismo | C, R |
+| Sugestión | Encantamiento | C |
+| Ver invisibilidad | Adivinación | — |
+| Zona de la verdad | Encantamiento | — |
 
-Por ejemplo, if you make a Fuerza (Athletics) check and lack Athletics proficiency, you can add half your Proficiency Bonus to the check.
+#### Nivel 3
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Clarividencia | Adivinación | C, M |
+| Crecimiento vegetal | Transmutación | — |
+| Disipar magia | Abjuración | — |
+| Don de lenguas | Adivinación | — |
+| Fingir muerte | Nigromancia | R |
+| Glifo custodio | Abjuración | M |
+| Hablar con las plantas | Transmutación | — |
+| Hablar con los muertos | Nigromancia | — |
+| Imagen mayor | Ilusionismo | C |
+| Imponer maldición | Nigromancia | C |
+| Indetectable | Abjuración | M |
+| Nube apestosa | Conjuración | C |
+| Palabra de curación en masa | Abjuración | — |
+| Patrón hipnótico | Ilusionismo | C |
+| Pequeña choza de Leomund | Evocación | R |
+| Ralentizar | Transmutación | C |
+| Recado | Adivinación | — |
+| Terror | Ilusionismo | C |
 
-#### Level 3: Bard Subclass
+#### Nivel 4
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Asesino fantasmal | Ilusionismo | C |
+| Compulsión | Encantamiento | C |
+| Confusión | Encantamiento | C |
+| Fuente de luz lunar | Evocación | C |
+| Hechizar monstruo | Encantamiento | — |
+| Invisibilidad mejorada | Ilusionismo | C |
+| Libertad de movimiento | Abjuración | — |
+| Localizar criatura | Adivinación | C |
+| Polimorfar | Transmutación | C |
+| Puerta dimensional | Conjuración | — |
+| Terreno alucinatorio | Ilusionismo | — |
 
-You gain a Bard subclass of your choice. The College of Lore subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Bard levels. For the rest of your career, you gain each of your subclass's features that are of your Bard level or lower.
+#### Nivel 5
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Alterar los recuerdos | Encantamiento | C |
+| Alzar a los muertos | Nigromancia | M |
+| Animar objetos | Transmutación | C |
+| Apariencia | Ilusionismo | — |
+| Atadura planar | Abjuración | M |
+| Círculo de teletransportación | Conjuración | M |
+| Conocer las leyendas | Adivinación | M |
+| Curar heridas en masa | Abjuración | — |
+| Despertar | Transmutación | M |
+| Dominar persona | Encantamiento | C |
+| Engañar | Ilusionismo | C |
+| Enlace telepático de Rary | Adivinación | R |
+| Ensueño | Ilusionismo | — |
+| Escudriñar | Adivinación | C, M |
+| Estática sináptica | Encantamiento | — |
+| Geas | Encantamiento | — |
+| Inmovilizar monstruo | Encantamiento | C |
+| Presencia regia de Yolande | Encantamiento | C |
+| Restablecimiento mayor | Abjuración | M |
 
-#### Level 4: Ability Score Improvement
+#### Nivel 6
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Baile irresistible de Otto | Encantamiento | C |
+| Encontrar el camino | Adivinación | C, M |
+| Festín de héroes | Conjuración | M |
+| Guardas y guardias | Abjuración | M |
+| Ilusión programada | Ilusionismo | M |
+| Mal de ojo | Nigromancia | C |
+| Sugestión en masa | Encantamiento | — |
+| Visión veraz | Adivinación | M |
 
-You gain the Ability Score Improvement feat (see "Feats") or another feat of your choice for which you qualify. You gain this feature again at Bard levels 8, 12, and 16.
+#### Nivel 7
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Espada de Mordenkainen | Evocación | C, M |
+| Espejismo arcano | Ilusionismo | — |
+| Excursión etérea | Conjuración | — |
+| Jaula de fuerza | Evocación | C, M |
+| Mansión magnífica de Mordenkainen | Conjuración | M |
+| Palabra de poder: fortalecer | Encantamiento | — |
+| Proyectar imagen | Ilusionismo | C, M |
+| Regenerar | Transmutación | — |
+| Resurrección | Nigromancia | M |
+| Rociada prismática | Evocación | — |
+| Símbolo | Abjuración | M |
+| Teletransporte | Conjuración | — |
 
-#### Level 5: Font of Inspiration
+#### Nivel 8
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Antipatía/simpatía | Encantamiento | — |
+| Dominar monstruo | Encantamiento | C |
+| Labia | Encantamiento | — |
+| Mente en blanco | Abjuración | — |
+| Ofuscación | Encantamiento | — |
+| Palabra de poder: aturdir | Encantamiento | — |
 
-You now regain all your expended uses of Bardic Inspiration when you finish a Short or Long Rest.
+#### Nivel 9
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Muro prismático | Abjuración | — |
+| Palabra de poder: matar | Encantamiento | — |
+| Palabra de poder: sanar | Encantamiento | — |
+| Polimorfar verdadero | Transmutación | C |
+| Presciencia | Adivinación | — |
 
-In addition, you can expend a spell slot (no action required) to regain one expended use of Bardic Inspiration.
+---
 
-#### Level 7: Countercharm
+### Subclases de bardo
 
-You can use musical notes or words of power to disrupt mind-influencing effects. If you or a creature within 30 pies of you fails a saving throw against an effect that applies the Charmed or Frightened condition, you can take a Reaction to cause the save to be rerolled, and the new roll has Advantage.
+Una subclase de bardo es una especialización que te proporciona rasgos cuando alcanzas ciertos niveles de bardo, según se especifique en la subclase. Los bardos forman organizaciones poco estructuradas, a las que llaman colegios, para preservar sus tradiciones. Esta sección presenta las subclases del colegio de la danza, el colegio del conocimiento, el colegio del glamour y el colegio del valor.
 
-#### Level 10: Magical Secrets
+#### Colegio de la Danza
 
-You've learned secrets from various magical traditions. Whenever you reach a Bard level (including this level) and the Prepared Spells number in the Bard Features table increases, you can choose any of your new prepared spells from the Bard, Cleric, Druid, and Wizard spell lists, and the chosen spells count as Bard spells for you (see a class's section for its spell list). In addition, whenever you replace a spell prepared for this class, you can replace it with a spell from those lists.
+*Muévete en armonía con el cosmos.*
 
-#### Level 18: Superior Inspiration
+Los bardos del colegio de la danza saben que las palabras de creación no pueden encerrarse en un discurso o una canción: las palabras se pronuncian a través del desplazamiento de los cuerpos celestes y fluyen por los movimientos de las criaturas menores. Estos bardos practican una forma de permanecer en armonía con la vorágine del cosmos que enfatiza la agilidad, la velocidad y la elegancia.
 
-When you roll Initiative, you regain expended uses of Bardic Inspiration until you have two if you have fewer than that.
+##### Nivel 3: Juego de pies deslumbrante
+Mientras no lleves armadura ni portes un escudo, obtienes los siguientes beneficios:
+- **Virtuoso de la danza.** Tienes ventaja en cualquier prueba de Carisma (Interpretación) que hagas que implique bailar.
+- **Defensa sin armadura.** Tu clase de armadura base es igual a 10 más tus modificadores por Destreza y Carisma.
+- **Ataques ágiles.** Cuando gastes un uso de tu Inspiración bárdica como parte de una acción, una acción adicional o una reacción, puedes realizar un ataque sin armas como parte de esa acción, acción adicional o reacción.
+- **Daño bárdico.** Puedes usar tu Destreza en lugar de tu Fuerza para las tiradas de ataque de tus ataques sin armas. Cuando causas daño con un ataque sin armas, puedes infligir una cantidad de daño contundente igual al resultado de una tirada con tu dado de Inspiración bárdica más tu modificador por Destreza, en lugar del daño normal del ataque. No gastas el dado con esta tirada.
 
-#### Level 19: Epic Boon
+##### Nivel 6: Juego de pies conjunto
+Cuando tires iniciativa, puedes gastar un uso de tu Inspiración bárdica si no tienes el estado de incapacitado. Cuando lo hagas, tira tu dado de Inspiración bárdica; tú y todos los aliados que estén a 9 m o menos de ti que puedan verte u oírte ganaréis un bonificador a la iniciativa igual al resultado.
 
-You gain an Epic Boon feat (see "Feats") or another feat of your choice for which you qualify. Boon of Spell Recall is recommended.
+##### Nivel 6: Movimiento inspirador
+Cuando un enemigo que puedas ver termine su turno a 1,5 m o menos de ti, puedes llevar a cabo una reacción y gastar un uso de tu Inspiración bárdica para moverte hasta la mitad de tu velocidad. Después, un aliado que elijas que esté a 9 m o menos de ti también podrá moverse hasta la mitad de su velocidad usando su reacción.
 
-#### Level 20: Words of Creation
+Los movimientos realizados con este rasgo no provocan ataques de oportunidad.
 
-You have mastered two of the Words of Creation: the words of life and death. You therefore always have the _Power Word Heal_ and _Power Word Kill_ spells prepared. When you cast either spell, you can target a second creature with it if that creature is within 10 pies of the first target.
+##### Nivel 14: Evasión dirigida
+Cuando sufras un efecto que te permita hacer una tirada de salvación de Destreza para sufrir solo la mitad de daño, no recibes daño alguno si la superas y solo sufres la mitad si la fallas. Si cualquier criatura que esté a 1,5 m de ti hace la misma tirada de salvación de Destreza, puedes compartir este beneficio con ella para la tirada.
 
-### Bardo (Bard) Spell List
+No puedes usar este rasgo si tienes el estado de incapacitado.
 
-This section presents the Bard spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column, _C_ means the spell requires Concentration, _R_ means it's a Ritual, and _M_ means it requires a specific Material component.
+---
 
-#### Cantrips (Level 0 Bard Spells)
+#### Colegio del Conocimiento
+
+*Explora las profundidades del conocimiento mágico.*
+
+Los bardos del colegio del conocimiento recaban conjuros y secretos de diversas fuentes, como tratados intelectuales, ritos místicos y cuentos de campesinos. Los miembros del colegio se reúnen en bibliotecas y universidades para intercambiar sus conocimientos. También se encuentran en festivales o reuniones de Estado, donde pueden sacar a la luz casos de corrupción, desvelar mentiras o reírse de los vanidosos representantes de la autoridad.
+
+##### Nivel 3: Competencias adicionales
+Ganas competencia en tres habilidades de tu elección.
+
+##### Nivel 3: Palabras cortantes
+Aprendes a usar tu astucia para distraer, confundir y minar la confianza y las aptitudes de los demás de manera sobrenatural. Cuando una criatura que puedas ver a 18 m o menos de ti haga una tirada de daño o tenga éxito en una prueba de característica o una tirada de ataque, puedes llevar a cabo una reacción para gastar un uso de tu Inspiración bárdica; tira tu dado de Inspiración bárdica y resta el número obtenido al resultado de la tirada de la criatura, lo que reducirá el daño o quizá convierta el éxito en un fallo.
+
+##### Nivel 6: Descubrimientos mágicos
+Aprendes dos conjuros de tu elección. Estos conjuros pueden proceder de las listas de conjuros de clérigo, druida o mago, o de cualquier combinación de estas (consulta la lista de conjuros en la sección de la clase). Los conjuros que elijas deben ser trucos o conjuros para los que tengas espacios de conjuro, como se muestra en la tabla "Rasgos de bardo".
+
+Siempre tienes preparados los conjuros elegidos y, cada vez que subas un nivel de bardo, podrás reemplazar uno de los conjuros por otro conjuro que cumpla estos requisitos.
+
+##### Nivel 14: Habilidad sin parangón
+Cuando hagas una prueba de característica o una tirada de ataque y falles, podrás gastar un uso de Inspiración bárdica; tira el dado de Inspiración bárdica y suma el resultado al d20, lo que podría convertir un fallo en un éxito. Si fallas la tirada, la Inspiración bárdica no se gasta.
+
+---
+
+#### Colegio del Glamour
+
+*Urde la magia cautivadora de los feéricos.*
+
+El colegio del glamour se originó con la magia cautivadora de los Parajes Feéricos. Los bardos que estudian esta magia tejen hilos de belleza y terror en sus canciones e historias y los más poderosos de ellos pueden envolverse en una majestuosidad sobrenatural. Sus actuaciones suscitan el anhelo nostálgico de una inocencia olvidada, evocan los recuerdos inconscientes de temores arraigados y apelan a las emociones incluso de los oyentes más insensibles.
+
+##### Nivel 3: Magia cautivadora
+Siempre tienes los conjuros *hechizar persona* e *imagen múltiple* preparados.
+
+Asimismo, inmediatamente después de que lances un conjuro de encantamiento o ilusionismo mediante un espacio de conjuro, podrás hacer que una criatura que puedas ver a 18 m o menos de ti realice una tirada de salvación de Sabiduría contra tu CD de salvación de conjuros. Si la falla, el objetivo tendrá el estado de asustado o hechizado (a tu elección) durante 1 minuto. El objetivo repetirá la tirada de salvación al final de cada uno de sus turnos y, si tiene éxito, se librará del efecto.
+
+Cuando uses este beneficio, no podrás volver a hacerlo hasta que finalices un descanso largo. También puedes restablecer su uso gastando un uso de tu Inspiración bárdica (no requiere acción).
+
+##### Nivel 3: Manto de inspiración
+Puedes urdir la magia feérica en una canción o danza que insufle energía a los demás. Como acción adicional, puedes gastar un uso de tu Inspiración Bárdica y tirar un dado de Inspiración bárdica. Cuando lo hagas, elige una cantidad de otras criaturas a 18 m o menos de ti, hasta un máximo igual a tu modificador por Carisma (mínimo una criatura). Cada una de esas criaturas obtendrá una cantidad de puntos de golpe temporales igual al doble del resultado del dado de Inspiración bárdica y luego podrá usar su reacción para moverse hasta su velocidad sin provocar ataques de oportunidad.
+
+##### Nivel 6: Manto de majestad
+Siempre tienes el conjuro *orden imperiosa* preparado.
+
+Como acción adicional, puedes lanzar *orden imperiosa* sin gastar un espacio de conjuro y adoptar una apariencia sobrenatural durante 1 minuto o hasta que pierdas la concentración. Durante este tiempo, puedes lanzar *orden imperiosa* como acción adicional sin gastar un espacio de conjuro.
+
+Cualquier criatura a la que hayas hechizado fallará automáticamente su tirada de salvación contra la *orden imperiosa* que lances con este rasgo.
+
+Cuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un descanso largo. También puedes restablecer su uso gastando un espacio de conjuro de nivel 3 o superior (no requiere acción).
+
+##### Nivel 14: Majestad inquebrantable
+Como acción adicional, puedes adoptar un aspecto majestuoso mágico durante 1 minuto o hasta que tengas el estado de incapacitado. Durante ese tiempo, cuando una criatura te acierte con una tirada de ataque por primera vez en un turno, el atacante deberá superar una tirada de salvación de Carisma contra tu CD de salvación de conjuros o el ataque fallará, puesto que la criatura se amedrentará por tu majestuosidad.
+
+Cuando adoptes este aspecto majestuoso, no podrás volver a hacerlo hasta que finalices un descanso corto o largo.
+
+---
+
+#### Colegio del Valor
+
+*Canta las hazañas de los héroes de antaño.*
+
+Los bardos del colegio del valor son narradores osados cuyos relatos conservan el recuerdo de los grandes héroes del pasado. Estos bardos cantan las hazañas de sus ídolos en salones abovedados o ante un público reunido en torno a refulgentes hogueras. Viajan para presenciar los grandes acontecimientos de primera mano y asegurarse de que su recuerdo no cae en el olvido. Con sus canciones, inspiran a las nuevas generaciones a lograr hitos similares a los de los héroes de antaño.
+
+##### Nivel 3: Entrenamiento marcial
+Ganas competencia con armas marciales y entrenamiento con armaduras medias y escudos.
+
+Además, puedes utilizar un arma sencilla o marcial como canalizador mágico para lanzar tus conjuros de bardo.
+
+##### Nivel 3: Inspiración en combate
+Puedes emplear tu ingenio para cambiar las tornas de la batalla. Una criatura que tenga uno de tus dados de Inspiración bárdica podrá usarlo para lograr uno de los siguientes efectos:
+- **Defensa.** Cuando una tirada de ataque acierte a la criatura, esta podrá usar su reacción para tirar el dado de Inspiración bárdica y sumar el resultado a su CA contra ese ataque, lo que podría hacer que falle.
+- **Ofensiva.** Inmediatamente después de que la criatura acierte a un objetivo con una tirada de ataque, podrá tirar el dado de Inspiración bárdica y sumar el resultado al daño del ataque contra el objetivo.
+
+##### Nivel 6: Ataque adicional
+Cuando lleves a cabo la acción de atacar en tu turno, podrás hacer dos ataques en lugar de uno. Además, podrás lanzar uno de tus trucos que tenga un tiempo de lanzamiento de una acción en vez de realizar uno de esos ataques.
+
+##### Nivel 14: Magia de batalla
+Tras lanzar un conjuro que tenga un tiempo de lanzamiento de una acción, podrás hacer un ataque con un arma como acción adicional.
+
+---
+
+## Brujo
+
+Los brujos buscan los conocimientos oscuros que se ocultan en la estructura del multiverso. Mediante pactos sellados con seres de inmenso poder, desbloquean efectos mágicos que resultan tan sutiles como espectaculares. El conocimiento arcano que adquieren abarca desde las chispas de poder mágico que pueden manifestar a voluntad hasta los conjuros más complejos.
+
+Los brujos sienten fascinación por los secretos ancestrales y las tradiciones prohibidas. Muchos buscan el conocimiento que se ha perdido para el mundo o que ha sido enterrado a propósito. Otros pactan con seres extraterrenales para obtener protección para sí mismos o sus comunidades frente a una amenaza inminente. Sean cuales sean sus orígenes, los brujos están unidos por su sed insaciable de conocimientos y poder.
+
+### Atributos básicos de brujo
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Característica principal</strong></td>
+      <td>Carisma</td>
+    </tr>
+    <tr>
+      <td><strong>Dado de puntos de golpe</strong></td>
+      <td>1d8 por nivel de brujo</td>
+    </tr>
+    <tr>
+      <td><strong>Competencias en tiradas de salvación</strong></td>
+      <td>Sabiduría y Carisma</td>
+    </tr>
+    <tr>
+      <td><strong>Competencias en habilidades</strong></td>
+      <td>Elige dos: Arcanos, Engaño, Historia, Intimidación, Investigación, Naturaleza o Religión</td>
+    </tr>
+    <tr>
+      <td><strong>Competencias con armas</strong></td>
+      <td>Armas sencillas</td>
+    </tr>
+    <tr>
+      <td><strong>Entrenamiento con armaduras</strong></td>
+      <td>Armaduras ligeras</td>
+    </tr>
+    <tr>
+      <td><strong>Equipo inicial</strong></td>
+      <td>Elige A o B: (A) armadura de cuero, hoz, 2 dagas, canalizador arcano (orbe), paquete de erudito y 15 po; o (B) 80 po</td>
+    </tr>
+  </tbody>
+</table>
+
+### Convertirse en brujo
+
+#### Como personaje de nivel 1
+- Obtienes todos los atributos de la tabla "Atributos básicos de brujo".
+- Obtienes los rasgos de nivel 1 de brujo, que se muestran en la tabla "Rasgos de brujo".
+
+#### Como personaje multiclase
+- Obtienes los siguientes atributos de la tabla "Atributos básicos de brujo": dado de puntos de golpe, competencia con armas sencillas y entrenamiento con armaduras ligeras.
+- Obtienes los rasgos de nivel 1 de brujo, que se muestran en la tabla "Rasgos de brujo".
+
+### Rasgos de clase de brujo
+
+Como brujo, obtienes los siguientes rasgos de clase cuando alcanzas los niveles de brujo especificados. Estos rasgos se muestran en la tabla "Rasgos de brujo".
+
+**Rasgos de brujo**
 
 <table>
   <thead>
     <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
+      <th>Nivel</th>
+      <th>Bonificador por competencia</th>
+      <th>Rasgos de clase</th>
+      <th>Invocaciones sobrenaturales</th>
+      <th>Trucos</th>
+      <th>Conjuros preparados</th>
+      <th>Espacios de conjuro</th>
+      <th>Nivel de los espacios</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Dancing Lights</td>
-      <td>Illusion</td>
-      <td>C</td>
+      <td>1</td>
+      <td>+2</td>
+      <td>Invocaciones sobrenaturales, Magia del pacto</td>
+      <td>1</td>
+      <td>2</td>
+      <td>2</td>
+      <td>1</td>
+      <td>1</td>
     </tr>
     <tr>
-      <td>Light</td>
-      <td>Evocation</td>
-      <td>—</td>
+      <td>2</td>
+      <td>+2</td>
+      <td>Astucia mágica</td>
+      <td>3</td>
+      <td>2</td>
+      <td>3</td>
+      <td>2</td>
+      <td>1</td>
     </tr>
     <tr>
-      <td>Mage Hand</td>
-      <td>Conjuration</td>
-      <td>—</td>
+      <td>3</td>
+      <td>+2</td>
+      <td>Subclase de brujo</td>
+      <td>3</td>
+      <td>2</td>
+      <td>4</td>
+      <td>2</td>
+      <td>2</td>
     </tr>
     <tr>
-      <td>Mending</td>
-      <td>Transmutation</td>
-      <td>—</td>
+      <td>4</td>
+      <td>+2</td>
+      <td>Mejora de característica</td>
+      <td>3</td>
+      <td>3</td>
+      <td>5</td>
+      <td>2</td>
+      <td>2</td>
     </tr>
     <tr>
-      <td>Message</td>
-      <td>Transmutation</td>
+      <td>5</td>
+      <td>+3</td>
       <td>—</td>
+      <td>5</td>
+      <td>3</td>
+      <td>6</td>
+      <td>2</td>
+      <td>3</td>
     </tr>
     <tr>
-      <td>Minor Illusion</td>
-      <td>Illusion</td>
-      <td>—</td>
+      <td>6</td>
+      <td>+3</td>
+      <td>Rasgo de subclase</td>
+      <td>5</td>
+      <td>3</td>
+      <td>7</td>
+      <td>2</td>
+      <td>3</td>
     </tr>
     <tr>
-      <td>Prestidigitation</td>
-      <td>Transmutation</td>
+      <td>7</td>
+      <td>+3</td>
       <td>—</td>
+      <td>6</td>
+      <td>3</td>
+      <td>8</td>
+      <td>2</td>
+      <td>4</td>
     </tr>
     <tr>
-      <td>Starry Wisp</td>
-      <td>Evocation</td>
-      <td>—</td>
+      <td>8</td>
+      <td>+3</td>
+      <td>Mejora de característica</td>
+      <td>6</td>
+      <td>3</td>
+      <td>9</td>
+      <td>2</td>
+      <td>4</td>
     </tr>
     <tr>
-      <td>True Strike</td>
-      <td>Divination</td>
-      <td>—</td>
+      <td>9</td>
+      <td>+4</td>
+      <td>Contactar patrón</td>
+      <td>7</td>
+      <td>3</td>
+      <td>10</td>
+      <td>2</td>
+      <td>5</td>
     </tr>
     <tr>
-      <td>Vicious Mockery</td>
-      <td>Enchantment</td>
+      <td>10</td>
+      <td>+4</td>
+      <td>Rasgo de subclase</td>
+      <td>7</td>
+      <td>4</td>
+      <td>10</td>
+      <td>2</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>+4</td>
+      <td>Arcanum místico (nivel 6)</td>
+      <td>7</td>
+      <td>4</td>
+      <td>11</td>
+      <td>3</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>+4</td>
+      <td>Mejora de característica</td>
+      <td>8</td>
+      <td>4</td>
+      <td>11</td>
+      <td>3</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>+5</td>
+      <td>Arcanum místico (nivel 7)</td>
+      <td>8</td>
+      <td>4</td>
+      <td>12</td>
+      <td>3</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>+5</td>
+      <td>Rasgo de subclase</td>
+      <td>8</td>
+      <td>4</td>
+      <td>12</td>
+      <td>3</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>+5</td>
+      <td>Arcanum místico (nivel 8)</td>
+      <td>9</td>
+      <td>4</td>
+      <td>13</td>
+      <td>3</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>+5</td>
+      <td>Mejora de característica</td>
+      <td>9</td>
+      <td>4</td>
+      <td>13</td>
+      <td>3</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>+6</td>
+      <td>Arcanum místico (nivel 9)</td>
+      <td>9</td>
+      <td>4</td>
+      <td>14</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>+6</td>
       <td>—</td>
+      <td>10</td>
+      <td>4</td>
+      <td>14</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>+6</td>
+      <td>Don épico</td>
+      <td>10</td>
+      <td>4</td>
+      <td>15</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>+6</td>
+      <td>Maestro sobrenatural</td>
+      <td>10</td>
+      <td>4</td>
+      <td>15</td>
+      <td>4</td>
+      <td>5</td>
     </tr>
   </tbody>
 </table>
 
-#### Level 1 Bard Spells
+#### Nivel 1: Invocaciones sobrenaturales
+A través de tus estudios ocultos, has descubierto invocaciones sobrenaturales: lecciones místicas que te otorgan habilidades mágicas especiales.
 
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Animal Friendship</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Bane</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Charm Person</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Color Spray</td>
-      <td>Illusion</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Command</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Comprehend Languages</td>
-      <td>Divination</td>
-      <td>R</td>
-    </tr>
-    <tr>
-      <td>Cure Wounds</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Detect Magic</td>
-      <td>Divination</td>
-      <td>C, R</td>
-    </tr>
-    <tr>
-      <td>Disguise Self</td>
-      <td>Illusion</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Dissonant Whispers</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Faerie Fire</td>
-      <td>Evocation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Feather Fall</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Healing Word</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Heroism</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Hideous Laughter</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Identify</td>
-      <td>Divination</td>
-      <td>R, M</td>
-    </tr>
-    <tr>
-      <td>Illusory Script</td>
-      <td>Illusion</td>
-      <td>R, M</td>
-    </tr>
-    <tr>
-      <td>Longstrider</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Silent Image</td>
-      <td>Illusion</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Sleep</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Speak with Animals</td>
-      <td>Divination</td>
-      <td>R</td>
-    </tr>
-    <tr>
-      <td>Thunderwave</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Unseen Servant</td>
-      <td>Conjuration</td>
-      <td>R</td>
-    </tr>
-  </tbody>
-</table>
+- **Invocaciones conocidas.** Obtienes una invocación sobrenatural de tu elección de entre las de la sección "Opciones de invocación sobrenatural". La columna "Invocaciones sobrenaturales" de la tabla "Rasgos de brujo" muestra cuántas invocaciones conoces conforme subes de nivel.
+- **Requisitos de las invocaciones.** Si una invocación sobrenatural tiene requisitos, debes cumplirlos para elegirla.
+- **Sustituir una invocación.** Cada vez que subas un nivel de brujo, podrás sustituir una de tus invocaciones por otra invocación que cumplas los requisitos para elegir.
 
-#### Level 2 Bard Spells
+#### Nivel 1: Magia del pacto
+A través de la investigación de lo oculto y de la magia que te ha otorgado tu patrón, puedes lanzar conjuros. Consulta el capítulo 7 para ver las reglas sobre el lanzamiento de conjuros.
 
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Aid</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Animal Messenger</td>
-      <td>Enchantment</td>
-      <td>R</td>
-    </tr>
-    <tr>
-      <td>Blindness/Deafness</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Calm Emotions</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Detect Thoughts</td>
-      <td>Divination</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Enhance Ability</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Enlarge/Reduce</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Enthrall</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Heat Metal</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Hold Person</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Invisibility</td>
-      <td>Illusion</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Knock</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Lesser Restoration</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Locate Animals or Plants</td>
-      <td>Divination</td>
-      <td>R</td>
-    </tr>
-    <tr>
-      <td>Locate Object</td>
-      <td>Divination</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Magic Mouth</td>
-      <td>Illusion</td>
-      <td>R, M</td>
-    </tr>
-    <tr>
-      <td>Mirror Image</td>
-      <td>Illusion</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>See Invisibility</td>
-      <td>Divination</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Shatter</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Silence</td>
-      <td>Illusion</td>
-      <td>C, R</td>
-    </tr>
-    <tr>
-      <td>Suggestion</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Zone of Truth</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-  </tbody>
-</table>
+- **Trucos.** Conoces dos trucos de tu elección de la lista de conjuros de brujo. Se recomiendan *descarga sobrenatural* e *ilusión menor*. Cada vez que subas un nivel de brujo, puedes sustituir un truco por otro de la lista. En los niveles 4 y 10 de brujo aprendes trucos adicionales.
+- **Espacios de conjuro.** La columna "Espacios de conjuro" de la tabla muestra cuántos espacios tienes. La tabla también muestra el nivel de tus espacios de conjuro (todos tus espacios de conjuro son del mismo nivel). Recuperas todos los espacios gastados tras finalizar un descanso corto o largo.
+- **Conjuros preparados de nivel 1 y superiores.** Preparas una serie de conjuros de nivel 1 y superiores que puedes lanzar con Magia del pacto. Para empezar, elige dos conjuros de nivel 1 de la lista de brujo. Se recomiendan *armadura de Agathys* y *hechizar persona*. La columna "Conjuros preparados" muestra la cantidad de conjuros que puedes preparar. Cada conjuro debe ser de un nivel que puedas lanzar con tus espacios de conjuro.
+- **Aptitud mágica.** El Carisma es tu aptitud mágica para tus conjuros de brujo.
+- **Canalizador mágico.** Puedes usar un canalizador arcano como canalizador mágico para tus conjuros de brujo.
 
-#### Level 3 Bard Spells
+#### Nivel 2: Astucia mágica
+Puedes convencer a tu patrón de que te conceda una muestra de su favor. Mediante un rito que dura 1 minuto, recuperas la mitad de tus espacios gastados de Magia del pacto (redondeando hacia arriba). Tras usar este rasgo, no podrás volver a hacerlo hasta finalizar un descanso largo.
 
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Bestow Curse</td>
-      <td>Necromancy</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Clairvoyance</td>
-      <td>Divination</td>
-      <td>C, M</td>
-    </tr>
-    <tr>
-      <td>Dispel Magic</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Fear</td>
-      <td>Illusion</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Glyph of Warding</td>
-      <td>Abjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Hypnotic Pattern</td>
-      <td>Illusion</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Major Image</td>
-      <td>Illusion</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Mass Healing Word</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Nondetection</td>
-      <td>Abjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Plant Growth</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Sending</td>
-      <td>Divination</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Slow</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Speak with Dead</td>
-      <td>Necromancy</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Speak with Plants</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Stinking Cloud</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Tiny Hut</td>
-      <td>Evocation</td>
-      <td>R</td>
-    </tr>
-    <tr>
-      <td>Tongues</td>
-      <td>Divination</td>
-      <td>—</td>
-    </tr>
-  </tbody>
-</table>
+#### Nivel 3: Subclase de brujo
+Consigues una subclase de brujo de tu elección: Patrón Celestial, Patrón Feérico, Patrón Infernal o Patrón Primigenio. Obtienes los rasgos de subclase de tu nivel de brujo e inferiores.
 
-#### Level 4 Bard Spells
+#### Nivel 4: Mejora de característica
+Obtienes la dote Mejora de característica u otra dote para la que cumplas condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16.
 
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Charm Monster</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Compulsion</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Confusion</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Dimension Door</td>
-      <td>Conjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Freedom of Movement</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Greater Invisibility</td>
-      <td>Illusion</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Hallucinatory Terrain</td>
-      <td>Illusion</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Locate Creature</td>
-      <td>Divination</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Phantasmal Killer</td>
-      <td>Illusion</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Polymorph</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-  </tbody>
-</table>
+#### Nivel 9: Contactar patrón
+Siempre tienes el conjuro *contactar con otro plano* preparado. Puedes lanzarlo sin gastar un espacio de conjuro para contactar directamente con tu patrón y superas automáticamente la tirada de salvación del conjuro. Tras lanzarlo así, no puedes volver a hacerlo hasta finalizar un descanso largo.
 
-#### Level 5 Bard Spells
+#### Nivel 11: Arcanum místico
+Tu patrón te recompensa con un secreto mágico denominado *arcanum*. Escoge un conjuro de brujo de nivel 6 como este arcanum. Puedes lanzarlo una vez sin gastar un espacio de conjuro y recuperas el uso tras finalizar un descanso largo.
 
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Animate Objects</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Awaken</td>
-      <td>Transmutation</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Dominate Person</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Dream</td>
-      <td>Illusion</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Geas</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Greater Restoration</td>
-      <td>Abjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Hold Monster</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Legend Lore</td>
-      <td>Divination</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Mass Cure Wounds</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Mislead</td>
-      <td>Illusion</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Modify Memory</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Planar Binding</td>
-      <td>Abjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Raise Dead</td>
-      <td>Necromancy</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Scrying</td>
-      <td>Divination</td>
-      <td>C, M</td>
-    </tr>
-    <tr>
-      <td>Seeming</td>
-      <td>Illusion</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Telepathic Bond</td>
-      <td>Divination</td>
-      <td>R</td>
-    </tr>
-    <tr>
-      <td>Teleportation Circle</td>
-      <td>Conjuration</td>
-      <td>M</td>
-    </tr>
-  </tbody>
-</table>
+Obtienes más conjuros de arcanum en los niveles 13 (nivel 7), 15 (nivel 8) y 17 (nivel 9). Cada vez que subas de nivel de brujo, puedes sustituir un conjuro de arcanum por otro del mismo nivel.
 
-#### Level 6 Bard Spells
+#### Nivel 19: Don épico
+Obtienes una dote de don épico u otra dote de tu elección. Se recomienda *Don del destino*.
 
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Eyebite</td>
-      <td>Necromancy</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Find the Path</td>
-      <td>Divination</td>
-      <td>C, M</td>
-    </tr>
-    <tr>
-      <td>Guards and Wards</td>
-      <td>Abjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Heroes' Feast</td>
-      <td>Conjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Irresistible Dance</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Mass Suggestion</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Programmed Illusion</td>
-      <td>Illusion</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>True Seeing</td>
-      <td>Divination</td>
-      <td>M</td>
-    </tr>
-  </tbody>
-</table>
+#### Nivel 20: Maestro sobrenatural
+Cuando empleas tu rasgo Astucia mágica, recuperas todos los espacios de conjuro utilizados de Magia del pacto.
 
-#### Level 7 Bard Spells
+---
 
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Arcane Sword</td>
-      <td>Evocation</td>
-      <td>C, M</td>
-    </tr>
-    <tr>
-      <td>Etherealness</td>
-      <td>Conjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Forcecage</td>
-      <td>Evocation</td>
-      <td>C, M</td>
-    </tr>
-    <tr>
-      <td>Magnificent Mansion</td>
-      <td>Conjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Mirage Arcane</td>
-      <td>Illusion</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Prismatic Spray</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Project Image</td>
-      <td>Illusion</td>
-      <td>C, M</td>
-    </tr>
-    <tr>
-      <td>Regenerate</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Resurrection</td>
-      <td>Necromancy</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Symbol</td>
-      <td>Abjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Teleport</td>
-      <td>Conjuration</td>
-      <td>—</td>
-    </tr>
-  </tbody>
-</table>
+### Opciones de invocación sobrenatural
 
-#### Level 8 Bard Spells
+Las opciones de invocación sobrenatural aparecen en orden alfabético:
 
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Antipathy/Sympathy</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Befuddlement</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Dominate Monster</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Glibness</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Mind Blank</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Power Word Stun</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-  </tbody>
-</table>
+- **Armadura de sombras.** Puedes lanzar *armadura de mago* sobre ti sin gastar un espacio de conjuro.
+- **Castigo arcano.** *Requisitos: brujo de nivel 5 o superior, invocación Pacto del filo.* Una vez por turno, cuando aciertes a una criatura con tu arma de pacto, puedes gastar un espacio de conjuro de Magia del pacto para causar 1d8 de daño de fuerza adicional al objetivo más 1d8 por cada nivel del espacio de conjuro. Además, puedes imponerle el estado de derribado al objetivo si es Enorme o más pequeño.
+- **Descarga agónica.** *Requisitos: brujo de nivel 2 o superior, un truco de brujo que cause daño.* Elige uno de tus trucos de brujo que conozcas y cause daño. Puedes sumar tu modificador por Carisma a las tiradas de daño del conjuro. *Repetible.* Puedes obtener esta invocación más de una vez, eligiendo un truco distinto cada vez.
+- **Descarga ahuyentadora.** *Requisitos: brujo de nivel 2 o superior, un truco de brujo que cause daño mediante una tirada de ataque.* Elige uno de tus trucos de brujo que conozcas y requiera una tirada de ataque. Cuando aciertes a una criatura Grande o más pequeña con ese truco, puedes empujarla hasta 3 m respecto a ti en línea recta. *Repetible.*
+- **Devorador de vida.** *Requisitos: brujo de nivel 9 o superior, invocación Pacto del filo.* Una vez por turno, cuando aciertes a una criatura con tu arma de pacto, puedes causarle 1d6 de daño necrótico, psíquico o radiante adicional (a tu elección) y gastar uno de tus dados de puntos de golpe para tirarlo y recuperar una cantidad de puntos de golpe igual al resultado más tu modificador por Constitución (mínimo 1 punto de golpe).
+- **Don de las profundidades.** *Requisitos: brujo de nivel 5 o superior.* Puedes respirar bajo el agua y obtienes una velocidad nadando igual a tu velocidad. También puedes lanzar *respirar bajo el agua* una vez sin gastar un espacio de conjuro tras cada descanso largo.
+- **Don de los protectores.** *Requisitos: brujo de nivel 9 o superior, invocación Pacto del grimorio.* Aparece una nueva página en el Libro de las sombras cuando lo conjuras. Con tu permiso, una criatura puede usar una acción para escribir su nombre en esa página (hasta un máximo de nombres igual a tu modificador por Carisma, mínimo uno). Cuando los puntos de golpe de cualquier criatura de la lista se reduzcan a 0 sin morir, pasará a tener 1 punto de golpe en su lugar. Tras activarse, no puede volver a beneficiar a ninguna criatura hasta un descanso largo. Puedes borrar un nombre como acción de magia tocándolo.
+- **Filo sediento.** *Requisitos: brujo de nivel 5 o superior, invocación Pacto del filo.* Obtienes el rasgo Ataque adicional, pero solo para tu arma de pacto (dos ataques en lugar de uno).
+- **Hoja devoradora.** *Requisitos: brujo de nivel 12 o superior, invocación Filo sediento.* El rasgo Ataque adicional de tu invocación Filo sediento otorga dos ataques adicionales en vez de uno (tres ataques en total).
+- **Inversión del amo de las cadenas.** *Requisitos: brujo de nivel 5 o superior, invocación Pacto de la cadena.* Cuando lanzas *encontrar familiar*, el familiar obtiene velocidad volando o nadando de 12 m; puedes ordenarle atacar como acción adicional; puedes cambiar su daño a necrótico o radiante; sus tiradas de salvación usan tu CD de conjuros; y puedes darle resistencia al daño con tu reacción.
+- **Lanza sobrenatural.** *Requisitos: brujo de nivel 2 o superior, un truco de brujo que cause daño.* Elige un truco con alcance de 3 m o más. Su alcance aumenta en 10 metros por cada nivel de brujo. *Repetible.*
+- **Lecciones de los primeros.** *Requisitos: brujo de nivel 2 o superior.* Obtienes una dote de origen de tu elección (consulta el capítulo 5). *Repetible.*
+- **Maestro de las formas innumerables.** *Requisitos: brujo de nivel 5 o superior.* Puedes lanzar *alterar el propio aspecto* sin gastar un espacio de conjuro.
+- **Máscara de los mil rostros.** *Requisitos: brujo de nivel 2 o superior.* Puedes lanzar *disfrazarse* sin gastar un espacio de conjuro.
+- **Mente sobrenatural.** Tienes ventaja en las tiradas de salvación de Constitución que realices para mantener la concentración.
+- **Mirada de las dos mentes.** *Requisitos: brujo de nivel 5 o superior.* Como acción adicional, toca a una criatura voluntaria y percibe el mundo a través de sus sentidos hasta el final de tu siguiente turno. Puedes mantener la conexión gastando acciones adicionales y lanzar conjuros desde su posición si estáis a 18 m o menos.
+- **Pacto de la cadena.** Aprendes el conjuro *encontrar familiar* y puedes lanzarlo como acción de magia sin gastar un espacio de conjuro. Puedes escoger formas especiales: diablillo, duende, esfinge de las maravillas, esqueleto, pseudodragón, quasit, renacuajo slaad o serpiente venenosa. Al atacar, puedes renunciar a un ataque para que el familiar ataque con su reacción.
+- **Pacto del filo.** Como acción adicional, conjuras o vinculas un arma cuerpo a cuerpo sencilla o marcial. Obtienes competencia con ella, puedes usarla como canalizador, utilizas Carisma para sus tiradas de ataque y daño, y puedes convertir su daño en necrótico, psíquico o radiante.
+- **Pacto del grimorio.** Conjuras tu Libro de las sombras al terminar un descanso. Elige tres trucos y dos conjuros de nivel 1 con la etiqueta de ritual de cualquier lista de clases. Los tienes preparados mientras lleves el libro y puedes usarlo como canalizador.
+- **Paso ascendente.** *Requisitos: brujo de nivel 5 o superior.* Puedes lanzar *levitar* sobre ti sin gastar un espacio de conjuro.
+- **Salto sobrenatural.** *Requisitos: brujo de nivel 2 o superior.* Puedes lanzar *salto* sobre ti sin gastar un espacio de conjuro.
+- **Susurros del sepulcro.** *Requisitos: brujo de nivel 7 o superior.* Puedes lanzar *hablar con los muertos* sin gastar un espacio de conjuro.
+- **Uno con las sombras.** *Requisitos: brujo de nivel 5 o superior.* Mientras estés en luz tenue u oscuridad, puedes lanzar *invisibilidad* sobre ti sin gastar un espacio de conjuro.
+- **Vigor infernal.** *Requisitos: brujo de nivel 2 o superior.* Puedes lanzar *falsa vida* sobre ti sin gastar un espacio de conjuro (obteniendo el máximo resultado del dado).
+- **Visión bruja.** *Requisitos: brujo de nivel 15 o superior.* Tienes visión verdadera hasta 9 m.
+- **Visiones brumosas.** *Requisitos: brujo de nivel 2 o superior.* Puedes lanzar *imagen silenciosa* sin gastar un espacio de conjuro.
+- **Visiones de reinos remotos.** *Requisitos: brujo de nivel 9 o superior.* Puedes lanzar *ojo arcano* sin gastar un espacio de conjuro.
+- **Vista del diablo.** *Requisitos: brujo de nivel 2 o superior.* Puedes ver con normalidad en luz tenue y oscuridad (mágica o no) hasta 36 m.
 
-#### Level 9 Bard Spells
+---
 
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Foresight</td>
-      <td>Divination</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Power Word Heal</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Power Word Kill</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Prismatic Wall</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>True Polymorph</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-  </tbody>
-</table>
+### Lista de conjuros de brujo
 
-### Bardo (Bard) Subclass: College of Lore
+#### Trucos (Nivel 0)
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Amistad | Encantamiento | C |
+| Descarga sobrenatural | Evocación | — |
+| Fragmento mental | Encantamiento | — |
+| Guardia de cuchillas | Abjuración | C |
+| Ilusión menor | Ilusionismo | — |
+| Impacto certero | Adivinación | — |
+| Mano de mago | Conjuración | — |
+| Prestidigitación | Transmutación | — |
+| Rociada venenosa | Nigromancia | — |
+| Tañido por los muertos | Nigromancia | — |
+| Toque helado | Nigromancia | — |
+| Tronar | Evocación | — |
 
-_Plumb the Depths of Magical Knowledge_
+#### Nivel 1
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Armadura de Agathys | Abjuración | — |
+| Brazos de Hadar | Conjuración | — |
+| Comprensión idiomática | Adivinación | R |
+| Detectar magia | Adivinación | C, R |
+| Hablar con los animales | Adivinación | R |
+| Hechizar persona | Encantamiento | — |
+| Maleficio | Encantamiento | C |
+| Perdición | Encantamiento | C |
+| Protección contra el bien y el mal | Abjuración | C, M |
+| Rayo de hechicería | Evocación | C |
+| Reprensión infernal | Evocación | — |
+| Retirada expeditiva | Transmutación | C |
+| Risa horrible de Tasha | Encantamiento | C |
+| Sirviente invisible | Conjuración | R |
+| Texto ilusorio | Ilusionismo | R, M |
 
-Bards of the College of Lore collect spells and secrets from diverse sources, such as scholarly tomes, mystical rites, and peasant tales. The college's members gather in libraries and universities to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at self-important figures of authority.
+#### Nivel 2
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Clavo mental | Adivinación | C |
+| Corona de locura | Encantamiento | C |
+| Embelesar | Encantamiento | — |
+| Imagen múltiple | Ilusionismo | — |
+| Inmovilizar persona | Encantamiento | C |
+| Invisibilidad | Ilusionismo | C |
+| Nube de dagas | Conjuración | C |
+| Oscuridad | Evocación | C |
+| Paso brumoso | Conjuración | — |
+| Rayo debilitador | Nigromancia | C |
+| Sugestión | Encantamiento | C |
+| Trepar cual arácnido | Transmutación | C |
 
-#### Level 3: Bonus Proficiencies
+#### Nivel 3
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Círculo mágico | Abjuración | M |
+| Contrahechizo | Abjuración | — |
+| Disipar magia | Abjuración | — |
+| Don de lenguas | Adivinación | — |
+| Forma gaseosa | Transmutación | C |
+| Hambre de Hadar | Conjuración | C |
+| Imagen mayor | Ilusionismo | C |
+| Invocar feérico | Conjuración | C, M |
+| Invocar muerto viviente | Nigromancia | C, M |
+| Levantar maldición | Abjuración | — |
+| Patrón hipnótico | Ilusionismo | C |
+| Toque vampírico | Nigromancia | C |
+| Volar | Transmutación | C |
 
-You gain proficiency with three skills of your choice.
+#### Nivel 4
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Destierro | Abjuración | C |
+| Hechizar monstruo | Encantamiento | — |
+| Invocar aberración | Conjuración | C, M |
+| Marchitar | Nigromancia | — |
+| Puerta dimensional | Conjuración | — |
+| Terreno alucinatorio | Ilusionismo | — |
 
-#### Level 3: Cutting Words
+#### Nivel 5
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Atadura planar | Abjuración | M |
+| Círculo de teletransportación | Conjuración | M |
+| Contactar con otro plano | Adivinación | R |
+| Engañar | Ilusionismo | C |
+| Ensueño | Ilusionismo | — |
+| Escudriñar | Adivinación | C, M |
+| Estática sináptica | Encantamiento | — |
+| Inmovilizar monstruo | Encantamiento | C |
+| Tormenta resplandeciente de Jallarzi | Evocación | C |
 
-You learn to use your wit to supernaturally distract, confuse, and otherwise sap the confidence and competence of others. When a creature that you can see within 60 pies of yourself makes a damage roll or succeeds on an ability check or attack roll, you can take a Reaction to expend one use of your Bardic Inspiration; roll your Bardic Inspiration die, and subtract the number rolled from the creature's roll, reducing the damage or potentially turning the success into a failure.
+#### Nivel 6
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Caldero burbujeante de Tasha | Conjuración | M |
+| Círculo de muerte | Nigromancia | M |
+| Crear muerto viviente | Nigromancia | M |
+| Invocar infernal | Conjuración | C, M |
+| Mal de ojo | Nigromancia | C |
+| Puerta arcana | Conjuración | C |
+| Visión veraz | Adivinación | M |
 
-#### Level 6: Magical Discoveries
+#### Nivel 7
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Dedo de la muerte | Nigromancia | — |
+| Desplazamiento entre planos | Conjuración | M |
+| Excursión etérea | Conjuración | — |
+| Jaula de fuerza | Evocación | C, M |
 
-You learn two spells of your choice. These spells can come from the Cleric, Druid, or Wizard spell list or any combination thereof (see a class's section for its spell list). A spell you choose must be a cantrip or a spell for which you have spell slots, as shown in the Bard Features table.
+#### Nivel 8
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Dominar monstruo | Encantamiento | C |
+| Labia | Encantamiento | — |
+| Ofuscación | Encantamiento | — |
+| Palabra de poder: aturdir | Encantamiento | — |
+| Semiplano | Conjuración | — |
 
-You always have the chosen spells prepared, and whenever you gain a Bard level, you can replace one of the spells with another spell that meets these requirements.
+#### Nivel 9
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Cautiverio | Abjuración | M |
+| Palabra de poder: matar | Encantamiento | — |
+| Polimorfar verdadero | Transmutación | C |
+| Portal | Conjuración | C, M |
+| Presciencia | Adivinación | — |
+| Proyección astral | Nigromancia | M |
+| Terror abyecto | Ilusionismo | C |
 
-#### Level 14: Peerless Skill
+---
 
-When you make an ability check or attack roll and fail, you can expend one use of Bardic Inspiration; roll the Bardic Inspiration die, and add the number rolled to the d20, potentially turning a failure into a success. On a failure, the Bardic Inspiration isn't expended.
+### Subclases de brujo
 
-## Clérigo (Cleric)
+#### Patrón Celestial
 
-**Rasgos Principales del Clérigo (Cleric)**
+*Invoca el poder de los cielos.*
+
+Tu pacto recurre a los Planos Superiores, los reinos de la dicha eterna. Podrías llegar a un acuerdo con un empíreo, un couatl, una esfinge, un unicornio u otro ser de los cielos, o quizá prefieras recurrir a varios seres de este tipo para lograr objetivos comunes con los suyos. Tu pacto te permite experimentar una pizca de la luz sagrada que ilumina el multiverso.
+
+##### Nivel 3: Conjuros del celestial
+La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados. Cuando alcances un nivel de brujo especificado en la tabla "Conjuros del celestial", a partir de entonces siempre tendrás preparados los conjuros que se indican:
+
+**Conjuros del celestial**
+| Nivel de brujo | Conjuros |
+|---|---|
+| 3 | *Auxilio, curar heridas, llama sagrada, luz, restablecimiento menor, saeta guía* |
+| 5 | *Luz del día, revivir* |
+| 7 | *Guardián de la fe, muro de fuego* |
+| 9 | *Invocar celestial, restablecimiento mayor* |
+
+##### Nivel 3: Luz sanadora
+Obtienes la facultad de canalizar energía celestial para curar heridas. Tienes una reserva de d6 para alimentar esta sanación. La cantidad de dados de tu reserva es de 1 más tu nivel de brujo.
+
+Como acción adicional, puedes gastar dados de tu reserva para curarte a ti mismo o a una criatura que puedas ver a 18 m o menos de ti. La cantidad máxima de dados que puedes usar a la vez es igual a tu modificador por Carisma (un dado como mínimo). Tira los dados que gastes y restablece una cantidad de puntos de golpe igual al resultado total de la tirada. Tu reserva recupera todos los dados gastados tras finalizar un descanso largo.
+
+##### Nivel 6: Alma radiante
+Tu vínculo con tu patrón te permite servir de canalizador de energía radiante. Tienes resistencia al daño radiante. Una vez por turno, si causas daño radiante o de fuego con un conjuro, puedes sumar tu modificador por Carisma al daño del conjuro contra uno de sus objetivos.
+
+##### Nivel 10: Resiliencia celestial
+Obtienes puntos de golpe temporales siempre que uses el rasgo Astucia mágica o finalices un descanso corto o largo. La cantidad obtenida es igual a tu nivel de brujo más tu modificador por Carisma. Además, eliges hasta cinco criaturas que puedas ver cuando obtengas los puntos. Cada una de ellas obtiene una cantidad de puntos de golpe temporales igual a la mitad de tu nivel de brujo más tu modificador por Carisma.
+
+##### Nivel 14: Venganza ardiente
+Cuando tú o un aliado a 18 m o menos de ti vayáis a hacer una tirada de salvación contra muerte, puedes emitir energía radiante para salvar a esa criatura. La criatura recupera una cantidad de puntos de golpe igual a la mitad de sus puntos de golpe máximos y puede poner fin a su estado de derribada. Todas las criaturas de tu elección que se encuentren a 9 m o menos de la criatura sufren una cantidad de daño radiante igual a 2d8 más tu modificador por Carisma y tienen el estado de cegadas hasta el final del turno actual.
+
+Cuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un descanso largo.
+
+---
+
+#### Patrón Feérico
+
+*Negocia con feéricos extravagantes.*
+
+Tu pacto recurre a la energía de los Parajes Feéricos. Si eliges esta subclase, puedes hacer un trato con un señor feérico, como el Príncipe de la Escarcha; la Reina del Aire y la Oscuridad, gobernante de la Corte Crepuscular; Titania de la Corte del Verano, o sagas muy ancianas. Si no, puedes recurrir a una variedad de feéricos y tejer una red de favores y deudas. Sea quien sea, tu patrón suele resultar caprichoso e inescrutable.
+
+##### Nivel 3: Conjuros del señor feérico
+La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados. Cuando alcances un nivel de brujo especificado en la tabla "Conjuros del señor feérico", a partir de entonces siempre tendrás preparados los conjuros que se indican:
+
+**Conjuros del señor feérico**
+| Nivel de brujo | Conjuros |
+|---|---|
+| 3 | *Calmar emociones, dormir, fuego feérico, fuerza fantasmal, paso brumoso* |
+| 5 | *Crecimiento vegetal, desplazamiento* |
+| 7 | *Dominar bestia, invisibilidad mejorada* |
+| 9 | *Apariencia, dominar persona* |
+
+##### Nivel 3: Pasos feéricos
+Tu patrón te otorga la capacidad de desplazarte entre los límites de los planos. Puedes lanzar *paso brumoso* sin gastar un espacio de conjuro una cantidad de veces igual a tu modificador por Carisma (mínimo una vez) y recuperas todos los usos tras finalizar un descanso largo.
+
+Además, siempre que lances el conjuro, puedes elegir uno de los siguientes efectos adicionales:
+- **Paso burlón.** Las criaturas a 1,5 m o menos del espacio que hayas abandonado deberán superar una tirada de salvación de Sabiduría contra tu CD de salvación de conjuros o tendrán desventaja en las tiradas de ataque contra criaturas que no seas tú hasta el principio de tu siguiente turno.
+- **Paso refrescante.** Inmediatamente después de teletransportarte, tú o una criatura que puedas ver a 3 m o menos de ti obtenéis 1d10 puntos de golpe temporales.
+
+##### Nivel 6: Escape brumoso
+Puedes lanzar *paso brumoso* como reacción en respuesta a recibir daño.
+
+Además, ahora cuentas con los siguientes efectos entre tus opciones de Pasos feéricos:
+- **Paso aterrador.** Las criaturas a 1,5 m o menos del espacio que hayas abandonado o del espacio en el que aparezcas (a tu elección) deberán superar una tirada de salvación de Sabiduría contra tu CD de salvación de conjuros o sufrirán 2d10 de daño psíquico.
+- **Paso desvanecedor.** Tienes el estado de invisible hasta el principio de tu siguiente turno o hasta justo después de que hagas una tirada de ataque, causes daño o lances un conjuro.
+
+##### Nivel 10: Defensas seductoras
+Tu patrón te enseña a proteger tu mente y cuerpo. Eres inmune al estado de hechizado.
+
+Además, inmediatamente después de que una criatura que puedas ver te acierte con una tirada de ataque, puedes usar una reacción para reducir a la mitad el daño que recibes (redondeando hacia abajo) y obligar al atacante a hacer una tirada de salvación de Sabiduría contra tu CD de salvación de conjuros. Si la falla, sufrirá una cantidad de daño psíquico igual al daño que tú recibas. Cuando uses esta reacción, no podrás volver a hacerlo hasta que finalices un descanso largo, a menos que gastes un espacio de conjuro de Magia del pacto (no requiere acción) para restablecer su uso.
+
+##### Nivel 14: Magia embrujadora
+Tu patrón te otorga la capacidad de entrelazar tu magia con la teletransportación. Inmediatamente después de lanzar un conjuro de encantamiento o ilusionismo usando una acción y un espacio de conjuro, puedes lanzar *paso brumoso* como parte de la misma acción y sin gastar otro espacio de conjuro.
+
+---
+
+#### Patrón Infernal
+
+*Haz un trato con los Planos Inferiores.*
+
+Tu pacto recurre a los Planos Inferiores, los reinos de la perdición. Puedes negociar con un señor demoníaco, como Demogorgon u Orcus, con un archidiablo como Asmodeo, o con un diablo de la sima, balor, yugoloth o una saga de la noche especialmente notable. Estos patrones desean la corrupción y la destrucción de todas las cosas (incluyéndote a ti en última instancia) y tu camino se verá definido por la medida en que luchas contra esos deseos.
+
+##### Nivel 3: Bendición del oscuro
+Cuando reduzcas a 0 los puntos de golpe de un enemigo, obtienes una cantidad de puntos de golpe temporales igual a tu modificador por Carisma más tu nivel de brujo (mínimo de 1 punto de golpe temporal). También obtienes este beneficio si otra criatura reduce a 0 los puntos de golpe de un enemigo a 3 m o menos de ti.
+
+##### Nivel 3: Conjuros del infernal
+La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados. Cuando alcances un nivel de brujo especificado en la tabla "Conjuros del infernal", a partir de entonces siempre tendrás preparados los conjuros que se indican:
+
+**Conjuros del infernal**
+| Nivel de brujo | Conjuros |
+|---|---|
+| 3 | *Manos ardientes, orden imperiosa, rayo abrasador, sugestión* |
+| 5 | *Bola de fuego, nube apestosa* |
+| 7 | *Escudo de fuego, muro de fuego* |
+| 9 | *Geas, plaga de insectos* |
+
+##### Nivel 6: La suerte del oscuro
+Puedes invocar a tu patrón infernal para alterar el destino a tu favor. Cuando hagas una prueba de característica o una tirada de salvación, puedes utilizar este rasgo para sumar 1d10 a tu tirada. Puedes hacerlo después de ver el resultado de la tirada, pero antes de que ocurran sus efectos.
+
+Puedes usar este rasgo una cantidad de veces igual a tu modificador por Carisma (mínimo una vez), pero no más de una vez por tirada. Recuperas todos los usos tras finalizar un descanso largo.
+
+##### Nivel 10: Resistencia infernal
+Tras finalizar un descanso corto o largo, elige un tipo de daño que no sea el de fuerza. Tienes resistencia a ese tipo de daño hasta que elijas uno distinto con este rasgo.
+
+##### Nivel 14: Arrastrar por el infierno
+Una vez por turno, cuando aciertas a una criatura con una tirada de ataque, puedes intentar teletransportar instantáneamente al objetivo a los Planos Inferiores. El objetivo deberá superar una tirada de salvación de Carisma contra tu CD de salvación de conjuros o desaparecerá y se precipitará a través de un paisaje de pesadilla. Si el objetivo no es un infernal, sufrirá 8d10 de daño psíquico y tendrá el estado de incapacitado hasta el final de tu siguiente turno, momento en el que volverá al espacio que ocupaba anteriormente o al espacio sin ocupar más cercano.
+
+Cuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un descanso largo, a menos que gastes un espacio de conjuro de Magia del pacto (no requiere acción) para restablecer su uso.
+
+---
+
+#### Patrón Primigenio
+
+*Desentierra saberes ocultos de seres inenarrables.*
+
+Cuando eliges esta subclase, quizá te ates a un ser indescriptible del Reino Lejano o a un dios antiguo: entidades como Tharizdun, el Dios Encadenado; Zargon, el Ente que Regresa; Hadar, el Hambre Tenebrosa o el Gran Cthulhu, o quizá invoques a varias entidades sin subyugarte a una sola. Sus motivos son incomprensibles y seguramente el Primigenio no sea siquiera consciente de tu existencia, pero los secretos que has descubierto te permiten extraer poder mágico de él.
+
+##### Nivel 3: Conjuros del primigenio
+La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados. Cuando alcances un nivel de brujo especificado en la tabla "Conjuros del primigenio", a partir de entonces siempre tendrás preparados los conjuros que se indican:
+
+**Conjuros del primigenio**
+| Nivel de brujo | Conjuros |
+|---|---|
+| 3 | *Detectar pensamientos, fuerza fantasmal, risa horrible de Tasha, susurros discordantes* |
+| 5 | *Clarividencia, hambre de Hadar* |
+| 7 | *Confusión, invocar aberración* |
+| 9 | *Alterar los recuerdos, telequinesis* |
+
+##### Nivel 3: Conjuros psíquicos
+Cuando lances un conjuro de brujo que cause daño, puedes cambiar su tipo de daño a psíquico. Además, cuando lances un conjuro de brujo de encantamiento o ilusionismo, puedes hacerlo sin componentes verbales ni somáticos.
+
+##### Nivel 3: Mente iluminada
+Puedes establecer una conexión telepática con la mente de otra criatura. Como acción adicional, elige una criatura que puedas ver a 9 m o menos de ti. La criatura elegida y tú podréis comunicaros telepáticamente mientras estéis a una distancia máxima igual a 1,5 km x tu modificador por Carisma (mínimo de 1,5 km). Para entenderos, debéis emplear mentalmente un idioma que ambos conozcáis.
+
+La conexión telepática dura un número de minutos igual a tu nivel de brujo. Termina antes de tiempo si usas este rasgo para conectarte con otra criatura.
+
+##### Nivel 6: Combatiente clarividente
+Cuando formas un enlace telepático con una criatura usando Mente iluminada, puedes obligar a esa criatura a hacer una tirada de salvación de Sabiduría contra tu CD de salvación de conjuros. Si la falla, la criatura tendrá desventaja en las tiradas de ataque contra ti y tú tendrás ventaja en las tiradas de ataque contra ella hasta que acabe el enlace.
+
+Cuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un descanso corto o largo, a menos que gastes un espacio de conjuro de Magia del pacto (no requiere acción) para restablecer su uso.
+
+##### Nivel 10: Escudo mental
+Tus pensamientos no se pueden leer mediante telepatía o cualquier otro medio sin que tú lo permitas. Además, tienes resistencia al daño psíquico y, siempre que una criatura te cause daño psíquico, ella recibirá la misma cantidad de daño que tú.
+
+##### Nivel 10: Maleficio sobrenatural
+Tu patrón extraterrenal te concede una poderosa maldición. Siempre tienes el conjuro *maleficio* preparado. Cuando lanzas *maleficio* y eliges una característica, el objetivo también tendrá desventaja en las tiradas de salvación de la característica elegida hasta que termine el conjuro.
+
+##### Nivel 14: Crear siervo
+Cuando lanzas *invocar aberración*, puedes modificarlo para que no requiera concentración. Si lo haces, la duración del conjuro pasa a ser de 1 minuto para ese lanzamiento y, cuando la invoques, la aberración tendrá una cantidad de puntos de golpe temporales igual a tu nivel de brujo más tu modificador por Carisma.
+
+Además, la primera vez en cada turno que la aberración acierte a una criatura bajo el efecto de tu maleficio, le infligirá una cantidad de daño psíquico extra igual al daño adicional del conjuro.
+
+---
+
+## Clérigo
+
+Los clérigos extraen poder de los reinos de los dioses y lo emplean para obrar milagros. Los clérigos cuentan con la bendición de una deidad, un panteón u otra entidad inmortal y pueden acceder a la magia divina de los Planos Exteriores (donde habitan los dioses) y canalizarla para fortalecer a los demás y enfrentarse a sus enemigos.
+
+Como su poder es un don divino, los clérigos suelen asociarse con templos consagrados a la deidad o a la fuerza inmortal que les ha concedido su magia. Emplear la magia divina no depende de un entrenamiento específico, pero los clérigos pueden memorizar oraciones y ritos que les ayudan a utilizar el poder de los Planos Exteriores.
+
+No todos los miembros de los templos o santuarios son clérigos. Algunos sacerdotes prefieren una vida sencilla al servicio del templo y manifiestan su devoción a través de la oración y los rituales, en vez de la magia. Muchos mortales afirman hablar en nombre de los dioses, pero pocos se sirven del poder de las deidades de la forma en que lo hacen los clérigos.
+
+### Atributos básicos de clérigo
 
 <table>
   <tbody>
     <tr>
-      <td>Característica Primaria</td>
+      <td><strong>Característica principal</strong></td>
       <td>Sabiduría</td>
     </tr>
     <tr>
-      <td>Dado de Puntos de Golpe</td>
-      <td>D8 per Cleric level</td>
+      <td><strong>Dado de puntos de golpe</strong></td>
+      <td>1d8 por nivel de clérigo</td>
     </tr>
     <tr>
-      <td>Competencia en Tiradas de Salvación</td>
-      <td>Sabiduría and Carisma</td>
+      <td><strong>Competencias en tiradas de salvación</strong></td>
+      <td>Sabiduría y Carisma</td>
     </tr>
     <tr>
-      <td>Competencia en Habilidades</td>
-      <td>Choose 2: History, Insight, Medicine, Persuasion, or Religion</td>
+      <td><strong>Competencias en habilidades</strong></td>
+      <td>Elige dos: Historia, Medicina, Perspicacia, Persuasión o Religión</td>
     </tr>
     <tr>
-      <td>Competencia en Armas</td>
-      <td>Simple weapons</td>
+      <td><strong>Competencias con armas</strong></td>
+      <td>Armas sencillas</td>
     </tr>
     <tr>
-      <td>Entrenamiento con Armaduras</td>
-      <td>Light and Medium armor and Shields</td>
+      <td><strong>Entrenamiento con armaduras</strong></td>
+      <td>Armaduras ligeras y medias y escudos</td>
     </tr>
     <tr>
-      <td>Equipo Inicial</td>
-      <td>Choose A or B: (A) Chain Shirt, Shield, Mace, Holy Symbol, Priest's Pack, and 7 po; or (B) 110 po</td>
+      <td><strong>Equipo inicial</strong></td>
+      <td>Elige A o B: (A) camisa de malla, escudo, maza, paquete de sacerdote, símbolo sagrado y 7 po; o (B) 110 po</td>
     </tr>
   </tbody>
 </table>
 
-### Becoming a Cleric …
+### Convertirse en clérigo
 
-#### As a Level 1 Character
+#### Como personaje de nivel 1
+- Obtienes todos los atributos de la tabla "Atributos básicos de clérigo".
+- Obtienes los rasgos de nivel 1 de clérigo, que se muestran en la tabla "Rasgos de clérigo".
 
-- Gain all the traits in the Core Cleric Traits table.
-- Gain the Cleric's level 1 features, which are listed in the Cleric Features table.
+#### Como personaje multiclase
+- Obtienes los siguientes atributos de la tabla "Atributos básicos de clérigo": dado de puntos de golpe y entrenamiento con armaduras ligeras y medias y escudos.
+- Obtienes los rasgos de nivel 1 de clérigo, que se muestran en la tabla "Rasgos de clérigo". Consulta las reglas de multiclase del capítulo 2 para determinar tus espacios de conjuro disponibles.
 
-#### As a Multiclass Character
+### Rasgos de clase de clérigo
 
-- Gain the following traits from the Core Cleric Traits table: Hit Point Die and training with Light and Medium armor and Shields.
-- Gain the Cleric's level 1 features, which are listed in the Cleric Features table. See the multiclassing rules in "Character Creation" to determine your available spell slots.
+Como clérigo, obtienes los siguientes rasgos de clase cuando alcanzas los niveles de clérigo especificados. Estos rasgos se muestran en la tabla "Rasgos de clérigo".
 
-### Clérigo (Cleric) Class Features
-
-As a Cleric, you gain the following class features when you reach the specified Cleric levels. These features are listed in the Cleric Features table.
-
-**Cleric Features**
+**Rasgos de clérigo**
 
 <table>
   <thead>
     <tr>
-      <th>Level</th>
-      <th>Proficiency Bonus</th>
-      <th>Class Features</th>
-      <th>Channel Divinity</th>
-      <th>Cantrips</th>
-      <th>Prepared Spells</th>
-      <th colspan="9">——Spell Slots per Spell Level——</th>
+      <th rowspan="2">Nivel</th>
+      <th rowspan="2">Bonificador por competencia</th>
+      <th rowspan="2">Rasgos de clase</th>
+      <th rowspan="2">Canalizar divinidad</th>
+      <th rowspan="2">Trucos</th>
+      <th rowspan="2">Conjuros preparados</th>
+      <th colspan="9">Espacios de conjuro por nivel de conjuro</th>
     </tr>
     <tr>
-      <th>
-      </th>
-      <th>
-      </th>
-      <th>
-      </th>
-      <th>
-      </th>
-      <th>
-      </th>
-      <th>
-      </th>
       <th>1</th>
       <th>2</th>
       <th>3</th>
@@ -1838,7 +1963,7 @@ As a Cleric, you gain the following class features when you reach the specified 
     <tr>
       <td>1</td>
       <td>+2</td>
-      <td>Spellcasting, Divine Order</td>
+      <td>Lanzamiento de conjuros, Orden divina</td>
       <td>—</td>
       <td>3</td>
       <td>4</td>
@@ -1855,7 +1980,7 @@ As a Cleric, you gain the following class features when you reach the specified 
     <tr>
       <td>2</td>
       <td>+2</td>
-      <td>Channel Divinity</td>
+      <td>Canalizar divinidad</td>
       <td>2</td>
       <td>3</td>
       <td>5</td>
@@ -1872,7 +1997,7 @@ As a Cleric, you gain the following class features when you reach the specified 
     <tr>
       <td>3</td>
       <td>+2</td>
-      <td>Cleric Subclass</td>
+      <td>Subclase de clérigo</td>
       <td>2</td>
       <td>3</td>
       <td>6</td>
@@ -1889,7 +2014,7 @@ As a Cleric, you gain the following class features when you reach the specified 
     <tr>
       <td>4</td>
       <td>+2</td>
-      <td>Ability Score Improvement</td>
+      <td>Mejora de característica</td>
       <td>2</td>
       <td>4</td>
       <td>7</td>
@@ -1906,7 +2031,7 @@ As a Cleric, you gain the following class features when you reach the specified 
     <tr>
       <td>5</td>
       <td>+3</td>
-      <td>Sear Undead</td>
+      <td>Abrasar muertos vivientes</td>
       <td>2</td>
       <td>4</td>
       <td>9</td>
@@ -1923,7 +2048,7 @@ As a Cleric, you gain the following class features when you reach the specified 
     <tr>
       <td>6</td>
       <td>+3</td>
-      <td>Subclass feature</td>
+      <td>Rasgo de subclase</td>
       <td>3</td>
       <td>4</td>
       <td>10</td>
@@ -1940,7 +2065,7 @@ As a Cleric, you gain the following class features when you reach the specified 
     <tr>
       <td>7</td>
       <td>+3</td>
-      <td>Blessed Strikes</td>
+      <td>Golpes benditos</td>
       <td>3</td>
       <td>4</td>
       <td>11</td>
@@ -1957,7 +2082,7 @@ As a Cleric, you gain the following class features when you reach the specified 
     <tr>
       <td>8</td>
       <td>+3</td>
-      <td>Ability Score Improvement</td>
+      <td>Mejora de característica</td>
       <td>3</td>
       <td>4</td>
       <td>12</td>
@@ -1991,7 +2116,7 @@ As a Cleric, you gain the following class features when you reach the specified 
     <tr>
       <td>10</td>
       <td>+4</td>
-      <td>Divine Intervention</td>
+      <td>Intercesión divina</td>
       <td>3</td>
       <td>5</td>
       <td>15</td>
@@ -2025,7 +2150,7 @@ As a Cleric, you gain the following class features when you reach the specified 
     <tr>
       <td>12</td>
       <td>+4</td>
-      <td>Ability Score Improvement</td>
+      <td>Mejora de característica</td>
       <td>3</td>
       <td>5</td>
       <td>16</td>
@@ -2059,7 +2184,7 @@ As a Cleric, you gain the following class features when you reach the specified 
     <tr>
       <td>14</td>
       <td>+5</td>
-      <td>Improved Blessed Strikes</td>
+      <td>Golpes benditos mejorados</td>
       <td>3</td>
       <td>5</td>
       <td>17</td>
@@ -2093,7 +2218,7 @@ As a Cleric, you gain the following class features when you reach the specified 
     <tr>
       <td>16</td>
       <td>+5</td>
-      <td>Ability Score Improvement</td>
+      <td>Mejora de característica</td>
       <td>3</td>
       <td>5</td>
       <td>18</td>
@@ -2110,8 +2235,8 @@ As a Cleric, you gain the following class features when you reach the specified 
     <tr>
       <td>17</td>
       <td>+6</td>
-      <td>Subclass feature</td>
-      <td>3</td>
+      <td>Rasgo de subclase</td>
+      <td>4</td>
       <td>5</td>
       <td>19</td>
       <td>4</td>
@@ -2144,7 +2269,7 @@ As a Cleric, you gain the following class features when you reach the specified 
     <tr>
       <td>19</td>
       <td>+6</td>
-      <td>Epic Boon</td>
+      <td>Don épico</td>
       <td>4</td>
       <td>5</td>
       <td>21</td>
@@ -2161,7 +2286,7 @@ As a Cleric, you gain the following class features when you reach the specified 
     <tr>
       <td>20</td>
       <td>+6</td>
-      <td>Greater Divine Intervention</td>
+      <td>Intercesión divina mayor</td>
       <td>4</td>
       <td>5</td>
       <td>22</td>
@@ -2178,921 +2303,414 @@ As a Cleric, you gain the following class features when you reach the specified 
   </tbody>
 </table>
 
-#### Level 1: Spellcasting
-
-You have learned to cast spells through prayer and meditation. See "Spells" for the rules on spellcasting. The information below details how you use those rules with Cleric spells, which appear on the Cleric spell list later in the class's description.
-
-_Cantrips._ You know three cantrips of your choice from the Cleric spell list. _Guidance_, _Sacred Flame_, and _Thaumaturgy_ are recommended.
-
-Whenever you gain a Cleric level, you can replace one of your cantrips with another cantrip of your choice from the Cleric spell list.
-
-When you reach Cleric levels 4 and 10, you learn another cantrip of your choice from the Cleric spell list, as shown in the Cantrips column of the Cleric Features table.
-
-_Spell Slots._ The Cleric Features table shows how muchos spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.
-
-_Prepared Spells of Level 1+._ You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose four level 1 spells from the Cleric spell list. _Bless_, _Cure Wounds_, _Guiding Bolt_, and _Shield of Faith_ are recommended.
-
-The number of spells on your list increases as you gain Cleric levels, as shown in the Prepared Spells column of the Cleric Features table. Whenever that number increases, choose additional spells from the Cleric spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. Por ejemplo, if you're a level 3 Cleric, your list of prepared spells can include six spells of levels 1 and 2 in any combination.
-
-If another Cleric feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Cleric spells for you.
-
-_Changing Your Prepared Spells._ Whenever you finish a Long Rest, you can change your list of prepared spells, replacing any of the spells there with other Cleric spells for which you have spell slots.
-
-_Spellcasting Ability._ Sabiduría is your spellcasting ability for your Cleric spells.
-
-_Spellcasting Focus._ You can use a Holy Symbol as a Spellcasting Focus for your Cleric spells.
-
-#### Level 1: Divine Order
-
-You have dedicated yourself to one of the following sacred roles of your choice.
-
-_Protector._ Trained for battle, you gain proficiency with Martial weapons and training with Heavy armor.
-
-_Thaumaturge._ You know one extra cantrip from the Cleric spell list. In addition, your mystical connection to the divine gives you a bonus to your Inteligencia (Arcana or Religion) checks. The bonus equals your Sabiduría modifier (minimum of +1).
-
-#### Level 2: Channel Divinity
-
-You can channel divine energy directly from the Outer Planes to fuel magical effects. You start with two such effects: Divine Spark and Turn Undead, each of which is described below. Each time you use this class's Channel Divinity, choose which Channel Divinity effect from this class to create. You gain additional effect options at higher Cleric levels.
-
-You can use this class's Channel Divinity twice. You regain one of its expended uses when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest. You gain additional uses when you reach certain Cleric levels, as shown in the Channel Divinity column of the Cleric Features table.
-
-If a Channel Divinity effect requires a saving throw, the DC equals the spell save DC from this class's Spellcasting feature.
-
-_Divine Spark._ As a Magic action, you point your Holy Symbol at another creature you can see within 30 pies of yourself and focus divine energy at it. Roll 1d8 and add your Sabiduría modifier. You either restore Hit Points to the creature equal to that total or force the creature to make a Constitución saving throw. On a failed save, the creature takes Necrotic or Radiant damage (your choice) equal to that total. On a successful save, the creature takes half as much damage (round down).
-
-You roll an additional d8 when you reach Cleric levels 7 (2d8), 13 (3d8), and 18 (4d8).
-
-_Turn Undead._ As a Magic action, you present your Holy Symbol and censure Undead creatures. Each Undead of your choice within 30 pies of you must make a Sabiduría saving throw. If the creature fails its save, it has the Frightened and Incapacitated conditions for 1 minute. For that duration, it tries to move as far from you as it can on its turns. This effect ends early on the creature if it takes any damage, if you have the Incapacitated condition, or if you die.
-
-#### Level 3: Cleric Subclass
-
-You gain a Cleric subclass of your choice. The Life Domain subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Cleric levels. For the rest of your career, you gain each of your subclass's features that are of your Cleric level or lower.
-
-#### Level 4: Ability Score Improvement
-
-You gain the Ability Score Improvement feat (see "Feats") or another feat of your choice for which you qualify. You gain this feature again at Cleric levels 8, 12, and 16.
-
-#### Level 5: Sear Undead
-
-Whenever you use Turn Undead, you can roll a number of d8s equal to your Sabiduría modifier (minimum of 1d8) and add the rolls together. Each Undead that fails its saving throw against that use of Turn Undead takes Radiant damage equal to the roll's total. This damage doesn't end the turn effect.
-
-#### Level 7: Blessed Strikes
-
-Divine power infuses you in battle. You gain one of the following options of your choice (if you get either option from a Cleric subclass in an older book, use only the option you choose for this feature).
-
-_Divine Strike._ Una vez on each of your turns when you hit a creature with an attack roll using a weapon, you can cause the target to take an extra 1d8 Necrotic or Radiant damage (your choice).
-
-_Potent Spellcasting._ Add your Sabiduría modifier to the damage you deal with any Cleric cantrip.
-
-#### Level 10: Divine Intervention
-
-You can call on your deity or pantheon to intervene on your behalf. As a Magic action, choose any Cleric spell of level 5 or lower that doesn't require a Reaction to cast. As part of the same action, you cast that spell without expending a spell slot or needing Material components. You can't use this feature again until you finish a Long Rest.
-
-#### Level 14: Improved Blessed Strikes
-
-The option you chose for Blessed Strikes grows more powerful.
-
-_Divine Strike._ The extra damage of your Divine Strike increases to 2d8.
-
-_Potent Spellcasting._ When you cast a Cleric cantrip and deal damage to a creature with it, you can give vitality to yourself or another creature within 60 pies of yourself, granting a number of Temporary Hit Points equal to twice your Sabiduría modifier.
-
-#### Level 19: Epic Boon
-
-You gain an Epic Boon feat (see "Feats") or another feat of your choice for which you qualify. Boon of Fate is recommended.
-
-#### Level 20: Greater Divine Intervention
-
-You can call on even more powerful divine intervention. When you use your Divine Intervention feature, you can choose _Wish_ when you select a spell. If you do so, you can't use Divine Intervention again until you finish 2d4 Long Rests.
-
-### Clérigo (Cleric) Spell List
-
-This section presents the Cleric spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column, _C_ means the spell requires Concentration, _R_ means it's a Ritual, and _M_ means it requires a specific Material component.
-
-#### Cantrips (Level 0 Cleric Spells)
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Guidance</td>
-      <td>Divination</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Light</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Mending</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Resistance</td>
-      <td>Abjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Sacred Flame</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Spare the Dying</td>
-      <td>Necromancy</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Thaumaturgy</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 1 Cleric Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Bane</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Bless</td>
-      <td>Enchantment</td>
-      <td>C, M</td>
-    </tr>
-    <tr>
-      <td>Command</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Create or Destroy Water</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Cure Wounds</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Detect Evil and Good</td>
-      <td>Divination</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Detect Magic</td>
-      <td>Divination</td>
-      <td>C, R</td>
-    </tr>
-    <tr>
-      <td>Detect Poison and Disease</td>
-      <td>Divination</td>
-      <td>C, R</td>
-    </tr>
-    <tr>
-      <td>Guiding Bolt</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Healing Word</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Inflict Wounds</td>
-      <td>Necromancy</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Protection from Evil and Good</td>
-      <td>Abjuration</td>
-      <td>C, M</td>
-    </tr>
-    <tr>
-      <td>Purify Food and Drink</td>
-      <td>Transmutation</td>
-      <td>R</td>
-    </tr>
-    <tr>
-      <td>Sanctuary</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Shield of Faith</td>
-      <td>Abjuration</td>
-      <td>C</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 2 Cleric Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Aid</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Augury</td>
-      <td>Divination</td>
-      <td>R, M</td>
-    </tr>
-    <tr>
-      <td>Blindness/Deafness</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Calm Emotions</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Continual Flame</td>
-      <td>Evocation</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Enhance Ability</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Find Traps</td>
-      <td>Divination</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Gentle Repose</td>
-      <td>Necromancy</td>
-      <td>R, M</td>
-    </tr>
-    <tr>
-      <td>Hold Person</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Lesser Restoration</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Locate Object</td>
-      <td>Divination</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Prayer of Healing</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Protection from Poison</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Silence</td>
-      <td>Illusion</td>
-      <td>C, R</td>
-    </tr>
-    <tr>
-      <td>Spiritual Weapon</td>
-      <td>Evocation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Warding Bond</td>
-      <td>Abjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Zone of Truth</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 3 Cleric Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Animate Dead</td>
-      <td>Necromancy</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Beacon of Hope</td>
-      <td>Abjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Bestow Curse</td>
-      <td>Necromancy</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Clairvoyance</td>
-      <td>Divination</td>
-      <td>C, M</td>
-    </tr>
-    <tr>
-      <td>Create Food and Water</td>
-      <td>Conjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Daylight</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Dispel Magic</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Glyph of Warding</td>
-      <td>Abjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Magic Circle</td>
-      <td>Abjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Mass Healing Word</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Meld into Stone</td>
-      <td>Transmutation</td>
-      <td>R</td>
-    </tr>
-    <tr>
-      <td>Protection from Energy</td>
-      <td>Abjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Remove Curse</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Revivify</td>
-      <td>Necromancy</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Sending</td>
-      <td>Divination</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Speak with Dead</td>
-      <td>Necromancy</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Spirit Guardians</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Tongues</td>
-      <td>Divination</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Water Walk</td>
-      <td>Transmutation</td>
-      <td>R</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 4 Cleric Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Aura of Life</td>
-      <td>Abjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Banishment</td>
-      <td>Abjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Control Water</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Death Ward</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Divination</td>
-      <td>Divination</td>
-      <td>R, M</td>
-    </tr>
-    <tr>
-      <td>Freedom of Movement</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Guardian of Faith</td>
-      <td>Conjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Locate Creature</td>
-      <td>Divination</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Stone Shape</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 5 Cleric Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Commune</td>
-      <td>Divination</td>
-      <td>R</td>
-    </tr>
-    <tr>
-      <td>Contagion</td>
-      <td>Necromancy</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Dispel Evil and Good</td>
-      <td>Abjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Flame Strike</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Geas</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Greater Restoration</td>
-      <td>Abjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Hallow</td>
-      <td>Abjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Insect Plague</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Legend Lore</td>
-      <td>Divination</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Mass Cure Wounds</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Planar Binding</td>
-      <td>Abjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Raise Dead</td>
-      <td>Necromancy</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Scrying</td>
-      <td>Divination</td>
-      <td>C, M</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 6 Cleric Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Blade Barrier</td>
-      <td>Evocation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Create Undead</td>
-      <td>Necromancy</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Find the Path</td>
-      <td>Divination</td>
-      <td>C, M</td>
-    </tr>
-    <tr>
-      <td>Forbiddance</td>
-      <td>Abjuration</td>
-      <td>R, M</td>
-    </tr>
-    <tr>
-      <td>Harm</td>
-      <td>Necromancy</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Heal</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Heroes' Feast</td>
-      <td>Conjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Planar Ally</td>
-      <td>Conjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Sunbeam</td>
-      <td>Evocation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>True Seeing</td>
-      <td>Divination</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Word of Recall</td>
-      <td>Conjuration</td>
-      <td>—</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 7 Cleric Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Conjure Celestial</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Divine Word</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Etherealness</td>
-      <td>Conjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Fire Storm</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Plane Shift</td>
-      <td>Conjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Regenerate</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Resurrection</td>
-      <td>Necromancy</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Symbol</td>
-      <td>Abjuration</td>
-      <td>M</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 8 Cleric Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Antimagic Field</td>
-      <td>Abjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Control Weather</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Earthquake</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Holy Aura</td>
-      <td>Abjuration</td>
-      <td>C, M</td>
-    </tr>
-    <tr>
-      <td>Sunburst</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 9 Cleric Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Astral Projection</td>
-      <td>Necromancy</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Gate</td>
-      <td>Conjuration</td>
-      <td>C, M</td>
-    </tr>
-    <tr>
-      <td>Mass Heal</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Power Word Heal</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>True Resurrection</td>
-      <td>Necromancy</td>
-      <td>M</td>
-    </tr>
-  </tbody>
-</table>
-
-### Clérigo (Cleric) Subclass: Life Domain
-
-_Soothe the Hurts of the World_
-
-The Life Domain focuses on the positive energy that helps sustain all life in the multiverse. Clerics who tap into this domain are masters of healing, using that life force to cure muchos hurts.
-
-Existence itself relies on the positive energy associated with this domain, so a Cleric of almost any religious tradition might choose it. This domain is particularly associated with agricultural deities, gods of healing or endurance, and gods of home and community. Religious orders of healing also seek the magic of this domain.
-
-#### Level 3: Disciple of Life
-
-When a spell you cast with a spell slot restores Hit Points to a creature, that creature regains additional Hit Points on the turn you cast the spell. The additional Hit Points equal 2 plus the spell slot's level.
-
-#### Level 3: Life Domain Spells
-
-Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Life Domain Spells table, you thereafter always have the listed spells prepared.
-
-**Life Domain Spells**
-
-<table>
-  <thead>
-    <tr>
-      <th>Cleric Level</th>
-      <th>Prepared Spells</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>3</td>
-      <td>Aid, Bless, Cure Wounds, Lesser Restoration</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>Mass Healing Word, Revivify</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>Aura of Life, Death Ward</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>Greater Restoration, Mass Cure Wounds</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 3: Preserve Life
-
-As a Magic action, you present your Holy Symbol and expend a use of your Channel Divinity to evoke healing energy that can restore a number of Hit Points equal to five times your Cleric level. Choose Bloodied creatures within 30 pies of yourself (which can include you), and divide those Hit Points among them. This feature can restore a creature to no more than half its Hit Point maximum.
-
-#### Level 6: Blessed Healer
-
-The healing spells you cast on others heal you as well. Immediately after you cast a spell with a spell slot that restores Hit Points to one or more creatures other than yourself, you regain Hit Points equal to 2 plus the spell slot's level.
-
-#### Level 17: Supreme Healing
-
-When you would normally roll one or more dice to restore Hit Points to a creature with a spell or Channel Divinity, don't roll those dice for the healing; instead use the highest number possible for each die. Por ejemplo, instead of restoring 2d6 Hit Points to a creature with a spell, you restore 12.
-
-## Druida (Druid)
-
-**Rasgos Principales del Druida (Druid)**
+#### Nivel 1: Lanzamiento de conjuros
+Has aprendido a lanzar conjuros gracias a la oración y la meditación. Consulta el capítulo 7 para ver las reglas sobre el lanzamiento de conjuros.
+
+- **Trucos.** Conoces tres trucos de tu elección de la lista de conjuros de clérigo. Se recomiendan *guía*, *llama sagrada* y *taumaturgia*. Cada vez que subas un nivel de clérigo, puedes sustituir uno de tus trucos por otro de la lista. En los niveles 4 y 10 aprendes trucos adicionales.
+- **Espacios de conjuro.** La tabla "Rasgos de clérigo" muestra cuántos espacios de conjuro tienes. Recuperas todos los espacios utilizados tras finalizar un descanso largo.
+- **Conjuros preparados de nivel 1 y superiores.** Preparas una serie de conjuros de nivel 1 y superiores. Para empezar, elige cuatro conjuros de nivel 1 de la lista de clérigo. Se recomiendan *bendición*, *curar heridas*, *escudo de fe* y *saeta guía*.
+  El número de conjuros de tu lista aumenta conforme subes de nivel de clérigo. Cada vez que cambies de nivel o termines un descanso largo, puedes cambiar tu lista de conjuros preparados.
+- **Aptitud mágica.** La Sabiduría es tu aptitud mágica para tus conjuros de clérigo.
+- **Canalizador mágico.** Puedes utilizar un símbolo sagrado como canalizador mágico para tus conjuros de clérigo.
+
+#### Nivel 1: Orden divina
+Te has consagrado a una de las siguientes funciones sacras, a tu elección:
+- **Protector.** Te has entrenado para el combate y ganas competencia con armas marciales y entrenamiento con armaduras pesadas.
+- **Taumaturgo.** Conoces un truco adicional de la lista de conjuros de clérigo. Además, tu conexión mística con lo divino te proporciona un bonificador a tus pruebas de Inteligencia (Conocimiento arcano y Religión) igual a tu modificador por Sabiduría (mínimo +1).
+
+#### Nivel 2: Canalizar divinidad
+Puedes canalizar energía divina directamente de los Planos Exteriores para alimentar varios efectos mágicos:
+- **Chispa divina.** Como acción de magia, diriges tu símbolo sagrado hacia otra criatura que puedas ver a 9 m o menos de ti y concentras energía divina en ella. Tira 1d8 y suma tu modificador por Sabiduría. Puedes hacer que la criatura recupere una cantidad de puntos de golpe igual al resultado u obligar a la criatura a hacer una tirada de salvación de Constitución. Si la falla, sufrirá una cantidad de daño necrótico o radiante (a tu elección) igual a ese resultado. Si la supera, sufrirá la mitad de daño. Tira 1d8 adicional en los niveles 7 (2d8), 13 (3d8) y 18 (4d8).
+- **Expulsar muertos vivientes.** Como acción de magia, muestras tu símbolo sagrado y rechazas a los muertos vivientes. Cada muerto viviente de tu elección a 9 m o menos de ti deberá hacer una tirada de salvación de Sabiduría. Si la falla, tendrá los estados de asustado e incapacitado durante 1 minuto.
+
+Puedes usar Canalizar divinidad la cantidad de veces indicada en la tabla. Recuperas un uso tras un descanso corto y todos tras un descanso largo.
+
+#### Nivel 3: Subclase de clérigo
+Consigues una subclase de clérigo de tu elección: Dominio de la Guerra, Dominio de la Luz, Dominio de la Vida o Dominio del Engaño.
+
+#### Nivel 4: Mejora de característica
+Obtienes la dote Mejora de característica u otra dote para la que cumplas condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16.
+
+#### Nivel 5: Abrasar muertos vivientes
+Cuando utilices Expulsar muertos vivientes, puedes tirar una cantidad de d8 igual a tu modificador por Sabiduría (mínimo 1d8) y sumar los resultados. Todos los muertos vivientes que fallen su tirada de salvación sufrirán daño radiante igual a las tiradas sin terminar la expulsión.
+
+#### Nivel 7: Golpes benditos
+Te imbuyes de poder divino en la batalla. Obtienes una de las siguientes opciones:
+- **Golpe divino.** Una vez por turno al acertar con un ataque de arma, infliges 1d8 de daño necrótico o radiante adicional.
+- **Lanzamiento potente.** Sumas tu modificador por Sabiduría al daño que causas con cualquier truco de clérigo.
+
+#### Nivel 10: Intercesión divina
+Puedes recurrir a tu deidad o panteón para que intervenga en tu nombre. Como acción de magia, elige cualquier conjuro de clérigo de nivel 5 o inferior que no requiera reacción. Lo lanzas de inmediato sin gastar espacio ni componentes. Recuperas este rasgo tras finalizar un descanso largo.
+
+#### Nivel 14: Golpes benditos mejorados
+La opción elegida para Golpes benditos mejora:
+- **Golpe divino.** El daño adicional aumenta a 2d8.
+- **Lanzamiento potente.** Al causar daño con un truco de clérigo, otorgas puntos de golpe temporales a ti o a un aliado a 18 m o menos iguales al doble de tu modificador por Sabiduría.
+
+#### Nivel 19: Don épico
+Obtienes una dote de don épico u otra de tu elección. Se recomienda *Don del destino*.
+
+#### Nivel 20: Intercesión divina mayor
+Cuando uses tu rasgo Intercesión divina, puedes elegir *deseo* al seleccionar un conjuro. Si lo haces, no podrás volver a usar Intercesión divina hasta que finalices 2d4 descansos largos.
+
+---
+
+### Lista de conjuros de clérigo
+
+#### Trucos (Nivel 0)
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Guía | Adivinación | C |
+| Llama sagrada | Evocación | — |
+| Luz | Evocación | — |
+| Palabra de resplandor | Evocación | — |
+| Piedad con los moribundos | Nigromancia | — |
+| Reparar | Transmutación | — |
+| Resistencia | Abjuración | C |
+| Tañido por los muertos | Nigromancia | — |
+| Taumaturgia | Transmutación | — |
+
+#### Nivel 1
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Bendición | Encantamiento | C, M |
+| Crear o destruir agua | Transmutación | — |
+| Curar heridas | Abjuración | — |
+| Detectar el bien y el mal | Adivinación | C |
+| Detectar magia | Adivinación | C, R |
+| Detectar venenos y enfermedades | Adivinación | C, R |
+| Escudo de fe | Abjuración | C |
+| Infligir heridas | Nigromancia | — |
+| Orden imperiosa | Encantamiento | — |
+| Palabra de curación | Abjuración | — |
+| Perdición | Encantamiento | C |
+| Protección contra el bien y el mal | Abjuración | C, M |
+| Purificar comida y bebida | Transmutación | R |
+| Saeta guía | Evocación | — |
+| Santuario | Abjuración | — |
+
+#### Nivel 2
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Arma espiritual | Evocación | C |
+| Augurio | Adivinación | R, M |
+| Auxilio | Abjuración | — |
+| Calmar emociones | Encantamiento | C |
+| Detectar trampas | Adivinación | — |
+| Dulce descanso | Nigromancia | R, M |
+| Inmovilizar persona | Encantamiento | C |
+| Llama permanente | Evocación | M |
+| Localizar objeto | Adivinación | C |
+| Plegaria de curación | Abjuración | — |
+| Potenciar característica | Transmutación | C |
+| Protección contra veneno | Abjuración | — |
+| Restablecimiento menor | Abjuración | — |
+| Silencio | Ilusionismo | C, R |
+| Sordera/ceguera | Transmutación | — |
+| Vínculo protector | Abjuración | M |
+| Zona de la verdad | Encantamiento | — |
+
+#### Nivel 3
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Animar a los muertos | Nigromancia | M |
+| Aura de vitalidad | Abjuración | C |
+| Caminar sobre el agua | Transmutación | R |
+| Círculo mágico | Abjuración | M |
+| Clarividencia | Adivinación | C, M |
+| Crear comida y agua | Conjuración | — |
+| Disipar magia | Abjuración | — |
+| Don de lenguas | Adivinación | — |
+| Espíritus guardianes | Conjuración | C |
+| Fingir muerte | Nigromancia | R |
+| Fundirse con la piedra | Transmutación | R |
+| Glifo custodio | Abjuración | M |
+| Hablar con los muertos | Nigromancia | — |
+| Imponer maldición | Nigromancia | C |
+| Levantar maldición | Abjuración | — |
+| Luz del día | Evocación | — |
+| Palabra de curación en masa | Abjuración | — |
+| Protección contra energía | Abjuración | C |
+| Recado | Adivinación | — |
+| Revivir | Nigromancia | M |
+| Señal de esperanza | Abjuración | C |
+
+#### Nivel 4
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Adivinación | Adivinación | R, M |
+| Aura de pureza | Abjuración | C |
+| Aura de vida | Abjuración | C |
+| Controlar agua | Transmutación | C |
+| Destierro | Abjuración | C |
+| Guarda contra la muerte | Abjuración | — |
+| Guardián de la fe | Conjuración | — |
+| Libertad de movimiento | Abjuración | — |
+| Localizar criatura | Adivinación | C |
+| Moldear la piedra | Transmutación | — |
+
+#### Nivel 5
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Alzar a los muertos | Nigromancia | M |
+| Atadura planar | Abjuración | M |
+| Círculo de poder | Abjuración | C |
+| Comunión | Adivinación | R |
+| Conocer las leyendas | Adivinación | M |
+| Consagrar | Abjuración | M |
+| Contagio | Nigromancia | — |
+| Curar heridas en masa | Abjuración | — |
+| Disipar el bien y el mal | Abjuración | C |
+| Escudriñar | Adivinación | C, M |
+| Geas | Encantamiento | — |
+| Golpe flamígero | Evocación | — |
+| Invocar celestial | Conjuración | C, M |
+| Plaga de insectos | Conjuración | C |
+| Restablecimiento mayor | Abjuración | M |
+
+#### Nivel 6
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Aliado planar | Conjuración | M |
+| Barrera de cuchillas | Evocación | C |
+| Crear muerto viviente | Nigromancia | M |
+| Curar | Abjuración | — |
+| Dañar | Nigromancia | — |
+| Encontrar el camino | Adivinación | C, M |
+| Festín de héroes | Conjuración | M |
+| Palabra de regreso | Conjuración | — |
+| Prohibición | Abjuración | R, M |
+| Rayo solar | Evocación | C |
+| Visión veraz | Adivinación | M |
+
+#### Nivel 7
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Conjurar celestial | Conjuración | C |
+| Desplazamiento entre planos | Conjuración | M |
+| Excursión etérea | Conjuración | — |
+| Palabra de poder: fortalecer | Encantamiento | — |
+| Palabra divina | Evocación | — |
+| Regenerar | Transmutación | — |
+| Resurrección | Nigromancia | M |
+| Símbolo | Abjuración | M |
+| Tormenta de fuego | Evocación | — |
+
+#### Nivel 8
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Aura sagrada | Abjuración | C, M |
+| Campo antimagia | Abjuración | C |
+| Controlar el clima | Transmutación | C |
+| Explosión solar | Evocación | — |
+| Terremoto | Transmutación | C |
+
+#### Nivel 9
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Curar en masa | Abjuración | — |
+| Palabra de poder: sanar | Encantamiento | — |
+| Portal | Conjuración | C, M |
+| Proyección astral | Nigromancia | M |
+| Resurrección verdadera | Nigromancia | M |
+
+---
+
+### Subclases de clérigo
+
+#### Dominio de la Guerra
+
+*Destaca en el combate y vence a tus enemigos.*
+
+El dominio de la guerra ensalza la emoción de la batalla y recompensa el heroísmo en el fragor de la lucha. Los clérigos que utilizan la magia del dominio de la guerra destacan en el combate e inspiran a los demás a pelear en buena lid o brindar actos de violencia como si fueran oraciones.
+
+##### Nivel 3: Conjuros del dominio de la guerra
+La magia de tu dominio garantiza que siempre tengas ciertos conjuros preparados.
+
+**Conjuros del dominio de la guerra**
+| Nivel de clérigo | Conjuros preparados |
+|---|---|
+| 3 | *Arma espiritual, arma mágica, escudo de fe, saeta guía* |
+| 5 | *Espíritus guardianes, manto del cruzado* |
+| 7 | *Escudo de fuego, libertad del movimiento* |
+| 9 | *Golpe de viento acerado, inmovilizar monstruo* |
+
+##### Nivel 3: Golpe guiado
+Cuando tú o una criatura a 9 m o menos de ti falléis una tirada de ataque, podrás gastar un uso de Canalizar divinidad y conceder un bonificador de +10 a la tirada. Si mejoras la tirada de otra criatura, usas una reacción.
+
+##### Nivel 3: Sacerdote guerrero
+Como acción adicional, puedes realizar un ataque con un arma o un ataque sin armas. Puedes utilizar esta acción adicional una cantidad de veces igual a tu modificador por Sabiduría (mínimo una vez). Recuperas todos los usos tras finalizar un descanso corto o largo.
+
+##### Nivel 6: Bendición del dios de la guerra
+Puedes gastar un uso de Canalizar divinidad para lanzar *arma espiritual* o *escudo de fe* sin gastar un espacio de conjuro y sin requerir concentración (dura 1 minuto).
+
+##### Nivel 17: Avatar de la batalla
+Ganas resistencia al daño contundente, cortante y perforante.
+
+---
+
+#### Dominio de la Luz
+
+*Trae la luz para repeler la oscuridad.*
+
+El dominio de la luz se sirve del poder divino para producir fuegos abrasadores y revelaciones. Los clérigos que emplean este poder asumen la misión de ahuyentar la mentira y traer la luz a la oscuridad.
+
+##### Nivel 3: Conjuros del dominio de la luz
+**Conjuros del dominio de la luz**
+| Nivel de clérigo | Conjuros preparados |
+|---|---|
+| 3 | *Fuego feérico, manos ardientes, rayo abrasador, ver invisibilidad* |
+| 5 | *Bola de fuego, luz del día* |
+| 7 | *Muro de fuego, ojo arcano* |
+| 9 | *Escudriñar, golpe flamígero* |
+
+##### Nivel 3: Fulgor protector
+Cuando una criatura que puedas ver a 9 m o menos de ti haga una tirada de ataque, puedes llevar a cabo una reacción para imponer desventaja a su tirada de ataque. Puedes usarlo una cantidad de veces igual a tu modificador por Sabiduría (mínimo una vez). Recuperas los usos tras un descanso largo.
+
+##### Nivel 3: Resplandor del amanecer
+Como acción de magia, muestras tu símbolo sagrado y gastas un uso de Canalizar divinidad para emitir un destello luminoso en una emanación de 9 m. Disipa oscuridad mágica e inflige 2d10 más tu nivel de clérigo de daño radiante a las criaturas que elijas si fallan una salvación de Constitución (mitad si tienen éxito).
+
+##### Nivel 6: Fulgor protector mejorado
+Recuperas todos los usos de tu Fulgor protector tras finalizar un descanso corto o largo. Además, al usarlo concedes puntos de golpe temporales iguales a 2d6 más tu modificador por Sabiduría al objetivo atacado.
+
+##### Nivel 17: Halo de luz
+Como acción de magia, puedes emitir un aura de luz solar durante 1 minuto. Los enemigos situados en la zona de luz brillante tienen desventaja en salvaciones contra *Resplandor del amanecer* o conjuros de daño radiante/fuego. Puedes usarlo tantas veces como tu modificador por Sabiduría por descanso largo.
+
+---
+
+#### Dominio de la Vida
+
+*Alivia las penas del mundo.*
+
+El dominio de la vida se centra en la energía positiva que ayuda a sustentar la vida en el multiverso. Los clérigos de este dominio son maestros de la curación.
+
+##### Nivel 3: Conjuros del dominio de la vida
+**Conjuros del dominio de la vida**
+| Nivel de clérigo | Conjuros preparados |
+|---|---|
+| 3 | *Auxilio, bendición, curar heridas, restablecimiento menor* |
+| 5 | *Palabra de curación en masa, revivir* |
+| 7 | *Aura de vida, guarda contra la muerte* |
+| 9 | *Curar heridas en masa, restablecimiento mayor* |
+
+##### Nivel 3: Discípulo de la vida
+Cuando uses un espacio de conjuro para lanzar un conjuro que cure puntos de golpe, la criatura recuperará 2 más el nivel del espacio de conjuro adicionales.
+
+##### Nivel 3: Preservar vida
+Como acción de magia, gastas un uso de Canalizar divinidad para restaurar cinco veces tu nivel de clérigo en puntos de golpe divididos entre criaturas a 9 m o menos (hasta la mitad de sus PG máximos).
+
+##### Nivel 6: Sanador bendito
+Al lanzar un conjuro con espacio de conjuro que cure a otros, tú también recuperas 2 más el nivel del espacio de conjuro en puntos de golpe.
+
+##### Nivel 17: Sanación suprema
+En vez de tirar dados para curar con conjuros o Canalizar divinidad, utilizas el número máximo en cada dado.
+
+---
+
+#### Dominio del Engaño
+
+*Comete travesuras y desafía a las autoridades.*
+
+El dominio del engaño ofrece la magia de los embustes, las ilusiones y el sigilo. Prefieren el subterfugio y las bromas a la confrontación directa.
+
+##### Nivel 3: Bendición del embaucador
+Como acción de magia, otorgas ventaja en pruebas de Destreza (Sigilo) a ti o a una criatura voluntaria a 9 m o menos hasta un descanso largo o nuevo uso.
+
+##### Nivel 3: Conjuros del dominio del engaño
+**Conjuros del dominio del engaño**
+| Nivel de clérigo | Conjuros preparados |
+|---|---|
+| 3 | *Disfrazarse, hechizar persona, invisibilidad, pasar sin rastro* |
+| 5 | *Indetectable, patrón hipnótico* |
+| 7 | *Confusión, puerta dimensional* |
+| 9 | *Alterar los recuerdos, dominar persona* |
+
+##### Nivel 3: Invocar duplicidad
+Como acción adicional, gastas un uso de Canalizar divinidad para crear un duplicado ilusorio a 9 m durante 1 minuto. Otorga ventaja en ataques contra criaturas adyacentes a ambos, te permite lanzar conjuros desde su posición y moverlo 9 m con acción adicional.
+
+##### Nivel 6: Transposición del embaucador
+Al crear o mover la ilusión de Invocar duplicidad con acción adicional, puedes teletransportarte e intercambiar tu posición con ella.
+
+##### Nivel 17: Duplicidad mejorada
+La ilusión otorga ventaja a tus aliados en ataques contra enemigos adyacentes a ella y, al disiparse, cura puntos de golpe iguales a tu nivel de clérigo a una criatura adyacente.
+
+---
+
+## Druida
+
+Los druidas pertenecen a órdenes antiguas que recurren a las fuerzas de la naturaleza. Mediante la magia de la fauna, la flora y los cuatro elementos, son capaces de sanar, transformarse en animales y manejar la destrucción elemental.
+
+Los druidas veneran la naturaleza por encima de todas las cosas, por lo que obtienen su magia de ella, de una deidad relacionada o de ambas. Además, suelen unirse a otros druidas para llevar a cabo ritos que marcan el paso de las estaciones y otros ciclos naturales.
+
+A los druidas les preocupa el delicado equilibrio ecológico que sustenta la vida vegetal y animal, y creen que las personas deben vivir en armonía con la naturaleza. Suelen custodiar lugares sagrados o vigilar las extensiones de naturaleza virgen, pero si surge un peligro importante, los druidas se convierten en aventureros para combatir la amenaza de manera más activa.
+
+### Atributos básicos de druida
 
 <table>
   <tbody>
     <tr>
-      <td>Característica Primaria</td>
+      <td><strong>Característica principal</strong></td>
       <td>Sabiduría</td>
     </tr>
     <tr>
-      <td>Dado de Puntos de Golpe</td>
-      <td>D8 per Druid level</td>
+      <td><strong>Dado de puntos de golpe</strong></td>
+      <td>1d8 por nivel de druida</td>
     </tr>
     <tr>
-      <td>Competencia en Tiradas de Salvación</td>
-      <td>Inteligencia and Sabiduría</td>
+      <td><strong>Competencias en tiradas de salvación</strong></td>
+      <td>Inteligencia y Sabiduría</td>
     </tr>
     <tr>
-      <td>Competencia en Habilidades</td>
-      <td>Choose 2: Animal Handling, Arcana, Insight, Medicine, Nature, Perception, Religion, or Survival</td>
+      <td><strong>Competencias en habilidades</strong></td>
+      <td>Elige dos: Conocimiento arcano, Medicina, Naturaleza, Percepción, Perspicacia, Religión, Supervivencia o Trato con animales</td>
     </tr>
     <tr>
-      <td>Competencia en Armas</td>
-      <td>Simple weapons</td>
+      <td><strong>Competencias con armas</strong></td>
+      <td>Armas sencillas</td>
     </tr>
     <tr>
-      <td>Tool Proficiencies</td>
-      <td>Herbalism Kit</td>
+      <td><strong>Competencias con herramientas</strong></td>
+      <td>Útiles de herborista</td>
     </tr>
     <tr>
-      <td>Entrenamiento con Armaduras</td>
-      <td>Light armor and Shields</td>
+      <td><strong>Entrenamiento con armaduras</strong></td>
+      <td>Armaduras ligeras y escudos</td>
     </tr>
     <tr>
-      <td>Equipo Inicial</td>
-      <td>Choose A or B: (A) Leather Armor, Shield, Sickle, Druidic Focus (Quarterstaff), Explorer's Pack, Herbalism Kit, and 9 po; or (B) 50 po</td>
+      <td><strong>Equipo inicial</strong></td>
+      <td>Elige A o B: (A) armadura de cuero, escudo, hoz, canalizador druídico (bastón), paquete de explorador, útiles de herborista y 9 po; o (B) 50 po</td>
     </tr>
   </tbody>
 </table>
 
-### Becoming a Druid …
+### Convertirse en druida
 
-#### As a Level 1 Character
+#### Como personaje de nivel 1
+- Obtienes todos los atributos de la tabla "Atributos básicos de druida".
+- Obtienes los rasgos de nivel 1 de druida, que se muestran en la tabla "Rasgos de druida".
 
-• Gain all the traits in the Core Druid Traits table.
-• Gain the Druid's level 1 features, which are listed in the Druid Features table.
+#### Como personaje multiclase
+- Obtienes los siguientes atributos de la tabla "Atributos básicos de druida": dado de puntos de golpe y entrenamiento con armaduras ligeras y escudos.
+- Obtienes los rasgos de nivel 1 de druida, que se muestran en la tabla "Rasgos de druida". Consulta las reglas de multiclase del capítulo 2 para determinar tus espacios de conjuro disponibles.
 
-#### As a Multiclass Character
+### Rasgos de clase de druida
 
-• Gain the following traits from the Core Druid Traits table: Hit Point Die and training with Light armor and Shields.
-• Gain the Druid's level 1 features, which are listed in the Druid Features table. See the multiclassing rules in "Character Creation" to determine your available spell slots.
+Como druida, obtienes los siguientes rasgos de clase cuando alcanzas los niveles de druida especificados. Estos rasgos se muestran en la tabla "Rasgos de druida".
 
-### Druida (Druid) Class Features
-
-As a Druid, you gain the following class features when you reach the specified Druid levels. These features are listed in the Druid Features table.
-
-**Druid Features**
+**Rasgos de druida**
 
 <table>
   <thead>
     <tr>
-      <th>Level</th>
-      <th>Proficiency Bonus</th>
-      <th>Class Features</th>
-      <th>Wild Shape</th>
-      <th>Cantrips</th>
-      <th>Prepared Spells</th>
-      <th colspan="9">——Spell Slots per Spell Level——</th>
+      <th rowspan="2">Nivel</th>
+      <th rowspan="2">Bonificador por competencia</th>
+      <th rowspan="2">Rasgos de clase</th>
+      <th rowspan="2">Forma salvaje</th>
+      <th rowspan="2">Trucos</th>
+      <th rowspan="2">Conjuros preparados</th>
+      <th colspan="9">Espacios de conjuro por nivel de conjuro</th>
     </tr>
     <tr>
-      <th>
-      </th>
-      <th>
-      </th>
-      <th>
-      </th>
-      <th>
-      </th>
-      <th>
-      </th>
-      <th>
-      </th>
       <th>1</th>
       <th>2</th>
       <th>3</th>
@@ -3108,7 +2726,7 @@ As a Druid, you gain the following class features when you reach the specified D
     <tr>
       <td>1</td>
       <td>+2</td>
-      <td>Spellcasting, Druidic, Primal Order</td>
+      <td>Druídico, Lanzamiento de conjuros, Orden primigenia</td>
       <td>—</td>
       <td>2</td>
       <td>4</td>
@@ -3121,13 +2739,11 @@ As a Druid, you gain the following class features when you reach the specified D
       <td>—</td>
       <td>—</td>
       <td>—</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>2</td>
       <td>+2</td>
-      <td>Wild Shape, Wild Companion</td>
+      <td>Compañero salvaje, Forma salvaje</td>
       <td>2</td>
       <td>2</td>
       <td>5</td>
@@ -3140,13 +2756,11 @@ As a Druid, you gain the following class features when you reach the specified D
       <td>—</td>
       <td>—</td>
       <td>—</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>3</td>
       <td>+2</td>
-      <td>Druid Subclass</td>
+      <td>Subclase de druida</td>
       <td>2</td>
       <td>2</td>
       <td>6</td>
@@ -3159,13 +2773,11 @@ As a Druid, you gain the following class features when you reach the specified D
       <td>—</td>
       <td>—</td>
       <td>—</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>4</td>
       <td>+2</td>
-      <td>Ability Score Improvement</td>
+      <td>Mejora de característica</td>
       <td>2</td>
       <td>3</td>
       <td>7</td>
@@ -3178,13 +2790,11 @@ As a Druid, you gain the following class features when you reach the specified D
       <td>—</td>
       <td>—</td>
       <td>—</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>5</td>
       <td>+3</td>
-      <td>Wild Resurgence</td>
+      <td>Resurgimiento salvaje</td>
       <td>2</td>
       <td>3</td>
       <td>9</td>
@@ -3197,13 +2807,11 @@ As a Druid, you gain the following class features when you reach the specified D
       <td>—</td>
       <td>—</td>
       <td>—</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>6</td>
       <td>+3</td>
-      <td>Subclass feature</td>
+      <td>Rasgo de subclase</td>
       <td>3</td>
       <td>3</td>
       <td>10</td>
@@ -3216,13 +2824,11 @@ As a Druid, you gain the following class features when you reach the specified D
       <td>—</td>
       <td>—</td>
       <td>—</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>7</td>
       <td>+3</td>
-      <td>Elemental Fury</td>
+      <td>Furia elemental</td>
       <td>3</td>
       <td>3</td>
       <td>11</td>
@@ -3235,13 +2841,11 @@ As a Druid, you gain the following class features when you reach the specified D
       <td>—</td>
       <td>—</td>
       <td>—</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>8</td>
       <td>+3</td>
-      <td>Ability Score Improvement</td>
+      <td>Mejora de característica</td>
       <td>3</td>
       <td>3</td>
       <td>12</td>
@@ -3254,8 +2858,6 @@ As a Druid, you gain the following class features when you reach the specified D
       <td>—</td>
       <td>—</td>
       <td>—</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>9</td>
@@ -3273,13 +2875,11 @@ As a Druid, you gain the following class features when you reach the specified D
       <td>—</td>
       <td>—</td>
       <td>—</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>10</td>
       <td>+4</td>
-      <td>Subclass feature</td>
+      <td>Rasgo de subclase</td>
       <td>3</td>
       <td>4</td>
       <td>15</td>
@@ -3292,8 +2892,6 @@ As a Druid, you gain the following class features when you reach the specified D
       <td>—</td>
       <td>—</td>
       <td>—</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>11</td>
@@ -3311,13 +2909,11 @@ As a Druid, you gain the following class features when you reach the specified D
       <td>—</td>
       <td>—</td>
       <td>—</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>12</td>
       <td>+4</td>
-      <td>Ability Score Improvement</td>
+      <td>Mejora de característica</td>
       <td>3</td>
       <td>4</td>
       <td>16</td>
@@ -3330,8 +2926,6 @@ As a Druid, you gain the following class features when you reach the specified D
       <td>—</td>
       <td>—</td>
       <td>—</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>13</td>
@@ -3349,13 +2943,11 @@ As a Druid, you gain the following class features when you reach the specified D
       <td>1</td>
       <td>—</td>
       <td>—</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>14</td>
       <td>+5</td>
-      <td>Subclass feature</td>
+      <td>Rasgo de subclase</td>
       <td>3</td>
       <td>4</td>
       <td>17</td>
@@ -3368,13 +2960,11 @@ As a Druid, you gain the following class features when you reach the specified D
       <td>1</td>
       <td>—</td>
       <td>—</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>15</td>
       <td>+5</td>
-      <td>Improved Elemental Fury</td>
+      <td>Furia elemental mejorada</td>
       <td>3</td>
       <td>4</td>
       <td>18</td>
@@ -3387,13 +2977,11 @@ As a Druid, you gain the following class features when you reach the specified D
       <td>1</td>
       <td>1</td>
       <td>—</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>16</td>
       <td>+5</td>
-      <td>Ability Score Improvement</td>
+      <td>Mejora de característica</td>
       <td>3</td>
       <td>4</td>
       <td>18</td>
@@ -3406,8 +2994,6 @@ As a Druid, you gain the following class features when you reach the specified D
       <td>1</td>
       <td>1</td>
       <td>—</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>17</td>
@@ -3425,13 +3011,11 @@ As a Druid, you gain the following class features when you reach the specified D
       <td>1</td>
       <td>1</td>
       <td>1</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>18</td>
       <td>+6</td>
-      <td>Beast Spells</td>
+      <td>Conjurar como bestia</td>
       <td>4</td>
       <td>4</td>
       <td>20</td>
@@ -3444,13 +3028,11 @@ As a Druid, you gain the following class features when you reach the specified D
       <td>1</td>
       <td>1</td>
       <td>1</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>19</td>
       <td>+6</td>
-      <td>Epic Boon</td>
+      <td>Don épico</td>
       <td>4</td>
       <td>4</td>
       <td>21</td>
@@ -3463,13 +3045,11 @@ As a Druid, you gain the following class features when you reach the specified D
       <td>1</td>
       <td>1</td>
       <td>1</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>20</td>
       <td>+6</td>
-      <td>Archdruid</td>
+      <td>Archidruida</td>
       <td>4</td>
       <td>4</td>
       <td>22</td>
@@ -3482,1889 +3062,443 @@ As a Druid, you gain the following class features when you reach the specified D
       <td>2</td>
       <td>1</td>
       <td>1</td>
-      <td>
-      </td>
     </tr>
   </tbody>
 </table>
 
-#### Level 1: Spellcasting
+#### Nivel 1: Druídico
+Sabes druídico, el idioma secreto de los druidas. Mientras aprendías esta lengua antigua, accediste a la magia para comunicarte con los animales, por lo que siempre tienes el conjuro *hablar con los animales* preparado.
 
-You have learned to cast spells through studying the mystical forces of nature. See "Spells" for the rules on spellcasting. The information below details how you use those rules with Druid spells, which appear on the Druid spell list later in the class's description.
+Puedes utilizar el druídico para dejar mensajes ocultos que otros hablantes de druídico reconocen automáticamente.
 
-_Cantrips._ You know two cantrips of your choice from the Druid spell list. _Druidcraft_ and _Produce Flame_ are recommended.
+#### Nivel 1: Lanzamiento de conjuros
+Has aprendido a lanzar conjuros estudiando las fuerzas místicas de la naturaleza. Consulta el capítulo 7 para ver las reglas sobre el lanzamiento de conjuros.
 
-Whenever you gain a Druid level, you can replace one of your cantrips with another cantrip of your choice from the Druid spell list.
+- **Trucos.** Conoces dos trucos de tu elección de la lista de conjuros de druida. Se recomiendan *crear llama* y *saber druídico*. Cada vez que subas un nivel de druida, puedes sustituir un truco por otro de la lista. En los niveles 4 y 10 aprendes trucos adicionales.
+- **Espacios de conjuro.** La tabla "Rasgos de druida" muestra cuántos espacios de conjuro tienes. Recuperas todos los espacios utilizados tras finalizar un descanso largo.
+- **Conjuros preparados de nivel 1 y superiores.** Preparas una serie de conjuros de nivel 1 y superiores. Para empezar, elige cuatro conjuros de nivel 1 de la lista de druida. Se recomiendan *curar heridas*, *encantar animal*, *fuego feérico* y *ola atronadora*.
+  El número de conjuros de tu lista aumenta conforme subes de nivel de druida. Tras finalizar un descanso largo, puedes cambiar tu lista de conjuros preparados.
+- **Aptitud mágica.** La Sabiduría es tu aptitud mágica para tus conjuros de druida.
+- **Canalizador mágico.** Puedes utilizar un canalizador druídico como canalizador mágico para tus conjuros de druida.
 
-When you reach Druid levels 4 and 10, you learn another cantrip of your choice from the Druid spell list, as shown in the Cantrips column of the Druid Features table.
+#### Nivel 1: Orden primigenia
+Te has consagrado a una de las siguientes funciones sacras, a tu elección:
+- **Guardián.** Te has entrenado para el combate y ganas competencia con armas marciales y entrenamiento con armaduras medias.
+- **Naturalista.** Conoces un truco adicional de la lista de conjuros de druida. Además, obtienes un bonificador a tus pruebas de Inteligencia (Conocimiento arcano y Naturaleza) igual a tu modificador por Sabiduría (mínimo +1).
 
-_Spell Slots._ The Druid Features table shows how muchos spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.
+#### Nivel 2: Compañero salvaje
+Puedes invocar un espíritu de la naturaleza que adopta la forma de un animal para ayudarte. Como acción de magia, puedes gastar un espacio de conjuro o un uso de Forma salvaje para lanzar el conjuro *encontrar familiar* sin componentes materiales. El familiar es un feérico y desaparece tras finalizar un descanso largo.
 
-_Prepared Spells of Level 1+._ You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose four level 1 spells from the Druid spell list. _Animal Friendship, Cure Wounds, Faerie Fire,_ and _Thunderwave_ are recommended.
+#### Nivel 2: Forma salvaje
+El poder de la naturaleza te permite transformarte en un animal. Como acción adicional, adoptas la forma de una bestia que hayas aprendido para este rasgo. Conservas esa forma durante una cantidad de horas igual a la mitad de tu nivel de druida o hasta que vuelvas a utilizar Forma salvaje, tengas el estado de incapacitado, mueras o la abandones como acción adicional.
 
-The number of spells on your list increases as you gain Druid levels, as shown in the Prepared Spells column of the Druid Features table. Whenever that number increases, choose additional spells from the Druid spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. Por ejemplo, if you're a level 3 Druid, your list of prepared spells can include six spells of levels 1 and 2 in any combination.
+- **Número de usos.** Puedes utilizar Forma salvaje dos veces (aumenta según la tabla). Recuperas un uso tras un descanso corto y todos tras un descanso largo.
+- **Formas conocidas.** Conoces cuatro formas de bestia (desafío máximo 1/4, sin velocidad volando; recomendadas: araña, caballo de monta, lobo, rata). Conforme subes de nivel, aumentan las formas conocidas, el VD máximo y la opción de volar:
 
-If another Druid feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Druid spells for you.
+**Formas de bestia**
+| Nivel de druida | Formas conocidas | VD máx. | Velocidad volando |
+|---|---|---|---|
+| 2 | 4 | 1/4 | No |
+| 4 | 6 | 1/2 | No |
+| 8 | 8 | 1 | Sí |
 
-_Changing Your Prepared Spells._ Whenever you finish a Long Rest, you can change your list of prepared spells, replacing any of the spells with other Druid spells for which you have spell slots.
+- **Reglas con forma de bestia:** Obtienes puntos de golpe temporales iguales a tu nivel de druida. Tu perfil se sustituye por el de la bestia, pero conservas tipo de criatura, puntos de golpe, dados de golpe, Inteligencia, Sabiduría, Carisma, rasgos de clase, idiomas, dotes y competencias (usando tu bonificador por competencia). No puedes lanzar conjuros (salvo a nivel 18), pero conservas la concentración en conjuros ya activos. El equipo puede caer al suelo, fundirse o llevarse puesto si la forma lo permite.
 
-_Spellcasting Ability._ Sabiduría is your spellcasting ability for your Druid spells.
+#### Nivel 3: Subclase de druida
+Consigues una subclase de druida de tu elección: Círculo de la Luna, Círculo de la Tierra, Círculo de las Estrellas o Círculo del Mar.
 
-_Spellcasting Focus._ You can use a Druidic Focus as a Spellcasting Focus for your Druid spells.
+#### Nivel 4: Mejora de característica
+Obtienes la dote Mejora de característica u otra dote para la que cumplas condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16.
 
-#### Level 1: Druidic
+#### Nivel 5: Resurgimiento salvaje
+Una vez en cada uno de tus turnos, si no te quedan usos de Forma salvaje, puedes obtener un uso gastando un espacio de conjuro (no requiere acción).
+Además, puedes gastar un uso de Forma salvaje para obtener un espacio de conjuro de nivel 1 (una vez por descanso largo).
 
-You know Druidic, the secret language of Druids. While learning this ancient tongue, you also unlocked the magic of communicating with animals; you always have the _Speak with Animals_ spell prepared.
+#### Nivel 7: Furia elemental
+El poder de los elementos fluye por ti. Obtienes una de las siguientes opciones:
+- **Golpe primordial.** Una vez por turno al acertar con un ataque de arma o de bestia en Forma salvaje, infliges 1d8 de daño adicional de frío, fuego, relámpago o trueno.
+- **Lanzamiento potente.** Sumas tu modificador por Sabiduría al daño que causas con cualquier truco de druida.
 
-You can use Druidic to leave hidden messages. You and others who know Druidic automatically spot such a message. Others spot the message's presence with a successful DC 15 Inteligencia (Investigation) check but can't decipher it without magic.
+#### Nivel 15: Furia elemental mejorada
+La opción elegida para Furia elemental mejora:
+- **Golpe primordial.** El daño adicional aumenta a 2d8.
+- **Lanzamiento potente.** Al lanzar un truco de druida con alcance de 3 m o más, el alcance aumenta en 90 m.
 
-#### Level 1: Primal Order
+#### Nivel 18: Conjurar como bestia
+Mientras utilices Forma salvaje, podrás lanzar conjuros en forma de bestia (salvo aquellos con componentes materiales costosos o consumibles).
 
-You have dedicated yourself to one of the following sacred roles of your choice.
+#### Nivel 19: Don épico
+Obtienes una dote de don épico u otra de tu elección. Se recomienda *Don del viaje dimensional*.
 
-_Magician._ You know one extra cantrip from the Druid spell list. In addition, your mystical connection to nature gives you a bonus to your Inteligencia (Arcana or Nature) checks. The bonus equals your Sabiduría modifier (minimum bonus of +1).
+#### Nivel 20: Archidruida
+- **Forma salvaje perenne.** Al tirar iniciativa sin usos de Forma salvaje, recuperas uno.
+- **Mago de la naturaleza.** Puedes convertir usos de Forma salvaje en un espacio de conjuro (cada uso aporta 2 niveles de espacio de conjuro; una vez por descanso largo).
+- **Longevidad.** Por cada diez años que pasen, tu cuerpo envejece solo uno.
 
-_Warden._ Trained for battle, you gain proficiency with Martial weapons and training with Medium armor.
+---
 
-#### Level 2: Wild Shape
+### Lista de conjuros de druida
 
-The power of nature allows you to assume the form of an animal. As a Bonus Action, you shape-shift into a Beast form that you have learned for this feature (see "Known Forms" below). You stay in that form for a number of hours equal to half your Druid level or until you use Wild Shape again, have the Incapacitated condition, or die. You can also leave the form early as a Bonus Action.
+#### Trucos (Nivel 0)
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Crear llama | Conjuración | — |
+| Elementalismo | Transmutación | — |
+| Guía | Adivinación | C |
+| Látigo de espinas | Transmutación | — |
+| Mensaje | Transmutación | — |
+| Piedad con los moribundos | Nigromancia | — |
+| Reparar | Transmutación | — |
+| Resistencia | Abjuración | C |
+| Rociada venenosa | Nigromancia | — |
+| Saber druídico | Transmutación | — |
+| Shillelagh | Transmutación | — |
+| Tronar | Evocación | — |
+| Voluta estelar | Evocación | — |
 
-_Number of Uses._ You can use Wild Shape twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.
+#### Nivel 1
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Buenas bayas | Conjuración | — |
+| Crear o destruir agua | Transmutación | — |
+| Cuchillo de hielo | Conjuración | — |
+| Curar heridas | Abjuración | — |
+| Detectar magia | Adivinación | C, R |
+| Detectar venenos y enfermedades | Adivinación | C, R |
+| Encantar animal | Encantamiento | — |
+| Enmarañar | Conjuración | C |
+| Fuego feérico | Evocación | C |
+| Hablar con los animales | Adivinación | R |
+| Hechizar persona | Encantamiento | — |
+| Nube de oscurecimiento | Conjuración | C |
+| Ola atronadora | Evocación | — |
+| Palabra de curación | Abjuración | — |
+| Protección contra el bien y el mal | Abjuración | C, M |
+| Purificar comida y bebida | Transmutación | R |
+| Salto | Transmutación | — |
+| Zancada prodigiosa | Transmutación | — |
 
-You gain additional uses when you reach certain Druid levels, as shown in the Wild Shape column of the Druid Features table.
+#### Nivel 2
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Agrandar/reducir | Transmutación | C |
+| Augurio | Adivinación | R, M |
+| Auxilio | Abjuración | — |
+| Calentar metal | Transmutación | C |
+| Crecimiento espinoso | Transmutación | C |
+| Detectar trampas | Adivinación | — |
+| Esfera de llamas | Evocación | C |
+| Hoja de fuego | Evocación | C |
+| Inmovilizar persona | Encantamiento | C |
+| Invocar bestia | Conjuración | C, M |
+| Llama permanente | Evocación | M |
+| Localizar animales o plantas | Adivinación | R |
+| Localizar objeto | Adivinación | C |
+| Mensajero animal | Encantamiento | R |
+| Pasar sin rastro | Abjuración | C |
+| Piel robliza | Transmutación | — |
+| Potenciar característica | Transmutación | C |
+| Protección contra veneno | Abjuración | — |
+| Ráfaga de viento | Evocación | C |
+| Rayo de luna | Evocación | C |
+| Restablecimiento menor | Abjuración | — |
+| Sentidos de la bestia | Adivinación | C, R |
+| Visión en la oscuridad | Transmutación | — |
 
-_Known Forms._ You know four Beast forms for this feature, chosen from among Beast stat blocks that have a maximum Challenge Rating of 1/4 and that lack a Fly Speed (see "Animals" in "Monsters" for stat block options). The **Rat**, **Riding Horse**, **Spider**, and **Wolf** are recommended. Whenever you finish a Long Rest, you can replace one of your known forms with another eligible form.
+#### Nivel 3
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Arma elemental | Transmutación | C |
+| Aura de vitalidad | Abjuración | C |
+| Caminar sobre el agua | Transmutación | R |
+| Conjurar animales | Conjuración | C |
+| Crecimiento vegetal | Transmutación | — |
+| Disipar magia | Abjuración | — |
+| Fingir muerte | Nigromancia | R |
+| Fundirse con la piedra | Transmutación | R |
+| Hablar con las plantas | Transmutación | — |
+| Invocar feérico | Conjuración | C, M |
+| Llamar al relámpago | Conjuración | C |
+| Luz del día | Evocación | — |
+| Muro de viento | Evocación | C |
+| Protección contra energía | Abjuración | C |
+| Respirar bajo el agua | Transmutación | R |
+| Revivir | Nigromancia | M |
+| Tormenta de aguanieve | Conjuración | C |
 
-When you reach certain Druid levels, your number of known forms and the maximum Challenge Rating for those forms increases, as shown in the Beast Shapes table. In addition, starting at level 8, you can adopt a form that has a Fly Speed.
+#### Nivel 4
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Adivinación | Adivinación | R, M |
+| Confusión | Encantamiento | C |
+| Conjurar elementales menores | Conjuración | C |
+| Conjurar seres del bosque | Conjuración | C |
+| Controlar agua | Transmutación | C |
+| Dominar bestia | Encantamiento | C |
+| Enredadera | Conjuración | C |
+| Escudo de fuego | Evocación | — |
+| Fuente de luz lunar | Evocación | C |
+| Hechizar monstruo | Encantamiento | — |
+| Insecto gigante | Conjuración | C |
+| Invocar elemental | Conjuración | C, M |
+| Libertad de movimiento | Abjuración | — |
+| Localizar criatura | Adivinación | C |
+| Marchitar | Nigromancia | — |
+| Moldear la piedra | Transmutación | — |
+| Muro de fuego | Evocación | C |
+| Piel pétrea | Transmutación | C, M |
+| Polimorfar | Transmutación | C |
+| Terreno alucinatorio | Ilusionismo | — |
+| Tormenta de hielo | Evocación | — |
 
-When choosing known forms, you may look in other sources for eligible Beasts if the Game Master permits you to do so.
+#### Nivel 5
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Alzar a los muertos | Nigromancia | M |
+| Atadura planar | Abjuración | M |
+| Caparazón antivida | Abjuración | C |
+| Comunión con la naturaleza | Adivinación | R |
+| Conjurar elemental | Conjuración | C |
+| Contagio | Nigromancia | — |
+| Curar heridas en masa | Abjuración | — |
+| Despertar | Transmutación | M |
+| Escudriñar | Adivinación | C, M |
+| Geas | Encantamiento | — |
+| Inmovilizar monstruo | Encantamiento | C |
+| Muro de piedra | Evocación | C |
+| Plaga de insectos | Conjuración | C |
+| Plaga de contagio | Nigromancia | — |
+| Reencarnar | Transmutación | M |
+| Restablecimiento mayor | Abjuración | M |
+| Transmutar roca | Transmutación | — |
+| Viaje arbóreo | Conjuración | C |
 
-**Beast Shapes**
+#### Nivel 6
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Bastón de zarzas | Transmutación | C |
+| Conjurar hadas | Conjuración | C |
+| Curar | Abjuración | — |
+| Encontrar el camino | Adivinación | C, M |
+| Festín de héroes | Conjuración | M |
+| Muro de espinas | Conjuración | C |
+| Rayo solar | Evocación | C |
+| Terreno movedizo | Transmutación | C |
+| Visión veraz | Adivinación | M |
+| Viento tempestuoso | Evocación | C |
+
+#### Nivel 7
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Desplazamiento entre planos | Conjuración | M |
+| Espejismo arcano | Ilusionismo | — |
+| Invertir la gravedad | Transmutación | C |
+| Regenerar | Transmutación | — |
+| Resurrección | Nigromancia | M |
+| Símbolo | Abjuración | M |
+| Tormenta de fuego | Evocación | — |
+
+#### Nivel 8
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Controlar el clima | Transmutación | C |
+| Explosión solar | Evocación | — |
+| Formas animales | Transmutación | C |
+| Terremoto | Transmutación | C |
+| Tsunami | Conjuración | C |
+
+#### Nivel 9
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Cambio de forma | Transmutación | C, M |
+| Presciencia | Adivinación | — |
+| Resurrección verdadera | Nigromancia | M |
+| Tormenta de venganza | Conjuración | C |
+
+---
+
+### Subclases de druida
+
+#### Círculo de la Luna
+
+*Canaliza la magia lunar para transformarte en temibles bestias.*
+
+##### Nivel 3: Conjuros del círculo de la luna
+Siempre tienes preparados los siguientes conjuros y puedes lanzarlos mientras utilizas Forma salvaje:
+
+**Conjuros del círculo de la luna**
+| Nivel de druida | Conjuros preparados |
+|---|---|
+| 3 | *Curar heridas, rayo de luna, voluta estelar* |
+| 5 | *Conjurar animales* |
+| 7 | *Fuente de luz lunar* |
+| 9 | *Curar heridas en masa* |
+
+##### Nivel 3: Formas del círculo
+- **Valor de desafío.** El VD máximo de tu forma de bestia es igual a tu nivel de druida dividido entre 3 (redondeando hacia abajo).
+- **Clase de armadura.** Tu CA en Forma salvaje es 13 más tu modificador por Sabiduría (si es superior a la de la bestia).
+- **Puntos de golpe temporales.** Obtienes el triple de tu nivel de druida en puntos de golpe temporales.
+
+##### Nivel 6: Formas del círculo mejoradas
+- **Resplandor lunar.** Los ataques en Forma salvaje pueden infligir daño radiante en lugar de su tipo normal.
+- **Aguante aumentado.** Sumas tu modificador por Sabiduría a tus tiradas de salvación de Constitución.
+
+##### Nivel 10: Paso de la luz lunar
+Como acción adicional, te teletransportas hasta 9 m a un espacio visible y obtienes ventaja en tu siguiente ataque este turno. Puedes usarlo una cantidad de veces igual a tu modificador por Sabiduría por descanso largo, o recuperarlo gastando un espacio de conjuro de nivel 2+.
+
+##### Nivel 14: Forma lunar
+- **Luz lunar compartida.** Al usar Paso de la luz lunar, puedes teletransportar contigo a una criatura voluntaria a 3 m o menos.
+- **Resplandor lunar mejorado.** Una vez por turno, causas 2d10 de daño radiante adicional al acertar un ataque en Forma salvaje.
+
+---
+
+#### Círculo de la Tierra
+
+*Celebra el vínculo con el mundo natural.*
+
+##### Nivel 3: Ayuda de la tierra
+Como acción de magia, gastas un uso de Forma salvaje en un punto a 18 m: en una esfera de 3 m de radio, los enemigos elegidos sufren 2d6 de daño necrótico (salvación de Constitución para mitad) y un aliado recupera 2d6 puntos de golpe (aumenta a 3d6 en nivel 10 y 4d6 en nivel 14).
+
+##### Nivel 3: Conjuros del círculo de la tierra
+Tras un descanso largo, eliges un tipo de terreno y tienes preparados los conjuros asociados:
+- **Árido:** *3: Contorno borroso, descarga de fuego, manos ardientes; 5: Bola de fuego; 7: Marchitar; 9: Muro de piedra.*
+- **Polar:** *3: Inmovilizar persona, nube de oscurecimiento, rayo de escarcha; 5: Tormenta de aguanieve; 7: Tormenta de hielo; 9: Cono de frío.*
+- **Templado:** *3: Agarre electrizante, dormir, paso brumoso; 5: Relámpago; 7: Libertad de movimiento; 9: Paso arbóreo.*
+- **Tropical:** *3: Rayo nauseabundo, salpicadura ácida, telaraña; 5: Nube apestosa; 7: Polimorfar; 9: Plaga de insectos.*
+
+##### Nivel 6: Recuperación natural
+Puedes lanzar un conjuro de tus Conjuros de círculo de nivel 1+ sin gastar espacio (una vez por descanso largo). Tras un descanso corto, puedes recuperar espacios de conjuro gastados cuya suma de niveles sea menor o igual a la mitad de tu nivel de druida (máximo nivel 5; una vez por descanso largo).
+
+##### Nivel 10: Protección de la naturaleza
+Inmunidad a envenenado y resistencia al daño según tu terreno actual: Árido (Fuego), Polar (Frío), Templado (Relámpago), Tropical (Veneno).
+
+##### Nivel 14: Santuario de la naturaleza
+Como acción de magia, gastas un uso de Forma salvaje para crear un cubo de 4,5 m de árboles y enredaderas espectrales a 36 m durante 1 minuto: otorga cobertura media y tu resistencia de Protección de la naturaleza a tus aliados dentro del cubo. Puedes moverlo 18 m como acción adicional.
+
+---
+
+#### Círculo de las Estrellas
+
+*Utiliza los secretos que se ocultan en las constelaciones.*
+
+##### Nivel 3: Forma estelar
+Como acción adicional, gastas un uso de Forma salvaje para adoptar tu forma estelar (dura 10 minutos, emite luz). Eliges una constelación activa:
+- **Arquero.** Ataque de conjuro a distancia con acción adicional a 18 m que causa 1d8 + Sabiduría de daño radiante.
+- **Cáliz.** Al lanzar un conjuro que cure puntos de golpe con un espacio, tú u otro aliado a 9 m recuperáis 1d8 + Sabiduría puntos de golpe adicionales.
+- **Dragón.** En pruebas de Inteligencia/Sabiduría o salvaciones de Constitución para concentración, cualquier tirada de 9 o menos en el d20 se convierte en un 10.
+
+##### Nivel 3: Mapa estelar
+Tienes preparados *guía* y *saeta guía*, y puedes lanzar *saeta guía* sin gastar espacio una cantidad de veces igual a tu modificador por Sabiduría por descanso largo.
+
+##### Nivel 6: Presagio cósmico
+Tras un descanso largo tiras un dado:
+- **Desdicha (impar):** Reacción a 9 m para restar 1d6 a la tirada d20 de una criatura.
+- **Fortuna (par):** Reacción a 9 m para sumar 1d6 a la tirada d20 de una criatura.
+Usos iguales a tu modificador por Sabiduría por descanso largo.
+
+##### Nivel 10: Constelaciones centelleantes
+El dado del Arquero y el Cáliz aumenta a 2d8. Con el Dragón obtienes velocidad volando de 6 m y levitas. Además, al principio de tu turno puedes cambiar la constelación activa.
+
+##### Nivel 14: Colmado de luz estelar
+En forma estelar tienes resistencia al daño contundente, cortante y perforante.
+
+---
+
+#### Círculo del Mar
+
+*Fúndete con las mareas y las tormentas.*
+
+##### Nivel 3: Conjuros del círculo del mar
+**Conjuros del círculo del mar**
+| Nivel de druida | Conjuros preparados |
+|---|---|
+| 3 | *Hacer añicos, nube de oscurecimiento, ola atronadora, ráfaga de viento, rayo de escarcha* |
+| 5 | *Relámpago, respirar bajo el agua* |
+| 7 | *Controlar agua, tormenta de hielo* |
+| 9 | *Conjurar elemental, inmovilizar monstruo* |
+
+##### Nivel 3: Ira de los mares
+Como acción adicional, gastas un uso de Forma salvaje para rodearte de una emanación de espuma marina de 1,5 m durante 10 minutos. Al activarla y como acción adicional posterior, obligas a una criatura en la emanación a una salvación de Constitución: si falla sufre d6s de daño de frío iguales a tu modificador por Sabiduría y es empujada 4,5 m si es Grande o menor.
+
+##### Nivel 6: Afinidad acuática
+La emanación de Ira de los mares aumenta a 3 m y obtienes velocidad nadando igual a tu velocidad.
+
+##### Nivel 10: Nacido de la tempestad
+Mientras Ira de los mares está activa: ganas resistencia al daño de frío, relámpago y trueno, y obtienes velocidad volando igual a tu velocidad.
+
+##### Nivel 14: Obsequio oceánico
+Puedes manifestar la emanación de Ira de los mares alrededor de un aliado a 18 m (usando tus características), o alrededor de ambos gastando dos usos de Forma salvaje.
+
+---
+
+## Explorador
+
+Los exploradores son maestros de la supervivencia en la naturaleza virgen que defienden el mundo civilizado contra los peligros ignotos. Emplean la magia de la naturaleza y una destreza marcial formidable para seguir el rastro de sus presas, navegar por terrenos hostiles y abatir a sus enemigos con una precisión certera.
+
+Muchos exploradores sirven como guías y rastreadores de grupos de viajeros, mientras que otros son exploradores solitarios que vigilan las fronteras salvajes. Sean cuales sean sus tareas, un explorador siempre está alerta a las amenazas que acechan más allá de los asentamientos humanos, élficos o enanos.
+
+### Atributos básicos de explorador
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Característica principal</strong></td>
+      <td>Destreza y Sabiduría</td>
+    </tr>
+    <tr>
+      <td><strong>Dado de puntos de golpe</strong></td>
+      <td>1d10 por nivel de explorador</td>
+    </tr>
+    <tr>
+      <td><strong>Competencias en tiradas de salvación</strong></td>
+      <td>Fuerza y Destreza</td>
+    </tr>
+    <tr>
+      <td><strong>Competencias en habilidades</strong></td>
+      <td>Elige tres: Atletismo, Conocimiento arcano, Investigación, Naturaleza, Percepción, Perspicacia, Sigilo, Supervivencia o Trato con animales</td>
+    </tr>
+    <tr>
+      <td><strong>Competencias con armas</strong></td>
+      <td>Armas sencillas y marciales</td>
+    </tr>
+    <tr>
+      <td><strong>Entrenamiento con armaduras</strong></td>
+      <td>Armaduras ligeras y medias y escudos</td>
+    </tr>
+    <tr>
+      <td><strong>Equipo inicial</strong></td>
+      <td>Elige A o B: (A) armadura de cuero tachonado, 2 espadas cortas, arco largo, 20 flechas, carcaj, paquete de explorador y 7 po; o (B) 150 po</td>
+    </tr>
+  </tbody>
+</table>
+
+### Convertirse en explorador
+
+#### Como personaje de nivel 1
+- Obtienes todos los atributos de la tabla "Atributos básicos de explorador".
+- Obtienes los rasgos de nivel 1 de explorador, que se muestran en la tabla "Rasgos de explorador".
+
+#### Como personaje multiclase
+- Obtienes los siguientes atributos de la tabla "Atributos básicos de explorador": dado de puntos de golpe, competencia con una habilidad de la lista de explorador, competencia con armas marciales y entrenamiento con armaduras ligeras y medias y escudos.
+- Obtienes los rasgos de nivel 1 de explorador, que se muestran en la tabla "Rasgos de explorador". Consulta las reglas de multiclase del capítulo 2 para determinar tus espacios de conjuro disponibles.
+
+### Rasgos de clase de explorador
+
+Como explorador, obtienes los siguientes rasgos de clase cuando alcanzas los niveles de explorador especificados. Estos rasgos se muestran en la tabla "Rasgos de explorador".
+
+**Rasgos de explorador**
 
 <table>
   <thead>
     <tr>
-      <th>Druid Level</th>
-      <th>Known Forms</th>
-      <th>Max CR</th>
-      <th>Fly Speed</th>
+      <th rowspan="2">Nivel</th>
+      <th rowspan="2">Bonificador por competencia</th>
+      <th rowspan="2">Rasgos de clase</th>
+      <th rowspan="2">Maestría con armas</th>
+      <th rowspan="2">Conjuros preparados</th>
+      <th colspan="5">Espacios de conjuro por nivel de conjuro</th>
     </tr>
-  </thead>
-  <tbody>
     <tr>
-      <td>2</td>
-      <td>4</td>
-      <td>1/4</td>
-      <td>No</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>6</td>
-      <td>1/2</td>
-      <td>No</td>
-    </tr>
-    <tr>
-      <td>8</td>
-      <td>8</td>
-      <td>1</td>
-      <td>Yes</td>
-    </tr>
-  </tbody>
-</table>
-
-**Rules While Shape-Shifted.** While in a form, you retain your personality, memories, and ability to speak, and the following rules apply:
-
-**Temporary Hit Points.** When you assume a Wild Shape form, you gain a number of Temporary Hit Points equal to your Druid level.
-
-**Game Statistics.** Your game statistics are replaced by the Beast's stat block, but you retain your creature type; Hit Points; Hit Point Dice; Inteligencia, Sabiduría, and Carisma scores; class features; languages; and feats. You also retain your skill and saving throw proficiencies and use your Proficiency Bonus for them, in addition to gaining the proficiencies of the creature. If a skill or saving throw modifier in the Beast's stat block is higher than yours, use the one in the stat block.
-
-**No Spellcasting.** You can't cast spells, but shapeshifting doesn't break your Concentration or otherwise interfere with a spell you've already cast.
-
-**Objects.** Your ability to handle objects is determined by the form's limbs rather than your own. In addition, you choose whether your equipment falls in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the GM decides whether it's practical for the new form to wear a piece of equipment based on the creature's size and shape. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with the form. Equipment that merges with the form has no effect while you're in that form.
-
-#### Level 2: Wild Companion
-
-You can summon a nature spirit that assumes an animal form to aid you. As a Magic action, you can expend a spell slot or a use of Wild Shape to cast the _Find Familiar_ spell without Material components.
-
-When you cast the spell in this way, the familiar is Fey and disappears when you finish a Long Rest.
-
-#### Level 3: Druid Subclass
-
-You gain a Druid subclass of your choice. The Circle of the Land subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Druid levels. For the rest of your career, you gain each of your subclass's features that are of your Druid level or lower.
-
-#### Level 4: Ability Score Improvement
-
-You gain the Ability Score Improvement feat (see "Feats") or another feat of your choice for which you qualify. You gain this feature again at Druid levels 8, 12, and 16.
-
-#### Level 5: Wild Resurgence
-
-Una vez on each of your turns, if you have no uses of Wild Shape left, you can give yourself one use by expending a spell slot (no action required).
-
-In addition, you can expend one use of Wild Shape (no action required) to give yourself a level 1 spell slot, but you can't do so again until you finish a Long Rest.
-
-#### Level 7: Elemental Fury
-
-The might of the elements flows through you. You gain one of the following options of your choice.
-
-_Potent Spellcasting._ Add your Sabiduría modifier to the damage you deal with any Druid cantrip.
-
-_Primal Strike._ Una vez on each of your turns when you hit a creature with an attack roll using a weapon or a Beast form's attack in Wild Shape, you can cause the target to take an extra 1d8 Cold, Fire, Lightning, or Thunder damage (choose when you hit).
-
-#### Level 15: Improved Elemental Fury
-
-The option you chose for Elemental Fury grows more powerful, as detailed below.
-
-_Potent Spellcasting._ When you cast a Druid cantrip with a range of 10 pies or greater, the spell's range increases by 300 pies.
-
-_Primal Strike._ The extra damage of your Primal Strike increases to 2d8.
-
-#### Level 18: Beast Spells
-
-While using Wild Shape, you can cast spells in Beast form, except for any spell that has a Material component with a cost specified or that consumes its Material component.
-
-#### Level 19: Epic Boon
-
-You gain an Epic Boon feat (see "Feats") or another feat of your choice for which you qualify. Boon of Dimensional Travel is recommended.
-
-#### Level 20: Archdruid
-
-The vitality of nature constantly blooms within you, granting you the following benefits.
-
-_Evergreen Wild Shape._ Whenever you roll Initiative and have no uses of Wild Shape left, you regain one expended use of it.
-
-_Nature Magician._ You can convert uses of Wild Shape into a spell slot (no action required). Choose a number of your unexpended uses of Wild Shape and convert them into a single spell slot, with each use contributing 2 spell levels. Por ejemplo, if you convert two uses of Wild Shape, you produce a level 4 spell slot. Una vez que use this benefit, you can't do so again until you finish a Long Rest.
-
-_Longevity._ The primal magic that you wield causes you to age more slowly. For every ten years that pass, your body ages only one year.
-
-### Druida (Druid) Spell List
-
-This section presents the Druid spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column, _C_ means the spell requires Concentration, _R_ means it's a Ritual, and _M_ means it requires a specific Material component.
-
-#### Cantrips (Level 0 Druid Spells)
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Druidcraft</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Elementalism</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Guidance</td>
-      <td>Divination</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Mending</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Message</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Poison Spray</td>
-      <td>Necromancy</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Produce Flame</td>
-      <td>Conjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Resistance</td>
-      <td>Abjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Shillelagh</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Spare the Dying</td>
-      <td>Necromancy</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Starry Wisp</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 1 Druid Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Animal Friendship</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Charm Person</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Create or Destroy Water</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Cure Wounds</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Detect Magic</td>
-      <td>Divination</td>
-      <td>C, R</td>
-    </tr>
-    <tr>
-      <td>Detect Poison and Disease</td>
-      <td>Divination</td>
-      <td>C, R</td>
-    </tr>
-    <tr>
-      <td>Entangle</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Faerie Fire</td>
-      <td>Evocation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Fog Cloud</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Goodberry</td>
-      <td>Conjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Healing Word</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Ice Knife</td>
-      <td>Conjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Jump</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Longstrider</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Protection from Evil and Good</td>
-      <td>Abjuration</td>
-      <td>C, M</td>
-    </tr>
-    <tr>
-      <td>Purify Food and Drink</td>
-      <td>Transmutation</td>
-      <td>R</td>
-    </tr>
-    <tr>
-      <td>Speak with Animals</td>
-      <td>Divination</td>
-      <td>R</td>
-    </tr>
-    <tr>
-      <td>Thunderwave</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 2 Druid Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Aid</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Animal Messenger</td>
-      <td>Enchantment</td>
-      <td>R</td>
-    </tr>
-    <tr>
-      <td>Augury</td>
-      <td>Divination</td>
-      <td>R, M</td>
-    </tr>
-    <tr>
-      <td>Barkskin</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Continual Flame</td>
-      <td>Evocation</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Darkvision</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Enhance Ability</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Enlarge/Reduce</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Find Traps</td>
-      <td>Divination</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Flame Blade</td>
-      <td>Evocation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Flaming Sphere</td>
-      <td>Evocation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Gust of Wind</td>
-      <td>Evocation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Heat Metal</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Hold Person</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Lesser Restoration</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Locate Animals or Plants</td>
-      <td>Divination</td>
-      <td>R</td>
-    </tr>
-    <tr>
-      <td>Locate Object</td>
-      <td>Divination</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Moonbeam</td>
-      <td>Evocation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Pass without Trace</td>
-      <td>Abjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Protection from Poison</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Spike Growth</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 3 Druid Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Call Lightning</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Conjure Animals</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Daylight</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Dispel Magic</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Meld into Stone</td>
-      <td>Transmutation</td>
-      <td>R</td>
-    </tr>
-    <tr>
-      <td>Plant Growth</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Protection from Energy</td>
-      <td>Abjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Revivify</td>
-      <td>Necromancy</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Sleet Storm</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Speak with Plants</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Water Breathing</td>
-      <td>Transmutation</td>
-      <td>R</td>
-    </tr>
-    <tr>
-      <td>Water Walk</td>
-      <td>Transmutation</td>
-      <td>R</td>
-    </tr>
-    <tr>
-      <td>Wind Wall</td>
-      <td>Evocation</td>
-      <td>C</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 4 Druid Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Blight</td>
-      <td>Necromancy</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Charm Monster</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Confusion</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Conjure Minor Elementals</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Conjure Woodland Beings</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Control Water</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Divination</td>
-      <td>Divination</td>
-      <td>R, M</td>
-    </tr>
-    <tr>
-      <td>Dominate Beast</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Fire Shield</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Freedom of Movement</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Giant Insect</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Hallucinatory Terrain</td>
-      <td>Illusion</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Ice Storm</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Locate Creature</td>
-      <td>Divination</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Polymorph</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Stone Shape</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Stoneskin</td>
-      <td>Transmutation</td>
-      <td>C, M</td>
-    </tr>
-    <tr>
-      <td>Wall of Fire</td>
-      <td>Evocation</td>
-      <td>C</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 5 Druid Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Antilife Shell</td>
-      <td>Abjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Awaken</td>
-      <td>Transmutation</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Commune with Nature</td>
-      <td>Divination</td>
-      <td>R</td>
-    </tr>
-    <tr>
-      <td>Cone of Cold</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Conjure Elemental</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Contagion</td>
-      <td>Necromancy</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Geas</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Greater Restoration</td>
-      <td>Abjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Insect Plague</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Mass Cure Wounds</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Planar Binding</td>
-      <td>Abjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Reincarnate</td>
-      <td>Necromancy</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Scrying</td>
-      <td>Divination</td>
-      <td>C, M</td>
-    </tr>
-    <tr>
-      <td>Tree Stride</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Wall of Stone</td>
-      <td>Evocation</td>
-      <td>C</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 6 Druid Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Conjure Fey</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Find the Path</td>
-      <td>Divination</td>
-      <td>C, M</td>
-    </tr>
-    <tr>
-      <td>Flesh to Stone</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Heal</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Heroes' Feast</td>
-      <td>Conjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Move Earth</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Sunbeam</td>
-      <td>Evocation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Transport via Plants</td>
-      <td>Conjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Wall of Thorns</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Wind Walk</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 7 Druid Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Fire Storm</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Mirage Arcane</td>
-      <td>Illusion</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Plane Shift</td>
-      <td>Conjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Regenerate</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Reverse Gravity</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Symbol</td>
-      <td>Abjuration</td>
-      <td>M</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 8 Druid Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Animal Shapes</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Antipathy/Sympathy</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Befuddlement</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Control Weather</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Earthquake</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Incendiary Cloud</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Sunburst</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Tsunami</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 9 Druid Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Foresight</td>
-      <td>Divination</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Shapechange</td>
-      <td>Transmutation</td>
-      <td>C, M</td>
-    </tr>
-    <tr>
-      <td>Storm of Vengeance</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>True Resurrection</td>
-      <td>Necromancy</td>
-      <td>M</td>
-    </tr>
-  </tbody>
-</table>
-
-### Druida (Druid) Subclass: Circle of the Land
-
-_Celebrate Connection to the Natural World_
-
-The Circle of the Land comprises mystics and sages who safeguard ancient knowledge and rites. These Druids meet within sacred circles of trees or standing stones to whisper primal secrets in Druidic. The circle's wisest members preside as the chief priests of their communities.
-
-#### Level 3: Circle of the Land Spells
-
-Whenever you finish a Long Rest, choose one type of land: arid, polar, temperate, or tropical. Consult the table below that corresponds to the chosen type; you have the spells listed for your Druid level and lower prepared.
-
-**Arid Land**
-
-<table>
-  <thead>
-    <tr>
-      <th>Druid Level</th>
-      <th>Circle Spells</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>3</td>
-      <td>Blur, Burning Hands, Fire Bolt</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>Fireball</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>Blight</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>Wall of Stone</td>
-    </tr>
-  </tbody>
-</table>
-
-**Polar Land**
-
-<table>
-  <thead>
-    <tr>
-      <th>Druid Level</th>
-      <th>Circle Spells</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>3</td>
-      <td>Fog Cloud, Hold Person, Ray of Frost</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>Sleet Storm</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>Ice Storm</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>Cone of Cold</td>
-    </tr>
-  </tbody>
-</table>
-
-**Temperate Land**
-
-<table>
-  <thead>
-    <tr>
-      <th>Druid Level</th>
-      <th>Circle Spells</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>3</td>
-      <td>Misty Step, Shocking Grasp, Sleep</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>Lightning Bolt</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>Freedom of Movement</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>Tree Stride</td>
-    </tr>
-  </tbody>
-</table>
-
-**Tropical Land**
-
-<table>
-  <thead>
-    <tr>
-      <th>Druid Level</th>
-      <th>Circle Spells</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>3</td>
-      <td>Acid Splash, Ray of Sickness, Web</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>Stinking Cloud</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>Polymorph</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>Insect Plague</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 3: Land's Aid
-
-As a Magic action, you can expend a use of your Wild Shape and choose a point within 60 pies of yourself. Vitality-giving flowers and life-draining thorns appear for a moment in a 10-foot-radius Sphere centered on that point. Each creature of your choice in the Sphere must make a Constitución saving throw against your spell save DC, taking 2d6 Necrotic damage on a failed save or half as much damage on a successful one. One creature of your choice in that area regains 2d6 Hit Points.
-
-The damage and healing increase by 1d6 when you reach Druid levels 10 (3d6) and 14 (4d6).
-
-#### Level 6: Natural Recovery
-
-You can cast one of the level 1+ spells that you have prepared from your Circle Spells feature without expending a spell slot, and you must finish a Long Rest before you do so again.
-
-In addition, when you finish a Short Rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your Druid level (round up), and none of them can be level 6+. Por ejemplo, if you're a level 6 Druid, you can recover up to three levels' worth of spell slots. You can recover a level 3 spell slot, a level 2 and a level 1 spell slot, or three level 1 spell slots. Una vez que recover spell slots with this feature, you can't do so again until you finish a Long Rest.
-
-#### Level 10: Nature's Ward
-
-You are immune to the Poisoned condition, and you have Resistance to a damage type associated with your current land choice in the Circle Spells feature, as shown in the Nature's Ward table.
-
-**Nature's Ward**
-
-<table>
-  <thead>
-    <tr>
-      <th>Land Type</th>
-      <th>Resistance</th>
-      <th>Land Type</th>
-      <th>Resistance</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Arid</td>
-      <td>Fire</td>
-      <td>Temperate</td>
-      <td>Lightning</td>
-    </tr>
-    <tr>
-      <td>Polar</td>
-      <td>Cold</td>
-      <td>Tropical</td>
-      <td>Poison</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 14: Nature's Sanctuary
-
-As a Magic action, you can expend a use of your Wild Shape and cause spectral trees and vines to appear in a 15-foot Cube on the ground within 120 pies of yourself. They last there for 1 minute or until you have the Incapacitated condition or die. You and your allies have Half Cover while in that area, and your allies gain the current Resistance of your Nature's Ward while there.
-
-As a Bonus Action, you can move the Cube up to 60 pies to ground within 120 pies of yourself.
-
-## Guerrero (Fighter)
-
-**Rasgos Principales del Guerrero (Fighter)**
-
-<table>
-  <tbody>
-    <tr>
-      <td>Característica Primaria</td>
-      <td>Fuerza or Destreza</td>
-    </tr>
-    <tr>
-      <td>Dado de Puntos de Golpe</td>
-      <td>D10 per Fighter level</td>
-    </tr>
-    <tr>
-      <td>Competencia en Tiradas de Salvación</td>
-      <td>Fuerza and Constitución</td>
-    </tr>
-    <tr>
-      <td>Competencia en Habilidades</td>
-      <td>Choose 2: Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Persuasion, Perception, or Survival</td>
-    </tr>
-    <tr>
-      <td>Competencia en Armas</td>
-      <td>Simple and Martial weapons</td>
-    </tr>
-    <tr>
-      <td>Entrenamiento con Armaduras</td>
-      <td>Light, Medium, and Heavy armor and Shields</td>
-    </tr>
-    <tr>
-      <td>Equipo Inicial</td>
-      <td>Choose A, B, or C: (A) Chain Mail, Greatsword, Flail, 8 Javelins, Dungeoneer's Pack, and 4 po; (B) Studded Leather Armor, Scimitar, Shortsword, Longbow, 20 Arrows, Quiver, Dungeoneer's Pack, and 11 po; or (C) 155 po</td>
-    </tr>
-  </tbody>
-</table>
-
-### Becoming a Fighter …
-
-#### As a Level 1 Character
-
-- Gain all the traits in the Core Fighter Traits table.
-- Gain the Fighter's level 1 features, which are listed in the Fighter Features table.
-
-#### As a Multiclass Character
-
-- Gain the following traits from the Core Fighter Traits table: Hit Point Die, proficiency with Martial weapons, and training with Light and Medium armor and Shields.
-- Gain the Fighter's level 1 features, which are listed in the Fighter Features table.
-
-### Guerrero (Fighter) Class Features
-
-As a Fighter, you gain the following class features when you reach the specified Fighter levels. These features are listed on the Fighter Features table.
-
-**Fighter Features**
-
-<table>
-  <thead>
-    <tr>
-      <th>Level</th>
-      <th>Proficiency Bonus</th>
-      <th>Class Features</th>
-      <th>Second Wind</th>
-      <th>Weapon Mastery</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>+2</td>
-      <td>Fighting Style, Second Wind, Weapon Mastery</td>
-      <td>2</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>+2</td>
-      <td>Action Surge (one use), Tactical Mind</td>
-      <td>2</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>+2</td>
-      <td>Fighter Subclass</td>
-      <td>2</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>+2</td>
-      <td>Ability Score Improvement</td>
-      <td>3</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>+3</td>
-      <td>Extra Attack, Tactical Shift</td>
-      <td>3</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>+3</td>
-      <td>Ability Score Improvement</td>
-      <td>3</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>+3</td>
-      <td>Subclass feature</td>
-      <td>3</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <td>8</td>
-      <td>+3</td>
-      <td>Ability Score Improvement</td>
-      <td>3</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>+4</td>
-      <td>Indomitable (one use), Tactical Master</td>
-      <td>3</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <td>10</td>
-      <td>+4</td>
-      <td>Subclass feature</td>
-      <td>4</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>11</td>
-      <td>+4</td>
-      <td>Two Extra Attacks</td>
-      <td>4</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>12</td>
-      <td>+4</td>
-      <td>Ability Score Improvement</td>
-      <td>4</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>13</td>
-      <td>+5</td>
-      <td>Indomitable (two uses), Studied Attacks</td>
-      <td>4</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>14</td>
-      <td>+5</td>
-      <td>Ability Score Improvement</td>
-      <td>4</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>15</td>
-      <td>+5</td>
-      <td>Subclass feature</td>
-      <td>4</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>16</td>
-      <td>+5</td>
-      <td>Ability Score Improvement</td>
-      <td>4</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <td>17</td>
-      <td>+6</td>
-      <td>Action Surge (two uses), Indomitable (three uses)</td>
-      <td>4</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <td>18</td>
-      <td>+6</td>
-      <td>Subclass feature</td>
-      <td>4</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <td>19</td>
-      <td>+6</td>
-      <td>Epic Boon</td>
-      <td>4</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <td>20</td>
-      <td>+6</td>
-      <td>Three Extra Attacks</td>
-      <td>4</td>
-      <td>6</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 1: Fighting Style
-
-You have honed your martial prowess and gain a Fighting Style feat of your choice (see "Feats"). Defense is recommended.
-
-Whenever you gain a Fighter level, you can replace the feat you chose with a different Fighting Style feat.
-
-#### Level 1: Second Wind
-
-You have a limited well of physical and mental stamina that you can draw on. As a Bonus Action, you can use it to regain Hit Points equal to 1d10 plus your Fighter level.
-
-You can use this feature twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.
-
-When you reach certain Fighter levels, you gain more uses of this feature, as shown in the Second Wind column of the Fighter Features table.
-
-#### Level 1: Weapon Mastery
-
-Your training with weapons allows you to use the mastery properties of three kinds of Simple or Martial weapons of your choice. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.
-
-When you reach certain Fighter levels, you gain the ability to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Fighter Features table.
-
-#### Level 2: Action Surge
-
-You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action, except the Magic action.
-
-Una vez que use this feature, you can't do so again until you finish a Short or Long Rest. Starting at level 17, you can use it twice before a rest but only once on a turn.
-
-#### Level 2: Tactical Mind
-
-You have a mind for tactics on and off the battlefield. When you fail an ability check, you can expend a use of your Second Wind to push yourself toward success. Rather than regaining Hit Points, you roll 1d10 and add the number rolled to the ability check, potentially turning it into a success. If the check still fails, this use of Second Wind isn't expended.
-
-#### Level 3: Fighter Subclass
-
-You gain a Fighter subclass of your choice. The Champion subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Fighter levels. For the rest of your career, you gain each of your subclass's features that are of your Fighter level or lower.
-
-#### Level 4: Ability Score Improvement
-
-You gain the Ability Score Improvement feat (see "Feats") or another feat of your choice for which you qualify. You gain this feature again at Fighter levels 6, 8, 12, 14, and 16.
-
-#### Level 5: Extra Attack
-
-You can attack twice instead of once whenever you take the Attack action on your turn.
-
-#### Level 5: Tactical Shift
-
-Whenever you activate your Second Wind with a Bonus Action, you can move up to half your Speed without provoking Opportunity Attacks.
-
-#### Level 9: Indomitable
-
-If you fail a saving throw, you can reroll it with a bonus equal to your Fighter level. You must use the new roll, and you can't use this feature again until you finish a Long Rest.
-
-You can use this feature twice before a Long Rest starting at level 13 and three times before a Long Rest starting at level 17.
-
-#### Level 9: Tactical Master
-
-When you attack with a weapon whose mastery property you can use, you can replace that property with the Push, Sap, or Slow property for that attack.
-
-#### Level 11: Two Extra Attacks
-
-You can attack three times instead of once whenever you take the Attack action on your turn.
-
-#### Level 13: Studied Attacks
-
-You study your opponents and learn from each attack you make. If you make an attack roll against a creature and miss, you have Advantage on your next attack roll against that creature before the end of your next turn.
-
-#### Level 19: Epic Boon
-
-You gain an Epic Boon feat (see "Feats") or another feat of your choice for which you qualify. Boon of Combat Prowess is recommended.
-
-#### Level 20: Three Extra Attacks
-
-You can attack four times instead of once whenever you take the Attack action on your turn.
-
-### Guerrero (Fighter) Subclass: Champion
-
-_Pursue Physical Excellence in Combat_
-
-A Champion focuses on the development of martial prowess in a relentless pursuit of victory. Champions combine rigorous training with physical excellence to deal devastating blows, withstand peril, and garner glory. Whether in athletic contests or bloody battle, Champions strive for the crown of the victor.
-
-#### Level 3: Improved Critical
-
-Your attack rolls with weapons and Unarmed Strikes can score a Critical Hit on a roll of 19 or 20 on the d20.
-
-#### Level 3: Remarkable Athlete
-
-Thanks to your athleticism, you have Advantage on Initiative rolls and Fuerza (Athletics) checks.
-
-In addition, immediately after you score a Critical Hit, you can move up to half your Speed without provoking Opportunity Attacks.
-
-#### Level 7: Additional Fighting Style
-
-You gain another Fighting Style feat of your choice.
-
-#### Level 10: Heroic Warrior
-
-The thrill of battle drives you toward victory. During combat, you can give yourself Heroic Inspiration whenever you start your turn without it.
-
-#### Level 15: Superior Critical
-
-Your attack rolls with weapons and Unarmed Strikes can now score a Critical Hit on a roll of 18–20 on the d20.
-
-#### Level 18: Survivor
-
-You attain the pinnacle of resilience in battle, giving you these benefits.
-
-_Defy Death._ You have Advantage on Death Saving Throws. Moreover, when you roll 18–20 on a Death Saving Throw, you gain the benefit of rolling a 20 on it.
-
-_Heroic Rally._ At the start of each of your turns, you regain Hit Points equal to 5 plus your Constitución modifier if you are Bloodied and have at least 1 Hit Point.
-
-## Monje (Monk)
-
-**Rasgos Principales del Monje (Monk)**
-
-<table>
-  <tbody>
-    <tr>
-      <td>Característica Primaria</td>
-      <td>Destreza and Sabiduría</td>
-    </tr>
-    <tr>
-      <td>Dado de Puntos de Golpe</td>
-      <td>D8 per Monk level</td>
-    </tr>
-    <tr>
-      <td>Competencia en Tiradas de Salvación</td>
-      <td>Fuerza and Destreza</td>
-    </tr>
-    <tr>
-      <td>Competencia en Habilidades</td>
-      <td>Choose 2: Acrobatics, Athletics, History, Insight, Religion, or Stealth</td>
-    </tr>
-    <tr>
-      <td>Competencia en Armas</td>
-      <td>Simple weapons and Martial weapons that have the Light property</td>
-    </tr>
-    <tr>
-      <td>Tool Proficiencies</td>
-      <td>Choose one type of Artisan's Tools or Musical Instrument (see Equipment)</td>
-    </tr>
-    <tr>
-      <td>Entrenamiento con Armaduras</td>
-      <td>None</td>
-    </tr>
-    <tr>
-      <td>Equipo Inicial</td>
-      <td>Choose A or B: (A) Spear, 5 Daggers, Artisan's Tools or Musical Instrument chosen for the tool proficiency above, Explorer's Pack, and 11 po; or (B) 50 po</td>
-    </tr>
-  </tbody>
-</table>
-
-### Becoming a Monk …
-
-#### As a Level 1 Character
-
-- Gain all the traits in the Core Monk Traits table.
-- Gain the Monk's level 1 features, which are listed in the Monk Features table.
-
-#### As a Multiclass Character
-
-- Gain the Hit Point Die trait from the Core Monk Traits table.
-- Gain the Monk's level 1 features, which are listed in the Monk Features table.
-
-### Monje (Monk) Class Features
-
-As a Monk, you gain the following class features when you reach the specified Monk levels. These features are listed in the Monk Features table.
-
-**Monk Features**
-
-<table>
-  <thead>
-    <tr>
-      <th>Level</th>
-      <th>Proficiency Bonus</th>
-      <th>Class Features</th>
-      <th>Martial Arts</th>
-      <th>Focus Points</th>
-      <th>Unarmored Movement</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>+2</td>
-      <td>Martial Arts, Unarmored Defense</td>
-      <td>1d6</td>
-      <td>—</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>+2</td>
-      <td>Monk's Focus, Unarmored Movement, Uncanny Metabolism</td>
-      <td>1d6</td>
-      <td>2</td>
-      <td>+10 pies</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>+2</td>
-      <td>Deflect Attacks, Monk Subclass</td>
-      <td>1d6</td>
-      <td>3</td>
-      <td>+10 pies</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>+2</td>
-      <td>Ability Score Improvement, Slow Fall</td>
-      <td>1d6</td>
-      <td>4</td>
-      <td>+10 pies</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>+3</td>
-      <td>Extra Attack, Stunning Strike</td>
-      <td>1d8</td>
-      <td>5</td>
-      <td>+10 pies</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>+3</td>
-      <td>Empowered Strikes, Subclass feature</td>
-      <td>1d8</td>
-      <td>6</td>
-      <td>+15 pies</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>+3</td>
-      <td>Evasion</td>
-      <td>1d8</td>
-      <td>7</td>
-      <td>+15 pies</td>
-    </tr>
-    <tr>
-      <td>8</td>
-      <td>+3</td>
-      <td>Ability Score Improvement</td>
-      <td>1d8</td>
-      <td>8</td>
-      <td>+15 pies</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>+4</td>
-      <td>Acrobatic Movement</td>
-      <td>1d8</td>
-      <td>9</td>
-      <td>+15 pies</td>
-    </tr>
-    <tr>
-      <td>10</td>
-      <td>+4</td>
-      <td>Heightened Focus, Self-Restoration</td>
-      <td>1d8</td>
-      <td>10</td>
-      <td>+20 pies</td>
-    </tr>
-    <tr>
-      <td>11</td>
-      <td>+4</td>
-      <td>Subclass feature</td>
-      <td>1d10</td>
-      <td>11</td>
-      <td>+20 pies</td>
-    </tr>
-    <tr>
-      <td>12</td>
-      <td>+4</td>
-      <td>Ability Score Improvement</td>
-      <td>1d10</td>
-      <td>12</td>
-      <td>+20 pies</td>
-    </tr>
-    <tr>
-      <td>13</td>
-      <td>+5</td>
-      <td>Deflect Energy</td>
-      <td>1d10</td>
-      <td>13</td>
-      <td>+20 pies</td>
-    </tr>
-    <tr>
-      <td>14</td>
-      <td>+5</td>
-      <td>Disciplined Survivor</td>
-      <td>1d10</td>
-      <td>14</td>
-      <td>+25 pies</td>
-    </tr>
-    <tr>
-      <td>15</td>
-      <td>+5</td>
-      <td>Perfect Focus</td>
-      <td>1d10</td>
-      <td>15</td>
-      <td>+25 pies</td>
-    </tr>
-    <tr>
-      <td>16</td>
-      <td>+5</td>
-      <td>Ability Score Improvement</td>
-      <td>1d10</td>
-      <td>16</td>
-      <td>+25 pies</td>
-    </tr>
-    <tr>
-      <td>17</td>
-      <td>+6</td>
-      <td>Subclass feature</td>
-      <td>1d12</td>
-      <td>17</td>
-      <td>+25 pies</td>
-    </tr>
-    <tr>
-      <td>18</td>
-      <td>+6</td>
-      <td>Superior Defense</td>
-      <td>1d12</td>
-      <td>18</td>
-      <td>+30 pies</td>
-    </tr>
-    <tr>
-      <td>19</td>
-      <td>+6</td>
-      <td>Epic Boon</td>
-      <td>1d12</td>
-      <td>19</td>
-      <td>+30 pies</td>
-    </tr>
-    <tr>
-      <td>20</td>
-      <td>+6</td>
-      <td>Body and Mind</td>
-      <td>1d12</td>
-      <td>20</td>
-      <td>+30 pies</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 1: Martial Arts
-
-Your practice of martial arts gives you mastery of combat styles that use your Unarmed Strike and Monk weapons, which are the following:
-
-- Simple Melee weapons
-- Martial Melee weapons that have the Light property
-
-You gain the following benefits while you are unarmed or wielding only Monk weapons and you aren't wearing armor or wielding a Shield.
-
-_Bonus Unarmed Strike._ You can make an Unarmed Strike as a Bonus Action.
-
-_Martial Arts Die._ You can roll 1d6 in place of the normal damage of your Unarmed Strike or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table.
-
-_Dexterous Attacks._ You can use your Destreza modifier instead of your Fuerza modifier for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike, you can use your Destreza modifier instead of your Fuerza modifier to determine the save DC.
-
-#### Level 1: Unarmored Defense
-
-While you aren't wearing armor or wielding a Shield, your base Armor Class equals 10 plus your Destreza and Sabiduría modifiers.
-
-#### Level 2: Monk's Focus
-
-Your focus and martial training allow you to harness a well of extraordinary energy within yourself. This energy is represented by Focus Points. Your Monk level determines the number of points you have, as shown in the Focus Points column of the Monk Features table.
-
-You can expend these points to enhance or fuel certain Monk features. You start knowing three such features: Flurry of Blows, Patient Defense, and Step of the Wind, each of which is detailed below.
-
-When you expend a Focus Point, it is unavailable until you finish a Short or Long Rest, at the end of which you regain all your expended points.
-
-Some features that use Focus Points require your target to make a saving throw. The save DC equals 8 plus your Sabiduría modifier and Proficiency Bonus.
-
-**_Flurry of Blows._** You can expend 1 Focus Point to make two Unarmed Strikes as a Bonus Action.
-
-**_Patient Defense._** You can take the Disengage action as a Bonus Action. Alternatively, you can
-expend 1 Focus Point to take both the Disengage and the Dodge actions as a Bonus Action.
-
-**_Step of the Wind._** You can take the Dash action as a Bonus Action. Alternatively, you can expend 1 Focus Point to take both the Disengage and Dash actions as a Bonus Action, and your jump distance is doubled for the turn.
-
-#### Level 2: Unarmored Movement
-
-Your speed increases by 10 pies while you aren't wearing armor or wielding a Shield. This bonus increases when you reach certain Monk levels, as shown on the Monk Features table.
-
-#### Level 2: Uncanny Metabolism
-
-When you roll Initiative, you can regain all expended Focus Points. When you do so, roll your Martial Arts die, and regain a number of Hit Points equal to your Monk level plus the number rolled.
-
-Una vez que use this feature, you can't use it again until you finish a Long Rest.
-
-#### Level 3: Deflect Attacks
-
-When an attack roll hits you and its damage includes Bludgeoning, Piercing, or Slashing damage, you can take a Reaction to reduce the attack's total damage against you. The reduction equals 1d10 plus your Destreza modifier and Monk level.
-
-If you reduce the damage to 0, you can expend 1 Focus Point to redirect some of the attack's force. If you do so, choose a creature you can see within 5 pies of yourself if the attack was a melee attack or a creature you can see within 60 pies of yourself that isn't behind Total Cover if the attack was a ranged attack. That creature must succeed on a Destreza saving throw or take damage equal to two rolls of your Martial Arts die plus your Destreza modifier. The damage is the same type dealt by the attack.
-
-#### Level 3: Monk Subclass
-
-You gain a Monk subclass of your choice. The Warrior of the Open Hand subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Monk levels. For the rest of your career, you gain each of your subclass's features that are of your Monk level or lower.
-
-#### Level 4: Ability Score Improvement
-
-You gain the Ability Score Improvement feat (see "Feats") or another feat of your choice for which you qualify. You gain this feature again at Monk levels 8, 12, and 16.
-
-#### Level 4: Slow Fall
-
-You can take a Reaction when you fall to reduce any damage you take from the fall by an amount equal to five times your Monk level.
-
-#### Level 5: Extra Attack
-
-You can attack twice instead of once whenever you take the Attack action on your turn.
-
-#### Level 5: Stunning Strike
-
-Una vez por turn when you hit a creature with a Monk weapon or an Unarmed Strike, you can expend 1 Focus Point to attempt a stunning strike. The target must make a Constitución saving throw. On a failed save, the target has the Stunned condition until the start of your next turn. On a successful save, the target's Speed is halved until the start of your next turn, and the next attack roll made against the target before then has Advantage.
-
-#### Level 6: Empowered Strikes
-
-Whenever you deal damage with your Unarmed Strike, it can deal your choice of Force damage or its normal damage type.
-
-#### Level 7: Evasion
-
-When you're subjected to an effect that allows you to make a Destreza saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail.
-
-You don't benefit from this feature if you have the Incapacitated condition.
-
-#### Level 9: Acrobatic Movement
-
-While you aren't wearing armor or wielding a Shield, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the movement.
-
-#### Level 10: Heightened Focus
-
-Your Flurry of Blows, Patient Defense, and Step of the Wind gain the following benefits.
-
-**_Flurry of Blows._** You can expend 1 Focus Point to use Flurry of Blows and make three Unarmed Strikes with it instead of two.
-
-**_Patient Defense._** When you expend a Focus Point to use Patient Defense, you gain a number of Temporary Hit Points equal to two rolls of your Martial Arts die.
-
-**_Step of the Wind._** When you expend a Focus Point to use Step of the Wind, you can choose a willing creature within 5 pies of yourself that is Large or smaller. You move the creature with you until the end of your turn. The creature's movement doesn't provoke Opportunity Attacks.
-
-#### Level 10: Self-Restoration
-
-Through sheer force of will, you can remove one of the following conditions from yourself at the end of each of your turns: Charmed, Frightened, or Poisoned.
-
-In addition, forgoing food and drink doesn't give you levels of Exhaustion.
-
-#### Level 13: Deflect Energy
-
-You can now use your Deflect Attacks feature against attacks that deal any damage type, not just Bludgeoning, Piercing, or Slashing.
-
-#### Level 14: Disciplined Survivor
-
-Your physical and mental discipline grant you proficiency in all saving throws.
-
-Additionally, whenever you make a saving throw and fail, you can expend 1 Focus Point to reroll it, and you must use the new roll.
-
-#### Level 15: Perfect Focus
-
-When you roll Initiative and don't use Uncanny Metabolism, you regain expended Focus Points until you have 4 if you have 3 or fewer.
-
-#### Level 18: Superior Defense
-
-At the start of your turn, you can expend 3 Focus Points to bolster yourself against harm for 1 minute or until you have the Incapacitated condition. During that time, you have Resistance to all damage except Force damage.
-
-#### Level 19: Epic Boon
-
-You gain an Epic Boon feat (see "Feats") or another feat of your choice for which you qualify. Boon of Irresistible Offense is recommended.
-
-#### Level 20: Body and Mind
-
-You have developed your body and mind to new heights. Your Destreza and Sabiduría scores increase by 4, to a maximum of 25.
-
-### Monje (Monk) Subclass: Warrior of the Open Hand
-
-_Master Unarmed Combat Techniques_
-
-Warriors of the Open Hand are masters of unarmed combat. They learn techniques to push and trip their opponents and manipulate their own energy to protect themselves from harm.
-
-#### Level 3: Open Hand Technique
-
-Whenever you hit a creature with an attack granted by your Flurry of Blows, you can impose one of the following effects on that target.
-
-**Addle.** The target can't make Opportunity Attacks until the start of its next turn.
-
-**Push.** The target must succeed on a Fuerza saving throw or be pushed up to 15 pies away from you.
-
-**Topple.** The target must succeed on a Destreza saving throw or have the Prone condition.
-
-#### Level 6: Wholeness of Body
-
-You gain the ability to heal yourself. As a Bonus Action, you can roll your Martial Arts die. You regain a number of Hit Points equal to the number rolled plus your Sabiduría modifier (minimum of 1 Hit Point regained).
-
-You can use this feature a number of times equal to your Sabiduría modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.
-
-#### Level 11: Fleet Step
-
-When you take a Bonus Action other than Step of the Wind, you can also use Step of the Wind immediately after that Bonus Action.
-
-#### Level 17: Quivering Palm
-
-You gain the ability to set up lethal vibrations in someone's body. When you hit a creature with an Unarmed Strike, you can expend 4 Focus Points to start these imperceptible vibrations, which last for a number of days equal to your Monk level. The vibrations are harmless unless you take an action to end them. Alternatively, when you take the Attack action on your turn, you can forgo one of the attacks to end the vibrations. To end them, you and the target must be on the same plane of existence. When you end them, the target must make a Constitución saving throw, taking 10d12 Force damage on a failed save or half as much damage on a successful one.
-
-You can have only one creature under the effect of this feature at a time. You can end the vibrations harmlessly (no action required).
-
-## Paladín (Paladin)
-
-**Rasgos Principales del Paladín (Paladin)**
-
-<table>
-  <tbody>
-    <tr>
-      <td>Característica Primaria</td>
-      <td>Fuerza and Carisma</td>
-    </tr>
-    <tr>
-      <td>Dado de Puntos de Golpe</td>
-      <td>D10 per Paladin level</td>
-    </tr>
-    <tr>
-      <td>Competencia en Tiradas de Salvación</td>
-      <td>Sabiduría and Carisma</td>
-    </tr>
-    <tr>
-      <td>Competencia en Habilidades</td>
-      <td>Choose 2: Athletics, Insight, Intimidation, Medicine, Persuasion, or Religion</td>
-    </tr>
-    <tr>
-      <td>Competencia en Armas</td>
-      <td>Simple and Martial weapons</td>
-    </tr>
-    <tr>
-      <td>Entrenamiento con Armaduras</td>
-      <td>Light, Medium, and Heavy armor and Shields</td>
-    </tr>
-    <tr>
-      <td>Equipo Inicial</td>
-      <td>Choose A or B: (A) Chain Mail, Shield, Longsword, 6 Javelins, Holy Symbol, Priest's Pack, and 9 po; or (B) 150 po</td>
-    </tr>
-  </tbody>
-</table>
-
-### Becoming a Paladin …
-
-#### As a Level 1 Character
-
-• Gain all the traits in the Core Paladin Traits table.
-
-• Gain the Paladin's level 1 features, which are listed in the Paladin Features table.
-
-#### As a Multiclass Character
-
-• Gain the following traits from the Core Paladin Traits table: Hit Point Die, proficiency with Martial weapons, and training with Light and Medium armor and Shields.
-
-• Gain the Paladin's level 1 features, which are listed in the Paladin Features table. See the multiclassing rules in "Character Creation" to determine your available spell slots.
-
-### Paladín (Paladin) Class Features
-
-As a Paladin, you gain the following class features when you reach the specified Paladin levels. These features are listed in the Paladin Features table.
-
-**Paladin Features**
-
-<table>
-  <thead>
-    <tr>
-      <th>Level</th>
-      <th>Proficiency Bonus</th>
-      <th>Class Features</th>
-      <th>Channel Divinity</th>
-      <th>Prepared Spells</th>
-      <th colspan="5">——Spell Slots per Spell Level——</th>
-    </tr>
-    <tr>
-      <th>
-      </th>
-      <th>
-      </th>
-      <th>
-      </th>
-      <th>
-      </th>
-      <th>
-      </th>
       <th>1</th>
       <th>2</th>
       <th>3</th>
@@ -5376,8 +3510,8 @@ As a Paladin, you gain the following class features when you reach the specified
     <tr>
       <td>1</td>
       <td>+2</td>
-      <td>Lay On Hands, Spellcasting, Weapon Mastery</td>
-      <td>—</td>
+      <td>Lanzamiento de conjuros, Maestría con armas, Marca del cazador favorecida</td>
+      <td>2</td>
       <td>2</td>
       <td>2</td>
       <td>—</td>
@@ -5388,8 +3522,8 @@ As a Paladin, you gain the following class features when you reach the specified
     <tr>
       <td>2</td>
       <td>+2</td>
-      <td>Fighting Style, Paladin's Smite</td>
-      <td>—</td>
+      <td>Estilo de combate, Explorador hábil</td>
+      <td>2</td>
       <td>3</td>
       <td>2</td>
       <td>—</td>
@@ -5400,7 +3534,7 @@ As a Paladin, you gain the following class features when you reach the specified
     <tr>
       <td>3</td>
       <td>+2</td>
-      <td>Channel Divinity, Paladin Subclass</td>
+      <td>Subclase de explorador</td>
       <td>2</td>
       <td>4</td>
       <td>3</td>
@@ -5412,7 +3546,7 @@ As a Paladin, you gain the following class features when you reach the specified
     <tr>
       <td>4</td>
       <td>+2</td>
-      <td>Ability Score Improvement</td>
+      <td>Mejora de característica</td>
       <td>2</td>
       <td>5</td>
       <td>3</td>
@@ -5424,7 +3558,7 @@ As a Paladin, you gain the following class features when you reach the specified
     <tr>
       <td>5</td>
       <td>+3</td>
-      <td>Extra Attack, Faithful Steed</td>
+      <td>Ataque adicional</td>
       <td>2</td>
       <td>6</td>
       <td>4</td>
@@ -5436,7 +3570,7 @@ As a Paladin, you gain the following class features when you reach the specified
     <tr>
       <td>6</td>
       <td>+3</td>
-      <td>Aura of Protection</td>
+      <td>Errante</td>
       <td>2</td>
       <td>6</td>
       <td>4</td>
@@ -5448,7 +3582,7 @@ As a Paladin, you gain the following class features when you reach the specified
     <tr>
       <td>7</td>
       <td>+3</td>
-      <td>Subclass feature</td>
+      <td>Rasgo de subclase</td>
       <td>2</td>
       <td>7</td>
       <td>4</td>
@@ -5460,7 +3594,7 @@ As a Paladin, you gain the following class features when you reach the specified
     <tr>
       <td>8</td>
       <td>+3</td>
-      <td>Ability Score Improvement</td>
+      <td>Mejora de característica</td>
       <td>2</td>
       <td>7</td>
       <td>4</td>
@@ -5472,7 +3606,7 @@ As a Paladin, you gain the following class features when you reach the specified
     <tr>
       <td>9</td>
       <td>+4</td>
-      <td>Abjure Foes</td>
+      <td>Pericia</td>
       <td>2</td>
       <td>9</td>
       <td>4</td>
@@ -5484,7 +3618,7 @@ As a Paladin, you gain the following class features when you reach the specified
     <tr>
       <td>10</td>
       <td>+4</td>
-      <td>Aura of Courage</td>
+      <td>Infatigable</td>
       <td>2</td>
       <td>9</td>
       <td>4</td>
@@ -5496,8 +3630,8 @@ As a Paladin, you gain the following class features when you reach the specified
     <tr>
       <td>11</td>
       <td>+4</td>
-      <td>Radiant Strikes</td>
-      <td>3</td>
+      <td>Rasgo de subclase</td>
+      <td>2</td>
       <td>10</td>
       <td>4</td>
       <td>3</td>
@@ -5508,8 +3642,8 @@ As a Paladin, you gain the following class features when you reach the specified
     <tr>
       <td>12</td>
       <td>+4</td>
-      <td>Ability Score Improvement</td>
-      <td>3</td>
+      <td>Mejora de característica</td>
+      <td>2</td>
       <td>10</td>
       <td>4</td>
       <td>3</td>
@@ -5520,8 +3654,8 @@ As a Paladin, you gain the following class features when you reach the specified
     <tr>
       <td>13</td>
       <td>+5</td>
-      <td>—</td>
-      <td>3</td>
+      <td>Cazador persistente</td>
+      <td>2</td>
       <td>11</td>
       <td>4</td>
       <td>3</td>
@@ -5532,8 +3666,8 @@ As a Paladin, you gain the following class features when you reach the specified
     <tr>
       <td>14</td>
       <td>+5</td>
-      <td>Restoring Touch</td>
-      <td>3</td>
+      <td>Velo de la naturaleza</td>
+      <td>2</td>
       <td>11</td>
       <td>4</td>
       <td>3</td>
@@ -5544,8 +3678,8 @@ As a Paladin, you gain the following class features when you reach the specified
     <tr>
       <td>15</td>
       <td>+5</td>
-      <td>Subclass feature</td>
-      <td>3</td>
+      <td>Rasgo de subclase</td>
+      <td>2</td>
       <td>12</td>
       <td>4</td>
       <td>3</td>
@@ -5556,8 +3690,8 @@ As a Paladin, you gain the following class features when you reach the specified
     <tr>
       <td>16</td>
       <td>+5</td>
-      <td>Ability Score Improvement</td>
-      <td>3</td>
+      <td>Mejora de característica</td>
+      <td>2</td>
       <td>12</td>
       <td>4</td>
       <td>3</td>
@@ -5568,8 +3702,8 @@ As a Paladin, you gain the following class features when you reach the specified
     <tr>
       <td>17</td>
       <td>+6</td>
-      <td>—</td>
-      <td>3</td>
+      <td>Cazador preciso</td>
+      <td>2</td>
       <td>14</td>
       <td>4</td>
       <td>3</td>
@@ -5580,8 +3714,8 @@ As a Paladin, you gain the following class features when you reach the specified
     <tr>
       <td>18</td>
       <td>+6</td>
-      <td>Aura Expansion</td>
-      <td>3</td>
+      <td>Sentidos salvajes</td>
+      <td>2</td>
       <td>14</td>
       <td>4</td>
       <td>3</td>
@@ -5592,8 +3726,8 @@ As a Paladin, you gain the following class features when you reach the specified
     <tr>
       <td>19</td>
       <td>+6</td>
-      <td>Epic Boon</td>
-      <td>3</td>
+      <td>Don épico</td>
+      <td>2</td>
       <td>15</td>
       <td>4</td>
       <td>3</td>
@@ -5604,8 +3738,8 @@ As a Paladin, you gain the following class features when you reach the specified
     <tr>
       <td>20</td>
       <td>+6</td>
-      <td>Subclass feature</td>
-      <td>3</td>
+      <td>Azote de enemigos</td>
+      <td>2</td>
       <td>15</td>
       <td>4</td>
       <td>3</td>
@@ -5616,1637 +3750,871 @@ As a Paladin, you gain the following class features when you reach the specified
   </tbody>
 </table>
 
-#### Level 1: Lay On Hands
+#### Nivel 1: Lanzamiento de conjuros
+Has aprendido a canalizar la magia de la naturaleza. Consulta el capítulo 7 para ver las reglas sobre el lanzamiento de conjuros.
 
-Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you finish a Long Rest. With that pool, you can restore a total number of Hit Points equal to five times your Paladin level.
+- **Espacios de conjuro.** La tabla "Rasgos de explorador" muestra cuántos espacios de conjuro tienes. Recuperas todos los espacios utilizados tras finalizar un descanso largo.
+- **Conjuros preparados de nivel 1 y superiores.** Preparas una serie de conjuros de nivel 1 y superiores de la lista de explorador. Al subir de nivel o tras un descanso largo, puedes cambiar un conjuro preparado por otro de la lista.
+- **Aptitud mágica.** La Sabiduría es tu aptitud mágica para tus conjuros de explorador.
+- **Canalizador mágico.** Puedes utilizar un canalizador druídico como canalizador mágico para tus conjuros de explorador.
 
-As a Bonus Action, you can touch a creature (which could be yourself) and draw power from the pool of healing to restore a number of Hit Points to that creature, up to the maximum amount remaining in the pool.
+#### Nivel 1: Maestría con armas
+Tu entrenamiento con armas te permite utilizar las propiedades de maestría con dos tipos de armas cuerpo a cuerpo o a distancia sencillas o marciales de tu elección. Tras un descanso largo, puedes cambiar una de las armas elegidas.
 
-You can also expend 5 Hit Points from the pool of healing power to remove the Poisoned condition from the creature; those points don't also restore Hit Points to the creature.
+#### Nivel 1: Marca del cazador favorecida
+Siempre tienes preparado el conjuro *marca del cazador*. Puedes lanzarlo sin gastar un espacio de conjuro una cantidad de veces igual a tu modificador por Sabiduría (mínimo una vez) y recuperas todos los usos tras finalizar un descanso largo.
 
-#### Level 1: Spellcasting
+#### Nivel 2: Estilo de combate
+Obtienes una dote de Estilo de combate de tu elección (como Arquero, Defensa, Duelo, Combate con dos armas o Guerrero druídico).
 
-You have learned to cast spells through prayer and meditation. See "Spells" for the rules on spellcasting. The information below details how you use those rules with Paladin spells, which appear in the Paladin spell list later in the class's description.
+#### Nivel 2: Explorador hábil
+- **Idiomas.** Conoces dos idiomas adicionales de tu elección.
+- **Pericia.** Escoge una de tus competencias en habilidades; ganas pericia en esa habilidad.
 
-**Spell Slots.** The Paladin Features table shows how muchos spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.
+#### Nivel 3: Subclase de explorador
+Consigues una subclase de explorador de tu elección: Acechador en la Penumbra, Cazador, Errante Feérico o Señor de las Bestias.
 
-**Prepared Spells of Level 1+.** You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Paladin spells. _Heroism_ and _Searing Smite_ are recommended.
+#### Nivel 4: Mejora de característica
+Obtienes la dote Mejora de característica u otra dote para la que cumplas condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16.
 
-The number of spells on your list increases as you gain Paladin levels, as shown in the Prepared Spells column of the Paladin Features table. Whenever that number increases, choose additional Paladin spells until the number of spells on your list matches the number in the Paladin Features table. The chosen spells must be of a level for which you have spell slots. Por ejemplo, if you're a level 5 Paladin, your list of prepared spells can include six Paladin spells of level 1 or 2 in any combination.
+#### Nivel 5: Ataque adicional
+Al llevar a cabo la acción de atacar en tu turno, puedes hacer dos ataques en lugar de uno.
 
-If another Paladin feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Paladin spells for you.
+#### Nivel 6: Errante
+Tu velocidad aumenta en 3 m si no llevas armadura pesada. También obtienes velocidad nadando y trepando iguales a tu velocidad.
 
-**Changing Your Prepared Spells.** Whenever you finish a Long Rest, you can replace one spell on your list with another Paladin spell for which you have spell slots.
+#### Nivel 9: Pericia
+Escoge otras dos de tus competencias en habilidades para ganar pericia en ellas.
 
-**Spellcasting Ability.** Carisma is your spellcasting ability for your Paladin spells.
+#### Nivel 10: Infatigable
+- **Puntos de golpe temporales.** Como acción de magia, te otorgas 1d8 más tu modificador por Sabiduría puntos de golpe temporales (usos iguales a tu modificador por Sabiduría por descanso largo).
+- **Disminuir cansancio.** Tras un descanso corto, tu nivel de cansancio se reduce en 1.
 
-**Spellcasting Focus.** You can use a Holy Symbol as a Spellcasting Focus for your Paladin spells.
+#### Nivel 13: Cazador persistente
+Sufrir daño no rompe tu concentración de *marca del cazador*.
 
-#### Level 1: Weapon Mastery
+#### Nivel 14: Velo de la naturaleza
+Como acción adicional, puedes volverte invisible hasta el final de tu siguiente turno (usos iguales a tu modificador por Sabiduría por descanso largo).
 
-Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Longswords and Javelins.
+#### Nivel 17: Cazador preciso
+Tienes ventaja en las tiradas de ataque contra la criatura que tenga tu *marca del cazador*.
 
-Whenever you finish a Long Rest, you can change the kinds of weapons you chose. Por ejemplo, you could switch to using the mastery properties of Halberds and Flails.
+#### Nivel 18: Sentidos salvajes
+Obtienes visión ciega hasta 9 m.
 
-#### Level 2: Fighting Style
+#### Nivel 19: Don épico
+Obtienes una dote de don épico u otra de tu elección. Se recomienda *Don del viaje dimensional*.
 
-You gain a Fighting Style feat of your choice (see "Feats" for feats). Instead of choosing one of those feats, you can choose the option below.
+#### Nivel 20: Azote de enemigos
+El dado de daño de tu *marca del cazador* es un d10 en lugar de un d6.
 
-**Blessed Warrior.** You learn two Cleric cantrips of your choice (see the Cleric class's section for a list of Cleric spells). _Guidance_ and _Sacred Flame_ are recommended. The chosen cantrips count as Paladin spells for you, and Carisma is your spellcasting ability for them. Whenever you gain a Paladin level, you can replace one of these cantrips with another Cleric cantrip.
+---
 
-#### Level 2: Paladin's Smite
+### Lista de conjuros de explorador
 
-You always have the _Divine Smite_ spell prepared. In addition, you can cast it without expending a spell slot, but you must finish a Long Rest before you can cast it in this way again.
+#### Nivel 1
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Alarma | Abjuración | R |
+| Buenas bayas | Conjuración | — |
+| Curar heridas | Abjuración | — |
+| Detectar magia | Adivinación | C, R |
+| Detectar venenos y enfermedades | Adivinación | C, R |
+| Encantar animal | Encantamiento | — |
+| Enmarañar | Conjuración | C |
+| Golpe apresador | Conjuración | C |
+| Hablar con los animales | Adivinación | R |
+| Marca del cazador | Adivinación | C |
+| Nube de oscurecimiento | Conjuración | C |
+| Salto | Transmutación | — |
+| Tormenta de espinas | Conjuración | C |
+| Zancada prodigiosa | Transmutación | — |
 
-#### Level 3: Channel Divinity
+#### Nivel 2
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Arma mágica | Transmutación | — |
+| Auxilio | Abjuración | — |
+| Cordón de flechas | Transmutación | — |
+| Crecimiento espinoso | Transmutación | C |
+| Detectar trampas | Adivinación | — |
+| Invocar bestia | Conjuración | C, M |
+| Localizar animales o plantas | Adivinación | R |
+| Localizar objeto | Adivinación | C |
+| Mensajero animal | Encantamiento | R |
+| Pasar sin rastro | Abjuración | C |
+| Piel robliza | Transmutación | — |
+| Potenciar característica | Transmutación | C |
+| Protección contra veneno | Abjuración | — |
+| Ráfaga de viento | Evocación | C |
+| Restablecimiento menor | Abjuración | — |
+| Sentidos de la bestia | Adivinación | C, R |
+| Silencio | Ilusionismo | C, R |
+| Visión en la oscuridad | Transmutación | — |
 
-You can channel divine energy directly from the Outer Planes, using it to fuel magical effects. You start with one such effect: Divine Sense, which is described below. Other Paladin features give additional Channel Divinity effect options. Each time you use this class's Channel Divinity, you choose which effect from this class to create.
+#### Nivel 3
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Arma elemental | Transmutación | C |
+| Caminar sobre el agua | Transmutación | R |
+| Conjurar animales | Conjuración | C |
+| Conjurar descarga de proyectiles | Conjuración | — |
+| Crecimiento vegetal | Transmutación | — |
+| Disipar magia | Abjuración | — |
+| Flecha de relámpago | Transmutación | — |
+| Fundirse con la piedra | Transmutación | R |
+| Hablar con las plantas | Transmutación | — |
+| Indetectable | Abjuración | M |
+| Invocar feérico | Conjuración | C, M |
+| Luz del día | Evocación | — |
+| Muro de viento | Evocación | C |
+| Protección contra energía | Abjuración | C |
+| Respirar bajo el agua | Transmutación | R |
+| Revivir | Nigromancia | M |
 
-You can use this class's Channel Divinity twice. You regain one of its expended uses when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest. You gain an additional use when you reach Paladin level 11.
+#### Nivel 4
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Conjurar seres del bosque | Conjuración | C |
+| Dominar bestia | Encantamiento | C |
+| Enredadera | Conjuración | C |
+| Libertad de movimiento | Abjuración | — |
+| Localizar criatura | Adivinación | C |
+| Piel pétrea | Transmutación | C, M |
 
-> ### Breaking Your Oath
->
-> A Paladin tries to hold to the highest standards of conduct, but even the most dedicated are fallible. Sometimes a Paladin transgresses their oath.
->
-> A Paladin who has broken a vow typically seeks absolution, spending an all-night vigil as a sign of penitence or undertaking a fast. After a rite of forgiveness, the Paladin starts fresh.
->
-> If your Paladin unrepentantly violates their oath, talk to your GM. Your Paladin should probably take a more appropriate subclass or even abandon the class and adopt another one.
-> If a Channel Divinity effect requires a saving throw, the DC equals the spell save DC from this class's Spellcasting feature.
+#### Nivel 5
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Carcaj veloz | Transmutación | C, M |
+| Comunión con la naturaleza | Adivinación | R |
+| Conjurar lluvia de flechas | Conjuración | — |
+| Golpe de viento acerado | Conjuración | — |
+| Paso arbóreo | Conjuración | C |
+| Restablecimiento mayor | Abjuración | M |
 
-_Divine Sense._ As a Bonus Action, you can open your awareness to detect Celestials, Fiends, and Undead. For the next 10 minutes or until you have the Incapacitated condition, you know the location of any creature of those types within 60 pies of yourself, and you know its creature type. Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the _Hallow_ spell.
+---
 
-#### Level 3: Paladin Subclass
+### Subclases de explorador
 
-You gain a Paladin subclass of your choice. The Oath of Devotion subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Paladin levels. For the rest of your career, you gain each of your subclass's features that are of your Paladin level or lower.
+#### Acechador en la Penumbra
 
-#### Level 4: Ability Score Improvement
+*Acecha en la oscuridad y tiende emboscadas a tus presas.*
 
-You gain the Ability Score Improvement feat (see "Feats") or another feat of your choice for which you qualify. You gain this feature again at Paladin levels 8, 12, and 16.
+##### Nivel 3: Conjuros de acechador en la penumbra
+**Conjuros de acechador en la penumbra**
+| Nivel de explorador | Conjuro |
+|---|---|
+| 3 | *Disfrazarse* |
+| 5 | *Truco de la cuerda* |
+| 9 | *Terror* |
+| 13 | *Invisibilidad mejorada* |
+| 17 | *Apariencia* |
 
-#### Level 5: Extra Attack
+##### Nivel 3: Emboscador pavoroso
+- **Iniciativa.** Sumas tu modificador por Sabiduría a las tiradas de iniciativa.
+- **Golpe pavoroso.** Al acertar con un ataque con arma, puedes infligir 2d6 de daño psíquico adicional (usos iguales a tu modificador por Sabiduría por descanso largo).
+- **Salto emboscador.** Al comienzo de tu primer turno de cada combate, tu velocidad aumenta en 3 m.
 
-You can attack twice instead of once whenever you take the Attack action on your turn.
+##### Nivel 3: Visión en la umbra
+Visión en la oscuridad hasta 18 m (o +18 m). En oscuridad total eres invisible para criaturas que dependan de visión en la oscuridad.
 
-#### Level 5: Faithful Steed
+##### Nivel 7: Mente de hierro
+Competencia en tiradas de salvación de Sabiduría (o Inteligencia/Carisma si ya la tienes).
 
-You can call on the aid of an otherworldly steed. You always have the _Find Steed_ spell prepared.
+##### Nivel 11: Oleada del acechador
+El daño de Golpe pavoroso aumenta a 2d8 y puedes activar: Ataque súbito (ataque adicional a criatura a 1,5 m) o Terror masivo (salvación de Sabiduría en 3 m o asustadas).
 
-You can also cast the spell once without expending a spell slot, and you regain the ability to do so when you finish a Long Rest.
+##### Nivel 15: Esquiva de las sombras
+Reacción cuando una criatura te ataque para imponer desventaja y teletransportarte hasta 9 m.
 
-#### Level 6: Aura of Protection
+---
 
-You radiate a protective, unseeable aura in a 10-foot Emanation that originates from you. The aura is inactive while you have the Incapacitated condition.
+#### Cazador
 
-You and your allies in the aura gain a bonus to saving throws equal to your Carisma modifier (minimum bonus of +1).
+*Protege la naturaleza y a la gente contra la destrucción.*
 
-If another Paladin is present, a creature can benefit from only one Aura of Protection at a time; the creature chooses which aura while in them.
+##### Nivel 3: El cazador y la presa
+Eliges una opción (puedes cambiarla tras un descanso corto o largo):
+- **Azote de colosos.** 1d8 de daño adicional una vez por turno si el objetivo está dañado.
+- **Destructor de hordas.** Un ataque adicional gratuito contra otra criatura a 1,5 m de la primera dentro de tu alcance.
 
-#### Level 9: Abjure Foes
+##### Nivel 3: Sabiduría del cazador
+Al poner tu *marca del cazador* sobre una criatura, conoces de inmediato sus inmunidades, resistencias y vulnerabilidades.
 
-As a Magic action, you can expend one use of this class's Channel Divinity to overwhelm foes with awe. As you present your Holy Symbol or weapon, you can target a number of creatures equal to your Carisma modifier (minimum of one creature) that you can see within 60 pies of yourself. Each target must succeed on a Sabiduría saving throw or have the Frightened condition for 1 minute or until it takes any damage. While Frightened in this way, a target can do only one of the following on its turns: move, take an action, or take a Bonus Action.
+##### Nivel 7: Tácticas defensivas
+Eliges una opción (cambiable tras descanso corto o largo):
+- **Defensa contra ataques múltiples.** Tras recibir un impacto, el atacante tiene desventaja en sus demás ataques contra ti este turno.
+- **Escapar de la horda.** Los ataques de oportunidad contra ti tienen desventaja.
 
-#### Level 10: Aura of Courage
+##### Nivel 11: El cazador experto y la presa
+Al infligir daño adicional de *marca del cazador*, también dañas a otra criatura visible a 9 m o menos.
 
-You and your allies have Immunity to the Frightened condition while in your Aura of Protection. If a Frightened ally enters the aura, that condition has no effect on that ally while there.
+##### Nivel 15: Defensa de cazador experto
+Reacción al recibir daño para obtener resistencia a ese tipo de daño por el resto del turno.
 
-#### Level 11: Radiant Strikes
+---
 
-Your strikes now carry supernatural power. When you hit a target with an attack roll using a Melee weapon or an Unarmed Strike, the target takes an extra 1d8 Radiant damage.
+#### Errante Feérico
 
-#### Level 14: Restoring Touch
+*Sírvete del júbilo y la furia feéricos.*
 
-When you use Lay On Hands on a creature, you can also remove one or more of the following conditions from the creature: Blinded, Charmed, Deafened, Frightened, Paralyzed, or Stunned. You must expend 5 Hit Points from the healing pool of Lay On Hands for each of these conditions you remove; those points don't also restore Hit Points to the creature.
+##### Nivel 3: Conjuros de errante feérico
+**Conjuros de errante feérico**
+| Nivel de explorador | Conjuro |
+|---|---|
+| 3 | *Hechizar persona* |
+| 5 | *Paso brumoso* |
+| 9 | *Invocar feérico* |
+| 13 | *Puerta dimensional* |
+| 17 | *Engañar* |
 
-#### Level 18: Aura Expansion
+##### Nivel 3: Dádivas de los Parajes Feéricos
+Obtienes una manifestación feérica estética (mariposas, flores en el pelo, aromas a especias, etc.).
 
-Your Aura of Protection is now a 30-foot Emanation.
+##### Nivel 3: Glamur sobrenatural
+Sumas tu modificador por Sabiduría a cualquier prueba de Carisma y ganas competencia en Engaño, Interpretación o Persuasión.
 
-#### Level 19: Epic Boon
+##### Nivel 3: Golpes pavorosos
+Tus ataques con armas infligen 1d4 de daño psíquico adicional una vez por turno (aumenta a 1d6 en nivel 11).
 
-You gain an Epic Boon feat (see "Feats") or another feat of your choice for which you qualify. Boon of Truesight is recommended.
+##### Nivel 7: Giro seductor
+Ventaja en salvaciones contra asustado o hechizado. Cuando tú o un aliado a 36 m tengáis éxito en una salvación contra estos estados, reacción para asustar o hechizar a otro enemigo a 36 m durante 1 minuto.
 
-### Paladín (Paladin) Spell List
+##### Nivel 11: Refuerzos feéricos
+Puedes lanzar *invocar feérico* sin componentes materiales y una vez gratis por descanso largo sin requerir concentración (duración 1 min).
 
-This section presents the Paladin spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column, _C_ means the spell requires Concentration, _R_ means it's a Ritual, and _M_ means it requires a specific Material component.
+##### Nivel 15: Errante brumoso
+Puedes lanzar *paso brumoso* gratis veces iguales a tu modificador por Sabiduría por descanso largo y teletransportar a un aliado a 1,5 m contigo.
 
-#### Level 1 Paladin Spells
+---
+
+#### Señor de las Bestias
+
+*Estrecha lazos con una bestia primigenia.*
+
+##### Nivel 3: Compañero primigenio
+Invocas mágicamente a una bestia primigenia (*bestia de los mares*, *bestia de tierra firme* o *bestia del cielo*). Actúa en tu turno. Puedes ordenarle atacar mediante acción adicional o sustituyendo uno de tus ataques.
+
+##### Nivel 7: Entrenamiento excepcional
+Con tu acción adicional puedes ordenarle realizar Ayudar, Correr, Destrabarse o Esquivar. Su daño puede ser de fuerza o físico.
+
+##### Nivel 11: Furia bestial
+La bestia puede hacer dos ataques de Golpe de bestia al recibir la orden y activa el daño adicional de tu *marca del cazador*.
+
+##### Nivel 15: Compartir conjuros
+Cualquier conjuro que lances sobre ti mismo también afecta a tu bestia primigenia si está a 9 m o menos.
+
+##### Perfiles de Bestias Primigenias
+
+###### Bestia de los Mares
+*Bestia Mediana, neutral*
+- **CA:** 13 + Sabiduría
+- **PG:** 5 + 5 × nivel de explorador (dados d8 = nivel)
+- **Velocidad:** 1,5 m, nadar 18 m
+- **FUE:** 14 (+2), **DES:** 14 (+2), **CON:** 15 (+2), **INT:** 8 (-1), **SAB:** 14 (+2), **CAR:** 11 (+0)
+- **Sentidos:** Visión en la oscuridad 27 m, Percepción pasiva 12
+- **Idiomas:** Entiende los idiomas que conozcas
+- **Anfibia.** Puede respirar en agua y aire.
+- **Vínculo primigenio.** Suma tu bonificador por competencia a sus pruebas y salvaciones.
+- **Golpe de bestia.** *Ataque cuerpo a cuerpo:* Tu bonificador de conjuros al ataque, alcance 1,5 m. *Impacto:* 1d6 + 2 + Sabiduría de daño contundente o perforante y el objetivo queda agarrado (CD igual a tu CD de conjuros).
+
+###### Bestia del Cielo
+*Bestia Pequeña, neutral*
+- **CA:** 13 + Sabiduría
+- **PG:** 4 + 4 × nivel de explorador (dados d6 = nivel)
+- **Velocidad:** 3 m, volar 18 m
+- **FUE:** 6 (-2), **DES:** 16 (+3), **CON:** 13 (+1), **INT:** 8 (-1), **SAB:** 14 (+2), **CAR:** 11 (+0)
+- **Sentidos:** Visión en la oscuridad 18 m, Percepción pasiva 12
+- **Idiomas:** Entiende los idiomas que conozcas
+- **Pasar volando.** No provoca ataques de oportunidad al volar.
+- **Vínculo primigenio.** Suma tu bonificador por competencia a sus pruebas y salvaciones.
+- **Golpe de bestia.** *Ataque cuerpo a cuerpo:* Tu bonificador de conjuros al ataque, alcance 1,5 m. *Impacto:* 1d4 + 3 + Sabiduría de daño cortante.
+
+###### Bestia de Tierra Firme
+*Bestia Mediana, neutral*
+- **CA:** 13 + Sabiduría
+- **PG:** 5 + 5 × nivel de explorador (dados d8 = nivel)
+- **Velocidad:** 12 m, trepar 12 m
+- **FUE:** 14 (+2), **DES:** 14 (+2), **CON:** 15 (+2), **INT:** 8 (-1), **SAB:** 14 (+2), **CAR:** 11 (+0)
+- **Sentidos:** Visión en la oscuridad 18 m, Percepción pasiva 12
+- **Idiomas:** Entiende los idiomas que conozcas
+- **Vínculo primigenio.** Suma tu bonificador por competencia a sus pruebas y salvaciones.
+- **Golpe de bestia.** *Ataque cuerpo a cuerpo:* Tu bonificador de conjuros al ataque, alcance 1,5 m. *Impacto:* 1d8 + 2 + Sabiduría de daño contundente, cortante o perforante. Si se movió al menos 6 m antes del impacto, causa 1d6 de daño extra y derriba a criaturas Grandes o menores.
+
+---
+
+## Guerrero
+
+Los guerreros dominan todas las armas y armaduras imaginables. Combinan un riguroso entrenamiento marcial con una versatilidad táctica sin igual, convirtiéndose en el pilar fundamental de cualquier grupo de aventureros frente a los peligros del campo de batalla.
+
+Los guerreros aprenden los conceptos básicos de todos los estilos de combate. Cada uno de ellos se especializa en una determinada forma de combatir: algunos se concentran en el tiro con arco, otros en el combate con dos armas a la vez y otros en aumentar sus habilidades marciales con magia arcana o poderes psiónicos.
+
+### Atributos básicos de guerrero
 
 <table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
   <tbody>
     <tr>
-      <td>Bless</td>
-      <td>Enchantment</td>
-      <td>C, M</td>
+      <td><strong>Característica principal</strong></td>
+      <td>Fuerza o Destreza</td>
     </tr>
     <tr>
-      <td>Command</td>
-      <td>Enchantment</td>
-      <td>—</td>
+      <td><strong>Dado de puntos de golpe</strong></td>
+      <td>1d10 por nivel de guerrero</td>
     </tr>
     <tr>
-      <td>Cure Wounds</td>
-      <td>Abjuration</td>
-      <td>—</td>
+      <td><strong>Competencias en tiradas de salvación</strong></td>
+      <td>Fuerza y Constitución</td>
     </tr>
     <tr>
-      <td>Detect Evil and Good</td>
-      <td>Divination</td>
-      <td>C</td>
+      <td><strong>Competencias en habilidades</strong></td>
+      <td>Elige dos: Acrobacias, Atletismo, Historia, Intimidación, Percepción, Perspicacia, Supervivencia o Trato con animales</td>
     </tr>
     <tr>
-      <td>Detect Magic</td>
-      <td>Divination</td>
-      <td>C, R</td>
+      <td><strong>Competencias con armas</strong></td>
+      <td>Armas sencillas y marciales</td>
     </tr>
     <tr>
-      <td>Detect Poison and Disease</td>
-      <td>Divination</td>
-      <td>C, R</td>
+      <td><strong>Entrenamiento con armaduras</strong></td>
+      <td>Todas las armaduras y escudos</td>
     </tr>
     <tr>
-      <td>Divine Favor</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Divine Smite</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Heroism</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Protection from Evil and Good</td>
-      <td>Abjuration</td>
-      <td>C, M</td>
-    </tr>
-    <tr>
-      <td>Purify Food and Drink</td>
-      <td>Transmutation</td>
-      <td>R</td>
-    </tr>
-    <tr>
-      <td>Searing Smite</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Shield of Faith</td>
-      <td>Abjuration</td>
-      <td>C</td>
+      <td><strong>Equipo inicial</strong></td>
+      <td>Elige A, B o C: (A) cota de malla, espadón, 8 jabalinas, paquete de explorador y 4 po; (B) armadura de cuero tachonado, 2 espadas cortas, arco largo, 20 flechas, carcaj, paquete de explorador y 11 po; o (C) 155 po</td>
     </tr>
   </tbody>
 </table>
 
-#### Level 2 Paladin Spells
+### Convertirse en guerrero
+
+#### Como personaje de nivel 1
+- Obtienes todos los atributos de la tabla "Atributos básicos de guerrero".
+- Obtienes los rasgos de nivel 1 de guerrero, que se muestran en la tabla "Rasgos de guerrero".
+
+#### Como personaje multiclase
+- Obtienes los siguientes atributos de la tabla "Atributos básicos de guerrero": dado de puntos de golpe, competencia con armas marciales y entrenamiento con armaduras ligeras y medias y escudos.
+- Obtienes los rasgos de nivel 1 de guerrero, que se muestran en la tabla "Rasgos de guerrero".
+
+### Rasgos de clase de guerrero
+
+Como guerrero, obtienes los siguientes rasgos de clase cuando alcanzas los niveles de guerrero especificados. Estos rasgos se muestran en la tabla "Rasgos de guerrero".
+
+**Rasgos de guerrero**
 
 <table>
   <thead>
     <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
+      <th>Nivel</th>
+      <th>Bonificador por competencia</th>
+      <th>Rasgos de clase</th>
+      <th>Tomar aliento</th>
+      <th>Maestría con armas</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Aid</td>
-      <td>Abjuration</td>
-      <td>—</td>
+      <td>1</td>
+      <td>+2</td>
+      <td>Estilo de combate, Maestría con armas, Tomar aliento</td>
+      <td>2</td>
+      <td>3</td>
     </tr>
     <tr>
-      <td>Find Steed</td>
-      <td>Conjuration</td>
-      <td>—</td>
+      <td>2</td>
+      <td>+2</td>
+      <td>Acción súbita (un uso), Mente táctica</td>
+      <td>2</td>
+      <td>3</td>
     </tr>
-    <tr>
-      <td>Gentle Repose</td>
-      <td>Necromancy</td>
-      <td>R, M</td>
-    </tr>
-    <tr>
-      <td>Lesser Restoration</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Locate Object</td>
-      <td>Divination</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Magic Weapon</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Prayer of Healing</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Protection from Poison</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Shining Smite</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Warding Bond</td>
-      <td>Abjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Zone of Truth</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 3 Paladin Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Create Food and Water</td>
-      <td>Conjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Daylight</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Dispel Magic</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Magic Circle</td>
-      <td>Abjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Remove Curse</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Revivify</td>
-      <td>Necromancy</td>
-      <td>M</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 4 Paladin Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Aura of Life</td>
-      <td>Abjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Banishment</td>
-      <td>Abjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Death Ward</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Locate Creature</td>
-      <td>Divination</td>
-      <td>C</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 5 Paladin Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Dispel Evil and Good</td>
-      <td>Abjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Geas</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Greater Restoration</td>
-      <td>Abjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Raise Dead</td>
-      <td>Necromancy</td>
-      <td>M</td>
-    </tr>
-  </tbody>
-</table>
-
-### Paladín (Paladin) Subclass: Oath of Devotion
-
-_Uphold the Ideals of Justice and Order_
-
-The Oath of Devotion binds Paladins to the ideals of justice and order. These Paladins meet the archetype of the knight in shining armor. They hold themselves to the highest standards of conduct, and some—for better or worse—hold the rest of the world to the same standards.
-
-Muchos de los que realizan este juramento are devoted to gods of law and good and use their gods' tenets as the measure of personal devotion. Others hold angels as their ideals and incorporate images of angelic alas into their helmets or coats of arms.
-
-These paladins share the following tenets:
-
-- Let your word be your promise.
-- Protect the weak and never fear to act.
-- Let your honorable deeds be an example.
-
-#### Level 3: Oath of Devotion Spells
-
-The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of Devotion Spells table, you thereafter always have the listed spells prepared.
-
-**Oath of Devotion Spells**
-
-<table>
-  <thead>
-    <tr>
-      <th>Paladin Level</th>
-      <th>Spells</th>
-    </tr>
-  </thead>
-  <tbody>
     <tr>
       <td>3</td>
-      <td>Protection from Evil and Good, Shield of Faith</td>
+      <td>+2</td>
+      <td>Subclase de guerrero</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>+2</td>
+      <td>Mejora de característica</td>
+      <td>3</td>
+      <td>4</td>
     </tr>
     <tr>
       <td>5</td>
-      <td>Aid, Zone of Truth</td>
+      <td>+3</td>
+      <td>Ataque adicional, Desplazamiento táctico</td>
+      <td>3</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>+3</td>
+      <td>Mejora de característica</td>
+      <td>3</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>+3</td>
+      <td>Rasgo de subclase</td>
+      <td>3</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>+3</td>
+      <td>Mejora de característica</td>
+      <td>3</td>
+      <td>4</td>
     </tr>
     <tr>
       <td>9</td>
-      <td>Beacon of Hope, Dispel Magic</td>
+      <td>+4</td>
+      <td>Indómito (un uso), Maestro táctico</td>
+      <td>3</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>+4</td>
+      <td>Rasgo de subclase</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>+4</td>
+      <td>Dos ataques adicionales</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>+4</td>
+      <td>Mejora de característica</td>
+      <td>4</td>
+      <td>5</td>
     </tr>
     <tr>
       <td>13</td>
-      <td>Freedom of Movement, Guardian of Faith</td>
+      <td>+5</td>
+      <td>Ataques estudiados, Indómito (dos usos)</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>+5</td>
+      <td>Mejora de característica</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>+5</td>
+      <td>Rasgo de subclase</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>+5</td>
+      <td>Mejora de característica</td>
+      <td>4</td>
+      <td>6</td>
     </tr>
     <tr>
       <td>17</td>
-      <td>Commune, Flame Strike</td>
+      <td>+6</td>
+      <td>Acción súbita (dos usos), Indómito (tres usos)</td>
+      <td>4</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>+6</td>
+      <td>Rasgo de subclase</td>
+      <td>4</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>+6</td>
+      <td>Don épico</td>
+      <td>4</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>+6</td>
+      <td>Tres ataques adicionales</td>
+      <td>4</td>
+      <td>6</td>
     </tr>
   </tbody>
 </table>
 
-#### Level 3: Sacred Weapon
+#### Nivel 1: Estilo de combate
+Obtienes una dote de Estilo de combate de tu elección (como Arquero, Combate a ciegas, Defensa, Duelo, Combate con dos armas, Gran lucha con armas o Intercepción). Cada vez que subas de nivel de guerrero, puedes sustituir esta dote por otra de estilo de combate.
 
-When you take the Attack action, you can expend one use of your Channel Divinity to imbue one Melee weapon that you are holding with positive energy. For 10 minutes or until you use this feature again, you add your Carisma modifier to attack rolls you make with that weapon (minimum bonus of +1), and each time you hit with it, you cause it to deal its normal damage type or Radiant damage.
+#### Nivel 1: Maestría con armas
+Tu entrenamiento con armas te permite utilizar las propiedades de maestría con tres tipos de armas cuerpo a cuerpo o a distancia sencillas o marciales de tu elección. Tras un descanso largo, puedes cambiar una de tus elecciones. Conforme subes de nivel, podrás dominar más armas según la tabla.
 
-The weapon also emits Bright Light in a 20-foot radius and Dim Light 20 pies beyond that.
+#### Nivel 1: Tomar aliento
+Tienes una reserva de resistencia a la que puedes recurrir para protegerte del daño. Como acción adicional, puedes recuperar una cantidad de puntos de golpe igual a 1d10 más tu nivel de guerrero.
 
-You can end this effect early (no action required). This effect also ends if you aren't carrying the weapon.
+Puedes usar este rasgo dos veces. Recuperas un uso gastado tras finalizar un descanso corto y todos tras un descanso largo. Obtienes usos adicionales en niveles superiores según la columna "Tomar aliento".
 
-#### Level 7: Aura of Devotion
+#### Nivel 2: Acción súbita
+Puedes superar tus límites momentáneamente. En tu turno, puedes llevar a cabo una acción adicional además de tu acción normal. Tras usar este rasgo, debes finalizar un descanso corto o largo para volver a utilizarlo (dos usos a nivel 17).
 
-You and your allies have Immunity to the Charmed condition while in your Aura of Protection. If a Charmed ally enters the aura, that condition has no effect on that ally while there.
+#### Nivel 2: Mente táctica
+Tienes una aptitud innata para el liderazgo y la táctica. Cuando fallas una prueba de característica, puedes gastar un uso de tu rasgo Tomar aliento para tirar 1d10 y sumarlo a la prueba. Si aun así fallas la prueba, el uso de Tomar aliento no se gasta.
 
-#### Level 15: Smite of Protection
+#### Nivel 3: Subclase de guerrero
+Consigues una subclase de guerrero de tu elección: Caballero Arcano, Campeón, Guerrero Psiónico o Maestro del Combate.
 
-Your magical smite now radiates protective energy. Whenever you cast _Divine Smite_, you and your allies have Half Cover while in your Aura of Protection. The aura has this benefit until the start of your next turn.
+#### Nivel 4: Mejora de característica
+Obtienes la dote Mejora de característica u otra dote para la que cumplas condiciones. Vuelves a obtener este rasgo en los niveles 6, 8, 12, 14 y 16 de guerrero.
 
-#### Level 20: Holy Nimbus
+#### Nivel 5: Ataque adicional
+Al llevar a cabo la acción de atacar en tu turno, puedes hacer dos ataques en lugar de uno.
 
-As a Bonus Action, you can imbue your Aura of Protection with holy power, granting the benefits below for 10 minutes or until you end them (no action required). Una vez que use this feature, you can't use it again until you finish a Long Rest. You can also restore your use of it by expending a level 5 spell slot (no action required).
+#### Nivel 5: Desplazamiento táctico
+Cuando uses tu rasgo Tomar aliento con una acción adicional, podrás moverte hasta la mitad de tu velocidad sin provocar ataques de oportunidad.
 
-_Holy Ward._ You have Advantage on any saving throw you are forced to make by a Fiend or an Undead.
+#### Nivel 9: Indómito
+Si fallas una tirada de salvación, puedes repetirla con un bonificador igual a tu nivel de guerrero. Debes quedarte con el nuevo resultado. Recuperas este rasgo tras finalizar un descanso largo (dos usos en el nivel 13 y tres en el nivel 17).
 
-_Radiant Damage._ Whenever an enemy starts its turn in the aura, that creature takes Radiant damage equal to your Carisma modifier plus your Proficiency Bonus.
+#### Nivel 9: Maestro táctico
+Cuando ataques usando un arma con la que puedas utilizar su propiedad de maestría, puedes sustituir la propiedad para ese ataque por la de *debilitar*, *empujar* o *ralentizar*.
 
-_Sunlight._ The aura is filled with Bright Light that is sunlight.
+#### Nivel 11: Dos ataques adicionales
+Al llevar a cabo la acción de atacar en tu turno, puedes hacer tres ataques en lugar de uno.
 
-## Explorador (Ranger)
+#### Nivel 13: Ataques estudiados
+Si haces una tirada de ataque contra una criatura y fallas, tendrás ventaja en tu siguiente tirada de ataque contra esa criatura antes del final de tu siguiente turno.
 
-**Rasgos Principales del Explorador (Ranger)**
+#### Nivel 19: Don épico
+Obtienes una dote de don épico u otra de tu elección. Se recomienda *Don de la pericia en combate*.
 
-<table>
-  <tbody>
-    <tr>
-      <td>Característica Primaria</td>
-      <td>Destreza and Sabiduría</td>
-    </tr>
-    <tr>
-      <td>Dado de Puntos de Golpe</td>
-      <td>D10 per Ranger level</td>
-    </tr>
-    <tr>
-      <td>Competencia en Tiradas de Salvación</td>
-      <td>Fuerza and Destreza</td>
-    </tr>
-    <tr>
-      <td>Competencia en Habilidades</td>
-      <td>Choose 3: Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, or Survival</td>
-    </tr>
-    <tr>
-      <td>Competencia en Armas</td>
-      <td>Simple and Martial weapons</td>
-    </tr>
-    <tr>
-      <td>Entrenamiento con Armaduras</td>
-      <td>Light and Medium armor and Shields</td>
-    </tr>
-    <tr>
-      <td>Equipo Inicial</td>
-      <td>Choose A or B: (A) Studded Leather Armor, Scimitar, Shortsword, Longbow, 20 Arrows, Quiver, Druidic Focus (sprig of mistletoe), Explorer's Pack, and 7 po; or (B) 150 po</td>
-    </tr>
-  </tbody>
-</table>
+#### Nivel 20: Tres ataques adicionales
+Al llevar a cabo la acción de atacar en tu turno, puedes hacer cuatro ataques en lugar de uno.
 
-### Becoming a Ranger …
+---
 
-#### As a Level 1 Character
+### Subclases de guerrero
 
-- Gain all the traits in the Core Ranger Traits table.
-- Gain the Ranger's level 1 features, which are listed in the Ranger Features table.
+#### Caballero Arcano
 
-#### As a Multiclass Character
+*Refuerza tus habilidades de combate con magia arcana.*
 
-- Gain the following traits from the Core Ranger Traits table: Hit Point Die, proficiency with Martial weapons, proficiency in one skill of your choice from the Ranger's skill list, and training with Light and Medium armor and Shields.
-- Gain the Ranger's level 1 features, which are listed in the Ranger Features table. See the multiclassing rules in "Character Creation" to determine your available spell slots.
-
-### Explorador (Ranger) Class Features
-
-As a Ranger, you gain the following class features when you reach the specified Ranger levels. These features are listed in the Ranger Features table.
-
-**Ranger Features**
-
+##### Nivel 3: Lanzamiento de conjuros del caballero arcano
+**Lanzamiento de conjuros del caballero arcano**
 <table>
   <thead>
     <tr>
-      <th>Level</th>
-      <th>Proficiency Bonus</th>
-      <th>Class Features</th>
-      <th>Favored Enemy</th>
-      <th>Prepared Spells</th>
-      <th colspan="5">——Spell Slots per Spell Level——</th>
+      <th rowspan="2">Nivel de guerrero</th>
+      <th rowspan="2">Trucos</th>
+      <th rowspan="2">Conjuros preparados</th>
+      <th colspan="4">Espacios de conjuro</th>
     </tr>
     <tr>
-      <th>
-      </th>
-      <th>
-      </th>
-      <th>
-      </th>
-      <th>
-      </th>
-      <th>
-      </th>
       <th>1</th>
       <th>2</th>
       <th>3</th>
       <th>4</th>
-      <th>5</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>1</td>
-      <td>+2</td>
-      <td>Spellcasting, Favored Enemy, Weapon Mastery</td>
-      <td>2</td>
-      <td>2</td>
-      <td>2</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>+2</td>
-      <td>Deft Explorer, Fighting Style</td>
+      <td>3</td>
       <td>2</td>
       <td>3</td>
       <td>2</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>+2</td>
-      <td>Ranger Subclass</td>
-      <td>2</td>
-      <td>4</td>
-      <td>3</td>
-      <td>—</td>
       <td>—</td>
       <td>—</td>
       <td>—</td>
     </tr>
     <tr>
       <td>4</td>
-      <td>+2</td>
-      <td>Ability Score Improvement</td>
       <td>2</td>
-      <td>5</td>
-      <td>3</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>+3</td>
-      <td>Extra Attack</td>
-      <td>3</td>
-      <td>6</td>
       <td>4</td>
-      <td>2</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>+3</td>
-      <td>Roving</td>
       <td>3</td>
-      <td>6</td>
-      <td>4</td>
-      <td>2</td>
       <td>—</td>
       <td>—</td>
       <td>—</td>
     </tr>
     <tr>
       <td>7</td>
-      <td>+3</td>
-      <td>Subclass feature</td>
-      <td>3</td>
-      <td>7</td>
+      <td>2</td>
+      <td>5</td>
       <td>4</td>
-      <td>3</td>
-      <td>—</td>
+      <td>2</td>
       <td>—</td>
       <td>—</td>
     </tr>
     <tr>
       <td>8</td>
-      <td>+3</td>
-      <td>Ability Score Improvement</td>
+      <td>2</td>
+      <td>6</td>
+      <td>4</td>
+      <td>2</td>
+      <td>—</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>10</td>
       <td>3</td>
       <td>7</td>
       <td>4</td>
-      <td>3</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>+4</td>
-      <td>Expertise</td>
-      <td>4</td>
-      <td>9</td>
-      <td>4</td>
-      <td>3</td>
-      <td>2</td>
-      <td>—</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>10</td>
-      <td>+4</td>
-      <td>Tireless</td>
-      <td>4</td>
-      <td>9</td>
-      <td>4</td>
-      <td>3</td>
-      <td>2</td>
-      <td>—</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>11</td>
-      <td>+4</td>
-      <td>Subclass feature</td>
-      <td>4</td>
-      <td>10</td>
-      <td>4</td>
-      <td>3</td>
-      <td>3</td>
-      <td>—</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>12</td>
-      <td>+4</td>
-      <td>Ability Score Improvement</td>
-      <td>4</td>
-      <td>10</td>
-      <td>4</td>
-      <td>3</td>
       <td>3</td>
       <td>—</td>
       <td>—</td>
     </tr>
     <tr>
       <td>13</td>
-      <td>+5</td>
-      <td>Relentless Hunter</td>
-      <td>5</td>
-      <td>11</td>
-      <td>4</td>
       <td>3</td>
-      <td>3</td>
-      <td>1</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>14</td>
-      <td>+5</td>
-      <td>Nature’s Veil</td>
-      <td>5</td>
-      <td>11</td>
-      <td>4</td>
-      <td>3</td>
-      <td>3</td>
-      <td>1</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>15</td>
-      <td>+5</td>
-      <td>Subclass feature</td>
-      <td>5</td>
-      <td>12</td>
-      <td>4</td>
-      <td>3</td>
-      <td>3</td>
-      <td>2</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>16</td>
-      <td>+5</td>
-      <td>Ability Score Improvement</td>
-      <td>5</td>
-      <td>12</td>
-      <td>4</td>
-      <td>3</td>
-      <td>3</td>
-      <td>2</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>17</td>
-      <td>+6</td>
-      <td>Precise Hunter</td>
-      <td>6</td>
-      <td>14</td>
-      <td>4</td>
-      <td>3</td>
-      <td>3</td>
-      <td>3</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>18</td>
-      <td>+6</td>
-      <td>Feral Senses</td>
-      <td>6</td>
-      <td>14</td>
-      <td>4</td>
-      <td>3</td>
-      <td>3</td>
-      <td>3</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>19</td>
-      <td>+6</td>
-      <td>Epic Boon</td>
-      <td>6</td>
-      <td>15</td>
-      <td>4</td>
-      <td>3</td>
-      <td>3</td>
-      <td>3</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>20</td>
-      <td>+6</td>
-      <td>Foe Slayer</td>
-      <td>6</td>
-      <td>15</td>
-      <td>4</td>
-      <td>3</td>
-      <td>3</td>
-      <td>3</td>
-      <td>2</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 1: Spellcasting
-
-You have learned to channel the magical essence of nature to cast spells. See "Spells" for the rules on spellcasting. The information below details how you use those rules with Ranger spells, which appear in the Ranger spell list later in the class's description.
-
-_Spell Slots._ The Ranger Features table shows how muchos spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.
-
-_Prepared Spells of Level 1+._ You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Ranger spells. _Cure Wounds_ and _Ensnaring Strike_ are recommended.
-
-The number of spells on your list increases as you gain Ranger levels, as shown in the Prepared Spells column of the Ranger Features table. Whenever that number increases, choose additional Ranger spells until the number of spells on your list matches the number in the Ranger Features table. The chosen spells must be of a level for which you have spell slots. Por ejemplo, if you're a level 5 Ranger, your list of prepared spells can include six Ranger spells of level 1 or 2 in any combination.
-
-If another Ranger feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Ranger spells for you.
-
-_Changing Your Prepared Spells._ Whenever you finish a Long Rest, you can replace one spell on your list with another Ranger spell for which you have spell slots.
-
-_Spellcasting Ability._ Sabiduría is your spellcasting ability for your Ranger spells.
-
-_Spellcasting Focus._ You can use a Druidic Focus as a Spellcasting Focus for your Ranger spells.
-
-#### Level 1: Favored Enemy
-
-You always have the _Hunter's Mark_ spell prepared. You can cast it twice without expending a spell slot, and you regain all expended uses of this ability when you finish a Long Rest.
-
-The number of times you can cast the spell without a spell slot increases when you reach certain Ranger levels, as shown in the Favored Enemy column of the Ranger Features table.
-
-#### Level 1: Weapon Mastery
-
-Your training with weapons allows you to use the mastery properties of two kinds of weapons of your
-choice with which you have proficiency, such as Longbows and Shortswords.
-
-Whenever you finish a Long Rest, you can change the kinds of weapons you chose. Por ejemplo, you could switch to using the mastery properties of Scimitars and Longswords.
-
-#### Level 2: Deft Explorer
-
-Thanks to your travels, you gain the following benefits.
-
-_Expertise._ Choose one of your skill proficiencies with which you lack Expertise. You gain Expertise in that skill.
-
-_Languages._ You know two languages of your choice from the language tables in "Character Creation."
-
-#### Level 2: Fighting Style
-
-You gain a Fighting Style feat of your choice (see "Feats"). Instead of choosing one of those feats, you can choose the option below.
-
-_Druidic Warrior._ You learn two Druid cantrips of your choice (see the Druid class's section for a list of Druid spells). _Guidance_ and _Starry Wisp_ are recommended. The chosen cantrips count as Ranger spells for you, and Sabiduría is your spellcasting ability for them. Whenever you gain a Ranger level, you can replace one of these cantrips with another Druid cantrip.
-
-#### Level 3: Ranger Subclass
-
-You gain a Ranger subclass of your choice. The Hunter subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Ranger levels. For the rest of your career, you gain each of your subclass's features that are of your Ranger level or lower.
-
-#### Level 4: Ability Score Improvement
-
-You gain the Ability Score Improvement feat (see "Feats") or another feat of your choice for which you qualify. You gain this feature again at Ranger levels 8, 12, and 16.
-
-#### Level 5: Extra Attack
-
-You can attack twice instead of once whenever you take the Attack action on your turn.
-
-#### Level 6: Roving
-
-Your Speed increases by 10 pies while you aren't wearing Heavy armor. You also have a Climb Speed and a Swim Speed equal to your Speed.
-
-#### Level 9: Expertise
-
-Choose two of your skill proficiencies with which you lack Expertise. You gain Expertise in those skills.
-
-#### Level 10: Tireless
-
-Primal forces now help fuel you on your journeys, granting you the following benefits.
-
-_Temporary Hit Points._ As a Magic action, you can give yourself a number of Temporary Hit Points equal to 1d8 plus your Sabiduría modifier (minimum of 1). You can use this action a number of times equal to your Sabiduría modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.
-
-_Decrease Exhaustion._ Whenever you finish a Short Rest, your Exhaustion level, if any, decreases by 1.
-
-#### Level 13: Relentless Hunter
-
-Taking damage can't break your Concentration on _Hunter's Mark_.
-
-#### Level 14: Nature's Veil
-
-You invoke spirits of nature to magically hide yourself. As a Bonus Action, you can give yourself the Invisible condition until the end of your next turn. You can use this feature a number of times equal to your Sabiduría modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.
-
-#### Level 17: Precise Hunter
-
-You have Advantage on attack rolls against the creature currently marked by your _Hunter's Mark_.
-
-#### Level 18: Feral Senses
-
-Your connection to the forces of nature grants you Blindsight with a range of 30 pies.
-
-#### Level 19: Epic Boon
-
-You gain an Epic Boon feat (see "Feats") or another feat of your choice for which you qualify. Boon of Dimensional Travel is recommended.
-
-#### Level 20: Foe Slayer
-
-The damage die of your _Hunter's Mark_ is a d10 rather than a d6.
-
-### Explorador (Ranger) Spell List
-
-This section presents the Ranger spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column, _C_ means the spell requires Concentration, _R_ means it's a Ritual, and _M_ means it requires a specific Material component.
-
-#### Level 1 Ranger Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Alarm</td>
-      <td>Abjuration</td>
-      <td>R</td>
-    </tr>
-    <tr>
-      <td>Animal Friendship</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Cure Wounds</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Detect Magic</td>
-      <td>Divination</td>
-      <td>C, R</td>
-    </tr>
-    <tr>
-      <td>Detect Poison and Disease</td>
-      <td>Divination</td>
-      <td>C, R</td>
-    </tr>
-    <tr>
-      <td>Ensnaring Strike</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Entangle</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Fog Cloud</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Goodberry</td>
-      <td>Conjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Hunter's Mark</td>
-      <td>Divination</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Jump</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Longstrider</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Speak with Animals</td>
-      <td>Divination</td>
-      <td>R</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 2 Ranger Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Aid</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Animal Messenger</td>
-      <td>Enchantment</td>
-      <td>R</td>
-    </tr>
-    <tr>
-      <td>Barkskin</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Darkvision</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Enhance Ability</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Find Traps</td>
-      <td>Divination</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Gust of Wind</td>
-      <td>Evocation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Lesser Restoration</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Locate Animals or Plants</td>
-      <td>Divination</td>
-      <td>R</td>
-    </tr>
-    <tr>
-      <td>Locate Object</td>
-      <td>Divination</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Magic Weapon</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Pass without Trace</td>
-      <td>Abjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Protection from Poison</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Silence</td>
-      <td>Illusion</td>
-      <td>C, R</td>
-    </tr>
-    <tr>
-      <td>Spike Growth</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 3 Ranger Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Conjure Animals</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Daylight</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Dispel Magic</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Meld into Stone</td>
-      <td>Transmutation</td>
-      <td>R</td>
-    </tr>
-    <tr>
-      <td>Nondetection</td>
-      <td>Abjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Plant Growth</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Protection from Energy</td>
-      <td>Abjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Revivify</td>
-      <td>Necromancy</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Speak with Plants</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Water Breathing</td>
-      <td>Transmutation</td>
-      <td>R</td>
-    </tr>
-    <tr>
-      <td>Water Walk</td>
-      <td>Transmutation</td>
-      <td>R</td>
-    </tr>
-    <tr>
-      <td>Wind Wall</td>
-      <td>Evocation</td>
-      <td>C</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 4 Ranger Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Conjure Woodland Beings</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Dominate Beast</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Freedom of Movement</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Locate Creature</td>
-      <td>Divination</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Stoneskin</td>
-      <td>Transmutation</td>
-      <td>C, M</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 5 Ranger Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Commune with Nature</td>
-      <td>Divination</td>
-      <td>R</td>
-    </tr>
-    <tr>
-      <td>Greater Restoration</td>
-      <td>Abjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Tree Stride</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-  </tbody>
-</table>
-
-### Explorador (Ranger) Subclass: Hunter
-
-_Protect Nature and People from Destruction_
-
-You stalk prey in the wilds and elsewhere, using your abilities as a Hunter to protect nature and people everywhere from forces that would destroy them.
-
-#### Level 3: Hunter's Lore
-
-You can call on the forces of nature to reveal certain strengths and weaknesses of your prey. While a creature is marked by your _Hunter's Mark_, you know whether that creature has any Immunities, Resistances, or Vulnerabilities, and if the creature has any, you know what they are.
-
-#### Level 3: Hunter's Prey
-
-You gain one of the following feature options of your choice. Whenever you finish a Short or Long Rest, you can replace the chosen option with the other one.
-
-_Colossus Slayer._ Your tenacity can wear down even the most resilient foes. When you hit a creature with a weapon, the weapon deals an extra 1d8 damage to the target if it's missing any of its Hit Points. You can deal this extra damage only once per turn.
-
-_Horde Breaker._ Una vez on each of your turns when you make an attack with a weapon, you can make another attack with the same weapon against a different creature that is within 5 pies of the original target, that is within the weapon's range, and that you haven't attacked this turn.
-
-#### Level 7: Defensive Tactics
-
-You gain one of the following feature options of your choice. Whenever you finish a Short or Long Rest, you can replace the chosen option with the other one.
-
-_Escape the Horde._ Opportunity Attacks have Disadvantage against you.
-
-_Multiattack Defense._ When a creature hits you with an attack roll, that creature has Disadvantage on all other attack rolls against you this turn.
-
-#### Level 11: Superior Hunter's Prey
-
-Una vez por turn when you deal damage to a creature marked by your _Hunter's Mark_, you can also deal that spell's extra damage to a different creature that you can see within 30 pies of the first creature.
-
-#### Level 15: Superior Hunter's Defense
-
-When you take damage, you can take a Reaction to give yourself Resistance to that damage and any other damage of the same type until the end of the current turn.
-
-## Pícaro (Rogue)
-
-**Rasgos Principales del Pícaro (Rogue)**
-
-<table>
-  <tbody>
-    <tr>
-      <td>Característica Primaria</td>
-      <td>Destreza</td>
-    </tr>
-    <tr>
-      <td>Dado de Puntos de Golpe</td>
-      <td>D8 per Rogue level</td>
-    </tr>
-    <tr>
-      <td>Competencia en Tiradas de Salvación</td>
-      <td>Destreza and Inteligencia</td>
-    </tr>
-    <tr>
-      <td>Competencia en Habilidades</td>
-      <td>Choose 4: Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Persuasion, Sleight of Hand, or Stealth</td>
-    </tr>
-    <tr>
-      <td>Competencia en Armas</td>
-      <td>Simple weapons and Martial weapons that have the Finesse or Light property</td>
-    </tr>
-    <tr>
-      <td>Tool Proficiencies</td>
-      <td>Thieves' Tools</td>
-    </tr>
-    <tr>
-      <td>Entrenamiento con Armaduras</td>
-      <td>Light armor</td>
-    </tr>
-    <tr>
-      <td>Equipo Inicial</td>
-      <td>Choose A or B: (A) Leather Armor, 2 Daggers, Shortsword, Shortbow, 20 Arrows, Quiver, Thieves' Tools, Burglar's Pack, and 8 po; or (B) 100 po</td>
-    </tr>
-  </tbody>
-</table>
-
-### Becoming a Rogue …
-
-#### As a Level 1 Character
-
-- Gain all the traits in the Core Rogue Traits table.
-- Gain the Rogue's level 1 features, which are listed in the Rogue Features table.
-
-#### As a Multiclass Character
-
-- Gain the following traits from the Core Rogue Traits table: Hit Point Die, proficiency in one skill of your choice from the Rogue's skill list, proficiency with Thieves' Tools, and training with Light armor.
-- Gain the Rogue's level 1 features, which are listed in the Rogue Features table.
-
-### Pícaro (Rogue) Class Features
-
-As a Rogue, you gain the following class features when you reach the specified Rogue levels. These features are listed in the Rogue Features table.
-
-**Rogue Features**
-
-<table>
-  <thead>
-    <tr>
-      <th>Level</th>
-      <th>Proficiency Bonus</th>
-      <th>Class Features</th>
-      <th>Sneak Attack</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>+2</td>
-      <td>Expertise, Sneak Attack, Thieves' Cant, Weapon Mastery</td>
-      <td>1d6</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>+2</td>
-      <td>Cunning Action</td>
-      <td>1d6</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>+2</td>
-      <td>Rogue Subclass, Steady Aim</td>
-      <td>2d6</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>+2</td>
-      <td>Ability Score Improvement</td>
-      <td>2d6</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>+3</td>
-      <td>Cunning Strike, Uncanny Dodge</td>
-      <td>3d6</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>+3</td>
-      <td>Expertise</td>
-      <td>3d6</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>+3</td>
-      <td>Evasion, Reliable Talent</td>
-      <td>4d6</td>
-    </tr>
-    <tr>
-      <td>8</td>
-      <td>+3</td>
-      <td>Ability Score Improvement</td>
-      <td>4d6</td>
-    </tr>
-    <tr>
       <td>9</td>
-      <td>+4</td>
-      <td>Subclass feature</td>
-      <td>5d6</td>
-    </tr>
-    <tr>
-      <td>10</td>
-      <td>+4</td>
-      <td>Ability Score Improvement</td>
-      <td>5d6</td>
-    </tr>
-    <tr>
-      <td>11</td>
-      <td>+4</td>
-      <td>Improved Cunning Strike</td>
-      <td>6d6</td>
-    </tr>
-    <tr>
-      <td>12</td>
-      <td>+4</td>
-      <td>Ability Score Improvement</td>
-      <td>6d6</td>
-    </tr>
-    <tr>
-      <td>13</td>
-      <td>+5</td>
-      <td>Subclass feature</td>
-      <td>7d6</td>
+      <td>4</td>
+      <td>3</td>
+      <td>2</td>
+      <td>—</td>
     </tr>
     <tr>
       <td>14</td>
-      <td>+5</td>
-      <td>Devious Strikes</td>
-      <td>7d6</td>
-    </tr>
-    <tr>
-      <td>15</td>
-      <td>+5</td>
-      <td>Slippery Mind</td>
-      <td>8d6</td>
+      <td>3</td>
+      <td>10</td>
+      <td>4</td>
+      <td>3</td>
+      <td>2</td>
+      <td>—</td>
     </tr>
     <tr>
       <td>16</td>
-      <td>+5</td>
-      <td>Ability Score Improvement</td>
-      <td>8d6</td>
-    </tr>
-    <tr>
-      <td>17</td>
-      <td>+6</td>
-      <td>Subclass feature</td>
-      <td>9d6</td>
-    </tr>
-    <tr>
-      <td>18</td>
-      <td>+6</td>
-      <td>Elusive</td>
-      <td>9d6</td>
+      <td>3</td>
+      <td>11</td>
+      <td>4</td>
+      <td>3</td>
+      <td>3</td>
+      <td>—</td>
     </tr>
     <tr>
       <td>19</td>
-      <td>+6</td>
-      <td>Epic Boon</td>
-      <td>10d6</td>
+      <td>3</td>
+      <td>12</td>
+      <td>4</td>
+      <td>3</td>
+      <td>3</td>
+      <td>1</td>
     </tr>
     <tr>
       <td>20</td>
-      <td>+6</td>
-      <td>Stroke of Luck</td>
-      <td>10d6</td>
+      <td>3</td>
+      <td>13</td>
+      <td>4</td>
+      <td>3</td>
+      <td>3</td>
+      <td>1</td>
     </tr>
   </tbody>
 </table>
 
-#### Level 1: Expertise
+- **Trucos:** Conoces dos trucos de mago (recomendados: *agarre electrizante* y *rayo de escarcha*; aprendes otro en nivel 10).
+- **Conjuros preparados:** Preparas conjuros de nivel 1 a 4 de la lista de mago.
+- **Aptitud mágica:** Inteligencia.
+- **Canalizador mágico:** Canalizador arcano.
 
-You gain Expertise in two of your skill proficiencies of your choice. Sleight of Hand and Stealth are recommended if you have proficiency in them.
+##### Nivel 3: Vínculo de guerra
+Mediante un ritual de 1 hora, te vinculas con hasta dos armas. No pueden desarmarte de ellas y puedes invocarlas a tu mano con una acción adicional desde el mismo plano.
 
-At Rogue level 6, you gain Expertise in two more of your skill proficiencies of your choice.
+##### Nivel 7: Magia de guerra
+Al realizar la acción de atacar, puedes sustituir uno de los ataques por el lanzamiento de un truco de mago que requiera una acción.
 
-#### Level 1: Sneak Attack
+##### Nivel 10: Golpe sobrenatural
+Al acertar a una criatura con un arma, esta tiene desventaja en la siguiente salvación que haga contra un conjuro que lances antes del final de tu siguiente turno.
 
-You know how to strike subtly and exploit a foe's distraction. Una vez por turn, you can deal an extra 1d6 damage to one creature you hit with an attack roll if you have Advantage on the roll and the attack uses a Finesse or a Ranged weapon. The extra damage's type is the same as the weapon's type.
+##### Nivel 15: Carga arcana
+Al usar Acción súbita, puedes teletransportarte hasta 9 m a un espacio visible antes o después de la acción adicional.
 
-You don't need Advantage on the attack roll if at least one of your allies is within 5 pies of the target, the ally doesn't have the Incapacitated condition, and you don't have Disadvantage on the attack roll. The extra damage increases as you gain Rogue levels, as shown in the Sneak Attack column of the Rogue Features table.
+##### Nivel 18: Magia de guerra mejorada
+Al realizar la acción de atacar, puedes sustituir dos de los ataques por el lanzamiento de un conjuro de mago de nivel 1 o 2 que requiera una acción.
 
-#### Level 1: Thieves' Cant
+---
 
-You picked up various languages in the communities where you plied your roguish talents. You know Thieves' Cant and one other language of your choice, which you choose from the language tables in "Character Creation."
+#### Campeón
 
-#### Level 1: Weapon Mastery
+*Aspira a la excelencia física en combate.*
 
-Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Daggers and Shortbows.
+##### Nivel 3: Atleta sobresaliente
+Ventaja en tiradas de iniciativa y pruebas de Fuerza (Atletismo). Al causar un impacto crítico, puedes moverte hasta la mitad de tu velocidad sin provocar ataques de oportunidad.
 
-Whenever you finish a Long Rest, you can change the kinds of weapons you chose. Por ejemplo, you could switch to using the mastery properties of Scimitars and Shortswords.
+##### Nivel 3: Crítico mejorado
+Tus ataques con armas e impactos sin armas causan impactos críticos con un resultado de 19 o 20 en el d20.
 
-#### Level 2: Cunning Action
+##### Nivel 7: Estilo de combate adicional
+Obtienes otra dote de estilo de combate de tu elección.
 
-Your quick thinking and agility allow you to move and act quickly. On your turn, you can take one of the following actions as a Bonus Action: Dash, Disengage, or Hide.
+##### Nivel 10: Guerrero heroico
+Durante el combate, te otorgas inspiración heroica siempre que empieces tu turno sin ella.
 
-#### Level 3: Rogue Subclass
+##### Nivel 15: Crítico superior
+Tus tiradas de ataque causan impactos críticos con un resultado de 18 a 20 en el d20.
 
-You gain a Rogue subclass of your choice. The Thief subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Rogue levels. For the rest of your career, you gain each of your subclass's features that are of your Rogue level or lower.
+##### Nivel 18: Superviviente
+- **Desafiar a la muerte.** Ventaja en tiradas de salvación contra muerte; resultados de 18 a 20 funcionan como un 20 natural.
+- **Mejoría heroica.** Al principio de cada turno recuperas 5 más tu modificador por Constitución en puntos de golpe si estás maltrecho y tienes al menos 1 PG.
 
-#### Level 3: Steady Aim
+---
 
-As a Bonus Action, you give yourself Advantage on your next attack roll on the current turn. You can use this feature only if you haven't moved during this turn, and after you use it, your Speed is 0 until the end of the current turn.
+#### Guerrero Psiónico
 
-#### Level 4: Ability Score Improvement
+*Aumenta tu poderío físico con el poder psiónico.*
 
-You gain the Ability Score Improvement feat (see "Feats") or another feat of your choice for which you qualify. You gain this feature again at Rogue levels 8, 10, 12, and 16.
+##### Nivel 3: Poder psiónico
+Cuentas con una reserva de dados de energía psiónica:
 
-#### Level 5: Cunning Strike
+**Dados de energía del guerrero psiónico**
+| Nivel de guerrero | Tamaño del dado | Cantidad |
+|---|---|---|
+| 3 | d6 | 4 |
+| 5 | d8 | 6 |
+| 9 | d8 | 8 |
+| 11 | d10 | 8 |
+| 13 | d10 | 10 |
+| 17 | d12 | 12 |
 
-You've developed cunning ways to use your Sneak Attack. When you deal Sneak Attack damage, you can add one of the following Cunning Strike effects. Each effect has a die cost, which is the number of Sneak Attack damage dice you must forgo to add the effect. You remove the die before rolling, and the effect occurs immediately after the attack's damage is dealt. Por ejemplo, if you add the Poison effect, remove 1d6 from the Sneak Attack's damage before rolling.
+Recuperas un dado tras un descanso corto y todos tras un descanso largo.
+- **Campo protector.** Reacción al recibir daño (tú o un aliado a 9 m): reduce el daño en la tirada del dado de energía + Inteligencia.
+- **Golpe psiónico.** Una vez por turno al acertar con un arma a 9 m o menos: causa daño de fuerza adicional igual al dado de energía + Inteligencia.
+- **Movimiento telequinético.** Acción de magia para mover un objeto suelto Grande o menor o criatura voluntaria hasta 9 m (un uso gratis por descanso corto/largo o gastando un dado).
 
-If a Cunning Strike effect requires a saving throw, the DC equals 8 plus your Destreza modifier and Proficiency Bonus.
+##### Nivel 7: Adepto telequinético
+- **Empujón telequinético.** Al causar daño con Golpe psiónico, salvación de Fuerza del objetivo o queda derribado o empujado 3 m.
+- **Salto psiónico.** Acción adicional para volar al doble de tu velocidad hasta el final del turno (un uso gratis por descanso corto/largo o gastando un dado).
 
-_Poison (Cost: 1d6)._ You add a toxin to your strike, forcing the target to make a Constitución saving throw. On a failed save, the target has the Poisoned condition for 1 minute. At the end of each of its turns, the Poisoned target repeats the save, ending the effect on itself on a success.
+##### Nivel 10: Mente robusta
+Resistencia al daño psíquico y puedes gastar un dado de energía al inicio de tu turno para quitarte el estado de asustado o hechizado.
 
-To use this effect, you must have a Poisoner's Kit on your person.
+##### Nivel 15: Bastión de fuerza
+Acción adicional para otorgar cobertura media a criaturas a 9 m (hasta tu Inteligencia) durante 1 minuto (un uso por descanso largo o gastando un dado).
 
-_Trip (Cost: 1d6)._ If the target is Large or smaller, it must succeed on a Destreza saving throw or have the Prone condition.
+##### Nivel 18: Maestro telequinético
+Lanzas *telequinesis* gratis una vez por descanso largo (o gastando un dado) y puedes realizar un ataque con arma como acción adicional en cada turno que mantengas la concentración.
 
-_Withdraw (Cost: 1d6)._ Immediately after the attack, you move up to half your Speed without provoking Opportunity Attacks.
+---
 
-#### Level 5: Uncanny Dodge
+#### Maestro del Combate
 
-When an attacker that you can see hits you with an attack roll, you can take a Reaction to halve the attack's damage against you (round down).
+*Domina maniobras de combate avanzadas.*
 
-#### Level 7: Evasion
+##### Nivel 3: Estudioso de la guerra
+Ganas competencia con un tipo de herramientas de artesano y en una habilidad de la lista de guerrero.
 
-You can nimbly dodge out of the way of certain dangers. When you're subjected to an effect that allows you to make a Destreza saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can't use this feature if you have the Incapacitated condition.
+##### Nivel 3: Supremacía en combate
+- **Dados de supremacía.** Tienes cuatro dados de supremacía (d8). Recuperas todos tras finalizar un descanso corto o largo. Obtienes un dado adicional en los niveles 7 (5 dados) y 15 (6 dados). Tus dados aumentan a d10 en el nivel 10 y a d12 en el nivel 18.
+- **Maniobras.** Aprendes 3 maniobras a nivel 3, y 2 adicionales en los niveles 7, 10 y 15. La CD de salvación de las maniobras es 8 + bonificador por competencia + modificador por Fuerza o Destreza.
 
-#### Level 7: Reliable Talent
+##### Nivel 7: Conoce a tu enemigo
+Si observas a una criatura durante 1 minuto o la golpeas con un arma, conoces de inmediato si sus puntuaciones de característica, CA o PG actuales son superiores, inferiores o iguales a las tuyas.
 
-Whenever you make an ability check that uses one of your skill or tool proficiencies, you can treat a d20 roll of 9 or lower as a 10.
+##### Nivel 15: Implacable
+Al tirar iniciativa sin dados de supremacía, recuperas uno.
 
-#### Level 11: Improved Cunning Strike
-
-You can use up to two Cunning Strike effects when you deal Sneak Attack damage, paying the die cost for each effect.
-
-#### Level 14: Devious Strikes
-
-You've practiced new ways to use your Sneak Attack deviously. The following effects are now among your Cunning Strike options.
-
-_Daze (Cost: 2d6)._ The target must succeed on a Constitución saving throw, or on its next turn, it can do only one of the following: move or take an action or a Bonus Action.
-
-_Knock Out (Cost: 6d6)._ The target must succeed on a Constitución saving throw, or it has the Unconscious condition for 1 minute or until it takes any damage. The Unconscious target repeats the save at the end of each of its turns, ending the effect on itself on a success.
-
-_Obscure (Cost: 3d6)._ The target must succeed on a Destreza saving throw, or it has the Blinded condition until the end of its next turn.
-
-#### Level 15: Slippery Mind
-
-Your cunning mind is exceptionally difficult to control. You gain proficiency in Sabiduría and Carisma saving throws.
-
-#### Level 18: Elusive
-
-You're so evasive that attackers rarely gain the upper hand against you. No attack roll can have Advantage against you unless you have the Incapacitated condition.
-
-#### Level 19: Epic Boon
-
-You gain an Epic Boon feat (see "Feats") or another feat of your choice for which you qualify. Boon of the Night Spirit is recommended.
-
-#### Level 20: Stroke of Luck
-
-You have a marvelous knack for succeeding when you need to. If you fail a D20 Test, you can turn the roll into a 20.
-
-Una vez que use this feature, you can't use it again until you finish a Short or Long Rest.
-
-### Pícaro (Rogue) Subclass: Thief
-
-_Hunt for Treasure as a Classic Adventurer_
-
-A mix of burglar, treasure hunter, and explorer, you are the epitome of an adventurer. In addition to improving your agility and stealth, you gain abilities useful for delving into ruins and getting maximum benefit from the magic items you find there.
-
-#### Level 3: Fast Hands
-
-As a Bonus Action, you can do one of the following.
-
-_Sleight of Hand._ Make a Destreza (Sleight of Hand) check to pick a lock or disarm a trap with Thieves' Tools or to pick a pocket.
-
-_Use an Object._ Take the Utilize action, or take the Magic action to use a magic item that requires that action.
-
-#### Level 3: Second-Story Work
-
-You've trained to get into especially hard-to-reach places, granting you these benefits.
-
-_Climber._ You gain a Climb Speed equal to your Speed.
-
-_Jumper._ You can determine your jump distance using your Destreza rather than your Fuerza.
-
-#### Level 9: Supreme Sneak
-
-You gain the following Cunning Strike option.
-
-_Stealth Attack (Cost: 1d6)._ If you have the Hide action's Invisible condition, this attack doesn't end that condition on you if you end the turn behind Three-Quarters Cover or Total Cover.
-
-#### Level 13: Use Magic Device
-
-You've learned how to maximize use of magic items, granting you the following benefits.
-
-_Attunement._ You can attune to up to four magic items at once.
-
-_Charges._ Whenever you use a magic item property that expends charges, roll 1d6. On a roll of 6, you use the property without expending the charges.
-
-_Scrolls._ You can use any _Spell Scroll_, using Inteligencia as your spellcasting ability for the spell. If the spell is a cantrip or a level 1 spell, you can cast it reliably. If the scroll contains a higher-level spell, you must first succeed on an Inteligencia (Arcana) check (DC 10 plus the spell's level). On a successful check, you cast the spell from the scroll. On a failed check, the scroll disintegrates.
-
-#### Level 17: Thief's Reflexes
-
-You are adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal Initiative and your second turn at your Initiative minus 10.
-
-## Hechicero (Sorcerer)
-
-**Rasgos Principales del Hechicero (Sorcerer)**
+##### Opciones de Maniobras
+- **Arremetida.** Acción adicional: gastas un dado para hacer la acción de Correr. Si te mueves 1,5 m antes de impactar cuerpo a cuerpo, sumas el dado al daño.
+- **Ataque amenazador.** Al acertar, sumas el dado al daño y el objetivo debe superar salvación de Sabiduría o queda asustado hasta el final de tu siguiente turno.
+- **Ataque de barrido.** Al acertar cuerpo a cuerpo, gastas el dado para infligir el valor del dado a otra criatura adyacente a tu alcance si el ataque original la hubiera acertado.
+- **Ataque preciso.** Al fallar un ataque, gastas el dado y lo sumas a la tirada de ataque.
+- **Ataque provocador.** Al acertar, sumas el dado al daño y el objetivo debe superar salvación de Sabiduría o tendrá desventaja en ataques contra otros objetivos.
+- **Ataque y derribo.** Al acertar con arma o sin armas, sumas el dado al daño y una criatura Grande o menor debe superar salvación de Fuerza o queda derribada.
+- **Ataque y desarme.** Al acertar, sumas el dado al daño y el objetivo debe superar salvación de Fuerza o suelta un objeto a su espacio.
+- **Ataque y distracción.** Al acertar, sumas el dado al daño y el siguiente ataque de un aliado contra el objetivo tiene ventaja.
+- **Ataque y empujón.** Al acertar con arma o sin armas, sumas el dado al daño y una criatura Grande o menor debe superar salvación de Fuerza o es empujada hasta 4,5 m.
+- **Ataque y maniobra.** Al acertar, sumas el dado al daño y un aliado a la vista puede usar su reacción para moverse hasta la mitad de su velocidad sin provocar ataques de oportunidad del objetivo.
+- **Cambio de posición ventajoso.** Gastas un dado para intercambiar tu posición con un aliado voluntario a 1,5 m sin provocar ataques de oportunidad y otorgas a uno de los dos un bonificador a la CA igual al dado hasta tu siguiente turno.
+- **Contraataque.** Cuando fallen un ataque cuerpo a cuerpo contra ti, reacción y gastas un dado para realizar un ataque cuerpo a cuerpo contra el atacante (sumando el dado al daño si aciertas).
+- **Emboscada.** Gastas un dado y lo sumas a una prueba de Sigilo o tirada de iniciativa.
+- **Evaluación táctica.** Gastas un dado y lo sumas a una prueba de Historia, Investigación o Perspicacia.
+- **Finta.** Acción adicional para gastar un dado y ganar ventaja en tu siguiente ataque contra un objetivo a 1,5 m (sumando el dado al daño si aciertas).
+- **Juego de pies evasivo.** Acción adicional para gastar un dado y hacer la acción de Destrabarse, sumando el dado a tu CA hasta tu siguiente turno.
+- **Orden de ataque.** Renuncias a un ataque para que un aliado use su reacción para atacar de inmediato sumando el dado al daño si acierta.
+- **Parada.** Reacción al sufrir daño cuerpo a cuerpo: reduces el daño en el dado + Fuerza o Destreza.
+- **Presencia imponente.** Gastas un dado y lo sumas a una prueba de Interpretación, Intimidación o Persuasión.
+- **Reagrupar.** Acción adicional para otorgar puntos de golpe temporales a un aliado a 9 m iguales al dado + la mitad de tu nivel de guerrero.
+
+---
+
+## Hechicero
+
+Los hechiceros canalizan la magia innata de su estirpe o de una fuente cósmica. Para ellos, la magia no es el producto de un estudio riguroso ni una devoción religiosa, sino un poder primigenio que fluye directamente por sus venas y responde a su mera fuerza de voluntad.
+
+Algunos hechiceros manifiestan sus poderes debido a un ancestro sobrenatural (un dragón, un feérico o un ser de los planos exteriores), mientras que otros han sido expuestos a extrañas energías cósmicas o radiaciones mágicas. Sea cual sea la causa, los hechiceros no eligen su poder: el poder los elige a ellos.
+
+### Atributos básicos de hechicero
 
 <table>
   <tbody>
     <tr>
-      <td>Característica Primaria</td>
+      <td><strong>Característica principal</strong></td>
       <td>Carisma</td>
     </tr>
     <tr>
-      <td>Dado de Puntos de Golpe</td>
-      <td>D6 per Sorcerer level</td>
+      <td><strong>Dado de puntos de golpe</strong></td>
+      <td>1d6 por nivel de hechicero</td>
     </tr>
     <tr>
-      <td>Competencia en Tiradas de Salvación</td>
-      <td>Constitución and Carisma</td>
+      <td><strong>Competencias en tiradas de salvación</strong></td>
+      <td>Constitución y Carisma</td>
     </tr>
     <tr>
-      <td>Competencia en Habilidades</td>
-      <td>Choose 2: Arcana, Deception, Insight, Intimidation, Persuasion, or Religion</td>
+      <td><strong>Competencias en habilidades</strong></td>
+      <td>Elige dos: Conocimiento arcano, Engaño, Intimidación, Perspicacia, Persuasión o Religión</td>
     </tr>
     <tr>
-      <td>Competencia en Armas</td>
-      <td>Simple weapons</td>
+      <td><strong>Competencias con armas</strong></td>
+      <td>Armas sencillas</td>
     </tr>
     <tr>
-      <td>Entrenamiento con Armaduras</td>
-      <td>None</td>
+      <td><strong>Entrenamiento con armaduras</strong></td>
+      <td>Ninguno</td>
     </tr>
     <tr>
-      <td>Equipo Inicial</td>
-      <td>Choose A or B: (A) Spear, 2 Daggers, Arcane Focus (crystal), Dungeoneer's Pack, and 28 po; or (B) 50 po</td>
+      <td><strong>Equipo inicial</strong></td>
+      <td>Elige A o B: (A) 2 dagas, canalizador arcano (cristal), paquete de explorador y 28 po; o (B) 50 po</td>
     </tr>
   </tbody>
 </table>
 
-### Becoming a Sorcerer …
+### Convertirse en hechicero
 
-#### As a Level 1 Character
+#### Como personaje de nivel 1
+- Obtienes todos los atributos de la tabla "Atributos básicos de hechicero".
+- Obtienes los rasgos de nivel 1 de hechicero, que se muestran en la tabla "Rasgos de hechicero".
 
-- Gain all the traits in the Core Sorcerer Traits table.
-- Gain the Sorcerer's level 1 features, which are listed in the Sorcerer Features table.
+#### Como personaje multiclase
+- Obtienes los siguientes atributos de la tabla "Atributos básicos de hechicero": dado de puntos de golpe.
+- Obtienes los rasgos de nivel 1 de hechicero, que se muestran en la tabla "Rasgos de hechicero". Consulta las reglas de multiclase del capítulo 2 para determinar tus espacios de conjuro disponibles.
 
-#### As a Multiclass Character
+### Rasgos de clase de hechicero
 
-- Gain the Hit Point Die from the Core Sorcerer Traits table.
-- Gain the Sorcerer's level 1 features, which are listed in the Sorcerer Features table. See the multiclassing rules in "Character Creation" to determine your available spell slots.
+Como hechicero, obtienes los siguientes rasgos de clase cuando alcanzas los niveles de hechicero especificados. Estos rasgos se muestran en la tabla "Rasgos de hechicero".
 
-### Hechicero (Sorcerer) Class Features
-
-As a Sorcerer, you gain the following class features when you reach the specified Sorcerer levels. These features are listed in the Sorcerer Features table.
-
-**Sorcerer Features**
+**Rasgos de hechicero**
 
 <table>
   <thead>
     <tr>
-      <th>Level</th>
-      <th>Proficiency Bonus</th>
-      <th>Class Features</th>
-      <th>Sorcery Points</th>
-      <th>Cantrips</th>
-      <th>Prepared Spells</th>
-      <th colspan="9">——Spell Slots per Spell Level——</th>
+      <th rowspan="2">Nivel</th>
+      <th rowspan="2">Bonificador por competencia</th>
+      <th rowspan="2">Rasgos de clase</th>
+      <th rowspan="2">Puntos de hechicería</th>
+      <th rowspan="2">Metamagia conocida</th>
+      <th rowspan="2">Trucos</th>
+      <th rowspan="2">Conjuros preparados</th>
+      <th colspan="9">Espacios de conjuro por nivel de conjuro</th>
     </tr>
     <tr>
-      <th>
-      </th>
-      <th>
-      </th>
-      <th>
-      </th>
-      <th>
-      </th>
-      <th>
-      </th>
-      <th>
-      </th>
       <th>1</th>
       <th>2</th>
       <th>3</th>
@@ -7262,7 +4630,8 @@ As a Sorcerer, you gain the following class features when you reach the specifie
     <tr>
       <td>1</td>
       <td>+2</td>
-      <td>Spellcasting, Innate Sorcery</td>
+      <td>Lanzamiento de conjuros, Magia innata</td>
+      <td>—</td>
       <td>—</td>
       <td>4</td>
       <td>2</td>
@@ -7279,7 +4648,8 @@ As a Sorcerer, you gain the following class features when you reach the specifie
     <tr>
       <td>2</td>
       <td>+2</td>
-      <td>Font of Magic, Metamagic</td>
+      <td>Fuente de magia, Metamagia</td>
+      <td>2</td>
       <td>2</td>
       <td>4</td>
       <td>4</td>
@@ -7296,8 +4666,9 @@ As a Sorcerer, you gain the following class features when you reach the specifie
     <tr>
       <td>3</td>
       <td>+2</td>
-      <td>Sorcerer Subclass</td>
+      <td>Subclase de hechicero</td>
       <td>3</td>
+      <td>2</td>
       <td>4</td>
       <td>6</td>
       <td>4</td>
@@ -7313,8 +4684,9 @@ As a Sorcerer, you gain the following class features when you reach the specifie
     <tr>
       <td>4</td>
       <td>+2</td>
-      <td>Ability Score Improvement</td>
+      <td>Mejora de característica</td>
       <td>4</td>
+      <td>2</td>
       <td>5</td>
       <td>7</td>
       <td>4</td>
@@ -7330,8 +4702,9 @@ As a Sorcerer, you gain the following class features when you reach the specifie
     <tr>
       <td>5</td>
       <td>+3</td>
-      <td>Sorcerous Restoration</td>
+      <td>Guía de hechicería</td>
       <td>5</td>
+      <td>2</td>
       <td>5</td>
       <td>9</td>
       <td>4</td>
@@ -7347,8 +4720,9 @@ As a Sorcerer, you gain the following class features when you reach the specifie
     <tr>
       <td>6</td>
       <td>+3</td>
-      <td>Subclass feature</td>
+      <td>Rasgo de subclase</td>
       <td>6</td>
+      <td>2</td>
       <td>5</td>
       <td>10</td>
       <td>4</td>
@@ -7364,8 +4738,9 @@ As a Sorcerer, you gain the following class features when you reach the specifie
     <tr>
       <td>7</td>
       <td>+3</td>
-      <td>Sorcery Incarnate</td>
+      <td>Guía de hechicería (nivel 4)</td>
       <td>7</td>
+      <td>2</td>
       <td>5</td>
       <td>11</td>
       <td>4</td>
@@ -7381,8 +4756,9 @@ As a Sorcerer, you gain the following class features when you reach the specifie
     <tr>
       <td>8</td>
       <td>+3</td>
-      <td>Ability Score Improvement</td>
+      <td>Mejora de característica</td>
       <td>8</td>
+      <td>2</td>
       <td>5</td>
       <td>12</td>
       <td>4</td>
@@ -7400,6 +4776,7 @@ As a Sorcerer, you gain the following class features when you reach the specifie
       <td>+4</td>
       <td>—</td>
       <td>9</td>
+      <td>2</td>
       <td>5</td>
       <td>14</td>
       <td>4</td>
@@ -7415,8 +4792,9 @@ As a Sorcerer, you gain the following class features when you reach the specifie
     <tr>
       <td>10</td>
       <td>+4</td>
-      <td>Metamagic</td>
+      <td>Metamagia adicional</td>
       <td>10</td>
+      <td>3</td>
       <td>6</td>
       <td>15</td>
       <td>4</td>
@@ -7434,6 +4812,7 @@ As a Sorcerer, you gain the following class features when you reach the specifie
       <td>+4</td>
       <td>—</td>
       <td>11</td>
+      <td>3</td>
       <td>6</td>
       <td>16</td>
       <td>4</td>
@@ -7449,8 +4828,9 @@ As a Sorcerer, you gain the following class features when you reach the specifie
     <tr>
       <td>12</td>
       <td>+4</td>
-      <td>Ability Score Improvement</td>
+      <td>Mejora de característica</td>
       <td>12</td>
+      <td>3</td>
       <td>6</td>
       <td>16</td>
       <td>4</td>
@@ -7468,6 +4848,7 @@ As a Sorcerer, you gain the following class features when you reach the specifie
       <td>+5</td>
       <td>—</td>
       <td>13</td>
+      <td>3</td>
       <td>6</td>
       <td>17</td>
       <td>4</td>
@@ -7483,8 +4864,9 @@ As a Sorcerer, you gain the following class features when you reach the specifie
     <tr>
       <td>14</td>
       <td>+5</td>
-      <td>Subclass feature</td>
+      <td>Rasgo de subclase</td>
       <td>14</td>
+      <td>3</td>
       <td>6</td>
       <td>17</td>
       <td>4</td>
@@ -7502,6 +4884,7 @@ As a Sorcerer, you gain the following class features when you reach the specifie
       <td>+5</td>
       <td>—</td>
       <td>15</td>
+      <td>3</td>
       <td>6</td>
       <td>18</td>
       <td>4</td>
@@ -7517,8 +4900,9 @@ As a Sorcerer, you gain the following class features when you reach the specifie
     <tr>
       <td>16</td>
       <td>+5</td>
-      <td>Ability Score Improvement</td>
+      <td>Mejora de característica</td>
       <td>16</td>
+      <td>3</td>
       <td>6</td>
       <td>18</td>
       <td>4</td>
@@ -7534,8 +4918,9 @@ As a Sorcerer, you gain the following class features when you reach the specifie
     <tr>
       <td>17</td>
       <td>+6</td>
-      <td>Metamagic</td>
+      <td>Metamagia adicional</td>
       <td>17</td>
+      <td>4</td>
       <td>6</td>
       <td>19</td>
       <td>4</td>
@@ -7551,8 +4936,9 @@ As a Sorcerer, you gain the following class features when you reach the specifie
     <tr>
       <td>18</td>
       <td>+6</td>
-      <td>Subclass feature</td>
+      <td>Rasgo de subclase</td>
       <td>18</td>
+      <td>4</td>
       <td>6</td>
       <td>20</td>
       <td>4</td>
@@ -7568,8 +4954,9 @@ As a Sorcerer, you gain the following class features when you reach the specifie
     <tr>
       <td>19</td>
       <td>+6</td>
-      <td>Epic Boon</td>
+      <td>Don épico</td>
       <td>19</td>
+      <td>4</td>
       <td>6</td>
       <td>21</td>
       <td>4</td>
@@ -7585,8 +4972,9 @@ As a Sorcerer, you gain the following class features when you reach the specifie
     <tr>
       <td>20</td>
       <td>+6</td>
-      <td>Arcane Apotheosis</td>
+      <td>Restauración de hechicería</td>
       <td>20</td>
+      <td>4</td>
       <td>6</td>
       <td>22</td>
       <td>4</td>
@@ -7602,2275 +4990,450 @@ As a Sorcerer, you gain the following class features when you reach the specifie
   </tbody>
 </table>
 
-#### Level 1: Spellcasting
-
-Drawing from your innate magic, you can cast spells. See "Spells" for the rules on spellcasting. The information below details how you use those rules with Sorcerer spells, which appear in the Sorcerer spell list later in the class's description.
-
-_Cantrips._ You know four Sorcerer cantrips of your choice. _Light_, _Prestidigitation_, _Shocking Grasp_, and _Sorcerous Burst_ are recommended. Whenever you gain a Sorcerer level, you can replace one of your cantrips from this feature with another Sorcerer cantrip of your choice.
-
-When you reach Sorcerer levels 4 and 10, you learn another Sorcerer cantrip of your choice, as shown in the Cantrips column of the Sorcerer Features table.
-
-_Spell Slots._ The Sorcerer Features table shows how muchos spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.
-
-_Prepared Spells of Level 1+._ You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Sorcerer spells. _Burning Hands_ and _Detect Magic_ are recommended.
-
-The number of spells on your list increases as you gain Sorcerer levels, as shown in the Prepared Spells column of the Sorcerer Features table. Whenever that number increases, choose additional Sorcerer spells until the number of spells on your list matches the number in the Sorcerer Features table. The chosen spells must be of a level for which you have spell slots. Por ejemplo, if you're a level 3 Sorcerer, your list of prepared spells can include six Sorcerer spells of level 1 or 2 in any combination.
-
-If another Sorcerer feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Sorcerer spells for you.
-
-_Changing Your Prepared Spells._ Whenever you gain a Sorcerer level, you can replace one spell on your list with another Sorcerer spell for which you have spell slots.
-
-_Spellcasting Ability._ Carisma is your spellcasting ability for your Sorcerer spells.
-
-_Spellcasting Focus._ You can use an Arcane Focus as a Spellcasting Focus for your Sorcerer spells.
-
-#### Level 1: Innate Sorcery
-
-An event in your past left an indelible mark on you, infusing you with simmering magic. As a Bonus Action, you can unleash that magic for 1 minute, during which you gain the following benefits:
-• The spell save DC of your Sorcerer spells increases by 1.
-• You have Advantage on the attack rolls of Sorcerer spells you cast.
-
-You can use this feature twice, and you regain all expended uses of it when you finish a Long Rest.
-
-#### Level 2: Font of Magic
-
-You can tap into the wellspring of magic within yourself. This wellspring is represented by Sorcery Points, which allow you to create a variety of magical effects.
-
-You have 2 Sorcery Points, and you gain more as you reach higher levels, as shown in the Sorcery Points column of the Sorcerer Features table. You can't have more Sorcery Points than the number shown in the table for your level. You regain all expended Sorcery Points when you finish a Long Rest.
-
-You can use your Sorcery Points to fuel the options below, along with other features, such as Metamagic, that use those points.
-
-_Converting Spell Slots to Sorcery Points._ You can expend a spell slot to gain a number of Sorcery Points equal to the slot's level (no action required).
-
-_Creating Spell Slots._ As a Bonus Action, you can transform unexpended Sorcery Points into one spell slot. The Creating Spell Slots table shows the cost of creating a spell slot of a given level, and it lists the minimum Sorcerer level you must be to create a slot. You can create a spell slot no higher than level 5.
-
-Any spell slot you create with this feature vanishes when you finish a Long Rest.
-
-**Creating Spell Slots**
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell Slot Level</th>
-      <th>Sorcery Point Cost</th>
-      <th>Min. Sorcerer Level</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>2</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>3</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>5</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>6</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>7</td>
-      <td>9</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 2: Metamagic
-
-Because your magic flows from within, you can alter your spells to suit your needs; you gain two Metamagic options of your choice from "Metamagic Options" later in this class's description. You use the chosen options to temporarily modify spells you cast. To use an option, you must spend the number of Sorcery Points that it costs.
-
-You can use only one Metamagic option on a spell when you cast it unless otherwise noted in one of those options.
-
-Whenever you gain a Sorcerer level, you can replace one of your Metamagic options with one you don't know. You gain two more options at Sorcerer level 10 and two more at Sorcerer level 17.
-
-#### Level 3: Sorcerer Subclass
-
-You gain a Sorcerer subclass of your choice. The Draconic Sorcery subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Sorcerer levels. For the rest of your career, you gain each of your subclass's features that are of your Sorcerer level or lower.
-
-#### Level 4: Ability Score Improvement
-
-You gain the Ability Score Improvement feat (see "Feats") or another feat of your choice for which you qualify. You gain this feature again at Sorcerer levels 8, 12, and 16.
-
-#### Level 5: Sorcerous Restoration
-
-When you finish a Short Rest, you can regain expended Sorcery Points, but no more than a number equal to half your Sorcerer level (round down). Una vez que use this feature, you can't do so again until you finish a Long Rest.
-
-#### Level 7: Sorcery Incarnate
-
-If you have no uses of Innate Sorcery left, you can use it if you spend 2 Sorcery Points when you take the Bonus Action to activate it.
-
-In addition, while your Innate Sorcery feature is active, you can use up to two of your Metamagic options on each spell you cast.
-
-#### Level 19: Epic Boon
-
-You gain an Epic Boon feat (see "Feats") or another feat of your choice for which you qualify. Boon of Dimensional Travel is recommended.
-
-#### Level 20: Arcane Apotheosis
-
-While your Innate Sorcery feature is active, you can use one Metamagic option on each of your turns without spending Sorcery Points on it.
-
-### Metamagic Options
-
-The following options are available to your Metamagic feature. The options are presented in alphabetical order.
-
-#### Careful Spell
-
-_Cost: 1 Sorcery Point_
-
-When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, spend 1 Sorcery Point and choose a number of those creatures up to your Carisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell, and
-it takes no damage if it would normally take half damage on a successful save.
-
-#### Distant Spell
-
-_Cost: 1 Sorcery Point_
-
-When you cast a spell that has a range of at least 5 pies, you can spend 1 Sorcery Point to double the spell's range. Or when you cast a spell that has a range of Touch, you can spend 1 Sorcery Point to make the spell's range 30 pies.
-
-#### Empowered Spell
-
-_Cost: 1 Sorcery Point_
-
-When you roll damage for a spell, you can spend 1 Sorcery Point to reroll a number of the damage dice up to your Carisma modifier (minimum of one), and you must use the new rolls.
-
-You can use Empowered Spell even if you've already used a different Metamagic option during the casting of the spell.
-
-#### Extended Spell
-
-_Cost: 1 Sorcery Point_
-
-When you cast a spell that has a duration of 1 minute or longer, you can spend 1 Sorcery Point to double its duration to a maximum duration of 24 hours.
-
-If the affected spell requires Concentration, you have Advantage on any saving throw you make to maintain that Concentration.
-
-#### Heightened Spell
-
-_Cost: 2 Sorcery Points_
-
-When you cast a spell that forces a creature to make a saving throw, you can spend 2 Sorcery Points to give one target of the spell Disadvantage on saves against the spell.
-
-#### Quickened Spell
-
-_Cost: 2 Sorcery Points_
-
-When you cast a spell that has a casting time of an action, you can spend 2 Sorcery Points to change the casting time to a Bonus Action for this casting. You can't modify a spell in this way if you've already cast a level 1+ spell on the current turn, nor can you cast a level 1+ spell on this turn after modifying a spell in this way.
-
-#### Seeking Spell
-
-_Cost: 1 Sorcery Point_
-
-If you make an attack roll for a spell and miss, you can spend 1 Sorcery Point to reroll the d20, and you must use the new roll.
-
-You can use Seeking Spell even if you've already used a different Metamagic option during the casting of the spell.
-
-#### Subtle Spell
-
-_Cost: 1 Sorcery Point_
-
-When you cast a spell, you can spend 1 Sorcery Point to cast it without any Verbal, Somatic, or Material components, except Material components that are consumed by the spell or that have a cost specified in the spell.
-
-#### Transmuted Spell
-
-_Cost: 1 Sorcery Point_
-
-When you cast a spell that deals a type of damage from the following list, you can spend 1 Sorcery Point to change that damage type to one of the other listed types: Acid, Cold, Fire, Lightning, Poison, Thunder.
-
-#### Twinned Spell
-
-_Cost: 1 Sorcery Point_
-
-When you cast a spell, such as _Charm Person_, that can be cast with a higher-level spell slot to target an additional creature, you can spend 1 Sorcery Point to increase the spell's effective level by 1.
-
-### Hechicero (Sorcerer) Spell List
-
-This section presents the Sorcerer spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column, _C_ means the spell requires Concentration, _R_ means it's a Ritual, and _M_ means it requires a specific Material component.
-
-#### Cantrips (Level 0 Sorcerer Spells)
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Acid Splash</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Chill Touch</td>
-      <td>Necromancy</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Dancing Lights</td>
-      <td>Illusion</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Elementalism</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Fire Bolt</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Light</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Mage Hand</td>
-      <td>Conjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Mending</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Message</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Minor Illusion</td>
-      <td>Illusion</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Poison Spray</td>
-      <td>Necromancy</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Prestidigitation</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Ray of Frost</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Shocking Grasp</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Sorcerous Burst</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>True Strike</td>
-      <td>Divination</td>
-      <td>—</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 1 Sorcerer Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Burning Hands</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Charm Person</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Chromatic Orb</td>
-      <td>Evocation</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Color Spray</td>
-      <td>Illusion</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Comprehend Languages</td>
-      <td>Divination</td>
-      <td>R</td>
-    </tr>
-    <tr>
-      <td>Detect Magic</td>
-      <td>Divination</td>
-      <td>C, R</td>
-    </tr>
-    <tr>
-      <td>Disguise Self</td>
-      <td>Illusion</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Expeditious Retreat</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>False Life</td>
-      <td>Necromancy</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Feather Fall</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Fog Cloud</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Grease</td>
-      <td>Conjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Ice Knife</td>
-      <td>Conjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Jump</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Mage Armor</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Magic Missile</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Ray of Sickness</td>
-      <td>Necromancy</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Shield</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Silent Image</td>
-      <td>Illusion</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Sleep</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Thunderwave</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 2 Sorcerer Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Alter Self</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Blindness/Deafness</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Blur</td>
-      <td>Illusion</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Darkness</td>
-      <td>Evocation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Darkvision</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Detect Thoughts</td>
-      <td>Divination</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Dragon's Breath</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Enhance Ability</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Enlarge/Reduce</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Flame Blade</td>
-      <td>Evocation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Flaming Sphere</td>
-      <td>Evocation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Gust of Wind</td>
-      <td>Evocation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Hold Person</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Invisibility</td>
-      <td>Illusion</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Knock</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Levitate</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Magic Weapon</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Mirror Image</td>
-      <td>Illusion</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Misty Step</td>
-      <td>Conjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Scorching Ray</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>See Invisibility</td>
-      <td>Divination</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Shatter</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Spider Climb</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Suggestion</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Web</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 3 Sorcerer Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Blink</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Clairvoyance</td>
-      <td>Divination</td>
-      <td>C, M</td>
-    </tr>
-    <tr>
-      <td>Counterspell</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Daylight</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Dispel Magic</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Fear</td>
-      <td>Illusion</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Fireball</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Fly</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Gaseous Form</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Haste</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Hypnotic Pattern</td>
-      <td>Illusion</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Lightning Bolt</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Major Image</td>
-      <td>Illusion</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Protection from Energy</td>
-      <td>Abjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Sleet Storm</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Slow</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Stinking Cloud</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Tongues</td>
-      <td>Divination</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Vampiric Touch</td>
-      <td>Necromancy</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Water Breathing</td>
-      <td>Transmutation</td>
-      <td>R</td>
-    </tr>
-    <tr>
-      <td>Water Walk</td>
-      <td>Transmutation</td>
-      <td>R</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 4 Sorcerer Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Banishment</td>
-      <td>Abjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Blight</td>
-      <td>Necromancy</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Charm Monster</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Confusion</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Dimension Door</td>
-      <td>Conjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Dominate Beast</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Fire Shield</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Greater Invisibility</td>
-      <td>Illusion</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Ice Storm</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Polymorph</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Stoneskin</td>
-      <td>Transmutation</td>
-      <td>C, M</td>
-    </tr>
-    <tr>
-      <td>Vitriolic Sphere</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Wall of Fire</td>
-      <td>Evocation</td>
-      <td>C</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 5 Sorcerer Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Animate Objects</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Arcane Hand</td>
-      <td>Evocation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Cloudkill</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Cone of Cold</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Creation</td>
-      <td>Illusion</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Dominate Person</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Hold Monster</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Insect Plague</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Seeming</td>
-      <td>Illusion</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Telekinesis</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Teleportation Circle</td>
-      <td>Conjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Wall of Stone</td>
-      <td>Evocation</td>
-      <td>C</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 6 Sorcerer Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Chain Lightning</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Circle of Death</td>
-      <td>Necromancy</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Disintegrate</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Eyebite</td>
-      <td>Necromancy</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Flesh to Stone</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Freezing Sphere</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Globe of Invulnerability</td>
-      <td>Abjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Mass Suggestion</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Move Earth</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Sunbeam</td>
-      <td>Evocation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>True Seeing</td>
-      <td>Divination</td>
-      <td>M</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 7 Sorcerer Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Delayed Blast Fireball</td>
-      <td>Evocation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Etherealness</td>
-      <td>Conjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Finger of Death</td>
-      <td>Necromancy</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Fire Storm</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Plane Shift</td>
-      <td>Conjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Prismatic Spray</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Reverse Gravity</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Teleport</td>
-      <td>Conjuration</td>
-      <td>—</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 8 Sorcerer Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Demiplane</td>
-      <td>Conjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Dominate Monster</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Earthquake</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Incendiary Cloud</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Power Word Stun</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Sunburst</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 9 Sorcerer Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Gate</td>
-      <td>Conjuration</td>
-      <td>C, M</td>
-    </tr>
-    <tr>
-      <td>Meteor Swarm</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Power Word Kill</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Time Stop</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Wish</td>
-      <td>Conjuration</td>
-      <td>—</td>
-    </tr>
-  </tbody>
-</table>
-
-### Hechicero (Sorcerer) Subclass: Draconic Sorcery
-
-_Breathe the Magic of Dragons_
-
-Your innate magic comes from the gift of a dragon. Perhaps an ancient dragon facing death bequeathed some of its magical power to you or your ancestor. You might have absorbed magic from a site infused with dragons' power. Or perhaps you handled a treasure taken from a dragon's hoard that was steeped in draconic power. Or you might have a dragon for an ancestor.
-
-#### Level 3: Draconic Resilience
-
-The magic in your body manifests physical traits of your draconic gipies Your Hit Point maximum increases by 3, and it increases by 1 whenever you gain another Sorcerer level.
-
-Parts of you are also covered by dragon-like scales. While you aren't wearing armor, your base Armor Class equals 10 plus your Destreza and Carisma modifiers.
-
-#### Level 3: Draconic Spells
-
-When you reach a Sorcerer level specified in the Draconic Spells table, you thereafter always have the listed spells prepared.
-
-**Draconic Spells**
-
-<table>
-  <thead>
-    <tr>
-      <th>Sorcerer Level</th>
-      <th>Spells</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>3</td>
-      <td>Alter Self, Chromatic Orb, Command, Dragon's Breath</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>Fear, Fly</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>Arcane Eye, Charm Monster</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>Legend Lore, Summon Dragon</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 6: Elemental Affinity
-
-Your draconic magic has an affinity with a damage type associated with dragons. Choose one of those types: Acid, Cold, Fire, Lightning, or Poison.
-
-You have Resistance to that damage type, and when you cast a spell that deals damage of that type, you can add your Carisma modifier to one damage roll of that spell.
-
-#### Level 14: Dragon Wings
-
-As a Bonus Action, you can cause draconic alas to appear on your back. The alas last for 1 hour or until you dismiss them (no action required). For the duration, you have a Fly Speed of 60 pies.
-
-Una vez que use this feature, you can't use it again until you finish a Long Rest unless you spend 3 Sorcery Points (no action required) to restore your use of it.
-
-#### Level 18: Dragon Companion
-
-You can cast _Summon Dragon_ without a Material component. You can also cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest.
-
-Whenever you start casting the spell, you can modify it so that it doesn't require Concentration. If you do so, the spell's duration becomes 1 minute for that casting.
-
-## Brujo (Warlock)
-
-**Rasgos Principales del Brujo (Warlock)**
+#### Nivel 1: Lanzamiento de conjuros
+- **Trucos.** Conoces cuatro trucos de la lista de hechicero (aprendes más en niveles 4 y 10).
+- **Espacios de conjuro.** Según la tabla "Rasgos de hechicero", recuperas todos tras un descanso largo.
+- **Conjuros preparados.** Preparas conjuros de nivel 1+ según la tabla. Puedes cambiar uno al subir de nivel.
+- **Aptitud mágica.** Carisma.
+- **Canalizador mágico.** Canalizador arcano.
+
+#### Nivel 1: Magia innata
+Como acción adicional, liberas el pozo de magia que llevas dentro durante 1 minuto. Mientras esté activa:
+- Tu CD de salvación de conjuros de hechicero aumenta en 1.
+- Tienes ventaja en las tiradas de ataque con conjuros de hechicero.
+Puedes usar este rasgo dos veces por descanso largo.
+
+#### Nivel 2: Fuente de magia
+Obtienes puntos de hechicería (igual a tu nivel de hechicero) que recuperas tras un descanso largo.
+- **Crear espacios de conjuro:** Puedes convertir puntos de hechicería en espacios de conjuro (Nivel 1: 2 pts, Nivel 2: 3 pts, Nivel 3: 5 pts, Nivel 4: 6 pts, Nivel 5: 7 pts) como acción adicional.
+- **Convertir espacios en puntos:** Como acción adicional, sacrificas un espacio de conjuro para obtener puntos de hechicería iguales al nivel del espacio.
+
+#### Nivel 2: Metamagia
+Aprendes dos opciones de metamagia (aprendes más en niveles 10 y 17). Solo puedes aplicar una opción por conjuro a menos que se indique lo contrario.
+- **Conjuro acelerado (2 pts):** Si el conjuro tiene tiempo de lanzamiento de una acción, lo cambias a una acción adicional.
+- **Conjuro aumentado (2 pts):** Un objetivo del conjuro tiene desventaja en su primera tirada de salvación contra él.
+- **Conjuro buscador (1 pt):** Si fallas una tirada de ataque de conjuro, puedes repetir la tirada.
+- **Conjuro cuidadoso (1 pt):** Eliges criaturas (hasta tu modificador por Carisma) para que superen automáticamente la salvación contra el conjuro y no sufran daño si normalmente sufren la mitad.
+- **Conjuro distante (1 pt):** Duplica el alcance del conjuro o convierte un alcance de toque en 9 m.
+- **Conjuro duplicado (1 pt):** Cuando lanzas un conjuro que pueda aumentarse a un nivel superior para afectar a un objetivo más (como *invisibilidad* o *inmovilizar persona*), gastas 1 punto para afectar a un objetivo adicional sin aumentar el espacio.
+- **Conjuro extendido (1 pt):** Duplica la duración de un conjuro de al menos 1 minuto (hasta 24 horas) y otorga ventaja en tiradas de concentración para mantenerlo.
+- **Conjuro potenciado (1 pt):** Puedes repetir una cantidad de dados de daño del conjuro hasta tu modificador por Carisma.
+- **Conjuro sutil (1 pt):** Lanzas el conjuro sin componentes verbales, somáticos ni materiales (salvo que tengan coste específico).
+- **Conjuro transpuesto (1 pt):** Cambias el daño del conjuro por ácido, frío, fuego, relámpago, trueno o veneno.
+
+#### Nivel 3: Subclase de hechicero
+Consigues una subclase de hechicero de tu elección: Mente Aberrante, Magia Salvaje, Hechicería Dracónica o Hechicería Mecánica.
+
+#### Nivel 4: Mejora de característica
+Obtienes una dote de Mejora de característica u otra dote para la que cumplas condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16.
+
+#### Nivel 5: Guía de hechicería
+Al fallar una prueba de característica, puedes gastar 1 punto de hechicería para tirar 1d4 y sumarlo al total. En nivel 7, puedes gastar puntos de hechicería para lanzar conjuros de hechicería innata adicionales.
+
+#### Nivel 20: Restauración de hechicería
+Al tirar iniciativa, si te quedan menos de 4 puntos de hechicería, recuperas puntos hasta tener 4.
+
+---
+
+### Lista de conjuros de hechicero
+
+#### Trucos (Nivel 0)
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Agarre electrizante | Evocación | — |
+| Amistad | Encantamiento | C |
+| Conmoción | Evocación | — |
+| Cuchillada de trueno | Evocación | — |
+| Descarga de fuego | Evocación | — |
+| Desintegrar | Transmutación | — |
+| Elementalismo | Transmutación | — |
+| Fragmento mental | Encantamiento | — |
+| Guardia de cuchillas | Abjuración | C |
+| Ilusión menor | Ilusionismo | — |
+| Impacto certero | Adivinación | — |
+| Luces danzantes | Ilusionismo | C |
+| Luz | Evocación | — |
+| Mano de mago | Conjuración | — |
+| Mensaje | Transmutación | — |
+| Prestidigitación | Transmutación | — |
+| Rayo de escarcha | Evocación | — |
+| Reparar | Transmutación | — |
+| Rociada venenosa | Nigromancia | — |
+| Salpicadura ácida | Conjuración | — |
+| Toque helado | Nigromancia | — |
+| Tronar | Evocación | — |
+
+#### Nivel 1
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Armadura de mago | Abjuración | — |
+| Caída de pluma | Transmutación | — |
+| Comprensión idiomática | Adivinación | R |
+| Cuchillo de hielo | Conjuración | — |
+| Detectar magia | Adivinación | C, R |
+| Disfrazarse | Ilusionismo | — |
+| Dormir | Encantamiento | C |
+| Escudo | Abjuración | — |
+| Falsa vida | Nigromancia | — |
+| Grasa | Conjuración | — |
+| Hechizar persona | Encantamiento | — |
+| Imagen silenciosa | Ilusionismo | C |
+| Manos ardientes | Evocación | — |
+| Nube de oscurecimiento | Conjuración | C |
+| Ola atronadora | Evocación | — |
+| Onda de caos | Evocación | — |
+| Orbe cromático | Evocación | M |
+| Proyectil mágico | Evocación | — |
+| Rayo de hechicería | Evocación | C |
+| Rayo nauseabundo | Nigromancia | C |
+| Retirada expeditiva | Transmutación | C |
+| Rociada de color | Ilusionismo | — |
+| Salto | Transmutación | — |
+
+#### Nivel 2
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Acelerar | Transmutación | C |
+| Agrandar/reducir | Transmutación | C |
+| Aliento de dragón | Transmutación | C |
+| Alterar el propio aspecto | Transmutación | C |
+| Ceguera/sordera | Nigromancia | — |
+| Clavo mental | Adivinación | C |
+| Contorno borroso | Ilusionismo | C |
+| Corona de locura | Encantamiento | C |
+| Destrozar (Hacer añicos) | Evocación | — |
+| Detectar pensamientos | Adivinación | C |
+| Esfera de llamas | Evocación | C |
+| Fuerza fantasmal | Ilusionismo | C |
+| Imagen múltiple | Ilusionismo | — |
+| Inmovilizar persona | Encantamiento | C |
+| Invisibilidad | Ilusionismo | C |
+| Levitación | Transmutación | C |
+| Nube de dagas | Conjuración | C |
+| Oscuridad | Evocación | C |
+| Paso brumoso | Conjuración | — |
+| Piel robliza | Transmutación | — |
+| Potenciar característica | Transmutación | C |
+| Ráfaga de viento | Evocación | C |
+| Rayo abrasador | Evocación | — |
+| Rayo debilitador | Nigromancia | C |
+| Sugestión | Encantamiento | C |
+| Telaraña | Conjuración | C |
+| Trepar cual arácnido | Transmutación | C |
+| Ver invisibilidad | Adivinación | — |
+
+#### Nivel 3
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Acelerar | Transmutación | C |
+| Bola de fuego | Evocación | — |
+| Caminar sobre el agua | Transmutación | R |
+| Clarividencia | Adivinación | C, M |
+| Contrahechizo | Abjuración | — |
+| Desplazamiento | Transmutación | C |
+| Disipar magia | Abjuración | — |
+| Don de lenguas | Adivinación | — |
+| Forma gaseosa | Transmutación | C |
+| Imagen mayor | Ilusionismo | C |
+| Luz del día | Evocación | — |
+| Nube apestosa | Conjuración | C |
+| Patrón hipnótico | Ilusionismo | C |
+| Protección contra energía | Abjuración | C |
+| Ralentizar | Transmutación | C |
+| Relámpago | Evocación | — |
+| Respirar bajo el agua | Transmutación | R |
+| Terror | Ilusionismo | C |
+| Toque vampírico | Nigromancia | C |
+| Tormenta de aguanieve | Conjuración | C |
+| Volar | Transmutación | C |
+
+#### Nivel 4
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Confusión | Encantamiento | C |
+| Destierro | Abjuración | C |
+| Dominar bestia | Encantamiento | C |
+| Escudo de fuego | Evocación | — |
+| Esfera vitriólica | Evocación | — |
+| Hechizar monstruo | Encantamiento | — |
+| Invisibilidad mejorada | Ilusionismo | C |
+| Marchitar | Nigromancia | — |
+| Muro de fuego | Evocación | C |
+| Piel pétrea | Transmutación | C, M |
+| Polimorfar | Transmutación | C |
+| Puerta dimensional | Conjuración | — |
+| Tormenta de hielo | Evocación | — |
+
+#### Nivel 5
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Animar objetos | Transmutación | C |
+| Apariencia | Ilusionismo | — |
+| Círculo de teletransportación | Conjuración | M |
+| Cono de frío | Evocación | — |
+| Creación | Ilusionismo | — |
+| Dominar persona | Encantamiento | C |
+| Estática sináptica | Encantamiento | — |
+| Inmovilizar monstruo | Encantamiento | C |
+| Mano de Bigby | Evocación | C |
+| Muro de piedra | Evocación | C |
+| Nube aniquiladora | Conjuración | C |
+| Plaga de insectos | Conjuración | C |
+| Telequinesis | Transmutación | C |
+
+#### Nivel 6
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Círculo de muerte | Nigromancia | M |
+| De la carne a la piedra | Transmutación | C |
+| Desintegrar | Transmutación | — |
+| Esfera congelante de Otiluke | Evocación | — |
+| Globo de invulnerabilidad | Abjuración | C |
+| Mal de ojo | Nigromancia | C |
+| Mover la tierra | Transmutación | C |
+| Puerta arcana | Conjuración | C |
+| Rayo solar | Evocación | C |
+| Relámpago en cadena | Evocación | — |
+| Sugestión en masa | Encantamiento | — |
+| Visión veraz | Adivinación | M |
+
+#### Nivel 7
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Bola de fuego de explosión retardada | Evocación | C |
+| Dedo de la muerte | Nigromancia | — |
+| Desplazamiento entre planos | Conjuración | M |
+| Excursión etérea | Conjuración | — |
+| Invertir la gravedad | Transmutación | C |
+| Rociada prismática | Evocación | — |
+| Teletransporte | Conjuración | — |
+| Tormenta de fuego | Evocación | — |
+
+#### Nivel 8
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Dominar monstruo | Encantamiento | C |
+| Explosión solar | Evocación | — |
+| Nube incendiaria | Conjuración | C |
+| Palabra de poder: aturdir | Encantamiento | — |
+| Semiplano | Conjuración | — |
+| Terremoto | Transmutación | C |
+
+#### Nivel 9
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Deseo | Conjuración | — |
+| Palabra de poder: matar | Encantamiento | — |
+| Parar el tiempo | Transmutación | — |
+| Portal | Conjuración | C, M |
+| Tormenta de meteoritos | Evocación | — |
+
+---
+
+### Subclases de hechicero
+
+#### Mente Aberrante
+
+*Manipula el poder psíquico y las fuerzas del Reino Lejano.*
+
+##### Nivel 3: Conjuros psiónicos
+**Conjuros psiónicos**
+| Nivel de hechicero | Conjuros |
+|---|---|
+| 3 | *Brazos de Hadar, calma mental, calma emociones, detectar pensamientos, fragmento mental, susurros discordantes* |
+| 5 | *Clavo mental, don de lenguas, hambre de Hadar* |
+| 7 | *Destierro, invocar aberración* |
+| 9 | *Modificar memoria, telequinesis* |
+
+##### Nivel 3: Habla telepática
+Acción adicional para formar un enlace telepático con una criatura a 9 m durante una cantidad de minutos igual a tu nivel de hechicero.
+
+##### Nivel 6: Hechicería psiónica
+Puedes lanzar cualquiera de tus conjuros del rasgo Conjuros psiónicos gastando una cantidad de puntos de hechicería igual al nivel del conjuro en vez de un espacio. Si lo haces, no requiere componentes verbales, somáticos ni materiales consumibles.
+
+##### Nivel 6: Defensas psíquicas
+Resistencia al daño psíquico y ventaja en salvaciones contra asustado o hechizado.
+
+##### Nivel 14: Revelación en la carne
+Como acción adicional, gastas 1 o más puntos de hechicería para transformar tu cuerpo durante 10 minutos (visión en la oscuridad 36 m y ver lo invisible, velocidad de vuelo o nado, o cuerpo maleable que atraviesa huecos de 2,5 cm).
+
+##### Nivel 18: Deformación bélica
+Como acción de magia, te teletransportas hasta 36 m a un espacio visible provocando una onda de 6 m de radio: criaturas no elegidas sufren 3d10 de daño de fuerza y son atraídas hacia el espacio que dejaste.
+
+---
+
+#### Magia Salvaje
+
+*Desencadena el caos puro e impredecible de la magia.*
+
+##### Nivel 3: Oleada de magia salvaje
+Inmediatamente después de lanzar un conjuro de hechicero con un espacio de conjuro, tu magia puede desencadenar una oleada salvaje: tira 1d20. Si obtienes un 1 o si tu Magia innata está activa, tira en la tabla de Sobrecarga de magia salvaje.
+
+##### Nivel 3: Mareas de caos
+Obtienes ventaja en una tirada de ataque, prueba de característica o tirada de salvación. Recuperas este uso tras finalizar un descanso largo o tras una sobrecarga de magia salvaje.
+
+##### Nivel 6: Doblar la suerte
+Reacción cuando una criatura a 9 m haga una tirada: gastas 2 puntos de hechicería para sumar o restar 1d4 a la tirada.
+
+##### Nivel 14: Caos controlado
+Al tirar en la tabla de Sobrecarga de magia salvaje, tiras dos veces y eliges cuál de los dos efectos se produce.
+
+##### Nivel 18: Bombardeo salvaje
+Al causar daño con un conjuro, puedes gastar 1 punto de hechicería para hacer que una criatura sufra una cantidad de daño de fuerza adicional igual a una tirada de un dado en la tabla de magia salvaje.
+
+##### Sobrecarga de Magia Salvaje (Tabla 1d100)
+| 1d100 | Efecto |
+|---|---|
+| 01–04 | Tira en esta tabla al principio de cada uno de tus turnos durante el próximo minuto. |
+| 05–08 | Aparece una criatura amistosa durante 1 min (1: modron duodron, 2: flumph, 3: modron monodron, 4: unicornio). |
+| 09–12 | Durante el próximo minuto, recuperas 5 puntos de golpe al principio de cada uno de tus turnos. |
+| 13–16 | Las criaturas tienen desventaja en salvaciones contra tu siguiente conjuro en el próximo minuto. |
+| 17–20 | Efecto estético durante 1 min (1: música etérea, 2: aumentas tamaño, 3: barba de plumas, 4: hablas gritando, 5: mariposas ilusorias, 6: tercer ojo con ventaja en Percepción, 7: burbujas rosas al hablar, 8: piel azul por 24h). |
+| 21–24 | Durante el próximo minuto, tus conjuros de 1 acción pasan a lanzarse con acción adicional. |
+| 25–28 | Te teletransportas al Plano Astral hasta el final de tu siguiente turno. |
+| 29–32 | La próxima tirada de daño de conjuro en el próximo minuto maximiza todos sus dados de daño. |
+| 33–36 | Tienes resistencia a todo el daño durante el próximo minuto. |
+| 37–40 | Te transformas en una planta en una maceta hasta el principio de tu siguiente turno (incapacitado y vulnerable a todo daño; vuelve a tu forma si PG caen a 0). |
+| 41–44 | Durante el próximo minuto, te teletransportas hasta 6 m como acción adicional en cada turno. |
+| 45–48 | Tú y hasta 3 criaturas a 9 m sois invisibles durante 1 minuto (termina si atacas, dañas o lanzas conjuro). |
+| 49–52 | Un escudo espectral te da +2 a la CA e inmunidad a *proyectil mágico* durante 1 minuto. |
+| 53–56 | Puedes realizar una acción extra durante este turno. |
+| 57–60 | Lanzas un conjuro aleatorio sin requerir concentración (1: *bola de fuego*, 2: *confusión*, 3: *grasa*, 4: *imagen múltiple*, 5: *levitar*, 6: *nube de oscurecimiento*, 7: *polimorfar* en cabra si fallas, 8: *proyectil mágico* nivel 5, 9: *ver invisibilidad*, 10: *volar*). |
+| 61–64 | Durante 1 minuto, cualquier objeto no mágico inflamable que toques arde (1d4 daño de fuego). |
+| 65–68 | Si mueres en la próxima hora, revives de inmediato como por el conjuro *reencarnar*. |
+| 69–72 | Tienes el estado de asustado hasta el final de tu siguiente turno. |
+| 73–76 | Te teletransportas hasta 18 m a un espacio visible sin ocupar. |
+| 77–80 | Una criatura aleatoria a 18 m queda envenenada durante 1d4 horas. |
+| 81–84 | Durante 1 minuto emites luz brillante en 9 m; quien acabe su turno a 1,5 m queda cegado hasta el final de su siguiente turno. |
+| 85–88 | Hasta 3 criaturas a 9 m sufren 1d10 de daño necrótico; te curas esa cantidad. |
+| 89–92 | Hasta 3 criaturas a 9 m sufren 4d10 de daño de relámpago. |
+| 93–96 | Tú y todos a 9 m tenéis vulnerabilidad al daño perforante durante 1 minuto. |
+| 97–00 | Tira 1d6 (1: te curas 2d10 PG, 2: un aliado a 90 m se cura 2d10 PG, 3: recuperas tu espacio de conjuro menor, 4: un aliado recupera su espacio menor, 5: recuperas todos tus puntos de hechicería, 6: se aplican todos los efectos de la fila 17–20). |
+
+---
+
+#### Hechicería Dracónica
+
+*Exhala la magia de los dragones.*
+
+##### Nivel 3: Conjuros dracónicos
+**Conjuros dracónicos**
+| Nivel de hechicero | Conjuros |
+|---|---|
+| 3 | *Aliento de dragón, alterar el propio aspecto, orbe cromático, orden imperiosa* |
+| 5 | *Terror, volar* |
+| 7 | *Hechizar monstruo, ojo arcano* |
+| 9 | *Conocer las leyendas, invocar dragón* |
+
+##### Nivel 3: Resistencia dracónica
+Tus PG máximos aumentan en 3 (+1 adicional por nivel de hechicero) y tu CA sin armadura es igual a 10 + Destreza + Carisma.
+
+##### Nivel 6: Afinidad elemental
+Eliges un elemento (ácido, frío, fuego, relámpago o veneno): tienes resistencia a ese tipo de daño y sumas tu modificador por Carisma a las tiradas de daño de conjuros de ese tipo.
+
+##### Nivel 14: Alas de dragón
+Como acción adicional, despliegas alas que otorgan velocidad de vuelo de 18 m durante 1 hora (un uso gratis por descanso largo o 3 puntos de hechicería).
+
+##### Nivel 18: Compañero dragón
+Puedes lanzar *invocar dragón* sin componentes, una vez gratis por descanso largo, y sin requerir concentración (duración 1 min).
+
+---
+
+#### Hechicería Mecánica
+
+*Canaliza el orden absoluto de Mechanus.*
+
+##### Nivel 3: Conjuros mecánicos
+**Conjuros mecánicos**
+| Nivel de hechicero | Conjuros |
+|---|---|
+| 3 | *Alarma, auxilio, protección contra el bien y el mal, restablecimiento menor* |
+| 5 | *Disipar magia, protección contra energía* |
+| 7 | *Invocar autómata, libertad de movimiento* |
+| 9 | *Muro de fuerza, restablecimiento mayor* |
+
+##### Nivel 3: Restablecer equilibrio
+Reacción a 18 m cuando una criatura vaya a tirar un d20 con ventaja o desventaja: anulas tanto la ventaja como la desventaja (usos iguales a tu modificador por Carisma por descanso largo).
+
+##### Nivel 6: Bastión de la ley
+Acción de magia para gastar de 1 a 5 puntos de hechicería creando una protección representada por d8s. Al recibir daño, la criatura protegida gasta dados para reducir el daño recibido.
+
+##### Nivel 14: Trance de orden
+Como acción adicional entras en trance durante 1 minuto: nadie tiene ventaja contra ti y cualquier resultado de 9 o menos en el d20 pasa a ser un 10 (un uso por descanso largo o 5 puntos de hechicería).
+
+##### Nivel 18: Cabalgata mecánica
+Como acción de magia, invocas un cubo de 9 m de espíritus de Mechanus: cura hasta 100 PG repartidos, repara todos los objetos y disipa conjuros de nivel 6 o inferior (un uso por descanso largo o 7 puntos de hechicería).
+
+---
+
+## Mago
+
+Los magos estudian los secretos del multiverso para dominar la magia arcana. A través del aprendizaje riguroso, la experimentación meticulosa y la investigación constante en grimorios y pergaminos antiguos, desentrañan las leyes fundamentales de la realidad para doblegarlas a su voluntad.
+
+El repertorio de un mago abarca desde conjuros de utilidad sutil hasta devastadoras manifestaciones de poder elemental. Acompañados siempre de su valioso libro de conjuros, los magos continúan expandiendo su conocimiento en busca de los misterios más profundos del cosmos.
+
+### Atributos básicos de mago
 
 <table>
   <tbody>
     <tr>
-      <td>Característica Primaria</td>
-      <td>Carisma</td>
-    </tr>
-    <tr>
-      <td>Dado de Puntos de Golpe</td>
-      <td>D8 per Warlock level</td>
-    </tr>
-    <tr>
-      <td>Competencia en Tiradas de Salvación</td>
-      <td>Sabiduría and Carisma</td>
-    </tr>
-    <tr>
-      <td>Competencia en Habilidades</td>
-      <td>Choose 2: Arcana, Deception, History, Intimidation, Investigation, Nature, or Religion</td>
-    </tr>
-    <tr>
-      <td>Competencia en Armas</td>
-      <td>Simple weapons</td>
-    </tr>
-    <tr>
-      <td>Entrenamiento con Armaduras</td>
-      <td>Light armor</td>
-    </tr>
-    <tr>
-      <td>Equipo Inicial</td>
-      <td>Choose A or B: (A) Leather Armor, Sickle, 2 Daggers, Arcane Focus (orb), Book (occult lore), Scholar's Pack, and 15 po; or (B) 100 po</td>
-    </tr>
-  </tbody>
-</table>
-
-### Becoming a Warlock …
-
-#### As a Level 1 Character
-
-- Gain all the traits in the Core Warlock Traits table.
-- Gain the Warlock's level 1 features, which are listed in the Warlock Features table.
-
-#### As a Multiclass Character
-
-- Gain the following traits from the Core Warlock Traits table: Hit Point Die and training with Light armor.
-- Gain the Warlock's level 1 features, which are listed in the Warlock Features table. See the multiclassing rules in "Character Creation" to determine your available spell slots.
-
-### Brujo (Warlock) Class Features
-
-As a Warlock, you gain the following class features when you reach the specified Warlock levels. These features are listed in the Warlock Features table.
-
-**Warlock Features**
-
-<table>
-  <thead>
-    <tr>
-      <th>Level</th>
-      <th>Proficiency Bonus</th>
-      <th>Class Features</th>
-      <th>Eldritch Invocations</th>
-      <th>Cantrips</th>
-      <th>Prepared Spells</th>
-      <th>Spell Slots</th>
-      <th>Slot Level</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>+2</td>
-      <td>Eldritch Invocations, Pact Magic</td>
-      <td>1</td>
-      <td>2</td>
-      <td>2</td>
-      <td>1</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>+2</td>
-      <td>Magical Cunning</td>
-      <td>3</td>
-      <td>2</td>
-      <td>3</td>
-      <td>2</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>+2</td>
-      <td>Warlock Subclass</td>
-      <td>3</td>
-      <td>2</td>
-      <td>4</td>
-      <td>2</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>+2</td>
-      <td>Ability Score Improvement</td>
-      <td>3</td>
-      <td>3</td>
-      <td>5</td>
-      <td>2</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>+3</td>
-      <td>—</td>
-      <td>5</td>
-      <td>3</td>
-      <td>6</td>
-      <td>2</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>+3</td>
-      <td>Subclass feature</td>
-      <td>5</td>
-      <td>3</td>
-      <td>7</td>
-      <td>2</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>+3</td>
-      <td>—</td>
-      <td>6</td>
-      <td>3</td>
-      <td>8</td>
-      <td>2</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <td>8</td>
-      <td>+3</td>
-      <td>Ability Score Improvement</td>
-      <td>6</td>
-      <td>3</td>
-      <td>9</td>
-      <td>2</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>+4</td>
-      <td>Contact Patron</td>
-      <td>7</td>
-      <td>3</td>
-      <td>10</td>
-      <td>2</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>10</td>
-      <td>+4</td>
-      <td>Subclass feature</td>
-      <td>7</td>
-      <td>4</td>
-      <td>10</td>
-      <td>2</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>11</td>
-      <td>+4</td>
-      <td>Mystic Arcanum (level 6 spell)</td>
-      <td>7</td>
-      <td>4</td>
-      <td>11</td>
-      <td>3</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>12</td>
-      <td>+4</td>
-      <td>Ability Score Improvement</td>
-      <td>8</td>
-      <td>4</td>
-      <td>11</td>
-      <td>3</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>13</td>
-      <td>+5</td>
-      <td>Mystic Arcanum (level 7 spell)</td>
-      <td>8</td>
-      <td>4</td>
-      <td>12</td>
-      <td>3</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>14</td>
-      <td>+5</td>
-      <td>Subclass feature</td>
-      <td>8</td>
-      <td>4</td>
-      <td>12</td>
-      <td>3</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>15</td>
-      <td>+5</td>
-      <td>Mystic Arcanum (level 8 spell)</td>
-      <td>9</td>
-      <td>4</td>
-      <td>13</td>
-      <td>3</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>16</td>
-      <td>+5</td>
-      <td>Ability Score Improvement</td>
-      <td>9</td>
-      <td>4</td>
-      <td>13</td>
-      <td>3</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>17</td>
-      <td>+6</td>
-      <td>Mystic Arcanum (level 9 spell)</td>
-      <td>9</td>
-      <td>4</td>
-      <td>14</td>
-      <td>4</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>18</td>
-      <td>+6</td>
-      <td>—</td>
-      <td>10</td>
-      <td>4</td>
-      <td>14</td>
-      <td>4</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>19</td>
-      <td>+6</td>
-      <td>Epic Boon</td>
-      <td>10</td>
-      <td>4</td>
-      <td>15</td>
-      <td>4</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>20</td>
-      <td>+6</td>
-      <td>Eldritch Master</td>
-      <td>10</td>
-      <td>4</td>
-      <td>15</td>
-      <td>4</td>
-      <td>5</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 1: Eldritch Invocations
-
-You have unearthed Eldritch Invocations, pieces of forbidden knowledge that imbue you with an abiding magical ability or other lessons. You gain one invocation of your choice, such as Pact of the Tome. Invocations are described in the "Eldritch Invocation Options" section later in this class's description.
-
-_Prerequisites._ If an invocation has a prerequisite, you must meet it to learn that invocation. Por ejemplo, if an invocation requires you to be a level 5+ Warlock, you can select the invocation once you reach Warlock level 5.
-
-_Replacing and Gaining Invocations._ Whenever you gain a Warlock level, you can replace one of your invocations with another one for which you qualify. You can't replace an invocation if it's a prerequisite for another invocation that you have.
-
-When you gain certain Warlock levels, you gain more invocations of your choice, as shown in the Invocations column of the Warlock Features table.
-
-You can't pick the same invocation more than once unless its description says otherwise.
-
-#### Level 1: Pact Magic
-
-Through occult ceremony, you have formed a pact with a mysterious entity to gain magical powers. The entity is a voice in the shadows—its identity unclear—but its boon to you is concrete: the ability to cast spells. See "Spells" for the rules on spellcasting. The information below details how you use those rules with Warlock spells, which appear in the Warlock spell list later in the class's description.
-
-_Cantrips._ You know two Warlock cantrips of your choice. _Eldritch Blast_ and _Prestidigitation_ are recommended. Whenever you gain a Warlock level, you can replace one of your cantrips from this feature with another Warlock cantrip of your choice.
-
-When you reach Warlock levels 4 and 10, you learn another Warlock cantrip of your choice, as shown in the Cantrips column of the Warlock Features table.
-
-_Spell Slots._ The Warlock Features table shows how muchos spell slots you have to cast your Warlock spells of levels 1–5. The table also shows the level of those slots, all of which are the same level. You regain all expended Pact Magic spell slots when you finish a Short or Long Rest.
-
-Por ejemplo, when you're a level 5 Warlock, you have two level 3 spell slots. To cast the level 1 spell _Charm Person_, you must spend one of those slots, and you cast it as a level 3 spell.
-
-_Prepared Spells of Level 1+._ You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Warlock spells. _Charm Person_ and _Hex_ are recommended.
-
-The number of spells on your list increases as you gain Warlock levels, as shown in the Prepared Spells column of the Warlock Features table. Whenever that number increases, choose additional Warlock spells until the number of spells on your list matches the number in the table. The chosen spells must be of a level no higher than what's shown in the table's Slot Level column for your level. When you reach level 6, por ejemplo, you learn a new Warlock spell, which can be of levels 1–3.
-
-If another Warlock feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Warlock spells for you.
-
-_Changing Your Prepared Spells._ Whenever you gain a Warlock level, you can replace one spell on your list with another Warlock spell of an eligible level.
-
-_Spellcasting Ability._ Carisma is the spellcasting ability for your Warlock spells.
-
-_Spellcasting Focus._ You can use an Arcane Focus as a Spellcasting Focus for your Warlock spells.
-
-#### Level 2: Magical Cunning
-
-You can perform an esoteric rite for 1 minute. At the end of it, you regain expended Pact Magic spell slots but no more than a number equal to half your maximum (round up). Una vez que use this feature, you can't do so again until you finish a Long Rest.
-
-#### Level 3: Warlock Subclass
-
-You gain a Warlock subclass of your choice. The Fiend Patron subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Warlock levels. For the rest of your career, you gain each of your subclass's features that are of your Warlock level or lower.
-
-#### Level 4: Ability Score Improvement
-
-You gain the Ability Score Improvement feat (see "Feats") or another feat of your choice for which you qualify. You gain this feature again at Warlock levels 8, 12, and 16.
-
-#### Level 9: Contact Patron
-
-In the past, you usually contacted your patron through intermediaries. Now you can communicate directly; you always have the _Contact Other Plane_ spell prepared. With this feature, you can cast the spell without expending a spell slot to contact your patron, and you automatically succeed on the spell's saving throw.
-
-Una vez que cast the spell with this feature, you can't do so in this way again until you finish a Long Rest.
-
-#### Level 11: Mystic Arcanum
-
-Your patron grants you a magical secret called an arcanum. Choose one level 6 Warlock spell as this arcanum.
-
-You can cast your arcanum spell once without expending a spell slot, and you must finish a Long Rest before you can cast it in this way again.
-
-As shown in the Warlock Features table, you gain another Warlock spell of your choice that can be cast in this way when you reach Warlock levels 13 (level 7 spell), 15 (level 8 spell), and 17 (level 9 spell). You regain all uses of your Mystic Arcanum when you finish a Long Rest.
-
-Whenever you gain a Warlock level, you can replace one of your arcanum spells with another Warlock spell of the same level.
-
-#### Level 19: Epic Boon
-
-You gain an Epic Boon feat (see "Feats") or another feat of your choice for which you qualify. Boon of Fate is recommended.
-
-#### Level 20: Eldritch Master
-
-When you use your Magical Cunning feature, you regain all your expended Pact Magic spell slots.
-
-### Eldritch Invocation Options
-
-Eldritch Invocation options appear in alphabetical order.
-
-#### Agonizing Blast
-
-_Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage_
-
-Choose one of your known Warlock cantrips that deals damage. You can add your Carisma modifier to that spell's damage rolls.
-
-_Repeatable._ You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.
-
-#### Armor of Shadows
-
-You can cast _Mage Armor_ on yourself without expending a spell slot.
-
-#### Ascendant Step
-
-_Prerequisite: Level 5+ Warlock_
-
-You can cast _Levitate_ on yourself without expending a spell slot.
-
-#### Devil's Sight
-
-_Prerequisite: Level 2+ Warlock_
-
-You can see normally in Dim Light and Darkness—both magical and nonmagical—within 120 pies of yourself.
-
-#### Devouring Blade
-
-_Prerequisite: Level 12+ Warlock, Thirsting Blade Invocation_
-
-The Extra Attack of your Thirsting Blade invocation confers two extra attacks rather than one.
-
-#### Eldritch Mind
-
-You have Advantage on Constitución saving throws that you make to maintain Concentration.
-
-#### Eldritch Smite
-
-_Prerequisite: Level 5+ Warlock, Pact of the Blade Invocation_
-
-Una vez por turn when you hit a creature with your pact weapon, you can expend a Pact Magic spell slot to deal an extra 1d8 Force damage to the target,
-plus another 1d8 per level of the spell slot, and you can give the target the Prone condition if it is Huge or smaller.
-
-#### Eldritch Spear
-
-_Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage_
-
-Choose one of your known Warlock cantrips that deals damage and has a range of 10+ pies. When you cast that spell, its range increases by a number of pies equal to 30 times your Warlock level.
-
-_Repeatable._ You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.
-
-#### Fiendish Vigor
-
-_Prerequisite: Level 2+ Warlock_
-
-You can cast _False Life_ on yourself without expending a spell slot. When you cast the spell with this feature, you don't roll the die for the Temporary Hit Points; you automatically get the highest number on the die.
-
-#### Gaze of Two Minds
-
-_Prerequisite: Level 5+ Warlock_
-
-You can use a Bonus Action to touch a willing creature and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can take a Bonus Action on subsequent turns to maintain this connection, extending the duration until the end of your next turn. The connection ends if you don't maintain it in this way.
-
-While perceiving through the other creature's senses, you benefit from any special senses possessed by that creature, and you can cast spells as if you were in your space or the other creature's space if the two of you are within 60 pies of each other.
-
-#### Gift of the Depths
-
-_Prerequisite: Level 5+ Warlock_
-
-You can breathe underwater, and you gain a Swim Speed equal to your Speed.
-
-You can also cast _Water Breathing_ once without expending a spell slot. You regain the ability to cast it in this way again when you finish a Long Rest.
-
-#### Gift of the Protectors
-
-_Prerequisite: Level 9+ Warlock, Pact of the Tome Invocation_
-
-A new page appears in your _Book of Shadows_ when you conjure it. With your permission, a creature can take an action to write its name on that page, which can contain a number of names equal to your Carisma modifier (minimum of one name).
-
-When any creature whose name is on the page is reduced to 0 Hit Points but not killed outright, the creature magically drops to 1 Hit Point instead. Una vez this magic is triggered, no creature can benefit from it until you finish a Long Rest.
-
-As a Magic action, you can erase a name on the page by touching it.
-
-#### Investment of the Chain Master
-
-_Prerequisite: Level 5+ Warlock, Pact of the Chain Invocation_
-
-When you cast _Find Familiar_, you infuse the summoned familiar with a measure of your eldritch power, granting the creature the following benefits.
-
-_Aerial or Aquatic._ The familiar gains either a Fly Speed or a Swim Speed (your choice) of 40 pies.
-
-_Quick Attack._ As a Bonus Action, you can command the familiar to take the Attack action.
-
-_Necrotic or Radiant Damage._ Whenever the familiar deals Bludgeoning, Piercing, or Slashing damage, you can make it deal Necrotic or Radiant damage instead.
-
-_Your Save DC._ If the familiar forces a creature to make a saving throw, it uses your spell save DC.
-
-_Resistance._ When the familiar takes damage, you can take a Reaction to grant it Resistance against that damage.
-
-#### Lessons of the First Ones
-
-_Prerequisite: Level 2+ Warlock_
-
-You have received knowledge from an elder entity of the multiverse, allowing you to gain one Origin feat of your choice (see "Feats").
-
-_Repeatable._ You can gain this invocation more than once. Each time you do so, choose a different Origin feat.
-
-#### Lifedrinker
-
-_Prerequisite: Level 9+ Warlock, Pact of the Blade Invocation_
-
-Una vez por turn when you hit a creature with your pact weapon, you can deal an extra 1d6 Necrotic, Psychic, or Radiant damage (your choice) to the creature, and you can expend one of your Hit Point Dice to roll it and regain a number of Hit Points equal to the roll plus your Constitución modifier (minimum of 1 Hit Point).
-
-#### Mask of Muchos Faces
-
-_Prerequisite: Level 2+ Warlock_
-
-You can cast _Disguise Self_ without expending a spell slot.
-
-#### Master of Myriad Forms
-
-_Prerequisite: Level 5+ Warlock_
-
-You can cast _Alter Self_ without expending a spell slot.
-
-#### Misty Visions
-
-_Prerequisite: Level 2+ Warlock_
-
-You can cast _Silent Image_ without expending a spell slot.
-
-#### One with Shadows
-
-_Prerequisite: Level 5+ Warlock_
-
-While you're in an area of Dim Light or Darkness, you can cast _Invisibility_ on yourself without expending a spell slot.
-
-#### Otherworldly Leap
-
-_Prerequisite: Level 2+ Warlock_
-
-You can cast _Jump_ on yourself without expending a spell slot.
-
-#### Pact of the Blade
-
-As a Bonus Action, you can conjure a pact weapon in your hand—a Simple or Martial Melee weapon of your choice with which you bond—or create a bond with a magic weapon you touch; you can't bond with a magic weapon if someone else is attuned to it or another Warlock is bonded with it. Until the bond ends, you have proficiency with the weapon, and you can use it as a Spellcasting Focus.
-
-Whenever you attack with the bonded weapon, you can use your Carisma modifier for the attack and damage rolls instead of using Fuerza or Destreza; and you can cause the weapon to deal Necrotic, Psychic, or Radiant damage or its normal damage type.
-
-Your bond with the weapon ends if you use this feature's Bonus Action again, if the weapon is more than 5 pies away from you for 1 minute or more, or if you die. A conjured weapon disappears when the bond ends.
-
-#### Pact of the Chain
-
-You learn the _Find Familiar_ spell and can cast it as a Magic action without expending a spell slot.
-
-When you cast the spell, you choose one of the normal forms for your familiar or one of the following special forms: **Imp, Pseudodragon, Quasit, Skeleton, Sphinx of Wonder, Sprite,** or **Venomous Snake** (see "Monsters" for the familiar's stat block).
-
-Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack of its own with its Reaction.
-
-#### Pact of the Tome
-
-Stitching together strands of shadow, you conjure forth a book in your hand at the end of a Short or Long Rest. This _Book of Shadows_ (you determine its appearance) contains eldritch magic that only you can access, granting you the benefits below. The book disappears if you conjure another book with this feature or if you die.
-
-_Cantrips and Rituals._ When the book appears, choose three cantrips, and choose two level 1 spells that have the Ritual tag. The spells can be from any class's spell list, and they must be spells you don't already have prepared. While the book is on your person, you have the chosen spells prepared, and they function as Warlock spells for you.
-
-_Spellcasting Focus._ You can use the book as a Spellcasting Focus.
-
-#### Repelling Blast
-
-_Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage via an Attack Roll_
-
-Choose one of your known Warlock cantrips that requires an attack roll. When you hit a Large or smaller creature with that cantrip, you can push the creature up to 10 pies straight away from you.
-
-_Repeatable._ You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.
-
-#### Thirsting Blade
-
-_Prerequisite: Level 5+ Warlock, Pact of the Blade Invocation_
-
-You gain the Extra Attack feature for your pact weapon only. With that feature, you can attack twice with the weapon instead of once when you take the Attack action on your turn.
-
-#### Visions of Distant Realms
-
-_Prerequisite: Level 9+ Warlock_
-
-You can cast _Arcane Eye_ without expending a spell slot.
-
-#### Whispers of the Grave
-
-_Prerequisite: Level 7+ Warlock_
-
-You can cast _Speak with Dead_ without expending a spell slot.
-
-#### Witch Sight
-
-_Prerequisite: Level 15+ Warlock_
-
-You have Truesight with a range of 30 pies.
-
-### Brujo (Warlock) Spell List
-
-This section presents the Warlock spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column, _C_ means the spell requires Concentration, _R_ means it's a Ritual, and _M_ means it requires a specific Material component.
-
-#### Cantrips (Level 0 Warlock Spells)
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Chill Touch</td>
-      <td>Necromancy</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Eldritch Blast</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Mage Hand</td>
-      <td>Conjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Minor Illusion</td>
-      <td>Illusion</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Poison Spray</td>
-      <td>Necromancy</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Prestidigitation</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>True Strike</td>
-      <td>Divination</td>
-      <td>—</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 1 Warlock Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Bane</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Charm Person</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Comprehend Languages</td>
-      <td>Divination</td>
-      <td>R</td>
-    </tr>
-    <tr>
-      <td>Detect Magic</td>
-      <td>Divination</td>
-      <td>C, R</td>
-    </tr>
-    <tr>
-      <td>Expeditious Retreat</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Hellish Rebuke</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Hex</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Hideous Laughter</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Illusory Script</td>
-      <td>Illusion</td>
-      <td>R, M</td>
-    </tr>
-    <tr>
-      <td>Protection from Evil and Good</td>
-      <td>Abjuration</td>
-      <td>C, M</td>
-    </tr>
-    <tr>
-      <td>Speak with Animals</td>
-      <td>Divination</td>
-      <td>R</td>
-    </tr>
-    <tr>
-      <td>Unseen Servant</td>
-      <td>Conjuration</td>
-      <td>R</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 2 Warlock Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Darkness</td>
-      <td>Evocation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Enthrall</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Hold Person</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Invisibility</td>
-      <td>Illusion</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Mind Spike</td>
-      <td>Divination</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Mirror Image</td>
-      <td>Illusion</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Misty Step</td>
-      <td>Conjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Ray of Enfeeblement</td>
-      <td>Necromancy</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Spider Climb</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Suggestion</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 3 Warlock Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Counterspell</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Dispel Magic</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Fear</td>
-      <td>Illusion</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Fly</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Gaseous Form</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Hypnotic Pattern</td>
-      <td>Illusion</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Magic Circle</td>
-      <td>Abjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Major Image</td>
-      <td>Illusion</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Remove Curse</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Tongues</td>
-      <td>Divination</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Vampiric Touch</td>
-      <td>Necromancy</td>
-      <td>C</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 4 Warlock Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Banishment</td>
-      <td>Abjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Blight</td>
-      <td>Necromancy</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Charm Monster</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Dimension Door</td>
-      <td>Conjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Hallucinatory Terrain</td>
-      <td>Illusion</td>
-      <td>—</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 5 Warlock Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Contact Other Plane</td>
-      <td>Divination</td>
-      <td>R</td>
-    </tr>
-    <tr>
-      <td>Dream</td>
-      <td>Illusion</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Hold Monster</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Mislead</td>
-      <td>Illusion</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Planar Binding</td>
-      <td>Abjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Scrying</td>
-      <td>Divination</td>
-      <td>C, M</td>
-    </tr>
-    <tr>
-      <td>Teleportation Circle</td>
-      <td>Conjuration</td>
-      <td>M</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 6 Warlock Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Circle of Death</td>
-      <td>Necromancy</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Create Undead</td>
-      <td>Necromancy</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Eyebite</td>
-      <td>Necromancy</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>True Seeing</td>
-      <td>Divination</td>
-      <td>M</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 7 Warlock Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Etherealness</td>
-      <td>Conjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Finger of Death</td>
-      <td>Necromancy</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Forcecage</td>
-      <td>Evocation</td>
-      <td>C, M</td>
-    </tr>
-    <tr>
-      <td>Plane Shift</td>
-      <td>Conjuration</td>
-      <td>M</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 8 Warlock Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Befuddlement</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Demiplane</td>
-      <td>Conjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Dominate Monster</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Glibness</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Power Word Stun</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 9 Warlock Spells
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Astral Projection</td>
-      <td>Necromancy</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Foresight</td>
-      <td>Divination</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Gate</td>
-      <td>Conjuration</td>
-      <td>C, M</td>
-    </tr>
-    <tr>
-      <td>Imprisonment</td>
-      <td>Abjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Power Word Kill</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>True Polymorph</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Weird</td>
-      <td>Illusion</td>
-      <td>C</td>
-    </tr>
-  </tbody>
-</table>
-
-### Brujo (Warlock) Subclass: Fiend Patron
-
-_Make a Deal with the Lower Planes_
-
-Your pact draws on the Lower Planes, the realms of perdition. You might forge a bargain with a demon lord, an archdevil, or another fiend that is especially mighty. That patron's aims are evil—the corruption or destruction of all things, ultimately including you—and your path is defined by the extent to which you strive against those aims.
-
-#### Level 3: Dark One's Blessing
-
-When you reduce an enemy to 0 Hit Points, you gain Temporary Hit Points equal to your Carisma modifier plus your Warlock level (minimum of 1 Temporary Hit Point). You also gain this benefit if someone else reduces an enemy within 10 pies of you to 0 Hit Points.
-
-#### Level 3: Fiend Spells
-
-The magic of your patron ensures you always have certain spells ready; when you reach a Warlock level specified in the Fiend Spells table, you thereafter always have the listed spells prepared.
-
-**Fiend Spells**
-
-<table>
-  <thead>
-    <tr>
-      <th>Warlock Level</th>
-      <th>Spells</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>3</td>
-      <td>Burning Hands, Command, Scorching Ray, Suggestion</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>Fireball, Stinking Cloud</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>Fire Shield, Wall of Fire</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>Geas, Insect Plague</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Level 6: Dark One's Own Luck
-
-You can call on your fiendish patron to alter fate in your favor. When you make an ability check or a saving throw, you can use this feature to add 1d10 to your roll. You can do so after seeing the roll but before any of the roll's effects occur.
-
-You can use this feature a number of times equal to your Carisma modifier (minimum of once), but you can use it no more than once per roll. You regain all expended uses when you finish a Long Rest.
-
-#### Level 10: Fiendish Resilience
-
-Choose one damage type, other than Force, whenever you finish a Short or Long Rest. You have Resistance to that damage type until you choose a different one with this feature.
-
-#### Level 14: Hurl Through Hell
-
-Una vez por turn when you hit a creature with an attack roll, you can try to instantly transport the target through the Lower Planes. The target must succeed on a Carisma saving throw against your spell save DC, or the target disappears and hurtles through a nightmare landscape. The target takes 8d10 Psychic damage if it isn't a Fiend, and it has the Incapacitated condition until the end of your next turn, when it returns to the space it previously occupied or the nearest unoccupied space.
-
-Una vez que use this feature, you can't use it again until you finish a Long Rest unless you expend a Pact Magic spell slot (no action required) to restore your use of it.
-
-## Mago (Wizard)
-
-**Rasgos Principales del Mago (Wizard)**
-
-<table>
-  <tbody>
-    <tr>
-      <td>Característica Primaria</td>
+      <td><strong>Característica principal</strong></td>
       <td>Inteligencia</td>
     </tr>
     <tr>
-      <td>Dado de Puntos de Golpe</td>
-      <td>D6 per Wizard level</td>
+      <td><strong>Dado de puntos de golpe</strong></td>
+      <td>1d6 por nivel de mago</td>
     </tr>
     <tr>
-      <td>Competencia en Tiradas de Salvación</td>
-      <td>Inteligencia and Sabiduría</td>
+      <td><strong>Competencias en tiradas de salvación</strong></td>
+      <td>Inteligencia y Sabiduría</td>
     </tr>
     <tr>
-      <td>Competencia en Habilidades</td>
-      <td>Choose 2: Arcana, History, Insight, Investigation, Medicine, Nature, or Religion</td>
+      <td><strong>Competencias en habilidades</strong></td>
+      <td>Elige dos: Conocimiento arcano, Historia, Investigación, Medicina, Perspicacia o Religión</td>
     </tr>
     <tr>
-      <td>Competencia en Armas</td>
-      <td>Simple weapons</td>
+      <td><strong>Competencias con armas</strong></td>
+      <td>Armas sencillas</td>
     </tr>
     <tr>
-      <td>Entrenamiento con Armaduras</td>
-      <td>None</td>
+      <td><strong>Entrenamiento con armaduras</strong></td>
+      <td>Ninguno</td>
     </tr>
     <tr>
-      <td>Equipo Inicial</td>
-      <td>Choose A or B: (A) 2 Daggers, Arcane Focus (Quarterstaff), Robe, Spellbook, Scholar's Pack, and 5 po; or (B) 55 po</td>
+      <td><strong>Equipo inicial</strong></td>
+      <td>Elige A o B: (A) 2 dagas, canalizador arcano (varita), libro de conjuros, paquete de erudito y 5 po; o (B) 55 po</td>
     </tr>
   </tbody>
 </table>
 
-### Becoming a Wizard …
+### Convertirse en mago
 
-#### As a Level 1 Character
+#### Como personaje de nivel 1
+- Obtienes todos los atributos de la tabla "Atributos básicos de mago".
+- Obtienes los rasgos de nivel 1 de mago, que se muestran en la tabla "Rasgos de mago".
 
-• Gain all the traits in the Core Wizard Traits table.
-• Gain the Wizard's level 1 features, which are listed in the Wizard Features table.
+#### Como personaje multiclase
+- Obtienes los siguientes atributos de la tabla "Atributos básicos de mago": dado de puntos de golpe.
+- Obtienes los rasgos de nivel 1 de mago, que se muestran en la tabla "Rasgos de mago". Consulta las reglas de multiclase del capítulo 2 para determinar tus espacios de conjuro disponibles.
 
-#### As a Multiclass Character
+### Rasgos de clase de mago
 
-• Gain the Hit Point Die from the Core Wizard Traits table.
-• Gain the Wizard's level 1 features, which are listed in the Wizard Features table. See the multiclassing rules in "Character Creation" to determine your available spell slots.
+Como mago, obtienes los siguientes rasgos de clase cuando alcanzas los niveles de mago especificados. Estos rasgos se muestran en la tabla "Rasgos de mago".
 
-### Mago (Wizard) Class Features
-
-As a Wizard, you gain the following class features when you reach the specified Wizard levels. These features are listed in the Wizard Features table.
-
-**Wizard Features**
+**Rasgos de mago**
 
 <table>
   <thead>
     <tr>
-      <th>Level</th>
-      <th>Proficiency Bonus</th>
-      <th>Class Features</th>
-      <th>Cantrips</th>
-      <th>Prepared Spells</th>
-      <th colspan="9">——Spell Slots per Spell Level——</th>
+      <th rowspan="2">Nivel</th>
+      <th rowspan="2">Bonificador por competencia</th>
+      <th rowspan="2">Rasgos de clase</th>
+      <th rowspan="2">Trucos</th>
+      <th rowspan="2">Conjuros preparados</th>
+      <th colspan="9">Espacios de conjuro por nivel de conjuro</th>
     </tr>
     <tr>
-      <th>
-      </th>
-      <th>
-      </th>
-      <th>
-      </th>
-      <th>
-      </th>
-      <th>
-      </th>
       <th>1</th>
       <th>2</th>
       <th>3</th>
@@ -9886,7 +5449,7 @@ As a Wizard, you gain the following class features when you reach the specified 
     <tr>
       <td>1</td>
       <td>+2</td>
-      <td>Spellcasting, Ritual Adept, Arcane Recovery</td>
+      <td>Lanzamiento de conjuros, Libro de conjuros, Recuperación arcana</td>
       <td>3</td>
       <td>4</td>
       <td>2</td>
@@ -9902,7 +5465,7 @@ As a Wizard, you gain the following class features when you reach the specified 
     <tr>
       <td>2</td>
       <td>+2</td>
-      <td>Scholar</td>
+      <td>Erudito</td>
       <td>3</td>
       <td>5</td>
       <td>3</td>
@@ -9918,7 +5481,7 @@ As a Wizard, you gain the following class features when you reach the specified 
     <tr>
       <td>3</td>
       <td>+2</td>
-      <td>Wizard Subclass</td>
+      <td>Subclase de mago</td>
       <td>3</td>
       <td>6</td>
       <td>4</td>
@@ -9934,7 +5497,7 @@ As a Wizard, you gain the following class features when you reach the specified 
     <tr>
       <td>4</td>
       <td>+2</td>
-      <td>Ability Score Improvement</td>
+      <td>Mejora de característica</td>
       <td>4</td>
       <td>7</td>
       <td>4</td>
@@ -9950,7 +5513,7 @@ As a Wizard, you gain the following class features when you reach the specified 
     <tr>
       <td>5</td>
       <td>+3</td>
-      <td>Memorize Spell</td>
+      <td>Memorizar conjuro</td>
       <td>4</td>
       <td>9</td>
       <td>4</td>
@@ -9966,7 +5529,7 @@ As a Wizard, you gain the following class features when you reach the specified 
     <tr>
       <td>6</td>
       <td>+3</td>
-      <td>Subclass feature</td>
+      <td>Rasgo de subclase</td>
       <td>4</td>
       <td>10</td>
       <td>4</td>
@@ -9998,7 +5561,7 @@ As a Wizard, you gain the following class features when you reach the specified 
     <tr>
       <td>8</td>
       <td>+3</td>
-      <td>Ability Score Improvement</td>
+      <td>Mejora de característica</td>
       <td>4</td>
       <td>12</td>
       <td>4</td>
@@ -10030,7 +5593,7 @@ As a Wizard, you gain the following class features when you reach the specified 
     <tr>
       <td>10</td>
       <td>+4</td>
-      <td>Subclass feature</td>
+      <td>Rasgo de subclase</td>
       <td>5</td>
       <td>15</td>
       <td>4</td>
@@ -10062,7 +5625,7 @@ As a Wizard, you gain the following class features when you reach the specified 
     <tr>
       <td>12</td>
       <td>+4</td>
-      <td>Ability Score Improvement</td>
+      <td>Mejora de característica</td>
       <td>5</td>
       <td>16</td>
       <td>4</td>
@@ -10094,9 +5657,9 @@ As a Wizard, you gain the following class features when you reach the specified 
     <tr>
       <td>14</td>
       <td>+5</td>
-      <td>Subclass feature</td>
+      <td>Rasgo de subclase</td>
       <td>5</td>
-      <td>18</td>
+      <td>17</td>
       <td>4</td>
       <td>3</td>
       <td>3</td>
@@ -10112,7 +5675,7 @@ As a Wizard, you gain the following class features when you reach the specified 
       <td>+5</td>
       <td>—</td>
       <td>5</td>
-      <td>19</td>
+      <td>18</td>
       <td>4</td>
       <td>3</td>
       <td>3</td>
@@ -10126,9 +5689,9 @@ As a Wizard, you gain the following class features when you reach the specified 
     <tr>
       <td>16</td>
       <td>+5</td>
-      <td>Ability Score Improvement</td>
+      <td>Mejora de característica</td>
       <td>5</td>
-      <td>21</td>
+      <td>18</td>
       <td>4</td>
       <td>3</td>
       <td>3</td>
@@ -10144,7 +5707,7 @@ As a Wizard, you gain the following class features when you reach the specified 
       <td>+6</td>
       <td>—</td>
       <td>5</td>
-      <td>22</td>
+      <td>19</td>
       <td>4</td>
       <td>3</td>
       <td>3</td>
@@ -10158,9 +5721,9 @@ As a Wizard, you gain the following class features when you reach the specified 
     <tr>
       <td>18</td>
       <td>+6</td>
-      <td>Spell Mastery</td>
+      <td>Maestría en conjuros</td>
       <td>5</td>
-      <td>23</td>
+      <td>20</td>
       <td>4</td>
       <td>3</td>
       <td>3</td>
@@ -10174,9 +5737,9 @@ As a Wizard, you gain the following class features when you reach the specified 
     <tr>
       <td>19</td>
       <td>+6</td>
-      <td>Epic Boon</td>
+      <td>Don épico</td>
       <td>5</td>
-      <td>24</td>
+      <td>21</td>
       <td>4</td>
       <td>3</td>
       <td>3</td>
@@ -10190,9 +5753,9 @@ As a Wizard, you gain the following class features when you reach the specified 
     <tr>
       <td>20</td>
       <td>+6</td>
-      <td>Signature Spells</td>
+      <td>Conjuros característicos</td>
       <td>5</td>
-      <td>25</td>
+      <td>22</td>
       <td>4</td>
       <td>3</td>
       <td>3</td>
@@ -10206,1341 +5769,1860 @@ As a Wizard, you gain the following class features when you reach the specified 
   </tbody>
 </table>
 
-#### Level 1: Spellcasting
+#### Nivel 1: Lanzamiento de conjuros
+- **Trucos.** Conoces tres trucos de la lista de mago (aprendes más en niveles 4 y 10).
+- **Espacios de conjuro.** Según la tabla "Rasgos de mago", recuperas todos tras un descanso largo.
+- **Conjuros preparados.** Preparas conjuros de tu libro de conjuros tras finalizar un descanso largo.
+- **Aptitud mágica.** Inteligencia.
+- **Canalizador mágico.** Canalizador arcano.
 
-As a student of arcane magic, you have learned to cast spells. See "Spells" for the rules on spellcasting. The information below details how you use those rules with Wizard spells, which appear in the Wizard spell list later in the class's description.
+#### Nivel 1: Libro de conjuros
+Empiezas con un libro de conjuros con seis conjuros de nivel 1 de mago. Cada vez que subas de nivel de mago, añades dos conjuros de mago a tu elección a tu libro sin coste. También puedes copiar nuevos conjuros encontrados dedicando 1 hora y 50 po por cada nivel del conjuro.
 
-_Cantrips._ You know three Wizard cantrips of your choice. _Light_, _Mage Hand_, and _Ray of Frost_ are recommended. Whenever you finish a Long Rest, you can replace one of your cantrips from this feature with another Wizard cantrip of your choice.
+#### Nivel 1: Recuperación arcana
+Una vez al día tras finalizar un descanso corto, puedes recuperar espacios de conjuro gastados cuya suma de niveles sea igual o inferior a la mitad de tu nivel de mago (redondeando hacia arriba, ninguno superior a nivel 5).
 
-When you reach Wizard levels 4 and 10, you learn another Wizard cantrip of your choice, as shown in the Cantrips column of the Wizard Features table.
+#### Nivel 2: Erudito
+Ganas pericia en una de las siguientes habilidades en las que seas competente: Conocimiento arcano, Historia, Investigación, Medicina, Naturaleza o Religión.
 
-_Spellbook._ Your wizardly apprenticeship culminated in the creation of a unique book: your spellbook. It is a Tiny object that weighs 3 pounds, contains 100 pages, and can be read only by you or someone casting _Identify_. You determine the book's appearance and materials, such as a gilt-edged tome or a collection of vellum bound with twine.
+#### Nivel 3: Subclase de mago
+Consigues una subclase de mago de tu elección: Abjurador, Adivino, Evocador o Ilusionista.
 
-The book contains the level 1+ spells you know. It starts with six level 1 Wizard spells of your choice. _Detect Magic_, _Feather Fall_, _Mage Armor_, _Magic Missile_, _Sleep_, and _Thunderwave_ are recommended.
+#### Nivel 4: Mejora de característica
+Obtienes una dote de Mejora de característica u otra dote para la que cumplas condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16.
 
-Whenever you gain a Wizard level after 1, add two Wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots, as shown in the Wizard Features table. The spells are the culmination of arcane research you do regularly.
+#### Nivel 5: Memorizar conjuro
+Tras finalizar un descanso corto, puedes consultar tu libro de conjuros y reemplazar uno de tus conjuros preparados por otro de tu libro.
 
-_Spell Slots._ The Wizard Features table shows how muchos spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.
+#### Nivel 18: Maestría en conjuros
+Eliges un conjuro de nivel 1 y uno de nivel 2 de tu libro de conjuros. Siempre los tienes preparados y puedes lanzarlos a su nivel más bajo sin gastar espacios de conjuro.
 
-_Prepared Spells of Level 1+._ You prepare the list of level 1+ spells that are available for you to cast with this feature. To do so, choose four spells from your spellbook. The chosen spells must be of a level for which you have spell slots.
+#### Nivel 19: Don épico
+Obtienes una dote de don épico u otra de tu elección. Se recomienda *Don del recuerdo de conjuros*.
 
-The number of spells on your list increases as you gain Wizard levels, as shown in the Prepared Spells column of the Wizard Features table. Whenever that number increases, choose additional Wizard spells until the number of spells on your list matches the number in the table. The chosen spells must be of a level for which you have spell slots. Por ejemplo, if you're a level 3 Wizard, your list of prepared spells can include six spells of levels 1 and 2 in any combination, chosen from your spellbook.
+#### Nivel 20: Conjuros característicos
+Eliges dos conjuros de nivel 3 de tu libro de conjuros. Siempre los tienes preparados y puedes lanzar cada uno de ellos una vez a nivel 3 sin gastar un espacio de conjuro por descanso corto o largo.
 
-If another Wizard feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Wizard spells for you.
+---
 
-_Changing Your Prepared Spells._ Whenever you finish a Long Rest, you can change your list of prepared spells, replacing any of the spells there with spells from your spellbook.
+### Lista de conjuros de mago
 
-_Spellcasting Ability._ Inteligencia is your spellcasting ability for your Wizard spells.
+#### Trucos (Nivel 0)
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Agarre electrizante | Evocación | — |
+| Amistad | Encantamiento | C |
+| Conmoción | Evocación | — |
+| Cuchillada de trueno | Evocación | — |
+| Descarga de fuego | Evocación | — |
+| Elementalismo | Transmutación | — |
+| Fragmento mental | Encantamiento | — |
+| Guardia de cuchillas | Abjuración | C |
+| Ilusión menor | Ilusionismo | — |
+| Impacto certero | Adivinación | — |
+| Luces danzantes | Ilusionismo | C |
+| Luz | Evocación | — |
+| Mano de mago | Conjuración | — |
+| Mensaje | Transmutación | — |
+| Prestidigitación | Transmutación | — |
+| Rayo de escarcha | Evocación | — |
+| Reparar | Transmutación | — |
+| Rociada venenosa | Nigromancia | — |
+| Salpicadura ácida | Conjuración | — |
+| Toque helado | Nigromancia | — |
+| Tronar | Evocación | — |
 
-_Spellcasting Focus._ You can use an Arcane Focus or your spellbook as a Spellcasting Focus for your Wizard spells.
+#### Nivel 1
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Alarma | Abjuración | R |
+| Armadura de mago | Abjuración | — |
+| Caída de pluma | Transmutación | — |
+| Comprensión idiomática | Adivinación | R |
+| Cuchillo de hielo | Conjuración | — |
+| Detectar magia | Adivinación | C, R |
+| Disfrazarse | Ilusionismo | — |
+| Disco flotante de Tenser | Conjuración | R |
+| Dormir | Encantamiento | C |
+| Escudo | Abjuración | — |
+| Falsa vida | Nigromancia | — |
+| Grasa | Conjuración | — |
+| Hechizar persona | Encantamiento | — |
+| Identificar | Adivinación | R, M |
+| Imagen silenciosa | Ilusionismo | C |
+| Manos ardientes | Evocación | — |
+| Nube de oscurecimiento | Conjuración | C |
+| Ola atronadora | Evocación | — |
+| Onda de caos | Evocación | — |
+| Orbe cromático | Evocación | M |
+| Proyectil mágico | Evocación | — |
+| Protección contra el bien y el mal | Abjuración | C, M |
+| Rayo de hechicería | Evocación | C |
+| Rayo nauseabundo | Nigromancia | C |
+| Retirada expeditiva | Transmutación | C |
+| Risa horrible de Tasha | Encantamiento | C |
+| Rociada de color | Ilusionismo | — |
+| Salto | Transmutación | — |
+| Sirviente invisible | Conjuración | R |
+| Texto ilusorio | Ilusionismo | R, M |
+| Zancada prodigiosa | Transmutación | — |
 
-#### Level 1: Ritual Adept
+#### Nivel 2
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Abrir | Transmutación | — |
+| Acelerar | Transmutación | C |
+| Agrandar/reducir | Transmutación | C |
+| Aliento de dragón | Transmutación | C |
+| Alterar el propio aspecto | Transmutación | C |
+| Boca mágica | Ilusionismo | R, M |
+| Ceguera/sordera | Nigromancia | — |
+| Clavo mental | Adivinación | C |
+| Contorno borroso | Ilusionismo | C |
+| Corona de locura | Encantamiento | C |
+| Destrozar (Hacer añicos) | Evocación | — |
+| Detectar pensamientos | Adivinación | C |
+| Dulce descanso | Nigromancia | R, M |
+| Esfera de llamas | Evocación | C |
+| Fuerza fantasmal | Ilusionismo | C |
+| Imagen múltiple | Ilusionismo | — |
+| Inmovilizar persona | Encantamiento | C |
+| Invisibilidad | Ilusionismo | C |
+| Levitación | Transmutación | C |
+| Llama permanente | Evocación | M |
+| Localizar objeto | Adivinación | C |
+| Nube de dagas | Conjuración | C |
+| Oscuridad | Evocación | C |
+| Paso brumoso | Conjuración | — |
+| Piel robliza | Transmutación | — |
+| Potenciar característica | Transmutación | C |
+| Ráfaga de viento | Evocación | C |
+| Rayo abrasador | Evocación | — |
+| Rayo debilitador | Nigromancia | C |
+| Sugestión | Encantamiento | C |
+| Telaraña | Conjuración | C |
+| Trepar cual arácnido | Transmutación | C |
+| Truco de la cuerda | Transmutación | — |
+| Ver invisibilidad | Adivinación | — |
+| Visión en la oscuridad | Transmutación | — |
 
-You can cast any spell as a Ritual if that spell has the Ritual tag and the spell is in your spellbook. You needn't have the spell prepared, but you must read from the book to cast a spell in this way.
+#### Nivel 3
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Animar a los muertos | Nigromancia | M |
+| Bola de fuego | Evocación | — |
+| Círculo mágico | Abjuración | M |
+| Clarividencia | Adivinación | C, M |
+| Contrahechizo | Abjuración | — |
+| Desplazamiento | Transmutación | C |
+| Disipar magia | Abjuración | — |
+| Don de lenguas | Adivinación | — |
+| Fingir muerte | Nigromancia | R |
+| Forma gaseosa | Transmutación | C |
+| Glifo custodio | Abjuración | M |
+| Hambre de Hadar | Conjuración | C |
+| Imagen mayor | Ilusionismo | C |
+| Imponer maldición | Nigromancia | C |
+| Indetectable | Abjuración | M |
+| Invocar aberración | Conjuración | C, M |
+| Invocar muerto viviente | Nigromancia | C, M |
+| Levantar maldición | Abjuración | — |
+| Luz del día | Evocación | — |
+| Nube apestosa | Conjuración | C |
+| Patrón hipnótico | Ilusionismo | C |
+| Pequeña choza de Leomund | Evocación | R |
+| Protección contra energía | Abjuración | C |
+| Ralentizar | Transmutación | C |
+| Recado | Adivinación | — |
+| Relámpago | Evocación | — |
+| Respirar bajo el agua | Transmutación | R |
+| Terror | Ilusionismo | C |
+| Toque vampírico | Nigromancia | C |
+| Tormenta de aguanieve | Conjuración | C |
+| Volar | Transmutación | C |
 
-#### Level 1: Arcane Recovery
+#### Nivel 4
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Asesino fantasmal | Ilusionismo | C |
+| Cofre secreto de Leomund | Conjuración | M |
+| Confusión | Encantamiento | C |
+| Conjurar elementales menores | Conjuración | C |
+| Controlar agua | Transmutación | C |
+| Destierro | Abjuración | C |
+| Escudo de fuego | Evocación | — |
+| Esfera elástica de Otiluke | Evocación | C |
+| Esfera vitriólica | Evocación | — |
+| Hechizar monstruo | Encantamiento | — |
+| Invocar autómata | Conjuración | C, M |
+| Invocar elemental | Conjuración | C, M |
+| Invisibilidad mejorada | Ilusionismo | C |
+| Libertad de movimiento | Abjuración | — |
+| Localizar criatura | Adivinación | C |
+| Marchitar | Nigromancia | — |
+| Moldear la piedra | Transmutación | — |
+| Muro de fuego | Evocación | C |
+| Ojo arcano | Adivinación | C |
+| Piel pétrea | Transmutación | C, M |
+| Polimorfar | Transmutación | C |
+| Puerta dimensional | Conjuración | — |
+| Sabueso fiel de Mordenkainen | Conjuración | — |
+| Santuario privado de Mordenkainen | Abjuración | M |
+| Tentáculos negros de Evard | Conjuración | C |
+| Terreno alucinatorio | Ilusionismo | — |
+| Tormenta de hielo | Evocación | — |
 
-You can regain some of your magical energy by studying your spellbook. When you finish a Short Rest, you can choose expended spell slots to recover. The spell slots can have a combined level equal to no more than half your Wizard level (round up), and none of the slots can be level 6 or higher. Por ejemplo, if you're a level 4 Wizard, you can recover up to two levels' worth of spell slots, regaining either one level 2 spell slot or two level 1 spell slots.
+#### Nivel 5
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Alterar los recuerdos | Encantamiento | C |
+| Animar objetos | Transmutación | C |
+| Apariencia | Ilusionismo | — |
+| Atadura planar | Abjuración | M |
+| Círculo de teletransportación | Conjuración | M |
+| Cono de frío | Evocación | — |
+| Conocer las leyendas | Adivinación | M |
+| Contactar con otro plano | Adivinación | R |
+| Creación | Ilusionismo | — |
+| Dominar persona | Encantamiento | C |
+| Engañar | Ilusionismo | C |
+| Enlace telepático de Rary | Adivinación | R |
+| Ensueño | Ilusionismo | — |
+| Escudriñar | Adivinación | C, M |
+| Estática sináptica | Encantamiento | — |
+| Geas | Encantamiento | — |
+| Inmovilizar monstruo | Encantamiento | C |
+| Invocar dragón | Conjuración | C, M |
+| Mano de Bigby | Evocación | C |
+| Muro de fuerza | Evocación | C |
+| Muro de piedra | Evocación | C |
+| Nube aniquiladora | Conjuración | C |
+| Pasamuros | Transmutación | — |
+| Presencia regia de Yolande | Encantamiento | C |
+| Telequinesis | Transmutación | C |
+| Tormenta resplandeciente de Jallarzi | Evocación | C |
+| Transmutar roca | Transmutación | — |
 
-Una vez que use this feature, you can't do so again until you finish a Long Rest.
+#### Nivel 6
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Baile irresistible de Otto | Encantamiento | C |
+| Caldero burbujeante de Tasha | Conjuración | M |
+| Carne a piedra | Transmutación | C |
+| Círculo de muerte | Nigromancia | M |
+| Contingencia | Evocación | M |
+| Crear muerto viviente | Nigromancia | M |
+| Desintegrar | Transmutación | — |
+| Esfera congelante de Otiluke | Evocación | — |
+| Globo de invulnerabilidad | Abjuración | C |
+| Guardas y guardias | Abjuración | M |
+| Ilusión programada | Ilusionismo | M |
+| Invocar infernal | Conjuración | C, M |
+| Mal de ojo | Nigromancia | C |
+| Mover la tierra | Transmutación | C |
+| Muro de hielo | Evocación | C |
+| Puerta arcana | Conjuración | C |
+| Rayo solar | Evocación | C |
+| Recipiente mágico | Nigromancia | M |
+| Relámpago en cadena | Evocación | — |
+| Sugestión en masa | Encantamiento | — |
+| Visión veraz | Adivinación | M |
 
-#### Level 2: Scholar
+#### Nivel 7
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Bola de fuego de explosión retardada | Evocación | C |
+| Dedo de la muerte | Nigromancia | — |
+| Desplazamiento entre planos | Conjuración | M |
+| Espada de Mordenkainen | Evocación | C, M |
+| Espejismo arcano | Ilusionismo | — |
+| Excursión etérea | Conjuración | — |
+| Invertir la gravedad | Transmutación | C |
+| Jaula de fuerza | Evocación | C, M |
+| Mansión magnífica de Mordenkainen | Conjuración | M |
+| Palabra de poder: fortalecer | Encantamiento | — |
+| Proyectar imagen | Ilusionismo | C, M |
+| Rociada prismática | Evocación | — |
+| Símbolo | Abjuración | M |
+| Simulacro | Ilusionismo | M |
+| Teletransporte | Conjuración | — |
 
-While studying magic, you also specialized in another field of study. Choose one of the following skills in which you have proficiency: Arcana, History, Investigation, Medicine, Nature, or Religion. You have Expertise in the chosen skill.
+#### Nivel 8
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Antipatía/simpatía | Encantamiento | — |
+| Campo antimagia | Abjuración | C |
+| Clon | Nigromancia | M |
+| Controlar el clima | Transmutación | C |
+| Dominar monstruo | Encantamiento | C |
+| Explosión solar | Evocación | — |
+| Laberinto | Conjuración | C |
+| Mente en blanco | Abjuración | — |
+| Nube incendiaria | Conjuración | C |
+| Ofuscación | Encantamiento | — |
+| Palabra de poder: aturdir | Encantamiento | — |
+| Semiplano | Conjuración | — |
+| Telepatía | Adivinación | — |
 
-#### Level 3: Wizard Subclass
+#### Nivel 9
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Cambiar de forma | Transmutación | C, M |
+| Cautiverio | Abjuración | M |
+| Deseo | Conjuración | — |
+| Muro prismático | Abjuración | — |
+| Palabra de poder: matar | Encantamiento | — |
+| Parar el tiempo | Transmutación | — |
+| Polimorfar verdadero | Transmutación | C |
+| Portal | Conjuración | C, M |
+| Presciencia | Adivinación | — |
+| Proyección astral | Nigromancia | M |
+| Terror abyecto | Ilusionismo | C |
+| Tormenta de meteoritos | Evocación | — |
 
-You gain a Wizard subclass of your choice. The Evoker subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Wizard levels. For the rest of your career, you gain each of your subclass's features that are of your Wizard level or lower.
+---
 
-> **Expanding and Replacing a Spellbook**
->
-> The spells you add to your spellbook as you gain levels reflect your ongoing magical research, but you might find other spells during your adventures that you can add to the book. You could discover a Wizard spell on a _Spell Scroll_, por ejemplo, and then copy it into your spellbook.
->
-> _Copying a Spell into the Book._ When you find a level 1+ Wizard spell, you can copy it into your spellbook if it's of a level you can prepare and if you have time to copy it. For each level of the spell, the transcription takes 2 hours and costs 50 po. Afterward you can prepare the spell like the other spells in your spellbook.
->
-> _Copying the Book._ You can copy a spell from your spellbook into another book. This is like copying a new spell into your spellbook but faster, since you already know how to cast the spell. You need spend only 1 hour and 10 po for each level of the copied spell.
->
-> If you lose your spellbook, you can use the same procedure to transcribe the Wizard spells that you have prepared into a new spellbook. Filling out the remainder of the new book requires you to find new spells to do so. For this reason, muchos wizards keep a backup spellbook.
+### Subclases de mago
 
-#### Level 4: Ability Score Improvement
+#### Abjurador
 
-You gain the Ability Score Improvement feat (see "Feats") or another feat of your choice for which you qualify. You gain this feature again at Wizard levels 8, 12, and 16.
+*Protege a tus compañeros y destierra a tus enemigos.*
 
-#### Level 5: Memorize Spell
+##### Nivel 3: Experto en abjuración
+Añades dos conjuros de abjuración de nivel 2 o inferior a tu libro de conjuros gratis, y uno más cada vez que consigas un nuevo nivel de espacios de conjuro.
 
-Whenever you finish a Short Rest, you can study your spellbook and replace one of the level 1+ Wizard spells you have prepared for your Spellcasting feature with another level 1+ spell from the book.
+##### Nivel 3: Salvaguarda arcana
+Al lanzar un conjuro de abjuración con un espacio de conjuro, creas una salvaguarda con PG máximos iguales al doble de tu nivel de mago más tu Inteligencia. La salvaguarda absorbe el daño que fueras a recibir. Al lanzar conjuros de abjuración, la salvaguarda recupera PG iguales al doble del nivel del espacio.
 
-#### Level 18: Spell Mastery
+##### Nivel 6: Salvaguarda proyectada
+Reacción cuando un aliado a 9 m reciba daño para que tu salvaguarda arcana absorba ese daño.
 
-You have achieved such mastery over certain spells that you can cast them at will. Choose a level 1 and a level 2 spell in your spellbook that have a casting time of an action. You always have those spells prepared, and you can cast them at their lowest level without expending a spell slot. To cast either spell at a higher level, you must expend a spell slot.
+##### Nivel 10: Rompeconjuros
+Siempre tienes preparados *contrahechizo* y *disipar magia*. Lanzas *disipar magia* como acción adicional sumando tu competencia a la prueba. Si cualquiera de los dos falla al neutralizar, el espacio de conjuro no se gasta.
 
-Whenever you finish a Long Rest, you can study your spellbook and replace one of those spells with an eligible spell of the same level from the book.
+##### Nivel 14: Resistencia a conjuros
+Ventaja en tiradas de salvación contra conjuros y resistencia al daño de conjuros.
 
-#### Level 19: Epic Boon
+---
 
-You gain an Epic Boon feat (see "Feats") or another feat of your choice for which you qualify. Boon of Spell Recall is recommended.
+#### Adivino
 
-#### Level 20: Signature Spells
+*Descifra los secretos del multiverso.*
 
-Choose two level 3 spells in your spellbook as your signature spells. You always have these spells prepared, and you can cast each of them once at level 3 without expending a spell slot. When you do so, you can't cast them in this way again until you finish a Short or Long Rest. To cast either spell at a higher level, you must expend a spell slot.
+##### Nivel 3: Experto en adivinación
+Añades dos conjuros de adivinación de nivel 2 o inferior a tu libro de conjuros gratis, y uno más cada vez que consigas un nuevo nivel de espacios de conjuro.
 
-### Mago (Wizard) Spell List
+##### Nivel 3: Presagio
+Tras finalizar un descanso largo, tiras 2d20. Puedes sustituir cualquier prueba con d20 que hagas tú o una criatura que puedas ver por uno de esos resultados presagiados.
 
-This section presents the Wizard spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column, C means the spell requires Concentration, R means it's a Ritual, and M means it requires a specific Material component.
+##### Nivel 6: Adivino avezado
+Al lanzar un conjuro de adivinación de nivel 2 a 5 con un espacio de conjuro, recuperas un espacio gastado de un nivel inferior.
 
-#### Cantrips (Level 0 Wizard Spells)
+##### Nivel 10: El tercer ojo
+Como acción adicional, eliges un beneficio hasta tu próximo descanso: Comprensión superior (leer cualquier idioma), Ver invisibilidad (lanzar el conjuro gratis) o Visión en la oscuridad (36 m).
+
+##### Nivel 14: Presagio mayor
+Tiras 3d20 para tu rasgo Presagio en lugar de dos.
+
+---
+
+#### Evocador
+
+*Crea efectos elementales explosivos.*
+
+##### Nivel 3: Experto en evocación
+Añades dos conjuros de evocación de nivel 2 o inferior a tu libro de conjuros gratis, y uno más cada vez que consigas un nuevo nivel de espacios de conjuro.
+
+##### Nivel 3: Truco potente
+Cuando un objetivo falle o supere la tirada de salvación contra uno de tus trucos que cause daño (o falles el ataque), recibe la mitad del daño del truco.
+
+##### Nivel 6: Esculpir conjuros
+Al lanzar un conjuro de evocación de área, puedes elegir 1 + nivel del conjuro criaturas: tienen éxito automático en sus salvaciones y no sufren daño alguno.
+
+##### Nivel 10: Evocación potenciada
+Sumas tu modificador por Inteligencia a una tirada de daño de tus conjuros de evocación de mago.
+
+##### Nivel 14: Sobrecanalizar
+Al lanzar un conjuro de daño de nivel 1 a 5, puedes maximizar todo su daño. Usarlo más de una vez por descanso largo inflige 2d12 (+1d12 acumulativo por uso adicional) de daño necrótico por nivel del espacio que ignora resistencias.
+
+---
+
+#### Ilusionista
+
+*Urde sutiles conjuros de engaño.*
+
+##### Nivel 3: Experto en ilusionismo
+Añades dos conjuros de ilusionismo de nivel 2 o inferior a tu libro de conjuros gratis, y uno más cada vez que consigas un nuevo nivel de espacios de conjuro.
+
+##### Nivel 3: Ilusiones mejoradas
+Lanzas conjuros de ilusionismo sin componentes verbales y con +18 m de alcance. Además, conoces *ilusión menor*, puedes lanzarlo como acción adicional y crear sonido e imagen juntos.
+
+##### Nivel 6: Criaturas fantasmales
+Siempre tienes preparados *invocar bestia* e *invocar feérico*. Puedes lanzarlos como conjuros de ilusionismo una vez gratis por descanso largo (criatura espectral con la mitad de PG).
+
+##### Nivel 10: Yo ilusorio
+Reacción cuando una criatura te acierte con un ataque: interpones un doble ilusorio que hace que el ataque falle automáticamente (un uso por descanso corto/largo o espacio de nivel 2+).
+
+##### Nivel 14: Realidad ilusoria
+Como acción adicional, vuelves real y tangible un objeto inanimado de una de tus ilusiones durante 1 minuto (no puede causar daño directo ni estados).
+
+---
+
+## Monje
+
+Los monjes canalizan una energía mística interior a la que llaman concentración para realizar hazañas físicas asombrosas, asestar ráfagas veloces de golpes y moverse con una agilidad prodigiosa. Para los monjes, el cuerpo es el arma definitiva y un templo sagrado que perfeccionan mediante el entrenamiento riguroso.
+
+A través de la meditación y la disciplina marcial, los monjes trascienden las limitaciones comunes del combate con armas, convirtiendo sus propios puños y pies en armas letales capaces de rivalizar con el filo del acero templado.
+
+### Atributos básicos de monje
 
 <table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
   <tbody>
     <tr>
-      <td>Acid Splash</td>
-      <td>Evocation</td>
-      <td>—</td>
+      <td><strong>Característica principal</strong></td>
+      <td>Destreza y Sabiduría</td>
     </tr>
     <tr>
-      <td>Chill Touch</td>
-      <td>Necromancy</td>
-      <td>—</td>
+      <td><strong>Dado de puntos de golpe</strong></td>
+      <td>1d8 por nivel de monje</td>
     </tr>
     <tr>
-      <td>Dancing Lights</td>
-      <td>Illusion</td>
-      <td>C</td>
+      <td><strong>Competencias en tiradas de salvación</strong></td>
+      <td>Fuerza y Destreza</td>
     </tr>
     <tr>
-      <td>Elementalism</td>
-      <td>Transmutation</td>
-      <td>—</td>
+      <td><strong>Competencias en habilidades</strong></td>
+      <td>Elige dos: Acrobacias, Atletismo, Historia, Perspicacia, Religión o Sigilo</td>
     </tr>
     <tr>
-      <td>Fire Bolt</td>
-      <td>Evocation</td>
-      <td>—</td>
+      <td><strong>Competencias con armas</strong></td>
+      <td>Armas sencillas y espadas cortas marciales</td>
     </tr>
     <tr>
-      <td>Light</td>
-      <td>Evocation</td>
-      <td>—</td>
+      <td><strong>Competencias con herramientas</strong></td>
+      <td>Elige un tipo de herramientas de artesano o un instrumento musical</td>
     </tr>
     <tr>
-      <td>Mage Hand</td>
-      <td>Conjuration</td>
-      <td>—</td>
+      <td><strong>Entrenamiento con armaduras</strong></td>
+      <td>Ninguno</td>
     </tr>
     <tr>
-      <td>Mending</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Message</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Minor Illusion</td>
-      <td>Illusion</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Poison Spray</td>
-      <td>Necromancy</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Prestidigitation</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Ray of Frost</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Shocking Grasp</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>True Strike</td>
-      <td>Divination</td>
-      <td>—</td>
+      <td><strong>Equipo inicial</strong></td>
+      <td>Elige A o B: (A) lanza, 5 dagas, paquete de explorador, herramientas de artesano o instrumento musical y 11 po; o (B) 65 po</td>
     </tr>
   </tbody>
 </table>
 
-#### Level 1 Wizard Spells
+### Convertirse en monje
+
+#### Como personaje de nivel 1
+- Obtienes todos los atributos de la tabla "Atributos básicos de monje".
+- Obtienes los rasgos de nivel 1 de monje, que se muestran en la tabla "Rasgos de monje".
+
+#### Como personaje multiclase
+- Obtienes los siguientes atributos de la tabla "Atributos básicos de monje": dado de puntos de golpe.
+- Obtienes los rasgos de nivel 1 de monje, que se muestran en la tabla "Rasgos de monje".
+
+### Rasgos de clase de monje
+
+Como monje, obtienes los siguientes rasgos de clase cuando alcanzas los niveles de monje especificados. Estos rasgos se muestran en la tabla "Rasgos de monje".
+
+**Rasgos de monje**
 
 <table>
   <thead>
     <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
+      <th>Nivel</th>
+      <th>Bonificador por competencia</th>
+      <th>Rasgos de clase</th>
+      <th>Dado de Artes marciales</th>
+      <th>Puntos de concentración</th>
+      <th>Movimiento sin armadura</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Alarm</td>
-      <td>Abjuration</td>
-      <td>R</td>
-    </tr>
-    <tr>
-      <td>Burning Hands</td>
-      <td>Evocation</td>
+      <td>1</td>
+      <td>+2</td>
+      <td>Artes marciales, Defensa sin armadura</td>
+      <td>1d6</td>
+      <td>—</td>
       <td>—</td>
     </tr>
     <tr>
-      <td>Charm Person</td>
-      <td>Enchantment</td>
-      <td>—</td>
+      <td>2</td>
+      <td>+2</td>
+      <td>Concentración de monje, Movimiento sin armadura, Sanación prodigiosa</td>
+      <td>1d6</td>
+      <td>2</td>
+      <td>+3 m</td>
     </tr>
     <tr>
-      <td>Chromatic Orb</td>
-      <td>Evocation</td>
-      <td>M</td>
+      <td>3</td>
+      <td>+2</td>
+      <td>Desviar ataques, Subclase de monje</td>
+      <td>1d6</td>
+      <td>3</td>
+      <td>+3 m</td>
     </tr>
     <tr>
-      <td>Color Spray</td>
-      <td>Illusion</td>
-      <td>—</td>
+      <td>4</td>
+      <td>+2</td>
+      <td>Caída lenta, Mejora de característica</td>
+      <td>1d6</td>
+      <td>4</td>
+      <td>+3 m</td>
     </tr>
     <tr>
-      <td>Comprehend Languages</td>
-      <td>Divination</td>
-      <td>R</td>
+      <td>5</td>
+      <td>+3</td>
+      <td>Ataque adicional, Golpe aturdidor</td>
+      <td>1d8</td>
+      <td>5</td>
+      <td>+3 m</td>
     </tr>
     <tr>
-      <td>Detect Magic</td>
-      <td>Divination</td>
-      <td>C, R</td>
+      <td>6</td>
+      <td>+3</td>
+      <td>Golpes potenciados, Rasgo de subclase</td>
+      <td>1d8</td>
+      <td>6</td>
+      <td>+4,5 m</td>
     </tr>
     <tr>
-      <td>Disguise Self</td>
-      <td>Illusion</td>
-      <td>—</td>
+      <td>7</td>
+      <td>+3</td>
+      <td>Evasión</td>
+      <td>1d8</td>
+      <td>7</td>
+      <td>+4,5 m</td>
     </tr>
     <tr>
-      <td>Expeditious Retreat</td>
-      <td>Transmutation</td>
-      <td>C</td>
+      <td>8</td>
+      <td>+3</td>
+      <td>Mejora de característica</td>
+      <td>1d8</td>
+      <td>8</td>
+      <td>+4,5 m</td>
     </tr>
     <tr>
-      <td>False Life</td>
-      <td>Necromancy</td>
-      <td>—</td>
+      <td>9</td>
+      <td>+4</td>
+      <td>Movimiento acrobático</td>
+      <td>1d8</td>
+      <td>9</td>
+      <td>+4,5 m</td>
     </tr>
     <tr>
-      <td>Feather Fall</td>
-      <td>Transmutation</td>
-      <td>—</td>
+      <td>10</td>
+      <td>+4</td>
+      <td>Autorrestablecimiento, Concentración incrementada</td>
+      <td>1d8</td>
+      <td>10</td>
+      <td>+6 m</td>
     </tr>
     <tr>
-      <td>Find Familiar</td>
-      <td>Conjuration</td>
-      <td>R, M</td>
+      <td>11</td>
+      <td>+4</td>
+      <td>Rasgo de subclase</td>
+      <td>1d10</td>
+      <td>11</td>
+      <td>+6 m</td>
     </tr>
     <tr>
-      <td>Floating Disk</td>
-      <td>Conjuration</td>
-      <td>R</td>
+      <td>12</td>
+      <td>+4</td>
+      <td>Mejora de característica</td>
+      <td>1d10</td>
+      <td>12</td>
+      <td>+6 m</td>
     </tr>
     <tr>
-      <td>Fog Cloud</td>
-      <td>Conjuration</td>
-      <td>C</td>
+      <td>13</td>
+      <td>+5</td>
+      <td>Desviar energía</td>
+      <td>1d10</td>
+      <td>13</td>
+      <td>+6 m</td>
     </tr>
     <tr>
-      <td>Grease</td>
-      <td>Conjuration</td>
-      <td>—</td>
+      <td>14</td>
+      <td>+5</td>
+      <td>Disciplina diamantina</td>
+      <td>1d10</td>
+      <td>14</td>
+      <td>+7,5 m</td>
     </tr>
     <tr>
-      <td>Hideous Laughter</td>
-      <td>Enchantment</td>
-      <td>C</td>
+      <td>15</td>
+      <td>+5</td>
+      <td>Concentración perfecta</td>
+      <td>1d10</td>
+      <td>15</td>
+      <td>+7,5 m</td>
     </tr>
     <tr>
-      <td>Ice Knife</td>
-      <td>Conjuration</td>
-      <td>—</td>
+      <td>16</td>
+      <td>+5</td>
+      <td>Mejora de característica</td>
+      <td>1d10</td>
+      <td>16</td>
+      <td>+7,5 m</td>
     </tr>
     <tr>
-      <td>Identify</td>
-      <td>Divination</td>
-      <td>R, M</td>
+      <td>17</td>
+      <td>+6</td>
+      <td>Rasgo de subclase</td>
+      <td>1d12</td>
+      <td>17</td>
+      <td>+7,5 m</td>
     </tr>
     <tr>
-      <td>Illusory Script</td>
-      <td>Illusion</td>
-      <td>R, M</td>
+      <td>18</td>
+      <td>+6</td>
+      <td>Defensa superior</td>
+      <td>1d12</td>
+      <td>18</td>
+      <td>+9 m</td>
     </tr>
     <tr>
-      <td>Jump</td>
-      <td>Transmutation</td>
-      <td>—</td>
+      <td>19</td>
+      <td>+6</td>
+      <td>Don épico</td>
+      <td>1d12</td>
+      <td>19</td>
+      <td>+9 m</td>
     </tr>
     <tr>
-      <td>Longstrider</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Mage Armor</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Magic Missile</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Protection from Evil and Good</td>
-      <td>Abjuration</td>
-      <td>C, M</td>
-    </tr>
-    <tr>
-      <td>Ray of Sickness</td>
-      <td>Necromancy</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Shield</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Silent Image</td>
-      <td>Illusion</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Sleep</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Thunderwave</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Unseen Servant</td>
-      <td>Conjuration</td>
-      <td>R</td>
+      <td>20</td>
+      <td>+6</td>
+      <td>Cuerpo y mente</td>
+      <td>1d12</td>
+      <td>20</td>
+      <td>+9 m</td>
     </tr>
   </tbody>
 </table>
 
-#### Level 2 Wizard Spells
+#### Nivel 1: Artes marciales
+Tu entrenamiento marcial te otorga maestría en el combate sin armas y con armas de monje (armas cuerpo a cuerpo sencillas y espadas cortas marciales):
+- **Ataques sin armas.** Puedes usar Destreza en lugar de Fuerza para las tiradas de ataque y daño, y puedes tirar tu dado de Artes marciales en lugar del daño normal.
+- **Ataque adicional sin armas.** Al realizar la acción de atacar con un ataque sin armas o un arma de monje en tu turno, puedes hacer un ataque sin armas como acción adicional.
+
+#### Nivel 1: Defensa sin armadura
+Mientras no lleves armadura ni portes un escudo, tu CA base es igual a 10 + tu modificador por Destreza + tu modificador por Sabiduría.
+
+#### Nivel 2: Concentración de monje
+Obtienes una reserva de puntos de concentración igual a tu nivel de monje (recuperas todos tras un descanso corto o largo). Puedes gastar puntos de concentración para activar habilidades especiales:
+- **Ráfaga de golpes (1 punto):** Como acción adicional tras la acción de atacar, realizas dos ataques sin armas.
+- **Paciencia y defensa (1 punto):** Como acción adicional, realizas la acción de Esquivar (o puedes hacerla gratis sin gastar concentración si no te mueves ese turno).
+- **Paso del viento (1 punto):** Como acción adicional, realizas las acciones de Destrabarse y Correr a la vez, y tu distancia de salto se duplica para ese turno.
+
+#### Nivel 2: Movimiento sin armadura
+Tu velocidad aumenta en la cantidad mostrada en la columna "Movimiento sin armadura" mientras no lleves armadura ni portes un escudo.
+
+#### Nivel 2: Sanación prodigiosa
+Como acción de magia, gastas 1 punto de concentración para tirar tu dado de Artes marciales y recuperar una cantidad de PG igual a la tirada + tu bonificador por competencia.
+
+#### Nivel 3: Desviar ataques
+Cuando una criatura te dañe con un ataque con arma o ataque sin armas, puedes usar una reacción para reducir el daño recibido en 1d10 + tu modificador por Destreza + tu nivel de monje. Si reduces el daño a 0, puedes gastar 1 punto de concentración para redirigir el ataque y golpear a una criatura a 1,5 m (o a 18 m si era un proyectil).
+
+#### Nivel 3: Subclase de monje
+Consigues una subclase de monje de tu elección: Guerrero de la Mano Abierta, Guerrero de la Misericordia, Guerrero de la Sombra o Guerrero de los Elementos.
+
+#### Nivel 4: Caída lenta
+Reacción al caer para reducir el daño de caída en una cantidad igual a cinco veces tu nivel de monje.
+
+#### Nivel 4: Mejora de característica
+Obtienes la dote Mejora de característica u otra dote para la que cumplas condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16 de monje.
+
+#### Nivel 5: Ataque adicional
+Al llevar a cabo la acción de atacar en tu turno, puedes hacer dos ataques en lugar de uno.
+
+#### Nivel 5: Golpe aturdidor
+Una vez por turno, cuando aciertes a una criatura con un arma de monje o ataque sin armas, puedes gastar 1 punto de concentración para obligar al objetivo a hacer una salvación de Constitución: si falla, queda aturdido hasta el inicio de tu siguiente turno; si tiene éxito, su velocidad se reduce a la mitad hasta el inicio de tu siguiente turno y el siguiente ataque contra él tiene ventaja.
+
+#### Nivel 6: Golpes potenciados
+Tus ataques sin armas pueden infligir daño de fuerza en lugar de su tipo de daño normal.
+
+#### Nivel 7: Evasión
+Cuando superas una salvación de Destreza para sufrir la mitad de daño, no sufres daño alguno, y solo la mitad si la fallas.
+
+#### Nivel 9: Movimiento acrobático
+Puedes moverte por superficies verticales y sobre líquidos sin caerte durante tu turno.
+
+#### Nivel 10: Autorrestablecimiento
+Al final de cada uno de tus turnos, puedes eliminar de ti mismo uno de los siguientes estados: asustado, envenenado o hechizado. Además, no sufres cansancio por falta de comida o bebida.
+
+#### Nivel 13: Desviar energía
+Tu rasgo Desviar ataques ahora puede utilizarse contra cualquier tipo de daño, no solo daño físico.
+
+#### Nivel 14: Disciplina diamantina
+Obtienes competencia en todas las tiradas de salvación. Además, si fallas una tirada de salvación, puedes gastar 1 punto de concentración para repetirla.
+
+#### Nivel 15: Concentración perfecta
+Al tirar iniciativa con menos de 4 puntos de concentración, recuperas puntos hasta tener 4.
+
+#### Nivel 18: Defensa superior
+Al principio de tu turno, puedes gastar 3 puntos de concentración para obtener resistencia a todo el daño excepto daño de fuerza durante 1 minuto.
+
+#### Nivel 19: Don épico
+Obtienes una dote de don épico u otra de tu elección. Se recomienda *Don del ataque imparable*.
+
+#### Nivel 20: Cuerpo y mente
+Tus puntuaciones de Destreza y Sabiduría aumentan en 4, hasta un máximo de 25.
+
+---
+
+### Subclases de monje
+
+#### Guerrero de la Mano Abierta
+
+*Domina las técnicas de combate sin armas.*
+
+##### Nivel 3: Técnica de la mano abierta
+Al acertar con un ataque de Ráfaga de golpes, aplicas uno de estos efectos al objetivo:
+- **Derribar:** Salvación de Destreza o queda derribado.
+- **Desconcertar:** No puede realizar ataques de oportunidad hasta el inicio de su siguiente turno.
+- **Empujar:** Salvación de Fuerza o es empujado hasta 4,5 m respecto a ti.
+
+##### Nivel 6: Plenitud de cuerpo
+Como acción adicional, recuperas PG iguales a una tirada de tu dado de Artes marciales + Sabiduría (usos iguales a tu modificador por Sabiduría por descanso largo).
+
+##### Nivel 11: Paso veloz
+Cuando uses una acción adicional distinta a Paso del viento, puedes usar inmediatamente también Paso del viento.
+
+##### Nivel 17: Palma estremecedora
+Al acertar un ataque sin armas, gastas 4 puntos de concentración para iniciar vibraciones letales. Al terminarlas con una acción o ataque, el objetivo debe superar salvación de Constitución o sufrir 10d12 de daño de fuerza (la mitad si la supera).
+
+---
+
+#### Guerrero de la Misericordia
+
+*Manipula las fuerzas de la vida y la muerte.*
+
+##### Nivel 3: Instrumentos de misericordia
+Competencia en Medicina, Perspicacia y útiles de herborista.
+
+##### Nivel 3: Mano de aflicción
+Una vez por turno al acertar un ataque sin armas, gastas 1 punto de concentración para infligir daño necrótico adicional igual a tu dado de Artes marciales + Sabiduría.
+
+##### Nivel 3: Mano de curación
+Como acción de magia (o reemplazando un ataque de Ráfaga de golpes gratis), gastas 1 punto de concentración para curar a una criatura tocada una cantidad de PG igual a tu dado de Artes marciales + Sabiduría.
+
+##### Nivel 6: Toque de galeno
+Mano de aflicción también aplica el estado de envenenado hasta tu siguiente turno. Mano de curación también elimina aturdido, cegado, ensordecido, envenenado o paralizado.
+
+##### Nivel 11: Ráfaga de curación y aflicción
+En Ráfaga de golpes puedes sustituir ataques por Mano de curación y aplicar Mano de aflicción gratis (usos iguales a tu modificador por Sabiduría por descanso largo).
+
+##### Nivel 17: Mano de misericordia suprema
+Acción de magia para revivir a un cadáver muerto en las últimas 24 horas gastando 5 puntos de concentración (revive con 4d10 + Sabiduría PG y sin estados perjudiciales; una vez por descanso largo).
+
+---
+
+#### Guerrero de la Sombra
+
+*Utiliza el poder de la sombra para el sigilo y el subterfugio.*
+
+##### Nivel 3: Artes sombrías
+- **Ilusiones sombrías:** Conoces el truco *ilusión menor* (usando Sabiduría).
+- **Oscuridad:** Gastas 1 punto de concentración para lanzar *oscuridad* sin componentes (puedes ver dentro y mover la esfera 18 m en cada turno).
+- **Visión en la oscuridad:** Obtienes visión en la oscuridad hasta 18 m (o +18 m).
+
+##### Nivel 6: Paso entre sombras
+Como acción adicional en luz tenue u oscuridad, te teletransportas hasta 18 m a otro punto en luz tenue u oscuridad y ganas ventaja en tu siguiente ataque cuerpo a cuerpo ese turno.
+
+##### Nivel 11: Paso entre sombras mejorado
+Gastas 1 punto de concentración para eliminar el requisito de luz tenue/oscuridad en Paso entre sombras y realizar un ataque sin armas inmediatamente tras teletransportarte.
+
+##### Nivel 17: Capa de sombras
+Como acción de magia en penumbra, gastas 3 puntos de concentración durante 1 minuto para volverte invisible, moverte a través de criaturas y usar Ráfaga de golpes gratis sin gastar concentración.
+
+---
+
+#### Guerrero de los Elementos
+
+*Emplea ataques y explosiones de poder elemental.*
+
+##### Nivel 3: Armonía con los elementos
+Al principio de tu turno, gastas 1 punto de concentración durante 10 minutos para:
+- Aumentar el alcance de tus ataques sin armas en +3 m.
+- Cambiar el tipo de daño a ácido, frío, fuego, relámpago o trueno, y forzar salvación de Fuerza para mover al objetivo hasta 3 m.
+
+##### Nivel 3: Manipular los elementos
+Conoces el conjuro *elementalismo* (usando Sabiduría).
+
+##### Nivel 6: Explosión elemental
+Como acción de magia, gastas 2 puntos de concentración para detonar una esfera de 6 m de radio a 36 m que inflige 3 dados de Artes marciales de daño elemental (salvación de Destreza para mitad).
+
+##### Nivel 11: Paso de los elementos
+Mientras Armonía con los elementos está activa, obtienes velocidad de vuelo y nado iguales a tu velocidad.
+
+##### Nivel 17: Paradigma elemental
+Mientras Armonía con los elementos está activa: sumas 1 dado de daño extra una vez por turno, Paso del viento aumenta velocidad en +6 m y daña a enemigos adyacentes, y obtienes resistencia al daño elemental elegido al inicio de tu turno.
+
+---
+
+## Paladín
+
+Los paladines son guerreros sagrados unidos por un juramento solemne a defender la justicia y el bien frente a la oscuridad. Su devoción inquebrantable les confiere poderes mágicos divinos con los que sanar a los heridos, expulsar a las fuerzas del mal y bendecir a sus aliados en combate.
+
+Un paladín es un modelo de rectitud, valor y destreza militar, capaz de empuñar armas benditas contra las aberraciones, infernales y muertos vivientes que amenazan el orden moral y la vida de los inocentes.
+
+### Atributos básicos de paladín
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Característica principal</strong></td>
+      <td>Fuerza y Carisma</td>
+    </tr>
+    <tr>
+      <td><strong>Dado de puntos de golpe</strong></td>
+      <td>1d10 por nivel de paladín</td>
+    </tr>
+    <tr>
+      <td><strong>Competencias en tiradas de salvación</strong></td>
+      <td>Sabiduría y Carisma</td>
+    </tr>
+    <tr>
+      <td><strong>Competencias en habilidades</strong></td>
+      <td>Elige dos: Atletismo, Intimidación, Medicina, Perspicacia, Persuasión o Religión</td>
+    </tr>
+    <tr>
+      <td><strong>Competencias con armas</strong></td>
+      <td>Armas sencillas y marciales</td>
+    </tr>
+    <tr>
+      <td><strong>Entrenamiento con armaduras</strong></td>
+      <td>Todas las armaduras y escudos</td>
+    </tr>
+    <tr>
+      <td><strong>Equipo inicial</strong></td>
+      <td>Elige A o B: (A) cota de malla, escudo, espada larga, 6 jabalinas, símbolo sagrado, paquete de sacerdote y 9 po; o (B) 150 po</td>
+    </tr>
+  </tbody>
+</table>
+
+### Convertirse en paladín
+
+#### Como personaje de nivel 1
+- Obtienes todos los atributos de la tabla "Atributos básicos de paladín".
+- Obtienes los rasgos de nivel 1 de paladín, que se muestran en la tabla "Rasgos de paladín".
+
+#### Como personaje multiclase
+- Obtienes los siguientes atributos de la tabla "Atributos básicos de paladín": dado de puntos de golpe, competencia con armas marciales y entrenamiento con todas las armaduras y escudos.
+- Obtienes los rasgos de nivel 1 de paladín, que se muestran en la tabla "Rasgos de paladín". Consulta las reglas de multiclase del capítulo 2 para determinar tus espacios de conjuro disponibles.
+
+### Rasgos de clase de paladín
+
+Como paladín, obtienes los siguientes rasgos de clase cuando alcanzas los niveles de paladín especificados. Estos rasgos se muestran en la tabla "Rasgos de paladín".
+
+**Rasgos de paladín**
 
 <table>
   <thead>
     <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
+      <th rowspan="2">Nivel</th>
+      <th rowspan="2">Bonificador por competencia</th>
+      <th rowspan="2">Rasgos de clase</th>
+      <th rowspan="2">Maestría con armas</th>
+      <th rowspan="2">Conjuros preparados</th>
+      <th colspan="5">Espacios de conjuro por nivel de conjuro</th>
+    </tr>
+    <tr>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Acid Arrow</td>
-      <td>Evocation</td>
+      <td>1</td>
+      <td>+2</td>
+      <td>Imposición de manos, Lanzamiento de conjuros, Maestría con armas</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
       <td>—</td>
     </tr>
     <tr>
-      <td>Alter Self</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Arcane Lock</td>
-      <td>Abjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Arcanist's Magic Aura</td>
-      <td>Illusion</td>
+      <td>2</td>
+      <td>+2</td>
+      <td>Castigo divino, Estilo de combate</td>
+      <td>2</td>
+      <td>3</td>
+      <td>2</td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
       <td>—</td>
     </tr>
     <tr>
-      <td>Augury</td>
-      <td>Divination</td>
-      <td>R, M</td>
-    </tr>
-    <tr>
-      <td>Blindness/Deafness</td>
-      <td>Transmutation</td>
+      <td>3</td>
+      <td>+2</td>
+      <td>Canalizar divinidad, Subclase de paladín</td>
+      <td>2</td>
+      <td>4</td>
+      <td>3</td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
       <td>—</td>
     </tr>
     <tr>
-      <td>Blur</td>
-      <td>Illusion</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Continual Flame</td>
-      <td>Evocation</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Darkness</td>
-      <td>Evocation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Darkvision</td>
-      <td>Transmutation</td>
+      <td>4</td>
+      <td>+2</td>
+      <td>Mejora de característica</td>
+      <td>2</td>
+      <td>5</td>
+      <td>3</td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
       <td>—</td>
     </tr>
     <tr>
-      <td>Detect Thoughts</td>
-      <td>Divination</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Dragon's Breath</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Enhance Ability</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Enlarge/Reduce</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Flaming Sphere</td>
-      <td>Evocation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Gentle Repose</td>
-      <td>Necromancy</td>
-      <td>R, M</td>
-    </tr>
-    <tr>
-      <td>Gust of Wind</td>
-      <td>Evocation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Hold Person</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Invisibility</td>
-      <td>Illusion</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Knock</td>
-      <td>Transmutation</td>
+      <td>5</td>
+      <td>+3</td>
+      <td>Ataque adicional, Corcel fiel</td>
+      <td>2</td>
+      <td>6</td>
+      <td>4</td>
+      <td>2</td>
+      <td>—</td>
+      <td>—</td>
       <td>—</td>
     </tr>
     <tr>
-      <td>Levitate</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Locate Object</td>
-      <td>Divination</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Magic Mouth</td>
-      <td>Illusion</td>
-      <td>R, M</td>
-    </tr>
-    <tr>
-      <td>Magic Weapon</td>
-      <td>Transmutation</td>
+      <td>6</td>
+      <td>+3</td>
+      <td>Aura de protección</td>
+      <td>2</td>
+      <td>6</td>
+      <td>4</td>
+      <td>2</td>
+      <td>—</td>
+      <td>—</td>
       <td>—</td>
     </tr>
     <tr>
-      <td>Mind Spike</td>
-      <td>Divination</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Mirror Image</td>
-      <td>Illusion</td>
+      <td>7</td>
+      <td>+3</td>
+      <td>Rasgo de subclase</td>
+      <td>2</td>
+      <td>7</td>
+      <td>4</td>
+      <td>3</td>
+      <td>—</td>
+      <td>—</td>
       <td>—</td>
     </tr>
     <tr>
-      <td>Misty Step</td>
-      <td>Conjuration</td>
+      <td>8</td>
+      <td>+3</td>
+      <td>Mejora de característica</td>
+      <td>2</td>
+      <td>7</td>
+      <td>4</td>
+      <td>3</td>
+      <td>—</td>
+      <td>—</td>
       <td>—</td>
     </tr>
     <tr>
-      <td>Ray of Enfeeblement</td>
-      <td>Necromancy</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Rope Trick</td>
-      <td>Transmutation</td>
+      <td>9</td>
+      <td>+4</td>
+      <td>Castigo de expiación</td>
+      <td>2</td>
+      <td>9</td>
+      <td>4</td>
+      <td>3</td>
+      <td>2</td>
+      <td>—</td>
       <td>—</td>
     </tr>
     <tr>
-      <td>Scorching Ray</td>
-      <td>Evocation</td>
+      <td>10</td>
+      <td>+4</td>
+      <td>Aura de valor</td>
+      <td>2</td>
+      <td>9</td>
+      <td>4</td>
+      <td>3</td>
+      <td>2</td>
+      <td>—</td>
       <td>—</td>
     </tr>
     <tr>
-      <td>See Invisibility</td>
-      <td>Divination</td>
+      <td>11</td>
+      <td>+4</td>
+      <td>Golpes radiantes</td>
+      <td>2</td>
+      <td>10</td>
+      <td>4</td>
+      <td>3</td>
+      <td>3</td>
+      <td>—</td>
       <td>—</td>
     </tr>
     <tr>
-      <td>Shatter</td>
-      <td>Evocation</td>
+      <td>12</td>
+      <td>+4</td>
+      <td>Mejora de característica</td>
+      <td>2</td>
+      <td>10</td>
+      <td>4</td>
+      <td>3</td>
+      <td>3</td>
+      <td>—</td>
       <td>—</td>
     </tr>
     <tr>
-      <td>Spider Climb</td>
-      <td>Transmutation</td>
-      <td>C</td>
+      <td>13</td>
+      <td>+5</td>
+      <td>—</td>
+      <td>2</td>
+      <td>11</td>
+      <td>4</td>
+      <td>3</td>
+      <td>3</td>
+      <td>1</td>
+      <td>—</td>
     </tr>
     <tr>
-      <td>Suggestion</td>
-      <td>Enchantment</td>
-      <td>C</td>
+      <td>14</td>
+      <td>+5</td>
+      <td>Toque purificador</td>
+      <td>2</td>
+      <td>11</td>
+      <td>4</td>
+      <td>3</td>
+      <td>3</td>
+      <td>1</td>
+      <td>—</td>
     </tr>
     <tr>
-      <td>Web</td>
-      <td>Conjuration</td>
-      <td>C</td>
+      <td>15</td>
+      <td>+5</td>
+      <td>Rasgo de subclase</td>
+      <td>2</td>
+      <td>12</td>
+      <td>4</td>
+      <td>3</td>
+      <td>3</td>
+      <td>2</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>+5</td>
+      <td>Mejora de característica</td>
+      <td>2</td>
+      <td>12</td>
+      <td>4</td>
+      <td>3</td>
+      <td>3</td>
+      <td>2</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>+6</td>
+      <td>—</td>
+      <td>2</td>
+      <td>14</td>
+      <td>4</td>
+      <td>3</td>
+      <td>3</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>+6</td>
+      <td>Auras aumentadas</td>
+      <td>2</td>
+      <td>14</td>
+      <td>4</td>
+      <td>3</td>
+      <td>3</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>+6</td>
+      <td>Don épico</td>
+      <td>2</td>
+      <td>15</td>
+      <td>4</td>
+      <td>3</td>
+      <td>3</td>
+      <td>3</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>+6</td>
+      <td>Rasgo de subclase</td>
+      <td>2</td>
+      <td>15</td>
+      <td>4</td>
+      <td>3</td>
+      <td>3</td>
+      <td>3</td>
+      <td>2</td>
     </tr>
   </tbody>
 </table>
 
-#### Level 3 Wizard Spells
+#### Nivel 1: Imposición de manos
+Dispones de una reserva de energía curativa igual a cinco veces tu nivel de paladín. Como acción adicional, puedes tocar a una criatura y gastar puntos de esta reserva para restaurar una cantidad igual de PG. También puedes gastar 5 puntos para curar el estado de envenenado.
+
+#### Nivel 1: Lanzamiento de conjuros
+- **Espacios de conjuro.** Según la tabla "Rasgos de paladín", recuperas todos tras un descanso largo.
+- **Conjuros preparados.** Preparas una cantidad de conjuros de la lista de paladín tras un descanso largo.
+- **Aptitud mágica.** Carisma.
+- **Canalizador mágico.** Símbolo sagrado.
+
+#### Nivel 1: Maestría con armas
+Tu entrenamiento marcial te permite utilizar las propiedades de maestría con dos tipos de armas sencillas o marciales de tu elección.
+
+#### Nivel 2: Castigo divino
+Siempre tienes preparado el conjuro *castigo divino*. Puedes lanzarlo una vez sin gastar espacio por descanso largo.
+
+#### Nivel 2: Estilo de combate
+Obtienes una dote de Estilo de combate de tu elección (como Defensa, Duelo, Gran lucha con armas, Intercepción o Guerrero bendecido).
+
+#### Nivel 3: Canalizar divinidad
+Obtienes dos usos de Canalizar divinidad por descanso corto o largo (un uso recuperado en descanso corto, todos en descanso largo):
+- **Sentido divino:** Acción adicional durante 10 minutos para detectar la ubicación de celestiales, infernales y muertos vivientes a 18 m, así como lugares u objetos consagrados o profanados.
+
+#### Nivel 3: Subclase de paladín
+Consigues una subclase de paladín de tu elección: Juramento de Entrega, Juramento de Gloria, Juramento de los Antiguos o Juramento de Venganza.
+
+#### Nivel 4: Mejora de característica
+Obtienes una dote de Mejora de característica u otra dote para la que cumplas condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16.
+
+#### Nivel 5: Ataque adicional
+Al realizar la acción de atacar en tu turno, puedes hacer dos ataques en lugar de uno.
+
+#### Nivel 5: Corcel fiel
+Siempre tienes preparado el conjuro *encontrar corcel*. Puedes lanzarlo una vez sin gastar un espacio de conjuro por descanso largo.
+
+#### Nivel 6: Aura de protección
+Mientras estés consciente, tú y tus aliados a 3 m o menos recibís un bonificador a todas las tiradas de salvación igual a tu modificador por Carisma (mínimo +1).
+
+#### Nivel 10: Aura de valor
+Tú y tus aliados a 3 m o menos sois inmunes al estado de asustado mientras estés consciente.
+
+#### Nivel 11: Golpes radiantes
+Tus ataques con armas cuerpo a cuerpo causan 1d8 de daño radiante adicional automáticamente en cada impacto.
+
+#### Nivel 14: Toque purificador
+Como acción adicional, gastas 5 puntos de tu reserva de Imposición de manos para poner fin a un conjuro o efecto mágico sobre ti o una criatura que toques.
+
+#### Nivel 18: Auras aumentadas
+El radio de tu Aura de protección y Aura de valor aumenta de 3 m a 9 m.
+
+#### Nivel 19: Don épico
+Obtienes una dote de don épico u otra de tu elección. Se recomienda *Don de la pericia en combate*.
+
+---
+
+### Lista de conjuros de paladín
+
+#### Nivel 1
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Auxilio | Abjuración | — |
+| Bendición | Encantamiento | C |
+| Castigo abrasador | Evocación | C |
+| Castigo divino | Evocación | — |
+| Castigo fulgurante | Evocación | C |
+| Castigo tronador | Evocación | C |
+| Curar heridas | Abjuración | — |
+| Detección del mal y el bien | Adivinación | C |
+| Detectar magia | Adivinación | C, R |
+| Detectar venenos y enfermedades | Adivinación | C, R |
+| Duelo obligado | Encantamiento | C |
+| Escudo de la fe | Abjuración | C |
+| Favor divino | Evocación | C |
+| Heroísmo | Encantamiento | C |
+| Orden imperiosa | Encantamiento | — |
+| Palabra de curación | Abjuración | — |
+| Protección contra el bien y el mal | Abjuración | C, M |
+| Purificar comida y bebida | Transmutación | R |
+| Saeta guía | Evocación | — |
+
+#### Nivel 2
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Arma mágica | Transmutación | — |
+| Calmar emociones | Encantamiento | C |
+| Castigo deslumbrante | Evocación | C |
+| Encontrar corcel | Conjuración | — |
+| Inmovilizar persona | Encantamiento | C |
+| Localizar objeto | Adivinación | C |
+| Manto del cruzado | Evocación | C |
+| Protección contra veneno | Abjuración | — |
+| Rayo de luna | Evocación | C |
+| Restablecimiento menor | Abjuración | — |
+| Sentidos de la bestia | Adivinación | C, R |
+| Zona de la verdad | Encantamiento | — |
+
+#### Nivel 3
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Arma elemental | Transmutación | C |
+| Aura de vitalidad | Abjuración | C |
+| Castigo cegador | Evocación | C |
+| Círculo mágico | Abjuración | M |
+| Crear comida y agua | Conjuración | — |
+| Disipar magia | Abjuración | — |
+| Levantar maldición | Abjuración | — |
+| Luz del día | Evocación | — |
+| Manto del cruzado | Evocación | C |
+| Protección contra energía | Abjuración | C |
+| Revivir | Nigromancia | M |
+
+#### Nivel 4
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Aura de pureza | Abjuración | C |
+| Aura de vida | Abjuración | C |
+| Castigo asombroso | Evocación | C |
+| Destierro | Abjuración | C |
+| Libertad de movimiento | Abjuración | — |
+| Localizar criatura | Adivinación | C |
+
+#### Nivel 5
+| Conjuro | Escuela | Especial |
+|---|---|---|
+| Alzar a los muertos | Nigromancia | M |
+| Castigo desterrador | Abjuración | C |
+| Círculo de poder | Abjuración | C |
+| Comunión | Adivinación | R |
+| Curar heridas en masa | Abjuración | — |
+| Disipar el mal y el bien | Abjuración | C |
+| Enlace sagrado | Evocación | — |
+| Geas | Encantamiento | — |
+| Invocación de celestial | Conjuración | C, M |
+| Ola destructiva | Evocación | — |
+| Restablecimiento mayor | Abjuración | M |
+
+---
+
+### Subclases de paladín
+
+#### Juramento de Entrega
+
+*Defiende los ideales sagrados de la justicia, el deber y la virtud.*
+
+##### Nivel 3: Arma sagrada
+Como acción adicional, gastas un uso de Canalizar divinidad para imbuir un arma con energía sagrada durante 10 minutos: sumas tu Carisma a las tiradas de ataque, inflige daño radiante y emite luz brillante en 6 m.
+
+##### Nivel 3: Conjuros del juramento de entrega
+**Conjuros del juramento de entrega**
+| Nivel de paladín | Conjuros |
+|---|---|
+| 3 | *Protección contra el bien y el mal, santuario* |
+| 5 | *Restablecimiento menor, zona de la verdad* |
+| 9 | *Faro de esperanza, disipar magia* |
+| 13 | *Guardián de la fe, libertad de movimiento* |
+| 17 | *Comunión, ola destructiva* |
+
+##### Nivel 7: Aura de devoción
+Tú y tus aliados en tu Aura de protección sois inmunes al estado de hechizado.
+
+##### Nivel 15: Castigo de la justicia
+Cuando una criatura a 3 m o menos te acierte con un ataque, reacción para obligarla a superar salvación de Destreza o sufrir daño radiante igual a tu Carisma + competencia.
+
+##### Nivel 20: Nimbo sagrado
+Como acción adicional durante 10 minutos: emites luz solar de 9 m, infliges daño radiante al inicio del turno a los enemigos dentro del aura y tienes ventaja en tiradas de salvación contra infernales y muertos vivientes (un uso por descanso largo o gastando espacio de nivel 5).
+
+---
+
+#### Juramento de Gloria
+
+*Esfuérzate por alcanzar la cima del heroísmo.*
+
+##### Nivel 3: Atleta sin parangón
+Como acción adicional, gastas un uso de Canalizar divinidad durante 1 hora: ventaja en Atletismo y Acrobacias y aumenta la distancia de salto en +3 m.
+
+##### Nivel 3: Castigo inspirador
+Al usar *castigo divino*, gastas un uso de Canalizar divinidad para repartir 2d8 + nivel de paladín en puntos de golpe temporales entre criaturas a 9 m.
+
+##### Nivel 3: Conjuros del juramento de gloria
+**Conjuros del juramento de gloria**
+| Nivel de paladín | Conjuros |
+|---|---|
+| 3 | *Heroísmo, saeta guía* |
+| 5 | *Arma mágica, potenciar característica* |
+| 9 | *Acelerar, protección contra energía* |
+| 13 | *Compulsión, libertad de movimiento* |
+| 17 | *Conocer las leyendas, presencia regia de Yolande* |
+
+##### Nivel 7: Aura de celeridad
+Tu velocidad y la de tus aliados en tu Aura de protección aumenta en 3 m.
+
+##### Nivel 15: Defensa gloriosa
+Reacción cuando tú o un aliado a 3 m recibáis un ataque: sumas tu Carisma a la CA del objetivo. Si el ataque falla, realizas un contraataque con arma gratis.
+
+##### Nivel 20: Leyenda viviente
+Como acción adicional durante 10 minutos: ventaja en pruebas de Carisma, conviertes un fallo de ataque por turno en impacto automático y reacción para repetir salvaciones falladas (un uso por descanso largo o espacio de nivel 5).
+
+---
+
+#### Juramento de los Antiguos
+
+*Preserva la vida y la luz en el mundo.*
+
+##### Nivel 3: Conjuros del juramento de los antiguos
+**Conjuros del juramento de los antiguos**
+| Nivel de paladín | Conjuros |
+|---|---|
+| 3 | *Golpe apresador, hablar con los animales* |
+| 5 | *Paso brumoso, rayo de luna* |
+| 9 | *Crecimiento vegetal, protección contra energía* |
+| 13 | *Piel pétrea, tormenta de hielo* |
+| 17 | *Comunión con la naturaleza, paso arbóreo* |
+
+##### Nivel 3: Ira de la naturaleza
+Como acción de magia, gastas un uso de Canalizar divinidad para apresan con enredaderas a enemigos a 4,5 m (salvación de Fuerza).
+
+##### Nivel 7: Aura de salvaguarda
+Tú y tus aliados en tu Aura de protección tenéis resistencia al daño necrótico, psíquico y radiante.
+
+##### Nivel 15: Centinela imperecedero
+Al caer a 0 PG, te quedas con 1 PG y te curas el triple de tu nivel de paladín (una vez por descanso largo). Además, dejas de envejecer visiblemente y no sufres envejecimiento mágico.
+
+##### Nivel 20: Campeón ancestral
+Como acción adicional durante 1 minuto: lanzas conjuros de acción como acción adicional, los enemigos en el aura tienen desventaja contra tus conjuros y Canalizar divinidad, y te regeneras 10 PG al inicio de cada turno.
+
+---
+
+#### Juramento de Venganza
+
+*Castiga a los malhechores a toda costa.*
+
+##### Nivel 3: Conjuros del juramento de venganza
+**Conjuros del juramento de venganza**
+| Nivel de paladín | Conjuros |
+|---|---|
+| 3 | *Marca del cazador, perdición* |
+| 5 | *Inmovilizar persona, paso brumoso* |
+| 9 | *Acelerar, protección contra energía* |
+| 13 | *Destierro, puerta dimensional* |
+| 17 | *Escudriñar, inmovilizar monstruo* |
+
+##### Nivel 3: Voto de enemistad
+Al realizar la acción de atacar, gastas un uso de Canalizar divinidad contra una criatura a 9 m: tienes ventaja en todas las tiradas de ataque contra ella durante 1 minuto. Si muere, puedes transferirlo a otro objetivo.
+
+##### Nivel 7: Vengador implacable
+Al impactar un ataque de oportunidad, reduces la velocidad del objetivo a 0 y te mueves hasta la mitad de tu velocidad como parte de la misma reacción sin provocar ataques de oportunidad.
+
+##### Nivel 15: Espíritu vengativo
+Reacción cuando el objetivo de tu Voto de enemistad haga un ataque: realizas un ataque cuerpo a cuerpo inmediato contra él.
+
+##### Nivel 20: Ángel vengador
+Como acción adicional durante 10 minutos: obtienes velocidad de vuelo de 18 m y aura que asusta a los enemigos que empiecen su turno dentro de tu Aura de protección (otorgando ventaja en ataques contra ellos).
+
+---
+
+## Pícaro
+
+Los pícaros confían en la pericia, el sigilo y las vulnerabilidades de sus enemigos para sacar ventaja en cualquier situación. Tienen un don especial para encontrar la solución adecuada a prácticamente cualquier problema, ya sea abriendo una cerradura impenetrable, desactivando una trampa mortal o asestando un golpe letal en el punto débil de su adversario.
+
+Muchos pícaros operan al margen de la ley como ladrones, contrabandistas o asesinos, mientras que otros son exploradores intrépidos, investigadores sagaces o diplomáticos astutos.
+
+### Atributos básicos de pícaro
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Característica principal</strong></td>
+      <td>Destreza</td>
+    </tr>
+    <tr>
+      <td><strong>Dado de puntos de golpe</strong></td>
+      <td>1d8 por nivel de pícaro</td>
+    </tr>
+    <tr>
+      <td><strong>Competencias en tiradas de salvación</strong></td>
+      <td>Destreza e Inteligencia</td>
+    </tr>
+    <tr>
+      <td><strong>Competencias en habilidades</strong></td>
+      <td>Elige cuatro: Acrobacias, Atletismo, Engaño, Interpretación, Intimidación, Investigación, Juego de manos, Percepción, Perspicacia, Persuasión o Sigilo</td>
+    </tr>
+    <tr>
+      <td><strong>Competencias con armas</strong></td>
+      <td>Armas sencillas y armas marciales con la propiedad sutil o ligera</td>
+    </tr>
+    <tr>
+      <td><strong>Competencias con herramientas</strong></td>
+      <td>Herramientas de ladrón</td>
+    </tr>
+    <tr>
+      <td><strong>Entrenamiento con armaduras</strong></td>
+      <td>Armaduras ligeras</td>
+    </tr>
+    <tr>
+      <td><strong>Equipo inicial</strong></td>
+      <td>Elige A o B: (A) armadura de cuero tachonado, 2 dagas, espada corta, arco corto, 20 flechas, carcaj, herramientas de ladrón, paquete de ladrón y 8 po; o (B) 110 po</td>
+    </tr>
+  </tbody>
+</table>
+
+### Convertirse en pícaro
+
+#### Como personaje de nivel 1
+- Obtienes todos los atributos de la tabla "Atributos básicos de pícaro".
+- Obtienes los rasgos de nivel 1 de pícaro, que se muestran en la tabla "Rasgos de pícaro".
+
+#### Como personaje multiclase
+- Obtienes los siguientes atributos de la tabla "Atributos básicos de pícaro": dado de puntos de golpe, competencia en una habilidad de la lista de pícaro, entrenamiento con armaduras ligeras y herramientas de ladrón.
+- Obtienes los rasgos de nivel 1 de pícaro, que se muestran en la tabla "Rasgos de pícaro".
+
+### Rasgos de clase de pícaro
+
+Como pícaro, obtienes los siguientes rasgos de clase cuando alcanzas los niveles de pícaro especificados. Estos rasgos se muestran en la tabla "Rasgos de pícaro".
+
+**Rasgos de pícaro**
 
 <table>
   <thead>
     <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
+      <th>Nivel</th>
+      <th>Bonificador por competencia</th>
+      <th>Rasgos de clase</th>
+      <th>Ataque furtivo</th>
+      <th>Maestría con armas</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Animate Dead</td>
-      <td>Necromancy</td>
-      <td>—</td>
+      <td>1</td>
+      <td>+2</td>
+      <td>Ataque furtivo, Jerga de ladrones, Maestría con armas, Pericia</td>
+      <td>1d6</td>
+      <td>2</td>
     </tr>
     <tr>
-      <td>Bestow Curse</td>
-      <td>Necromancy</td>
-      <td>C</td>
+      <td>2</td>
+      <td>+2</td>
+      <td>Astucia de pícaro</td>
+      <td>1d6</td>
+      <td>2</td>
     </tr>
     <tr>
-      <td>Blink</td>
-      <td>Transmutation</td>
-      <td>—</td>
+      <td>3</td>
+      <td>+2</td>
+      <td>Puntería constante, Subclase de pícaro</td>
+      <td>2d6</td>
+      <td>2</td>
     </tr>
     <tr>
-      <td>Clairvoyance</td>
-      <td>Divination</td>
-      <td>C, M</td>
+      <td>4</td>
+      <td>+2</td>
+      <td>Mejora de característica</td>
+      <td>2d6</td>
+      <td>2</td>
     </tr>
     <tr>
-      <td>Counterspell</td>
-      <td>Abjuration</td>
-      <td>—</td>
+      <td>5</td>
+      <td>+3</td>
+      <td>Golpe astuto, Esquiva asombrosa</td>
+      <td>3d6</td>
+      <td>2</td>
     </tr>
     <tr>
-      <td>Dispel Magic</td>
-      <td>Abjuration</td>
-      <td>—</td>
+      <td>6</td>
+      <td>+3</td>
+      <td>Pericia</td>
+      <td>3d6</td>
+      <td>2</td>
     </tr>
     <tr>
-      <td>Fear</td>
-      <td>Illusion</td>
-      <td>C</td>
+      <td>7</td>
+      <td>+3</td>
+      <td>Evasión</td>
+      <td>4d6</td>
+      <td>2</td>
     </tr>
     <tr>
-      <td>Fireball</td>
-      <td>Evocation</td>
-      <td>—</td>
+      <td>8</td>
+      <td>+3</td>
+      <td>Mejora de característica</td>
+      <td>4d6</td>
+      <td>2</td>
     </tr>
     <tr>
-      <td>Fly</td>
-      <td>Transmutation</td>
-      <td>C</td>
+      <td>9</td>
+      <td>+4</td>
+      <td>Rasgo de subclase</td>
+      <td>5d6</td>
+      <td>2</td>
     </tr>
     <tr>
-      <td>Gaseous Form</td>
-      <td>Transmutation</td>
-      <td>C</td>
+      <td>10</td>
+      <td>+4</td>
+      <td>Mejora de característica</td>
+      <td>5d6</td>
+      <td>2</td>
     </tr>
     <tr>
-      <td>Glyph of Warding</td>
-      <td>Abjuration</td>
-      <td>M</td>
+      <td>11</td>
+      <td>+4</td>
+      <td>Talento seguro</td>
+      <td>6d6</td>
+      <td>2</td>
     </tr>
     <tr>
-      <td>Haste</td>
-      <td>Transmutation</td>
-      <td>C</td>
+      <td>12</td>
+      <td>+4</td>
+      <td>Mejora de característica</td>
+      <td>6d6</td>
+      <td>2</td>
     </tr>
     <tr>
-      <td>Hypnotic Pattern</td>
-      <td>Illusion</td>
-      <td>C</td>
+      <td>13</td>
+      <td>+5</td>
+      <td>Rasgo de subclase</td>
+      <td>7d6</td>
+      <td>2</td>
     </tr>
     <tr>
-      <td>Lightning Bolt</td>
-      <td>Evocation</td>
-      <td>—</td>
+      <td>14</td>
+      <td>+5</td>
+      <td>Sentido ciego</td>
+      <td>7d6</td>
+      <td>2</td>
     </tr>
     <tr>
-      <td>Magic Circle</td>
-      <td>Abjuration</td>
-      <td>M</td>
+      <td>15</td>
+      <td>+5</td>
+      <td>Mente escurridiza</td>
+      <td>8d6</td>
+      <td>2</td>
     </tr>
     <tr>
-      <td>Major Image</td>
-      <td>Illusion</td>
-      <td>C</td>
+      <td>16</td>
+      <td>+5</td>
+      <td>Mejora de característica</td>
+      <td>8d6</td>
+      <td>2</td>
     </tr>
     <tr>
-      <td>Nondetection</td>
-      <td>Abjuration</td>
-      <td>M</td>
+      <td>17</td>
+      <td>+6</td>
+      <td>Rasgo de subclase</td>
+      <td>9d6</td>
+      <td>2</td>
     </tr>
     <tr>
-      <td>Phantom Steed</td>
-      <td>Illusion</td>
-      <td>R</td>
+      <td>18</td>
+      <td>+6</td>
+      <td>Elusivo</td>
+      <td>9d6</td>
+      <td>2</td>
     </tr>
     <tr>
-      <td>Protection from Energy</td>
-      <td>Abjuration</td>
-      <td>C</td>
+      <td>19</td>
+      <td>+6</td>
+      <td>Don épico</td>
+      <td>10d6</td>
+      <td>2</td>
     </tr>
     <tr>
-      <td>Remove Curse</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Sending</td>
-      <td>Divination</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Sleet Storm</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Slow</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Speak with Dead</td>
-      <td>Necromancy</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Stinking Cloud</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Tiny Hut</td>
-      <td>Evocation</td>
-      <td>R</td>
-    </tr>
-    <tr>
-      <td>Tongues</td>
-      <td>Divination</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Vampiric Touch</td>
-      <td>Necromancy</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Water Breathing</td>
-      <td>Transmutation</td>
-      <td>R</td>
+      <td>20</td>
+      <td>+6</td>
+      <td>Golpe de suerte</td>
+      <td>10d6</td>
+      <td>2</td>
     </tr>
   </tbody>
 </table>
 
-#### Level 4 Wizard Spells
+#### Nivel 1: Ataque furtivo
+Sabes cómo atacar sutilmente y aprovechar la distracción de un adversario. Una vez por turno, puedes infligir una cantidad adicional de daño a una criatura a la que aciertes con un ataque si usas un arma sutil o un arma a distancia y se cumple una de estas dos condiciones:
+- Tienes ventaja en la tirada de ataque.
+- Otro enemigo del objetivo está a 1,5 m o menos de él, ese enemigo no tiene el estado de incapacitado y tú no tienes desventaja en la tirada de ataque.
+La cantidad de daño adicional es la indicada en la columna "Ataque furtivo" de la tabla "Rasgos de pícaro".
 
+#### Nivel 1: Jerga de ladrones
+Conoces la jerga de ladrones, un dialecto secreto con el que esconder mensajes en conversaciones cotidianas. También aprendes otro idioma de tu elección.
+
+#### Nivel 1: Maestría con armas
+Puedes utilizar las propiedades de maestría con dos tipos de armas con las que seas competente de tu elección.
+
+#### Nivel 1: Pericia
+Escoge dos de tus competencias en habilidades o herramientas de ladrón; obtienes pericia en ellas (duplicas tu bonificador por competencia en esas pruebas). En nivel 6 eliges otras dos.
+
+#### Nivel 2: Astucia de pícaro
+Puedes llevar a cabo una acción adicional en cada uno de tus turnos para realizar las acciones de **Correr**, **Destrabarse** o **Esconderse**.
+
+#### Nivel 3: Puntería constante
+Como acción adicional, te otorgas ventaja en tu siguiente tirada de ataque en el turno actual (solo si no te has movido en este turno, y tu velocidad se reduce a 0 hasta el final del turno actual).
+
+#### Nivel 3: Subclase de pícaro
+Consigues una subclase de pícaro de tu elección: Asesino, Embaucador Arcano, Ladrón o Rebanaalmas.
+
+#### Nivel 4: Mejora de característica
+Obtienes una dote de Mejora de característica u otra dote para la que cumplas condiciones. Vuelves a obtener este rasgo en los niveles 8, 10, 12 y 16.
+
+#### Nivel 5: Esquiva asombrosa
+Cuando un atacante que puedas ver te acierte con una tirada de ataque, puedes llevar a cabo una reacción para reducir a la mitad el daño que sufras de ese ataque.
+
+#### Nivel 5: Golpe astuto
+Has aprendido a cambiar el daño de tu Ataque furtivo por efectos debilitadores. Al infligir daño de Ataque furtivo, puedes renunciar a dados de daño para aplicar efectos:
+- **Desarmar (coste: 1d6):** El objetivo debe superar una salvación de Destreza o soltar un objeto que esté sujetando.
+- **Envenenar (coste: 1d6):** El objetivo debe superar una salvación de Constitución o quedará envenenado durante 1 minuto.
+- **Tropiezo (coste: 1d6):** Si el objetivo es Grande o menor, debe superar una salvación de Destreza o quedará derribado.
+La CD de salvación es 8 + Destreza + bonificador por competencia.
+
+#### Nivel 7: Evasión
+Cuando superas una salvación de Destreza para sufrir la mitad de daño, no sufres daño alguno, y solo la mitad si la fallas.
+
+#### Nivel 11: Talento seguro
+Siempre que hagas una prueba de característica con una habilidad o herramienta en la que seas competente, puedes tratar cualquier resultado de 9 o menos en el d20 como un 10.
+
+#### Nivel 14: Sentido ciego
+Obtienes visión ciega hasta 3 m mientras no tengas el estado de ensordecido.
+
+#### Nivel 15: Mente escurridiza
+Ganas competencia en las tiradas de salvación de Sabiduría y Carisma.
+
+#### Nivel 18: Elusivo
+Ninguna tirada de ataque contra ti puede tener ventaja mientras no tengas el estado de incapacitado.
+
+#### Nivel 19: Don épico
+Obtienes una dote de don épico u otra de tu elección. Se recomienda *Don de la noche eterna*.
+
+#### Nivel 20: Golpe de suerte
+Si fallas una prueba con d20, puedes convertir el resultado en un 20. Recuperas el uso tras un descanso corto o largo.
+
+---
+
+### Subclases de pícaro
+
+#### Asesino
+
+*Domina el veneno, el disfraz y el arte de matar rápidamente.*
+
+##### Nivel 3: Asesinar
+- **Iniciativa.** Ventaja en tiradas de iniciativa.
+- **Golpe sorpresa.** En el primer asalto de combate, tus ataques contra criaturas que no hayan actuado aún tienen ventaja e infligen daño adicional igual a tu nivel de pícaro.
+
+##### Nivel 3: Herramientas de asesino
+Competencia con útiles de envenenador y útiles de disfraz.
+
+##### Nivel 9: Infiltración experta
+Puedes adoptar identidades falsas impecables y mimetizar la voz y la caligrafía de otros con gran precisión.
+
+##### Nivel 13: Veneno del impostor
+Tu opción de Envenenar de Golpe astuto ignora la resistencia al veneno y causa 2d6 de daño de veneno adicional al fallar la salvación en cada turno.
+
+##### Nivel 17: Golpe mortal
+Cuando aciertes a una criatura durante el primer asalto de combate y uses Ataque furtivo, el objetivo debe superar salvación de Constitución o el daño se duplica.
+
+---
+
+#### Embaucador Arcano
+
+*Combina el sigilo y la pericia con magia de mago.*
+
+##### Nivel 3: Lanzamiento de conjuros del embaucador arcano
+**Lanzamiento de conjuros del embaucador arcano**
 <table>
   <thead>
     <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
+      <th rowspan="2">Nivel de pícaro</th>
+      <th rowspan="2">Trucos</th>
+      <th rowspan="2">Conjuros preparados</th>
+      <th colspan="4">Espacios de conjuro</th>
+    </tr>
+    <tr>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Arcane Eye</td>
-      <td>Divination</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Banishment</td>
-      <td>Abjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Black Tentacles</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Blight</td>
-      <td>Necromancy</td>
+      <td>3</td>
+      <td>3</td>
+      <td>3</td>
+      <td>2</td>
+      <td>—</td>
+      <td>—</td>
       <td>—</td>
     </tr>
     <tr>
-      <td>Charm Monster</td>
-      <td>Enchantment</td>
+      <td>4</td>
+      <td>3</td>
+      <td>4</td>
+      <td>3</td>
+      <td>—</td>
+      <td>—</td>
       <td>—</td>
     </tr>
     <tr>
-      <td>Confusion</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Conjure Minor Elementals</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Control Water</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Dimension Door</td>
-      <td>Conjuration</td>
+      <td>7</td>
+      <td>3</td>
+      <td>5</td>
+      <td>4</td>
+      <td>2</td>
+      <td>—</td>
       <td>—</td>
     </tr>
     <tr>
-      <td>Divination</td>
-      <td>Divination</td>
-      <td>R, M</td>
-    </tr>
-    <tr>
-      <td>Fabricate</td>
-      <td>Transmutation</td>
+      <td>8</td>
+      <td>3</td>
+      <td>6</td>
+      <td>4</td>
+      <td>2</td>
+      <td>—</td>
       <td>—</td>
     </tr>
     <tr>
-      <td>Faithful Hound</td>
-      <td>Conjuration</td>
+      <td>10</td>
+      <td>4</td>
+      <td>7</td>
+      <td>4</td>
+      <td>3</td>
+      <td>—</td>
       <td>—</td>
     </tr>
     <tr>
-      <td>Fire Shield</td>
-      <td>Evocation</td>
+      <td>13</td>
+      <td>4</td>
+      <td>9</td>
+      <td>4</td>
+      <td>3</td>
+      <td>2</td>
       <td>—</td>
     </tr>
     <tr>
-      <td>Greater Invisibility</td>
-      <td>Illusion</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Hallucinatory Terrain</td>
-      <td>Illusion</td>
+      <td>14</td>
+      <td>4</td>
+      <td>10</td>
+      <td>4</td>
+      <td>3</td>
+      <td>2</td>
       <td>—</td>
     </tr>
     <tr>
-      <td>Ice Storm</td>
-      <td>Evocation</td>
+      <td>16</td>
+      <td>4</td>
+      <td>11</td>
+      <td>4</td>
+      <td>3</td>
+      <td>3</td>
       <td>—</td>
     </tr>
     <tr>
-      <td>Locate Creature</td>
-      <td>Divination</td>
-      <td>C</td>
+      <td>19</td>
+      <td>4</td>
+      <td>12</td>
+      <td>4</td>
+      <td>3</td>
+      <td>3</td>
+      <td>1</td>
     </tr>
     <tr>
-      <td>Phantasmal Killer</td>
-      <td>Illusion</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Polymorph</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Private Sanctum</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Resilient Sphere</td>
-      <td>Abjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Secret Chest</td>
-      <td>Conjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Stone Shape</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Stoneskin</td>
-      <td>Transmutation</td>
-      <td>C, M</td>
-    </tr>
-    <tr>
-      <td>Vitriolic Sphere</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Wall of Fire</td>
-      <td>Evocation</td>
-      <td>C</td>
+      <td>20</td>
+      <td>4</td>
+      <td>13</td>
+      <td>4</td>
+      <td>3</td>
+      <td>3</td>
+      <td>1</td>
     </tr>
   </tbody>
 </table>
 
-#### Level 5 Wizard Spells
+- **Trucos:** Conoces *mano de mago* y otros dos trucos de mago (usando Inteligencia).
+- **Conjuros preparados:** Preparas conjuros de nivel 1 a 4 de la lista de mago.
+- **Canalizador mágico:** Canalizador arcano.
 
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Animate Objects</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Arcane Hand</td>
-      <td>Evocation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Cloudkill</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Cone of Cold</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Conjure Elemental</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Contact Other Plane</td>
-      <td>Divination</td>
-      <td>R</td>
-    </tr>
-    <tr>
-      <td>Creation</td>
-      <td>Illusion</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Dominate Person</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Dream</td>
-      <td>Illusion</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Geas</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Hold Monster</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Legend Lore</td>
-      <td>Divination</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Mislead</td>
-      <td>Illusion</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Modify Memory</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Passwall</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Planar Binding</td>
-      <td>Abjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Scrying</td>
-      <td>Divination</td>
-      <td>C, M</td>
-    </tr>
-    <tr>
-      <td>Seeming</td>
-      <td>Illusion</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Summon Dragon</td>
-      <td>Conjuration</td>
-      <td>C, M</td>
-    </tr>
-    <tr>
-      <td>Telekinesis</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Telepathic Bond</td>
-      <td>Divination</td>
-      <td>R</td>
-    </tr>
-    <tr>
-      <td>Teleportation Circle</td>
-      <td>Conjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Wall of Force</td>
-      <td>Evocation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Wall of Stone</td>
-      <td>Evocation</td>
-      <td>C</td>
-    </tr>
-  </tbody>
-</table>
+##### Nivel 3: Destreza con mano de mago
+Lanzas *mano de mago* como acción adicional, la mano es invisible y puedes usarla para Juego de manos o forzar cerraduras/desactivar trampas.
 
-#### Level 6 Wizard Spells
+##### Nivel 9: Emboscada mágica
+Si estás invisible al lanzar un conjuro, el objetivo tiene desventaja en sus tiradas de salvación contra el conjuro este turno.
 
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Chain Lightning</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Circle of Death</td>
-      <td>Necromancy</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Contingency</td>
-      <td>Abjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Create Undead</td>
-      <td>Necromancy</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Disintegrate</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Eyebite</td>
-      <td>Necromancy</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Flesh to Stone</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Freezing Sphere</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Globe of Invulnerability</td>
-      <td>Abjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Guards and Wards</td>
-      <td>Abjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Instant Summons</td>
-      <td>Conjuration</td>
-      <td>R, M</td>
-    </tr>
-    <tr>
-      <td>Irresistible Dance</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Magic Jar</td>
-      <td>Necromancy</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Mass Suggestion</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Move Earth</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Programmed Illusion</td>
-      <td>Illusion</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Sunbeam</td>
-      <td>Evocation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>True Seeing</td>
-      <td>Divination</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Wall of Ice</td>
-      <td>Evocation</td>
-      <td>C</td>
-    </tr>
-  </tbody>
-</table>
+##### Nivel 13: Embaucador versátil
+Al usar la opción Tropiezo de Golpe astuto, puedes aplicarla también sobre otra criatura a 1,5 m de tu *mano de mago*.
 
-#### Level 7 Wizard Spells
+##### Nivel 17: Ladrón de conjuros
+Reacción al ser objetivo de un conjuro para obligar al lanzador a salvación de Inteligencia: si falla, anulas el conjuro sobre ti y le robas el conocimiento de lanzarlo durante 8 horas (una vez por descanso largo).
 
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Arcane Sword</td>
-      <td>Evocation</td>
-      <td>C, M</td>
-    </tr>
-    <tr>
-      <td>Delayed Blast Fireball</td>
-      <td>Evocation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Etherealness</td>
-      <td>Conjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Finger of Death</td>
-      <td>Necromancy</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Forcecage</td>
-      <td>Evocation</td>
-      <td>C, M</td>
-    </tr>
-    <tr>
-      <td>Magnificent Mansion</td>
-      <td>Conjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Mirage Arcane</td>
-      <td>Illusion</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Plane Shift</td>
-      <td>Conjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Prismatic Spray</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Project Image</td>
-      <td>Illusion</td>
-      <td>C, M</td>
-    </tr>
-    <tr>
-      <td>Reverse Gravity</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Sequester</td>
-      <td>Transmutation</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Simulacrum</td>
-      <td>Illusion</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Symbol</td>
-      <td>Abjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Teleport</td>
-      <td>Conjuration</td>
-      <td>—</td>
-    </tr>
-  </tbody>
-</table>
+---
 
-#### Level 8 Wizard Spells
+#### Ladrón
 
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Antimagic Field</td>
-      <td>Abjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Antipathy/Sympathy</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Befuddlement</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Clone</td>
-      <td>Necromancy</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Control Weather</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Demiplane</td>
-      <td>Conjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Dominate Monster</td>
-      <td>Enchantment</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Incendiary Cloud</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Maze</td>
-      <td>Conjuration</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Mind Blank</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Power Word Stun</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Sunburst</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-  </tbody>
-</table>
+*Busca tesoros como los aventureros clásicos.*
 
-#### Level 9 Wizard Spells
+##### Nivel 3: Balconero
+- **Escalador.** Obtienes velocidad trepando igual a tu velocidad.
+- **Saltador.** Puedes determinar tu distancia de salto con Destreza en lugar de Fuerza.
 
-<table>
-  <thead>
-    <tr>
-      <th>Spell</th>
-      <th>School</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Astral Projection</td>
-      <td>Necromancy</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Foresight</td>
-      <td>Divination</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Gate</td>
-      <td>Conjuration</td>
-      <td>C, M</td>
-    </tr>
-    <tr>
-      <td>Imprisonment</td>
-      <td>Abjuration</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Meteor Swarm</td>
-      <td>Evocation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Power Word Kill</td>
-      <td>Enchantment</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Prismatic Wall</td>
-      <td>Abjuration</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Shapechange</td>
-      <td>Transmutation</td>
-      <td>C, M</td>
-    </tr>
-    <tr>
-      <td>Time Stop</td>
-      <td>Transmutation</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>True Polymorph</td>
-      <td>Transmutation</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Weird</td>
-      <td>Illusion</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Wish</td>
-      <td>Conjuration</td>
-      <td>—</td>
-    </tr>
-  </tbody>
-</table>
+##### Nivel 3: Manos rápidas
+Como acción adicional, puedes hacer una prueba de Destreza (Juego de manos), usar herramientas de ladrón para forzar cerraduras/desarmar trampas, o utilizar un objeto mágico que requiera una acción.
 
-### Mago (Wizard) Subclass: Evoker
+##### Nivel 9: Sigilo supremo
+Opción de Golpe astuto: **Ataque sigiloso (coste: 1d6).** Atacar no pone fin a tu invisibilidad por esconderte si terminas el turno con cobertura 3/4 o completa.
 
-_Create Explosive Elemental Effects_
+##### Nivel 13: Usar objetos mágicos
+- **Cargas.** Al gastar cargas de un objeto mágico, tira 1d6: con un 6 no gastas cargas.
+- **Pergaminos.** Puedes usar cualquier pergamino de conjuro con Inteligencia.
+- **Sintonización.** Te sintonizas con hasta cuatro objetos mágicos a la vez.
 
-Your studies focus on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid. Some Evokers find employment in military forces, serving as artillery to blast armies from afar. Others use their power to protect others, while some seek their own gain.
+##### Nivel 17: Reflejos de ladrón
+Puedes actuar dos turnos durante el primer asalto de combate (el segundo en tu iniciativa menos 10).
 
-#### Level 3: Evocation Savant
+---
 
-Choose two Wizard spells from the Evocation school, each of which must be no higher than level 2, and add them to your spellbook for free.
+#### Rebanaalmas
 
-In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Evocation school to your spellbook for free. The chosen spell must be of a level for which you have spell slots.
+*Golpea a tus enemigos con cuchillas psiónicas.*
 
-#### Level 3: Potent Cantrip
+##### Nivel 3: Cuchillas psíquicas
+Al atacar o hacer ataques de oportunidad, manifiestas cuchillas psíquicas en tus manos libres:
+- **Daño:** 1d6 de daño psíquico + característica.
+- **Propiedades:** Arrojadiza (18/36 m), sutil, maestría: molestar.
+- **Segundo ataque:** Acción adicional con la otra mano por 1d4 de daño psíquico.
 
-Your damaging cantrips affect even creatures that avoid the brunt of the effect. When you cast a cantrip at a creature and you miss with the attack roll or the target succeeds on a saving throw against the cantrip, the target takes half the cantrip's damage (if any) but suffers no additional effect from the cantrip.
+##### Nivel 3: Poder psiónico
+**Dados de energía del rebanaalmas**
+| Nivel de pícaro | Tamaño del dado | Cantidad |
+|---|---|---|
+| 3 | d6 | 4 |
+| 5 | d8 | 6 |
+| 9 | d8 | 8 |
+| 11 | d10 | 8 |
+| 13 | d10 | 10 |
+| 17 | d12 | 12 |
 
-#### Level 6: Sculpt Spells
+- **Don psirreforzado:** Sumas el dado de energía a una prueba de habilidad o herramienta fallada (solo se gasta si tienes éxito).
+- **Susurros psíquicos:** Telepatía con criaturas a 1,5 km durante tantas horas como la tirada del dado de energía.
 
-You can create pockets of relative safety within the effects of your evocations. When you cast an Evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 plus the spell's level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save.
+##### Nivel 9: Cuchillas del alma
+- **Golpes teledirigidos:** Al fallar un ataque con la cuchilla psíquica, sumas el dado de energía a la tirada de ataque (se gasta solo si aciertas).
+- **Teletransporte psíquico:** Acción adicional para lanzar una cuchilla y teletransportarte hasta 3 veces el resultado del dado de energía en metros.
 
-#### Level 10: Empowered Evocation
+##### Nivel 13: Velo psíquico
+Como acción de magia, te vuelves invisible durante 1 hora (un uso por descanso largo o 1 dado de energía).
 
-Whenever you cast a Wizard spell from the Evocation school, you can add your Inteligencia modifier to one damage roll of that spell.
-
-#### Level 14: Overchannel
-
-You can increase the power of your spells. When you cast a Wizard spell with a spell slot of levels 1–5 that deals damage, you can deal maximum damage with that spell on the turn you cast it.
-
-The first time you do so, you suffer no adverse effect. If you use this feature again before you finish a Long Rest, you take 2d12 Necrotic damage for each level of the spell slot immediately after you cast it. This damage ignores Resistance and Immunity.
-
-Each time you use this feature again before finishing a Long Rest, the Necrotic damage per spell level increases by 1d12.
+##### Nivel 17: Desgarro mental
+Al infligir daño de Ataque furtivo con tu cuchilla psíquica, obligas al objetivo a una salvación de Sabiduría o quedará aturdido durante 1 minuto (un uso por descanso largo o 3 dados de energía).

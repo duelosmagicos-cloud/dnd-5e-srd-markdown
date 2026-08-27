@@ -1,433 +1,787 @@
-# Monstruos
-
-## Resumen del Bloque de Estadísticas
-
-Un monstruo tiene un bloque de estadísticas que contiene las reglas necesarias para usarlo en el juego. Los bloques de estadísticas se dividen en las siguientes partes:
-
-**Nombre y Detalles Generales.** El nombre del monstruo es seguido por su tamaño, tipo de criatura (junto con cualquier etiqueta descriptiva) y alineamiento.
-
-**Aspectos Destacados del Combate.** Aquí se proporcionan la Clase de Armadura (CA), los Puntos de Golpe (PG), la Velocidad y la Iniciativa.
-
-**Puntuaciones de Característica.** Las puntuaciones de característica de un monstruo, sus modificadores de característica y sus tiradas de salvación se enumeran aquí.
-
-**Otros Detalles.** Los sentidos del monstruo, sus idiomas y su entrada de Desafío (CR) aparecen aquí. En algunos monstruos aparecen detalles adicionales, como competencias en habilidades, Resistencias, Inmunidades y Equipo. Si un monstruo carece de esos detalles, no aparecen las entradas para ellos.
-
-**Rasgos.** Las características del monstruo que están activas en todo momento o durante ciertas situaciones aparecen aquí.
-
-**Acciones.** El monstruo puede realizar las acciones enumeradas aquí además de las que figuran en "Cómo jugar el juego".
-
-**Acciones Adicionales.** Esta sección proporciona las Acciones Adicionales del monstruo, si las tiene.
-
-**Reacciones y Acciones Legendarias.** Estas secciones proporcionan las Reacciones y Acciones Legendarias del monstruo, si las tiene.
-
-## Partes de un Bloque de Estadísticas
-
-Las reglas para un bloque de estadísticas se dotean en el "Glosario de Reglas" y en esta sección.
-
-### Tamaño
-
-Un monstruo es Diminuto, Pequeño, Mediano, Grande, Enorme o Gargantuesco. Si se presentan opciones de tamaño, eliges el tamaño de la criatura entre esas opciones. Consulta "Cómo jugar el juego" para obtener información sobre el tamaño.
-
-### Tipo de Criatura
-
-Cada monstruo tiene una etiqueta que identifica el tipo de criatura que es. Ciertos conjuros, objetos mágicos, rasgos de clase y otros efectos en el juego interactúan de maneras especiales con criaturas de un tipo particular.
-
-El juego incluye los siguientes tipos de criaturas, que no tienen reglas propias:
-
-**Aberraciones (Aberrations):** son seres completamente alienígenas, como los aboleths y los mantos duendes (cloakers).
-
-**Bestias (Beasts):** son criaturas naturales no humanoides, como caballos y lobos, así como la mayoría de los animales gigantes.
-
-**Celestiales (Celestials):** son criaturas mágicas, como ángeles y pegasos, con vínculos con los Planos Superiores.
-
-**Constructos (Constructs):** son criaturas creadas mágicamente, como homúnculos y guardianes de escudo.
-
-**Dragones (Dragons):** son seres escamosos de origen antiguo, como dragones rojos y guivernos (wyverns).
-
-**Elementales (Elementals):** son seres de los Planos Elementales, como los efreet y los elementales de agua.
-
-**Feéricos (Fey):** son criaturas vinculadas a las Selvas Feéricas (Feywild) o a las fuerzas de la naturaleza, como las dríadas y los trasgos (goblins).
-
-**Inmundos (Fiends):** son criaturas vinculadas a los aterradores Planos Inferiores, como los balors y los sabuesos infernales.
-
-**Gigantes (Giants):** son seres imponentes con forma humana, como gigantes de fuego y trols.
-
-**Humanoides (Humanoids):** son personas definidas por sus roles y profesiones, como magos, piratas y guerreros. Incluyen miembros de diversas especies/razas.
-
-**Monstruosidades (Monstrosities):** son criaturas antinaturales con orígenes extraños, como los mímicos y los osos lechuza (owlbears).
-
-**Cienos (Oozes):** son criaturas gelatinosas, incluyendo los pudines negros y los cubos gelatinosos.
-
-**Plantas (Plants):** son vegetales conscientes y monstruos fúngicos, como los montículos errantes y los ents (treants).
-
-**Muertos Vivientes (Undead):** son espíritus y cadáveres reanimados, como fantasmas, vampiros y zombis.
-
-#### Etiquetas Descriptivas
-
-Un monstruo puede tener una o más etiquetas entre paréntesis después de su tipo. Estas etiquetas proporcionan una categorización adicional y no tienen reglas propias, pero ciertos efectos de juego pueden hacer referencia a ellas.
-
-### Alineamiento
-
-El alineamiento especificado en el bloque de estadísticas de un monstruo es una sugerencia predeterminada de cómo interpretar al monstruo, inspirada en su papel tradicional en el juego o en el folclore del mundo real. Cambia el alineamiento de un monstruo para adaptarlo a tus necesidades narrativas. El alineamiento Neutral, en particular, es una invitación para que consideres si un individuo se inclina hacia uno de los otros alineamientos.
-
-La sección "Creación de Personajes" describe los nueve alineamientos y las criaturas sin alineamiento (unaligned).
-
-### Clase de Armadura
-
-La Clase de Armadura (CA) de un monstruo incluye su armadura natural, Destreza, equipo y otras defensas. Consulta "Cómo jugar el juego" para obtener información sobre la Clase de Armadura.
-
-### Iniciativa
-
-La entrada de Iniciativa especifica el modificador de Iniciativa del monstruo seguido por la puntuación de Iniciativa del monstruo entre paréntesis. Usa el modificador cuando tires para determinar la Iniciativa de un monstruo. El modificador de Iniciativa de un monstruo suele ser igual a su modificador de Destreza, pero algunos monstruos tienen modificadores adicionales, como el Bonificador de Competencia, aplicados a ese número.
-
-Si no quieres tirar la Iniciativa de un monstruo, usa la puntuación de Iniciativa como la Iniciativa del monstruo en el combate. La Iniciativa se dotea más adelante en "Cómo jugar el juego".
-
-### Puntos de Golpe
-
-Los Puntos de Golpe (PG) de un monstruo se presentan como un número seguido de paréntesis, donde se proporcionan los Dados de Golpe del monstruo, junto con cualquier contribución de su Constitución. Utiliza el número para los Puntos de Golpe del monstruo o tira la expresión de dados entre paréntesis para determinar los Puntos de Golpe del monstruo al azar; no uses ambos.
-
-El tamaño de un monstruo suele determinar el dado utilizado para calcular sus Puntos de Golpe, como se muestra en la tabla Dados de Golpe por Tamaño.
-
-**Dados de Golpe por Tamaño**
-
-<table>
-  <thead>
-    <tr>
-      <th>Tamaño del Monstruo</th>
-      <th>Dado de Golpe</th>
-      <th>Promedio de PG por Dado</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Diminuto</td>
-      <td>d4</td>
-      <td>2½</td>
-    </tr>
-    <tr>
-      <td>Pequeño</td>
-      <td>d6</td>
-      <td>3½</td>
-    </tr>
-    <tr>
-      <td>Mediano</td>
-      <td>d8</td>
-      <td>4½</td>
-    </tr>
-    <tr>
-      <td>Grande</td>
-      <td>d10</td>
-      <td>5½</td>
-    </tr>
-    <tr>
-      <td>Enorme</td>
-      <td>d12</td>
-      <td>6½</td>
-    </tr>
-    <tr>
-      <td>Gargantuesco</td>
-      <td>d20</td>
-      <td>10½</td>
-    </tr>
-  </tbody>
-</table>
-
-El modificador de Constitución de un monstruo se multiplica por el número de Dados de Golpe que posee, y el resultado se suma a sus Puntos de Golpe. Por ejemplo, si un monstruo tiene una Constitución de 12 (modificador de +1) y 2d8 Dados de Golpe, tiene 2d8 + 2 Puntos de Golpe (promedio 11).
-
-Para saber más sobre los Puntos de Golpe, consulta "Cómo jugar el juego".
-
-### Velocidad
-
-La entrada de Velocidad especifica la Velocidad de un monstruo. Algunos monstruos tienen una o más de las siguientes velocidades: Excavación, Escalar, Vuelo, Natación. Las reglas para la Velocidad y estas velocidades especiales aparecen en el "Glosario de Reglas".
-
-### Puntuaciones de Característica
-
-Cada monstruo tiene seis puntuaciones de característica junto con los correspondientes modificadores de característica y modificadores de tiradas de salvación. Para obtener más información sobre las puntuaciones de característica y las tiradas de salvación, consulta "Cómo jugar el juego".
-
-### Habilidades
-
-La entrada de Habilidades especifica las competencias en habilidades de un monstruo, si las tiene. Por ejemplo, un monstruo que es muy perceptivo y sigiloso podría tener bonificadores en las pruebas de Sabiduría (Percepción) y Destreza (Sigilo). Un bonificador de habilidad es la suma del modificador de característica correspondiente del monstruo y su Bonificador de Competencia. Podrían aplicarse otros modificadores.
-
-### Resistencias y Vulnerabilidades
-
-Estas entradas enumeran las Resistencias y Vulnerabilidades del monstruo, si las tiene. Consulta "Cómo jugar el juego" para obtener más información.
-
-> **Dirigir un Monstruo**
->
-> Para asegurarte de que un monstruo actúe de acuerdo con su Valor de Desafío, sigue estas reglas durante el combate:
->
-> **Habilidades Especiales.** Si el monstruo tiene una habilidad especial que inflige mucho daño pero tiene un número limitado de usos, como un arma de aliento que se recarga o un conjuro que puede lanzar solo una vez al día, haz que use esa habilidad especial tan rápido y tan a menudo como sea posible.
->
-> **Multiataque.** Si el monstruo tiene Multiataque, haz que use Multiataque en cualquiera de sus turnos en los que no esté usando una de sus habilidades más poderosas.
->
-> **Acciones Adicionales, Reacciones, Acciones Legendarias.** Si el monstruo tiene Acciones Adicionales, Reacciones o Acciones Legendarias en su bloque de estadísticas, asegúrate de que las use tan a menudo como pueda.
-
-### Inmunidades
-
-Esta entrada enumera las Inmunidades del monstruo, si las tiene. Si el monstruo tiene Inmunidades al daño y a las condiciones, los tipos de daño se enumeran antes de las condiciones. Consulta "Cómo jugar el juego" para obtener más detalles.
-
-### Equipo
-
-Los monstruos tienen competencia con su equipo. Si un monstruo tiene equipo que puede ser entregado o recuperado, los objetos se enumeran en la entrada de Equipo. El bloque de estadísticas del monstruo puede incluir florituras especiales que ocurren cuando el monstruo usa un objeto, y el bloque de estadísticas puede ignorar las reglas de "Equipo" para ese objeto. Cuando es usado por otra persona, un objeto recuperable utiliza sus reglas de "Equipo", ignorando cualquier floritura especial en el bloque de estadísticas.
-
-La entrada de Equipo no enumera necesariamente todo el equipo de un monstruo. Por ejemplo, se asume que un monstruo que viste ropa está vestido apropiadamente, y esa ropa no figura en esta entrada.
-
-El equipo doteado fuera de la entrada de Equipo se considera sobrenatural o altamente especializado, y queda inservible cuando el monstruo es derrotado.
-
-#### Munición y Ataques a Distancia
-
-Un monstruo que requiere munición para realizar ataques a distancia lleva consigo la munición necesaria.
-
-#### Equipar a un Monstruo con Otros Objetos
-
-Puedes equipar a los monstruos con equipo adicional como desees, usando los objetos de "Equipo" como inspiración. Tú decides cuánto del equipo de un monstruo es recuperable después de que la criatura muere y si algo de ese equipo sigue siendo utilizable.
-
-Ten cuidado al darle a un monstruo objetos mágicos orientados al combate, ya que podrían alterar el Valor de Desafío del monstruo. Si le das a un monstruo un objeto mágico, el monstruo puede tener Sintonía con objetos mágicos como se indica en "Equipo". Un monstruo con una etiqueta de clase después de su tipo de criatura se considera miembro de esa clase para fines de Sintonía.
-
-### Sentidos
-
-La entrada de Sentidos especifica la puntuación de Percepción Pasiva del monstruo, así como cualquier sentido especial que posea el monstruo. La Percepción Pasiva y los sentidos especiales se describen en el "Glosario de Reglas".
-
-### Idiomas
-
-Esta entrada enumera los idiomas que el monstruo puede usar para comunicarse. A veces, un monstruo puede entender un idioma pero no puede comunicarse con él, lo cual se indica en su entrada. "Ninguno" indica que la criatura no comprende ningún idioma.
-
-#### Telepatía
-
-La telepatía es una habilidad mágica que permite a una criatura comunicarse mentalmente con otra criatura dentro de un alcance especificado. Consulta el "Glosario de Reglas" para obtener más información.
-
-### Valor de Desafío (Challenge Rating)
-
-El Valor de Desafío se define en el "Glosario de Reglas", mientras que la guía sobre el uso del CR para planificar posibles encuentros de combate se encuentra en la "Caja de Herramientas de Juego" (Gameplay Toolbox).
-
-#### Puntos de Experiencia
-
-El número de Puntos de Experiencia (XP) que vale un monstruo se basa en su CR, como se dotea en la tabla Puntos de Experiencia por Valor de Desafío. Los XP se otorgan por derrotar al monstruo en combate o neutralizarlo de alguna otra manera.
-
-A menos que una regla diga lo contrario, un monstruo invocado por un conjuro u otra habilidad mágica vale los XP indicados en su bloque de estadísticas.
-
-**Puntos de Experiencia por Valor de Desafío**
-
-<table>
-  <thead>
-    <tr>
-      <th>CR</th>
-      <th>XP</th>
-      <th>CR</th>
-      <th>XP</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>0</td>
-      <td>0 o 10</td>
-      <td>14</td>
-      <td>11,500</td>
-    </tr>
-    <tr>
-      <td>1/8</td>
-      <td>25</td>
-      <td>15</td>
-      <td>13,000</td>
-    </tr>
-    <tr>
-      <td>1/4</td>
-      <td>50</td>
-      <td>16</td>
-      <td>15,000</td>
-    </tr>
-    <tr>
-      <td>1/2</td>
-      <td>100</td>
-      <td>17</td>
-      <td>18,000</td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>200</td>
-      <td>18</td>
-      <td>20,000</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>450</td>
-      <td>19</td>
-      <td>22,000</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>700</td>
-      <td>20</td>
-      <td>25,000</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>1,100</td>
-      <td>21</td>
-      <td>33,000</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>1,800</td>
-      <td>22</td>
-      <td>41,000</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>2,300</td>
-      <td>23</td>
-      <td>50,000</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>2,900</td>
-      <td>24</td>
-      <td>62,000</td>
-    </tr>
-    <tr>
-      <td>8</td>
-      <td>3,900</td>
-      <td>25</td>
-      <td>75,000</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>5,000</td>
-      <td>26</td>
-      <td>90,000</td>
-    </tr>
-    <tr>
-      <td>10</td>
-      <td>5,900</td>
-      <td>27</td>
-      <td>105,000</td>
-    </tr>
-    <tr>
-      <td>11</td>
-      <td>7,200</td>
-      <td>28</td>
-      <td>120,000</td>
-    </tr>
-    <tr>
-      <td>12</td>
-      <td>8,400</td>
-      <td>29</td>
-      <td>135,000</td>
-    </tr>
-    <tr>
-      <td>13</td>
-      <td>10,000</td>
-      <td>30</td>
-      <td>155,000</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Bonificador de Competencia
-
-El Bonificador de Competencia (PB) de un monstruo se determina por su CR, como se muestra en la tabla Bonificador de Competencia por Valor de Desafío, y se refleja en las tiradas de salvación, habilidades y otras estadísticas donde la aptitud excepcional del monstruo es un factor.
-
-**Bonificador de Competencia por Valor de Desafío**
-
-<table>
-  <thead>
-    <tr>
-      <th>CR</th>
-      <th>PB</th>
-      <th>CR</th>
-      <th>PB</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>0–4</td>
-      <td>+2</td>
-      <td>17–20</td>
-      <td>+6</td>
-    </tr>
-    <tr>
-      <td>5–8</td>
-      <td>+3</td>
-      <td>21–24</td>
-      <td>+7</td>
-    </tr>
-    <tr>
-      <td>9–12</td>
-      <td>+4</td>
-      <td>25–28</td>
-      <td>+8</td>
-    </tr>
-    <tr>
-      <td>13–16</td>
-      <td>+5</td>
-      <td>29–30</td>
-      <td>+9</td>
-    </tr>
-  </tbody>
-</table>
-
-### Rasgos
-
-Los rasgos de un monstruo, si los tiene, son características que están activas en todo momento o en ciertas situaciones.
-
-### Acciones
-
-Un monstruo puede realizar las acciones de esta sección o realizar una de las acciones disponibles para todas las criaturas, como se describe en "Cómo jugar el juego".
-
-#### Notación de Ataque
-
-La entrada para el ataque de un monstruo identifica si el ataque es un ataque cuerpo a cuerpo o a distancia y luego proporciona el bonificador de la tirada de ataque, su alcance (reach o range) y lo que sucede al impactar. Un ataque es contra un objetivo a menos que su entrada indique lo contrario. Para obtener dotes sobre diferentes tipos de ataques, consulta "Cómo jugar el juego" y "Conjuros".
-
-**_Impacto (Hit)._** Cualquier daño infligido u otros efectos que ocurran como resultado de que un ataque golpee a un objetivo se describen después de la notación "Impacto:".
-
-**_Fallo (Miss)._** Si un ataque tiene un efecto que ocurre en un fallo, esa información sigue a la notación "Fallo:".
-
-**_Impacto o Fallo (Hit or Miss)._** Si un ataque tiene un efecto que ocurre independientemente de si golpea o falla a su objetivo, esa información sigue a la notación "Impacto o Fallo:".
-
-#### Notación del Efecto de la Tirada de Salvación
-
-Si un efecto obliga a realizar una tirada de salvación, el efecto identifica el tipo de salvación requerida y luego proporciona la CD de la salvación, una descripción de qué criaturas realizan la salvación y una explicación de lo que sucede en una salvación fallida o exitosa.
-
-"Solo la mitad del daño" en una salvación exitosa significa que el objetivo recibe la mitad de daño (redondeado hacia abajo) que los objetivos que fallan la salvación, mientras que ignora todas las demás partes del efecto.
-
-#### Notación de Daño
-
-Un bloque de estadísticas generalmente proporciona tanto un número como una expresión de dados para cada instancia de daño. Por ejemplo, un ataque podría infligir 4 (1d4 + 2) de daño al golpear. Tú decides si usar el número o la expresión de dados entre paréntesis; no uses ambos.
-
-#### Multiataque
-
-Algunas criaturas pueden realizar más de un ataque cuando realizan la acción de Ataque. Tales criaturas tienen la entrada de Multiataque en la sección "Acciones" de su bloque de estadísticas. Esta entrada dotea los ataques que una criatura puede realizar, así como cualquier habilidad adicional que pueda usar, como parte de la acción de Ataque.
-
-#### Lanzamiento de Conjuros
-
-Si un monstruo puede lanzar conjuros, su bloque de estadísticas enumera los conjuros y proporciona la característica de lanzamiento de conjuros del monstruo, la CD de salvación de conjuros (si algún conjuro requiere una tirada de salvación) y el bonificador de ataque de conjuros (si algún conjuro requiere una tirada de ataque). A menos que se indique lo contrario, un conjuro de nivel 1 o superior siempre se lanza a su nivel más bajo posible y no se puede lanzar a un nivel superior.
-
-El conjuro de un monstruo puede tener reglas especiales o restricciones. Por ejemplo, una bruja verde puede lanzar el conjuro _Invisibilidad (Invisibility)_, pero el conjuro tiene una restricción de "solo para sí misma", lo que significa que el conjuro afecta solo a la bruja.
-
-_Componentes de Conjuro._ El rasgo Lanzamiento de Conjuros indica si el lanzamiento de conjuros del monstruo ignora la necesidad de ciertos componentes de conjuro. Si se requiere algún componente de conjuro, describe el uso de componentes Verbales, Somáticos o Materiales por parte del monstruo para indicar a los personajes que está lanzando un conjuro. Un monstruo que requiere componentes Materiales los posee.
-
-_Tiempos de Lanzamiento de 1+ Minutos._ Si un conjuro tiene un tiempo de lanzamiento de 1 minuto o más y, sin embargo, figura en una acción de lanzamiento de conjuros, el monstruo no lanza el conjuro en una sola acción a menos que la descripción de la acción indique lo contrario; el monstruo debe realizar la acción de Magia en cada uno de sus turnos y mantener la Concentración para lanzar el conjuro, como se describe en el "Glosario de Reglas".
-
-### Acción Adicional
-
-Si un monstruo tiene opciones de Acción Adicional, estas se enumeran en esta sección. Consulta "Cómo jugar el juego" para obtener dotes sobre las Acciones Adicionales.
-
-### Reacciones
-
-Si el monstruo tiene opciones de Reacción, estas se enumeran en esta sección junto con sus desencadenantes. Consulta "Cómo jugar el juego" para obtener dotes sobre las Reacciones.
-
-### Acciones Legendarias
-
-Si el monstruo tiene opciones de Acción Legendaria, estas se enumeran en esta sección. Una Acción Legendaria es una acción que un monstruo puede realizar inmediatamente después del turno de otra criatura. Solo se puede realizar una de estas acciones a la vez y solo después de que termine el turno de otra criatura. El monstruo no puede realizar una Acción Legendaria si tiene la condición de Incapacitado o si de otra manera no puede realizar acciones.
-
-El monstruo tiene un número limitado de usos de Acción Legendaria, y ese número se especifica en el bloque de estadísticas. El monstruo gasta un uso cada vez que realiza una Acción Legendaria y recupera todos los usos gastados al comienzo de cada uno de sus turnos.
-
-### Uso Limitado
-
-Algunas partes de un bloque de estadísticas tienen restricciones en la cantidad de veces que se pueden usar. Estas son las formas más comunes en que se limita el uso:
-
-**X/Día.** Esta notación significa que la parte del bloque de estadísticas se puede usar un cierto número de veces (representado por X) y que un monstruo debe terminar un Descanso Largo para recuperar los usos gastados. Por ejemplo, una Reacción que incluye "1/Día" significa que la Reacción se puede realizar una vez y que el monstruo debe terminar un Descanso Largo para realizarla nuevamente.
-
-**Recarga X–Y.** Esta notación significa que un monstruo puede usar la parte del bloque de estadísticas una vez. Al comienzo de cada uno de los turnos del monstruo, tira 1d6. Si la tirada está dentro del rango de números indicado en la notación (representado por X–Y), el monstruo recupera el uso de esa parte, la cual también se recarga cuando el monstruo termina un Descanso Corto o Largo. Por ejemplo, "Recarga 5–6" en una acción significa que un monstruo puede realizar la acción una vez. Luego, al comienzo de cada uno de los turnos del monstruo, este recupera el uso de esa acción si obtiene un 5 o un 6 en 1d6.
-
-**Recarga tras un Descanso Corto o Largo.** Esta notación significa que el monstruo puede usar la parte del bloque de estadísticas una vez y luego debe terminar un Descanso Corto o Largo para volver a usarla.
+# Apéndice B: Perfiles de Criaturas (MDJ 2024)
+
+Este apéndice contiene los perfiles de las criaturas mencionadas en el *Manual del Jugador 2024*, principalmente las disponibles para familiares, monturas, formas de druida (*Forma salvaje*) y conjuros de invocación.
+
+---
+
+### Águila
+*Bestia Pequeña, sin alineamiento*
+- **CA:** 12 | **Iniciativa:** +2 (12)
+- **PG:** 3 (1d6)
+- **Velocidad:** 3 m, volar 18 m
+- **FUE:** 6 (-2) | **DES:** 15 (+2) | **CON:** 10 (+0) | **INT:** 2 (-4) | **SAB:** 14 (+2) | **CAR:** 7 (-2)
+- **Habilidades:** Percepción +4
+- **Sentidos:** Percepción pasiva 14
+- **Idiomas:** Ninguno
+- **VD:** 0 (10 PX; BC +2)
+- **Vista aguda:** El águila tiene ventaja en las pruebas de Sabiduría (Percepción) basadas en la vista.
+- **Acciones:**
+  - **Garras:** *Ataque cuerpo a cuerpo:* +4 al ataque, alcance 1,5 m. *Impacto:* 4 (1d4 + 2) de daño cortante.
+
+---
+
+### Alce
+*Bestia Grande, sin alineamiento*
+- **CA:** 10 | **Iniciativa:** +0 (10)
+- **PG:** 13 (2d10 + 2)
+- **Velocidad:** 15 m
+- **FUE:** 16 (+3) | **DES:** 10 (+0) | **CON:** 12 (+1) | **INT:** 2 (-4) | **SAB:** 10 (+0) | **CAR:** 6 (-2)
+- **Sentidos:** Percepción pasiva 10
+- **Idiomas:** Ninguno
+- **VD:** 1/4 (50 PX; BC +2)
+- **Embestida:** Si el alce se mueve al menos 6 m en línea recta hacia un objetivo justo antes de acertarle con un ataque de cornada, el objetivo recibe 7 (2d6) de daño adicional del mismo tipo y, si es una criatura Grande o menor, debe superar una salvación de Fuerza CD 13 o quedará derribada.
+- **Acciones:**
+  - **Cornada:** *Ataque cuerpo a cuerpo:* +5 al ataque, alcance 1,5 m. *Impacto:* 6 (1d6 + 3) de daño perforante.
+  - **Pezuñas:** *Ataque cuerpo a cuerpo:* +5 al ataque, alcance 1,5 m. *Impacto:* 8 (2d4 + 3) de daño contundente.
+
+---
+
+### Araña
+*Bestia Diminuta, sin alineamiento*
+- **CA:** 12 | **Iniciativa:** +2 (12)
+- **PG:** 1 (1d4 - 1)
+- **Velocidad:** 6 m, trepar 6 m
+- **FUE:** 2 (-4) | **DES:** 14 (+2) | **CON:** 8 (-1) | **INT:** 1 (-5) | **SAB:** 10 (+0) | **CAR:** 2 (-4)
+- **Habilidades:** Sigilo +4
+- **Sentidos:** Visión en la oscuridad 9 m, Percepción pasiva 10
+- **Idiomas:** Ninguno
+- **VD:** 0 (10 PX; BC +2)
+- **Trepar cual arácnido:** La araña puede trepar por superficies difíciles, incluso por el techo, sin necesidad de realizar una prueba de característica.
+- **Sentido de la telaraña:** Mientras esté en contacto con una telaraña, la araña conoce la ubicación exacta de cualquier otra criatura en contacto con la misma telaraña.
+- **Caminar por la telaraña:** La araña ignora las restricciones de movimiento impuestas por las telarañas.
+- **Acciones:**
+  - **Mordisco:** *Ataque cuerpo a cuerpo:* +4 al ataque, alcance 1,5 m. *Impacto:* 1 de daño perforante más 2 (1d4) de daño de veneno (salvación de Constitución CD 9 para evitar el daño de veneno).
+
+---
+
+### Araña Gigante
+*Bestia Grande, sin alineamiento*
+- **CA:** 14 | **Iniciativa:** +3 (13)
+- **PG:** 26 (4d10 + 4)
+- **Velocidad:** 9 m, trepar 9 m
+- **FUE:** 14 (+2) | **DES:** 16 (+3) | **CON:** 12 (+1) | **INT:** 2 (-4) | **SAB:** 11 (+0) | **CAR:** 4 (-3)
+- **Habilidades:** Sigilo +7
+- **Sentidos:** Visión a ciegas 3 m, visión en la oscuridad 18 m, Percepción pasiva 10
+- **Idiomas:** Ninguno
+- **VD:** 1 (200 PX; BC +2)
+- **Trepar cual arácnido:** Puede trepar por superficies difíciles, incluso por el techo, sin prueba de característica.
+- **Sentido y caminar por la telaraña:** Conoce la ubicación de criaturas en su red e ignora el terreno difícil de telarañas.
+- **Acciones:**
+  - **Mordisco:** *Ataque cuerpo a cuerpo:* +5 al ataque, alcance 1,5 m. *Impacto:* 7 (1d8 + 3) de daño perforante más 9 (2d8) de daño de veneno (salvación de Constitución CD 11 para la mitad). Si el daño de veneno reduce los PG a 0, el objetivo queda estable pero envenenado y paralizado durante 1 hora.
+  - **Telaraña (Recarga 5–6):** *Ataque a distancia:* +5 al ataque, alcance 9/18 m. *Impacto:* El objetivo queda apresado por la telaraña (CD 12 para escapar).
+
+---
+
+### Búho
+*Bestia Diminuta, sin alineamiento*
+- **CA:** 11 | **Iniciativa:** +1 (11)
+- **PG:** 1 (1d4 - 1)
+- **Velocidad:** 1,5 m, volar 18 m
+- **FUE:** 3 (-4) | **DES:** 13 (+1) | **CON:** 8 (-1) | **INT:** 2 (-4) | **SAB:** 12 (+1) | **CAR:** 7 (-2)
+- **Habilidades:** Percepción +3, Sigilo +3
+- **Sentidos:** Visión en la oscuridad 36 m, Percepción pasiva 13
+- **Idiomas:** Ninguno
+- **VD:** 0 (10 PX; BC +2)
+- **Pasar volando:** El búho no provoca ataques de oportunidad cuando vuela fuera del alcance de un enemigo.
+- **Oído y vista agudos:** Ventaja en pruebas de Sabiduría (Percepción) basadas en la vista o el oído.
+- **Acciones:**
+  - **Garras:** *Ataque cuerpo a cuerpo:* +3 al ataque, alcance 1,5 m. *Impacto:* 1 de daño cortante.
+
+---
+
+### Caballo de Guerra
+*Bestia Grande, sin alineamiento*
+- **CA:** 11 | **Iniciativa:** +1 (11)
+- **PG:** 19 (3d10 + 3)
+- **Velocidad:** 18 m
+- **FUE:** 18 (+4) | **DES:** 12 (+1) | **CON:** 13 (+1) | **INT:** 2 (-4) | **SAB:** 12 (+1) | **CAR:** 7 (-2)
+- **Sentidos:** Percepción pasiva 11
+- **Idiomas:** Ninguno
+- **VD:** 1/2 (100 PX; BC +2)
+- **Pisotón:** Si el caballo se mueve al menos 6 m en línea recta hacia una criatura y le acierta con un ataque de cascos, el objetivo debe superar una salvación de Fuerza CD 14 o quedará derribado. Si queda derribado, el caballo puede hacer otro ataque de cascos contra él como acción adicional.
+- **Acciones:**
+  - **Cascos:** *Ataque cuerpo a cuerpo:* +6 al ataque, alcance 1,5 m. *Impacto:* 11 (2d6 + 4) de daño contundente.
+
+---
+
+### Caballo de Monta
+*Bestia Grande, sin alineamiento*
+- **CA:** 10 | **Iniciativa:** +0 (10)
+- **PG:** 13 (2d10 + 2)
+- **Velocidad:** 18 m
+- **FUE:** 16 (+3) | **DES:** 10 (+0) | **CON:** 12 (+1) | **INT:** 2 (-4) | **SAB:** 11 (+0) | **CAR:** 7 (-2)
+- **Sentidos:** Percepción pasiva 10
+- **Idiomas:** Ninguno
+- **VD:** 1/4 (50 PX; BC +2)
+- **Acciones:**
+  - **Cascos:** *Ataque cuerpo a cuerpo:* +5 al ataque, alcance 1,5 m. *Impacto:* 8 (2d4 + 3) de daño contundente.
+
+---
+
+### Caballo de Tiro
+*Bestia Grande, sin alineamiento*
+- **CA:** 10 | **Iniciativa:** +0 (10)
+- **PG:** 19 (3d10 + 3)
+- **Velocidad:** 12 m
+- **FUE:** 18 (+4) | **DES:** 10 (+0) | **CON:** 12 (+1) | **INT:** 2 (-4) | **SAB:** 11 (+0) | **CAR:** 7 (-2)
+- **Sentidos:** Percepción pasiva 10
+- **Idiomas:** Ninguno
+- **VD:** 1/4 (50 PX; BC +2)
+- **Acciones:**
+  - **Cascos:** *Ataque cuerpo a cuerpo:* +6 al ataque, alcance 1,5 m. *Impacto:* 9 (2d4 + 4) de daño contundente.
+
+---
+
+### Cabra
+*Bestia Mediana, sin alineamiento*
+- **CA:** 10 | **Iniciativa:** +0 (10)
+- **PG:** 4 (1d8)
+- **Velocidad:** 12 m, trepar 9 m
+- **FUE:** 12 (+1) | **DES:** 10 (+0) | **CON:** 11 (+0) | **INT:** 2 (-4) | **SAB:** 10 (+0) | **CAR:** 5 (-3)
+- **Habilidades:** Percepción +2
+- **Sentidos:** Percepción pasiva 12
+- **Idiomas:** Ninguno
+- **VD:** 0 (10 PX; BC +2)
+- **Pies firmes:** Ventaja en tiradas de salvación de Fuerza y Destreza contra ser derribada.
+- **Carga:** Si se mueve al menos 6 m en línea recta hacia un objetivo antes de impactar con un ataque de topetazo, inflige 2 (1d4) de daño adicional y si el objetivo es Mediano o menor, salvación de Fuerza CD 10 o queda derribado.
+- **Acciones:**
+  - **Topetazo:** *Ataque cuerpo a cuerpo:* +3 al ataque, alcance 1,5 m. *Impacto:* 3 (1d4 + 1) de daño contundente.
+
+---
+
+### Cabra Gigante
+*Bestia Grande, sin alineamiento*
+- **CA:** 11 | **Iniciativa:** +1 (11)
+- **PG:** 19 (3d10 + 3)
+- **Velocidad:** 12 m, trepar 9 m
+- **FUE:** 17 (+3) | **DES:** 11 (+0) | **CON:** 12 (+1) | **INT:** 3 (-4) | **SAB:** 12 (+1) | **CAR:** 6 (-2)
+- **Habilidades:** Atletismo +5, Percepción +3
+- **Sentidos:** Percepción pasiva 13
+- **Idiomas:** Ninguno
+- **VD:** 1/2 (100 PX; BC +2)
+- **Pies firmes:** Ventaja en salvaciones contra ser derribada.
+- **Carga:** Causa 7 (2d6) de daño adicional al embestir tras 6 m de carrerilla y fuerza salvación de Fuerza CD 13 o derribo.
+- **Acciones:**
+  - **Topetazo:** *Ataque cuerpo a cuerpo:* +5 al ataque, alcance 1,5 m. *Impacto:* 8 (2d4 + 3) de daño contundente.
+
+---
+
+### Camello
+*Bestia Grande, sin alineamiento*
+- **CA:** 9 | **Iniciativa:** -1 (9)
+- **PG:** 15 (2d10 + 4)
+- **Velocidad:** 15 m
+- **FUE:** 16 (+3) | **DES:** 8 (-1) | **CON:** 14 (+2) | **INT:** 2 (-4) | **SAB:** 8 (-1) | **CAR:** 5 (-3)
+- **Sentidos:** Percepción pasiva 9
+- **Idiomas:** Ninguno
+- **VD:** 1/8 (25 PX; BC +2)
+- **Acciones:**
+  - **Mordisco:** *Ataque cuerpo a cuerpo:* +5 al ataque, alcance 1,5 m. *Impacto:* 4 (1d4 + 2) de daño contundente.
+
+---
+
+### Cangrejo
+*Bestia Diminuta, sin alineamiento*
+- **CA:** 11 | **Iniciativa:** +0 (10)
+- **PG:** 2 (1d4)
+- **Velocidad:** 6 m, nadar 6 m
+- **FUE:** 2 (-4) | **DES:** 11 (+0) | **CON:** 10 (+0) | **INT:** 1 (-5) | **SAB:** 8 (-1) | **CAR:** 2 (-4)
+- **Habilidades:** Sigilo +2
+- **Sentidos:** Visión a ciegas 9 m, Percepción pasiva 9
+- **Idiomas:** Ninguno
+- **VD:** 0 (10 PX; BC +2)
+- **Anfibio:** Puede respirar en agua y en aire.
+- **Acciones:**
+  - **Pinza:** *Ataque cuerpo a cuerpo:* +0 al ataque, alcance 1,5 m. *Impacto:* 1 de daño contundente y el objetivo queda agarrado (CD 9 para escapar).
+
+---
+
+### Cangrejo Gigante
+*Bestia Mediana, sin alineamiento*
+- **CA:** 15 | **Iniciativa:** +2 (12)
+- **PG:** 13 (3d8)
+- **Velocidad:** 9 m, nadar 9 m
+- **FUE:** 13 (+1) | **DES:** 15 (+2) | **CON:** 11 (+0) | **INT:** 1 (-5) | **SAB:** 9 (-1) | **CAR:** 3 (-4)
+- **Habilidades:** Sigilo +4
+- **Sentidos:** Visión a ciegas 9 m, Percepción pasiva 9
+- **Idiomas:** Ninguno
+- **VD:** 1/8 (25 PX; BC +2)
+- **Anfibio:** Puede respirar en agua y en aire.
+- **Acciones:**
+  - **Pinza:** *Ataque cuerpo a cuerpo:* +3 al ataque, alcance 1,5 m. *Impacto:* 4 (1d6 + 1) de daño contundente y el objetivo queda agarrado (CD 11 para escapar, hasta dos criaturas a la vez).
+
+---
+
+### Ciervo
+*Bestia Mediana, sin alineamiento*
+- **CA:** 13 | **Iniciativa:** +3 (13)
+- **PG:** 4 (1d8)
+- **Velocidad:** 15 m
+- **FUE:** 11 (+0) | **DES:** 16 (+3) | **CON:** 11 (+0) | **INT:** 2 (-4) | **SAB:** 14 (+2) | **CAR:** 5 (-3)
+- **Sentidos:** Percepción pasiva 12
+- **Idiomas:** Ninguno
+- **VD:** 0 (10 PX; BC +2)
+- **Acciones:**
+  - **Mordisco:** *Ataque cuerpo a cuerpo:* +2 al ataque, alcance 1,5 m. *Impacto:* 2 (1d4) de daño perforante.
+
+---
+
+### Cocodrilo
+*Bestia Grande, sin alineamiento*
+- **CA:** 12 | **Iniciativa:** +0 (10)
+- **PG:** 13 (2d10 + 2)
+- **Velocidad:** 6 m, nadar 9 m
+- **FUE:** 15 (+2) | **DES:** 10 (+0) | **CON:** 13 (+1) | **INT:** 2 (-4) | **SAB:** 10 (+0) | **CAR:** 5 (-3)
+- **Habilidades:** Sigilo +2
+- **Sentidos:** Percepción pasiva 10
+- **Idiomas:** Ninguno
+- **VD:** 1/2 (100 PX; BC +2)
+- **Aguantar la respiración:** Puede aguantar la respiración durante 15 minutos.
+- **Acciones:**
+  - **Mordisco:** *Ataque cuerpo a cuerpo:* +4 al ataque, alcance 1,5 m. *Impacto:* 7 (1d10 + 2) de daño perforante y el objetivo queda agarrado (CD 12 para escapar) y apresado hasta que termine el agarre.
+
+---
+
+### Comadreja
+*Bestia Diminuta, sin alineamiento*
+- **CA:** 13 | **Iniciativa:** +3 (13)
+- **PG:** 1 (1d4 - 1)
+- **Velocidad:** 9 m
+- **FUE:** 3 (-4) | **DES:** 16 (+3) | **CON:** 8 (-1) | **INT:** 2 (-4) | **SAB:** 12 (+1) | **CAR:** 3 (-4)
+- **Habilidades:** Percepción +3, Sigilo +5
+- **Sentidos:** Percepción pasiva 13
+- **Idiomas:** Ninguno
+- **VD:** 0 (10 PX; BC +2)
+- **Oído y olfato agudos:** Ventaja en pruebas de Percepción basadas en oído u olfato.
+- **Acciones:**
+  - **Mordisco:** *Ataque cuerpo a cuerpo:* +5 al ataque, alcance 1,5 m. *Impacto:* 1 de daño perforante.
+
+---
+
+### Cuervo
+*Bestia Diminuta, sin alineamiento*
+- **CA:** 12 | **Iniciativa:** +2 (12)
+- **PG:** 1 (1d4 - 1)
+- **Velocidad:** 3 m, volar 15 m
+- **FUE:** 2 (-4) | **DES:** 14 (+2) | **CON:** 8 (-1) | **INT:** 2 (-4) | **SAB:** 12 (+1) | **CAR:** 6 (-2)
+- **Habilidades:** Percepción +3
+- **Sentidos:** Percepción pasiva 13
+- **Idiomas:** Ninguno
+- **VD:** 0 (10 PX; BC +2)
+- **Mimetismo:** Puede imitar sonidos sencillos que haya escuchado con una prueba de Engaño enfrentada a la Perspicacia del oyente.
+- **Acciones:**
+  - **Pico:** *Ataque cuerpo a cuerpo:* +4 al ataque, alcance 1,5 m. *Impacto:* 1 de daño perforante.
+
+---
+
+### Diablillo (Imp)
+*Infernal Diminuto (diablo), legal malvado*
+- **CA:** 13 | **Iniciativa:** +3 (13)
+- **PG:** 10 (3d4 + 3)
+- **Velocidad:** 6 m, volar 12 m
+- **FUE:** 6 (-2) | **DES:** 17 (+3) | **CON:** 13 (+1) | **INT:** 11 (+0) | **SAB:** 12 (+1) | **CAR:** 14 (+2)
+- **Habilidades:** Engaño +4, Perspicacia +3, Sigilo +5
+- **Resistencias:** Frío; daño contundente, perforante y cortante de ataques no mágicos ni de plata
+- **Inmunidades:** Fuego, veneno; envenenado
+- **Sentidos:** Visión en la oscuridad 36 m, visión del diablo (ve en oscuridad mágica), Percepción pasiva 11
+- **Idiomas:** Infernal, común
+- **VD:** 1 (200 PX; BC +2)
+- **Resistencia mágica:** Ventaja en tiradas de salvación contra conjuros y otros efectos mágicos.
+- **Acciones:**
+  - **Aguijón:** *Ataque cuerpo a cuerpo:* +5 al ataque, alcance 1,5 m. *Impacto:* 5 (1d4 + 3) de daño perforante más 10 (3d6) de daño de veneno (salvación de Constitución CD 11 para mitad).
+  - **Invisibilidad:** Se vuelve invisible hasta que ataque o lance un conjuro.
+  - **Cambio de forma:** Puede transformarse en rata, cuervo o araña.
+
+---
+
+### Duende (Sprite)
+*Feérico Diminuto, neutral bueno*
+- **CA:** 15 | **Iniciativa:** +4 (14)
+- **PG:** 2 (1d4)
+- **Velocidad:** 3 m, volar 12 m
+- **FUE:** 3 (-4) | **DES:** 18 (+4) | **CON:** 10 (+0) | **INT:** 14 (+2) | **SAB:** 13 (+1) | **CAR:** 11 (+0)
+- **Habilidades:** Percepción +3, Sigilo +8
+- **Sentidos:** Percepción pasiva 13
+- **Idiomas:** Común, élfico, silvano
+- **VD:** 1/4 (50 PX; BC +2)
+- **Visión del corazón:** Conoce el estado emocional y alineamiento de una criatura tocada si esta falla salvación de Carisma CD 10.
+- **Acciones:**
+  - **Espada corta:** *Ataque cuerpo a cuerpo:* +6 al ataque, alcance 1,5 m. *Impacto:* 1 de daño perforante.
+  - **Arco corto:** *Ataque a distancia:* +6 al ataque, alcance 12/48 m. *Impacto:* 1 de daño perforante y el objetivo debe superar salvación de Constitución CD 10 o quedará envenenado durante 1 minuto (si falla por 5 o más, cae inconsciente).
+  - **Invisibilidad:** Se vuelve invisible hasta que ataque o lance un conjuro.
+
+---
+
+### Elefante
+*Bestia Enorme, sin alineamiento*
+- **CA:** 12 | **Iniciativa:** -1 (9)
+- **PG:** 76 (8d12 + 24)
+- **Velocidad:** 12 m
+- **FUE:** 22 (+6) | **DES:** 9 (-1) | **CON:** 17 (+3) | **INT:** 3 (-4) | **SAB:** 11 (+0) | **CAR:** 6 (-2)
+- **Sentidos:** Percepción pasiva 10
+- **Idiomas:** Ninguno
+- **VD:** 4 (1100 PX; BC +2)
+- **Arrollar:** Si se mueve al menos 6 m en línea recta hacia un objetivo antes de impactar con cornada, el objetivo debe superar salvación de Fuerza CD 16 o caer derribado. Si cae derribado, el elefante puede realizar un ataque de pisotón como acción adicional.
+- **Acciones:**
+  - **Cornada:** *Ataque cuerpo a cuerpo:* +8 al ataque, alcance 1,5 m. *Impacto:* 19 (3d8 + 6) de daño perforante.
+  - **Pisotón:** *Ataque cuerpo a cuerpo:* +8 al ataque, alcance 1,5 m. *Impacto:* 22 (3d10 + 6) de daño contundente.
+
+---
+
+### Esfinge de las Maravillas
+*Monstruosidad Pequeña, neutral buena*
+- **CA:** 13 | **Iniciativa:** +2 (12)
+- **PG:** 22 (4d6 + 8)
+- **Velocidad:** 6 m, volar 18 m
+- **FUE:** 14 (+2) | **DES:** 15 (+2) | **CON:** 14 (+2) | **INT:** 14 (+2) | **SAB:** 15 (+2) | **CAR:** 14 (+2)
+- **Habilidades:** Conocimiento arcano +4, Historia +4, Percepción +4, Religión +4
+- **Sentidos:** Visión en la oscuridad 18 m, Percepción pasiva 14
+- **Idiomas:** Celestial, común, esfinge
+- **VD:** 1 (200 PX; BC +2)
+- **Inmunidad a la adivinación:** No puede ser objeto de conjuros de adivinación ni ser percibida mediante sensores mágicos.
+- **Acciones:**
+  - **Garras:** *Ataque cuerpo a cuerpo:* +4 al ataque, alcance 1,5 m. *Impacto:* 7 (2d4 + 2) de daño cortante.
+  - **Explosión mágica:** *Ataque de conjuro a distancia:* +4 al ataque, alcance 18 m. *Impacto:* 7 (2d4 + 2) de daño radiante.
+
+---
+
+### Esqueleto
+*Muerto viviente Mediano, legal malvado*
+- **CA:** 13 | **Iniciativa:** +2 (12)
+- **PG:** 13 (2d8 + 4)
+- **Velocidad:** 9 m
+- **FUE:** 10 (+0) | **DES:** 14 (+2) | **CON:** 15 (+2) | **INT:** 6 (-2) | **SAB:** 8 (-1) | **CAR:** 5 (-3)
+- **Vulnerabilidades:** Daño contundente
+- **Inmunidades:** Veneno; envenenado, cansancio
+- **Sentidos:** Visión en la oscuridad 18 m, Percepción pasiva 9
+- **Idiomas:** Entiende los idiomas que conocía en vida, pero no puede hablar
+- **VD:** 1/4 (50 PX; BC +2)
+- **Acciones:**
+  - **Espada corta:** *Ataque cuerpo a cuerpo:* +4 al ataque, alcance 1,5 m. *Impacto:* 5 (1d6 + 2) de daño perforante.
+  - **Arco corto:** *Ataque a distancia:* +4 al ataque, alcance 24/96 m. *Impacto:* 5 (1d6 + 2) de daño perforante.
+
+---
+
+### Gato
+*Bestia Diminuta, sin alineamiento*
+- **CA:** 12 | **Iniciativa:** +2 (12)
+- **PG:** 2 (1d4)
+- **Velocidad:** 12 m, trepar 9 m
+- **FUE:** 3 (-4) | **DES:** 15 (+2) | **CON:** 10 (+0) | **INT:** 3 (-4) | **SAB:** 12 (+1) | **CAR:** 7 (-2)
+- **Habilidades:** Percepción +3, Sigilo +4
+- **Sentidos:** Visión en la oscuridad 18 m, Percepción pasiva 13
+- **Idiomas:** Ninguno
+- **VD:** 0 (10 PX; BC +2)
+- **Olfato y vista agudos:** Ventaja en pruebas de Percepción basadas en olfato o vista.
+- **Acciones:**
+  - **Garras:** *Ataque cuerpo a cuerpo:* +0 al ataque, alcance 1,5 m. *Impacto:* 1 de daño cortante.
+
+---
+
+### Halcón
+*Bestia Diminuta, sin alineamiento*
+- **CA:** 13 | **Iniciativa:** +3 (13)
+- **PG:** 1 (1d4 - 1)
+- **Velocidad:** 3 m, volar 18 m
+- **FUE:** 5 (-3) | **DES:** 16 (+3) | **CON:** 8 (-1) | **INT:** 2 (-4) | **SAB:** 14 (+2) | **CAR:** 6 (-2)
+- **Habilidades:** Percepción +4
+- **Sentidos:** Percepción pasiva 14
+- **Idiomas:** Ninguno
+- **VD:** 0 (10 PX; BC +2)
+- **Vista aguda:** Ventaja en pruebas de Percepción basadas en la vista.
+- **Acciones:**
+  - **Garras:** *Ataque cuerpo a cuerpo:* +5 al ataque, alcance 1,5 m. *Impacto:* 1 de daño cortante.
+
+---
+
+### Hiena
+*Bestia Mediana, sin alineamiento*
+- **CA:** 11 | **Iniciativa:** +1 (11)
+- **PG:** 5 (1d8 + 1)
+- **Velocidad:** 15 m
+- **FUE:** 11 (+0) | **DES:** 13 (+1) | **CON:** 12 (+1) | **INT:** 2 (-4) | **SAB:** 12 (+1) | **CAR:** 5 (-3)
+- **Habilidades:** Percepción +3
+- **Sentidos:** Percepción pasiva 13
+- **Idiomas:** Ninguno
+- **VD:** 0 (10 PX; BC +2)
+- **Tácticas de manada:** Ventaja en tiradas de ataque contra una criatura si al menos un aliado de la hiena está a 1,5 m de ella y no está incapacitado.
+- **Acciones:**
+  - **Mordisco:** *Ataque cuerpo a cuerpo:* +2 al ataque, alcance 1,5 m. *Impacto:* 3 (1d4 + 1) de daño perforante.
+
+---
+
+### Jabalí
+*Bestia Mediana, sin alineamiento*
+- **CA:** 11 | **Iniciativa:** +0 (10)
+- **PG:** 11 (2d8 + 2)
+- **Velocidad:** 12 m
+- **FUE:** 13 (+1) | **DES:** 11 (+0) | **CON:** 12 (+1) | **INT:** 2 (-4) | **SAB:** 9 (-1) | **CAR:** 5 (-3)
+- **Sentidos:** Percepción pasiva 9
+- **Idiomas:** Ninguno
+- **VD:** 1/4 (50 PX; BC +2)
+- **Carga:** Causa 3 (1d6) de daño adicional si se mueve 6 m antes de impactar con sus colmillos y fuerza salvación de Fuerza CD 11 o derribo.
+- **Tenacidad:** Si recibe 7 de daño o menos que reduzca sus PG a 0, se queda con 1 PG en su lugar (una vez por descanso corto o largo).
+- **Acciones:**
+  - **Colmillos:** *Ataque cuerpo a cuerpo:* +3 al ataque, alcance 1,5 m. *Impacto:* 4 (1d6 + 1) de daño cortante.
+
+---
+
+### Lagarto
+*Bestia Diminuta, sin alineamiento*
+- **CA:** 10 | **Iniciativa:** +0 (10)
+- **PG:** 2 (1d4)
+- **Velocidad:** 6 m, trepar 6 m
+- **FUE:** 2 (-4) | **DES:** 11 (+0) | **CON:** 10 (+0) | **INT:** 1 (-5) | **SAB:** 8 (-1) | **CAR:** 3 (-4)
+- **Sentidos:** Visión en la oscuridad 9 m, Percepción pasiva 9
+- **Idiomas:** Ninguno
+- **VD:** 0 (10 PX; BC +2)
+- **Acciones:**
+  - **Mordisco:** *Ataque cuerpo a cuerpo:* +0 al ataque, alcance 1,5 m. *Impacto:* 1 de daño perforante.
+
+---
+
+### León
+*Bestia Grande, sin alineamiento*
+- **CA:** 12 | **Iniciativa:** +2 (12)
+- **PG:** 26 (4d10 + 4)
+- **Velocidad:** 15 m
+- **FUE:** 17 (+3) | **DES:** 15 (+2) | **CON:** 13 (+1) | **INT:** 3 (-4) | **SAB:** 12 (+1) | **CAR:** 8 (-1)
+- **Habilidades:** Percepción +3, Sigilo +4
+- **Sentidos:** Visión en la oscuridad 18 m, Percepción pasiva 13
+- **Idiomas:** Ninguno
+- **VD:** 1 (200 PX; BC +2)
+- **Abalanzarse:** Si se mueve al menos 6 m en línea recta hacia una criatura y le acierta con un ataque de garra, el objetivo debe superar salvación de Fuerza CD 13 o caer derribado. Si cae derribado, el león puede realizar un ataque de mordisco como acción adicional.
+- **Tácticas de manada:** Ventaja en tiradas de ataque si un aliado está a 1,5 m del objetivo.
+- **Acciones:**
+  - **Garra:** *Ataque cuerpo a cuerpo:* +5 al ataque, alcance 1,5 m. *Impacto:* 6 (1d6 + 3) de daño cortante.
+  - **Mordisco:** *Ataque cuerpo a cuerpo:* +5 al ataque, alcance 1,5 m. *Impacto:* 7 (1d8 + 3) de daño perforante.
+
+---
+
+### Lobo
+*Bestia Mediana, sin alineamiento*
+- **CA:** 13 | **Iniciativa:** +2 (12)
+- **PG:** 11 (2d8 + 2)
+- **Velocidad:** 12 m
+- **FUE:** 12 (+1) | **DES:** 15 (+2) | **CON:** 12 (+1) | **INT:** 3 (-4) | **SAB:** 12 (+1) | **CAR:** 6 (-2)
+- **Habilidades:** Percepción +3, Sigilo +4
+- **Sentidos:** Visión en la oscuridad 18 m, Percepción pasiva 13
+- **Idiomas:** Ninguno
+- **VD:** 1/4 (50 PX; BC +2)
+- **Oído y olfato agudos:** Ventaja en pruebas de Percepción basadas en oído u olfato.
+- **Tácticas de manada:** Ventaja en tiradas de ataque si un aliado está a 1,5 m del objetivo.
+- **Acciones:**
+  - **Mordisco:** *Ataque cuerpo a cuerpo:* +4 al ataque, alcance 1,5 m. *Impacto:* 5 (1d6 + 2) de daño perforante. Si el objetivo es una criatura, debe superar una tirada de salvación de Fuerza CD 11 o quedará derribada.
+
+---
+
+### Lobo Terrible
+*Bestia Grande, sin alineamiento*
+- **CA:** 14 | **Iniciativa:** +2 (12)
+- **PG:** 37 (5d10 + 10)
+- **Velocidad:** 15 m
+- **FUE:** 17 (+3) | **DES:** 15 (+2) | **CON:** 15 (+2) | **INT:** 3 (-4) | **SAB:** 12 (+1) | **CAR:** 7 (-2)
+- **Habilidades:** Percepción +3, Sigilo +4
+- **Sentidos:** Visión en la oscuridad 18 m, Percepción pasiva 13
+- **Idiomas:** Ninguno
+- **VD:** 1 (200 PX; BC +2)
+- **Oído y olfato agudos:** Ventaja en pruebas de Percepción basadas en oído u olfato.
+- **Tácticas de manada:** Ventaja en tiradas de ataque si un aliado está a 1,5 m del objetivo.
+- **Acciones:**
+  - **Mordisco:** *Ataque cuerpo a cuerpo:* +5 al ataque, alcance 1,5 m. *Impacto:* 10 (2d6 + 3) de daño perforante. Si el objetivo es una criatura, debe superar una tirada de salvación de Fuerza CD 13 o quedará derribada.
+
+---
+
+### Mastín
+*Bestia Mediana, sin alineamiento*
+- **CA:** 12 | **Iniciativa:** +2 (12)
+- **PG:** 5 (1d8 + 1)
+- **Velocidad:** 12 m
+- **FUE:** 13 (+1) | **DES:** 14 (+2) | **CON:** 12 (+1) | **INT:** 3 (-4) | **SAB:** 12 (+1) | **CAR:** 7 (-2)
+- **Habilidades:** Percepción +3
+- **Sentidos:** Percepción pasiva 13
+- **Idiomas:** Ninguno
+- **VD:** 1/8 (25 PX; BC +2)
+- **Oído y olfato agudos:** Ventaja en pruebas de Percepción basadas en oído u olfato.
+- **Acciones:**
+  - **Mordisco:** *Ataque cuerpo a cuerpo:* +3 al ataque, alcance 1,5 m. *Impacto:* 4 (1d6 + 1) de daño perforante. Si el objetivo es una criatura, debe superar salvación de Fuerza CD 11 o caer derribada.
+
+---
+
+### Mosca Gigante
+*Bestia Grande, sin alineamiento*
+- **CA:** 11 | **Iniciativa:** +1 (11)
+- **PG:** 19 (3d10 + 3)
+- **Velocidad:** 6 m, volar 18 m
+- **FUE:** 14 (+2) | **DES:** 13 (+1) | **CON:** 13 (+1) | **INT:** 2 (-4) | **SAB:** 10 (+0) | **CAR:** 3 (-4)
+- **Sentidos:** Visión a ciegas 18 m, Percepción pasiva 10
+- **Idiomas:** Ninguno
+- **VD:** 0 (10 PX; BC +2)
+
+---
+
+### Mula
+*Bestia Mediana, sin alineamiento*
+- **CA:** 10 | **Iniciativa:** +0 (10)
+- **PG:** 11 (2d8 + 2)
+- **Velocidad:** 12 m
+- **FUE:** 14 (+2) | **DES:** 10 (+0) | **CON:** 13 (+1) | **INT:** 2 (-4) | **SAB:** 10 (+0) | **CAR:** 5 (-3)
+- **Sentidos:** Percepción pasiva 10
+- **Idiomas:** Ninguno
+- **VD:** 1/8 (25 PX; BC +2)
+- **Bestia de carga:** Se considera de tamaño Grande para determinar su capacidad de carga y arrastre.
+- **Pies firmes:** Ventaja en salvaciones de Fuerza y Destreza contra ser derribada.
+- **Acciones:**
+  - **Pezuñas:** *Ataque cuerpo a cuerpo:* +4 al ataque, alcance 1,5 m. *Impacto:* 4 (1d4 + 2) de daño contundente.
+
+---
+
+### Murciélago
+*Bestia Diminuta, sin alineamiento*
+- **CA:** 12 | **Iniciativa:** +2 (12)
+- **PG:** 1 (1d4 - 1)
+- **Velocidad:** 1,5 m, volar 9 m
+- **FUE:** 2 (-4) | **DES:** 15 (+2) | **CON:** 8 (-1) | **INT:** 2 (-4) | **SAB:** 12 (+1) | **CAR:** 4 (-3)
+- **Sentidos:** Visión a ciegas 18 m, Percepción pasiva 11
+- **Idiomas:** Ninguno
+- **VD:** 0 (10 PX; BC +2)
+- **Ecolocalización:** El murciélago no puede usar su visión ciega mientras esté ensordecido.
+- **Oído agudo:** Ventaja en pruebas de Percepción basadas en el oído.
+- **Acciones:**
+  - **Mordisco:** *Ataque cuerpo a cuerpo:* +4 al ataque, alcance 1,5 m. *Impacto:* 1 de daño perforante.
+
+---
+
+### Oso Negro
+*Bestia Mediana, sin alineamiento*
+- **CA:** 11 | **Iniciativa:** +0 (10)
+- **PG:** 19 (3d8 + 6)
+- **Velocidad:** 12 m, trepar 9 m
+- **FUE:** 15 (+2) | **DES:** 10 (+0) | **CON:** 14 (+2) | **INT:** 2 (-4) | **SAB:** 12 (+1) | **CAR:** 7 (-2)
+- **Habilidades:** Percepción +3
+- **Sentidos:** Percepción pasiva 13
+- **Idiomas:** Ninguno
+- **VD:** 1/2 (100 PX; BC +2)
+- **Olfato agudo:** Ventaja en pruebas de Percepción basadas en el olfato.
+- **Acciones:**
+  - **Ataque múltiple:** Realiza un ataque de mordisco y uno de garras.
+  - **Mordisco:** *Ataque cuerpo a cuerpo:* +4 al ataque, alcance 1,5 m. *Impacto:* 5 (1d6 + 2) de daño perforante.
+  - **Garras:** *Ataque cuerpo a cuerpo:* +4 al ataque, alcance 1,5 m. *Impacto:* 4 (1d4 + 2) de daño cortante.
+
+---
+
+### Oso Pardo
+*Bestia Grande, sin alineamiento*
+- **CA:** 11 | **Iniciativa:** +0 (10)
+- **PG:** 34 (4d10 + 12)
+- **Velocidad:** 12 m, trepar 9 m
+- **FUE:** 19 (+4) | **DES:** 10 (+0) | **CON:** 16 (+3) | **INT:** 2 (-4) | **SAB:** 13 (+1) | **CAR:** 7 (-2)
+- **Habilidades:** Percepción +3
+- **Sentidos:** Percepción pasiva 13
+- **Idiomas:** Ninguno
+- **VD:** 1 (200 PX; BC +2)
+- **Olfato agudo:** Ventaja en pruebas de Percepción basadas en el olfato.
+- **Acciones:**
+  - **Ataque múltiple:** Realiza un ataque de mordisco y uno de garras.
+  - **Mordisco:** *Ataque cuerpo a cuerpo:* +6 al ataque, alcance 1,5 m. *Impacto:* 8 (1d8 + 4) de daño perforante.
+  - **Garras:** *Ataque cuerpo a cuerpo:* +6 al ataque, alcance 1,5 m. *Impacto:* 11 (2d6 + 4) de daño cortante.
+
+---
+
+### Pantera
+*Bestia Mediana, sin alineamiento*
+- **CA:** 12 | **Iniciativa:** +2 (12)
+- **PG:** 13 (3d8)
+- **Velocidad:** 15 m, trepar 12 m
+- **FUE:** 14 (+2) | **DES:** 15 (+2) | **CON:** 10 (+0) | **INT:** 3 (-4) | **SAB:** 14 (+2) | **CAR:** 7 (-2)
+- **Habilidades:** Percepción +4, Sigilo +6
+- **Sentidos:** Visión en la oscuridad 18 m, Percepción pasiva 14
+- **Idiomas:** Ninguno
+- **VD:** 1/4 (50 PX; BC +2)
+- **Abalanzarse:** Si se mueve 6 m en línea recta y acierta con una garra, salvación de Fuerza CD 12 o derribada; si cae derribada, la pantera hace un mordisco como acción adicional.
+- **Acciones:**
+  - **Garra:** *Ataque cuerpo a cuerpo:* +4 al ataque, alcance 1,5 m. *Impacto:* 4 (1d4 + 2) de daño cortante.
+  - **Mordisco:** *Ataque cuerpo a cuerpo:* +4 al ataque, alcance 1,5 m. *Impacto:* 5 (1d6 + 2) de daño perforante.
+
+---
+
+### Poni
+*Bestia Mediana, sin alineamiento*
+- **CA:** 10 | **Iniciativa:** +0 (10)
+- **PG:** 11 (2d8 + 2)
+- **Velocidad:** 12 m
+- **FUE:** 15 (+2) | **DES:** 10 (+0) | **CON:** 13 (+1) | **INT:** 2 (-4) | **SAB:** 11 (+0) | **CAR:** 7 (-2)
+- **Sentidos:** Percepción pasiva 10
+- **Idiomas:** Ninguno
+- **VD:** 1/8 (25 PX; BC +2)
+- **Acciones:**
+  - **Cascos:** *Ataque cuerpo a cuerpo:* +4 al ataque, alcance 1,5 m. *Impacto:* 4 (1d4 + 2) de daño contundente.
+
+---
+
+### Pseudodragón
+*Dragón Diminuto, neutral bueno*
+- **CA:** 13 | **Iniciativa:** +3 (13)
+- **PG:** 10 (3d4 + 3)
+- **Velocidad:** 4,5 m, volar 18 m
+- **FUE:** 6 (-2) | **DES:** 17 (+3) | **CON:** 13 (+1) | **INT:** 10 (+0) | **SAB:** 12 (+1) | **CAR:** 10 (+0)
+- **Habilidades:** Percepción +3, Sigilo +5
+- **Sentidos:** Visión a ciegas 3 m, visión en la oscuridad 18 m, Percepción pasiva 13
+- **Idiomas:** Entiende común y dracónico, pero no puede hablar (telepatía 30 m)
+- **VD:** 1/4 (50 PX; BC +2)
+- **Resistencia mágica:** Ventaja en tiradas de salvación contra conjuros y otros efectos mágicos.
+- **Acciones:**
+  - **Mordisco:** *Ataque cuerpo a cuerpo:* +5 al ataque, alcance 1,5 m. *Impacto:* 5 (1d4 + 3) de daño perforante.
+  - **Aguijón:** *Ataque cuerpo a cuerpo:* +5 al ataque, alcance 1,5 m. *Impacto:* 5 (1d4 + 3) de daño perforante y el objetivo debe superar salvación de Constitución CD 11 o quedar envenenado durante 1 hora (si falla por 5 o más, cae inconsciente).
+
+---
+
+### Pulpo
+*Bestia Pequeña, sin alineamiento*
+- **CA:** 12 | **Iniciativa:** +2 (12)
+- **PG:** 3 (1d6)
+- **Velocidad:** 1,5 m, nadar 9 m
+- **FUE:** 4 (-3) | **DES:** 15 (+2) | **CON:** 11 (+0) | **INT:** 3 (-4) | **SAB:** 10 (+0) | **CAR:** 4 (-3)
+- **Habilidades:** Percepción +2, Sigilo +6
+- **Sentidos:** Visión en la oscuridad 9 m, Percepción pasiva 12
+- **Idiomas:** Ninguno
+- **VD:** 0 (10 PX; BC +2)
+- **Compresión:** Puede atravesar aberturas de 2,5 cm sin gastar movimiento adicional.
+- **Respirar en el agua:** Solo respira bajo el agua.
+- **Acciones:**
+  - **Tentáculos:** *Ataque cuerpo a cuerpo:* +4 al ataque, alcance 1,5 m. *Impacto:* 1 de daño contundente y el objetivo queda agarrado (CD 10 para escapar).
+- **Reacciones:**
+  - **Nube de tinta (1/día):** Al ser atacado bajo el agua, suelta una nube de tinta de 1,5 m de radio que oscurece el área y nada hasta su velocidad sin provocar ataques de oportunidad.
+
+---
+
+### Quasit
+*Infernal Diminuto (demonio), caótico malvado*
+- **CA:** 13 | **Iniciativa:** +3 (13)
+- **PG:** 7 (3d4)
+- **Velocidad:** 12 m
+- **FUE:** 5 (-3) | **DES:** 17 (+3) | **CON:** 10 (+0) | **INT:** 7 (-2) | **SAB:** 10 (+0) | **CAR:** 10 (+0)
+- **Habilidades:** Sigilo +5
+- **Resistencias:** Frío, fuego, relámpago; daño físico no mágico
+- **Inmunidades:** Veneno; envenenado
+- **Sentidos:** Visión en la oscuridad 36 m, Percepción pasiva 10
+- **Idiomas:** Abisal, común
+- **VD:** 1 (200 PX; BC +2)
+- **Resistencia mágica:** Ventaja en tiradas de salvación contra magia.
+- **Acciones:**
+  - **Garras:** *Ataque cuerpo a cuerpo:* +5 al ataque, alcance 1,5 m. *Impacto:* 5 (1d4 + 3) de daño cortante y salvación de Constitución CD 10 o sufrir 5 (2d4) de daño de veneno y quedar envenenado durante 1 minuto.
+  - **Asustar (1/día):** Una criatura a 6 m debe superar salvación de Sabiduría CD 10 o quedar asustada durante 1 minuto.
+  - **Invisibilidad:** Se vuelve invisible hasta que ataque o lance un conjuro.
+  - **Cambio de forma:** Se transforma en murciélago, ciempiés o sapo.
+
+---
+
+### Rana
+*Bestia Diminuta, sin alineamiento*
+- **CA:** 11 | **Iniciativa:** +1 (11)
+- **PG:** 1 (1d4 - 1)
+- **Velocidad:** 6 m, nadar 6 m
+- **FUE:** 1 (-5) | **DES:** 13 (+1) | **CON:** 8 (-1) | **INT:** 1 (-5) | **SAB:** 8 (-1) | **CAR:** 3 (-4)
+- **Habilidades:** Percepción +1, Sigilo +3
+- **Sentidos:** Visión en la oscuridad 9 m, Percepción pasiva 11
+- **Idiomas:** Ninguno
+- **VD:** 0 (10 PX; BC +2)
+- **Anfibia:** Puede respirar en agua y en aire.
+- **Salto sin carrera:** Salto de longitud de hasta 3 m o de altura de hasta 1,5 m con o sin carrerilla.
+- **Acciones:**
+  - **Mordisco:** *Ataque cuerpo a cuerpo:* +3 al ataque, alcance 1,5 m. *Impacto:* 1 de daño perforante.
+
+---
+
+### Rata
+*Bestia Diminuta, sin alineamiento*
+- **CA:** 10 | **Iniciativa:** +0 (10)
+- **PG:** 1 (1d4 - 1)
+- **Velocidad:** 6 m, trepar 6 m
+- **FUE:** 2 (-4) | **DES:** 11 (+0) | **CON:** 9 (-1) | **INT:** 2 (-4) | **SAB:** 10 (+0) | **CAR:** 4 (-3)
+- **Habilidades:** Percepción +2
+- **Sentidos:** Visión en la oscuridad 9 m, Percepción pasiva 12
+- **Idiomas:** Ninguno
+- **VD:** 0 (10 PX; BC +2)
+- **Ágil:** No provoca ataques de oportunidad cuando se mueve fuera del alcance de un enemigo.
+- **Acciones:**
+  - **Mordisco:** *Ataque cuerpo a cuerpo:* +2 al ataque, alcance 1,5 m. *Impacto:* 1 de daño perforante.
+
+---
+
+### Renacuajo Slaad
+*Aberración Diminuta, caótica neutral*
+- **CA:** 12 | **Iniciativa:** +2 (12)
+- **PG:** 7 (3d4)
+- **Velocidad:** 9 m, excavar 3 m
+- **FUE:** 7 (-2) | **DES:** 15 (+2) | **CON:** 10 (+0) | **INT:** 3 (-4) | **SAB:** 5 (-3) | **CAR:** 3 (-4)
+- **Habilidades:** Sigilo +4
+- **Resistencias:** Ácido, frío, fuego, relámpago, trueno
+- **Sentidos:** Visión en la oscuridad 18 m, Percepción pasiva 7
+- **Idiomas:** Entiende slaad, pero no puede hablar
+- **VD:** 1/8 (25 PX; BC +2)
+- **Resistencia mágica:** Ventaja en tiradas de salvación contra conjuros y otros efectos mágicos.
+- **Acciones:**
+  - **Mordisco:** *Ataque cuerpo a cuerpo:* +4 al ataque, alcance 1,5 m. *Impacto:* 5 (1d6 + 2) de daño perforante.
+
+---
+
+### Serpiente Constrictora
+*Bestia Grande, sin alineamiento*
+- **CA:** 12 | **Iniciativa:** +2 (12)
+- **PG:** 13 (2d10 + 2)
+- **Velocidad:** 9 m, nadar 9 m
+- **FUE:** 15 (+2) | **DES:** 14 (+2) | **CON:** 12 (+1) | **INT:** 1 (-5) | **SAB:** 10 (+0) | **CAR:** 3 (-4)
+- **Sentidos:** Visión a ciegas 3 m, Percepción pasiva 10
+- **Idiomas:** Ninguno
+- **VD:** 1/4 (50 PX; BC +2)
+- **Acciones:**
+  - **Mordisco:** *Ataque cuerpo a cuerpo:* +4 al ataque, alcance 1,5 m. *Impacto:* 5 (1d6 + 2) de daño perforante.
+  - **Constreñir:** *Ataque cuerpo a cuerpo:* +4 al ataque, alcance 1,5 m. *Impacto:* 6 (1d8 + 2) de daño contundente y el objetivo queda agarrado (CD 12 para escapar) y apresado hasta que termine el agarre.
+
+---
+
+### Serpiente Venenosa
+*Bestia Diminuta, sin alineamiento*
+- **CA:** 13 | **Iniciativa:** +3 (13)
+- **PG:** 2 (1d4)
+- **Velocidad:** 9 m, nadar 9 m
+- **FUE:** 2 (-4) | **DES:** 16 (+3) | **CON:** 11 (+0) | **INT:** 1 (-5) | **SAB:** 10 (+0) | **CAR:** 3 (-4)
+- **Sentidos:** Visión a ciegas 3 m, Percepción pasiva 10
+- **Idiomas:** Ninguno
+- **VD:** 1/8 (25 PX; BC +2)
+- **Acciones:**
+  - **Mordisco:** *Ataque cuerpo a cuerpo:* +5 al ataque, alcance 1,5 m. *Impacto:* 1 de daño perforante más 5 (2d4) de daño de veneno (salvación de Constitución CD 10 para mitad).
+
+---
+
+### Tiburón de Arrecife
+*Bestia Mediana, sin alineamiento*
+- **CA:** 12 | **Iniciativa:** +1 (11)
+- **PG:** 22 (4d8 + 4)
+- **Velocidad:** 0 m, nadar 12 m
+- **FUE:** 14 (+2) | **DES:** 13 (+1) | **CON:** 13 (+1) | **INT:** 1 (-5) | **SAB:** 10 (+0) | **CAR:** 4 (-3)
+- **Habilidades:** Percepción +2
+- **Sentidos:** Visión a ciegas 9 m, Percepción pasiva 12
+- **Idiomas:** Ninguno
+- **VD:** 1/2 (100 PX; BC +2)
+- **Frenesí sangriento:** Ventaja en tiradas de ataque cuerpo a cuerpo contra cualquier criatura que no tenga todos sus puntos de golpe.
+- **Respirar en el agua:** Solo puede respirar bajo el agua.
+- **Acciones:**
+  - **Mordisco:** *Ataque cuerpo a cuerpo:* +4 al ataque, alcance 1,5 m. *Impacto:* 6 (1d8 + 2) de daño perforante.
+
+---
+
+### Zombi
+*Muerto viviente Mediano, neutral malvado*
+- **CA:** 8 | **Iniciativa:** -2 (8)
+- **PG:** 22 (3d8 + 9)
+- **Velocidad:** 6 m
+- **FUE:** 13 (+1) | **DES:** 6 (-2) | **CON:** 16 (+3) | **INT:** 3 (-4) | **SAB:** 6 (-2) | **CAR:** 5 (-3)
+- **Inmunidades:** Veneno; envenenado, cansancio
+- **Sentidos:** Visión en la oscuridad 18 m, Percepción pasiva 8
+- **Idiomas:** Entiende los idiomas que conocía en vida, pero no puede hablar
+- **VD:** 1/4 (50 PX; BC +2)
+- **Fortaleza de no muerto:** Si el daño reduce los PG a 0 (salvo daño radiante o crítico), salvación de Constitución con CD 5 + el daño sufrido. Con un éxito, se queda con 1 PG en su lugar.
+- **Acciones:**
+  - **Golpe:** *Ataque cuerpo a cuerpo:* +3 al ataque, alcance 1,5 m. *Impacto:* 4 (1d6 + 1) de daño contundente.
