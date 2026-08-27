@@ -201,14 +201,6 @@ Viven unos 750 años y no duermen, sino que entran en trance cuando necesitan de
 
 Como elfo, tienes estos atributos especiales:
 
-- **Linaje élfico.** Formas parte de un linaje que te otorga capacidades sobrenaturales. Elige un linaje de la tabla "Linajes élficos". Obtienes el beneficio de nivel 1 de ese linaje. Cuando alcanzas los niveles 3 y 5 de personaje, aprendes un conjuro de nivel superior, como se muestra en la tabla. Siempre tienes ese conjuro preparado. Puedes lanzarlo una vez sin gastar un espacio de conjuro y recuperas la capacidad de hacerlo de esta forma tras finalizar un descanso largo. También puedes lanzar el conjuro usando cualquier espacio de conjuro que tengas del nivel apropiado. La Inteligencia, la Sabiduría o el Carisma es tu aptitud mágica para los conjuros que lances con este atributo (elige la característica al seleccionar el linaje).
-
-| Linaje | Nivel 1 | Nivel 3 | Nivel 5 |
-|--------|---------|---------|---------|
-| Alto elfo | Conoces el truco *prestidigitación*. Tras finalizar un descanso largo, puedes sustituir ese truco por otro truco diferente de la lista de conjuros de mago. | *Detectar magia* | *Paso brumoso* |
-| Drow | El alcance de tu visión en la oscuridad aumenta a 36 m. También conoces el truco *luces danzantes*. | *Fuego feérico* | *Oscuridad* |
-| Elfo de los bosques | Tu velocidad aumenta a 10,5 m. También conoces el truco *saber druídico*. | *Zancada prodigiosa* | *Pasar sin rastro* |
-
 - **Linaje feérico.** Tienes ventaja en las tiradas de salvación para evitar o poner fin al estado de hechizado.
 - **Sentidos agudos.** Tienes competencia en la habilidad de Percepción, Perspicacia o Supervivencia.
 - **Trance.** No necesitas dormir y la magia no puede dormirte. Puedes finalizar un descanso largo en 4 horas si las pasas en una meditación similar a un trance, tiempo durante el cual conservas la consciencia.
@@ -240,9 +232,6 @@ Los gnomos son un pueblo mágico creado por los dioses de la inventiva. Viven un
 Como gnomo, tienes estos atributos especiales:
 
 - **Astucia gnoma.** Tienes ventaja en las tiradas de salvación de Inteligencia, Sabiduría y Carisma.
-- **Linaje gnomo.** Formas parte de un linaje que te otorga capacidades sobrenaturales. Escoge una de las siguientes opciones; elijas la que elijas, la Inteligencia, la Sabiduría o el Carisma es tu aptitud mágica para los conjuros que lances con este atributo (elige la característica al seleccionar el linaje):
-  - **Gnomo de las rocas.** Conoces los trucos *prestidigitación* y *reparar*. Además, puedes pasar 10 minutos lanzando *prestidigitación* para crear un dispositivo mecánico Diminuto (CA 5, 1 pg), como un juguete, un encendedor o una caja de música. Cuando crees el dispositivo, determinarás su función eligiendo un efecto de *prestidigitación*. El dispositivo producirá ese efecto cada vez que otra criatura o tú empleéis una acción adicional para activarlo con un toque. Si el efecto elegido tiene varias opciones, escoges una de ellas para el dispositivo cuando lo crees. Puedes tener tres de estos dispositivos activos al mismo tiempo y se desarman 8 horas después de crearlos o cuando los desmontes con un toque como acción de utilizar.
-  - **Gnomo de los bosques.** Conoces el truco *ilusión menor*. Además, siempre tienes el conjuro *hablar con los animales* preparado. Puedes lanzarlo sin gastar un espacio de conjuro una cantidad de veces igual a tu bonificador por competencia y recuperas todos los usos tras finalizar un descanso largo. También puedes usar cualquier espacio de conjuro que tengas para lanzarlo.
 - **Visión en la oscuridad.** Tienes visión en la oscuridad hasta 18 m.
 
 #### Goliat
@@ -257,13 +246,7 @@ Como goliat, tienes estos atributos especiales:
 
 - **Constitución poderosa.** Tienes ventaja en cualquier prueba de característica que hagas para poner fin al estado de agarrado. Además, al determinar tu capacidad de carga, cuentas como si tuvieras un tamaño una categoría superior.
 - **Forma grande.** A partir del nivel 5 de personaje, puedes cambiar de tamaño a Grande como acción adicional si estás en un lugar lo bastante espacioso. Esta transformación dura 10 minutos o hasta que le pongas fin (no requiere acción). Durante ese tiempo, tendrás ventaja en las pruebas de Fuerza y tu velocidad aumentará en 3 m. Cuando uses este atributo, no podrás volver a hacerlo hasta que finalices un descanso largo.
-- **Linaje gigante.** Desciendes de los gigantes. Elige uno de los siguientes beneficios sobrenaturales que te concede tu linaje; podrás usar el beneficio elegido una cantidad de veces igual a tu bonificador por competencia y recuperas todos los usos tras finalizar un descanso largo:
-  - **Abrasión del fuego (gigante de fuego).** Cuando aciertes a un objetivo con una tirada de ataque y le causes daño, también puedes causarle 1d10 de daño de fuego.
-  - **Caída de las colinas (gigante de las colinas).** Cuando aciertes a una criatura Grande o más pequeña con una tirada de ataque y le causes daño, también puedes infligirle el estado de derribada.
-  - **Excursión de las nubes (gigante de las nubes).** Como acción adicional, te teletransportas mágicamente hasta 9 m a un espacio sin ocupar que puedas ver.
-  - **Frío de la escarcha (gigante de escarcha).** Cuando aciertes a un objetivo con una tirada de ataque y le causes daño, también puedes causarle 1d6 de daño de frío y reducir su velocidad en 3 m hasta el principio de tu siguiente turno.
-  - **Resistencia de la piedra (gigante de piedra).** Cuando recibas daño, puedes usar una reacción para tirar 1d12. Suma tu modificador por Constitución al resultado y reduce el daño en ese total.
-  - **Trueno de la tormenta (gigante de las tormentas).** Cuando una criatura que esté a 18 m o menos de ti te cause daño, puedes usar una reacción para infligirle 1d8 de daño de trueno.
+- **Ataque elemental.** Cuando aciertes a un objetivo con una tirada de ataque y le causes daño, también puedes causarle 1d10 de daño elementales (elige el tipo al infligir el daño: fuego, frío o trueno). Puedes usar este atributo una cantidad de veces igual a tu bonificador por competencia y recuperas todos los usos tras finalizar un descanso largo.
 
 #### Humano
 
@@ -318,13 +301,6 @@ Los tieflings tienen una conexión de sangre con los Planos Inferiores.
 
 Como tiefling, tienes los siguientes atributos especiales:
 
-- **Legado infernal.** Eres el destinatario de un legado que te otorga capacidades sobrenaturales. Elige un legado de la tabla "Legados infernales". Obtienes el beneficio de nivel 1 del legado elegido. Cuando alcanzas los niveles 3 y 5 de personaje, aprendes un conjuro de nivel superior, como se muestra en la tabla. Siempre tienes ese conjuro preparado. Puedes lanzarlo una vez sin gastar un espacio de conjuro y recuperas la capacidad de hacerlo de esta forma tras finalizar un descanso largo. También puedes lanzar el conjuro usando cualquier espacio de conjuro que tengas del nivel apropiado. La Inteligencia, la Sabiduría o el Carisma es tu aptitud mágica para los conjuros que lances con este atributo (elige la característica al seleccionar el legado).
-
-| Legado | Nivel 1 | Nivel 3 | Nivel 5 |
-|--------|---------|---------|---------|
-| Abisal | Tienes resistencia al daño de veneno. También conoces el truco *rociada venenosa*. | *Rayo nauseabundo* | *Inmovilizar persona* |
-| Ctónico | Tienes resistencia al daño necrótico. También conoces el truco *toque helado*. | *Falsa vida* | *Rayo debilitador* |
-| Infernal | Tienes resistencia al daño de fuego. También conoces el truco *descarga de fuego*. | *Reprensión infernal* | *Oscuridad* |
-
-- **Presencia sobrenatural.** Conoces el truco *taumaturgia*. Cuando lo lances con este atributo, el conjuro utiliza la misma aptitud mágica que la de tu atributo Legado infernal.
+- **Legado infernal.** Tienes resistencia al daño de fuego.
+- **Presencia sobrenatural.** Conoces el truco *taumaturgia*.
 - **Visión en la oscuridad.** Tienes visión en la oscuridad hasta 18 m.
