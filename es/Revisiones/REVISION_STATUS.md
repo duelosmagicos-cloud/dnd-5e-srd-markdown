@@ -57,6 +57,10 @@
   - ✅ Gnomos: Eliminados linajes complejos (Rocas, Bosques) 
   - ✅ Goliats: Consolidados 6 linajes gigantes en ataque elemental unificado
   - ✅ Tieflings: Unificados 3 legados infernales en único tiefling simplificado
+- ✅ **Reparación de spells.csv** (27 ago 2026)
+  - ✅ Movidas 108 descripciones de columna "duración" a columna "descripción"
+  - ✅ Identificadas y alineadas correctamente descripciones desplazadas
+  - ✅ 341/342 hechizos ahora tienen descripciones en columna correcta
 
 **Cambios pendientes:**
 - ⬜ Simplificar equipamiento (solo equipo, sin herramientas complejas)
@@ -72,6 +76,7 @@
 | Archivo | Líneas | Estado | Prioridad |
 |---------|--------|--------|-----------|
 | `es/character-origins.md` | 325 | 🟢 Completo | 🔴 CRÍTICA ✅ |
+| `es/spells.csv` | 342 | 🟢 Completo | 🟡 ALTA ✅ |
 | `es/feats.md` | 868 | 🟠 Parcial | 🟡 ALTA |
 | `es/spells.md` | 16606 | 🟡 Pendiente | 🟡 ALTA |
 | `es/classes.md` | 11546 | 🟡 Pendiente | 🟡 ALTA |
