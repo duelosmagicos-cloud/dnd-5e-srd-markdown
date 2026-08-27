@@ -52,10 +52,14 @@
 - ✅ Traducción de spells.md
 - ✅ Traducción de character-origins.md (estructura base)
 - ✅ App revisor de conjuros (reviewer/)
+- ✅ **Simplificación de razas** (27 ago 2026)
+  - ✅ Elfos: Eliminados 3 linajes complejos (Alto elfo, Drow, Elfo de los bosques)
+  - ✅ Gnomos: Eliminados linajes complejos (Rocas, Bosques) 
+  - ✅ Goliats: Consolidados 6 linajes gigantes en ataque elemental unificado
+  - ✅ Tieflings: Unificados 3 legados infernales en único tiefling simplificado
 
 **Cambios pendientes:**
 - ⬜ Simplificar equipamiento (solo equipo, sin herramientas complejas)
-- ⬜ Definir daños específicos para linajes de gigantes
 - ⬜ Decidir: Sistema de magia = ¿Espacios de conjuro tradicionales o puntos de acción?
 - ⬜ Revisar y filtrar lista de hechizos según nueva mecánica
 - ⬜ Implementar hechizo "Mensajes" con sistema de chat
@@ -67,7 +71,7 @@
 
 | Archivo | Líneas | Estado | Prioridad |
 |---------|--------|--------|-----------|
-| `es/character-origins.md` | 364 | 🟠 Parcial | 🔴 CRÍTICA |
+| `es/character-origins.md` | 325 | 🟢 Completo | 🔴 CRÍTICA ✅ |
 | `es/feats.md` | 868 | 🟠 Parcial | 🟡 ALTA |
 | `es/spells.md` | 16606 | 🟡 Pendiente | 🟡 ALTA |
 | `es/classes.md` | 11546 | 🟡 Pendiente | 🟡 ALTA |
@@ -116,4 +120,4 @@
 
 **Última actualización:** 2026-08-27
 **Responsable:** Leandro
-**Estado general:** 55% completado (Phase 1 ✅, Phase 2 ✅, Phase 3 iniciada ~30%)
+**Estado general:** 60% completado (Phase 1 ✅, Phase 2 ✅, Phase 3 iniciada ~35%)
