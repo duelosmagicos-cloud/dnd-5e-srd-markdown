@@ -25,13 +25,17 @@ Una moneda estándar pesa aproximadamente 10 gramos, de modo que 50 monedas pesa
 
 Tu clase y tus rasgos determinan con qué armas eres competente. Las armas se dividen en dos categorías principales: **sencillas** y **marciales**, y en armas **cuerpo a cuerpo** o **a distancia**.
 
+### Competencia con armas
+
+Todos los personajes son competentes con las armas sencillas. Usar un arma marcial sin tener competencia con ella impone **desventaja** en las tiradas de ataque realizadas con esa arma.
+
 ### Propiedades de las armas
 
 - **A dos manos:** Esta arma requiere el uso de ambas manos cuando ataques con ella.
 - **Arrojadiza:** Si un arma tiene la propiedad arrojadiza, puedes lanzarla para realizar un ataque a distancia. Si es un arma cuerpo a cuerpo, usas el mismo modificador de característica para la tirada de ataque y de daño que usarías para un ataque cuerpo a cuerpo con ella.
 - **Gran alcance:** Esta arma añade 1,5 m a tu alcance cuando ataques con ella, así como al determinar tu alcance para los ataques de oportunidad.
 - **Ligera:** Cuando llevas a cabo la acción de atacar en tu turno y atacas con un arma ligera, puedes usar una acción adicional para atacar con un arma ligera diferente que estés empuñando en la otra mano. No sumas tu modificador por característica a la tirada de daño del ataque adicional, a menos que dicho modificador sea negativo.
-- **Munición:** Puedes usar un arma que tenga la propiedad de munición para hacer un ataque a distancia solo si tienes munición para disparar con ella. Cada vez que ataques con el arma, gastas una unidad de munición. Sacar la munición de un carcaj, bolsa u otro recipiente forma parte del ataque. Tras la batalla, puedes dedicar 1 minuto a recuperar la mitad de la munición gastada (redondeando hacia abajo).
+- **Munición:** Puedes usar un arma que tenga la propiedad de munición para hacer un ataque a distancia. La munición estándar (flechas, virotes, balas, proyectiles) es **infinita**: se asume que siempre tienes la necesaria y no es necesario comprarla ni registrar su gasto. Solo la munición especial (por ejemplo, mágica o alquímica) se gestiona como un recurso limitado y debe adquirirse y registrarse por separado.
 - **Pesada:** Las criaturas Pequeñas tienen desventaja en las tiradas de ataque con armas pesadas.
 - **Recarga:** Debido al tiempo necesario para cargar esta arma, solo puedes disparar una unidad de munición cuando uses una acción, acción adicional o reacción para atacarla, independientemente del número de ataques que puedas realizar normalmente.
 - **Sutil:** Cuando hagas una tirada de ataque y de daño con un arma sutil, puedes elegir entre usar tu modificador por Fuerza o por Destreza. Debes usar el mismo modificador para ambas tiradas.
@@ -114,7 +118,15 @@ Si un personaje tiene un rasgo que le otorga acceso a las propiedades de maestr�
 
 ## Armaduras y Escudos
 
-Las armaduras determinan tu protección base. El entrenamiento con armaduras te permite llevarlas sin sufrir penalizadores en tiradas de ataque, salvaciones de Fuerza/Destreza ni impedimento para lanzar conjuros.
+Las armaduras determinan tu protección base.
+
+### Entrenamiento con armaduras
+
+Todos los personajes pueden usar armaduras ligeras y escudos sin penalización. Llevar una armadura **media o pesada** sin el entrenamiento correspondiente impone:
+
+- **Desventaja** en las pruebas de Fuerza y Destreza.
+- Una **reducción de 3 m** en tu velocidad.
+- Imposibilidad de **lanzar conjuros** mientras la lleves puesta.
 
 **Tabla de Armaduras**
 | Armadura | Clase de Armadura (CA) | Fuerza | Sigilo | Peso | Precio |
@@ -218,14 +230,7 @@ Las herramientas te ayudan a realizar pruebas de característica especializadas 
 
 ---
 
-### Paquetes de equipo iniciales
-
-- **Paquete de diplomático (39 po):** Cofre, 2 estuches de mapas/pergaminos, ropa de gala, frasco de tinta, pluma, lámpara, 2 frascos de aceite, 5 hojas de papel, perfume, jabón y yesquero.
-- **Paquete de erudito (40 po):** Mochila, libro de estudio, frasco de tinta, pluma, 10 hojas de pergamino, saquito de arena y navajita.
-- **Paquete de explorador (10 po):** Mochila, saco de dormir, yesquero, 10 antorchas, 10 días de raciones, cantimplora y 15 m de cuerda de cáñamo.
-- **Paquete de explorador de mazmorras (12 po):** Mochila, palanqueta, martillo, 10 piquetas, 10 antorchas, yesquero, 10 días de raciones, cantimplora y 15 m de cuerda de cáñamo.
-- **Paquete de ladrón (16 po):** Mochila, bolsa con 1000 bolas de metal, 3 m de cuerda con garfio, campana, 5 velas, palanqueta, martillo, 10 piquetas, linterna sorda, 2 frascos de aceite, 5 días de raciones, yesquero y cantimplora.
-- **Paquete de sacerdote (19 po):** Mochila, manta, 10 velas, yesquero, cepillo de limosnas, 2 barras de incienso, incensario, vestiduras sagradas, 2 días de raciones y cantimplora.
+> **Nota sobre el equipo inicial:** Los paquetes y kits de equipo predefinidos se eliminaron. Los personajes comienzan solo con su arma principal (y variantes arrojadizas, si aplica) y una cantidad de oro fija según su clase (ver "Clases"), con la cual pueden comprar cualquier otro objeto de este capítulo.
 
 ---
 

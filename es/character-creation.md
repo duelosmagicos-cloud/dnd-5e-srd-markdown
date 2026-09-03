@@ -370,36 +370,7 @@ _Percepción Pasiva_. Puntuación calculada automáticamente con la fórmula:
 
 Percepción Pasiva = 10 + modificador de la prueba de Sabiduría (Percepción)
 
-_Puntos de Golpe_. Determinados al nivel 1 según la clase y el modificador de Constitución:
-
-**Puntos de Golpe de Nivel 1 por Clase**
-
-<table>
-  <thead>
-    <tr>
-      <th>Clase</th>
-      <th>Máximo de Puntos de Golpe</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Bárbaro</td>
-      <td>12 + modificador de Constitución</td>
-    </tr>
-    <tr>
-      <td>Guerrero, Paladín o Explorador</td>
-      <td>10 + modificador de Constitución</td>
-    </tr>
-    <tr>
-      <td>Bardo, Clérigo, Druida, Monje, Pícaro o Brujo</td>
-      <td>8 + modificador de Constitución</td>
-    </tr>
-    <tr>
-      <td>Hechicero o Mago</td>
-      <td>6 + modificador de Constitución</td>
-    </tr>
-  </tbody>
-</table>
+_Puntos de Golpe_. Se calculan usando el mismo valor fijo por nivel de tu clase (la mitad del dado de golpe, ver "Puntos de Golpe Fijos por Clase" en "Avance de Nivel") más el modificador de Constitución. Esta fórmula se aplica también al nivel 1: no se usa el máximo del dado, para mantener el mismo criterio de valor medio en todos los niveles y en todas las criaturas.
 
 _Dados de Golpe_. Registrados automáticamente según el dado de la clase. Al nivel 1, tu personaje tiene 1 Dado de Golpe.
 
@@ -542,7 +513,7 @@ El avance de nivel y la asignación de experiencia pueden ser controlados por el
 
 Cuando ganas un nivel, la aplicación aplica los siguientes cambios:
 
-**1: Ajusta los Puntos de Golpe y los Dados de Golpe.** Se calcula e incrementa el máximo de Puntos de Golpe automáticamente utilizando el valor fijo de la clase más el modificador de Constitución.
+**1: Ajusta los Puntos de Golpe y los Dados de Golpe.** Se calcula e incrementa el máximo de Puntos de Golpe automáticamente utilizando el valor fijo de la clase más el modificador de Constitución. Este mismo valor fijo se usa también al nivel 1 (ver "Completa los Números").
 
 **Puntos de Golpe Fijos por Clase**
 
@@ -556,22 +527,24 @@ Cuando ganas un nivel, la aplicación aplica los siguientes cambios:
   <tbody>
     <tr>
       <td>Bárbaro</td>
-      <td>7 + modificador de Constitución</td>
-    </tr>
-    <tr>
-      <td>Guerrero, Paladín o Explorador</td>
       <td>6 + modificador de Constitución</td>
     </tr>
     <tr>
-      <td>Bardo, Clérigo, Druida, Monje, Pícaro o Brujo</td>
+      <td>Guerrero, Paladín o Explorador</td>
       <td>5 + modificador de Constitución</td>
     </tr>
     <tr>
-      <td>Hechicero o Mago</td>
+      <td>Bardo, Clérigo, Druida, Monje, Pícaro o Brujo</td>
       <td>4 + modificador de Constitución</td>
+    </tr>
+    <tr>
+      <td>Hechicero o Mago</td>
+      <td>3 + modificador de Constitución</td>
     </tr>
   </tbody>
 </table>
+
+Esta misma regla (valor medio en lugar de tirar dados) se aplica a todas las criaturas, incluidos los monstruos.
 
 **2: Registra los Nuevos Rasgos y Hechizos.** El sistema presenta la lista reducida de nuevos conjuros o rasgos correspondientes al nivel para su selección.
 

@@ -71,6 +71,20 @@
 
 ---
 
+### 📄 Reunión 27 ago 2026 (22:27 UTC) ⭐ MÁS RECIENTE
+**Resumen:** Reglas de combate y equipo simplificadas: puntos de golpe por valor medio, competencias de armas/armaduras basadas en desventaja, munición estándar infinita y equipamiento inicial reducido a arma + oro.
+
+**Cambios ejecutados (3 sep 2026):**
+- ✅ `character-creation.md`: Puntos de golpe ahora usan valor fijo (mitad del dado) en **todos** los niveles, incluido el nivel 1 (antes el nivel 1 usaba el máximo del dado). Bárbaro 6, Guerrero/Paladín/Explorador 5, Bardo/Clérigo/Druida/Monje/Pícaro/Brujo 4, Hechicero/Mago 3 (+ mod. Constitución).
+- ✅ `equipment.md`: Nueva sección "Competencia con armas" (marciales sin entrenamiento = desventaja al ataque). "Entrenamiento con armaduras" reescrito (medias/pesadas sin entrenamiento = desventaja Fuerza/Destreza, -3 m velocidad, sin lanzar conjuros). Munición estándar declarada infinita (ya no se registra ni se recupera). Eliminada la sección "Paquetes de equipo iniciales".
+- ✅ `classes.md`: Equipo inicial de las 12 clases simplificado a arma principal + variantes arrojadizas + oro (sin armadura, escudo, foco de conjuro ni paquetes — decisión tomada literalmente por el usuario). Montos de oro recalculados a partir del valor total previo de cada clase menos el costo del arma conservada.
+
+**Cambios pendientes (requieren más definición):**
+- ⬜ "Las competencias de habilidad se convierten en puntos de skill" — mencionado en la reunión como acordado, pero sin mecánica concreta definida (cuántos puntos, cómo se gastan). No implementado; requiere una sesión de diseño adicional antes de tocar `character-creation.md`/`classes.md`.
+- ⬜ Gestión de consumibles con cooldowns por combate — explícitamente postergada por el grupo hasta probarla en juego.
+
+---
+
 ## Archivos más afectados (por prioridad)
 
 | Archivo | Líneas | Estado | Prioridad |

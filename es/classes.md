@@ -55,7 +55,7 @@ Los bárbaros normalmente actúan de protectores y líderes de sus comunidades, 
     </tr>
     <tr>
       <td><strong>Equipo inicial</strong></td>
-      <td>Elige A o B: (A) hacha a dos manos, 4 hachas de mano, paquete de explorador y 15 po; o (B) 75 po</td>
+      <td>Hacha a dos manos, 4 hachas de mano y 25 po</td>
     </tr>
   </tbody>
 </table>
@@ -499,7 +499,7 @@ Los bardos se pasan la vida viajando, recopilando conocimientos, contando histor
     </tr>
     <tr>
       <td><strong>Equipo inicial</strong></td>
-      <td>Elige A o B: (A) armadura de cuero, 2 dagas, instrumento musical de tu elección, paquete de artista y 19 po; o (B) 90 po</td>
+      <td>2 dagas y 86 po</td>
     </tr>
   </tbody>
 </table>
@@ -1273,7 +1273,7 @@ Los brujos sienten fascinación por los secretos ancestrales y las tradiciones p
     </tr>
     <tr>
       <td><strong>Equipo inicial</strong></td>
-      <td>Elige A o B: (A) armadura de cuero, hoz, 2 dagas, canalizador arcano (orbe), paquete de erudito y 15 po; o (B) 80 po</td>
+      <td>Hoz, 2 dagas y 75 po</td>
     </tr>
   </tbody>
 </table>
@@ -1915,7 +1915,7 @@ No todos los miembros de los templos o santuarios son clérigos. Algunos sacerdo
     </tr>
     <tr>
       <td><strong>Equipo inicial</strong></td>
-      <td>Elige A o B: (A) camisa de malla, escudo, maza, paquete de sacerdote, símbolo sagrado y 7 po; o (B) 110 po</td>
+      <td>Maza y 105 po</td>
     </tr>
   </tbody>
 </table>
@@ -2678,7 +2678,7 @@ A los druidas les preocupa el delicado equilibrio ecológico que sustenta la vid
     </tr>
     <tr>
       <td><strong>Equipo inicial</strong></td>
-      <td>Elige A o B: (A) armadura de cuero, escudo, hoz, canalizador druídico (bastón), paquete de explorador, útiles de herborista y 9 po; o (B) 50 po</td>
+      <td>Hoz y 49 po</td>
     </tr>
   </tbody>
 </table>
@@ -3467,7 +3467,7 @@ Muchos exploradores sirven como guías y rastreadores de grupos de viajeros, mie
     </tr>
     <tr>
       <td><strong>Equipo inicial</strong></td>
-      <td>Elige A o B: (A) armadura de cuero tachonado, 2 espadas cortas, arco largo, 20 flechas, carcaj, paquete de explorador y 7 po; o (B) 150 po</td>
+      <td>2 espadas cortas, arco largo y 80 po</td>
     </tr>
   </tbody>
 </table>
@@ -4079,7 +4079,7 @@ Los guerreros aprenden los conceptos básicos de todos los estilos de combate. C
     </tr>
     <tr>
       <td><strong>Equipo inicial</strong></td>
-      <td>Elige A, B o C: (A) cota de malla, espadón, 8 jabalinas, paquete de explorador y 4 po; (B) armadura de cuero tachonado, 2 espadas cortas, arco largo, 20 flechas, carcaj, paquete de explorador y 11 po; o (C) 155 po</td>
+      <td>Elige A o B: (A) espadón, 8 jabalinas y 101 po; o (B) 2 espadas cortas, arco largo y 85 po</td>
     </tr>
   </tbody>
 </table>
@@ -4581,7 +4581,7 @@ Algunos hechiceros manifiestan sus poderes debido a un ancestro sobrenatural (un
     </tr>
     <tr>
       <td><strong>Equipo inicial</strong></td>
-      <td>Elige A o B: (A) 2 dagas, canalizador arcano (cristal), paquete de explorador y 28 po; o (B) 50 po</td>
+      <td>2 dagas y 46 po</td>
     </tr>
   </tbody>
 </table>
@@ -5402,7 +5402,7 @@ El repertorio de un mago abarca desde conjuros de utilidad sutil hasta devastado
     </tr>
     <tr>
       <td><strong>Equipo inicial</strong></td>
-      <td>Elige A o B: (A) 2 dagas, canalizador arcano (varita), libro de conjuros, paquete de erudito y 5 po; o (B) 55 po</td>
+      <td>2 dagas y 51 po</td>
     </tr>
   </tbody>
 </table>
@@ -6208,7 +6208,7 @@ A través de la meditación y la disciplina marcial, los monjes trascienden las 
     </tr>
     <tr>
       <td><strong>Equipo inicial</strong></td>
-      <td>Elige A o B: (A) lanza, 5 dagas, paquete de explorador, herramientas de artesano o instrumento musical y 11 po; o (B) 65 po</td>
+      <td>Lanza, 5 dagas y 54 po</td>
     </tr>
   </tbody>
 </table>
@@ -6600,7 +6600,7 @@ Un paladín es un modelo de rectitud, valor y destreza militar, capaz de empuña
     </tr>
     <tr>
       <td><strong>Equipo inicial</strong></td>
-      <td>Elige A o B: (A) cota de malla, escudo, espada larga, 6 jabalinas, símbolo sagrado, paquete de sacerdote y 9 po; o (B) 150 po</td>
+      <td>Espada larga, 6 jabalinas y 132 po</td>
     </tr>
   </tbody>
 </table>
@@ -7177,7 +7177,7 @@ Muchos pícaros operan al margen de la ley como ladrones, contrabandistas o ases
     </tr>
     <tr>
       <td><strong>Equipo inicial</strong></td>
-      <td>Elige A o B: (A) armadura de cuero tachonado, 2 dagas, espada corta, arco corto, 20 flechas, carcaj, herramientas de ladrón, paquete de ladrón y 8 po; o (B) 110 po</td>
+      <td>2 dagas, espada corta, arco corto y 71 po</td>
     </tr>
   </tbody>
 </table>
