@@ -85,6 +85,37 @@
 
 ---
 
+### 🔧 Auditoría de spells.csv vs spells.md (3 sep 2026)
+**Motivo:** El usuario reportó por audio que el CSV de conjuros tenía columnas corridas (descripción metida en duración, niveles mal) y pidió cotejarlo contra el MD.
+
+**Diagnóstico:** De 342 conjuros, 238 filas tenían la descripción completa "derramada" dentro de la columna `duracion` (con `descripcion` truncada a un fragmento), y 17 de esas filas además tenían el `nivel` equivocado respecto al MD. Causa: quedó un resto de la corrupción que el arreglo del 27 ago (mover 108 descripciones) no cubrió — esos 108 eran los casos con `descripcion` vacía; estos 238 tenían `descripcion` con contenido parcial, así que el script anterior los saltó.
+
+**Cambios ejecutados:**
+- ✅ Reconstruidas las columnas `nivel`, `tipo`, `duracion` y `descripcion` de 238 conjuros tomando `spells.md` como fuente de verdad (verificado antes: `escuela`, `clases`, `alcance` ya coincidían al 100%, no se tocaron).
+- ✅ Corregido manualmente `Inmovilizar Persona` (nivel 1→2, tipo "Conjuro"→"Nivel 2").
+
+**⚠️ Pendiente — 27 conjuros con corrupción también en el MD (no se tocó el CSV para estos, requieren revisión manual con una fuente confiable):**
+Armadura de Agathys, Barrera de Cuchillas, Caldero Burbujeante de Tasha, "Castigo Abrumador" (título mezclado con texto de otro conjuro sobre melzoloths, línea 2210 de spells.md), Castigo Atronador, Círculo de Teletransportación, Comunión, Detectar el Bien y el Mal, Encontrar Familiar, Escudriñar, "Favor Divino" (título mezclado con texto de "Festín de los Aventureros", línea 10470), Ilusión Programada, Inmovilizar Persona (nivel ya corregido, pero duración/descripción siguen sin confirmar), Invisibilidad, "Localizar Objeto" (título mezclado, línea 10470), Mensaje, Mente en Blanco, Ojo Arcano, Orbe Cromático, Rayo Solar, Rociada Venenosa, Saber Druídico, Susurros Discordantes, Terror Abyecto, Toque Vampírico, Tormenta de Aguanieve, Zancada Prodigiosa.
+
+En estos, el bloque de metadatos (Tiempo/Alcance/Componentes/Duración) del `spells.md` está colapsado en una sola línea ilegible, y en 3 casos el título del conjuro tiene texto de otro conjuro pegado adelante. Necesitan reescribirse a mano contra el manual original antes de poder auditar el CSV correspondiente.
+
+---
+
+### 🔧 Reflow de párrafos y reparación de Componentes en spells.md (3 sep 2026)
+**Motivo:** El usuario notó que el texto de los conjuros (sobre todo hacia el final del archivo) se veía "muy separado" — cada oración cortada en su propia línea, separada por líneas en blanco, artefacto de la extracción original del PDF.
+
+**Cambios ejecutados:**
+- ✅ Reflow de las 342 descripciones: se unieron los fragmentos de línea en párrafos normales de texto corrido. Se verificó por script que ninguna palabra se perdió (comparación palabra por palabra antes/después = 0 diferencias). Se preservaron como párrafo aparte las frases "Con un espacio de conjuro de nivel superior." y "Mejora de truco.", y se dejaron intactos los bloques con tablas (líneas que empiezan con `|`).
+- ✅ Detectado un bug adicional no visto en la auditoría anterior: 69 conjuros tenían la bala de **Componentes** cortada a mitad del paréntesis del componente material (p. ej. "M (un diamante que valga al menos" y el resto — "1000 po, que se consume...)" — quedaba tirado al principio de la descripción). Se reensamblaron 65 de los 69 automáticamente (movido el texto de vuelta a la bala de Componentes). Los 3 que no se pudieron reparar solos: **Barrera de Cuchillas**, **Risa Horrible de Tasha** y un conjuro con encabezado "Capítulo 7 Conjuros Rayo de Luna" (probablemente Rayo de Luna con un encabezado de página pegado).
+- ✅ Renombrado "Y Invocar Dragón" → "Invocar Dragón" (en `spells.md` y `spells.csv`) — le sobraba una "Y" pegada del conjuro anterior.
+
+**⚠️ Nuevo hallazgo grave — requiere reconstrucción manual:**
+- **Mansión Magnífica de Mordenkainen**: su descripción tiene **otro conjuro completo pegado al final** ("Manto del Cruzado", evocación nivel 3 de paladín) y, en esa cola pegada, muchas palabras tienen letras sueltas faltantes (típico de una fusión de columnas mal hecha en la extracción del PDF original). No se tocó — hace falta separar los dos conjuros a mano contra el manual.
+
+**Resultado:** entre esta pasada y la auditoría anterior, el estado de `spells.md`/`spells.csv` quedó sólido para la gran mayoría de los 342 conjuros. Quedan ~30 conjuros (la lista de arriba + este último hallazgo) con corrupción de origen que necesita ojo humano y la fuente original.
+
+---
+
 ## Archivos más afectados (por prioridad)
 
 | Archivo | Líneas | Estado | Prioridad |
