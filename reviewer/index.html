@@ -318,6 +318,50 @@
     .badge-stage-pendiente { background: var(--pending-bg); color: var(--pending-color); border: 1px solid rgba(245,158,11,0.3); }
     .badge-stage-rechazado { background: var(--rejected-bg); color: var(--rejected-color); border: 1px solid rgba(239,68,68,0.3); }
 
+    .badge-tag {
+      padding: 0.2rem 0.5rem;
+      border-radius: 0.35rem;
+      font-size: 0.72rem;
+      font-weight: 600;
+      display: inline-block;
+      margin-right: 0.25rem;
+      margin-bottom: 0.2rem;
+      white-space: nowrap;
+    }
+    .badge-tag-combate { background: rgba(239, 68, 68, 0.18); color: #f87171; border: 1px solid rgba(239, 68, 68, 0.35); }
+    .badge-tag-utilidad { background: rgba(56, 189, 248, 0.18); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.35); }
+    .badge-tag-roleo { background: rgba(168, 85, 247, 0.18); color: #c084fc; border: 1px solid rgba(168, 85, 247, 0.35); }
+    .badge-tag-especifica { background: rgba(245, 158, 11, 0.18); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.35); }
+    .badge-tag-situacional { background: rgba(148, 163, 184, 0.18); color: #cbd5e1; border: 1px solid rgba(148, 163, 184, 0.35); }
+    .badge-tag-exploracion { background: rgba(16, 185, 129, 0.18); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.35); }
+    .badge-tag-default { background: rgba(255, 255, 255, 0.1); color: #f1f5f9; border: 1px solid rgba(255, 255, 255, 0.2); }
+
+    .observaciones-cell {
+      max-width: 200px;
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      cursor: pointer;
+    }
+    .observaciones-cell:hover {
+      color: var(--primary);
+      text-decoration: underline;
+    }
+
+    .modal-meta-box {
+      margin-bottom: 1rem;
+      padding: 0.75rem 1rem;
+      background: rgba(15, 23, 42, 0.6);
+      border: 1px solid var(--border-color);
+      border-radius: 0.5rem;
+      font-size: 0.85rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
     .stage-select {
       background: var(--bg-main);
       border: 1px solid var(--border-color);
@@ -500,6 +544,16 @@
           <option value="Nigromancia">Nigromancia</option>
           <option value="Transmutación">Transmutación</option>
         </select>
+
+        <select class="filter-select" id="filter-tag">
+          <option value="todos">Tag: Todos</option>
+          <option value="Combate">⚔️ Combate</option>
+          <option value="Utilidad">🛠️ Utilidad</option>
+          <option value="Roleo">🎭 Roleo</option>
+          <option value="Especifica">📜 Específica</option>
+          <option value="Situacional">🎯 Situacional</option>
+          <option value="Exploración">🧭 Exploración</option>
+        </select>
       </div>
     </div>
 
@@ -512,11 +566,13 @@
             <th data-sort="nivel">Nivel <span class="sort-icon" id="sort-icon-nivel"></span></th>
             <th data-sort="escuela">Escuela <span class="sort-icon" id="sort-icon-escuela"></span></th>
             <th data-sort="clases">Clases <span class="sort-icon" id="sort-icon-clases"></span></th>
+            <th data-sort="tags">Tags <span class="sort-icon" id="sort-icon-tags"></span></th>
             <th data-sort="tiempo_de_lanzamiento">Tiempo <span class="sort-icon" id="sort-icon-tiempo_de_lanzamiento"></span></th>
             <th data-sort="alcance">Alcance <span class="sort-icon" id="sort-icon-alcance"></span></th>
             <th data-sort="componentes">Comp. <span class="sort-icon" id="sort-icon-componentes"></span></th>
             <th data-sort="duracion">Duración <span class="sort-icon" id="sort-icon-duracion"></span></th>
             <th data-sort="stage">Estado (Stage) <span class="sort-icon" id="sort-icon-stage"></span></th>
+            <th data-sort="observaciones">Observaciones <span class="sort-icon" id="sort-icon-observaciones"></span></th>
             <th data-sort="revision">Notas de Revisión <span class="sort-icon" id="sort-icon-revision"></span></th>
             <th>Acción</th>
           </tr>
@@ -549,6 +605,7 @@
     const filterStage = document.getElementById('filter-stage');
     const filterNivel = document.getElementById('filter-nivel');
     const filterEscuela = document.getElementById('filter-escuela');
+    const filterTag = document.getElementById('filter-tag');
 
     const totalCountEl = document.getElementById('total-count');
     const okCountEl = document.getElementById('ok-count');
@@ -593,6 +650,23 @@
       okProgressEl.style.width = `${pct}%`;
     }
 
+    function renderTagBadges(tagsStr) {
+      if (!tagsStr) return '<span style="color: var(--text-muted); font-size: 0.75rem;">—</span>';
+      return tagsStr.split(',').map(t => {
+        const tag = t.trim();
+        if (!tag) return '';
+        const norm = tag.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+        let cls = 'default';
+        if (norm.includes('combate')) cls = 'combate';
+        else if (norm.includes('utilidad')) cls = 'utilidad';
+        else if (norm.includes('roleo')) cls = 'roleo';
+        else if (norm.includes('especifica')) cls = 'especifica';
+        else if (norm.includes('situacional')) cls = 'situacional';
+        else if (norm.includes('exploracion')) cls = 'exploracion';
+        return `<span class="badge-tag badge-tag-${cls}">${escapeHtml(tag)}</span>`;
+      }).join('');
+    }
+
     function sortSpells(data) {
       return data.sort((a, b) => {
         let valA = a[currentSortColumn] ?? '';
@@ -634,20 +708,24 @@
       const stageVal = filterStage.value;
       const nivelVal = filterNivel.value;
       const escuelaVal = filterEscuela.value;
+      const tagVal = filterTag.value;
 
       let filtered = spellsData.filter(s => {
         const stageMatch = (stageVal === 'todos') || (s.stage || 'pendiente') === stageVal;
         const nivelMatch = (nivelVal === 'todos') || String(s.nivel) === nivelVal;
         const escuelaMatch = (escuelaVal === 'todos') || (s.escuela.toLowerCase() === escuelaVal.toLowerCase());
+        const tagMatch = (tagVal === 'todos') || (s.tags && s.tags.toLowerCase().includes(tagVal.toLowerCase()));
         
         const qMatch = !query || 
           s.nombre.toLowerCase().includes(query) ||
           s.escuela.toLowerCase().includes(query) ||
           s.clases.toLowerCase().includes(query) ||
+          (s.tags && s.tags.toLowerCase().includes(query)) ||
+          (s.observaciones && s.observaciones.toLowerCase().includes(query)) ||
           s.descripcion.toLowerCase().includes(query) ||
           (s.revision && s.revision.toLowerCase().includes(query));
 
-        return stageMatch && nivelMatch && escuelaMatch && qMatch;
+        return stageMatch && nivelMatch && escuelaMatch && tagMatch && qMatch;
       });
 
       filtered = sortSpells(filtered);
@@ -655,7 +733,7 @@
       tableBody.innerHTML = '';
 
       if (filtered.length === 0) {
-        tableBody.innerHTML = `<tr><td colspan="11" style="text-align: center; color: var(--text-muted); padding: 3rem;">No se encontraron conjuros con los filtros seleccionados.</td></tr>`;
+        tableBody.innerHTML = `<tr><td colspan="13" style="text-align: center; color: var(--text-muted); padding: 3rem;">No se encontraron conjuros con los filtros seleccionados.</td></tr>`;
         return;
       }
 
@@ -663,12 +741,14 @@
         const tr = document.createElement('tr');
         const stage = spell.stage || 'pendiente';
         const nivelLabel = spell.nivel === 0 || spell.nivel === "0" ? 'Truco' : `Nivel ${spell.nivel}`;
+        const obsText = spell.observaciones || '';
 
         tr.innerHTML = `
           <td class="spell-name-cell">${spell.nombre}</td>
           <td><span class="badge-level">${nivelLabel}</span></td>
           <td>${spell.escuela}</td>
           <td style="color: var(--text-muted); font-size: 0.8rem;">${spell.clases}</td>
+          <td>${renderTagBadges(spell.tags)}</td>
           <td>${spell.tiempo_de_lanzamiento}</td>
           <td>${spell.alcance}</td>
           <td style="max-width: 120px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${spell.componentes}</td>
@@ -679,6 +759,9 @@
               <option value="ok" ${stage === 'ok' ? 'selected' : ''}>🟢 OK</option>
               <option value="rechazado" ${stage === 'rechazado' ? 'selected' : ''}>🔴 Rechazado</option>
             </select>
+          </td>
+          <td class="observaciones-cell" title="${escapeHtml(obsText)}" data-name="${spell.nombre}">
+            ${obsText ? escapeHtml(obsText) : '<span style="color: var(--text-muted); opacity: 0.5;">—</span>'}
           </td>
           <td>
             <div style="display: flex; align-items: center;">
@@ -705,6 +788,24 @@
       return name.replace(/[^a-zA-Z0-9]/g, '_');
     }
 
+    function openSpellModal(name) {
+      const spell = spellsData.find(s => s.nombre === name);
+      if (!spell) return;
+      modalSpellTitle.textContent = `${spell.nombre} (${spell.tipo} - ${spell.escuela})`;
+      const nivelLabel = spell.nivel === 0 || spell.nivel === "0" ? 'Truco' : `Nivel ${spell.nivel}`;
+      let metaHtml = `
+        <div class="modal-meta-box">
+          <div><strong>Nivel:</strong> ${nivelLabel} &nbsp;|&nbsp; <strong>Clases:</strong> ${spell.clases}</div>
+          <div><strong>Tags:</strong> ${renderTagBadges(spell.tags)}</div>
+          ${spell.observaciones ? `<div><strong>Observaciones:</strong> <span style="color: #38bdf8;">${escapeHtml(spell.observaciones)}</span></div>` : ''}
+          <div><strong>Tiempo de lanzamiento:</strong> ${spell.tiempo_de_lanzamiento} &nbsp;|&nbsp; <strong>Alcance:</strong> ${spell.alcance} &nbsp;|&nbsp; <strong>Duración:</strong> ${spell.duracion}</div>
+          <div><strong>Componentes:</strong> ${spell.componentes}</div>
+        </div>
+      `;
+      modalSpellBody.innerHTML = metaHtml + `<div>${escapeHtml(spell.descripcion)}</div>`;
+      descModal.classList.add('open');
+    }
+
     function attachTableListeners() {
       // Select stage change
       document.querySelectorAll('.stage-select').forEach(sel => {
@@ -725,16 +826,18 @@
         });
       });
 
-      // View details modal
+      // View details modal button
       document.querySelectorAll('.btn-view').forEach(btn => {
         btn.addEventListener('click', (e) => {
-          const name = e.target.dataset.name;
-          const spell = spellsData.find(s => s.nombre === name);
-          if (spell) {
-            modalSpellTitle.textContent = `${spell.nombre} (${spell.tipo} - ${spell.escuela})`;
-            modalSpellBody.textContent = spell.descripcion;
-            descModal.classList.add('open');
-          }
+          openSpellModal(e.target.dataset.name);
+        });
+      });
+
+      // Click on observaciones cell to open modal
+      document.querySelectorAll('.observaciones-cell').forEach(cell => {
+        cell.addEventListener('click', (e) => {
+          const name = cell.dataset.name;
+          if (name) openSpellModal(name);
         });
       });
     }
@@ -791,13 +894,14 @@
     filterStage.addEventListener('change', renderTable);
     filterNivel.addEventListener('change', renderTable);
     filterEscuela.addEventListener('change', renderTable);
+    filterTag.addEventListener('change', renderTable);
 
     document.getElementById('sync-server-btn').addEventListener('click', loadSpells);
 
     // Export CSV fallback
     document.getElementById('export-csv-btn').addEventListener('click', () => {
       if (!spellsData.length) return;
-      const headers = ["nombre", "nivel", "tipo", "escuela", "clases", "tiempo_de_lanzamiento", "alcance", "componentes", "duracion", "descripcion", "stage", "revision"];
+      const headers = ["nombre", "nivel", "tipo", "escuela", "clases", "tiempo_de_lanzamiento", "alcance", "componentes", "duracion", "descripcion", "stage", "revision", "observaciones", "tags"];
       let csvContent = "data:text/csv;charset=utf-8," + headers.join(",") + "\n";
 
       spellsData.forEach(row => {

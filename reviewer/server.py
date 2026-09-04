@@ -9,7 +9,7 @@ PORT = 8080
 CSV_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), "../es/spells.csv"))
 STATIC_DIR = os.path.dirname(__file__)
 
-FIELDNAMES = ["nombre", "nivel", "tipo", "escuela", "clases", "tiempo_de_lanzamiento", "alcance", "componentes", "duracion", "descripcion", "stage", "revision"]
+FIELDNAMES = ["nombre", "nivel", "tipo", "escuela", "clases", "tiempo_de_lanzamiento", "alcance", "componentes", "duracion", "descripcion", "stage", "revision", "observaciones", "tags"]
 
 def read_spells_csv():
     spells = []
@@ -55,6 +55,8 @@ class SpellHandler(http.server.SimpleHTTPRequestHandler):
                 target_name = payload.get("nombre")
                 new_stage = payload.get("stage")
                 new_revision = payload.get("revision")
+                new_observaciones = payload.get("observaciones")
+                new_tags = payload.get("tags")
 
                 spells = read_spells_csv()
                 updated = False
@@ -64,6 +66,10 @@ class SpellHandler(http.server.SimpleHTTPRequestHandler):
                             s["stage"] = new_stage
                         if new_revision is not None:
                             s["revision"] = new_revision
+                        if new_observaciones is not None:
+                            s["observaciones"] = new_observaciones
+                        if new_tags is not None:
+                            s["tags"] = new_tags
                         updated = True
                         break
 
