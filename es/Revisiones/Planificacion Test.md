@@ -9,10 +9,15 @@ Motores y Librerías 2D   Phaser: Es la librería 2D más popular, completa y ma
 Partes:
 Tablero : 10x10 con obstaculos (agua, arboles, piedras)- > Combate sencillo 
 
+Tirada de iniciacion es igual.
+
 - 2 personajes jugadores (Lvl 2 - 6 acciones)
-    - Personaje marcial - (hp : 23 | Stand array | dd: D6 )
-    - Personaje Magico - (hp : 18 | Stand array | dd: D4 )
+    - Personaje marcial - (hp : 23 | Stand array | dd: D6 |da : D8)
+    - Personaje Magico - (hp : 18 | Stand array | dd: D4 | da: D4)
 - 5 enemigos sencillos (6 acciones)
-    - 2 distancia (lvl 1 | hp: 10 | dd: D4)
-    - 2 melee  (lvl 1 | hp: 14 | dd: D6)
-    - semi boss (lvl 2 | hp: 30 | dd: D8)
+    - 2 distancia (lvl 1 | hp: 10 | dd: D4 | da : D6)
+    - 2 melee  (lvl 1 | hp: 14 | dd: D6 |da: D8)
+    - semi boss (lvl 2 | hp: 30 | dd: D8 | da: D12)
+
+COstes:
+movimiento: cada punto de accion son 3 casillas

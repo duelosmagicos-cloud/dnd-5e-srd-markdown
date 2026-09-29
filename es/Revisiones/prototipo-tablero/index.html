@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Prototipo Tablero de Combate</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/8.6.6/pixi.min.js"></script>
+<style>
+  :root {
+    --bg: #111417;
+    --panel: #1b1f24;
+    --card: #22262c;
+    --border: #33383f;
+    --text: #e8e8e8;
+    --muted: #9aa0a6;
+    --accent: #4da3ff;
+    --ok: #4caf50;
+    --bad: #d94a4a;
+    --gold: #ffd24d;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; height: 100%; background: var(--bg); color: var(--text);
+    font-family: sans-serif; overflow: hidden;
+  }
+  #layout { display: flex; height: 100%; gap: 12px; padding: 12px; }
+  #left { flex: 0 0 auto; display: flex; flex-direction: column; gap: 10px; }
+  #panel { flex: 1 1 auto; overflow-y: auto; display: flex; flex-direction: column; gap: 12px; padding-right: 4px; }
+
+  h2 { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 0 0 6px; }
+
+  /* --- Tablero --- */
+  #app canvas { border-radius: 8px; border: 1px solid var(--border); }
+  #hint {
+    font-size: 12px; color: var(--muted); background: var(--card);
+    border: 1px solid var(--border); border-radius: 6px; padding: 8px 10px;
+  }
+  #log {
+    flex: 1 1 auto; min-height: 120px; overflow-y: auto; background: var(--card);
+    border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px;
+    font-size: 12px; line-height: 1.5; font-family: ui-monospace, monospace;
+  }
+  #log .entry { padding: 3px 0; border-bottom: 1px solid #2b3037; }
+  #log .hit { color: var(--ok); }
+  #log .miss { color: var(--bad); }
+  #log .crit { color: var(--gold); font-weight: bold; }
+  #log .detail { color: var(--muted); }
+
+  /* --- Iniciativa --- */
+  #ini-bar { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; }
+  #ini-bar button {
+    background: var(--accent); border: none; color: #08111f; font-weight: bold;
+    padding: 7px 14px; border-radius: 6px; cursor: pointer; font-size: 13px;
+  }
+  #ini-bar button.secondary { background: #2c3138; color: var(--text); border: 1px solid var(--border); }
+  .turn-track { display: flex; gap: 6px; flex-wrap: wrap; }
+  .turn-chip {
+    display: flex; align-items: center; gap: 6px; background: var(--card);
+    border: 1px solid var(--border); border-radius: 20px; padding: 4px 10px 4px 6px;
+    font-size: 12px; opacity: .55;
+  }
+  .turn-chip.active { opacity: 1; border-color: var(--gold); box-shadow: 0 0 0 1px var(--gold); }
+  .turn-chip.down { opacity: .28; text-decoration: line-through; }
+  .turn-chip .roll { color: var(--muted); font-variant-numeric: tabular-nums; }
+
+  /* --- Tarjetas --- */
+  .cards { display: flex; flex-wrap: wrap; gap: 8px; }
+  .card {
+    background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+    padding: 8px 10px; width: 264px; font-size: 12px;
+  }
+  .defensa-row { background: #2a2f36; border-radius: 4px; padding: 4px 6px; }
+  .card.selected { border-color: var(--accent); }
+  .card.active-turn { box-shadow: 0 0 0 1px var(--gold); border-color: var(--gold); }
+  .card.down { opacity: .45; }
+  .card-head { display: flex; align-items: center; gap: 6px; margin-bottom: 6px; }
+  .card-head b { font-size: 13px; }
+  .card-head .lvl { color: var(--muted); margin-left: auto; font-size: 11px; }
+  .dot { width: 12px; height: 12px; border-radius: 50%; flex: 0 0 auto; border: 1px solid rgba(255,255,255,.4); }
+  .hpbar { height: 7px; border-radius: 4px; background: #3a3f45; overflow: hidden; margin: 4px 0 6px; }
+  .hpbar > div { height: 100%; background: var(--ok); transition: width .2s; }
+  .row { display: flex; align-items: center; gap: 5px; margin-bottom: 5px; }
+  .row .lbl { color: var(--muted); }
+  .pips { letter-spacing: 1px; color: var(--accent); margin-left: auto; }
+
+  input[type=number], select {
+    background: #2a2f36; border: 1px solid var(--border); color: var(--text);
+    border-radius: 4px; padding: 2px 4px; font-size: 11px; font-family: inherit;
+  }
+  input[type=number] { width: 40px; text-align: center; }
+  input[type=number].tiny { width: 32px; }
+  select { padding: 2px; }
+  .row button.step {
+    background: #2c3138; border: 1px solid var(--border); color: var(--text);
+    width: 20px; height: 20px; border-radius: 4px; cursor: pointer; line-height: 1; padding: 0;
+  }
+
+  .abilities { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; margin: 6px 0; }
+  .ability { background: #2a2f36; border-radius: 4px; text-align: center; padding: 3px 2px; }
+  .ability .k { font-size: 10px; color: var(--muted); }
+  .ability .m { font-size: 10px; color: var(--muted); }
+
+  .attacks { border-top: 1px solid var(--border); margin-top: 6px; padding-top: 6px; display: flex; flex-direction: column; gap: 4px; }
+  .attack-row { display: flex; align-items: center; gap: 4px; }
+  .attack-row .atk {
+    flex: 1 1 auto; text-align: left; background: #2f3640; border: 1px solid var(--border);
+    color: var(--text); border-radius: 4px; padding: 4px 6px; cursor: pointer; font-size: 11px;
+  }
+  .attack-row .atk:hover:not(:disabled) { background: #3a424e; border-color: var(--accent); }
+  .attack-row .atk.armed { background: #4a3a1c; border-color: var(--gold); color: var(--gold); }
+  .attack-row .atk:disabled { opacity: .4; cursor: not-allowed; }
+  .attack-row .spell { border-left: 2px solid #8a5ad6; }
+
+  .roster { display: flex; gap: 18px; flex-wrap: wrap; margin-bottom: 10px; }
+  .roster-group { display: flex; flex-direction: column; gap: 4px; }
+  .roster-row {
+    display: flex; align-items: center; gap: 6px; background: var(--card);
+    border: 1px solid var(--border); border-radius: 6px; padding: 5px 8px; font-size: 12px;
+  }
+  .roster-name { width: 118px; }
+  .roster-row .lbl { width: 148px; color: var(--muted); font-size: 11px; }
+  .roster-count { width: 16px; text-align: center; font-variant-numeric: tabular-nums; }
+  button.quitar {
+    margin-left: 6px; background: transparent; border: none; color: var(--muted);
+    cursor: pointer; font-size: 13px; line-height: 1; padding: 0 2px;
+  }
+  button.quitar:hover { color: var(--bad); }
+
+  .react { font-size: 11px; }
+  .react.on { color: #ff8c1a; }
+  .react.off { color: #5d636b; }
+  button.retirada {
+    margin-left: auto; background: #2c3138; border: 1px solid var(--border); color: var(--text);
+    border-radius: 4px; padding: 3px 7px; font-size: 11px; cursor: pointer;
+  }
+  button.retirada.on { background: #1d3a52; border-color: var(--accent); color: var(--accent); }
+  button.retirada:disabled { opacity: .35; cursor: not-allowed; }
+</style>
+</head>
+<body>
+<div id="layout">
+  <div id="left">
+    <div id="app"></div>
+    <div id="hint"></div>
+    <div id="log"></div>
+  </div>
+  <div id="panel"></div>
+</div>
+<script>
+// ============================ Config ============================
+const COLS = 10, ROWS = 10, CELL = 56;
+const CASILLAS_POR_ACCION = 3;   // Planificacion Test: 1 punto de accion = 3 casillas
+const DADOS = ['D4', 'D6', 'D8', 'D10', 'D12', 'D20'];
+
+// Combate: una sola tirada enfrentada. El atacante tira su dado de ataque (DA)
+// y el defensor su dado de defensa (DD). Si gana el DA, el daño es esa misma
+// tirada; si pierde, no hay daño. No hay CA ni tirada de impacto aparte.
+const EMPATE_IMPACTA = true;     // un empate no es una derrota del atacante
+
+// Golpes de oportunidad: se disparan al SALIR del alcance cuerpo a cuerpo de un
+// hostil. Se pagan con los puntos de accion que al personaje le sobraron de su
+// propio turno, asi que reservar acciones es lo que habilita reaccionar.
+const OPORTUNIDAD_UNA_POR_RONDA = true;
+const COSTO_RETIRADA = 1;        // moverse sin provocar golpes de oportunidad
+
+// Cobertura simplificada (apendice.md): desaparece la de 3/4, quedan dos grados.
+// Media = cualquier cobertura parcial (+2, que en este sistema se suma al DD del
+// defensor en lugar de a la CA). Total = no puede ser designado como objetivo.
+// Solo se aplica a ataques a distancia.
+const BONO_COBERTURA_MEDIA = 2;
+
+const STANDARD_ARRAY = [15, 14, 13, 12, 10, 8];
+const mod = (score) => Math.floor((score - 10) / 2);
+const signed = (n) => (n >= 0 ? '+' : '') + n;
+const rollDie = (d) => Math.floor(Math.random() * parseInt(d.slice(1), 10)) + 1;
+const rollD20 = () => Math.floor(Math.random() * 20) + 1;
+
+function buildAbilities(priorityOrder) {
+  const abilities = { FUE: 10, DES: 10, CON: 10, INT: 10, SAB: 10, CAR: 10 };
+  priorityOrder.forEach((key, i) => { abilities[key] = STANDARD_ARRAY[i]; });
+  return abilities;
+}
+
+// ============================ Plantillas ============================
+const PLANTILLAS = {
+  marcial: {
+    nombre: 'Marcial', kind: 'player', color: 0x8b5a2b, colorCss: '#8b5a2b', label: 'M',
+    level: 2, hpMax: 23, accionesMax: 6,
+    abilities: buildAbilities(['FUE', 'CON', 'DES', 'SAB', 'INT', 'CAR']),
+    dadoDefensa: 'D6', atributoDano: 'FUE',
+    attacks: [{ name: 'Espada', icon: '⚔', dado: 'D8', alcance: 1, costo: 2 }],
+  },
+  mago: {
+    nombre: 'Mágico', kind: 'player', color: 0x2255cc, colorCss: '#2255cc', label: 'Mg',
+    level: 2, hpMax: 18, accionesMax: 6,
+    abilities: buildAbilities(['INT', 'CON', 'DES', 'SAB', 'FUE', 'CAR']),
+    dadoDefensa: 'D4', atributoDano: 'INT',
+    attacks: [
+      { name: 'Daga', icon: '⚔', dado: 'D4', alcance: 1, costo: 2 },
+      { name: 'Dardo de fuego', icon: '✦', dado: 'D8', alcance: 6, costo: 3, hechizo: true },
+    ],
+  },
+  arquero: {
+    nombre: 'Goblin Arquero', kind: 'enemy', tipo: 'Distancia', color: 0x3fae3f, colorCss: '#3fae3f',
+    label: 'D', level: 1, hpMax: 10, accionesMax: 6,
+    abilities: { FUE: 8, DES: 14, CON: 12, INT: 10, SAB: 10, CAR: 8 },
+    dadoDefensa: 'D4', atributoDano: 'DES',
+    attacks: [{ name: 'Arco corto', icon: '🏹', dado: 'D6', alcance: 8, costo: 2 }],
+  },
+  guerrero: {
+    nombre: 'Goblin Guerrero', kind: 'enemy', tipo: 'Melee', color: 0x2f8f2f, colorCss: '#2f8f2f',
+    label: 'C', level: 1, hpMax: 14, accionesMax: 6,
+    abilities: { FUE: 13, DES: 12, CON: 13, INT: 8, SAB: 10, CAR: 8 },
+    dadoDefensa: 'D6', atributoDano: 'FUE',
+    attacks: [{ name: 'Hacha', icon: '⚔', dado: 'D8', alcance: 1, costo: 2 }],
+  },
+  jefe: {
+    nombre: 'Semi Jefe', kind: 'enemy', tipo: 'Semi Boss', color: 0x1f5f1f, colorCss: '#1f5f1f',
+    label: 'B', level: 2, hpMax: 30, accionesMax: 6,
+    abilities: { FUE: 15, DES: 12, CON: 14, INT: 10, SAB: 12, CAR: 10 },
+    dadoDefensa: 'D8', atributoDano: 'FUE',
+    attacks: [{ name: 'Mandoble', icon: '⚔', dado: 'D12', alcance: 1, costo: 3 }],
+  },
+};
+
+let idSeq = 0;
+
+function crearCombatiente(key, col, row) {
+  const t = PLANTILLAS[key];
+  const mismos = combatientes.filter(c => c.plantilla === key).length;
+  return {
+    id: `${key}-${++idSeq}`, plantilla: key,
+    name: mismos ? `${t.nombre} ${mismos + 1}` : t.nombre,
+    kind: t.kind, tipo: t.tipo, color: t.color, colorCss: t.colorCss, label: t.label,
+    col, row, level: t.level,
+    hp: { current: t.hpMax, max: t.hpMax },
+    actions: { current: t.accionesMax, max: t.accionesMax },
+    reaccionUsada: false, retirada: false, iniciativaMod: null,
+    abilities: { ...t.abilities }, dadoDefensa: t.dadoDefensa, atributoDano: t.atributoDano,
+    attacks: t.attacks.map(a => ({ ...a })),
+  };
+}
+
+// Primera casilla libre en la zona de despliegue (jugadores izquierda, enemigos
+// derecha), repartiendo desde el centro del borde hacia afuera
+function casillaLibre(kind) {
+  const cols = kind === 'player' ? [0, 1, 2] : [9, 8, 7];
+  const rows = [...Array(ROWS).keys()].sort((a, b) =>
+    Math.abs(a - (ROWS - 1) / 2) - Math.abs(b - (ROWS - 1) / 2));
+  for (const col of cols) {
+    for (const row of rows) {
+      if (!cellBlocked(col, row, null)) return { col, row };
+    }
+  }
+  return { col: 0, row: 0 };
+}
+
+function agregar(key) {
+  const { col, row } = casillaLibre(PLANTILLAS[key].kind);
+  combatientes.push(crearCombatiente(key, col, row));
+}
+
+function quitar(key) {
+  const index = combatientes.map(c => c.plantilla).lastIndexOf(key);
+  if (index >= 0) {
+    const [fuera] = combatientes.splice(index, 1);
+    if (selectedId === fuera.id) selectedId = null;
+  }
+}
+
+// ============================ Estado ============================
+let combatientes = [];
+let fase = 'preparacion';   // 'preparacion' | 'combate'
+
+const allEntities = () => combatientes;
+const jugadores = () => combatientes.filter(c => c.kind === 'player');
+const enemigos = () => combatientes.filter(c => c.kind === 'enemy');
+const getEntity = (id) => combatientes.find(e => e.id === id);
+const isDown = (id) => { const e = getEntity(id); return e ? e.hp.current <= 0 : false; };
+
+let selectedId = null;
+let mode = null;      // { type:'move'|'attack', entityId, attackIndex }
+let turnOrder = [];
+let currentTurn = -1;
+let ronda = 1;
+let logEntries = [];
+
+// ============================ Movimiento ============================
+// vision: 'ninguna' no tapa nada · 'parcial' da cobertura media pero nunca total
+// (follaje, criaturas) · 'solida' puede llegar a tapar por completo (roca, muro)
+const OBSTACLES = [
+  { col: 3, row: 2, tipo: 'agua', color: 0x2255aa, vision: 'ninguna' },
+  { col: 3, row: 3, tipo: 'agua', color: 0x2255aa, vision: 'ninguna' },
+  { col: 6, row: 6, tipo: 'árbol', color: 0x2f6b2f, vision: 'parcial' },
+  { col: 7, row: 6, tipo: 'árbol', color: 0x2f6b2f, vision: 'parcial' },
+  { col: 5, row: 8, tipo: 'piedra', color: 0x777777, vision: 'solida' },
+];
+
+function cellBlocked(col, row, ignoreId) {
+  if (col < 0 || row < 0 || col >= COLS || row >= ROWS) return true;
+  if (OBSTACLES.some(o => o.col === col && o.row === row)) return true;
+  return allEntities().some(e => e.id !== ignoreId && !isDown(e.id) && e.col === col && e.row === row);
+}
+
+// Camino mas corto en 4 direcciones (sin diagonales), rodeando obstaculos y tokens.
+function pathCells(c0, r0, c1, r1, ignoreId) {
+  if (c0 === c1 && r0 === r1) return [];
+  if (cellBlocked(c1, r1, ignoreId)) return null;
+
+  const key = (c, r) => `${c},${r}`;
+  const prev = new Map([[key(c0, r0), null]]);
+  const queue = [{ col: c0, row: r0 }];
+  const DIRS = [{ c: 1, r: 0 }, { c: -1, r: 0 }, { c: 0, r: 1 }, { c: 0, r: -1 }];
+
+  while (queue.length) {
+    const current = queue.shift();
+    for (const d of DIRS) {
+      const col = current.col + d.c, row = current.row + d.r;
+      const k = key(col, row);
+      if (prev.has(k) || cellBlocked(col, row, ignoreId)) continue;
+      prev.set(k, current);
+      if (col === c1 && row === r1) {
+        const path = [];
+        let step = { col, row };
+        while (step) { path.unshift(step); step = prev.get(key(step.col, step.row)); }
+        return path.slice(1);
+      }
+      queue.push({ col, row });
+    }
+  }
+  return null;
+}
+
+function evaluateMove(entity, destCol, destRow) {
+  const cells = pathCells(entity.col, entity.row, destCol, destRow, entity.id);
+  if (!cells || cells.length === 0) {
+    return { cells: [], distance: 0, cost: 0, valid: false, blocked: !cells };
+  }
+  const distance = cells.length;
+  const cost = Math.ceil(distance / CASILLAS_POR_ACCION);
+  return { cells, distance, cost, valid: cost <= entity.actions.current, blocked: false };
+}
+
+// ============================ Combate ============================
+// Sin diagonales, el alcance se mide en casillas ortogonales (Manhattan).
+const rangeTo = (a, b) => Math.abs(a.col - b.col) + Math.abs(a.row - b.row);
+
+// ---- Cobertura ----
+// Interseccion segmento / rectangulo (Liang-Barsky)
+function segmentoCortaRect(x1, y1, x2, y2, rx, ry, rw, rh) {
+  const dx = x2 - x1, dy = y2 - y1;
+  const p = [-dx, dx, -dy, dy];
+  const q = [x1 - rx, rx + rw - x1, y1 - ry, ry + rh - y1];
+  let t0 = 0, t1 = 1;
+  for (let i = 0; i < 4; i++) {
+    if (p[i] === 0) { if (q[i] < 0) return false; continue; }
+    const t = q[i] / p[i];
+    if (p[i] < 0) { if (t > t1) return false; if (t > t0) t0 = t; }
+    else { if (t < t0) return false; if (t < t1) t1 = t; }
+  }
+  return true;
+}
+
+function bloqueadores(attacker, target) {
+  const list = OBSTACLES.filter(o => o.vision !== 'ninguna');
+  // Las criaturas tambien dan cobertura, pero nunca total (apendice.md:
+  // "obstaculo, pared, criatura u objeto")
+  allEntities().forEach(e => {
+    if (e.id !== attacker.id && e.id !== target.id && !isDown(e.id)) {
+      list.push({ col: e.col, row: e.row, vision: 'parcial' });
+    }
+  });
+  return list;
+}
+
+// Traza desde el centro del atacante a las 4 esquinas del objetivo.
+// Las 4 tapadas por algo solido = total · alguna tapada = media · ninguna = sin cobertura.
+function coberturaEntre(attacker, target) {
+  const ax = attacker.col * CELL + CELL / 2, ay = attacker.row * CELL + CELL / 2;
+  const inset = CELL * 0.1;
+  const esquinas = [
+    [target.col * CELL + inset, target.row * CELL + inset],
+    [target.col * CELL + CELL - inset, target.row * CELL + inset],
+    [target.col * CELL + inset, target.row * CELL + CELL - inset],
+    [target.col * CELL + CELL - inset, target.row * CELL + CELL - inset],
+  ];
+  const blockers = bloqueadores(attacker, target);
+
+  let solidas = 0, parciales = 0;
+  for (const [cx, cy] of esquinas) {
+    const corta = (b) => segmentoCortaRect(ax, ay, cx, cy, b.col * CELL, b.row * CELL, CELL, CELL);
+    if (blockers.some(b => b.vision === 'solida' && corta(b))) solidas++;
+    else if (blockers.some(b => corta(b))) parciales++;
+  }
+  if (solidas === 4) return 'total';
+  if (solidas + parciales > 0) return 'media';
+  return null;
+}
+
+// La cobertura solo cuenta para ataques a distancia
+const coberturaDe = (attacker, target, attack) =>
+  attack.alcance > 1 ? coberturaEntre(attacker, target) : null;
+
+function canTarget(attacker, target, attack) {
+  if (!target || target.id === attacker.id || isDown(target.id)) return false;
+  if (attack.costo > attacker.actions.current) return false;
+  if (rangeTo(attacker, target) > attack.alcance) return false;
+  return coberturaDe(attacker, target, attack) !== 'total';  // total = no designable
+}
+
+function resolveAttack(attacker, target, attack) {
+  const ataque = rollDie(attack.dado);           // DA del atacante
+  const ddRoll = rollDie(target.dadoDefensa);    // DD del defensor
+  const cobertura = coberturaDe(attacker, target, attack);
+  const bono = cobertura === 'media' ? BONO_COBERTURA_MEDIA : 0;
+  const defensa = ddRoll + bono;
+  const empate = ataque === defensa;
+  const impacta = empate ? EMPATE_IMPACTA : ataque > defensa;
+
+  attacker.actions.current -= attack.costo;
+
+  // El daño es la propia tirada ganadora + el modificador de su atributo de daño
+  const bonoDano = mod(attacker.abilities[attacker.atributoDano]);
+  const hpAntes = target.hp.current;
+  const damage = impacta ? Math.max(1, ataque + bonoDano) : 0;
+  if (impacta) target.hp.current = Math.max(0, target.hp.current - damage);
+
+  const estado = impacta ? (empate ? 'IMPACTA (empate)' : 'IMPACTA') : 'BLOQUEADO';
+  const ddTxt = bono ? `${target.dadoDefensa}(${ddRoll})+${bono} cob. = ${defensa}` : `${target.dadoDefensa}(${defensa})`;
+  const danoTxt = bonoDano
+    ? `${ataque}${signed(bonoDano)} ${attacker.atributoDano} = ${damage} de daño`
+    : `${damage} de daño`;
+  const detalle = `DA ${attack.dado}(${ataque}) vs DD ${ddTxt} → ${estado}` +
+    (impacta ? ` · ${danoTxt} · HP ${hpAntes}→${target.hp.current}` : ' · sin daño');
+
+  addLog(`${attack.icon} ${attacker.name} → ${target.name}`, detalle, impacta ? 'hit' : 'miss');
+  if (target.hp.current === 0) addLog(`☠ ${target.name} cae`, '', 'miss');
+}
+
+// ---- Golpes de oportunidad ----
+const meleeAttack = (e) => e.attacks.find(a => a.alcance <= 1);
+
+function puedeReaccionar(reactor, mover) {
+  if (reactor.id === mover.id || isDown(reactor.id)) return false;
+  if (reactor.kind === mover.kind) return false;                 // solo hostiles
+  if (OPORTUNIDAD_UNA_POR_RONDA && reactor.reaccionUsada) return false;
+  const melee = meleeAttack(reactor);
+  return !!melee && melee.costo <= reactor.actions.current;       // se paga con acciones reservadas
+}
+
+// Recorre el camino paso a paso: cada hostil que tenia al que se mueve dentro de
+// su alcance y lo pierde, engancha un golpe de oportunidad.
+function provocaciones(mover, cells) {
+  if (mover.retirada) return [];
+  const triggers = [];
+  const yaEngancho = new Set();
+  let prev = { col: mover.col, row: mover.row };
+
+  cells.forEach((step, index) => {
+    allEntities().forEach(other => {
+      if (yaEngancho.has(other.id) || !puedeReaccionar(other, mover)) return;
+      const melee = meleeAttack(other);
+      const dentroAntes = rangeTo(other, prev) <= melee.alcance;
+      const dentroDespues = rangeTo(other, step) <= melee.alcance;
+      if (dentroAntes && !dentroDespues) {
+        triggers.push({ id: other.id, index });
+        yaEngancho.add(other.id);
+      }
+    });
+    prev = step;
+  });
+  return triggers;
+}
+
+// Devuelve la casilla donde queda el que se movia (cae antes si lo matan en el camino)
+function resolverProvocaciones(mover, cells, triggers) {
+  for (const t of triggers) {
+    const reactor = getEntity(t.id);
+    const melee = meleeAttack(reactor);
+    if (!melee || melee.costo > reactor.actions.current) continue;
+
+    addLog(`⚡ Golpe de oportunidad de ${reactor.name}`, `${mover.name} sale de su alcance`, 'crit');
+    resolveAttack(reactor, mover, melee);
+    reactor.reaccionUsada = true;
+
+    if (isDown(mover.id)) return cells[t.index];   // cae en el camino
+  }
+  return null;
+}
+
+function addLog(title, detail, cls) {
+  logEntries.unshift({ title, detail, cls });
+  if (logEntries.length > 60) logEntries.pop();
+}
+
+function renderLog() {
+  document.getElementById('log').innerHTML = logEntries.map(e => `
+    <div class="entry">
+      <span class="${e.cls}">${e.title}</span>
+      ${e.detail ? `<div class="detail">${e.detail}</div>` : ''}
+    </div>`).join('') || '<span class="detail">Sin acciones todavía. Tirá iniciativa para empezar.</span>';
+}
+
+// ============================ Iniciativa ============================
+function iniMod(e) {
+  return e.iniciativaMod !== null && e.iniciativaMod !== undefined ? e.iniciativaMod : mod(e.abilities.DES);
+}
+
+function volverAPreparar() {
+  fase = 'preparacion';
+  turnOrder = [];
+  currentTurn = -1;
+  ronda = 1;
+  mode = null;
+  allEntities().forEach(e => {
+    e.hp.current = e.hp.max;
+    e.actions.current = e.actions.max;
+    e.reaccionUsada = false;
+    e.retirada = false;
+  });
+  logEntries = [];
+  addLog('⚙ Modo preparación', 'elegí los combatientes y ubicalos en el tablero', 'detail');
+}
+
+function rollIniciativa() {
+  if (!allEntities().length) return;
+  fase = 'combate';
+  turnOrder = allEntities()
+    .map(e => {
+      const roll = rollD20();
+      return { id: e.id, name: e.name, colorCss: e.colorCss, mod: iniMod(e), roll, total: roll + iniMod(e) };
+    })
+    .sort((a, b) => b.total - a.total || b.mod - a.mod || Math.random() - 0.5);
+
+  allEntities().forEach(e => { e.actions.current = e.actions.max; e.reaccionUsada = false; e.retirada = false; });
+  currentTurn = 0;
+  ronda = 1;
+  selectedId = turnOrder[0].id;
+  mode = null;
+  logEntries = [];
+  addLog('🎲 Iniciativa tirada', turnOrder.map(t => `${t.name} ${t.total}`).join(' · '), 'detail');
+}
+
+function nextTurn() {
+  if (!turnOrder.length) return;
+  let steps = 0;
+  do {
+    currentTurn = (currentTurn + 1) % turnOrder.length;
+    steps++;
+    if (currentTurn === 0) {
+      ronda++;
+      allEntities().forEach(e => { e.reaccionUsada = false; });
+      addLog(`⏱ Ronda ${ronda}`, 'se reinician las reacciones', 'detail');
+    }
+  } while (isDown(turnOrder[currentTurn].id) && steps < turnOrder.length);
+
+  const entity = getEntity(turnOrder[currentTurn].id);
+  entity.actions.current = entity.actions.max;
+  entity.retirada = false;
+  selectedId = entity.id;
+  mode = null;
+  addLog(`▶ Turno de ${entity.name}`, `${entity.actions.max} acciones`, 'detail');
+}
+
+const activeTurnId = () => (turnOrder.length && currentTurn >= 0 ? turnOrder[currentTurn].id : null);
+
+// ============================ Render del panel ============================
+function renderAll() {
+  renderPanel();
+  renderLog();
+  renderHint();
+  syncBoard();
+}
+
+function renderHint() {
+  const hint = document.getElementById('hint');
+  if (fase === 'preparacion') {
+    if (mode?.type === 'colocar') {
+      const e = getEntity(mode.entityId);
+      hint.innerHTML = `Ubicando a <b>${e.name}</b> — click en una casilla libre del tablero. <b>Esc</b> para soltarlo.`;
+    } else if (!combatientes.length) {
+      hint.innerHTML = '<b>Preparación</b> — agregá combatientes con los botones + del panel, o usá "Combate del documento" para el armado de la planificación.';
+    } else {
+      hint.innerHTML = '<b>Preparación</b> — click en un token y después en una casilla para reubicarlo. Cuando estén todos en posición, tirá iniciativa.';
+    }
+    return;
+  }
+  if (mode?.type === 'attack') {
+    const e = getEntity(mode.entityId);
+    const atk = e.attacks[mode.attackIndex];
+    const leyenda = atk.alcance > 1
+      ? ` · <span style="color:#4caf50">●</span> despejado <span style="color:#ff8c1a">●</span> cobertura media (+${BONO_COBERTURA_MEDIA} al DD) <span style="color:#d94a4a">●</span> cobertura total (no designable)`
+      : '';
+    hint.innerHTML = `<b style="color:var(--gold)">${atk.icon} ${atk.name} (DA ${atk.dado})</b> de ${e.name} — click en un objetivo dentro de ${atk.alcance} casillas (cuesta ${atk.costo} acc.). Se enfrenta al DD del defensor.${leyenda}`;
+  } else if (mode?.type === 'move') {
+    const e = getEntity(mode.entityId);
+    hint.innerHTML = `Moviendo a <b>${e.name}</b> — ${e.actions.current}/${e.actions.max} acciones (${e.actions.current * CASILLAS_POR_ACCION} casillas). Click en la casilla destino · <b>Esc</b> o click en el token para salir del modo movimiento.`;
+  } else {
+    hint.innerHTML = 'Click en un token para moverlo · Botón de ataque en la tarjeta para atacar · <b>Esc</b> cancela el modo actual · Los campos de las tarjetas son editables.';
+  }
+}
+
+function reaccionLista(e) {
+  if (isDown(e.id) || (OPORTUNIDAD_UNA_POR_RONDA && e.reaccionUsada)) return false;
+  const melee = meleeAttack(e);
+  return !!melee && melee.costo <= e.actions.current;
+}
+
+function abilityBlock(e) {
+  return `<div class="abilities">${Object.entries(e.abilities).map(([k, v]) => `
+    <div class="ability">
+      <div class="k">${k}</div>
+      <input type="number" class="tiny" data-id="${e.id}" data-field="ability" data-key="${k}" value="${v}">
+      <div class="m">${signed(mod(v))}</div>
+    </div>`).join('')}</div>`;
+}
+
+function attacksBlock(e) {
+  return `<div class="attacks">${e.attacks.map((a, i) => {
+    const armed = mode?.type === 'attack' && mode.entityId === e.id && mode.attackIndex === i;
+    const disabled = isDown(e.id) || a.costo > e.actions.current;
+    return `
+    <div class="attack-row">
+      <button class="atk ${a.hechizo ? 'spell' : ''} ${armed ? 'armed' : ''}" data-id="${e.id}" data-atk="${i}" ${disabled ? 'disabled' : ''}>
+        ${a.icon} ${a.name}
+      </button>
+      <span class="lbl" title="dado de ataque">DA</span>
+      <select data-id="${e.id}" data-field="atkDado" data-atk="${i}">
+        ${DADOS.map(d => `<option ${d === a.dado ? 'selected' : ''}>${d}</option>`).join('')}
+      </select>
+      <input type="number" class="tiny" data-id="${e.id}" data-field="atkAlcance" data-atk="${i}" value="${a.alcance}" title="alcance en casillas">
+      <input type="number" class="tiny" data-id="${e.id}" data-field="atkCosto" data-atk="${i}" value="${a.costo}" title="costo en acciones">
+    </div>`;
+  }).join('')}</div>`;
+}
+
+function cardHtml(e) {
+  const pct = Math.max(0, Math.round((e.hp.current / e.hp.max) * 100));
+  const pips = '●'.repeat(Math.max(0, e.actions.current)) + '○'.repeat(Math.max(0, e.actions.max - e.actions.current));
+  const classes = ['card',
+    e.id === selectedId ? 'selected' : '',
+    e.id === activeTurnId() ? 'active-turn' : '',
+    isDown(e.id) ? 'down' : ''].filter(Boolean).join(' ');
+
+  return `
+  <div class="${classes}" data-card="${e.id}">
+    <div class="card-head">
+      <span class="dot" style="background:${e.colorCss}"></span>
+      <b>${e.name}</b>
+      <span class="lvl">${e.tipo ? e.tipo + ' · ' : ''}Lvl ${e.level}</span>
+      ${fase === 'preparacion' ? `<button class="quitar" data-quitar="${e.id}" title="sacar del combate">✕</button>` : ''}
+    </div>
+    <div class="hpbar"><div style="width:${pct}%"></div></div>
+    <div class="row">
+      <span class="lbl">HP</span>
+      <button class="step" data-id="${e.id}" data-dmg="-1">−</button>
+      <b>${e.hp.current}</b><span class="lbl">/</span>
+      <input type="number" data-id="${e.id}" data-field="hpMax" value="${e.hp.max}">
+      <button class="step" data-id="${e.id}" data-dmg="1">+</button>
+    </div>
+    <div class="row">
+      <span class="lbl">Acciones</span>
+      <b>${e.actions.current}</b><span class="lbl">/</span>
+      <input type="number" data-id="${e.id}" data-field="actionsMax" value="${e.actions.max}">
+      <span class="pips">${pips}</span>
+    </div>
+    ${abilityBlock(e)}
+    <div class="row defensa-row">
+      <span class="lbl" title="dado de defensa">DD defensa</span>
+      <select data-id="${e.id}" data-field="dadoDefensa">
+        ${DADOS.map(d => `<option ${d === e.dadoDefensa ? 'selected' : ''}>${d}</option>`).join('')}
+      </select>
+      <span class="lbl" style="margin-left:auto">Inic. ${signed(iniMod(e))}</span>
+    </div>
+    <div class="row defensa-row">
+      <span class="lbl" title="atributo que se suma al daño">Daño +</span>
+      <select data-id="${e.id}" data-field="atributoDano">
+        ${Object.keys(e.abilities).map(k => `<option ${k === e.atributoDano ? 'selected' : ''}>${k}</option>`).join('')}
+      </select>
+      <span class="lbl" style="margin-left:auto">DA ${signed(mod(e.abilities[e.atributoDano]))} al daño</span>
+    </div>
+    <div class="row">
+      <span class="react ${reaccionLista(e) ? 'on' : 'off'}" title="golpe de oportunidad disponible">
+        ⚡ ${reaccionLista(e) ? 'reacción lista' : (e.reaccionUsada ? 'reacción usada' : 'sin acciones')}
+      </span>
+      <button class="retirada ${e.retirada ? 'on' : ''}" data-id="${e.id}" data-retirada="1"
+        ${isDown(e.id) || e.id !== activeTurnId() || (!e.retirada && e.actions.current < COSTO_RETIRADA) ? 'disabled' : ''}>
+        🛡 Retirada (${COSTO_RETIRADA})
+      </button>
+    </div>
+    ${attacksBlock(e)}
+  </div>`;
+}
+
+function rosterHtml() {
+  const fila = (key) => {
+    const t = PLANTILLAS[key];
+    const n = combatientes.filter(c => c.plantilla === key).length;
+    return `
+      <div class="roster-row">
+        <span class="dot" style="background:${t.colorCss}"></span>
+        <span class="roster-name">${t.nombre}</span>
+        <span class="lbl">${t.hpMax}hp · DD ${t.dadoDefensa} · DA ${t.attacks[0].dado}</span>
+        <button class="step" data-add="${key}" data-delta="-1" ${n ? '' : 'disabled'}>−</button>
+        <b class="roster-count">${n}</b>
+        <button class="step" data-add="${key}" data-delta="1">+</button>
+      </div>`;
+  };
+  return `
+    <div id="setup">
+      <h2>Preparar combate</h2>
+      <div class="roster">
+        <div class="roster-group">
+          <span class="lbl">Jugadores</span>
+          ${['marcial', 'mago'].map(fila).join('')}
+        </div>
+        <div class="roster-group">
+          <span class="lbl">Enemigos</span>
+          ${['arquero', 'guerrero', 'jefe'].map(fila).join('')}
+        </div>
+      </div>
+      <div id="ini-bar">
+        <button id="btn-roll" ${combatientes.length ? '' : 'disabled'}>Tirar iniciativa y empezar ▶</button>
+        <button id="btn-preset" class="secondary">Combate del documento</button>
+        <button id="btn-clear" class="secondary" ${combatientes.length ? '' : 'disabled'}>Vaciar</button>
+        <span class="lbl">${jugadores().length} jugador(es) · ${enemigos().length} enemigo(s) · arrastrá los tokens para ubicarlos</span>
+      </div>
+    </div>`;
+}
+
+function renderPanel() {
+  const panel = document.getElementById('panel');
+  const enCombate = fase === 'combate';
+
+  panel.innerHTML = `
+    ${enCombate ? `
+    <div>
+      <h2>Iniciativa</h2>
+      <div id="ini-bar">
+        <button id="btn-roll">Volver a tirar</button>
+        <button id="btn-next" class="secondary">Siguiente turno ▶</button>
+        <button id="btn-setup" class="secondary">⚙ Preparar de nuevo</button>
+        <span style="color:var(--muted);font-size:12px">Ronda <b style="color:var(--text)">${ronda}</b> · Turno de: <b style="color:var(--text)">${turnOrder[currentTurn].name}</b></span>
+      </div>
+      <div class="turn-track">
+        ${turnOrder.map((t, i) => `
+          <div class="turn-chip ${i === currentTurn ? 'active' : ''} ${isDown(t.id) ? 'down' : ''}">
+            <span class="dot" style="background:${t.colorCss}"></span>
+            <span>${t.name}</span><span class="roll">${t.total}</span>
+          </div>`).join('')}
+      </div>
+    </div>` : rosterHtml()}
+    <div>
+      <h2>Personajes ${jugadores().length ? '' : '<span class="lbl">(ninguno)</span>'}</h2>
+      <div class="cards">${jugadores().map(cardHtml).join('')}</div>
+    </div>
+    <div>
+      <h2>Enemigos ${enemigos().length ? '' : '<span class="lbl">(ninguno)</span>'}</h2>
+      <div class="cards">${enemigos().map(cardHtml).join('')}</div>
+    </div>`;
+
+  panel.querySelector('#btn-roll').addEventListener('click', () => { rollIniciativa(); renderAll(); });
+  panel.querySelector('#btn-next')?.addEventListener('click', () => { nextTurn(); renderAll(); });
+  panel.querySelector('#btn-setup')?.addEventListener('click', () => { volverAPreparar(); renderAll(); });
+
+  panel.querySelector('#btn-preset')?.addEventListener('click', () => {
+    combatientes = [];
+    ['marcial', 'mago', 'arquero', 'arquero', 'guerrero', 'guerrero', 'jefe'].forEach(agregar);
+    selectedId = null;
+    renderAll();
+  });
+
+  panel.querySelector('#btn-clear')?.addEventListener('click', () => {
+    combatientes = [];
+    selectedId = null;
+    renderAll();
+  });
+
+  panel.querySelectorAll('button[data-add]').forEach(btn => btn.addEventListener('click', () => {
+    const key = btn.dataset.add;
+    if (Number(btn.dataset.delta) > 0) agregar(key); else quitar(key);
+    renderAll();
+  }));
+
+  panel.querySelectorAll('button[data-quitar]').forEach(btn => btn.addEventListener('click', (ev) => {
+    ev.stopPropagation();
+    const index = combatientes.findIndex(c => c.id === btn.dataset.quitar);
+    if (index >= 0) combatientes.splice(index, 1);
+    if (selectedId === btn.dataset.quitar) selectedId = null;
+    renderAll();
+  }));
+
+  panel.querySelectorAll('button[data-dmg]').forEach(btn => btn.addEventListener('click', () => {
+    const e = getEntity(btn.dataset.id);
+    e.hp.current = Math.min(e.hp.max, Math.max(0, e.hp.current + Number(btn.dataset.dmg)));
+    renderAll();
+  }));
+
+  panel.querySelectorAll('button[data-retirada]').forEach(btn => btn.addEventListener('click', () => {
+    const e = getEntity(btn.dataset.id);
+    if (e.retirada) {
+      e.retirada = false;
+      e.actions.current += COSTO_RETIRADA;
+      addLog(`🛡 ${e.name} cancela la retirada`, `recupera ${COSTO_RETIRADA} acción`, 'detail');
+    } else {
+      e.retirada = true;
+      e.actions.current -= COSTO_RETIRADA;
+      addLog(`🛡 ${e.name} se retira`, 'no provoca golpes de oportunidad este turno', 'detail');
+    }
+    renderAll();
+  }));
+
+  panel.querySelectorAll('button[data-atk]').forEach(btn => btn.addEventListener('click', () => {
+    const id = btn.dataset.id, index = Number(btn.dataset.atk);
+    const armed = mode?.type === 'attack' && mode.entityId === id && mode.attackIndex === index;
+    mode = armed ? null : { type: 'attack', entityId: id, attackIndex: index };
+    selectedId = id;
+    renderAll();
+  }));
+
+  panel.querySelectorAll('[data-field]').forEach(input => input.addEventListener('change', () => {
+    const e = getEntity(input.dataset.id);
+    const field = input.dataset.field;
+    const num = Math.max(0, Math.round(Number(input.value) || 0));
+
+    if (field === 'hpMax') { e.hp.max = Math.max(1, num); e.hp.current = Math.min(e.hp.current, e.hp.max); }
+    if (field === 'actionsMax') { e.actions.max = num; e.actions.current = Math.min(e.actions.current, num); }
+    if (field === 'ability') e.abilities[input.dataset.key] = num;
+    if (field === 'dadoDefensa') e.dadoDefensa = input.value;
+    if (field === 'atributoDano') e.atributoDano = input.value;
+    if (field === 'atkDado') e.attacks[Number(input.dataset.atk)].dado = input.value;
+    if (field === 'atkAlcance') e.attacks[Number(input.dataset.atk)].alcance = Math.max(1, num);
+    if (field === 'atkCosto') e.attacks[Number(input.dataset.atk)].costo = Math.max(0, num);
+    renderAll();
+  }));
+
+  panel.querySelectorAll('[data-card]').forEach(card => card.addEventListener('click', (ev) => {
+    if (ev.target.closest('input, select, button')) return;
+    selectedId = card.dataset.card;
+    renderAll();
+  }));
+}
+
+// ============================ Tablero (PixiJS) ============================
+const app = new PIXI.Application();
+const tokenSprites = {};
+let pathLayer, rangeLayer, costText, tokensContainer;
+
+function makeToken(entity) {
+  const g = new PIXI.Graphics();
+  const r = CELL * 0.38;
+
+  const ring = new PIXI.Graphics();
+  ring.circle(0, 0, r + 5).stroke({ width: 3, color: 0xffd24d });
+  ring.visible = false;
+  g.addChild(ring);
+  g.turnRing = ring;
+
+  g.circle(0, 0, r).fill(entity.color).stroke({ width: 2, color: 0xffffff, alpha: 0.6 });
+
+  const text = new PIXI.Text({
+    text: entity.label,
+    style: { fontFamily: 'sans-serif', fontSize: 16, fill: 0xffffff, fontWeight: 'bold' },
+  });
+  text.anchor.set(0.5);
+  g.addChild(text);
+
+  g.eventMode = 'static';
+  g.cursor = 'pointer';
+  g.on('pointerdown', (ev) => onTokenClick(ev, entity.id));
+  return g;
+}
+
+function onTokenClick(ev, id) {
+  ev.stopPropagation();
+  const entity = getEntity(id);
+  if (!entity) return;
+
+  // Preparacion: el click solo selecciona; la casilla siguiente lo reubica
+  if (fase === 'preparacion') {
+    mode = mode?.type === 'colocar' && mode.entityId === id ? null : { type: 'colocar', entityId: id };
+    selectedId = id;
+    renderAll();
+    return;
+  }
+
+  // Modo ataque: el click sobre un token intenta resolver el ataque
+  if (mode?.type === 'attack') {
+    const attacker = getEntity(mode.entityId);
+    const atk = attacker.attacks[mode.attackIndex];
+    if (canTarget(attacker, entity, atk)) {
+      resolveAttack(attacker, entity, atk);
+      mode = null;
+    }
+    renderAll();
+    return;
+  }
+
+  if (isDown(id)) { selectedId = id; renderAll(); return; }
+  const moving = mode?.type === 'move' && mode.entityId === id;
+  mode = moving ? null : { type: 'move', entityId: id };
+  selectedId = id;
+  pathLayer.clear(); costText.visible = false;
+  renderAll();
+}
+
+// Crea los sprites que falten y destruye los de combatientes que ya no estan
+function syncTokens() {
+  if (!tokensContainer) return;
+  allEntities().forEach(e => {
+    if (!tokenSprites[e.id]) {
+      const sprite = makeToken(e);
+      tokensContainer.addChild(sprite);
+      tokenSprites[e.id] = sprite;
+    }
+  });
+  Object.keys(tokenSprites).forEach(id => {
+    if (!getEntity(id)) {
+      tokenSprites[id].destroy({ children: true });
+      delete tokenSprites[id];
+    }
+  });
+}
+
+function syncBoard() {
+  syncTokens();
+  const activeId = activeTurnId();
+  const colocando = mode?.type === 'colocar' ? mode.entityId : null;
+  allEntities().forEach(e => {
+    const sprite = tokenSprites[e.id];
+    if (!sprite) return;
+    sprite.x = e.col * CELL + CELL / 2;
+    sprite.y = e.row * CELL + CELL / 2;
+    sprite.alpha = isDown(e.id) ? 0.25 : (selectedId && e.id !== selectedId ? 0.6 : 1);
+    sprite.turnRing.visible = (e.id === activeId && !isDown(e.id)) || e.id === colocando;
+  });
+  drawRangeOverlay();
+}
+
+function drawRangeOverlay() {
+  if (!rangeLayer) return;
+  rangeLayer.clear();
+  if (mode?.type !== 'attack') return;
+  const e = getEntity(mode.entityId);
+  const atk = e.attacks[mode.attackIndex];
+  for (let c = 0; c < COLS; c++) {
+    for (let r = 0; r < ROWS; r++) {
+      if (rangeTo(e, { col: c, row: r }) <= atk.alcance) {
+        rangeLayer.rect(c * CELL, r * CELL, CELL, CELL).fill({ color: 0xffd24d, alpha: 0.08 });
+      }
+    }
+  }
+
+  // Estado de cobertura de cada objetivo posible: verde despejado, naranja media, rojo total
+  allEntities().forEach(t => {
+    if (t.id === e.id || isDown(t.id) || t.kind === e.kind) return;
+    if (rangeTo(e, t) > atk.alcance) return;
+    const cob = coberturaDe(e, t, atk);
+    const color = cob === 'total' ? 0xd94a4a : cob === 'media' ? 0xff8c1a : 0x4caf50;
+    rangeLayer.circle(t.col * CELL + CELL / 2, t.row * CELL + CELL / 2, CELL * 0.46)
+      .stroke({ width: 3, color, alpha: cob === 'total' ? 0.9 : 1 });
+  });
+}
+
+(async () => {
+  await app.init({ width: COLS * CELL, height: ROWS * CELL, backgroundColor: 0x1a1a1a, antialias: true });
+  document.getElementById('app').appendChild(app.canvas);
+
+  const obstacleLayer = new PIXI.Graphics();
+  for (const o of OBSTACLES) {
+    obstacleLayer.rect(o.col * CELL, o.row * CELL, CELL, CELL).fill(o.color);
+    // Lo solido (tapa la vision por completo) se marca con un borde claro
+    if (o.vision === 'solida') {
+      obstacleLayer.rect(o.col * CELL + 1, o.row * CELL + 1, CELL - 2, CELL - 2)
+        .stroke({ width: 2, color: 0xb9bec4 });
+    }
+  }
+  app.stage.addChild(obstacleLayer);
+
+  rangeLayer = new PIXI.Graphics();
+  app.stage.addChild(rangeLayer);
+
+  const grid = new PIXI.Graphics();
+  for (let x = 0; x <= COLS; x++) grid.moveTo(x * CELL, 0).lineTo(x * CELL, ROWS * CELL);
+  for (let y = 0; y <= ROWS; y++) grid.moveTo(0, y * CELL).lineTo(COLS * CELL, y * CELL);
+  grid.stroke({ width: 1, color: 0x3a3f46 });
+  app.stage.addChild(grid);
+
+  tokensContainer = new PIXI.Container();
+  app.stage.addChild(tokensContainer);
+
+  pathLayer = new PIXI.Graphics();
+  app.stage.addChild(pathLayer);
+
+  costText = new PIXI.Text({
+    text: '', style: { fontFamily: 'sans-serif', fontSize: 14, fill: 0xffffff, fontWeight: 'bold', stroke: { color: 0x000000, width: 4 } },
+  });
+  costText.visible = false;
+  app.stage.addChild(costText);
+
+  app.stage.eventMode = 'static';
+  app.stage.hitArea = app.screen;
+
+  app.stage.on('pointermove', (ev) => {
+    if (mode?.type !== 'move') return;
+    const col = Math.floor(ev.global.x / CELL), row = Math.floor(ev.global.y / CELL);
+    pathLayer.clear();
+    costText.visible = false;
+    if (col < 0 || row < 0 || col >= COLS || row >= ROWS) return;
+
+    const entity = getEntity(mode.entityId);
+    const result = evaluateMove(entity, col, row);
+    const cx = col * CELL + CELL / 2, cy = row * CELL + CELL / 2;
+
+    if (result.distance === 0) {
+      if (!result.blocked) return;
+      pathLayer.circle(cx, cy, CELL * 0.42).stroke({ width: 2, color: 0xd94a4a });
+      costText.text = 'Sin camino';
+      costText.style.fill = 0xd94a4a;
+    } else {
+      const color = result.valid ? 0x4caf50 : 0xd94a4a;
+      result.cells.forEach(c => pathLayer.rect(c.col * CELL + 3, c.row * CELL + 3, CELL - 6, CELL - 6).fill({ color, alpha: 0.35 }));
+      pathLayer.circle(cx, cy, CELL * 0.42).stroke({ width: 2, color });
+
+      // Aviso: quienes engancharian un golpe de oportunidad con este camino
+      const triggers = result.valid ? provocaciones(entity, result.cells) : [];
+      triggers.forEach(t => {
+        const r = getEntity(t.id);
+        pathLayer.circle(r.col * CELL + CELL / 2, r.row * CELL + CELL / 2, CELL * 0.46).stroke({ width: 3, color: 0xff8c1a });
+      });
+
+      costText.text = `${result.distance} casillas · ${result.cost}/${entity.actions.current} acc.` +
+        (triggers.length ? `  ⚡${triggers.length}` : '');
+      costText.style.fill = triggers.length ? 0xff8c1a : color;
+    }
+    costText.x = Math.min(COLS * CELL - costText.width, Math.max(0, cx - costText.width / 2));
+    costText.y = Math.max(0, row * CELL - 18);
+    costText.visible = true;
+  });
+
+  app.stage.on('pointerdown', (ev) => {
+    const c = Math.floor(ev.global.x / CELL), r = Math.floor(ev.global.y / CELL);
+
+    // Preparacion: reubicacion libre, sin costo ni trayectoria
+    if (mode?.type === 'colocar') {
+      const entity = getEntity(mode.entityId);
+      if (!cellBlocked(c, r, entity.id)) { entity.col = c; entity.row = r; }
+      renderAll();
+      return;
+    }
+    if (fase === 'preparacion') return;
+
+    if (mode?.type === 'attack') { mode = null; renderAll(); return; }
+    if (mode?.type !== 'move') return;
+
+    const entity = getEntity(mode.entityId);
+    const col = Math.floor(ev.global.x / CELL), row = Math.floor(ev.global.y / CELL);
+    const result = evaluateMove(entity, col, row);
+    if (!result.valid) return;
+
+    const triggers = provocaciones(entity, result.cells);
+    entity.col = col;
+    entity.row = row;
+    entity.actions.current -= result.cost;
+    addLog(`→ ${entity.name} se mueve`, `${result.distance} casillas · ${result.cost} acc. · quedan ${entity.actions.current}`, 'detail');
+
+    const caidaEn = resolverProvocaciones(entity, result.cells, triggers);
+    if (caidaEn) { entity.col = caidaEn.col; entity.row = caidaEn.row; }
+
+    pathLayer.clear(); costText.visible = false;
+    if (entity.actions.current <= 0 || isDown(entity.id)) mode = null;
+    renderAll();
+  });
+
+  window.addEventListener('keydown', (ev) => {
+    if (ev.key === 'Escape') { mode = null; pathLayer.clear(); costText.visible = false; renderAll(); }
+  });
+
+  // Arranca con el combate de la planificacion ya armado, en modo preparacion
+  ['marcial', 'mago', 'arquero', 'arquero', 'guerrero', 'guerrero', 'jefe'].forEach(agregar);
+  addLog('⚙ Modo preparación', 'elegí los combatientes y ubicalos en el tablero', 'detail');
+  renderAll();
+})();
+</script>
+</body>
+</html>
